@@ -1,0 +1,92 @@
+{
+  "version": "0.12.0",
+  "status": "PASS",
+  "unit_tests": 44,
+  "technical_sections": 4,
+  "algorithms": 30,
+  "algorithm_sample_pairs": 325,
+  "selection": "One, several, or every algorithm in the current section; each algorithm retains its own sample",
+  "batch": "One managed worker and one visible native terminal; per-task results and cancellation preserve completed tasks",
+  "interface": {
+    "status": "PASS",
+    "chapters": 4,
+    "algorithms": 30,
+    "initial_views": 325,
+    "actual_result_views": 325,
+    "source_panels": 47,
+    "single_multi_all_selection": true,
+    "per_algorithm_samples_preserved": true,
+    "result_isolation": true,
+    "prior_data_and_fitting_labels": true,
+    "microstructure_context": true,
+    "deleted_evolution": true,
+    "prominent_launcher_warning": true,
+    "healthy_warning_hidden": true,
+    "browser_visual_review": "NOT_PERFORMED: actual JavaScript in Node VM"
+  },
+  "all_sections": {
+    "status": "PASS",
+    "sections": [
+      {
+        "section": "measurement",
+        "tasks": 14,
+        "status": "PASS"
+      },
+      {
+        "section": "intensity",
+        "tasks": 4,
+        "status": "PASS"
+      },
+      {
+        "section": "periods",
+        "tasks": 10,
+        "status": "PASS",
+        "job": "20261104_092846_a44a6481"
+      },
+      {
+        "section": "discussion",
+        "tasks": 2,
+        "status": "PASS",
+        "job": "20261104_092853_b7f9126f"
+      }
+    ],
+    "algorithms_tested": 30
+  },
+  "native_console": {
+    "status": "PASS",
+    "native_terminal": true,
+    "checks": [
+      {
+        "tasks": [
+          {
+            "algorithm": "texture.spectrum",
+            "sample": "micro196_right"
+          },
+          {
+            "algorithm": "texture.profile",
+            "sample": "micro164_left"
+          },
+          {
+            "algorithm": "period.horizontal",
+            "sample": "cycle01/010"
+          }
+        ],
+        "status": "PASS",
+        "job": "20261104_092641_298c3da6",
+        "log_bytes": 171598
+      }
+    ],
+    "one_worker_and_console_per_batch": true,
+    "no_manual_continue": true,
+    "inputs_frozen_per_task": true,
+    "browser_visual_review": "NOT_PERFORMED"
+  },
+  "input_labels": "Existing measurements/calibration are identified before calculation; new fitted curves and parameters appear only after a run",
+  "microscopy": "Native ROI previews; quadratic response explicitly illustrative; frequency combinations show both input vectors",
+  "removed_section": "Image evolution removed from current interface and task registries; historical material retained",
+  "launcher_warning": "Prominent red alert when not launched; hidden after successful local connection",
+  "README": "Owner file unchanged",
+  "paper": "PDF only; unchanged and replaceable",
+  "platform": "macOS Apple Silicon tested; Windows and Intel Mac native tests not performed",
+  "browser_visual_review": "NOT_PERFORMED; actual JavaScript and real computation verified"
+}

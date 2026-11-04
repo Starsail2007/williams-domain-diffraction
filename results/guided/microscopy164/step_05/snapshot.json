@@ -1,0 +1,41 @@
+{
+  "step": "texture.family",
+  "sequence": 5,
+  "pass_index": 1,
+  "images": [
+    "results/guided/microscopy164/step_05/family.png"
+  ],
+  "metrics": [
+    [
+      "质量检查",
+      "RESOLVED_CANDIDATES"
+    ],
+    [
+      "频率族有歧义",
+      false
+    ]
+  ],
+  "table": {
+    "headers": [
+      "谐波倍数",
+      "谱峰编号",
+      "周期 / µm"
+    ],
+    "rows": [
+      [
+        1,
+        2,
+        19.735415720471373
+      ],
+      [
+        2,
+        4,
+        9.682039788658544
+      ]
+    ]
+  },
+  "evidence": [],
+  "links": [],
+  "elapsed_s": 2.005,
+  "status": "computed"
+}

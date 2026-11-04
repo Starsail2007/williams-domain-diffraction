@@ -1,0 +1,16 @@
+{
+  "id": "micro559_center",
+  "title": "降压折叠与方向弥散：二维基底缺少支持",
+  "status": "COMPUTED",
+  "quality_status": "RESOLVED_CANDIDATES",
+  "strongest_period_um": 12.338518146352282,
+  "family_period_um": 12.338518146352282,
+  "family_rank": 1,
+  "lower_support_period_um": 12.338518146352282,
+  "family_ambiguous": false,
+  "pair_coverage": null,
+  "pair_angle_deg": null,
+  "jointly_supported_tiles": null,
+  "spatial_pair_applicable": false,
+  "spatial_pair_supported": null
+}

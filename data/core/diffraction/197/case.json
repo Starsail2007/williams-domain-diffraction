@@ -1,0 +1,166 @@
+{
+  "frame_id": "197",
+  "title": "降压规则宽峰列；二维模型不成立但row模型可支撑局部预测；右边界没有足够独立支持，保留3条条件边不能说全部四边已标定。",
+  "role": "descending_row_with_conditional_screen_edge",
+  "batch_id": "scan_2026-10-14",
+  "cycle": "cycle02",
+  "direction": "down",
+  "voltage_RMS_V": 3.81,
+  "input_arrays": "linear_cfa.npz",
+  "raw_display": "raw_display.png",
+  "raw_shape": [
+    4688,
+    7028
+  ],
+  "red_shape": [
+    2344,
+    3514
+  ],
+  "screen_size_mm": [
+    120.0,
+    120.0
+  ],
+  "corners_prior_display": [
+    [
+      470,
+      137
+    ],
+    [
+      1164,
+      139
+    ],
+    [
+      1110,
+      777
+    ],
+    [
+      472,
+      786
+    ]
+  ],
+  "corner_overrides_display": {},
+  "edge_half_widths_display": [
+    30,
+    15,
+    8,
+    15
+  ],
+  "edge_method": "multipeak",
+  "physical_visibility_review": {
+    "raw_display_sha256": "5f1b1b24bfdcb4540ae5a414cba5e8da2d1926a95fd79344dc041f107895589c",
+    "edges": [
+      {
+        "side": 0,
+        "side_name": "top",
+        "physical_edge_identity_visible": true,
+        "endpoint_visibility": {
+          "TL": true,
+          "TR": true
+        },
+        "endpoint_visibility_reasons_zh": {
+          "TL": "原图可见物理板的交角/顶边端点；仅支持数显示像素尺度的视觉定位。",
+          "TR": "原图可见物理板的交角/顶边端点；仅支持数显示像素尺度的视觉定位。"
+        },
+        "coordinate_repair_required": false,
+        "reason_codes": [],
+        "reasons_zh": [
+          "明亮上沿可与板面及背景区分；亮边有有限宽度，视觉通过不等于亚像素角点标定。"
+        ]
+      },
+      {
+        "side": 1,
+        "side_name": "right",
+        "physical_edge_identity_visible": true,
+        "endpoint_visibility": {
+          "TR": true,
+          "BR": true
+        },
+        "endpoint_visibility_reasons_zh": {
+          "TR": "原图可见物理板的交角/顶边端点；仅支持数显示像素尺度的视觉定位。",
+          "BR": "原图可见物理板的交角/顶边端点；仅支持数显示像素尺度的视觉定位。"
+        },
+        "coordinate_repair_required": false,
+        "reason_codes": [
+          "ORIGINAL_GRADIENT_VALIDATION_INSUFFICIENT"
+        ],
+        "reasons_zh": [
+          "板右侧可见段与外部背景的边界已检查；暗背景区或边带模糊不作为额外角点证据。",
+          "v8保留条件几何：梯度诊断状态为REVIEWED_PRIOR_INSUFFICIENT_EDGE_SUPPORT；该统计不足本身不靠目视或同一梯度残差升级为精度认证。",
+          "原端点条带诊断：[{\"sampled\":8,\"accepted\":8,\"inlier_fraction\":1.0,\"p95_display_px\":1.830005176074832},{\"sampled\":8,\"accepted\":8,\"inlier_fraction\":1.0,\"p95_display_px\":0.9453302696982814}]",
+          "两物理端点可肉眼粗定位，但弱/多峰边带使原自动诊断未通过；保留条件性，不据目视强制转为自动支持。"
+        ]
+      },
+      {
+        "side": 2,
+        "side_name": "bottom",
+        "physical_edge_identity_visible": true,
+        "endpoint_visibility": {
+          "BR": true,
+          "BL": "uncertain"
+        },
+        "endpoint_visibility_reasons_zh": {
+          "BR": "原图可见物理板的交角/顶边端点；仅支持数显示像素尺度的视觉定位。",
+          "BL": "左下候选角处黑板与深色衣服/手暗部融合；可看见的左边或右端底边不足以独立确定左下物理端点。"
+        },
+        "coordinate_repair_required": false,
+        "reason_codes": [
+          "CENTRAL_BOTTOM_OCCLUSION",
+          "PHYSICAL_BL_NOT_INDEPENDENTLY_VISIBLE",
+          "ORIGINAL_GRADIENT_VALIDATION_INSUFFICIENT"
+        ],
+        "reasons_zh": [
+          "手及其阴影覆盖中段底边；仅允许用真正可见的外侧板边段判断，不能以手轮廓充当板边。",
+          "BL：左下候选角处黑板与深色衣服/手暗部融合；可看见的左边或右端底边不足以独立确定左下物理端点。",
+          "v8保留条件几何：梯度诊断状态为REVIEWED_PRIOR_INSUFFICIENT_EDGE_SUPPORT；该统计不足本身不靠目视或同一梯度残差升级为精度认证。",
+          "原端点条带诊断：[{\"sampled\":8,\"accepted\":8,\"inlier_fraction\":1.0,\"p95_display_px\":0.47192669753120214},{\"sampled\":8,\"accepted\":8,\"inlier_fraction\":1.0,\"p95_display_px\":2.1597057831274182}]"
+        ]
+      },
+      {
+        "side": 3,
+        "side_name": "left",
+        "physical_edge_identity_visible": true,
+        "endpoint_visibility": {
+          "BL": "uncertain",
+          "TL": true
+        },
+        "endpoint_visibility_reasons_zh": {
+          "BL": "左下候选角处黑板与深色衣服/手暗部融合；可看见的左边或右端底边不足以独立确定左下物理端点。",
+          "TL": "原图可见物理板的交角/顶边端点；仅支持数显示像素尺度的视觉定位。"
+        },
+        "coordinate_repair_required": false,
+        "reason_codes": [
+          "PHYSICAL_BL_NOT_INDEPENDENTLY_VISIBLE",
+          "ORIGINAL_GRADIENT_VALIDATION_INSUFFICIENT"
+        ],
+        "reasons_zh": [
+          "板左侧上部可见边段已检查；下端遇深色衣服或手时不据直线外推认证角点。",
+          "BL：左下候选角处黑板与深色衣服/手暗部融合；可看见的左边或右端底边不足以独立确定左下物理端点。",
+          "v8保留条件几何：梯度诊断状态为REVIEWED_PRIOR_INSUFFICIENT_EDGE_SUPPORT；该统计不足本身不靠目视或同一梯度残差升级为精度认证。",
+          "原端点条带诊断：[{\"sampled\":8,\"accepted\":6,\"inlier_fraction\":0.75,\"p95_display_px\":1.9216937690862341},{\"sampled\":8,\"accepted\":8,\"inlier_fraction\":1.0,\"p95_display_px\":0.8340785334136686}]"
+        ]
+      }
+    ],
+    "accepted_visible_corner_constraints": {}
+  },
+  "reviewed_non_optical_exclusions": [],
+  "source_raw": {
+    "path": "data/raw/scan_2026-10-14/DSC00276.ARW",
+    "sha256": "0aa8a700b3da0c8ae2acd7c3a74aaaba374c1fc50cdf27b8bb8992b0884e6537",
+    "bytes": 68620288,
+    "black_level": [
+      512,
+      512,
+      512,
+      512
+    ],
+    "white_level": 16383,
+    "camera_white_level": [
+      15360,
+      15360,
+      15360,
+      15360
+    ]
+  },
+  "array_definition": "Exact detector inputs from native Bayer samples: black-subtracted R, aligned G1/G2 mean, native near-white mask. Float32/bool stored losslessly; no display tone map or resize.",
+  "references": "reference/197.json"
+}

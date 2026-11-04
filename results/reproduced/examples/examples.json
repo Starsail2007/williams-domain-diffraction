@@ -1,0 +1,39 @@
+{
+  "identity": "Synthetic array tests; real microscopy crops are separately identified",
+  "checks": {
+    "perspective": {
+      "max_corner_error_mm": 5.684341886080802e-14,
+      "independent_interior_roundtrip": true,
+      "degenerate_rejected": true
+    },
+    "screen_prior": {
+      "uncertain_endpoint_status": "CONDITIONAL_PHYSICAL_ENDPOINT_GEOMETRY",
+      "independent_metric_validation": false
+    },
+    "detector": {
+      "candidate_count": 2,
+      "weak_peak_amplitude_DN": 8,
+      "both_truth_positions_recovered": true,
+      "flat_candidates": 0,
+      "physical_orders_unconfirmed": true
+    },
+    "cfa": {
+      "finite_circle_analytic_relative_error_r125": 8.155260214137705e-06,
+      "green_is_mean_of_two_planes": true,
+      "negative_green_integral": -56539.917647494905,
+      "screen_edge_coverage": 0.700189444093622,
+      "reflection_overlap_r125": true,
+      "reflection_overlap_r50": false,
+      "reflection_flux_subtracted": false
+    },
+    "microscopy": {
+      "synthetic_period_um": 11.999999991342866,
+      "truth_period_um": 12.0,
+      "blank_rejected": true,
+      "real_crops": 2,
+      "real_peak_identity": "Candidates retain harmonics; not a certified director fundamental"
+    }
+  },
+  "status": "PASS",
+  "elapsed_s": 28.01103058300214
+}

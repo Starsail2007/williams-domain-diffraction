@@ -1,0 +1,1459 @@
+[
+  {
+    "source": "src/williams_diffraction/__init__.py",
+    "destination": "src/williams_diffraction/__init__.py",
+    "source_sha256": "e6edd32f628b954b4905fb1c00b5e1c65e9de40cd117be7ef3af9d2e18318f18",
+    "export_sha256": "50da6a7a16343bb3f359b4721f4cb4e1080f3687e77a1d110210ea4a4209a2ee",
+    "bytes": 112,
+    "transformation": "Selection, batch control and concise data-role presentation; original source identity retained",
+    "prior_export_sha256": "aee5718659755e922d79243c634d2d93b6213b69a65cac7d43dff9b4bdf48bf7"
+  },
+  {
+    "source": "src/williams_diffraction/candidate_evidence.py",
+    "destination": "src/williams_diffraction/candidate_evidence.py",
+    "source_sha256": "ffb3d6f467eeaa0a4ee012c7e2d6b899ab90acd9fd8637e3a832f9bbdf7cbd52",
+    "export_sha256": "ffb3d6f467eeaa0a4ee012c7e2d6b899ab90acd9fd8637e3a832f9bbdf7cbd52",
+    "bytes": 16085,
+    "transformation": "byte_copy"
+  },
+  {
+    "source": "src/williams_diffraction/common.py",
+    "destination": "src/williams_diffraction/common.py",
+    "source_sha256": "577f00591b97fd2ec7812061f8b222b347b6082c200832626eb26f0c179afe02",
+    "export_sha256": "577f00591b97fd2ec7812061f8b222b347b6082c200832626eb26f0c179afe02",
+    "bytes": 1215,
+    "transformation": "byte_copy"
+  },
+  {
+    "source": "src/williams_diffraction/diffraction_models.py",
+    "destination": "src/williams_diffraction/diffraction_models.py",
+    "source_sha256": "87f799e0c8bd14e004238e1601590cb2a05a2e3ed38a490f5dbac1b4d7a8190b",
+    "export_sha256": "12fcdaf31df27e876f31deaf3ecd3343a37fe1b2e2df6d015bdf88183371560b",
+    "bytes": 9338,
+    "transformation": "Run-first interface and observational console logging; original input identity retained",
+    "prior_export_sha256": "87f799e0c8bd14e004238e1601590cb2a05a2e3ed38a490f5dbac1b4d7a8190b"
+  },
+  {
+    "source": "src/williams_diffraction/evidence_detection.py",
+    "destination": "src/williams_diffraction/evidence_detection.py",
+    "source_sha256": "f39d34e2053b52746d22ccb93e1bfc8b0bd52fd3607afc60ad8903142318515c",
+    "export_sha256": "b4fad29d6d7d86507f1f02301157198062770a2cc46224f98b85ca55f3605f29",
+    "bytes": 41099,
+    "transformation": "Run-first interface and observational console logging; original input identity retained",
+    "prior_export_sha256": "f39d34e2053b52746d22ccb93e1bfc8b0bd52fd3607afc60ad8903142318515c"
+  },
+  {
+    "source": "src/williams_diffraction/geometry.py",
+    "destination": "src/williams_diffraction/geometry.py",
+    "source_sha256": "728a320077663c65dc0cb5042477235546ae9f3976d9656d2f0b85040ae39039",
+    "export_sha256": "3244508e782bd945a4a17776853113ca0446380e953c5c302d11d477c60f9c7f",
+    "bytes": 13989,
+    "transformation": "defer RAW-only imports into their original IO functions; all non-import AST unchanged"
+  },
+  {
+    "source": "src/williams_diffraction/green_channel_study.py",
+    "destination": "src/williams_diffraction/green_channel_study.py",
+    "source_sha256": "4a9a60e8019b501db5e11788e1e16540db5fa07bd900b69e6383df360c6b05f1",
+    "export_sha256": "4808284d69c09aba169aee36baa6372c78efe34af93109b08680fb110b7cc62d",
+    "bytes": 27684,
+    "transformation": "defer RAW-only imports into their original IO functions; all non-import AST unchanged"
+  },
+  {
+    "source": "src/williams_diffraction/green_expanded.py",
+    "destination": "src/williams_diffraction/green_expanded.py",
+    "source_sha256": "7e5e95425bfcf4a4ca3a200fcd66cb1b645f4fe0d102b556cff74c493cf4dc9f",
+    "export_sha256": "1cb068cac0f1830d94598fcfdc401d46463ebe739d55fc64153e0f9e0fb7cf0c",
+    "bytes": 19014,
+    "transformation": "defer RAW-only imports into their original IO functions; all non-import AST unchanged"
+  },
+  {
+    "source": "src/williams_diffraction/green_photometry_trial.py",
+    "destination": "src/williams_diffraction/green_photometry_trial.py",
+    "source_sha256": "e7bb971bc3600aace90c56d6a883fc5cd5a958cde7f154e0b1ae746a0f42e006",
+    "export_sha256": "5ef1837833ad608ec6467fc6c5ce57a989acd91a8b384baf13258255696f45a9",
+    "bytes": 30223,
+    "transformation": "defer RAW-only imports into their original IO functions; all non-import AST unchanged"
+  },
+  {
+    "source": "src/williams_diffraction/guided_detection.py",
+    "destination": "src/williams_diffraction/guided_detection.py",
+    "source_sha256": "9eab65cabcc235544aa2cff717313e07d5bc66a65a1e8a77d4826a4d812b9c0e",
+    "export_sha256": "7e6223b378298cab0576e435ba0af54c08b53b2c8138b1f6714c360a352195cb",
+    "bytes": 26102,
+    "transformation": "defer RAW-only imports into their original IO functions; all non-import AST unchanged"
+  },
+  {
+    "source": "src/williams_diffraction/inventory.py",
+    "destination": "src/williams_diffraction/inventory.py",
+    "source_sha256": "64621555398e58d2583972b18d52f69753e24b17e967a2c209edf9425c60a133",
+    "export_sha256": "ad625c34f2930184e56bf535204da2cf4a621dab177917fe84a06fc514f2943b",
+    "bytes": 9365,
+    "transformation": "defer RAW-only imports into their original IO functions; all non-import AST unchanged"
+  },
+  {
+    "source": "src/williams_diffraction/microscopy.py",
+    "destination": "src/williams_diffraction/microscopy.py",
+    "source_sha256": "0cced91aca32df9b3f8b183c35eeff3648fb92ea715e8136be2dd3b07d03970f",
+    "export_sha256": "67899da35a561dd0a2c44f20cb124bd3843d056ffb3286f7fe79569ccf4f482d",
+    "bytes": 10408,
+    "transformation": "Public presentation adaptation; upstream source hash retained",
+    "prior_export_sha256": "0cced91aca32df9b3f8b183c35eeff3648fb92ea715e8136be2dd3b07d03970f"
+  },
+  {
+    "source": "src/williams_diffraction/paths.py",
+    "destination": "src/williams_diffraction/paths.py",
+    "source_sha256": "2a04a1a5df60ed4e7536d4b44fd91371f3d1944679c851ee03b68847a6dfaffb",
+    "export_sha256": "2a04a1a5df60ed4e7536d4b44fd91371f3d1944679c851ee03b68847a6dfaffb",
+    "bytes": 1562,
+    "transformation": "byte_copy"
+  },
+  {
+    "source": "src/williams_diffraction/raw_check.py",
+    "destination": "src/williams_diffraction/raw_check.py",
+    "source_sha256": "4ca8d27c1d7e226279398a6e5e74f8fffa62d065153d9873e31b53baa85328c6",
+    "export_sha256": "b648aef53c8cea75cbf1d971a184261de8c702241ea91d1fe4fd11ba320979d5",
+    "bytes": 4317,
+    "transformation": "defer RAW-only imports into their original IO functions; all non-import AST unchanged"
+  },
+  {
+    "source": "src/williams_diffraction/raw_photometry.py",
+    "destination": "src/williams_diffraction/raw_photometry.py",
+    "source_sha256": "d713dc946dbf97ba7318655d25f799aa4d7104b4b710ba0ee21ef38bb0d366e4",
+    "export_sha256": "c6a4a93e257d577f2f8f81385763a8e85a814dcdef5bad74cb7f7e1315b53749",
+    "bytes": 10755,
+    "transformation": "Run-first interface and observational console logging; original input identity retained",
+    "prior_export_sha256": "d713dc946dbf97ba7318655d25f799aa4d7104b4b710ba0ee21ef38bb0d366e4"
+  },
+  {
+    "source": "src/williams_diffraction/screen_audit.py",
+    "destination": "src/williams_diffraction/screen_audit.py",
+    "source_sha256": "2d420b0ea4415ac3ae40285ae032b0b946e0215ec6214180b88129177b602c47",
+    "export_sha256": "2d420b0ea4415ac3ae40285ae032b0b946e0215ec6214180b88129177b602c47",
+    "bytes": 14423,
+    "transformation": "byte_copy"
+  },
+  {
+    "source": "src/williams_diffraction/screen_validation_trial.py",
+    "destination": "src/williams_diffraction/screen_validation_trial.py",
+    "source_sha256": "2a5cb63c94b5df0adfcb646d70e77f3a96ac8530b3b10f74bca5af0b3527f06d",
+    "export_sha256": "2a5cb63c94b5df0adfcb646d70e77f3a96ac8530b3b10f74bca5af0b3527f06d",
+    "bytes": 10208,
+    "transformation": "byte_copy"
+  },
+  {
+    "source": "src/williams_diffraction/voltage_spectrum.py",
+    "destination": "src/williams_diffraction/voltage_spectrum.py",
+    "source_sha256": "a530aedcd67056faffbb3688ac6b314e44d9c761fbde9641be3efbb810d041d7",
+    "export_sha256": "a530aedcd67056faffbb3688ac6b314e44d9c761fbde9641be3efbb810d041d7",
+    "bytes": 3382,
+    "transformation": "byte_copy"
+  },
+  {
+    "source": "src/williams_diffraction/weak_tail_trial.py",
+    "destination": "src/williams_diffraction/weak_tail_trial.py",
+    "source_sha256": "ff7a8765363bb54c895ea36a0575d7728afe0a8b41900eeeddb8c8ee7a4e8adc",
+    "export_sha256": "efd54eb7b1f23a4b37220b78e2b96254b3bcd1a7cf86b97899ac88095b155827",
+    "bytes": 25604,
+    "transformation": "defer RAW-only imports into their original IO functions; all non-import AST unchanged"
+  },
+  {
+    "source": "results/analysis/scan_2026-10-14_audit_v2/analysis_frame_records.csv",
+    "destination": "data/runs/scan_2026-10-14_audit_v2/analysis_frame_records.csv",
+    "source_sha256": "9cb5fc21bcf27730a2e452cfe8810d07b89f18b3b18fa4ba0b1ba83b596b6880",
+    "export_sha256": "4faa4a50f0e843d90bf9e4ce523f2bace87efa47be23243bffc8e3cf2f444b06",
+    "bytes": 102732,
+    "transformation": "Public presentation adaptation; upstream source hash retained",
+    "prior_export_sha256": "9cb5fc21bcf27730a2e452cfe8810d07b89f18b3b18fa4ba0b1ba83b596b6880"
+  },
+  {
+    "source": "results/analysis/scan_2026-10-14_audit_v2/conditional_grid_nodes.csv",
+    "destination": "data/runs/scan_2026-10-14_audit_v2/conditional_grid_nodes.csv",
+    "source_sha256": "913922d2ae0cbcf1dbcb63500f04ef5d7b06f970b2d5bdc98b0026220358ae90",
+    "export_sha256": "913922d2ae0cbcf1dbcb63500f04ef5d7b06f970b2d5bdc98b0026220358ae90",
+    "bytes": 4883529,
+    "transformation": "byte_copy"
+  },
+  {
+    "source": "results/analysis/scan_2026-10-14_audit_v2/cross_cycle_predictions.csv",
+    "destination": "data/runs/scan_2026-10-14_audit_v2/cross_cycle_predictions.csv",
+    "source_sha256": "c8931b8468c8591923d693206596c90e5541f388b0dbd04cf502adc30c15d6d7",
+    "export_sha256": "c8931b8468c8591923d693206596c90e5541f388b0dbd04cf502adc30c15d6d7",
+    "bytes": 7078,
+    "transformation": "byte_copy"
+  },
+  {
+    "source": "results/analysis/scan_2026-10-14_audit_v2/frame_audit.csv",
+    "destination": "data/runs/scan_2026-10-14_audit_v2/frame_audit.csv",
+    "source_sha256": "69ddbe45853a22df38f285cd64b31469284d040599e2520c2e6ea49dd67ef359",
+    "export_sha256": "69ddbe45853a22df38f285cd64b31469284d040599e2520c2e6ea49dd67ef359",
+    "bytes": 331122,
+    "transformation": "byte_copy"
+  },
+  {
+    "source": "results/analysis/scan_2026-10-14_audit_v2/geometry_models.csv",
+    "destination": "data/runs/scan_2026-10-14_audit_v2/geometry_models.csv",
+    "source_sha256": "58ac22daf64c694e10925c5e4c7abef1e3b12b47c1cb9c76f670ecf2371303d0",
+    "export_sha256": "58ac22daf64c694e10925c5e4c7abef1e3b12b47c1cb9c76f670ecf2371303d0",
+    "bytes": 23143,
+    "transformation": "byte_copy"
+  },
+  {
+    "source": "results/analysis/scan_2026-10-14_audit_v2/geometry_predictions.csv",
+    "destination": "data/runs/scan_2026-10-14_audit_v2/geometry_predictions.csv",
+    "source_sha256": "4fb3f5baf2915056b00a3a50ad3a9e8e276ee151e4ebd92f1dd826ac93476b48",
+    "export_sha256": "4fb3f5baf2915056b00a3a50ad3a9e8e276ee151e4ebd92f1dd826ac93476b48",
+    "bytes": 154316,
+    "transformation": "byte_copy"
+  },
+  {
+    "source": "results/analysis/scan_2026-10-14_audit_v2/horizontal_pairs.csv",
+    "destination": "data/runs/scan_2026-10-14_audit_v2/horizontal_pairs.csv",
+    "source_sha256": "bd9f7234cd5439ad7b89c4459a38c6c41ba4d6e730e6c50c359f7af39ee72c75",
+    "export_sha256": "bd9f7234cd5439ad7b89c4459a38c6c41ba4d6e730e6c50c359f7af39ee72c75",
+    "bytes": 202089,
+    "transformation": "byte_copy"
+  },
+  {
+    "source": "results/analysis/scan_2026-10-14_audit_v2/legacy_horizontal_geometry.csv",
+    "destination": "data/runs/scan_2026-10-14_audit_v2/legacy_horizontal_geometry.csv",
+    "source_sha256": "48e5021d7c0e289500d36bfe22b53c7f4ab75c12d91b9358bf9004ff48a38b16",
+    "export_sha256": "48e5021d7c0e289500d36bfe22b53c7f4ab75c12d91b9358bf9004ff48a38b16",
+    "bytes": 14011,
+    "transformation": "byte_copy"
+  },
+  {
+    "source": "results/analysis/scan_2026-10-14_audit_v2/legacy_model_transfer.csv",
+    "destination": "data/runs/scan_2026-10-14_audit_v2/legacy_model_transfer.csv",
+    "source_sha256": "60b5481aa3665f03200a794c9039c683795cf6502e6b3d34764d9213519e6840",
+    "export_sha256": "60b5481aa3665f03200a794c9039c683795cf6502e6b3d34764d9213519e6840",
+    "bytes": 1284,
+    "transformation": "byte_copy"
+  },
+  {
+    "source": "results/analysis/scan_2026-10-14_audit_v2/one_d_coverage.csv",
+    "destination": "data/runs/scan_2026-10-14_audit_v2/one_d_coverage.csv",
+    "source_sha256": "2f1f44cf5d571b2a383c8b26cf33dc8535a028a266687310cc3d8b94e35e637f",
+    "export_sha256": "2f1f44cf5d571b2a383c8b26cf33dc8535a028a266687310cc3d8b94e35e637f",
+    "bytes": 2355,
+    "transformation": "byte_copy"
+  },
+  {
+    "source": "results/analysis/scan_2026-10-14_audit_v2/one_d_models.csv",
+    "destination": "data/runs/scan_2026-10-14_audit_v2/one_d_models.csv",
+    "source_sha256": "00f08edf18131c5315ad518243b5c16670f16605ca0e7d5b277dd6854c64bb09",
+    "export_sha256": "00f08edf18131c5315ad518243b5c16670f16605ca0e7d5b277dd6854c64bb09",
+    "bytes": 5721,
+    "transformation": "byte_copy"
+  },
+  {
+    "source": "results/analysis/scan_2026-10-14_audit_v2/one_d_predictions.csv",
+    "destination": "data/runs/scan_2026-10-14_audit_v2/one_d_predictions.csv",
+    "source_sha256": "7f4a80b9b0b708cc1072434e62f44b2250ccf3537523ea68e893428a210f4ce1",
+    "export_sha256": "7f4a80b9b0b708cc1072434e62f44b2250ccf3537523ea68e893428a210f4ce1",
+    "bytes": 60884,
+    "transformation": "byte_copy"
+  },
+  {
+    "source": "results/analysis/scan_2026-10-14_audit_v2/screen_geometry_sensitivity.csv",
+    "destination": "data/runs/scan_2026-10-14_audit_v2/screen_geometry_sensitivity.csv",
+    "source_sha256": "9c9319d75ab982c2c9bbdd54e15fb5466c07cc67bf8678961e7f92f3eefe8c39",
+    "export_sha256": "9c9319d75ab982c2c9bbdd54e15fb5466c07cc67bf8678961e7f92f3eefe8c39",
+    "bytes": 339688,
+    "transformation": "byte_copy"
+  },
+  {
+    "source": "results/analysis/scan_2026-10-14_audit_v2/spectrum_models.csv",
+    "destination": "data/runs/scan_2026-10-14_audit_v2/spectrum_models.csv",
+    "source_sha256": "e59411440e08355836ad6aa4303b4ca5fec20d1e72ec772a3a621eec8bde72c5",
+    "export_sha256": "e59411440e08355836ad6aa4303b4ca5fec20d1e72ec772a3a621eec8bde72c5",
+    "bytes": 70723,
+    "transformation": "byte_copy"
+  },
+  {
+    "source": "results/analysis/scan_2026-10-14_audit_v2/spectrum_predictions.csv",
+    "destination": "data/runs/scan_2026-10-14_audit_v2/spectrum_predictions.csv",
+    "source_sha256": "f8659faf55d553337f8512644d6b227744e3d44fd463069cec903e965119352e",
+    "export_sha256": "f8659faf55d553337f8512644d6b227744e3d44fd463069cec903e965119352e",
+    "bytes": 650457,
+    "transformation": "byte_copy"
+  },
+  {
+    "source": "results/analysis/scan_2026-10-14_audit_v2/summary.json",
+    "destination": "data/runs/scan_2026-10-14_audit_v2/summary.json",
+    "source_sha256": "43b09dc2d1bc5e8ed7a14e41094a8535951e56a369c84b1d14ec0f6146dbaddb",
+    "export_sha256": "43b09dc2d1bc5e8ed7a14e41094a8535951e56a369c84b1d14ec0f6146dbaddb",
+    "bytes": 315299,
+    "transformation": "byte_copy"
+  },
+  {
+    "source": "results/analysis/scan_2026-10-14_audit_v2/selection_config.json",
+    "destination": "data/runs/scan_2026-10-14_audit_v2/selection_config.json",
+    "source_sha256": "730efc96ae829b0f6e9fa8e174a3676bf249d2e4086285a0982d6919453d855f",
+    "export_sha256": "730efc96ae829b0f6e9fa8e174a3676bf249d2e4086285a0982d6919453d855f",
+    "bytes": 3100,
+    "transformation": "byte_copy"
+  },
+  {
+    "source": "results/analysis/scan_2026-10-14_audit_v2/selection_audit.json",
+    "destination": "data/runs/scan_2026-10-14_audit_v2/selection_audit.json",
+    "source_sha256": "0b8e0a75555e2cbd383a940005370cc55d7c1d5e7fb5b44e506548ef56872b31",
+    "export_sha256": "0b8e0a75555e2cbd383a940005370cc55d7c1d5e7fb5b44e506548ef56872b31",
+    "bytes": 544300,
+    "transformation": "byte_copy"
+  },
+  {
+    "source": "results/analysis/scan_2026-10-14_audit_v2/spectrum_optimization.json",
+    "destination": "data/runs/scan_2026-10-14_audit_v2/spectrum_optimization.json",
+    "source_sha256": "d54eaf28b66688d88f61f4d84750d04ef249ef0f3c44573fc0d6c830ce52be92",
+    "export_sha256": "d54eaf28b66688d88f61f4d84750d04ef249ef0f3c44573fc0d6c830ce52be92",
+    "bytes": 923397,
+    "transformation": "byte_copy"
+  },
+  {
+    "source": "results/analysis/three_model_audit_2026-10-18_v3/summary.json",
+    "destination": "data/runs/three_model_audit_2026-10-18_v3/summary.json",
+    "source_sha256": "4496779550fe550185589e2c8591f016858e57d7ceab42ef7ebcc1d30cb19e32",
+    "export_sha256": "4496779550fe550185589e2c8591f016858e57d7ceab42ef7ebcc1d30cb19e32",
+    "bytes": 68227,
+    "transformation": "byte_copy"
+  },
+  {
+    "source": "results/analysis/three_model_audit_2026-10-18_v3/config.json",
+    "destination": "data/runs/three_model_audit_2026-10-18_v3/config.json",
+    "source_sha256": "a98d7c1fad8392fbe38921138a10271cbb1b012aa2b5f01e41490b54d4f91995",
+    "export_sha256": "a98d7c1fad8392fbe38921138a10271cbb1b012aa2b5f01e41490b54d4f91995",
+    "bytes": 1442,
+    "transformation": "byte_copy"
+  },
+  {
+    "source": "results/analysis/three_model_audit_2026-10-18_v3/data/branch_changed_selections.csv",
+    "destination": "data/runs/three_model_audit_2026-10-18_v3/branch_changed_selections.csv",
+    "source_sha256": "6e8cd62e77e718e9534cd906bd9309527a2baacd5152bebf28a97142996824e1",
+    "export_sha256": "6e8cd62e77e718e9534cd906bd9309527a2baacd5152bebf28a97142996824e1",
+    "bytes": 3646,
+    "transformation": "byte_copy"
+  },
+  {
+    "source": "results/analysis/three_model_audit_2026-10-18_v3/data/branch_comparison.json",
+    "destination": "data/runs/three_model_audit_2026-10-18_v3/branch_comparison.json",
+    "source_sha256": "71894f48fd9deeb92ec7a31b70825b91146a3a29ca1f15508ab4046a73594f7a",
+    "export_sha256": "71894f48fd9deeb92ec7a31b70825b91146a3a29ca1f15508ab4046a73594f7a",
+    "bytes": 219595,
+    "transformation": "byte_copy"
+  },
+  {
+    "source": "results/analysis/three_model_audit_2026-10-18_v3/data/branch_metrics.csv",
+    "destination": "data/runs/three_model_audit_2026-10-18_v3/branch_metrics.csv",
+    "source_sha256": "7b91846a7ed0a134cd673ceda30c390b73b6e7799f12778cc599d7f135f90a7e",
+    "export_sha256": "7b91846a7ed0a134cd673ceda30c390b73b6e7799f12778cc599d7f135f90a7e",
+    "bytes": 42815,
+    "transformation": "byte_copy"
+  },
+  {
+    "source": "results/analysis/three_model_audit_2026-10-18_v3/data/branch_response_changes.csv",
+    "destination": "data/runs/three_model_audit_2026-10-18_v3/branch_response_changes.csv",
+    "source_sha256": "72822fa944c0f499b4ff5e21e51d02613652b4b34677cff6c36467d2d0cda9eb",
+    "export_sha256": "72822fa944c0f499b4ff5e21e51d02613652b4b34677cff6c36467d2d0cda9eb",
+    "bytes": 27546,
+    "transformation": "byte_copy"
+  },
+  {
+    "source": "results/analysis/three_model_audit_2026-10-18_v3/data/fixed_six_coverage.csv",
+    "destination": "data/runs/three_model_audit_2026-10-18_v3/fixed_six_coverage.csv",
+    "source_sha256": "d78e6c72c2245c75697caaecd612b2d1522ce3108c21f87c17500bfd4ac7a015",
+    "export_sha256": "d78e6c72c2245c75697caaecd612b2d1522ce3108c21f87c17500bfd4ac7a015",
+    "bytes": 1176,
+    "transformation": "byte_copy"
+  },
+  {
+    "source": "results/analysis/three_model_audit_2026-10-18_v3/data/geometry_metrics.csv",
+    "destination": "data/runs/three_model_audit_2026-10-18_v3/geometry_metrics.csv",
+    "source_sha256": "72fe4a7a1806a26eee107ecf876b47cc8a8172393d59778fd949241845c81ed7",
+    "export_sha256": "72fe4a7a1806a26eee107ecf876b47cc8a8172393d59778fd949241845c81ed7",
+    "bytes": 12332,
+    "transformation": "byte_copy"
+  },
+  {
+    "source": "results/analysis/three_model_audit_2026-10-18_v3/data/one_dimensional_metrics.csv",
+    "destination": "data/runs/three_model_audit_2026-10-18_v3/one_dimensional_metrics.csv",
+    "source_sha256": "341091fa949a5ab64234fd07271160a0af7745a32984bc2c246e38bfc9304928",
+    "export_sha256": "341091fa949a5ab64234fd07271160a0af7745a32984bc2c246e38bfc9304928",
+    "bytes": 21366,
+    "transformation": "byte_copy"
+  },
+  {
+    "source": "results/analysis/three_model_audit_2026-10-18_v3/data/positive_envelope_curves.csv",
+    "destination": "data/runs/three_model_audit_2026-10-18_v3/positive_envelope_curves.csv",
+    "source_sha256": "f63c414b9e5abfd6825497daf07efbc77758824b0a69992900112aad27d236d1",
+    "export_sha256": "f63c414b9e5abfd6825497daf07efbc77758824b0a69992900112aad27d236d1",
+    "bytes": 23468,
+    "transformation": "byte_copy"
+  },
+  {
+    "source": "results/analysis/three_model_audit_2026-10-18_v3/data/positive_envelope_folds.json",
+    "destination": "data/runs/three_model_audit_2026-10-18_v3/positive_envelope_folds.json",
+    "source_sha256": "c81e1315fd3b56ea197923ac809b658dab1f8c122ae03e1b0b94a795149ab425",
+    "export_sha256": "c81e1315fd3b56ea197923ac809b658dab1f8c122ae03e1b0b94a795149ab425",
+    "bytes": 56043,
+    "transformation": "byte_copy"
+  },
+  {
+    "source": "results/analysis/three_model_audit_2026-10-18_v3/data/positive_envelope_metrics.csv",
+    "destination": "data/runs/three_model_audit_2026-10-18_v3/positive_envelope_metrics.csv",
+    "source_sha256": "97b1ff22b8330cf160f845c5022312baef8bcef2551cd8e805867155b3a4e733",
+    "export_sha256": "97b1ff22b8330cf160f845c5022312baef8bcef2551cd8e805867155b3a4e733",
+    "bytes": 908,
+    "transformation": "byte_copy"
+  },
+  {
+    "source": "results/analysis/three_model_audit_2026-10-18_v3/data/positive_envelope_models.csv",
+    "destination": "data/runs/three_model_audit_2026-10-18_v3/positive_envelope_models.csv",
+    "source_sha256": "372ae650c6fda33a8ce7c49c40d2b5df7c5d1229a0203b8590ca698db5ed09c2",
+    "export_sha256": "372ae650c6fda33a8ce7c49c40d2b5df7c5d1229a0203b8590ca698db5ed09c2",
+    "bytes": 531,
+    "transformation": "byte_copy"
+  },
+  {
+    "source": "results/analysis/three_model_audit_2026-10-18_v3/data/positive_envelope_nodes.csv",
+    "destination": "data/runs/three_model_audit_2026-10-18_v3/positive_envelope_nodes.csv",
+    "source_sha256": "bd7ee39371587b59fd0d1c16d24c197e38bdcb77f21c18f1e0e2a008428e4763",
+    "export_sha256": "bd7ee39371587b59fd0d1c16d24c197e38bdcb77f21c18f1e0e2a008428e4763",
+    "bytes": 26085,
+    "transformation": "byte_copy"
+  },
+  {
+    "source": "results/analysis/three_model_audit_2026-10-18_v3/data/positive_envelope_pairs.csv",
+    "destination": "data/runs/three_model_audit_2026-10-18_v3/positive_envelope_pairs.csv",
+    "source_sha256": "d2299209db1c4058632dbbb1675b0fc9afc64a20bed47e961e15cbe434d7f105",
+    "export_sha256": "d2299209db1c4058632dbbb1675b0fc9afc64a20bed47e961e15cbe434d7f105",
+    "bytes": 5455,
+    "transformation": "byte_copy"
+  },
+  {
+    "source": "results/analysis/three_model_audit_2026-10-18_v3/data/shared_model_availability.csv",
+    "destination": "data/runs/three_model_audit_2026-10-18_v3/shared_model_availability.csv",
+    "source_sha256": "0574dd229559bf0cf549613660c10936c0766337c3f81636013cbe5cd9ea821c",
+    "export_sha256": "0574dd229559bf0cf549613660c10936c0766337c3f81636013cbe5cd9ea821c",
+    "bytes": 601,
+    "transformation": "byte_copy"
+  },
+  {
+    "source": "results/analysis/three_model_audit_2026-10-18_v3/data/shared_optimization.json",
+    "destination": "data/runs/three_model_audit_2026-10-18_v3/shared_optimization.json",
+    "source_sha256": "fb84e051f50e9ba625d6f8b8df4660caf517bea6eeb4f22d61eeb4779a1f3984",
+    "export_sha256": "fb84e051f50e9ba625d6f8b8df4660caf517bea6eeb4f22d61eeb4779a1f3984",
+    "bytes": 68957,
+    "transformation": "byte_copy"
+  },
+  {
+    "source": "results/analysis/three_model_audit_2026-10-18_v3/data/shared_voltage_curves.csv",
+    "destination": "data/runs/three_model_audit_2026-10-18_v3/shared_voltage_curves.csv",
+    "source_sha256": "29fbb3aa12c3cf4319aa5fa6bfc4401306d6f57ef7b6cde35baf805816434686",
+    "export_sha256": "29fbb3aa12c3cf4319aa5fa6bfc4401306d6f57ef7b6cde35baf805816434686",
+    "bytes": 54007,
+    "transformation": "byte_copy"
+  },
+  {
+    "source": "results/analysis/three_model_audit_2026-10-18_v3/data/shared_voltage_models.csv",
+    "destination": "data/runs/three_model_audit_2026-10-18_v3/shared_voltage_models.csv",
+    "source_sha256": "9b9f5474de8c7894a5a4107204015295fca0356db9315bc66d86a0f98394163c",
+    "export_sha256": "9b9f5474de8c7894a5a4107204015295fca0356db9315bc66d86a0f98394163c",
+    "bytes": 354,
+    "transformation": "byte_copy"
+  },
+  {
+    "source": "results/analysis/three_model_audit_2026-10-18_v3/data/shared_voltage_node_predictions.csv",
+    "destination": "data/runs/three_model_audit_2026-10-18_v3/shared_voltage_node_predictions.csv",
+    "source_sha256": "a8d69608352bd514f8a183659eb35496ad5f780e89d3afda0963f3cddb7e9d67",
+    "export_sha256": "a8d69608352bd514f8a183659eb35496ad5f780e89d3afda0963f3cddb7e9d67",
+    "bytes": 26059,
+    "transformation": "byte_copy"
+  },
+  {
+    "source": "results/analysis/three_model_audit_2026-10-18_v3/data/shared_voltage_pair_metrics.csv",
+    "destination": "data/runs/three_model_audit_2026-10-18_v3/shared_voltage_pair_metrics.csv",
+    "source_sha256": "5d034e16ab716ae3434d96214536c0e1b5dbef3cb989d0864ba11fa0cdf683c2",
+    "export_sha256": "5d034e16ab716ae3434d96214536c0e1b5dbef3cb989d0864ba11fa0cdf683c2",
+    "bytes": 1730,
+    "transformation": "byte_copy"
+  },
+  {
+    "source": "results/analysis/three_model_audit_2026-10-18_v3/data/shared_voltage_pair_predictions.csv",
+    "destination": "data/runs/three_model_audit_2026-10-18_v3/shared_voltage_pair_predictions.csv",
+    "source_sha256": "4288984826935c09bb3963f16fc60d4c5c711b9dd71bd5c146cadec94d70813c",
+    "export_sha256": "4288984826935c09bb3963f16fc60d4c5c711b9dd71bd5c146cadec94d70813c",
+    "bytes": 8933,
+    "transformation": "byte_copy"
+  },
+  {
+    "source": "results/analysis/three_model_audit_2026-10-18_v3/data/spectrum_metrics.csv",
+    "destination": "data/runs/three_model_audit_2026-10-18_v3/spectrum_metrics.csv",
+    "source_sha256": "ff9ff5b0add484fec396be3171e1cfa15bba93cf0b0269a871b4f25ff243a8b0",
+    "export_sha256": "ff9ff5b0add484fec396be3171e1cfa15bba93cf0b0269a871b4f25ff243a8b0",
+    "bytes": 53960,
+    "transformation": "byte_copy"
+  },
+  {
+    "source": "results/analysis/three_model_audit_2026-10-18_v3/data/symmetry_error_decomposition.csv",
+    "destination": "data/runs/three_model_audit_2026-10-18_v3/symmetry_error_decomposition.csv",
+    "source_sha256": "cce38d2c381001ec120044f92e36ed457b1645a2b8225d43c7ff4940f7d80545",
+    "export_sha256": "cce38d2c381001ec120044f92e36ed457b1645a2b8225d43c7ff4940f7d80545",
+    "bytes": 27332,
+    "transformation": "byte_copy"
+  },
+  {
+    "source": "results/analysis/final_paper_2026-10-27_v2/summary.json",
+    "destination": "data/runs/final_paper_2026-10-27_v2/summary.json",
+    "source_sha256": "f6e5f0efce9ec230b264f6ce958d9d177de487088313eb95d1c3f748da4a8a96",
+    "export_sha256": "f6e5f0efce9ec230b264f6ce958d9d177de487088313eb95d1c3f748da4a8a96",
+    "bytes": 1068,
+    "transformation": "byte_copy"
+  },
+  {
+    "source": "results/analysis/final_paper_2026-10-27_v2/data/channel_metrics_complete.json",
+    "destination": "data/runs/final_paper_2026-10-27_v2/channel_metrics_complete.json",
+    "source_sha256": "f5c003194696c81757132adc4b937e88bc06ea8e663124900a8e8d9234ff61b0",
+    "export_sha256": "f5c003194696c81757132adc4b937e88bc06ea8e663124900a8e8d9234ff61b0",
+    "bytes": 86406,
+    "transformation": "byte_copy"
+  },
+  {
+    "source": "results/analysis/final_paper_2026-10-27_v2/data/combination_lengths.json",
+    "destination": "data/runs/final_paper_2026-10-27_v2/combination_lengths.json",
+    "source_sha256": "d64d9f7ba7059f0613fc100d8dc9472073d01819902fde7cdf6941a0fb4904a6",
+    "export_sha256": "d64d9f7ba7059f0613fc100d8dc9472073d01819902fde7cdf6941a0fb4904a6",
+    "bytes": 1267,
+    "transformation": "byte_copy"
+  },
+  {
+    "source": "results/analysis/final_paper_2026-10-27_v2/data/comparison_summary.json",
+    "destination": "data/runs/final_paper_2026-10-27_v2/comparison_summary.json",
+    "source_sha256": "a2a286f4e8d7b506292d229c09d46d941694d194ca2ca43189489040ce0caf9c",
+    "export_sha256": "a2a286f4e8d7b506292d229c09d46d941694d194ca2ca43189489040ce0caf9c",
+    "bytes": 18164,
+    "transformation": "byte_copy"
+  },
+  {
+    "source": "results/analysis/final_paper_2026-10-27_v2/data/geometry_models.json",
+    "destination": "data/runs/final_paper_2026-10-27_v2/geometry_models.json",
+    "source_sha256": "84a483fd9ba2c668fafaf433cc5f93667a2ec6fc5ade150640c9338cd810431a",
+    "export_sha256": "84a483fd9ba2c668fafaf433cc5f93667a2ec6fc5ade150640c9338cd810431a",
+    "bytes": 19282,
+    "transformation": "byte_copy"
+  },
+  {
+    "source": "results/analysis/final_paper_2026-10-27_v2/data/geometry_nodes.json",
+    "destination": "data/runs/final_paper_2026-10-27_v2/geometry_nodes.json",
+    "source_sha256": "9283f3fe8d23e15cb401a572fbacceab7ca16a9555918da265768adf95b062cf",
+    "export_sha256": "9283f3fe8d23e15cb401a572fbacceab7ca16a9555918da265768adf95b062cf",
+    "bytes": 180467,
+    "transformation": "byte_copy"
+  },
+  {
+    "source": "results/analysis/final_paper_2026-10-27_v2/data/geometry_summary.json",
+    "destination": "data/runs/final_paper_2026-10-27_v2/geometry_summary.json",
+    "source_sha256": "9278642ef3e78fe588c2203abcad57ce53ad200b3c906238d729590268417192",
+    "export_sha256": "9278642ef3e78fe588c2203abcad57ce53ad200b3c906238d729590268417192",
+    "bytes": 571,
+    "transformation": "byte_copy"
+  },
+  {
+    "source": "results/analysis/final_paper_2026-10-27_v2/data/horizontal_periods.json",
+    "destination": "data/runs/final_paper_2026-10-27_v2/horizontal_periods.json",
+    "source_sha256": "e782d1cc6d83ae63b62669d2510453dd1e04b1bfd2ab2c4015fa77f56da0e156",
+    "export_sha256": "e782d1cc6d83ae63b62669d2510453dd1e04b1bfd2ab2c4015fa77f56da0e156",
+    "bytes": 65174,
+    "transformation": "byte_copy"
+  },
+  {
+    "source": "results/analysis/final_paper_2026-10-27_v2/data/microscopy_matches.json",
+    "destination": "data/runs/final_paper_2026-10-27_v2/microscopy_matches.json",
+    "source_sha256": "1031ef09b6b5a0f5c266f1d64a0d2edf528737e5acdd9145e0f42a3b313d28cb",
+    "export_sha256": "1031ef09b6b5a0f5c266f1d64a0d2edf528737e5acdd9145e0f42a3b313d28cb",
+    "bytes": 159403,
+    "transformation": "byte_copy"
+  },
+  {
+    "source": "results/analysis/final_paper_2026-10-27_v2/data/one_dimensional_metrics_complete.json",
+    "destination": "data/runs/final_paper_2026-10-27_v2/one_dimensional_metrics_complete.json",
+    "source_sha256": "136ff8a328ed006f72e38fcc2fd5c2b0c1b2dad6dc8724032dd13d9c4cebd1a7",
+    "export_sha256": "136ff8a328ed006f72e38fcc2fd5c2b0c1b2dad6dc8724032dd13d9c4cebd1a7",
+    "bytes": 50310,
+    "transformation": "byte_copy"
+  },
+  {
+    "source": "results/analysis/final_paper_2026-10-27_v2/data/positive_envelope_metrics.json",
+    "destination": "data/runs/final_paper_2026-10-27_v2/positive_envelope_metrics.json",
+    "source_sha256": "088ddf111e372b820c561fa0c61bf14d63bd0adf12e11b4d8e7e5e3486618d93",
+    "export_sha256": "088ddf111e372b820c561fa0c61bf14d63bd0adf12e11b4d8e7e5e3486618d93",
+    "bytes": 1864,
+    "transformation": "byte_copy"
+  },
+  {
+    "source": "results/analysis/final_paper_2026-10-27_v2/data/spectrum_metrics_complete.json",
+    "destination": "data/runs/final_paper_2026-10-27_v2/spectrum_metrics_complete.json",
+    "source_sha256": "eabd2b5783aeaeb366cde8b04efbaf72e21b5f6c2ee32de1db97dafd8ad7cc71",
+    "export_sha256": "eabd2b5783aeaeb366cde8b04efbaf72e21b5f6c2ee32de1db97dafd8ad7cc71",
+    "bytes": 126646,
+    "transformation": "byte_copy"
+  },
+  {
+    "source": "writing/manuscript/three_model_article_2026-10-12_v01/data/one_dimensional_ratios.csv",
+    "destination": "data/legacy_original_23/one_dimensional_ratios.csv",
+    "source_sha256": "6ee5ecf49506c39997213ed918d74003a11ab82cf12cae0812aa9e24ca93e20a",
+    "export_sha256": "6ee5ecf49506c39997213ed918d74003a11ab82cf12cae0812aa9e24ca93e20a",
+    "bytes": 3462,
+    "transformation": "byte_copy"
+  },
+  {
+    "source": "results/analysis/scan_2026-10-14_audit_alternative_v2/one_d_models.csv",
+    "destination": "data/support/scan_2026-10-14_audit_alternative_v2/one_d_models.csv",
+    "source_sha256": "5fbeecc62bfa0b725518889bd45c0cf10c8ba6e5f1b2a1c2b6bb32e434f59366",
+    "export_sha256": "5fbeecc62bfa0b725518889bd45c0cf10c8ba6e5f1b2a1c2b6bb32e434f59366",
+    "bytes": 5717,
+    "transformation": "byte_copy"
+  },
+  {
+    "source": "results/analysis/scan_2026-10-14_audit_alternative_v2/one_d_predictions.csv",
+    "destination": "data/support/scan_2026-10-14_audit_alternative_v2/one_d_predictions.csv",
+    "source_sha256": "633f21b7ddcfd97631790c018cd15f1486d34b3f0e4deade7a7c99ee50c7a4a1",
+    "export_sha256": "633f21b7ddcfd97631790c018cd15f1486d34b3f0e4deade7a7c99ee50c7a4a1",
+    "bytes": 60889,
+    "transformation": "byte_copy"
+  },
+  {
+    "source": "results/analysis/scan_2026-10-14_audit_alternative_v2/one_d_coverage.csv",
+    "destination": "data/support/scan_2026-10-14_audit_alternative_v2/one_d_coverage.csv",
+    "source_sha256": "2f1f44cf5d571b2a383c8b26cf33dc8535a028a266687310cc3d8b94e35e637f",
+    "export_sha256": "2f1f44cf5d571b2a383c8b26cf33dc8535a028a266687310cc3d8b94e35e637f",
+    "bytes": 2355,
+    "transformation": "byte_copy"
+  },
+  {
+    "source": "results/analysis/channel_response_audit_2026-10-19_v1/data/binned_residuals.csv",
+    "destination": "data/support/channel_response_audit_2026-10-19_v1/binned_residuals.csv",
+    "source_sha256": "eef194e6bde154998636f866860908e2c6daf4f16e889471ef97137fb246332f",
+    "export_sha256": "eef194e6bde154998636f866860908e2c6daf4f16e889471ef97137fb246332f",
+    "bytes": 12054,
+    "transformation": "byte_copy"
+  },
+  {
+    "source": "results/analysis/channel_response_audit_2026-10-19_v1/data/fit_metrics.csv",
+    "destination": "data/support/channel_response_audit_2026-10-19_v1/fit_metrics.csv",
+    "source_sha256": "50912683411fecff8096632a797bf963dfb4b02438a5c4e6f4b0f0ab36ac67be",
+    "export_sha256": "50912683411fecff8096632a797bf963dfb4b02438a5c4e6f4b0f0ab36ac67be",
+    "bytes": 30642,
+    "transformation": "byte_copy"
+  },
+  {
+    "source": "results/analysis/channel_response_audit_2026-10-19_v1/data/intensity_quartiles.csv",
+    "destination": "data/support/channel_response_audit_2026-10-19_v1/intensity_quartiles.csv",
+    "source_sha256": "6ae48bdd9bf88ae8512d8244ec5032fc94d93d15bbe9fcf7f355269f72f8285f",
+    "export_sha256": "6ae48bdd9bf88ae8512d8244ec5032fc94d93d15bbe9fcf7f355269f72f8285f",
+    "bytes": 5247,
+    "transformation": "byte_copy"
+  },
+  {
+    "source": "results/analysis/channel_response_audit_2026-10-19_v1/data/point_audit.csv",
+    "destination": "data/support/channel_response_audit_2026-10-19_v1/point_audit.csv",
+    "source_sha256": "4716f234c7d5cbf46371dbb963b3320d581e1cb8a4db74a8aaf2f4246c12778f",
+    "export_sha256": "4716f234c7d5cbf46371dbb963b3320d581e1cb8a4db74a8aaf2f4246c12778f",
+    "bytes": 2668248,
+    "transformation": "byte_copy"
+  },
+  {
+    "source": "results/analysis/channel_response_audit_2026-10-19_v1/data/predictions_residuals.csv",
+    "destination": "data/support/channel_response_audit_2026-10-19_v1/predictions_residuals.csv",
+    "source_sha256": "0df6d082e8df2a9481e0b8d32053af17e06c1d69d7e0c0a1b7a43fab34ea5074",
+    "export_sha256": "0df6d082e8df2a9481e0b8d32053af17e06c1d69d7e0c0a1b7a43fab34ea5074",
+    "bytes": 2147215,
+    "transformation": "byte_copy"
+  },
+  {
+    "source": "results/analysis/channel_response_audit_2026-10-19_v1/data/selection_summary.csv",
+    "destination": "data/support/channel_response_audit_2026-10-19_v1/selection_summary.csv",
+    "source_sha256": "6d09b034bf8626cd8fa079e63c839f01224cfdd11e39e285ad794760a8464be0",
+    "export_sha256": "6d09b034bf8626cd8fa079e63c839f01224cfdd11e39e285ad794760a8464be0",
+    "bytes": 799,
+    "transformation": "byte_copy"
+  },
+  {
+    "source": "results/analysis/scan_saturation_audit_2026-10-19_v2/data/cycle_summary.csv",
+    "destination": "data/support/scan_saturation_audit_2026-10-19_v2/cycle_summary.csv",
+    "source_sha256": "7637e27c0469e8a4b2eefc0a160516121d62112985ee7f68ec37ab237177b36e",
+    "export_sha256": "7637e27c0469e8a4b2eefc0a160516121d62112985ee7f68ec37ab237177b36e",
+    "bytes": 1149,
+    "transformation": "byte_copy"
+  },
+  {
+    "source": "results/analysis/scan_saturation_audit_2026-10-19_v2/data/examples.json",
+    "destination": "data/support/scan_saturation_audit_2026-10-19_v2/examples.json",
+    "source_sha256": "beaae0b1a65d9194662b4524e2ed3281efaaf1850ccb57d83355459c2f90b026",
+    "export_sha256": "beaae0b1a65d9194662b4524e2ed3281efaaf1850ccb57d83355459c2f90b026",
+    "bytes": 935,
+    "transformation": "byte_copy"
+  },
+  {
+    "source": "results/analysis/scan_saturation_audit_2026-10-19_v2/data/peak_audit.csv",
+    "destination": "data/support/scan_saturation_audit_2026-10-19_v2/peak_audit.csv",
+    "source_sha256": "8786aef57ab6e65c7cd244e02ffee6b1c862859ffbe527275ac36cef086d4661",
+    "export_sha256": "8786aef57ab6e65c7cd244e02ffee6b1c862859ffbe527275ac36cef086d4661",
+    "bytes": 653605,
+    "transformation": "byte_copy"
+  },
+  {
+    "source": "results/analysis/scan_saturation_audit_2026-10-19_v2/data/raw_line_profiles.csv",
+    "destination": "data/support/scan_saturation_audit_2026-10-19_v2/raw_line_profiles.csv",
+    "source_sha256": "e442d4580d16837017632613100c55b8f029736fb85db6697ccfb022981427ec",
+    "export_sha256": "e442d4580d16837017632613100c55b8f029736fb85db6697ccfb022981427ec",
+    "bytes": 58888,
+    "transformation": "byte_copy"
+  },
+  {
+    "source": "results/analysis/microscopy_2026-10-21_full_v2/data/historical_comparison.csv",
+    "destination": "data/support/microscopy_full_v2/historical_comparison.csv",
+    "source_sha256": "bd2ca1c9b25fa46cb39a6d0b6df9ffeeda56cfc1fe644d2ee582ce96e0cf552f",
+    "export_sha256": "bd2ca1c9b25fa46cb39a6d0b6df9ffeeda56cfc1fe644d2ee582ce96e0cf552f",
+    "bytes": 30710,
+    "transformation": "byte_copy"
+  },
+  {
+    "source": "results/analysis/microscopy_2026-10-21_full_v2/data/historical_comparison.json",
+    "destination": "data/support/microscopy_full_v2/historical_comparison.json",
+    "source_sha256": "1471b4b5b006a66843979f9c14c8db94410f7f74b7880f26adc82b2effc5ff98",
+    "export_sha256": "1471b4b5b006a66843979f9c14c8db94410f7f74b7880f26adc82b2effc5ff98",
+    "bytes": 156944,
+    "transformation": "byte_copy"
+  },
+  {
+    "source": "results/analysis/microscopy_2026-10-21_full_v2/data/samples.csv",
+    "destination": "data/support/microscopy_full_v2/samples.csv",
+    "source_sha256": "52f4d7e09b46159702cb2d3046b52e306e6110842e23924195e8461c3cefc13b",
+    "export_sha256": "52f4d7e09b46159702cb2d3046b52e306e6110842e23924195e8461c3cefc13b",
+    "bytes": 14896,
+    "transformation": "byte_copy"
+  },
+  {
+    "source": "results/analysis/microscopy_2026-10-21_full_v2/data/dimensionless_comparison.json",
+    "destination": "data/support/microscopy_full_v2/dimensionless_comparison.json",
+    "source_sha256": "1f34cded84b50c4fb0503731b829281e0a6846624be2ba8525ea13996e6f4ea7",
+    "export_sha256": "1f34cded84b50c4fb0503731b829281e0a6846624be2ba8525ea13996e6f4ea7",
+    "bytes": 381,
+    "transformation": "byte_copy"
+  },
+  {
+    "source": "configs/measurement_profiles/cfa_r125_v1.json",
+    "destination": "examples/config/photometry.json",
+    "source_sha256": "de10c55d50921844d2ad55a382b7be8c714157b8e7951b4c56834348f8d15a30",
+    "export_sha256": "a54a42a08df2bc7292e281d987a71c312c7dc33365a799d1f8e44ce1df97b45e",
+    "bytes": 1113,
+    "transformation": "extract only photometry; original source remains unchanged"
+  },
+  {
+    "source": "configs/scan_repeats/image_audit_v16.json",
+    "destination": "examples/config/detector_v16.json",
+    "source_sha256": "30a6c64e5b6a1f81998244042abcba96e9d163d1526ebdead49c4f280661c379",
+    "export_sha256": "1bcc330d18757f02244d7e3f01fb26a72e7808aa30b6511f557a342f1105c4d3",
+    "bytes": 2060,
+    "transformation": "extract only detector; original source remains unchanged"
+  },
+  {
+    "source": "data/calibration/scan_2026-10-14/distance_300mm_v2.json",
+    "destination": "provenance/calibration/distance_300mm_v2.json",
+    "source_sha256": "fce16b0b3c84cfd163d0ffa55dea5577d52939dec834725d41506717ed34eb51",
+    "export_sha256": "fce16b0b3c84cfd163d0ffa55dea5577d52939dec834725d41506717ed34eb51",
+    "bytes": 1038,
+    "transformation": "byte_copy"
+  },
+  {
+    "source": "data/calibration/microscopy_2026-10-21/laser_632p8_v1.json",
+    "destination": "provenance/calibration/laser_632p8_v1.json",
+    "source_sha256": "d51a075513b95612bf1fc8a2351ff91517c0ac72bcac2a503bf38ed0c69781cf",
+    "export_sha256": "d51a075513b95612bf1fc8a2351ff91517c0ac72bcac2a503bf38ed0c69781cf",
+    "bytes": 503,
+    "transformation": "byte_copy"
+  },
+  {
+    "source": "writing/manuscript/williams_final_2026-11-02_v04/sources.json",
+    "destination": "provenance/upstream_paper_sources.json",
+    "source_sha256": "415dbea556219a8bd9e174016adc607b267e2909b159f4b76a756cb5b746721f",
+    "export_sha256": "415dbea556219a8bd9e174016adc607b267e2909b159f4b76a756cb5b746721f",
+    "bytes": 11775,
+    "transformation": "byte_copy from bound snapshot"
+  },
+  {
+    "source": "writing/manuscript/williams_final_2026-11-02_v04/data/channel_metrics_complete.json",
+    "destination": "data/paper/channel_metrics_complete.json",
+    "source_sha256": "f5c003194696c81757132adc4b937e88bc06ea8e663124900a8e8d9234ff61b0",
+    "export_sha256": "f5c003194696c81757132adc4b937e88bc06ea8e663124900a8e8d9234ff61b0",
+    "bytes": 86406,
+    "transformation": "byte_copy from bound snapshot"
+  },
+  {
+    "source": "writing/manuscript/williams_final_2026-11-02_v04/data/combination_lengths.json",
+    "destination": "data/paper/combination_lengths.json",
+    "source_sha256": "ffac55878922753370705b3860e2618406b37669544a0fb19606d6b1c5cb8b60",
+    "export_sha256": "ffac55878922753370705b3860e2618406b37669544a0fb19606d6b1c5cb8b60",
+    "bytes": 531,
+    "transformation": "byte_copy from bound snapshot"
+  },
+  {
+    "source": "writing/manuscript/williams_final_2026-11-02_v04/data/comparison_summary.json",
+    "destination": "data/paper/comparison_summary.json",
+    "source_sha256": "a0a52993f6e8074318c25686b41b6cf20bf92b39cb6b5a18eb5e00a192723d55",
+    "export_sha256": "a0a52993f6e8074318c25686b41b6cf20bf92b39cb6b5a18eb5e00a192723d55",
+    "bytes": 6261,
+    "transformation": "byte_copy from bound snapshot"
+  },
+  {
+    "source": "writing/manuscript/williams_final_2026-11-02_v04/data/figure_evidence.json",
+    "destination": "data/paper/figure_evidence.json",
+    "source_sha256": "61a2d8093a07a5f46f6b1f34aae6e7edfb3f6cceb69f89dde4508f5c8638a32e",
+    "export_sha256": "61a2d8093a07a5f46f6b1f34aae6e7edfb3f6cceb69f89dde4508f5c8638a32e",
+    "bytes": 99742,
+    "transformation": "byte_copy from bound snapshot"
+  },
+  {
+    "source": "writing/manuscript/williams_final_2026-11-02_v04/data/geometry_models.json",
+    "destination": "data/paper/geometry_models.json",
+    "source_sha256": "84a483fd9ba2c668fafaf433cc5f93667a2ec6fc5ade150640c9338cd810431a",
+    "export_sha256": "84a483fd9ba2c668fafaf433cc5f93667a2ec6fc5ade150640c9338cd810431a",
+    "bytes": 19282,
+    "transformation": "byte_copy from bound snapshot"
+  },
+  {
+    "source": "writing/manuscript/williams_final_2026-11-02_v04/data/geometry_nodes.json",
+    "destination": "data/paper/geometry_nodes.json",
+    "source_sha256": "9283f3fe8d23e15cb401a572fbacceab7ca16a9555918da265768adf95b062cf",
+    "export_sha256": "9283f3fe8d23e15cb401a572fbacceab7ca16a9555918da265768adf95b062cf",
+    "bytes": 180467,
+    "transformation": "byte_copy from bound snapshot"
+  },
+  {
+    "source": "writing/manuscript/williams_final_2026-11-02_v04/data/geometry_summary.json",
+    "destination": "data/paper/geometry_summary.json",
+    "source_sha256": "9278642ef3e78fe588c2203abcad57ce53ad200b3c906238d729590268417192",
+    "export_sha256": "9278642ef3e78fe588c2203abcad57ce53ad200b3c906238d729590268417192",
+    "bytes": 571,
+    "transformation": "byte_copy from bound snapshot"
+  },
+  {
+    "source": "writing/manuscript/williams_final_2026-11-02_v04/data/horizontal_periods.json",
+    "destination": "data/paper/horizontal_periods.json",
+    "source_sha256": "e782d1cc6d83ae63b62669d2510453dd1e04b1bfd2ab2c4015fa77f56da0e156",
+    "export_sha256": "e782d1cc6d83ae63b62669d2510453dd1e04b1bfd2ab2c4015fa77f56da0e156",
+    "bytes": 65174,
+    "transformation": "byte_copy from bound snapshot"
+  },
+  {
+    "source": "writing/manuscript/williams_final_2026-11-02_v04/data/microscopy_matches.json",
+    "destination": "data/paper/microscopy_matches.json",
+    "source_sha256": "7a77fab2ceae079d526a928c2d0b11717beaeeefe472ae5d23ee3b0e32af2829",
+    "export_sha256": "7a77fab2ceae079d526a928c2d0b11717beaeeefe472ae5d23ee3b0e32af2829",
+    "bytes": 50633,
+    "transformation": "byte_copy from bound snapshot"
+  },
+  {
+    "source": "writing/manuscript/williams_final_2026-11-02_v04/data/microscopy_scan_summary.json",
+    "destination": "data/paper/microscopy_scan_summary.json",
+    "source_sha256": "5d41982cfa205fba137e9233776747b3e0eed893c63660eaec4e1e42983b2346",
+    "export_sha256": "5d41982cfa205fba137e9233776747b3e0eed893c63660eaec4e1e42983b2346",
+    "bytes": 142,
+    "transformation": "byte_copy from bound snapshot"
+  },
+  {
+    "source": "writing/manuscript/williams_final_2026-11-02_v04/data/microscopy_selected.json",
+    "destination": "data/paper/microscopy_selected.json",
+    "source_sha256": "00cd2c200ec6093064196ffee758b3e178971a13c49f6d3537f4a9d9f1efc106",
+    "export_sha256": "00cd2c200ec6093064196ffee758b3e178971a13c49f6d3537f4a9d9f1efc106",
+    "bytes": 410673,
+    "transformation": "byte_copy from bound snapshot"
+  },
+  {
+    "source": "writing/manuscript/williams_final_2026-11-02_v04/data/one_dimensional_metrics_complete.json",
+    "destination": "data/paper/one_dimensional_metrics_complete.json",
+    "source_sha256": "136ff8a328ed006f72e38fcc2fd5c2b0c1b2dad6dc8724032dd13d9c4cebd1a7",
+    "export_sha256": "136ff8a328ed006f72e38fcc2fd5c2b0c1b2dad6dc8724032dd13d9c4cebd1a7",
+    "bytes": 50310,
+    "transformation": "byte_copy from bound snapshot"
+  },
+  {
+    "source": "writing/manuscript/williams_final_2026-11-02_v04/data/spectrum_metrics.json",
+    "destination": "data/paper/spectrum_metrics.json",
+    "source_sha256": "2451b4b3cc09e851e3980562b5ff8c26291b91157d5fd8669d70df9c90569766",
+    "export_sha256": "2451b4b3cc09e851e3980562b5ff8c26291b91157d5fd8669d70df9c90569766",
+    "bytes": 444,
+    "transformation": "byte_copy from bound snapshot"
+  },
+  {
+    "source": "writing/manuscript/williams_final_2026-11-02_v04/data/spectrum_metrics_complete.json",
+    "destination": "data/paper/spectrum_metrics_complete.json",
+    "source_sha256": "eabd2b5783aeaeb366cde8b04efbaf72e21b5f6c2ee32de1db97dafd8ad7cc71",
+    "export_sha256": "eabd2b5783aeaeb366cde8b04efbaf72e21b5f6c2ee32de1db97dafd8ad7cc71",
+    "bytes": 126646,
+    "transformation": "byte_copy from bound snapshot"
+  },
+  {
+    "source": "writing/manuscript/williams_final_2026-11-02_v04/data/spectrum_nodes.json",
+    "destination": "data/paper/spectrum_nodes.json",
+    "source_sha256": "d453b6520cc435d19027f05b6f7289e4bbadfe8a52badf26df9b6246cc305fab",
+    "export_sha256": "d453b6520cc435d19027f05b6f7289e4bbadfe8a52badf26df9b6246cc305fab",
+    "bytes": 43771,
+    "transformation": "byte_copy from bound snapshot"
+  },
+  {
+    "source": "work/microscopy_full_2026-10-27/selected_frames_v1/micro_late_88.png",
+    "destination": "data/samples/micro_late_88.png",
+    "source_sha256": "93f23128c324deb0148b82a8cbdbcbd735124849face66c1f8eb5070da346283",
+    "export_sha256": "93f23128c324deb0148b82a8cbdbcbd735124849face66c1f8eb5070da346283",
+    "bytes": 1138141,
+    "transformation": "byte_copy"
+  },
+  {
+    "source": "work/microscopy_full_2026-10-27/selected_frames_v1/micro_late_164.png",
+    "destination": "data/samples/micro_late_164.png",
+    "source_sha256": "643a81f950615d0647d85c19e0ee30b86c701873d7b8db4fde2a6f6638e84df7",
+    "export_sha256": "643a81f950615d0647d85c19e0ee30b86c701873d7b8db4fde2a6f6638e84df7",
+    "bytes": 2687938,
+    "transformation": "byte_copy"
+  },
+  {
+    "source": "work/microscopy_full_2026-10-27/selected_frames_v1/micro_late_227.png",
+    "destination": "data/samples/micro_late_227.png",
+    "source_sha256": "8f95008cdb4db6920dbaf76a19670d74a6d84de023220acf6d4bf016cd64686b",
+    "export_sha256": "8f95008cdb4db6920dbaf76a19670d74a6d84de023220acf6d4bf016cd64686b",
+    "bytes": 2483682,
+    "transformation": "byte_copy"
+  },
+  {
+    "source": "work/microscopy_full_2026-10-27/selected_frames_v1/micro_late_295.png",
+    "destination": "data/samples/micro_late_295.png",
+    "source_sha256": "cdafaf49dc177cd9e6efa108da8eca7132a09d3cbafcdd119a770600c5153f25",
+    "export_sha256": "cdafaf49dc177cd9e6efa108da8eca7132a09d3cbafcdd119a770600c5153f25",
+    "bytes": 1969890,
+    "transformation": "byte_copy"
+  },
+  {
+    "source": "work/microscopy_full_2026-10-27/selected_frames_v1/micro_late_436.png",
+    "destination": "data/samples/micro_late_436.png",
+    "source_sha256": "b10aa078076267fa8761b5d0d189d8491083072bfc254a0941813273fe15747c",
+    "export_sha256": "b10aa078076267fa8761b5d0d189d8491083072bfc254a0941813273fe15747c",
+    "bytes": 1288564,
+    "transformation": "byte_copy"
+  },
+  {
+    "source": "work/microscopy_full_2026-10-27/selected_frames_v1/micro_late_500.png",
+    "destination": "data/samples/micro_late_500.png",
+    "source_sha256": "4fdb785fa01013150c8db4f7f641392ce215338b9e49b94b02999e9326d49cf4",
+    "export_sha256": "4fdb785fa01013150c8db4f7f641392ce215338b9e49b94b02999e9326d49cf4",
+    "bytes": 1581158,
+    "transformation": "byte_copy"
+  },
+  {
+    "source": "work/microscopy_full_2026-10-27/selected_frames_v1/micro_late_559.png",
+    "destination": "data/samples/micro_late_559.png",
+    "source_sha256": "3b4acfc3a045dc210c1da4ec54ad7c119cfd4812c336019ebf62f30738bcce2a",
+    "export_sha256": "3b4acfc3a045dc210c1da4ec54ad7c119cfd4812c336019ebf62f30738bcce2a",
+    "bytes": 2289507,
+    "transformation": "byte_copy"
+  },
+  {
+    "source": "work/microscopy_full_2026-10-27/selected_frames_v1/micro_late_583.png",
+    "destination": "data/samples/micro_late_583.png",
+    "source_sha256": "1e634625460425904b3944390a37381a58f6f674ec54d20da4995778c7ed02bb",
+    "export_sha256": "1e634625460425904b3944390a37381a58f6f674ec54d20da4995778c7ed02bb",
+    "bytes": 2551090,
+    "transformation": "byte_copy"
+  },
+  {
+    "source": "work/microscopy_full_2026-10-27/selected_frames_v1/micro_late_164.png",
+    "destination": "data/examples/microscopy/grid.png",
+    "source_sha256": "643a81f950615d0647d85c19e0ee30b86c701873d7b8db4fde2a6f6638e84df7",
+    "export_sha256": "fd5664c1eaf3d012074cb058db4845ea07ee8eb3f28143d15c5d5abe4870e998",
+    "bytes": 655245,
+    "transformation": "lossless RGB crop xywh=[80, 100, 512, 768]; no resampling"
+  },
+  {
+    "source": "work/microscopy_full_2026-10-27/selected_frames_v1/micro_late_164.png",
+    "destination": "data/examples/microscopy/stripe.png",
+    "source_sha256": "643a81f950615d0647d85c19e0ee30b86c701873d7b8db4fde2a6f6638e84df7",
+    "export_sha256": "450f0001d31b530c89010cbd3f50a0fd80ad7b1edd4ef0177aa29f2ed73da820",
+    "bytes": 567666,
+    "transformation": "lossless RGB crop xywh=[920, 100, 512, 768]; no resampling"
+  },
+  {
+    "source": "data/processed/scan_2026-10-14_v2/黑白正视图/088.png",
+    "destination": "data/samples/diffraction/up_088.png",
+    "source_sha256": "696ff8130017ef3657f4ce90186c327c149a19fb847ae4e168ddf89ae6f6810e",
+    "export_sha256": "17776c3c518f012b0cc1462d3ec94f774685d5dc929099e7992c130603fa8328",
+    "bytes": 198795,
+    "transformation": "display only: crop [0,960,2400,2300] (screen y=48..115 mm), fixed 16-bit /257 to 8-bit, Lanczos 720x402"
+  },
+  {
+    "source": "data/processed/scan_2026-10-14_v2/黑白正视图/098.png",
+    "destination": "data/samples/diffraction/up_098.png",
+    "source_sha256": "0327ced07dd70ea61213811e899d0aef4224f76caa98a86ef516b2cfc526bd16",
+    "export_sha256": "4920294b12e88193de4af94795386b441a6cb7133e3ca474daf99f8f6ffbcbd8",
+    "bytes": 198642,
+    "transformation": "display only: crop [0,960,2400,2300] (screen y=48..115 mm), fixed 16-bit /257 to 8-bit, Lanczos 720x402"
+  },
+  {
+    "source": "data/processed/scan_2026-10-14_v2/黑白正视图/105.png",
+    "destination": "data/samples/diffraction/up_105.png",
+    "source_sha256": "a19704e737b2a02d6338202aade66fce94fcda7e9cb1284b77cac791bdbbcd39",
+    "export_sha256": "2583f56d9dc16a4aa1915c0d266ea90ea6a5700c617363a7d6950e68c3350185",
+    "bytes": 198259,
+    "transformation": "display only: crop [0,960,2400,2300] (screen y=48..115 mm), fixed 16-bit /257 to 8-bit, Lanczos 720x402"
+  },
+  {
+    "source": "data/processed/scan_2026-10-14_v2/黑白正视图/108.png",
+    "destination": "data/samples/diffraction/up_108.png",
+    "source_sha256": "0f3eb0fd5684664fc89a12ff91b1ce45838fe26a69c9501de07eaa4f66ddc454",
+    "export_sha256": "4671813e715fe60e5acc7aeba6d29ad1b1cf3d9dbea5937a7e7a9f1db8330edb",
+    "bytes": 197440,
+    "transformation": "display only: crop [0,960,2400,2300] (screen y=48..115 mm), fixed 16-bit /257 to 8-bit, Lanczos 720x402"
+  },
+  {
+    "source": "data/processed/scan_2026-10-14_v2/黑白正视图/116.png",
+    "destination": "data/samples/diffraction/up_116.png",
+    "source_sha256": "69af9d380d9121cda7739aab0bafa09be05bf5bd71a66b3caa764220d655d94f",
+    "export_sha256": "a3d24fb710db099955a1d62c11bf69bc19ea4170dced2764df0709cee8ec4cf8",
+    "bytes": 194556,
+    "transformation": "display only: crop [0,960,2400,2300] (screen y=48..115 mm), fixed 16-bit /257 to 8-bit, Lanczos 720x402"
+  },
+  {
+    "source": "data/processed/scan_2026-10-14_v2/黑白正视图/127.png",
+    "destination": "data/samples/diffraction/up_127.png",
+    "source_sha256": "4404c8610761d90a0a09b2e78c2b07b5c5a980e2b631d73ea25837310a55a4c4",
+    "export_sha256": "d61134e61ad65a1cbb012b5afb0e0b0628f81fa0168f4236d2e78e52cdee01fe",
+    "bytes": 197596,
+    "transformation": "display only: crop [0,960,2400,2300] (screen y=48..115 mm), fixed 16-bit /257 to 8-bit, Lanczos 720x402"
+  },
+  {
+    "source": "data/processed/scan_2026-10-14_v2/黑白正视图/151.png",
+    "destination": "data/samples/diffraction/up_151.png",
+    "source_sha256": "86d20909094bdb64dcda1f5324c08994650d10b17a9b5040df06920ac1ad379d",
+    "export_sha256": "37299ea42e8475082800131865e5f7b4bc407a99d78441e7fb76a65a2dc3b7e1",
+    "bytes": 197133,
+    "transformation": "display only: crop [0,960,2400,2300] (screen y=48..115 mm), fixed 16-bit /257 to 8-bit, Lanczos 720x402"
+  },
+  {
+    "source": "data/processed/scan_2026-10-14_v2/黑白正视图/163.png",
+    "destination": "data/samples/diffraction/up_163.png",
+    "source_sha256": "9173255a7c475def48f054f44b06a6a409b20f139fd4c0b8b5ed91e18368e788",
+    "export_sha256": "9bb83bbf974b8ce1574299df061b7dd39767c8596adaddceb34e83f72f6f7d70",
+    "bytes": 197401,
+    "transformation": "display only: crop [0,960,2400,2300] (screen y=48..115 mm), fixed 16-bit /257 to 8-bit, Lanczos 720x402"
+  },
+  {
+    "source": "data/processed/scan_2026-10-14_v2/黑白正视图/175.png",
+    "destination": "data/samples/diffraction/down_175.png",
+    "source_sha256": "c020bbb526f85839809dd40574634fffa1d31d66b6a69c04e7395e49f18ada8a",
+    "export_sha256": "24e47f9759a19a67db3c0d5394f88206af2fe604569a8550aecbddefd8e55eab",
+    "bytes": 197722,
+    "transformation": "display only: crop [0,960,2400,2300] (screen y=48..115 mm), fixed 16-bit /257 to 8-bit, Lanczos 720x402"
+  },
+  {
+    "source": "data/processed/scan_2026-10-14_v2/黑白正视图/177.png",
+    "destination": "data/samples/diffraction/down_177.png",
+    "source_sha256": "be2bc0a71e2c7d64b9f50fe4c023be95d1b6bde1d0952301370fe9297563f9a7",
+    "export_sha256": "2cbd14776ebe8f4a79f5f50cca53e3532107f49c47ddc87afda3ac440be5b4da",
+    "bytes": 196931,
+    "transformation": "display only: crop [0,960,2400,2300] (screen y=48..115 mm), fixed 16-bit /257 to 8-bit, Lanczos 720x402"
+  },
+  {
+    "source": "data/processed/scan_2026-10-14_v2/黑白正视图/181.png",
+    "destination": "data/samples/diffraction/down_181.png",
+    "source_sha256": "cbb4c7af3a757147c010a6e8dbbcedd268e826099cc29fe9827f4ef995adf9c0",
+    "export_sha256": "9869fe59b2099a577c9777fb4be5488bc60b66094d6b9430fe86e7de96f805b1",
+    "bytes": 197025,
+    "transformation": "display only: crop [0,960,2400,2300] (screen y=48..115 mm), fixed 16-bit /257 to 8-bit, Lanczos 720x402"
+  },
+  {
+    "source": "data/processed/scan_2026-10-14_v2/黑白正视图/190.png",
+    "destination": "data/samples/diffraction/down_190.png",
+    "source_sha256": "4590c74900f680b38f78b9bcfc5d9ba35c14856d13ac2343aee9c41bae57cb0c",
+    "export_sha256": "6af8484845c1626c533491feaf0c1bc60fc967b97d5cef6925d9e247256d95d3",
+    "bytes": 194968,
+    "transformation": "display only: crop [0,960,2400,2300] (screen y=48..115 mm), fixed 16-bit /257 to 8-bit, Lanczos 720x402"
+  },
+  {
+    "source": "data/processed/scan_2026-10-14_v2/黑白正视图/198.png",
+    "destination": "data/samples/diffraction/down_198.png",
+    "source_sha256": "3247f925072f13ec3f68f9f3172d34754e2af8d68583139f256048c71a719f33",
+    "export_sha256": "0327692fc34ac36f7d63663dd9d5a5e4b25d9c42f19ba3f08e8371a0087f738e",
+    "bytes": 195137,
+    "transformation": "display only: crop [0,960,2400,2300] (screen y=48..115 mm), fixed 16-bit /257 to 8-bit, Lanczos 720x402"
+  },
+  {
+    "source": "data/processed/scan_2026-10-14_v2/黑白正视图/202.png",
+    "destination": "data/samples/diffraction/down_202.png",
+    "source_sha256": "dbec33c2f58b31de15036e39b313664c2d5ccb2769c4d536e03935cfb7255a01",
+    "export_sha256": "79ce6183e92301117ea44d4af3e14a931993d1bb3d4a7f4812ee083ddc146b6c",
+    "bytes": 196083,
+    "transformation": "display only: crop [0,960,2400,2300] (screen y=48..115 mm), fixed 16-bit /257 to 8-bit, Lanczos 720x402"
+  },
+  {
+    "source": "archive/legacy_workspace/图像分析/stage1/outputs/rawcheck_20261010/raw_displays/014.png",
+    "destination": "data/samples/detection014.png",
+    "source_sha256": "2506a10e4b9bd60076ebe3f78dbbf4e13164f03e3a355d53edbb6df28d7bab47",
+    "export_sha256": "2506a10e4b9bd60076ebe3f78dbbf4e13164f03e3a355d53edbb6df28d7bab47",
+    "bytes": 966177,
+    "transformation": "byte_copy"
+  },
+  {
+    "source": "archive/legacy_workspace/图像分析/stage1/outputs/algorithm_trial_v2_r4/source/guided_detection.py",
+    "destination": "provenance/historical_code/prediction014_guided_detection.py.txt",
+    "source_sha256": "53f212ee0c63c6ef29fc05885f005fa0e7637f397a3db0297459fb761e01f68a",
+    "export_sha256": "53f212ee0c63c6ef29fc05885f005fa0e7637f397a3db0297459fb761e01f68a",
+    "bytes": 25903,
+    "transformation": "byte_copy"
+  },
+  {
+    "source": "archive/legacy_workspace/图像分析/stage1/outputs/algorithm_trial_v2_r4/geometric_models.json",
+    "destination": "data/paper/prediction014.json",
+    "source_sha256": "dc0d9b500bc6d7d68378d9f1eb37b3febad8d317e052e19739934c3e8580eec8",
+    "export_sha256": "30d1fc2a366148f713a488b0295b39ac466ef9d438d496a28b01ab9a3938e830",
+    "bytes": 70205,
+    "transformation": "extract frame 014 geometry; join frozen spots/predictions by frame_id; preserve all statuses"
+  },
+  {
+    "source": "results/analysis/microscopy_2026-10-21_full_v2/data/full_series.json",
+    "destination": "data/paper/microscopy_full_series_late.json",
+    "source_sha256": "bb8e8a40a212b1112d954e84bbb665f1d63a085ed29224c866872a490b5516cd",
+    "export_sha256": "10b3cc77e769d66ec6ee36cf966f6f1ebe3e5f8069df7f73dc7ab3aeaad5d7df",
+    "bytes": 2270170,
+    "transformation": "filter video_id=micro_late, keep all 2097 records"
+  },
+  {
+    "source": "results/analysis/channel_response_audit_2026-10-19_v1/data/point_audit.csv",
+    "destination": "data/paper/channel_points_cycle02.csv",
+    "source_sha256": "4716f234c7d5cbf46371dbb963b3320d581e1cb8a4db74a8aaf2f4246c12778f",
+    "export_sha256": "051b0631915a50c5e57cafa66dc8772a20d223f8c9c0613cef9a4e1af0a06dd2",
+    "bytes": 1613043,
+    "transformation": "filter group=cycle02 and selection=included; 2138 rows, no sign or brightness filtering"
+  },
+  {
+    "source": "results/analysis/channel_response_audit_2026-10-19_v1/data/fit_metrics.csv",
+    "destination": "data/paper/channel_affine_reference.json",
+    "source_sha256": "50912683411fecff8096632a797bf963dfb4b02438a5c4e6f4b0f0ab36ac67be",
+    "export_sha256": "565a6f825562b1a8d1e73ddff8f0f6c19d4ab7bc78c245c6b3f0d8645fe2a732",
+    "bytes": 1110,
+    "transformation": "select the paper RG affine fit reference"
+  },
+  {
+    "source": "results/analysis/bright_node_article_2026-10-12_v1/data/individual_fits.csv",
+    "destination": "data/paper/original_bright/individual_fits.csv",
+    "source_sha256": "403052e6df1b507a9a2df06186d1b2e8c88e023b3551185e939cdf290b9e2292",
+    "export_sha256": "403052e6df1b507a9a2df06186d1b2e8c88e023b3551185e939cdf290b9e2292",
+    "bytes": 1201,
+    "transformation": "byte_copy"
+  },
+  {
+    "source": "results/analysis/bright_node_article_2026-10-12_v1/data/individual_node_predictions.csv",
+    "destination": "data/paper/original_bright/individual_node_predictions.csv",
+    "source_sha256": "13b430a8b0d494c681314c322a1a5ba332a01d403020ae6651c06a701bcb92d6",
+    "export_sha256": "13b430a8b0d494c681314c322a1a5ba332a01d403020ae6651c06a701bcb92d6",
+    "bytes": 4000,
+    "transformation": "byte_copy"
+  },
+  {
+    "source": "data/annotations/scan_2026-10-14/raw_display/104.png",
+    "destination": "data/core/diffraction/104/raw_display.png",
+    "source_sha256": "0c3a0356de2a4f4a28537bc0ab65079976a31b7edfd94b1a842a6ffd837c29d3",
+    "export_sha256": "0c3a0356de2a4f4a28537bc0ab65079976a31b7edfd94b1a842a6ffd837c29d3",
+    "transformation": "byte_copy"
+  },
+  {
+    "source": "data/raw/scan_2026-10-14/DSC00182.ARW",
+    "destination": "data/core/diffraction/104/linear_cfa.npz",
+    "source_sha256": "dce7a7c3bedb9b0d5a55ebdd240423dc49529d3e8bdfd8eedcc3ec9c395e0422",
+    "export_sha256": "2f4503620cd819b3165f3a89f7bcb1341c64d4ef6a4bb4e4ea96aa897afdd38a",
+    "transformation": "Exact detector inputs from native Bayer samples: black-subtracted R, aligned G1/G2 mean, native near-white mask. Float32/bool stored losslessly; no display tone map or resize."
+  },
+  {
+    "source": "data/annotations/scan_2026-10-14/raw_display/108.png",
+    "destination": "data/core/diffraction/108/raw_display.png",
+    "source_sha256": "622ed00d8f6e671b91dad4a375a67867de7b3023b6e1aa1db877f5cad0915598",
+    "export_sha256": "622ed00d8f6e671b91dad4a375a67867de7b3023b6e1aa1db877f5cad0915598",
+    "transformation": "byte_copy"
+  },
+  {
+    "source": "data/raw/scan_2026-10-14/DSC00186.ARW",
+    "destination": "data/core/diffraction/108/linear_cfa.npz",
+    "source_sha256": "4577ce5a6b628b136dd11f54966bd6e58d4abed30d426ff9ae7835443b17bddb",
+    "export_sha256": "e4251c273ef7792b0e6188516e59cc779ba894b0d462a95cbb9cfde0353f93c3",
+    "transformation": "Exact detector inputs from native Bayer samples: black-subtracted R, aligned G1/G2 mean, native near-white mask. Float32/bool stored losslessly; no display tone map or resize."
+  },
+  {
+    "source": "data/annotations/scan_2026-10-14/raw_display/197.png",
+    "destination": "data/core/diffraction/197/raw_display.png",
+    "source_sha256": "5f1b1b24bfdcb4540ae5a414cba5e8da2d1926a95fd79344dc041f107895589c",
+    "export_sha256": "5f1b1b24bfdcb4540ae5a414cba5e8da2d1926a95fd79344dc041f107895589c",
+    "transformation": "byte_copy"
+  },
+  {
+    "source": "data/raw/scan_2026-10-14/DSC00276.ARW",
+    "destination": "data/core/diffraction/197/linear_cfa.npz",
+    "source_sha256": "0aa8a700b3da0c8ae2acd7c3a74aaaba374c1fc50cdf27b8bb8992b0884e6537",
+    "export_sha256": "98b4d7b2fc8bc28f8a1f8dc3df3c23688576d12f263c0c0030c8e40d72a4ed94",
+    "transformation": "Exact detector inputs from native Bayer samples: black-subtracted R, aligned G1/G2 mean, native near-white mask. Float32/bool stored losslessly; no display tone map or resize."
+  },
+  {
+    "source": "data/annotations/scan_2026-10-14/raw_display/200.png",
+    "destination": "data/core/diffraction/200/raw_display.png",
+    "source_sha256": "2316b773fb1c1f073e9a382363c245bb391509739eb4a9516744b9bfc54f8058",
+    "export_sha256": "2316b773fb1c1f073e9a382363c245bb391509739eb4a9516744b9bfc54f8058",
+    "transformation": "byte_copy"
+  },
+  {
+    "source": "data/raw/scan_2026-10-14/DSC00279.ARW",
+    "destination": "data/core/diffraction/200/linear_cfa.npz",
+    "source_sha256": "108c0392b2c40a15391f2dbb2ff2093a97ed0aa4ae1d169af25cde93acb1dbaf",
+    "export_sha256": "271e16ab0d1d51c41ea747226d83e7f337337dea2c2780e84db3de1ed5258a7a",
+    "transformation": "Exact detector inputs from native Bayer samples: black-subtracted R, aligned G1/G2 mean, native near-white mask. Float32/bool stored losslessly; no display tone map or resize."
+  },
+  {
+    "source": "work/microscopy_full_2026-10-27/selected_frames_v1/micro_late_164.png",
+    "destination": "data/core/microscopy/micro_late_164.png",
+    "source_sha256": "643a81f950615d0647d85c19e0ee30b86c701873d7b8db4fde2a6f6638e84df7",
+    "export_sha256": "643a81f950615d0647d85c19e0ee30b86c701873d7b8db4fde2a6f6638e84df7",
+    "transformation": "byte_copy"
+  },
+  {
+    "source": "work/microscopy_full_2026-10-27/selected_frames_v1/micro_late_196.png",
+    "destination": "data/core/microscopy/micro_late_196.png",
+    "source_sha256": "50697616d8042c895a43f48e3d4ece7b45a3b99cf17f9018921d2f5e1341f7c0",
+    "export_sha256": "50697616d8042c895a43f48e3d4ece7b45a3b99cf17f9018921d2f5e1341f7c0",
+    "transformation": "byte_copy"
+  },
+  {
+    "source": "work/microscopy_full_2026-10-27/selected_frames_v1/micro_late_254.png",
+    "destination": "data/core/microscopy/micro_late_254.png",
+    "source_sha256": "542c0c43a733890617abefe70dfa2bc713fedaa00d8621c3dc6c950458e44d16",
+    "export_sha256": "542c0c43a733890617abefe70dfa2bc713fedaa00d8621c3dc6c950458e44d16",
+    "transformation": "byte_copy"
+  },
+  {
+    "source": "work/microscopy_full_2026-10-27/selected_frames_v1/micro_late_436.png",
+    "destination": "data/core/microscopy/micro_late_436.png",
+    "source_sha256": "b10aa078076267fa8761b5d0d189d8491083072bfc254a0941813273fe15747c",
+    "export_sha256": "b10aa078076267fa8761b5d0d189d8491083072bfc254a0941813273fe15747c",
+    "transformation": "byte_copy"
+  },
+  {
+    "source": "work/microscopy_full_2026-10-27/selected_frames_v1/micro_late_559.png",
+    "destination": "data/core/microscopy/micro_late_559.png",
+    "source_sha256": "3b4acfc3a045dc210c1da4ec54ad7c119cfd4812c336019ebf62f30738bcce2a",
+    "export_sha256": "3b4acfc3a045dc210c1da4ec54ad7c119cfd4812c336019ebf62f30738bcce2a",
+    "transformation": "byte_copy"
+  },
+  {
+    "source": "src/williams_diffraction/microscopy_lattice.py",
+    "destination": "data/core/code/microscopy_lattice.py",
+    "source_sha256": "4f52f963c9eda4d872edeec6ca7ac55dee2447dec4c4f68e4e6ead7d14585021",
+    "export_sha256": "4f52f963c9eda4d872edeec6ca7ac55dee2447dec4c4f68e4e6ead7d14585021",
+    "transformation": "byte_copy"
+  },
+  {
+    "source": "src/williams_diffraction/microscopy_series.py",
+    "destination": "data/core/code/microscopy_series.py",
+    "source_sha256": "ea26de1df8b43e83b109d22fdc8e55a2567d3cf82b3d0d7f6a465344ffef0621",
+    "export_sha256": "ea26de1df8b43e83b109d22fdc8e55a2567d3cf82b3d0d7f6a465344ffef0621",
+    "transformation": "byte_copy"
+  },
+  {
+    "source": "src/williams_diffraction/microscopy_lattice.py",
+    "destination": "src/williams_diffraction/microscopy_lattice.py",
+    "source_sha256": "4f52f963c9eda4d872edeec6ca7ac55dee2447dec4c4f68e4e6ead7d14585021",
+    "export_sha256": "4f52f963c9eda4d872edeec6ca7ac55dee2447dec4c4f68e4e6ead7d14585021",
+    "transformation": "byte_copy accepted array algorithm"
+  },
+  {
+    "source": "src/williams_diffraction/microscopy_series.py",
+    "destination": "src/williams_diffraction/microscopy_series.py",
+    "source_sha256": "ea26de1df8b43e83b109d22fdc8e55a2567d3cf82b3d0d7f6a465344ffef0621",
+    "export_sha256": "ea26de1df8b43e83b109d22fdc8e55a2567d3cf82b3d0d7f6a465344ffef0621",
+    "transformation": "byte_copy accepted array algorithm"
+  },
+  {
+    "source": null,
+    "destination": "src/williams_diffraction/independent_lab.py",
+    "source_sha256": null,
+    "export_sha256": "c3dbfcb53a3c363cd8720516041f38ba2c7f6f7d9fc55293b63eb9ef945a4017",
+    "bytes": 25669,
+    "transformation": "Selection, batch control and concise data-role presentation; original source identity retained",
+    "prior_export_sha256": "22435bf4a24eadd494b203792ea02f622172e7fada2b1930f11894b2fc3b0648"
+  },
+  {
+    "source": null,
+    "destination": "configs/experiments.json",
+    "source_sha256": null,
+    "export_sha256": "0c7d3ad4db8bf7d35343e9e1407e9f7b3090747ca66b805662b998d976246f01",
+    "bytes": 447719,
+    "transformation": "Selection, batch control and concise data-role presentation; original source identity retained",
+    "prior_export_sha256": "ede78d5fabc8151a37537777f15f77a0a7aa6dd3978e6addeed08a3feb609070"
+  },
+  {
+    "source": null,
+    "destination": "tests/test_independent.py",
+    "source_sha256": null,
+    "export_sha256": "a5b2f4dd3671a59a3aa130d4c6d16db0b8e0e7d4a6c129160b7ddbc2dd6ca69c",
+    "bytes": 4856,
+    "transformation": "Created for independent local delivery v10"
+  },
+  {
+    "source": "data/research/mosaic125.npz",
+    "destination": "data/display/photometry/125_audit_p011.png",
+    "source_sha256": "29f1be1d88743c77523d08c237d481854f59c3f63173f5e8f33ba01b76f0f3e6",
+    "export_sha256": "7eb0149513c8fab9339dc279458e3caea65a7724bcf9bfe161771ea72e09289f",
+    "bytes": 21254,
+    "transformation": "Native G1 crop; asinh display only; never used for measurement"
+  },
+  {
+    "source": "data/research/mosaic125.npz",
+    "destination": "data/display/photometry/125_audit_p007.png",
+    "source_sha256": "29f1be1d88743c77523d08c237d481854f59c3f63173f5e8f33ba01b76f0f3e6",
+    "export_sha256": "568b6f4e29b30a552df43242f1dea7a1b0a7c04769930eb930ebb84ca672a941",
+    "bytes": 21561,
+    "transformation": "Native G1 crop; asinh display only; never used for measurement"
+  },
+  {
+    "source": "data/research/mosaic125.npz",
+    "destination": "data/display/photometry/125_audit_p013.png",
+    "source_sha256": "29f1be1d88743c77523d08c237d481854f59c3f63173f5e8f33ba01b76f0f3e6",
+    "export_sha256": "c0deb980f26a3a9042cdd8c234f673d17ab4d9a19412aa38a15f7a89bc297c1b",
+    "bytes": 21555,
+    "transformation": "Native G1 crop; asinh display only; never used for measurement"
+  },
+  {
+    "source": "data/research/mosaic125.npz",
+    "destination": "data/display/photometry/125_audit_p002.png",
+    "source_sha256": "29f1be1d88743c77523d08c237d481854f59c3f63173f5e8f33ba01b76f0f3e6",
+    "export_sha256": "9e3fdc070daee87712f4490bb16c6f7d46e9c20141bb227fb0c4f64fb4a6fdbd",
+    "bytes": 21107,
+    "transformation": "Native G1 crop; asinh display only; never used for measurement"
+  },
+  {
+    "source": "data/research/mosaic125.npz",
+    "destination": "data/display/photometry/125_audit_p014.png",
+    "source_sha256": "29f1be1d88743c77523d08c237d481854f59c3f63173f5e8f33ba01b76f0f3e6",
+    "export_sha256": "b4c5405353d7565bbf0595350a337659bb04ab50eec1acae53612db60eb4c268",
+    "bytes": 21519,
+    "transformation": "Native G1 crop; asinh display only; never used for measurement"
+  },
+  {
+    "source": null,
+    "source_sha256": null,
+    "destination": "src/williams_diffraction/batch_lab.py",
+    "export_sha256": "5efd551a8437bf73a83527d35579bf5313c098df9a27014cf2b477764c96f609",
+    "bytes": 2399,
+    "transformation": "Created for local batch selection delivery v12"
+  },
+  {
+    "source": null,
+    "source_sha256": null,
+    "destination": "tests/test_batch.py",
+    "export_sha256": "ad5216debb7db933214fa4cc8d949a32eafaf73197e90c0b14d9c4ed7084a48f",
+    "bytes": 5086,
+    "transformation": "Created for local batch selection delivery v12"
+  },
+  {
+    "source": "data/core/microscopy/micro_late_164.png",
+    "source_sha256": "643a81f950615d0647d85c19e0ee30b86c701873d7b8db4fde2a6f6638e84df7",
+    "destination": "data/display/microscopy/micro164_left.png",
+    "export_sha256": "fd5664c1eaf3d012074cb058db4845ea07ee8eb3f28143d15c5d5abe4870e998",
+    "bytes": 655245,
+    "transformation": "Exact native-pixel ROI preview; no spectrum or fitting",
+    "roi_xywh": [
+      80,
+      100,
+      512,
+      768
+    ]
+  },
+  {
+    "source": "data/core/microscopy/micro_late_164.png",
+    "source_sha256": "643a81f950615d0647d85c19e0ee30b86c701873d7b8db4fde2a6f6638e84df7",
+    "destination": "data/display/microscopy/micro164_center.png",
+    "export_sha256": "30ca279f0b3a1fd8325c6f32826d1de285376832761c95faf0242aba91e0befd",
+    "bytes": 425946,
+    "transformation": "Exact native-pixel ROI preview; no spectrum or fitting",
+    "roi_xywh": [
+      500,
+      200,
+      512,
+      512
+    ]
+  },
+  {
+    "source": "data/core/microscopy/micro_late_164.png",
+    "source_sha256": "643a81f950615d0647d85c19e0ee30b86c701873d7b8db4fde2a6f6638e84df7",
+    "destination": "data/display/microscopy/micro164_right.png",
+    "export_sha256": "450f0001d31b530c89010cbd3f50a0fd80ad7b1edd4ef0177aa29f2ed73da820",
+    "bytes": 567666,
+    "transformation": "Exact native-pixel ROI preview; no spectrum or fitting",
+    "roi_xywh": [
+      920,
+      100,
+      512,
+      768
+    ]
+  },
+  {
+    "source": "data/core/microscopy/micro_late_196.png",
+    "source_sha256": "50697616d8042c895a43f48e3d4ece7b45a3b99cf17f9018921d2f5e1341f7c0",
+    "destination": "data/display/microscopy/micro196_right.png",
+    "export_sha256": "67c848fcc0b297f6421228b65b40b3dc65ec6ea59c2374d3d679f0059afe83ca",
+    "bytes": 552100,
+    "transformation": "Exact native-pixel ROI preview; no spectrum or fitting",
+    "roi_xywh": [
+      920,
+      100,
+      512,
+      768
+    ]
+  },
+  {
+    "source": "data/core/microscopy/micro_late_254.png",
+    "source_sha256": "542c0c43a733890617abefe70dfa2bc713fedaa00d8621c3dc6c950458e44d16",
+    "destination": "data/display/microscopy/micro254_right.png",
+    "export_sha256": "405438a37fd5ef237a1d6ec9b0531da85578bd3b454e818024a5cf86fb1db195",
+    "bytes": 493696,
+    "transformation": "Exact native-pixel ROI preview; no spectrum or fitting",
+    "roi_xywh": [
+      920,
+      100,
+      512,
+      768
+    ]
+  },
+  {
+    "source": "data/core/microscopy/micro_late_436.png",
+    "source_sha256": "b10aa078076267fa8761b5d0d189d8491083072bfc254a0941813273fe15747c",
+    "destination": "data/display/microscopy/micro436_center.png",
+    "export_sha256": "f6c67cc6210fce89e17b88a1cd77dc7e59bf2ded265fa32dec5123c3a90c74ca",
+    "bytes": 180486,
+    "transformation": "Exact native-pixel ROI preview; no spectrum or fitting",
+    "roi_xywh": [
+      500,
+      200,
+      512,
+      512
+    ]
+  },
+  {
+    "source": "data/core/microscopy/micro_late_559.png",
+    "source_sha256": "3b4acfc3a045dc210c1da4ec54ad7c119cfd4812c336019ebf62f30738bcce2a",
+    "destination": "data/display/microscopy/micro559_center.png",
+    "export_sha256": "ea5aba2f4df4dd64ff71b7371b1df02b11daeb6ac38bc62584acef76b734265e",
+    "bytes": 393550,
+    "transformation": "Exact native-pixel ROI preview; no spectrum or fitting",
+    "roi_xywh": [
+      500,
+      200,
+      512,
+      512
+    ]
+  }
+]

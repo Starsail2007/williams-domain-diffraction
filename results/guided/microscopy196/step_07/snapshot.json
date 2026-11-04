@@ -1,0 +1,23 @@
+{
+  "step": "texture.profile",
+  "sequence": 7,
+  "pass_index": 1,
+  "images": [
+    "results/guided/microscopy196/step_07/profile.png"
+  ],
+  "metrics": [
+    [
+      "所选谱峰周期 / µm",
+      12.292431814132451
+    ],
+    [
+      "附近ACF峰 / µm",
+      12.418534029568145
+    ]
+  ],
+  "table": null,
+  "evidence": [],
+  "links": [],
+  "elapsed_s": 2.473,
+  "status": "computed"
+}

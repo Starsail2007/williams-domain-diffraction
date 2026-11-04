@@ -1,0 +1,27 @@
+{
+  "step": "detection.input",
+  "sequence": 1,
+  "pass_index": 1,
+  "images": [
+    "data/core/diffraction/200/raw_display.png"
+  ],
+  "metrics": [
+    [
+      "实验",
+      "3"
+    ],
+    [
+      "帧号",
+      "200"
+    ],
+    [
+      "电压 / V",
+      3.48
+    ]
+  ],
+  "table": null,
+  "evidence": [],
+  "links": [],
+  "elapsed_s": 1.591,
+  "status": "computed"
+}

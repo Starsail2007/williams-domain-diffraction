@@ -1,0 +1,46 @@
+{
+  "step": "period.geometry",
+  "sequence": 3,
+  "pass_index": 1,
+  "images": [
+    "results/guided/periods/calculation/02_lattice.png"
+  ],
+  "metrics": [
+    [
+      "几何帧",
+      28
+    ],
+    [
+      "节点",
+      572
+    ],
+    [
+      "条件留一拟合",
+      1716
+    ]
+  ],
+  "table": {
+    "headers": [
+      "模型",
+      "留一误差 / 半步，中位数"
+    ],
+    "rows": [
+      [
+        "square",
+        0.21141605215095832
+      ],
+      [
+        "rectangular",
+        0.09040575605988578
+      ],
+      [
+        "affine",
+        0.07152998691951896
+      ]
+    ]
+  },
+  "evidence": [],
+  "links": [],
+  "elapsed_s": 5.387,
+  "status": "computed"
+}

@@ -1,0 +1,23 @@
+[
+  {
+    "cycle": "original",
+    "n_frames": 7,
+    "n_nodes": 71,
+    "NRMSE_median": 0.15753068248011295,
+    "representative_frame": "017"
+  },
+  {
+    "cycle": "cycle01",
+    "n_frames": 4,
+    "n_nodes": 36,
+    "NRMSE_median": 0.20431139706951518,
+    "representative_frame": "010"
+  },
+  {
+    "cycle": "cycle02",
+    "n_frames": 15,
+    "n_nodes": 169,
+    "NRMSE_median": 0.22916805501404464,
+    "representative_frame": "103"
+  }
+]

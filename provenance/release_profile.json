@@ -1,0 +1,125 @@
+{
+  "schema_version": 1,
+  "delivery_id": "williams-domain-diffraction-0.9.0",
+  "science_as_of": "2026-10-27",
+  "measurement": {
+    "batch": "scan_2026-10-14",
+    "version": "v2",
+    "frames": 204,
+    "candidates": 3077,
+    "channels": 12308,
+    "receipt_sha256": "7a15b9248f97f055e196e000944073b7bbd8f4cdea6dfcc42017ff8444d7726b"
+  },
+  "geometry": "scan_2026-10-14_geometry_audit_v9",
+  "detection": "scan_2026-10-14_audit_full_v16/reviewed_v1",
+  "numerical_run": "final_paper_2026-10-27_v2",
+  "figure_run": "exploration_paper_2026-10-27_v3",
+  "paper": {
+    "paper_version": "williams_final_2026-11-02_v04",
+    "paper_status": "Research manuscript supplied with the project",
+    "pages": 18,
+    "replaceable_without_runtime_checks": true
+  },
+  "laser_wavelength_nm": 632.8,
+  "new_cell_to_screen_distance_mm": 300.0,
+  "original_cell_to_screen_distance_mm": 120.0,
+  "historical_350mm_status": "Frozen old analysis convention; current final geometry recomputed exactly at 300mm without intensity refit",
+  "microscopy_full_v2_status": "accepted pre-wavelength-confirmation result; wavelength_known=false in old summary is historical, not current fact",
+  "upstream_anchors": [
+    {
+      "source": "work/validation/reflection_review_2026-10-19_v2/final_delivery_acceptance.json",
+      "sha256": "d29747302fb604ff027d9c795806f40b6543cabba59bfd6ab9af586390133317",
+      "status": "COMPLETE_WITH_EXPLICIT_SCIENTIFIC_LIMITS",
+      "scope": "upstream evidence; not a new RAW revalidation"
+    },
+    {
+      "source": "work/validation/reflection_review_2026-10-19_v2/full_cfa_v2_acceptance/acceptance.json",
+      "sha256": "875fa291afdf36aa81c301549c8ffd919cccefc08f1811e210f47bb0cc7bfbc7",
+      "status": "PASS",
+      "scope": "upstream evidence; not a new RAW revalidation"
+    },
+    {
+      "source": "work/validation/exploration_paper_2026-10-27_v2/acceptance.json",
+      "sha256": "ee15609466c53170f66b57c9197fc2f15b5472c79118b829ba489e9f70c53ed1",
+      "status": "PASS",
+      "scope": "upstream evidence; not a new RAW revalidation"
+    },
+    {
+      "source": "data/processed/scan_2026-10-14_v2/run_receipt.json",
+      "sha256": "7a15b9248f97f055e196e000944073b7bbd8f4cdea6dfcc42017ff8444d7726b",
+      "status": null,
+      "scope": "upstream evidence; not a new RAW revalidation"
+    },
+    {
+      "source": "results/analysis/final_paper_2026-10-27_v2/provenance.json",
+      "sha256": "4f2babb94a3c3da169f19c8ec06f2993522699e50137f19c46dfd0689950e7cb",
+      "status": null,
+      "scope": "upstream evidence; not a new RAW revalidation"
+    },
+    {
+      "source": "results/analysis/microscopy_2026-10-21_full_v2/provenance.json",
+      "sha256": "49f1679d80b272fe10ba92f0b17f82c8fe49c9183915ae75f87716467c44dcef",
+      "status": null,
+      "scope": "upstream evidence; not a new RAW revalidation"
+    },
+    {
+      "source": "results/analysis/scan_2026-10-14_audit_v2/run_receipt.json",
+      "sha256": "187ad69434d8262ef8ed2381932947ca4a08af8f3de0d2c9e92f722eb0807fc5",
+      "status": null,
+      "scope": "upstream evidence; not a new RAW revalidation"
+    },
+    {
+      "source": "results/analysis/scan_2026-10-14_audit_alternative_v2/run_receipt.json",
+      "sha256": "c90bee4dd80bc7791b9e5a8f503426a119904998860c91d8efa81077e2e568a1",
+      "status": null,
+      "scope": "upstream evidence; not a new RAW revalidation"
+    },
+    {
+      "source": "results/analysis/three_model_audit_2026-10-18_v3/run_receipt.json",
+      "sha256": "eeeb79fd632e62ea69ee643de4c3be11a830b3c05c9cd20f4633b4dab261704a",
+      "status": null,
+      "scope": "upstream evidence; not a new RAW revalidation"
+    },
+    {
+      "source": "results/analysis/measurement_comparison_audit_2026-10-19_v3/run_receipt.json",
+      "sha256": "d72a791d9e95f32f89f96800cfec3a0bc606df2336520eeda02acc0a4bedd52b",
+      "status": null,
+      "scope": "upstream evidence; not a new RAW revalidation"
+    },
+    {
+      "source": "results/analysis/scan_saturation_audit_2026-10-19_v2/run_receipt.json",
+      "sha256": "1edcef4b701dfcf2c2b24ade395559b7e9a52ca72e89a6fb889afcccd4a26e0a",
+      "status": null,
+      "scope": "upstream evidence; not a new RAW revalidation"
+    },
+    {
+      "source": "results/analysis/channel_response_audit_2026-10-19_v1/run_receipt.json",
+      "sha256": "3e9522ec8b512f392d9b4b048ee405c841d9401d89aa0dd0afdd558b6111fbe2",
+      "status": null,
+      "scope": "upstream evidence; not a new RAW revalidation"
+    }
+  ],
+  "raw_rehash_performed": false,
+  "code_license_selected": false,
+  "omitted": [
+    "full RAW",
+    "raw videos",
+    "phone screen caches",
+    "literature full texts",
+    "legacy workspace",
+    "full per-frame detection/measurement images",
+    "simulator GLB and vendor bundle"
+  ],
+  "current_paper_figures": 17,
+  "current_microscopy": {
+    "video_id": "micro_late",
+    "frames": 699,
+    "roi_records": 2097,
+    "reviewed_centers": 41,
+    "reviewed_roi_records": 123,
+    "matched_roi_records": 31
+  },
+  "reference_scope_note": "v1 extended reproduction and its receipts are historical supporting evidence, not the v04 paper subset",
+  "primary_entry": "Run-first single-page research workspace; visible native console on every run",
+  "environment_distribution": "Official upstream downloads on first start; no third-party binaries in this repository"
+}

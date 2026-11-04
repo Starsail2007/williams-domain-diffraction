@@ -1,0 +1,64 @@
+{
+  "step": "texture.checks",
+  "sequence": 6,
+  "pass_index": 1,
+  "images": [
+    "results/guided/microscopy164/step_06/tiles.png"
+  ],
+  "metrics": [
+    [
+      "二维共同支持",
+      "0/4"
+    ]
+  ],
+  "table": {
+    "headers": [
+      "裁剪",
+      "频率角色",
+      "相对频率差",
+      "匹配"
+    ],
+    "rows": [
+      [
+        "crop_90",
+        "family",
+        0.0031700452583929206,
+        true
+      ],
+      [
+        "crop_90",
+        "basis_1",
+        0.0023901695587186323,
+        true
+      ],
+      [
+        "crop_90",
+        "basis_2",
+        0.0031700452583929206,
+        true
+      ],
+      [
+        "crop_80",
+        "family",
+        0.003500823550414069,
+        true
+      ],
+      [
+        "crop_80",
+        "basis_1",
+        0.0075930880042275155,
+        true
+      ],
+      [
+        "crop_80",
+        "basis_2",
+        0.003500823550414069,
+        true
+      ]
+    ]
+  },
+  "evidence": [],
+  "links": [],
+  "elapsed_s": 2.066,
+  "status": "computed"
+}

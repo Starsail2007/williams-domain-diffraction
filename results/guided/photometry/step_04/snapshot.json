@@ -1,0 +1,24 @@
+{
+  "step": "photometry.integral",
+  "sequence": 4,
+  "pass_index": 1,
+  "images": [
+    "results/guided/photometry/step_04/weights.png",
+    "results/guided/photometry/step_04/residual.png"
+  ],
+  "metrics": [
+    [
+      "G1净积分 / DN·RAW px²",
+      3092967.8254964165
+    ],
+    [
+      "实际支持面积 / RAW px²",
+      49087.5
+    ]
+  ],
+  "table": null,
+  "evidence": [],
+  "links": [],
+  "elapsed_s": 5.223,
+  "status": "computed"
+}

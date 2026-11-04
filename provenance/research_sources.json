@@ -1,0 +1,29 @@
+{
+  "raw_source": "data/raw/scan_2026-10-14/DSC00203.ARW",
+  "raw_sha256": "dde0d3d4101463b49505ca7766163384720f6a16d11adb9e406bacbbe7180d39",
+  "array_sha256": "29f1be1d88743c77523d08c237d481854f59c3f63173f5e8f33ba01b76f0f3e6",
+  "record_source": "data/processed/scan_2026-10-14_v2/数据/照片逐张记录/125.json",
+  "record_sha256": "ca61eb89a71efe567ede1ceeffa7a33551c64ae20591afd2665a75e077627fca",
+  "raw_photometry": {
+    "source": "src/williams_diffraction/raw_photometry.py",
+    "sha256": "d713dc946dbf97ba7318655d25f799aa4d7104b4b710ba0ee21ef38bb0d366e4",
+    "transformation": "byte_copy"
+  },
+  "rg_functions": {
+    "source": "analysis/scan_repeats/channel_response.py",
+    "sha256": "91e524498b70f72175c3b1f409ba9a17022c49545efbbb11bf775d2eb18b524b",
+    "export_sha256": "d4ccbda99aaec7a34f55d4c70441d5b1ef1930eeeefc0a3bb5561c4b34627248",
+    "functions": [
+      "analyze",
+      "arrays",
+      "bootstrap",
+      "design",
+      "fit_rows",
+      "metrics",
+      "solve"
+    ],
+    "transformation": "exact AST/source extraction of pure array functions and constants; IO and plotting omitted"
+  },
+  "lossless_crop": true,
+  "raw_original_unchanged": true
+}

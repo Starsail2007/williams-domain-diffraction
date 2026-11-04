@@ -1,0 +1,34 @@
+[
+  {
+    "cycle_id": "cycle01",
+    "frame_id": "025",
+    "peak_uid": "025_audit_p002",
+    "original_name": "DSC00102.ARW",
+    "U_V": 7.23,
+    "center_raw_px": [
+      4179.845074219562,
+      2824.80323837137
+    ],
+    "selection": "most red-clipped actual 1D fit peak in this cycle",
+    "R_saturated_sample_count_r125": 2,
+    "green_max_raw_DN_r125": 6715.0,
+    "profile_y_from_peak_raw_px": -44.803238371369844,
+    "clipped_R_samples_on_profile": 2
+  },
+  {
+    "cycle_id": "cycle02",
+    "frame_id": "125",
+    "peak_uid": "125_audit_p007",
+    "original_name": "DSC00203.ARW",
+    "U_V": 6.77,
+    "center_raw_px": [
+      3610.6127909789084,
+      2984.3078205654915
+    ],
+    "selection": "most red-clipped actual 1D fit peak in this cycle",
+    "R_saturated_sample_count_r125": 9,
+    "green_max_raw_DN_r125": 7317.0,
+    "profile_y_from_peak_raw_px": -10.307820565491511,
+    "clipped_R_samples_on_profile": 2
+  }
+]

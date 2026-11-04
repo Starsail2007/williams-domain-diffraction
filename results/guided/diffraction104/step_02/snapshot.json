@@ -1,0 +1,23 @@
+{
+  "step": "detection.geometry",
+  "sequence": 2,
+  "pass_index": 1,
+  "images": [
+    "results/guided/diffraction104/calculation/01_screen_geometry.png"
+  ],
+  "metrics": [
+    [
+      "条件屏边",
+      2
+    ],
+    [
+      "数值映射误差 / mm",
+      7.236429368617792e-06
+    ]
+  ],
+  "table": null,
+  "evidence": [],
+  "links": [],
+  "elapsed_s": 2.174,
+  "status": "computed"
+}

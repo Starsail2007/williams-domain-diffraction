@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "williams-domain-diffraction"
+version = "0.12.0"
+description = "Independent image-analysis experiments and physical models for Williams-domain diffraction"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = ["numpy==2.5.3", "scipy==1.18.1"]
+
+[project.optional-dependencies]
+examples = ["opencv-python-headless==5.0.0.93", "pillow==12.3.0"]
+
+[tool.setuptools.packages.find]
+where = ["src"]

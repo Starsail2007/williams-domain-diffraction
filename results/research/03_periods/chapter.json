@@ -1,0 +1,293 @@
+{
+  "status": "PASS",
+  "reader_result": "分别测量衍射与显微周期，比较同周期和两倍周期对应，并保留谐波与混合反例。",
+  "horizontal_frames": 126,
+  "geometry_frames": 28,
+  "geometry_nodes": 572,
+  "conditional_LOO_fits": 1716,
+  "comparison": {
+    "status": "PASS",
+    "operation": "recompute frame-level aggregation",
+    "roi_matches": 31,
+    "one_dimensional_historical_frames": [
+      4,
+      5,
+      7
+    ],
+    "two_dimensional_matches": 1,
+    "summary": [
+      {
+        "batch": "10-10",
+        "cycle": "original",
+        "video": "micro_late",
+        "kind": "1d",
+        "n_roi_matches": 7,
+        "n_historical_frames": 4,
+        "p_median_um": 12.041366909830156,
+        "d_median_um": 5.818594882185434,
+        "residual_median": 0.029820171242544324,
+        "frames": [
+          {
+            "frame_id": "014",
+            "p_um": 12.292431814132451,
+            "d_um": 5.945147082712893,
+            "residual": 0.0338206644101362
+          },
+          {
+            "frame_id": "019",
+            "p_um": 11.667174432866409,
+            "d_um": 5.730478915541851,
+            "residual": 0.017992964010688506
+          },
+          {
+            "frame_id": "022",
+            "p_um": 11.79030200552786,
+            "d_um": 5.746771219895818,
+            "residual": 0.025819678074952446
+          },
+          {
+            "frame_id": "026",
+            "p_um": 12.620200221462328,
+            "d_um": 5.89041854447505,
+            "residual": 0.07124817414710816
+          }
+        ]
+      },
+      {
+        "batch": "10-14",
+        "cycle": "cycle01",
+        "video": "micro_late",
+        "kind": "1d",
+        "n_roi_matches": 11,
+        "n_historical_frames": 5,
+        "p_median_um": 11.79030200552786,
+        "d_median_um": 12.571183736431252,
+        "residual_median": -0.033472381129467266,
+        "frames": [
+          {
+            "frame_id": "010",
+            "p_um": 12.385669532179534,
+            "d_um": 12.814604870425958,
+            "residual": -0.033472381129467266
+          },
+          {
+            "frame_id": "012",
+            "p_um": 11.683182479700395,
+            "d_um": 12.571183736431252,
+            "residual": -0.07063783931161793
+          },
+          {
+            "frame_id": "014",
+            "p_um": 11.667174432866409,
+            "d_um": 12.060412556461575,
+            "residual": -0.03260569418783954
+          },
+          {
+            "frame_id": "017",
+            "p_um": 11.79030200552786,
+            "d_um": 12.300792069652509,
+            "residual": -0.04150058477812074
+          },
+          {
+            "frame_id": "022",
+            "p_um": 12.620200221462328,
+            "d_um": 12.749605430383113,
+            "residual": -0.010149742251034988
+          }
+        ]
+      },
+      {
+        "batch": "10-14",
+        "cycle": "cycle02",
+        "video": "micro_late",
+        "kind": "1d",
+        "n_roi_matches": 12,
+        "n_historical_frames": 7,
+        "p_median_um": 12.292431814132451,
+        "d_median_um": 12.250193132980035,
+        "residual_median": 0.009080414560650674,
+        "frames": [
+          {
+            "frame_id": "099",
+            "p_um": 13.923706898052679,
+            "d_um": 12.1622699837209,
+            "residual": 0.14482797345310106
+          },
+          {
+            "frame_id": "102",
+            "p_um": 12.478907250226616,
+            "d_um": 12.347080182009682,
+            "residual": 0.01067678076708467
+          },
+          {
+            "frame_id": "105",
+            "p_um": 12.292431814132451,
+            "d_um": 12.181815875877962,
+            "residual": 0.009080414560650674
+          },
+          {
+            "frame_id": "110",
+            "p_um": 11.683182479700395,
+            "d_um": 12.250193132980035,
+            "residual": -0.04628585420038245
+          },
+          {
+            "frame_id": "115",
+            "p_um": 11.667174432866409,
+            "d_um": 12.251441886387438,
+            "residual": -0.04768968901286702
+          },
+          {
+            "frame_id": "122",
+            "p_um": 11.79030200552786,
+            "d_um": 12.253175144014989,
+            "residual": -0.03777577101827506
+          },
+          {
+            "frame_id": "127",
+            "p_um": 12.620200221462328,
+            "d_um": 12.039553669306075,
+            "residual": 0.048228245672974346
+          }
+        ]
+      }
+    ],
+    "two_dimensional_supplement": [
+      {
+        "batch": "10-14",
+        "cycle": "cycle02",
+        "video": "micro_late",
+        "kind": "2d",
+        "n_roi_matches": 1,
+        "n_historical_frames": 1,
+        "p_median_um": 19.9084318799491,
+        "d_median_um": 20.153929437967786,
+        "residual_median": -0.012181126205403792,
+        "frames": [
+          {
+            "frame_id": "098",
+            "p_um": 19.9084318799491,
+            "d_um": 20.153929437967786,
+            "residual": -0.012181126205403792
+          }
+        ]
+      }
+    ]
+  },
+  "texture": [
+    {
+      "id": "micro164_left",
+      "title": "两方向格纹、谐波与混合峰：检验局部共同支持",
+      "status": "COMPUTED",
+      "quality_status": "RESOLVED_CANDIDATES",
+      "strongest_period_um": 20.17373120293636,
+      "family_period_um": 20.17373120293636,
+      "family_rank": 1,
+      "lower_support_period_um": 20.17373120293636,
+      "family_ambiguous": false,
+      "pair_coverage": 0.9173284876293321,
+      "pair_angle_deg": 87.96652210066897,
+      "jointly_supported_tiles": 3,
+      "spatial_pair_applicable": true,
+      "spatial_pair_supported": true
+    },
+    {
+      "id": "micro164_center",
+      "title": "空间混合产生全局双峰：局部格纹判断的反例",
+      "status": "COMPUTED",
+      "quality_status": "RESOLVED_CANDIDATES",
+      "strongest_period_um": 19.17800856343236,
+      "family_period_um": 19.735415720471373,
+      "family_rank": 2,
+      "lower_support_period_um": 19.735415720471373,
+      "family_ambiguous": false,
+      "pair_coverage": 0.732854971051261,
+      "pair_angle_deg": 89.71263207332635,
+      "jointly_supported_tiles": 0,
+      "spatial_pair_applicable": true,
+      "spatial_pair_supported": false
+    },
+    {
+      "id": "micro164_right",
+      "title": "同帧单方向条纹：与左侧格纹的空间对照",
+      "status": "COMPUTED",
+      "quality_status": "RESOLVED_CANDIDATES",
+      "strongest_period_um": 13.923706898052679,
+      "family_period_um": 13.923706898052679,
+      "family_rank": 1,
+      "lower_support_period_um": 13.923706898052679,
+      "family_ambiguous": false,
+      "pair_coverage": null,
+      "pair_angle_deg": null,
+      "jointly_supported_tiles": null,
+      "spatial_pair_applicable": false,
+      "spatial_pair_supported": null
+    },
+    {
+      "id": "micro196_right",
+      "title": "最强谱峰是二次谐波：重新寻找受支持的频率族",
+      "status": "COMPUTED",
+      "quality_status": "RESOLVED_CANDIDATES",
+      "strongest_period_um": 6.1582612094678115,
+      "family_period_um": 12.292431814132451,
+      "family_rank": 2,
+      "lower_support_period_um": 12.292431814132451,
+      "family_ambiguous": false,
+      "pair_coverage": null,
+      "pair_angle_deg": null,
+      "jointly_supported_tiles": null,
+      "spatial_pair_applicable": false,
+      "spatial_pair_supported": null
+    },
+    {
+      "id": "micro254_right",
+      "title": "频率族随支持阈值改变：保留身份歧义",
+      "status": "COMPUTED",
+      "quality_status": "RESOLVED_CANDIDATES",
+      "strongest_period_um": 6.163070142897178,
+      "family_period_um": null,
+      "family_rank": null,
+      "lower_support_period_um": 12.154789522066228,
+      "family_ambiguous": true,
+      "pair_coverage": null,
+      "pair_angle_deg": null,
+      "jointly_supported_tiles": null,
+      "spatial_pair_applicable": false,
+      "spatial_pair_supported": null
+    },
+    {
+      "id": "micro436_center",
+      "title": "近均匀与稀疏折线：有谱峰仍缺合格主族",
+      "status": "COMPUTED",
+      "quality_status": "RESOLVED_CANDIDATES",
+      "strongest_period_um": 52.13738676021346,
+      "family_period_um": null,
+      "family_rank": null,
+      "lower_support_period_um": 10.144402026485322,
+      "family_ambiguous": true,
+      "pair_coverage": null,
+      "pair_angle_deg": null,
+      "jointly_supported_tiles": null,
+      "spatial_pair_applicable": false,
+      "spatial_pair_supported": null
+    },
+    {
+      "id": "micro559_center",
+      "title": "降压折叠与方向弥散：二维基底缺少支持",
+      "status": "COMPUTED",
+      "quality_status": "RESOLVED_CANDIDATES",
+      "strongest_period_um": 12.338518146352282,
+      "family_period_um": 12.338518146352282,
+      "family_rank": 1,
+      "lower_support_period_um": 12.338518146352282,
+      "family_ambiguous": false,
+      "pair_coverage": null,
+      "pair_angle_deg": null,
+      "jointly_supported_tiles": null,
+      "spatial_pair_applicable": false,
+      "spatial_pair_supported": null
+    }
+  ],
+  "chapter": "periods",
+  "inputs_and_limits": "Each chapter declares its experiment and input stage; illustrative pixel processing is not a synthetic end-to-end source for the historical model datasets."
+}

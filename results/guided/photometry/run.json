@@ -1,0 +1,292 @@
+{
+  "status": "PASS",
+  "case": "photometry",
+  "result": {
+    "status": "PASS",
+    "frame_id": "125",
+    "experiment": 3,
+    "voltage_RMS_V": 6.77,
+    "peaks": 22,
+    "channels": 88,
+    "maximum_reference_difference": 0.0,
+    "raw_decoding_at_runtime": false,
+    "signed_integrals_preserved": true,
+    "green_to_red_conversion_applied": false,
+    "reference_loaded_after_measurement": true,
+    "target": [
+      {
+        "peak_uid": "125_audit_p007",
+        "frame_id": "125",
+        "aperture_radius_raw_px": 125.0,
+        "background_protected_radius_raw_px": 180.0,
+        "measurement_unit": "DN_RAW_pixel2",
+        "green_linearity": "WORKING_ASSUMPTION_NOT_RADIOMETRIC_CALIBRATION",
+        "background_exclusion_shape_sigma_a": 17.934792059047307,
+        "background_exclusion_shape_sigma_b": 35.66907594035068,
+        "background_exclusion_shape_angle": 0.020358697777312636,
+        "background_exclusion_shape_shape_supported": true,
+        "background_exclusion_shape_peak_DN": 1051.509016050195,
+        "background_exclusion_shape_shape_noise_DN": 12.6021,
+        "Q_R_r50": 17589896.343369197,
+        "Q_G1_r50": 2146866.2915758584,
+        "Q_G2_r50": 2214711.510497964,
+        "Q_B_r50": 678942.335632122,
+        "Q_G_r50": 2180788.901036911,
+        "Q_RGB_r50": 20449627.58003823,
+        "reflection_overlap_area_max_raw_pixel2_r50": 0.0,
+        "reflection_overlap_fraction_max_r50": 0.0,
+        "reflection_overlap_r50": false,
+        "Q_R_r125": 25174218.636153787,
+        "Q_G1_r125": 3092967.8254964165,
+        "Q_G2_r125": 3167920.6064569103,
+        "Q_B_r125": 989828.1359465162,
+        "Q_G_r125": 3130444.2159766634,
+        "Q_RGB_r125": 29294490.988076966,
+        "reflection_overlap_area_max_raw_pixel2_r125": 0.0,
+        "reflection_overlap_fraction_max_r125": 0.0,
+        "reflection_overlap_r125": false,
+        "Q_G": 3130444.2159766634,
+        "Q_R": 25174218.636153787,
+        "Q_B": 989828.1359465162,
+        "Q_RGB": 29294490.988076966,
+        "red_equivalent_from_green_assumed": null,
+        "aperture_coverage_min": 1.0,
+        "measurement_status": "OK",
+        "quality_flags": "R_SATURATED"
+      },
+      {
+        "peak_uid": "125_audit_p013",
+        "frame_id": "125",
+        "aperture_radius_raw_px": 125.0,
+        "background_protected_radius_raw_px": 180.0,
+        "measurement_unit": "DN_RAW_pixel2",
+        "green_linearity": "WORKING_ASSUMPTION_NOT_RADIOMETRIC_CALIBRATION",
+        "background_exclusion_shape_sigma_a": 21.016927704662272,
+        "background_exclusion_shape_sigma_b": 37.44643429207578,
+        "background_exclusion_shape_angle": 0.020358697777312636,
+        "background_exclusion_shape_shape_supported": true,
+        "background_exclusion_shape_peak_DN": 512.9005049759744,
+        "background_exclusion_shape_shape_noise_DN": 11.8608,
+        "Q_R_r50": 9248673.464057561,
+        "Q_G1_r50": 1140555.6925677035,
+        "Q_G2_r50": 1142575.5384436955,
+        "Q_B_r50": 354295.40264803567,
+        "Q_G_r50": 1141565.6155056995,
+        "Q_RGB_r50": 10744534.482211296,
+        "reflection_overlap_area_max_raw_pixel2_r50": 0.0,
+        "reflection_overlap_fraction_max_r50": 0.0,
+        "reflection_overlap_r50": false,
+        "Q_R_r125": 14452295.055788824,
+        "Q_G1_r125": 1788671.8232764287,
+        "Q_G2_r125": 1784746.198605397,
+        "Q_B_r125": 565607.5766607432,
+        "Q_G_r125": 1786709.0109409129,
+        "Q_RGB_r125": 16804611.64339048,
+        "reflection_overlap_area_max_raw_pixel2_r125": 0.0,
+        "reflection_overlap_fraction_max_r125": 0.0,
+        "reflection_overlap_r125": false,
+        "Q_G": 1786709.0109409129,
+        "Q_R": 14452295.055788824,
+        "Q_B": 565607.5766607432,
+        "Q_RGB": 16804611.64339048,
+        "red_equivalent_from_green_assumed": null,
+        "aperture_coverage_min": 1.0,
+        "measurement_status": "OK",
+        "quality_flags": ""
+      }
+    ],
+    "partition_example": {
+      "peak_uid": "125_audit_p011",
+      "aperture_coverage_min": 0.5373337271597646,
+      "quality_flags": "REGION_PARTITIONED_OR_SCREEN_CLIPPED;WEAK_SHAPE_EVIDENCE"
+    }
+  },
+  "events": [
+    {
+      "step": "photometry.input",
+      "sequence": 1,
+      "pass_index": 1,
+      "images": [
+        "results/guided/photometry/input/01_clipping.png"
+      ],
+      "metrics": [
+        [
+          "剖面来源",
+          "实验3，第125帧"
+        ],
+        [
+          "电压 / V",
+          6.77
+        ]
+      ],
+      "table": null,
+      "evidence": [],
+      "links": [],
+      "elapsed_s": 1.684,
+      "status": "computed"
+    },
+    {
+      "step": "photometry.channel",
+      "sequence": 2,
+      "pass_index": 1,
+      "images": [
+        "results/guided/photometry/step_02/array.png"
+      ],
+      "metrics": [
+        [
+          "G1黑电平 / DN",
+          512.0
+        ],
+        [
+          "光斑",
+          "125_audit_p007"
+        ]
+      ],
+      "table": null,
+      "evidence": [],
+      "links": [],
+      "elapsed_s": 4.993,
+      "status": "computed"
+    },
+    {
+      "step": "photometry.background",
+      "sequence": 3,
+      "pass_index": 1,
+      "images": [
+        "results/guided/photometry/step_03/background.png",
+        "results/guided/photometry/step_03/support.png"
+      ],
+      "metrics": [
+        [
+          "平面常数 / DN",
+          27.58446452560936
+        ]
+      ],
+      "table": null,
+      "evidence": [],
+      "links": [],
+      "elapsed_s": 5.168,
+      "status": "computed"
+    },
+    {
+      "step": "photometry.integral",
+      "sequence": 4,
+      "pass_index": 1,
+      "images": [
+        "results/guided/photometry/step_04/weights.png",
+        "results/guided/photometry/step_04/residual.png"
+      ],
+      "metrics": [
+        [
+          "G1净积分 / DN·RAW px²",
+          3092967.8254964165
+        ],
+        [
+          "实际支持面积 / RAW px²",
+          49087.5
+        ]
+      ],
+      "table": null,
+      "evidence": [],
+      "links": [],
+      "elapsed_s": 5.223,
+      "status": "computed"
+    },
+    {
+      "step": "photometry.final",
+      "sequence": 5,
+      "pass_index": 1,
+      "images": [
+        "results/guided/photometry/calculation/125_audit_p007_measurement.png",
+        "results/guided/photometry/calculation/125_audit_p013_aperture.png"
+      ],
+      "metrics": [
+        [
+          "光斑数",
+          22
+        ],
+        [
+          "通道记录",
+          88
+        ],
+        [
+          "对原验收积分最大差",
+          0.0
+        ]
+      ],
+      "table": {
+        "headers": [
+          "光斑",
+          "G1净积分",
+          "G2净积分",
+          "平均G净积分"
+        ],
+        "rows": [
+          [
+            "125_audit_p007",
+            3092967.8254964165,
+            3167920.6064569103,
+            3130444.2159766634
+          ],
+          [
+            "125_audit_p013",
+            1788671.8232764287,
+            1784746.198605397,
+            1786709.0109409129
+          ]
+        ]
+      },
+      "evidence": [],
+      "links": [
+        {
+          "label": "完整积分与质量标志",
+          "path": "results/guided/photometry/calculation/net_integrals.csv"
+        }
+      ],
+      "elapsed_s": 13.505,
+      "status": "computed"
+    }
+  ],
+  "source_sha256": {
+    "src/williams_diffraction/microscopy.py": "67899da35a561dd0a2c44f20cb124bd3843d056ffb3286f7fe79569ccf4f482d",
+    "src/williams_diffraction/research_analysis.py": "d1438ea9eac3491d65bec27d2b0bf56e1da200f730df6cbde8266765826745f1",
+    "src/williams_diffraction/microscopy_series.py": "ea26de1df8b43e83b109d22fdc8e55a2567d3cf82b3d0d7f6a465344ffef0621",
+    "src/williams_diffraction/guided_detection.py": "7e6223b378298cab0576e435ba0af54c08b53b2c8138b1f6714c360a352195cb",
+    "src/williams_diffraction/paths.py": "2a04a1a5df60ed4e7536d4b44fd91371f3d1944679c851ee03b68847a6dfaffb",
+    "src/williams_diffraction/weak_tail_trial.py": "efd54eb7b1f23a4b37220b78e2b96254b3bcd1a7cf86b97899ac88095b155827",
+    "src/williams_diffraction/research_route.py": "64f817965d41c9bc90ffd201b2bbc77d177306c94291716e49a62e49b5c75b42",
+    "src/williams_diffraction/green_expanded.py": "1cb068cac0f1830d94598fcfdc401d46463ebe739d55fc64153e0f9e0fb7cf0c",
+    "src/williams_diffraction/guide_events.py": "787d5449d46777c8e25606ed22c51628296debdc994e91c031e699568c3dc3fb",
+    "src/williams_diffraction/delivery_io.py": "c4d7d6d6789feeefe8ff987e874417cbefeaf90d3f4d8ffc16e2273c1542d43f",
+    "src/williams_diffraction/lab_server.py": "4563c3aea828d6fdac715a9d38e04bef0f0f64f357ea2e610dc62af465e1e7a9",
+    "src/williams_diffraction/__init__.py": "88bdc3d63dc7807fb6d37a94da05016d718b15c199461ae12ba590ca942e9403",
+    "src/williams_diffraction/delivery_models.py": "d64f177cae132f18a2b2e9dc0dac05d66aba1e70fabe79e951cffcb60428637a",
+    "src/williams_diffraction/voltage_spectrum.py": "a530aedcd67056faffbb3688ac6b314e44d9c761fbde9641be3efbb810d041d7",
+    "src/williams_diffraction/evidence_detection.py": "3b3c63bcee9ab6e95e835d7e05209a67160dff8f746d4b8acabfd0d2ba8e5e82",
+    "src/williams_diffraction/guided_lab.py": "a3c0de993db58eefbe0b339c33c1c154d9243c604ae3474078c96853a091fa35",
+    "src/williams_diffraction/research_pages.py": "e8a7f92f86781bddb8297be2d5024652b4637de8e66140542ebdd5d41a88fb76",
+    "src/williams_diffraction/delivery_paper.py": "76d1a8e7fcb72cdad9f55bb4a1868b83d4facc2ccf0db38dd3927cbde4308f7b",
+    "src/williams_diffraction/common.py": "577f00591b97fd2ec7812061f8b222b347b6082c200832626eb26f0c179afe02",
+    "src/williams_diffraction/screen_audit.py": "2d420b0ea4415ac3ae40285ae032b0b946e0215ec6214180b88129177b602c47",
+    "src/williams_diffraction/screen_validation_trial.py": "2a5cb63c94b5df0adfcb646d70e77f3a96ac8530b3b10f74bca5af0b3527f06d",
+    "src/williams_diffraction/algorithm_graphics.py": "ca65eaa510d96a6512e35c51b200e29501abef24b32459ea545d60ae4678dd5b",
+    "src/williams_diffraction/green_channel_study.py": "4808284d69c09aba169aee36baa6372c78efe34af93109b08680fb110b7cc62d",
+    "src/williams_diffraction/delivery_algorithms.py": "02864237ff7195bcf9715fa9df6be6ff8e4cf2ff557766ce24a58b7ac5bc2dfe",
+    "src/williams_diffraction/geometry.py": "3244508e782bd945a4a17776853113ca0446380e953c5c302d11d477c60f9c7f",
+    "src/williams_diffraction/research_figures.py": "2c49c1d465f9868a413cc509e989f1862599fdaf14c86be1e467739b3a28d0e5",
+    "src/williams_diffraction/channel_response.py": "23ecdf220f2bc0bbad1207c0b5aa2f0bf291c043acc5c907390a728bfd22f7d8",
+    "src/williams_diffraction/diffraction_models.py": "87f799e0c8bd14e004238e1601590cb2a05a2e3ed38a490f5dbac1b4d7a8190b",
+    "src/williams_diffraction/microscopy_lattice.py": "4f52f963c9eda4d872edeec6ca7ac55dee2447dec4c4f68e4e6ead7d14585021",
+    "src/williams_diffraction/raw_check.py": "b648aef53c8cea75cbf1d971a184261de8c702241ea91d1fe4fd11ba320979d5",
+    "src/williams_diffraction/delivery_examples.py": "725018ea42e365f0ce597a75e326527401770e3f1f482e38b8500aae45803b79",
+    "src/williams_diffraction/green_photometry_trial.py": "5ef1837833ad608ec6467fc6c5ce57a989acd91a8b384baf13258255696f45a9",
+    "src/williams_diffraction/research_measurement.py": "4d4159a8c0846225f2bf812f97a7c6d3b6f8457ed5afe6a3dc9a7b332bc2e925",
+    "src/williams_diffraction/candidate_evidence.py": "ffb3d6f467eeaa0a4ee012c7e2d6b899ab90acd9fd8637e3a832f9bbdf7cbd52",
+    "src/williams_diffraction/raw_photometry.py": "8f3de2fbe55141c580df7f4d8ed0c92a09687bc1f6321bafe8def6e2b47f09db",
+    "src/williams_diffraction/inventory.py": "ad625c34f2930184e56bf535204da2cf4a621dab177917fe84a06fc514f2943b"
+  },
+  "input_manifest_sha256": "a7b2adf67938fae7ba96c1f593a4b0b1df9dbf02ad8bc702bc811d21c840126e",
+  "user_image_sha256": null,
+  "recording": "Snapshots copied from actual calculation stages; no timing animation",
+  "elapsed_s": 13.508559082983993
+}

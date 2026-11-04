@@ -1,0 +1,791 @@
+{
+  "schema_version": 1,
+  "scope": "Fixed scientific data only; README, source, UI and environment caches are editable or independently managed",
+  "files": [
+    {
+      "path": "data/core/code/microscopy_lattice.py",
+      "bytes": 3076,
+      "sha256": "4f52f963c9eda4d872edeec6ca7ac55dee2447dec4c4f68e4e6ead7d14585021"
+    },
+    {
+      "path": "data/core/code/microscopy_series.py",
+      "bytes": 4622,
+      "sha256": "ea26de1df8b43e83b109d22fdc8e55a2567d3cf82b3d0d7f6a465344ffef0621"
+    },
+    {
+      "path": "data/core/config/detector_v16.json",
+      "bytes": 2060,
+      "sha256": "1bcc330d18757f02244d7e3f01fb26a72e7808aa30b6511f557a342f1105c4d3"
+    },
+    {
+      "path": "data/core/diffraction/104/case.json",
+      "bytes": 12174,
+      "sha256": "6c36d738ab861be9a63fa5c3e4bec8e3e84d306b248d1be89edc033249daf522"
+    },
+    {
+      "path": "data/core/diffraction/104/linear_cfa.npz",
+      "bytes": 22262206,
+      "sha256": "2f4503620cd819b3165f3a89f7bcb1341c64d4ef6a4bb4e4ea96aa897afdd38a"
+    },
+    {
+      "path": "data/core/diffraction/104/raw_display.png",
+      "bytes": 877973,
+      "sha256": "0c3a0356de2a4f4a28537bc0ab65079976a31b7edfd94b1a842a6ffd837c29d3"
+    },
+    {
+      "path": "data/core/diffraction/108/case.json",
+      "bytes": 9811,
+      "sha256": "23b2e11b2ee5dfa15742b960ec32a277389985eb57b05eb9eeb6978ea89dbfbb"
+    },
+    {
+      "path": "data/core/diffraction/108/linear_cfa.npz",
+      "bytes": 22356454,
+      "sha256": "e4251c273ef7792b0e6188516e59cc779ba894b0d462a95cbb9cfde0353f93c3"
+    },
+    {
+      "path": "data/core/diffraction/108/raw_display.png",
+      "bytes": 879335,
+      "sha256": "622ed00d8f6e671b91dad4a375a67867de7b3023b6e1aa1db877f5cad0915598"
+    },
+    {
+      "path": "data/core/diffraction/197/case.json",
+      "bytes": 6663,
+      "sha256": "b8ba994cb3aa94874551bd02324d9a299f54e5dc0d1ed7ca68696d0c0d8d02d8"
+    },
+    {
+      "path": "data/core/diffraction/197/linear_cfa.npz",
+      "bytes": 22375935,
+      "sha256": "98b4d7b2fc8bc28f8a1f8dc3df3c23688576d12f263c0c0030c8e40d72a4ed94"
+    },
+    {
+      "path": "data/core/diffraction/197/raw_display.png",
+      "bytes": 876171,
+      "sha256": "5f1b1b24bfdcb4540ae5a414cba5e8da2d1926a95fd79344dc041f107895589c"
+    },
+    {
+      "path": "data/core/diffraction/200/case.json",
+      "bytes": 9284,
+      "sha256": "70b765840f6b2f572362aa44d7070715731e0097cd61e344b244818802d1572b"
+    },
+    {
+      "path": "data/core/diffraction/200/linear_cfa.npz",
+      "bytes": 22246929,
+      "sha256": "271e16ab0d1d51c41ea747226d83e7f337337dea2c2780e84db3de1ed5258a7a"
+    },
+    {
+      "path": "data/core/diffraction/200/raw_display.png",
+      "bytes": 876673,
+      "sha256": "2316b773fb1c1f073e9a382363c245bb391509739eb4a9516744b9bfc54f8058"
+    },
+    {
+      "path": "data/core/index.json",
+      "bytes": 13164,
+      "sha256": "01e3e787a6c0cb5d8980d3adced543cd0e0dd181df32f42ccef99d1f79637364"
+    },
+    {
+      "path": "data/core/microscopy/micro_late_164.png",
+      "bytes": 2687938,
+      "sha256": "643a81f950615d0647d85c19e0ee30b86c701873d7b8db4fde2a6f6638e84df7"
+    },
+    {
+      "path": "data/core/microscopy/micro_late_196.png",
+      "bytes": 2699534,
+      "sha256": "50697616d8042c895a43f48e3d4ece7b45a3b99cf17f9018921d2f5e1341f7c0"
+    },
+    {
+      "path": "data/core/microscopy/micro_late_254.png",
+      "bytes": 1982345,
+      "sha256": "542c0c43a733890617abefe70dfa2bc713fedaa00d8621c3dc6c950458e44d16"
+    },
+    {
+      "path": "data/core/microscopy/micro_late_436.png",
+      "bytes": 1288564,
+      "sha256": "b10aa078076267fa8761b5d0d189d8491083072bfc254a0941813273fe15747c"
+    },
+    {
+      "path": "data/core/microscopy/micro_late_559.png",
+      "bytes": 2289507,
+      "sha256": "3b4acfc3a045dc210c1da4ec54ad7c119cfd4812c336019ebf62f30738bcce2a"
+    },
+    {
+      "path": "data/core/reference/104.json",
+      "bytes": 813972,
+      "sha256": "a50b24fd571e333f0f2f73e1cb2d9fd692992b6ec334fb689560592b0778516c"
+    },
+    {
+      "path": "data/core/reference/108.json",
+      "bytes": 699525,
+      "sha256": "8483d095c27e7910012fe4ba78da51433d6bb678691c24b15cefdc6f9d29bd47"
+    },
+    {
+      "path": "data/core/reference/197.json",
+      "bytes": 804950,
+      "sha256": "daec8ad6e2e45478b9f37e520b62380cd68f514d3206bbbf2db6a2269a5fc4be"
+    },
+    {
+      "path": "data/core/reference/200.json",
+      "bytes": 789651,
+      "sha256": "a21c9f4ca55e24eb78cca284c940f052757e94bf8336a8636cb6c3e48b0e3169"
+    },
+    {
+      "path": "data/core/reference/microscopy.json",
+      "bytes": 60501,
+      "sha256": "b43873d11c0b8bb01c582bc34e7c278a41a176baf555cade9468d494b5f05b69"
+    },
+    {
+      "path": "data/examples/microscopy/grid.png",
+      "bytes": 655245,
+      "sha256": "fd5664c1eaf3d012074cb058db4845ea07ee8eb3f28143d15c5d5abe4870e998"
+    },
+    {
+      "path": "data/examples/microscopy/grid_provenance.json",
+      "bytes": 533,
+      "sha256": "04452e8f852fb31bfbd2122920bf1b9bfeb57ed3c909c4677d657b840778ebba"
+    },
+    {
+      "path": "data/examples/microscopy/stripe.png",
+      "bytes": 567666,
+      "sha256": "450f0001d31b530c89010cbd3f50a0fd80ad7b1edd4ef0177aa29f2ed73da820"
+    },
+    {
+      "path": "data/examples/microscopy/stripe_provenance.json",
+      "bytes": 536,
+      "sha256": "1c5c1b9011e1fc68523f6af698c8b13a90ebc641e5a231d9dbb9c621e8c824b3"
+    },
+    {
+      "path": "data/experiments.csv",
+      "bytes": 306,
+      "sha256": "52eff4cde6dc000d85b1150f7d383d5e1555354cb47d8afbb337eadd0a28eb17"
+    },
+    {
+      "path": "data/legacy_original_23/one_dimensional_ratios.csv",
+      "bytes": 3462,
+      "sha256": "6ee5ecf49506c39997213ed918d74003a11ab82cf12cae0812aa9e24ca93e20a"
+    },
+    {
+      "path": "data/paper/channel_affine_reference.json",
+      "bytes": 1110,
+      "sha256": "565a6f825562b1a8d1e73ddff8f0f6c19d4ab7bc78c245c6b3f0d8645fe2a732"
+    },
+    {
+      "path": "data/paper/channel_metrics_complete.json",
+      "bytes": 86406,
+      "sha256": "f5c003194696c81757132adc4b937e88bc06ea8e663124900a8e8d9234ff61b0"
+    },
+    {
+      "path": "data/paper/channel_points_cycle02.csv",
+      "bytes": 1613043,
+      "sha256": "051b0631915a50c5e57cafa66dc8772a20d223f8c9c0613cef9a4e1af0a06dd2"
+    },
+    {
+      "path": "data/paper/combination_lengths.json",
+      "bytes": 531,
+      "sha256": "ffac55878922753370705b3860e2618406b37669544a0fb19606d6b1c5cb8b60"
+    },
+    {
+      "path": "data/paper/comparison_summary.json",
+      "bytes": 6261,
+      "sha256": "a0a52993f6e8074318c25686b41b6cf20bf92b39cb6b5a18eb5e00a192723d55"
+    },
+    {
+      "path": "data/paper/figure_evidence.json",
+      "bytes": 99742,
+      "sha256": "61a2d8093a07a5f46f6b1f34aae6e7edfb3f6cceb69f89dde4508f5c8638a32e"
+    },
+    {
+      "path": "data/paper/geometry_models.json",
+      "bytes": 19282,
+      "sha256": "84a483fd9ba2c668fafaf433cc5f93667a2ec6fc5ade150640c9338cd810431a"
+    },
+    {
+      "path": "data/paper/geometry_nodes.json",
+      "bytes": 180467,
+      "sha256": "9283f3fe8d23e15cb401a572fbacceab7ca16a9555918da265768adf95b062cf"
+    },
+    {
+      "path": "data/paper/geometry_summary.json",
+      "bytes": 571,
+      "sha256": "9278642ef3e78fe588c2203abcad57ce53ad200b3c906238d729590268417192"
+    },
+    {
+      "path": "data/paper/horizontal_periods.json",
+      "bytes": 65174,
+      "sha256": "e782d1cc6d83ae63b62669d2510453dd1e04b1bfd2ab2c4015fa77f56da0e156"
+    },
+    {
+      "path": "data/paper/microscopy_full_series_late.json",
+      "bytes": 2270170,
+      "sha256": "10b3cc77e769d66ec6ee36cf966f6f1ebe3e5f8069df7f73dc7ab3aeaad5d7df"
+    },
+    {
+      "path": "data/paper/microscopy_matches.json",
+      "bytes": 50633,
+      "sha256": "7a77fab2ceae079d526a928c2d0b11717beaeeefe472ae5d23ee3b0e32af2829"
+    },
+    {
+      "path": "data/paper/microscopy_scan_summary.json",
+      "bytes": 142,
+      "sha256": "5d41982cfa205fba137e9233776747b3e0eed893c63660eaec4e1e42983b2346"
+    },
+    {
+      "path": "data/paper/microscopy_selected.json",
+      "bytes": 410673,
+      "sha256": "00cd2c200ec6093064196ffee758b3e178971a13c49f6d3537f4a9d9f1efc106"
+    },
+    {
+      "path": "data/paper/one_d_reference.json",
+      "bytes": 295,
+      "sha256": "167cb5bda34e1762b93f935cbf34fa8493535986a07452dafb28c8be9fbca265"
+    },
+    {
+      "path": "data/paper/one_dimensional_metrics_complete.json",
+      "bytes": 50310,
+      "sha256": "136ff8a328ed006f72e38fcc2fd5c2b0c1b2dad6dc8724032dd13d9c4cebd1a7"
+    },
+    {
+      "path": "data/paper/original_bright/individual_fits.csv",
+      "bytes": 1201,
+      "sha256": "403052e6df1b507a9a2df06186d1b2e8c88e023b3551185e939cdf290b9e2292"
+    },
+    {
+      "path": "data/paper/original_bright/individual_node_predictions.csv",
+      "bytes": 4000,
+      "sha256": "13b430a8b0d494c681314c322a1a5ba332a01d403020ae6651c06a701bcb92d6"
+    },
+    {
+      "path": "data/paper/prediction014.json",
+      "bytes": 70205,
+      "sha256": "30d1fc2a366148f713a488b0295b39ac466ef9d438d496a28b01ab9a3938e830"
+    },
+    {
+      "path": "data/paper/spectrum_metrics.json",
+      "bytes": 444,
+      "sha256": "2451b4b3cc09e851e3980562b5ff8c26291b91157d5fd8669d70df9c90569766"
+    },
+    {
+      "path": "data/paper/spectrum_metrics_complete.json",
+      "bytes": 126646,
+      "sha256": "eabd2b5783aeaeb366cde8b04efbaf72e21b5f6c2ee32de1db97dafd8ad7cc71"
+    },
+    {
+      "path": "data/paper/spectrum_nodes.json",
+      "bytes": 43771,
+      "sha256": "d453b6520cc435d19027f05b6f7289e4bbadfe8a52badf26df9b6246cc305fab"
+    },
+    {
+      "path": "data/paper/spectrum_parameters.json",
+      "bytes": 4263,
+      "sha256": "44abd1fe6e9f0f7cce95d91d83c2ffce1acdc67e561ce24145628da86b116657"
+    },
+    {
+      "path": "data/research/mosaic125.npz",
+      "bytes": 11874592,
+      "sha256": "29f1be1d88743c77523d08c237d481854f59c3f63173f5e8f33ba01b76f0f3e6"
+    },
+    {
+      "path": "data/research/photometry125.json",
+      "bytes": 7636,
+      "sha256": "11ece6bb3079a8a4599ebbcbdfe09fd581b1ed7e78dea5981cf32095e72997af"
+    },
+    {
+      "path": "data/research/photometry125_reference.json",
+      "bytes": 176613,
+      "sha256": "72c4e10162d072144aa53c102ff494e42cda1b1a74686fd909bfc8ab5dcbecac"
+    },
+    {
+      "path": "data/research/rg_config.json",
+      "bytes": 152,
+      "sha256": "5a4715c6de167ac77abbeef543f208cf4fe29e1d5cb726b189c4a7cdf2511920"
+    },
+    {
+      "path": "data/research/sources.json",
+      "bytes": 1183,
+      "sha256": "ab009017f69fceeec3ea8051e0361a4434936f623e75fa6fd3614b9244681ab1"
+    },
+    {
+      "path": "data/runs/final_paper_2026-10-27_v2/channel_metrics_complete.json",
+      "bytes": 86406,
+      "sha256": "f5c003194696c81757132adc4b937e88bc06ea8e663124900a8e8d9234ff61b0"
+    },
+    {
+      "path": "data/runs/final_paper_2026-10-27_v2/combination_lengths.json",
+      "bytes": 1267,
+      "sha256": "d64d9f7ba7059f0613fc100d8dc9472073d01819902fde7cdf6941a0fb4904a6"
+    },
+    {
+      "path": "data/runs/final_paper_2026-10-27_v2/comparison_summary.json",
+      "bytes": 18164,
+      "sha256": "a2a286f4e8d7b506292d229c09d46d941694d194ca2ca43189489040ce0caf9c"
+    },
+    {
+      "path": "data/runs/final_paper_2026-10-27_v2/geometry_models.json",
+      "bytes": 19282,
+      "sha256": "84a483fd9ba2c668fafaf433cc5f93667a2ec6fc5ade150640c9338cd810431a"
+    },
+    {
+      "path": "data/runs/final_paper_2026-10-27_v2/geometry_nodes.json",
+      "bytes": 180467,
+      "sha256": "9283f3fe8d23e15cb401a572fbacceab7ca16a9555918da265768adf95b062cf"
+    },
+    {
+      "path": "data/runs/final_paper_2026-10-27_v2/geometry_summary.json",
+      "bytes": 571,
+      "sha256": "9278642ef3e78fe588c2203abcad57ce53ad200b3c906238d729590268417192"
+    },
+    {
+      "path": "data/runs/final_paper_2026-10-27_v2/horizontal_periods.json",
+      "bytes": 65174,
+      "sha256": "e782d1cc6d83ae63b62669d2510453dd1e04b1bfd2ab2c4015fa77f56da0e156"
+    },
+    {
+      "path": "data/runs/final_paper_2026-10-27_v2/microscopy_matches.json",
+      "bytes": 159403,
+      "sha256": "1031ef09b6b5a0f5c266f1d64a0d2edf528737e5acdd9145e0f42a3b313d28cb"
+    },
+    {
+      "path": "data/runs/final_paper_2026-10-27_v2/one_dimensional_metrics_complete.json",
+      "bytes": 50310,
+      "sha256": "136ff8a328ed006f72e38fcc2fd5c2b0c1b2dad6dc8724032dd13d9c4cebd1a7"
+    },
+    {
+      "path": "data/runs/final_paper_2026-10-27_v2/positive_envelope_metrics.json",
+      "bytes": 1864,
+      "sha256": "088ddf111e372b820c561fa0c61bf14d63bd0adf12e11b4d8e7e5e3486618d93"
+    },
+    {
+      "path": "data/runs/final_paper_2026-10-27_v2/spectrum_metrics_complete.json",
+      "bytes": 126646,
+      "sha256": "eabd2b5783aeaeb366cde8b04efbaf72e21b5f6c2ee32de1db97dafd8ad7cc71"
+    },
+    {
+      "path": "data/runs/final_paper_2026-10-27_v2/summary.json",
+      "bytes": 1068,
+      "sha256": "f6e5f0efce9ec230b264f6ce958d9d177de487088313eb95d1c3f748da4a8a96"
+    },
+    {
+      "path": "data/runs/scan_2026-10-14_audit_v2/analysis_frame_records.csv",
+      "bytes": 102732,
+      "sha256": "4faa4a50f0e843d90bf9e4ce523f2bace87efa47be23243bffc8e3cf2f444b06"
+    },
+    {
+      "path": "data/runs/scan_2026-10-14_audit_v2/conditional_grid_nodes.csv",
+      "bytes": 4883529,
+      "sha256": "913922d2ae0cbcf1dbcb63500f04ef5d7b06f970b2d5bdc98b0026220358ae90"
+    },
+    {
+      "path": "data/runs/scan_2026-10-14_audit_v2/cross_cycle_predictions.csv",
+      "bytes": 7078,
+      "sha256": "c8931b8468c8591923d693206596c90e5541f388b0dbd04cf502adc30c15d6d7"
+    },
+    {
+      "path": "data/runs/scan_2026-10-14_audit_v2/frame_audit.csv",
+      "bytes": 331122,
+      "sha256": "69ddbe45853a22df38f285cd64b31469284d040599e2520c2e6ea49dd67ef359"
+    },
+    {
+      "path": "data/runs/scan_2026-10-14_audit_v2/geometry_models.csv",
+      "bytes": 23143,
+      "sha256": "58ac22daf64c694e10925c5e4c7abef1e3b12b47c1cb9c76f670ecf2371303d0"
+    },
+    {
+      "path": "data/runs/scan_2026-10-14_audit_v2/geometry_predictions.csv",
+      "bytes": 154316,
+      "sha256": "4fb3f5baf2915056b00a3a50ad3a9e8e276ee151e4ebd92f1dd826ac93476b48"
+    },
+    {
+      "path": "data/runs/scan_2026-10-14_audit_v2/horizontal_pairs.csv",
+      "bytes": 202089,
+      "sha256": "bd9f7234cd5439ad7b89c4459a38c6c41ba4d6e730e6c50c359f7af39ee72c75"
+    },
+    {
+      "path": "data/runs/scan_2026-10-14_audit_v2/legacy_horizontal_geometry.csv",
+      "bytes": 14011,
+      "sha256": "48e5021d7c0e289500d36bfe22b53c7f4ab75c12d91b9358bf9004ff48a38b16"
+    },
+    {
+      "path": "data/runs/scan_2026-10-14_audit_v2/legacy_model_transfer.csv",
+      "bytes": 1284,
+      "sha256": "60b5481aa3665f03200a794c9039c683795cf6502e6b3d34764d9213519e6840"
+    },
+    {
+      "path": "data/runs/scan_2026-10-14_audit_v2/one_d_coverage.csv",
+      "bytes": 2355,
+      "sha256": "2f1f44cf5d571b2a383c8b26cf33dc8535a028a266687310cc3d8b94e35e637f"
+    },
+    {
+      "path": "data/runs/scan_2026-10-14_audit_v2/one_d_models.csv",
+      "bytes": 5721,
+      "sha256": "00f08edf18131c5315ad518243b5c16670f16605ca0e7d5b277dd6854c64bb09"
+    },
+    {
+      "path": "data/runs/scan_2026-10-14_audit_v2/one_d_predictions.csv",
+      "bytes": 60884,
+      "sha256": "7f4a80b9b0b708cc1072434e62f44b2250ccf3537523ea68e893428a210f4ce1"
+    },
+    {
+      "path": "data/runs/scan_2026-10-14_audit_v2/screen_geometry_sensitivity.csv",
+      "bytes": 339688,
+      "sha256": "9c9319d75ab982c2c9bbdd54e15fb5466c07cc67bf8678961e7f92f3eefe8c39"
+    },
+    {
+      "path": "data/runs/scan_2026-10-14_audit_v2/selection_audit.json",
+      "bytes": 544300,
+      "sha256": "0b8e0a75555e2cbd383a940005370cc55d7c1d5e7fb5b44e506548ef56872b31"
+    },
+    {
+      "path": "data/runs/scan_2026-10-14_audit_v2/selection_config.json",
+      "bytes": 3100,
+      "sha256": "730efc96ae829b0f6e9fa8e174a3676bf249d2e4086285a0982d6919453d855f"
+    },
+    {
+      "path": "data/runs/scan_2026-10-14_audit_v2/spectrum_models.csv",
+      "bytes": 70723,
+      "sha256": "e59411440e08355836ad6aa4303b4ca5fec20d1e72ec772a3a621eec8bde72c5"
+    },
+    {
+      "path": "data/runs/scan_2026-10-14_audit_v2/spectrum_optimization.json",
+      "bytes": 923397,
+      "sha256": "d54eaf28b66688d88f61f4d84750d04ef249ef0f3c44573fc0d6c830ce52be92"
+    },
+    {
+      "path": "data/runs/scan_2026-10-14_audit_v2/spectrum_predictions.csv",
+      "bytes": 650457,
+      "sha256": "f8659faf55d553337f8512644d6b227744e3d44fd463069cec903e965119352e"
+    },
+    {
+      "path": "data/runs/scan_2026-10-14_audit_v2/summary.json",
+      "bytes": 315299,
+      "sha256": "43b09dc2d1bc5e8ed7a14e41094a8535951e56a369c84b1d14ec0f6146dbaddb"
+    },
+    {
+      "path": "data/runs/three_model_audit_2026-10-18_v3/branch_changed_selections.csv",
+      "bytes": 3646,
+      "sha256": "6e8cd62e77e718e9534cd906bd9309527a2baacd5152bebf28a97142996824e1"
+    },
+    {
+      "path": "data/runs/three_model_audit_2026-10-18_v3/branch_comparison.json",
+      "bytes": 219595,
+      "sha256": "71894f48fd9deeb92ec7a31b70825b91146a3a29ca1f15508ab4046a73594f7a"
+    },
+    {
+      "path": "data/runs/three_model_audit_2026-10-18_v3/branch_metrics.csv",
+      "bytes": 42815,
+      "sha256": "7b91846a7ed0a134cd673ceda30c390b73b6e7799f12778cc599d7f135f90a7e"
+    },
+    {
+      "path": "data/runs/three_model_audit_2026-10-18_v3/branch_response_changes.csv",
+      "bytes": 27546,
+      "sha256": "72822fa944c0f499b4ff5e21e51d02613652b4b34677cff6c36467d2d0cda9eb"
+    },
+    {
+      "path": "data/runs/three_model_audit_2026-10-18_v3/config.json",
+      "bytes": 1442,
+      "sha256": "a98d7c1fad8392fbe38921138a10271cbb1b012aa2b5f01e41490b54d4f91995"
+    },
+    {
+      "path": "data/runs/three_model_audit_2026-10-18_v3/fixed_six_coverage.csv",
+      "bytes": 1176,
+      "sha256": "d78e6c72c2245c75697caaecd612b2d1522ce3108c21f87c17500bfd4ac7a015"
+    },
+    {
+      "path": "data/runs/three_model_audit_2026-10-18_v3/geometry_metrics.csv",
+      "bytes": 12332,
+      "sha256": "72fe4a7a1806a26eee107ecf876b47cc8a8172393d59778fd949241845c81ed7"
+    },
+    {
+      "path": "data/runs/three_model_audit_2026-10-18_v3/one_dimensional_metrics.csv",
+      "bytes": 21366,
+      "sha256": "341091fa949a5ab64234fd07271160a0af7745a32984bc2c246e38bfc9304928"
+    },
+    {
+      "path": "data/runs/three_model_audit_2026-10-18_v3/positive_envelope_curves.csv",
+      "bytes": 23468,
+      "sha256": "f63c414b9e5abfd6825497daf07efbc77758824b0a69992900112aad27d236d1"
+    },
+    {
+      "path": "data/runs/three_model_audit_2026-10-18_v3/positive_envelope_folds.json",
+      "bytes": 56043,
+      "sha256": "c81e1315fd3b56ea197923ac809b658dab1f8c122ae03e1b0b94a795149ab425"
+    },
+    {
+      "path": "data/runs/three_model_audit_2026-10-18_v3/positive_envelope_metrics.csv",
+      "bytes": 908,
+      "sha256": "97b1ff22b8330cf160f845c5022312baef8bcef2551cd8e805867155b3a4e733"
+    },
+    {
+      "path": "data/runs/three_model_audit_2026-10-18_v3/positive_envelope_models.csv",
+      "bytes": 531,
+      "sha256": "372ae650c6fda33a8ce7c49c40d2b5df7c5d1229a0203b8590ca698db5ed09c2"
+    },
+    {
+      "path": "data/runs/three_model_audit_2026-10-18_v3/positive_envelope_nodes.csv",
+      "bytes": 26085,
+      "sha256": "bd7ee39371587b59fd0d1c16d24c197e38bdcb77f21c18f1e0e2a008428e4763"
+    },
+    {
+      "path": "data/runs/three_model_audit_2026-10-18_v3/positive_envelope_pairs.csv",
+      "bytes": 5455,
+      "sha256": "d2299209db1c4058632dbbb1675b0fc9afc64a20bed47e961e15cbe434d7f105"
+    },
+    {
+      "path": "data/runs/three_model_audit_2026-10-18_v3/shared_model_availability.csv",
+      "bytes": 601,
+      "sha256": "0574dd229559bf0cf549613660c10936c0766337c3f81636013cbe5cd9ea821c"
+    },
+    {
+      "path": "data/runs/three_model_audit_2026-10-18_v3/shared_optimization.json",
+      "bytes": 68957,
+      "sha256": "fb84e051f50e9ba625d6f8b8df4660caf517bea6eeb4f22d61eeb4779a1f3984"
+    },
+    {
+      "path": "data/runs/three_model_audit_2026-10-18_v3/shared_voltage_curves.csv",
+      "bytes": 54007,
+      "sha256": "29fbb3aa12c3cf4319aa5fa6bfc4401306d6f57ef7b6cde35baf805816434686"
+    },
+    {
+      "path": "data/runs/three_model_audit_2026-10-18_v3/shared_voltage_models.csv",
+      "bytes": 354,
+      "sha256": "9b9f5474de8c7894a5a4107204015295fca0356db9315bc66d86a0f98394163c"
+    },
+    {
+      "path": "data/runs/three_model_audit_2026-10-18_v3/shared_voltage_node_predictions.csv",
+      "bytes": 26059,
+      "sha256": "a8d69608352bd514f8a183659eb35496ad5f780e89d3afda0963f3cddb7e9d67"
+    },
+    {
+      "path": "data/runs/three_model_audit_2026-10-18_v3/shared_voltage_pair_metrics.csv",
+      "bytes": 1730,
+      "sha256": "5d034e16ab716ae3434d96214536c0e1b5dbef3cb989d0864ba11fa0cdf683c2"
+    },
+    {
+      "path": "data/runs/three_model_audit_2026-10-18_v3/shared_voltage_pair_predictions.csv",
+      "bytes": 8933,
+      "sha256": "4288984826935c09bb3963f16fc60d4c5c711b9dd71bd5c146cadec94d70813c"
+    },
+    {
+      "path": "data/runs/three_model_audit_2026-10-18_v3/spectrum_metrics.csv",
+      "bytes": 53960,
+      "sha256": "ff9ff5b0add484fec396be3171e1cfa15bba93cf0b0269a871b4f25ff243a8b0"
+    },
+    {
+      "path": "data/runs/three_model_audit_2026-10-18_v3/summary.json",
+      "bytes": 68227,
+      "sha256": "4496779550fe550185589e2c8591f016858e57d7ceab42ef7ebcc1d30cb19e32"
+    },
+    {
+      "path": "data/runs/three_model_audit_2026-10-18_v3/symmetry_error_decomposition.csv",
+      "bytes": 27332,
+      "sha256": "cce38d2c381001ec120044f92e36ed457b1645a2b8225d43c7ff4940f7d80545"
+    },
+    {
+      "path": "data/samples/detection014.png",
+      "bytes": 966177,
+      "sha256": "2506a10e4b9bd60076ebe3f78dbbf4e13164f03e3a355d53edbb6df28d7bab47"
+    },
+    {
+      "path": "data/samples/diffraction/down_175.png",
+      "bytes": 197722,
+      "sha256": "24e47f9759a19a67db3c0d5394f88206af2fe604569a8550aecbddefd8e55eab"
+    },
+    {
+      "path": "data/samples/diffraction/down_177.png",
+      "bytes": 196931,
+      "sha256": "2cbd14776ebe8f4a79f5f50cca53e3532107f49c47ddc87afda3ac440be5b4da"
+    },
+    {
+      "path": "data/samples/diffraction/down_181.png",
+      "bytes": 197025,
+      "sha256": "9869fe59b2099a577c9777fb4be5488bc60b66094d6b9430fe86e7de96f805b1"
+    },
+    {
+      "path": "data/samples/diffraction/down_190.png",
+      "bytes": 194968,
+      "sha256": "6af8484845c1626c533491feaf0c1bc60fc967b97d5cef6925d9e247256d95d3"
+    },
+    {
+      "path": "data/samples/diffraction/down_198.png",
+      "bytes": 195137,
+      "sha256": "0327692fc34ac36f7d63663dd9d5a5e4b25d9c42f19ba3f08e8371a0087f738e"
+    },
+    {
+      "path": "data/samples/diffraction/down_202.png",
+      "bytes": 196083,
+      "sha256": "79ce6183e92301117ea44d4af3e14a931993d1bb3d4a7f4812ee083ddc146b6c"
+    },
+    {
+      "path": "data/samples/diffraction/previews.json",
+      "bytes": 4688,
+      "sha256": "2e490cb59482349b3e300260d7b07e4964ddf4220636dfd54e2acc4b16732fa3"
+    },
+    {
+      "path": "data/samples/diffraction/up_088.png",
+      "bytes": 198795,
+      "sha256": "17776c3c518f012b0cc1462d3ec94f774685d5dc929099e7992c130603fa8328"
+    },
+    {
+      "path": "data/samples/diffraction/up_098.png",
+      "bytes": 198642,
+      "sha256": "4920294b12e88193de4af94795386b441a6cb7133e3ca474daf99f8f6ffbcbd8"
+    },
+    {
+      "path": "data/samples/diffraction/up_105.png",
+      "bytes": 198259,
+      "sha256": "2583f56d9dc16a4aa1915c0d266ea90ea6a5700c617363a7d6950e68c3350185"
+    },
+    {
+      "path": "data/samples/diffraction/up_108.png",
+      "bytes": 197440,
+      "sha256": "4671813e715fe60e5acc7aeba6d29ad1b1cf3d9dbea5937a7e7a9f1db8330edb"
+    },
+    {
+      "path": "data/samples/diffraction/up_116.png",
+      "bytes": 194556,
+      "sha256": "a3d24fb710db099955a1d62c11bf69bc19ea4170dced2764df0709cee8ec4cf8"
+    },
+    {
+      "path": "data/samples/diffraction/up_127.png",
+      "bytes": 197596,
+      "sha256": "d61134e61ad65a1cbb012b5afb0e0b0628f81fa0168f4236d2e78e52cdee01fe"
+    },
+    {
+      "path": "data/samples/diffraction/up_151.png",
+      "bytes": 197133,
+      "sha256": "37299ea42e8475082800131865e5f7b4bc407a99d78441e7fb76a65a2dc3b7e1"
+    },
+    {
+      "path": "data/samples/diffraction/up_163.png",
+      "bytes": 197401,
+      "sha256": "9bb83bbf974b8ce1574299df061b7dd39767c8596adaddceb34e83f72f6f7d70"
+    },
+    {
+      "path": "data/samples/micro_late_164.png",
+      "bytes": 2687938,
+      "sha256": "643a81f950615d0647d85c19e0ee30b86c701873d7b8db4fde2a6f6638e84df7"
+    },
+    {
+      "path": "data/samples/micro_late_227.png",
+      "bytes": 2483682,
+      "sha256": "8f95008cdb4db6920dbaf76a19670d74a6d84de023220acf6d4bf016cd64686b"
+    },
+    {
+      "path": "data/samples/micro_late_295.png",
+      "bytes": 1969890,
+      "sha256": "cdafaf49dc177cd9e6efa108da8eca7132a09d3cbafcdd119a770600c5153f25"
+    },
+    {
+      "path": "data/samples/micro_late_436.png",
+      "bytes": 1288564,
+      "sha256": "b10aa078076267fa8761b5d0d189d8491083072bfc254a0941813273fe15747c"
+    },
+    {
+      "path": "data/samples/micro_late_500.png",
+      "bytes": 1581158,
+      "sha256": "4fdb785fa01013150c8db4f7f641392ce215338b9e49b94b02999e9326d49cf4"
+    },
+    {
+      "path": "data/samples/micro_late_559.png",
+      "bytes": 2289507,
+      "sha256": "3b4acfc3a045dc210c1da4ec54ad7c119cfd4812c336019ebf62f30738bcce2a"
+    },
+    {
+      "path": "data/samples/micro_late_583.png",
+      "bytes": 2551090,
+      "sha256": "1e634625460425904b3944390a37381a58f6f674ec54d20da4995778c7ed02bb"
+    },
+    {
+      "path": "data/samples/micro_late_88.png",
+      "bytes": 1138141,
+      "sha256": "93f23128c324deb0148b82a8cbdbcbd735124849face66c1f8eb5070da346283"
+    },
+    {
+      "path": "data/samples/microscopy_frames.json",
+      "bytes": 8495,
+      "sha256": "ca2774c89a113d377159560c188af7e65f4c6945ea6d6604e60cb000b6307ef0"
+    },
+    {
+      "path": "data/support/channel_response_audit_2026-10-19_v1/binned_residuals.csv",
+      "bytes": 12054,
+      "sha256": "eef194e6bde154998636f866860908e2c6daf4f16e889471ef97137fb246332f"
+    },
+    {
+      "path": "data/support/channel_response_audit_2026-10-19_v1/fit_metrics.csv",
+      "bytes": 30642,
+      "sha256": "50912683411fecff8096632a797bf963dfb4b02438a5c4e6f4b0f0ab36ac67be"
+    },
+    {
+      "path": "data/support/channel_response_audit_2026-10-19_v1/intensity_quartiles.csv",
+      "bytes": 5247,
+      "sha256": "6ae48bdd9bf88ae8512d8244ec5032fc94d93d15bbe9fcf7f355269f72f8285f"
+    },
+    {
+      "path": "data/support/channel_response_audit_2026-10-19_v1/point_audit.csv",
+      "bytes": 2668248,
+      "sha256": "4716f234c7d5cbf46371dbb963b3320d581e1cb8a4db74a8aaf2f4246c12778f"
+    },
+    {
+      "path": "data/support/channel_response_audit_2026-10-19_v1/predictions_residuals.csv",
+      "bytes": 2147215,
+      "sha256": "0df6d082e8df2a9481e0b8d32053af17e06c1d69d7e0c0a1b7a43fab34ea5074"
+    },
+    {
+      "path": "data/support/channel_response_audit_2026-10-19_v1/selection_summary.csv",
+      "bytes": 799,
+      "sha256": "6d09b034bf8626cd8fa079e63c839f01224cfdd11e39e285ad794760a8464be0"
+    },
+    {
+      "path": "data/support/microscopy_full_v2/dimensionless_comparison.json",
+      "bytes": 381,
+      "sha256": "1f34cded84b50c4fb0503731b829281e0a6846624be2ba8525ea13996e6f4ea7"
+    },
+    {
+      "path": "data/support/microscopy_full_v2/historical_comparison.csv",
+      "bytes": 30710,
+      "sha256": "bd2ca1c9b25fa46cb39a6d0b6df9ffeeda56cfc1fe644d2ee582ce96e0cf552f"
+    },
+    {
+      "path": "data/support/microscopy_full_v2/historical_comparison.json",
+      "bytes": 156944,
+      "sha256": "1471b4b5b006a66843979f9c14c8db94410f7f74b7880f26adc82b2effc5ff98"
+    },
+    {
+      "path": "data/support/microscopy_full_v2/samples.csv",
+      "bytes": 14896,
+      "sha256": "52f4d7e09b46159702cb2d3046b52e306e6110842e23924195e8461c3cefc13b"
+    },
+    {
+      "path": "data/support/scan_2026-10-14_audit_alternative_v2/one_d_coverage.csv",
+      "bytes": 2355,
+      "sha256": "2f1f44cf5d571b2a383c8b26cf33dc8535a028a266687310cc3d8b94e35e637f"
+    },
+    {
+      "path": "data/support/scan_2026-10-14_audit_alternative_v2/one_d_models.csv",
+      "bytes": 5717,
+      "sha256": "5fbeecc62bfa0b725518889bd45c0cf10c8ba6e5f1b2a1c2b6bb32e434f59366"
+    },
+    {
+      "path": "data/support/scan_2026-10-14_audit_alternative_v2/one_d_predictions.csv",
+      "bytes": 60889,
+      "sha256": "633f21b7ddcfd97631790c018cd15f1486d34b3f0e4deade7a7c99ee50c7a4a1"
+    },
+    {
+      "path": "data/support/scan_saturation_audit_2026-10-19_v2/cycle_summary.csv",
+      "bytes": 1149,
+      "sha256": "7637e27c0469e8a4b2eefc0a160516121d62112985ee7f68ec37ab237177b36e"
+    },
+    {
+      "path": "data/support/scan_saturation_audit_2026-10-19_v2/examples.json",
+      "bytes": 935,
+      "sha256": "beaae0b1a65d9194662b4524e2ed3281efaaf1850ccb57d83355459c2f90b026"
+    },
+    {
+      "path": "data/support/scan_saturation_audit_2026-10-19_v2/peak_audit.csv",
+      "bytes": 653605,
+      "sha256": "8786aef57ab6e65c7cd244e02ffee6b1c862859ffbe527275ac36cef086d4661"
+    },
+    {
+      "path": "data/support/scan_saturation_audit_2026-10-19_v2/raw_line_profiles.csv",
+      "bytes": 58888,
+      "sha256": "e442d4580d16837017632613100c55b8f029736fb85db6697ccfb022981427ec"
+    }
+  ]
+}

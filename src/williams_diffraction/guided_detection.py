@@ -1,0 +1,466 @@
+"""Stage-one sample experiment: independent peaks + evidence-gated geometric search.
+
+This never edits RAW, assigns physical diffraction orders, or measures flux.
+Screen homographies are inherited from candidate screen corners, not fitted peaks.
+"""
+
+from .paths import FROZEN_INPUTS, CONFIG_DIR, PACKAGE_DIR, PROJECT_ROOT, source_label
+import argparse
+import csv
+import itertools
+import json
+from pathlib import Path
+
+import cv2
+import numpy as np
+from scipy import ndimage as ndi
+from scipy.optimize import least_squares
+from scipy.spatial import ConvexHull
+from PIL import Image, ImageDraw, ImageFont
+
+from .geometry import (DISPLAY_SIZE, FONT_PATH, centroid, circle, detect,
+                      display_to_raw, homography, raw_to_display, transform)
+from .inventory import BASE, RAW, sha256, write_csv, write_json
+from .raw_check import display
+
+
+def read_rows(path):
+    with path.open(encoding='utf-8-sig', newline='') as f:
+        return list(csv.DictReader(f))
+
+
+def read_red(fid):
+    import rawpy
+    with rawpy.imread(str(RAW / f'{fid}.ARW')) as r:
+        if (r.raw_pattern.tolist() != [[0, 1], [3, 2]] or r.color_desc != b'RGBG'
+                or r.sizes.flip or r.sizes.top_margin or r.sizes.left_margin):
+            raise ValueError('Unverified RAW layout')
+        raw = r.raw_image_visible[::2, ::2].copy()
+        return raw.astype(np.float32) - r.black_level_per_channel[0], raw, r.white_level
+
+
+def patch(field, q, half=20):
+    xx, yy = np.meshgrid(np.arange(-half, half + 1) + q[0],
+                         np.arange(-half, half + 1) + q[1])
+    return ndi.map_coordinates(field, [yy, xx], order=1, mode='nearest')
+
+
+def normalized(p):
+    p = p - p.mean()
+    return p / max(float(np.linalg.norm(p)), 1e-12)
+
+
+def shape_similarity(field, q, templates):
+    p = normalized(patch(field, q))
+    return max((float((p * t).sum()) for t in templates), default=0.)
+
+
+def translation_support(indices):
+    """Require primitive translations to recur on several independent chains."""
+    sites = set(map(tuple, indices))
+    counts, chains = [], []
+    for axis in range(2):
+        step = np.eye(2, dtype=int)[axis]
+        edges = [i for i in sites if tuple(np.array(i) + step) in sites]
+        counts.append(len(edges))
+        chains.append(len({i[1 - axis] for i in edges}))
+    return counts, chains
+
+
+def fit_lattice(points, anchor, cfg):
+    """Free basis from observed translations; no orthogonality/brightness prior."""
+    p = np.asarray(points, float)
+    if len(p) < cfg['minimum_inliers']:
+        return None
+    d = np.linalg.norm(p[:, None] - p, axis=2)
+    np.fill_diagonal(d, np.inf)
+    spacing = float(np.median(d.min(axis=1)))
+    vectors = p - p[anchor]
+    lengths = np.linalg.norm(vectors, axis=1)
+    vectors = vectors[(lengths >= .75 * spacing) & (lengths <= 1.65 * spacing)]
+    best = None
+    for a, b in itertools.combinations(vectors, 2):
+        B, c = np.array([a, b]).T, p[anchor].copy()
+        if np.linalg.cond(B) > cfg['maximum_condition_number']:
+            continue
+        keep = np.zeros(len(p), bool)
+        for _ in range(4):
+            ix = np.rint(np.linalg.solve(B, (p - c).T).T).astype(int)
+            residual = np.linalg.norm(p - (c + ix @ B.T), axis=1)
+            keep = residual <= cfg['residual_fraction'] * spacing
+            if keep.sum() < cfg['minimum_inliers']:
+                break
+            M = np.c_[np.ones(keep.sum()), ix[keep]]
+            initial = np.linalg.lstsq(M, p[keep], rcond=None)[0]
+            fit = least_squares(lambda z: (M @ z.reshape(3, 2) - p[keep]).ravel(),
+                                initial.ravel(), loss='soft_l1', f_scale=.25 * spacing)
+            c, B = fit.x.reshape(3, 2)[0], fit.x.reshape(3, 2)[1:].T
+            if np.linalg.cond(B) > cfg['maximum_condition_number']:
+                break
+        if keep.sum() < cfg['minimum_inliers'] or np.linalg.cond(B) > cfg['maximum_condition_number']:
+            continue
+        ix = np.rint(np.linalg.solve(B, (p - c).T).T).astype(int)
+        residual = np.linalg.norm(p - (c + ix @ B.T), axis=1)
+        keep = residual <= cfg['residual_fraction'] * spacing
+        if keep.sum() < cfg['minimum_inliers'] or len(set(map(tuple, ix[keep]))) != keep.sum():
+            continue
+        counts, chains = translation_support(ix[keep])
+        if (min(counts) < cfg['minimum_translation_pairs'] or min(chains) < 2
+                or min(len(set(ix[keep, j])) for j in range(2)) < 3):
+            continue
+        score = (int(keep.sum()), -float(np.sqrt(np.mean(residual[keep] ** 2))))
+        if best is None or score > best[0]:
+            best = (score, dict(origin=c.tolist(), basis=B.tolist(), indices=ix.tolist(),
+                               inliers=keep.tolist(), residuals=residual.tolist(),
+                               spacing=spacing, rms= -score[1], translation_pairs=counts,
+                               parallel_chains=chains, condition_number=float(np.linalg.cond(B)),
+                               prediction_padding_spacing=cfg['prediction_padding_spacing']))
+    return best[1] if best else None
+
+
+def fit_row(points, anchor, cfg):
+    """A separate gently curving 1D chain with outward-changing spacing.
+
+    k is a neutral observed-node index, not a physical diffraction order.
+    p(k)=c+a*k+b*k*abs(k)+d*abs(k); d permits unequal left/right spacing.
+    With only five/six nodes b is fixed to zero to avoid an unsupported curve.
+    """
+    p = np.asarray(points, float)
+    if len(p) < cfg['minimum_inliers']:
+        return None
+    delta = p - p[anchor]
+    # Only the observed near-horizontal branch is considered by this trial.
+    select = np.abs(delta[:, 1]) <= cfg['row_half_width_mm']
+    if select.sum() < cfg['minimum_inliers']:
+        return None
+    q = p[select]
+    _, _, vt = np.linalg.svd(q - q.mean(axis=0), full_matrices=False)
+    direction = vt[0] * (1 if vt[0, 0] >= 0 else -1)
+    along = (q - p[anchor]) @ direction
+    steps = np.diff(np.sort(along))
+    spacing = float(np.median(steps))
+    if spacing <= 0:
+        return None
+    k = np.rint(along / spacing).astype(int)
+    if len(set(k)) != len(k) or min(np.sum(k < 0), np.sum(k > 0)) < 2:
+        return None
+    curved = len(k) >= 7
+    M = np.c_[np.ones(len(k)), k, k * np.abs(k), np.abs(k)] if curved else np.c_[np.ones(len(k)), k, np.abs(k)]
+    initial = np.linalg.lstsq(M, q, rcond=None)[0]
+    fit = least_squares(lambda z: (M @ z.reshape(M.shape[1], 2) - q).ravel(),
+                        initial.ravel(), loss='soft_l1', f_scale=.15 * spacing)
+    fitted = fit.x.reshape(M.shape[1], 2)
+    residual = np.linalg.norm(M @ fitted - q, axis=1)
+    coefficients = fitted if curved else np.vstack([fitted[:2], [0., 0.], fitted[2]])
+    # A curve may only bend gently and preserve positive, comparable intervals.
+    prediction_k = np.arange(k.min() - 1, k.max() + 2)
+    pred = np.c_[np.ones(len(prediction_k)), prediction_k,
+                 prediction_k * np.abs(prediction_k), np.abs(prediction_k)] @ coefficients
+    intervals = np.diff(pred, axis=0) @ direction
+    if (residual.max() > cfg['residual_fraction'] * spacing
+            or intervals.min() < .7 * spacing or intervals.max() > 1.4 * spacing):
+        return None
+    membership = np.zeros(len(p), bool)
+    membership[select] = True
+    return dict(coefficients=coefficients.tolist(), indices=k.tolist(),
+                inliers=membership.tolist(), spacing=spacing,
+                rms=float(np.sqrt(np.mean(residual ** 2))), direction=direction.tolist(),
+                residuals=residual.tolist(), prediction_indices=prediction_k.tolist(),
+                curve_term_supported=curved)
+
+
+def prediction_sites(model, kind):
+    if kind == 'row':
+        coef = np.array(model['coefficients'])
+        return [(int(k), '', np.array([1, k, k * abs(k), abs(k)]) @ coef)
+                for k in model['prediction_indices']]
+    B, c = np.array(model['basis']), np.array(model['origin'])
+    ix = np.array(model['indices'])[model['inliers']]
+    points = c + ix @ B.T
+    hull = ConvexHull(points)
+    sites = []
+    for m in range(ix[:, 0].min() - 1, ix[:, 0].max() + 2):
+        for n in range(ix[:, 1].min() - 1, ix[:, 1].max() + 2):
+            q = c + B @ [m, n]
+            # One neighbouring shell may be searched, but never populated without signal.
+            if np.max(hull.equations[:, :2] @ q + hull.equations[:, 2]) <= model['prediction_padding_spacing'] * model['spacing']:
+                sites.append((int(m), int(n), q))
+    return sites
+
+
+def reflection_bank(config, old):
+    bank = []
+    for label in config['reflection']['training']:
+        r = next(r for r in old if r['frame_id'] == label['frame_id'] and r['spot_id'] == label['spot_id'])
+        red, _, _ = read_red(r['frame_id'])
+        q = np.array([float(r['u_raw_px']), float(r['v_raw_px'])]) / 2
+        broad = ndi.gaussian_filter(red, 1.)
+        fine = ndi.gaussian_filter(red, .65) - ndi.gaussian_filter(red, 3.5)
+        bank.append((patch(broad, q, 21).astype(np.float32), patch(fine, q, 16).astype(np.float32)))
+    return bank
+
+
+def find_reflections(red, box, anchor, bank, cfg):
+    """Search whole sample ROI; no fixed relative-position exclusion window."""
+    if not bank:return []
+    x0, y0, x1, y1 = map(int, box)
+    q = red[y0:y1, x0:x1].astype(np.float32)
+    broad = ndi.gaussian_filter(q, 1.)
+    fine = ndi.gaussian_filter(q, .65) - ndi.gaussian_filter(q, 3.5)
+    maps = []
+    for field, which, half in [(broad, 0, 21), (fine, 1, 16)]:
+        padded = cv2.copyMakeBorder(field, half, half, half, half, cv2.BORDER_REFLECT)
+        maps.append(np.stack([cv2.matchTemplate(padded, t[which], cv2.TM_CCOEFF_NORMED) for t in bank]))
+    coarse_maps, fine_maps = maps
+    # Both morphology scales must agree with the same training example.
+    joint = np.minimum(coarse_maps / cfg['minimum_coarse_NCC'], fine_maps / cfg['minimum_fine_NCC'])
+    chosen = joint.argmax(axis=0)
+    coarse = np.take_along_axis(coarse_maps, chosen[None], axis=0)[0]
+    sharp = np.take_along_axis(fine_maps, chosen[None], axis=0)[0]
+    candidate = ((coarse == ndi.maximum_filter(coarse, size=41))
+                 & (coarse >= cfg['minimum_coarse_NCC']) & (sharp >= cfg['minimum_fine_NCC']))
+    yy, xx = np.where(candidate)
+    results = []
+    for x, y in zip(xx, yy):
+        center = np.array([x + x0, y + y0], float)
+        sharpness = float(np.percentile(patch(fine, [x, y], 16), 95))
+        if np.linalg.norm(center - anchor) * 2 < 100 or sharpness < cfg['minimum_fine_p95_DN']:
+            continue
+        results.append(dict(q=center, coarse_NCC=float(coarse[y, x]), fine_NCC=float(sharp[y, x]),
+                            fine_p95_DN=sharpness, template_index=int(chosen[y, x]),
+                            decision_source='moving_shape_template'))
+    return results
+
+
+def local_evidence(contrast, noise, predicted, templates, existing, reflections, cfg, maxima=None):
+    """Predictions only propose searches. Empty/non-maximal positions never count."""
+    radius = cfg['search_radius_raw_px'] / 2
+    x, y = predicted
+    lo = np.maximum(np.floor(predicted - radius).astype(int), 0)
+    hi = np.minimum(np.ceil(predicted + radius).astype(int) + 1, contrast.shape[::-1])
+    sub = contrast[lo[1]:hi[1], lo[0]:hi[0]]
+    yy, xx = np.mgrid[lo[1]:hi[1], lo[0]:hi[0]]
+    if maxima is None:
+        maxima = contrast == ndi.maximum_filter(contrast, size=11)
+    local_max = maxima[lo[1]:hi[1], lo[0]:hi[0]]
+    allowed = local_max & (np.hypot(xx - x, yy - y) <= radius)
+    if not allowed.any():
+        return None, dict(status='NO_LOCAL_MAXIMUM')
+    values = np.where(allowed, sub, -np.inf)
+    py, px = np.unravel_index(values.argmax(), values.shape)
+    q = np.array([px + lo[0], py + lo[1]], float)
+    amplitude = float(values[py, px])
+    n = patch(noise, q, 70)
+    Y, X = np.mgrid[-70:71, -70:71]
+    annulus = n[(np.hypot(X, Y) >= 40) & (np.hypot(X, Y) <= 70)]
+    sigma = max(.25, 1.4826 * float(np.median(np.abs(annulus - np.median(annulus)))))
+    score = shape_similarity(contrast, q, templates)
+    evidence = dict(status='DETECTED', contrast_DN=amplitude, local_noise_DN=sigma,
+                    contrast_to_local_MAD_ratio=amplitude / sigma, diffraction_shape_NCC=score,
+                    prediction_error_raw_px=float(np.linalg.norm(q - predicted) * 2))
+    if amplitude < cfg['minimum_contrast_DN'] or amplitude / sigma < cfg['minimum_significance']:
+        evidence['status'] = 'INSUFFICIENT_SIGNAL'
+    elif evidence['prediction_error_raw_px'] > cfg['maximum_error_raw_px']:
+        evidence['status'] = 'POSITION_MISMATCH'
+    elif score < cfg['minimum_diffraction_NCC']:
+        evidence['status'] = 'SHAPE_MISMATCH'
+    elif any(np.linalg.norm(q - r['q']) * 2 < cfg['reflection_center_radius_raw_px'] for r in reflections):
+        evidence['status'] = 'REFLECTION_OR_OVERLAP'
+    elif any(np.linalg.norm(q - p) * 2 < cfg['minimum_separation_raw_px'] for p in existing):
+        evidence['status'] = 'ALREADY_DETECTED'
+    return (q if evidence['status'] == 'DETECTED' else None), evidence
+
+
+def saturation_stats(raw, q, radius, white):
+    lo = np.maximum(np.floor(q - radius).astype(int), 0)
+    hi = np.minimum(np.ceil(q + radius).astype(int) + 1, raw.shape[::-1])
+    yy, xx = np.mgrid[lo[1]:hi[1], lo[0]:hi[0]]
+    mask = np.hypot(xx - q[0], yy - q[1]) <= radius
+    values = raw[lo[1]:hi[1], lo[0]:hi[0]][mask]
+    return dict(saturated_count=int(np.sum(values >= white)), raw_sample_count=len(values),
+                raw_max=int(values.max()))
+
+
+def run(config_path, out):
+    from .paths import require_writable_run
+    out=require_writable_run(out)
+    config = json.loads(config_path.read_text())
+    sample_config = json.loads((BASE / 'annotations/sample_config.json').read_text())
+    baseline = BASE / 'outputs/stage1_20261010_corrected'
+    old = read_rows(baseline / 'spots.csv')
+    frames = {r['frame_id']: r for r in read_rows(baseline / 'frames.csv')}
+    out.mkdir(parents=True, exist_ok=False)
+    (out / 'comparisons').mkdir()
+    (out / 'overlays').mkdir()
+    bank = reflection_bank(config, old)
+    all_spots, rejected, predictions, summaries, models, hashes = [], [], [], [], [], []
+    font = ImageFont.truetype(FONT_PATH, 15)
+    for sample in sample_config['samples']:
+        fid = sample['frame_id']
+        if fid not in config['sample_ids']:
+            continue
+        before_hash = sha256(RAW / f'{fid}.ARW')
+        red, raw, white = read_red(fid)
+        H = homography(display_to_raw(sample['corners_display'], red.shape), 100, 120)
+        invH = np.linalg.inv(H)
+        box = display_to_raw(np.array(sample['detection_box_display']).reshape(2, 2), red.shape).ravel() / 2
+        smooth = ndi.gaussian_filter(red, 4)
+        contrast = smooth - ndi.gaussian_filter(red, 35)
+        noise = smooth - ndi.gaussian_filter(red, 8)
+        maxima = contrast == ndi.maximum_filter(contrast, size=11)
+        old_rows = [r for r in old if r['frame_id'] == fid]
+        anchor_row = max(old_rows, key=lambda r: float(r['detection_contrast_DN']))
+        anchor_q = np.array([float(anchor_row['u_raw_px']), float(anchor_row['v_raw_px'])]) / 2
+        reflections = find_reflections(red, box, anchor_q, bank, config['reflection'])
+        # Explicit reviewed labels remain effective even if the classifier fails.
+        for label in config['reflection']['review_labels']:
+            if label['frame_id'] != fid:
+                continue
+            r = next(r for r in old_rows if r['spot_id'] == label['spot_id'])
+            q = np.array([float(r['u_raw_px']), float(r['v_raw_px'])]) / 2
+            if not any(np.linalg.norm(q - v['q']) * 2 < 70 for v in reflections):
+                reflections.append(dict(q=q, coarse_NCC='', fine_NCC='', fine_p95_DN='',
+                                        decision_source='explicit_user_label'))
+        seeds = detect(red, box, sample_config['detection'])
+        accepted = []
+        for amp, x, y in seeds:
+            q, bg, major, ratio = centroid(red, [x, y], 65 / 2)
+            previous = min(old_rows, key=lambda r: np.linalg.norm(q * 2 - [float(r['u_raw_px']), float(r['v_raw_px'])]))
+            old_id = previous['spot_id'] if np.linalg.norm(q * 2 - [float(previous['u_raw_px']), float(previous['v_raw_px'])]) < 2 else ''
+            matches = [r for r in reflections if np.linalg.norm(q - r['q']) * 2 < 70]
+            if matches:
+                v = matches[0]
+                rejected.append(dict(frame_id=fid, old_spot_id=old_id, u_raw_px=float(q[0] * 2),
+                                     v_raw_px=float(q[1] * 2), reason='INSTRUMENT_REFLECTION',
+                                     decision_source=v['decision_source'], coarse_NCC=v['coarse_NCC'],
+                                     fine_NCC=v['fine_NCC'], fine_p95_DN=v['fine_p95_DN'],
+                                     template_frame_id=config['reflection']['training'][v['template_index']]['frame_id'] if 'template_index' in v else '',
+                                     numbered=False))
+                continue
+            accepted.append(dict(q=q, amp=amp, bg=bg, major=major, ratio=ratio,
+                                 old_id=old_id, origin='independent_strong', model_groups=[]))
+        points = transform([p['q'] * 2 for p in accepted], H)
+        fit_inputs = [dict(previous_spot_id=p['old_id'], u_raw_px=float(p['q'][0] * 2),
+                           v_raw_px=float(p['q'][1] * 2), X_mm_candidate=float(mm[0]),
+                           Y_mm_candidate=float(mm[1])) for p, mm in zip(accepted, points)]
+        anchor = int(np.argmax([p['amp'] for p in accepted]))
+        lattice = fit_lattice(points, anchor, config['lattice'])
+        row = fit_row(points, anchor, config['row'])
+        frame_models = []
+        for kind, model in [('lattice_2d', lattice), ('row', row)]:
+            if model is None:
+                frame_models.append(dict(kind=kind, status='INSUFFICIENT_GEOMETRIC_EVIDENCE'))
+                continue
+            frame_models.append(dict(kind=kind, status='OBSERVED_GEOMETRY_MODEL', **model))
+            members = [i for i, flag in enumerate(model['inliers']) if flag]
+            templates = [normalized(patch(contrast, accepted[i]['q'])) for i in members
+                         if i != anchor and accepted[i]['amp'] >= 20]
+            for i in members:
+                accepted[i]['model_groups'].append(kind)
+            # Models are fitted once to independent strong peaks; weak additions do not validate themselves.
+            for m, n, predicted_mm in prediction_sites(model, kind):
+                predicted_q = transform([predicted_mm], invH)[0] / 2
+                x0, y0, x1, y1 = box
+                if not (x0 + 21 <= predicted_q[0] < x1 - 21 and y0 + 21 <= predicted_q[1] < y1 - 21):
+                    continue
+                existing = [p['q'] for p in accepted]
+                nearest = min(np.linalg.norm(predicted_q - q) * 2 for q in existing)
+                record = dict(frame_id=fid, model=kind, index_m=m, index_n=n,
+                              predicted_u_raw_px=float(predicted_q[0] * 2), predicted_v_raw_px=float(predicted_q[1] * 2))
+                if nearest < 55:
+                    evidence = dict(status='ALREADY_DETECTED')
+                    q = None
+                else:
+                    q, evidence = local_evidence(contrast, noise, predicted_q, templates,
+                                                 existing, reflections, config['guided'], maxima)
+                record.update(evidence)
+                if q is not None:
+                    center, bg, major, ratio = centroid(red, q, 45 / 2)
+                    # Keep measured peak coordinate if the small aperture is pulled by a neighbour.
+                    center = center if np.linalg.norm(center - q) * 2 <= 12 else q
+                    accepted.append(dict(q=center, amp=evidence['contrast_DN'], bg=bg, major=major,
+                                         ratio=ratio, old_id='', origin='guided_' + kind,
+                                         model_groups=[kind], evidence=evidence))
+                    record.update(measured_u_raw_px=float(center[0] * 2), measured_v_raw_px=float(center[1] * 2))
+                predictions.append(record)
+        for p in accepted:
+            p['mm'] = transform([p['q'] * 2], H)[0]
+        accepted.sort(key=lambda p: (round(p['mm'][1] / 5), p['mm'][0]))
+        base_image = Image.fromarray(display(red)).resize(tuple(DISPLAY_SIZE.astype(int)), Image.Resampling.LANCZOS).convert('RGB')
+        overlay = base_image.copy()
+        draw = ImageDraw.Draw(overlay)
+        for i, p in enumerate(accepted, 1):
+            pos = raw_to_display([p['q'] * 2], red.shape)[0]
+            color = '#82f0a2' if p['origin'].startswith('guided') else '#70e0ff'
+            circle(draw, pos, 11, color)
+            draw.text(tuple(pos + [10, -19]), f'{i:03d}', font=font, fill=color, stroke_width=2, stroke_fill='black')
+            flags = ['STAGE1_ALGORITHM_TRIAL', 'GEOMETRY_UNVERIFIED', 'ZERO_ORDER_UNCERTAIN']
+            if not p['model_groups']:
+                flags.append('OFF_MODEL_REVIEW')
+            if any(np.linalg.norm(p['q'] - r['q']) * 2 < 150 for r in reflections):
+                flags.append('NEAR_REFLECTION_REVIEW')
+            if any(label['frame_id'] == fid and label['spot_id'] == p['old_id']
+                   for label in config['reflection']['overlap_review_peaks']):
+                flags.append('POSSIBLE_REFLECTION_OVERLAP_MANUAL_REVIEW')
+            saturation = saturation_stats(raw, p['q'], 22.5 if p['origin'].startswith('guided') else 32.5, white)
+            if saturation['saturated_count']:
+                flags.append('SATURATED')
+            evidence_fields = {k: v for k, v in p.get('evidence', {}).items() if k != 'contrast_DN'}
+            all_spots.append(dict(frame_id=fid, spot_id=f'spot_{i:03d}', previous_spot_id=p['old_id'],
+                                  detection_origin=p['origin'], model_groups=';'.join(p['model_groups']),
+                                  u_raw_px=float(p['q'][0] * 2), v_raw_px=float(p['q'][1] * 2),
+                                  X_mm_candidate=float(p['mm'][0]), Y_mm_candidate=float(p['mm'][1]),
+                                  contrast_DN=p['amp'], shape_major_rms_raw_px=p['major'], shape_axis_ratio=p['ratio'],
+                                  zero_order_confirmed=False, photometry_valid=False,
+                                  quality_flags=';'.join(flags), **saturation, **evidence_fields))
+        # Reflection candidates carry no number and no erasure; crosses are annotations only.
+        for r in reflections:
+            pos = raw_to_display([r['q'] * 2], red.shape)[0]
+            draw.line(tuple(pos + [-8, -8]) + tuple(pos + [8, 8]), fill='#ffb76b', width=2)
+            draw.line(tuple(pos + [-8, 8]) + tuple(pos + [8, -8]), fill='#ffb76b', width=2)
+        draw.rectangle((0, 0, 1406, 56), fill='#141b25')
+        meta = frames[fid]
+        draw.text((12, 8), f"{fid} | {meta['scan_direction']} {meta['voltage_recorded_V']} V | SAMPLE ALGORITHM TRIAL", font=font, fill='white')
+        draw.text((12, 30), 'cyan: independent; green: guided evidence; orange X: reflection, NO spot ID', font=font, fill='white')
+        overlay.save(out / 'overlays' / f'{fid}.png')
+        crop_box = tuple((np.array(sample['detection_box_display']) + [-30, -30, 30, 30]).astype(int))
+        old_image = Image.open(baseline / 'overlays' / f'{fid}.png').convert('RGB')
+        old_crop, new_crop = old_image.crop(crop_box), overlay.crop(crop_box)
+        height = max(200, int(1100 * old_crop.height / old_crop.width))
+        comparison = Image.new('RGB', (2200, height + 55), '#141b25')
+        for col, crop in enumerate([old_crop, new_crop]):
+            comparison.paste(crop.resize((1100, height), Image.Resampling.LANCZOS), (col * 1100, 55))
+        cd = ImageDraw.Draw(comparison)
+        cd.text((20, 15), f'{fid}: baseline ({len(old_rows)} numbered candidates)', font=font, fill='white')
+        guided_count = sum(p['origin'].startswith('guided') for p in accepted)
+        cd.text((1120, 15), f'trial: {len(accepted)} candidates, +{guided_count} guided, reflections unnumbered', font=font, fill='white')
+        comparison.save(out / 'comparisons' / f'{fid}.png')
+        summaries.append(dict(frame_id=fid, baseline_count=len(old_rows), independent_retained=len(accepted) - guided_count,
+                              guided_added=guided_count, trial_count=len(accepted),
+                              rejected_baseline_count=sum(r['frame_id'] == fid for r in rejected),
+                              lattice_status='fitted' if lattice else 'insufficient_evidence',
+                              row_status='fitted' if row else 'insufficient_evidence'))
+        models.append(dict(frame_id=fid, H_raw_to_screen_mm=H.tolist(), models=frame_models,
+                           fit_inputs_in_array_order=fit_inputs,
+                           guidance_anchor='brightest independent peak; NOT confirmed zero order'))
+        after_hash = sha256(RAW / f'{fid}.ARW')
+        if before_hash != after_hash:
+            raise RuntimeError('RAW hash changed')
+        hashes.append(dict(frame_id=fid, before_sha256=before_hash, after_sha256=after_hash))
+        print(fid, summaries[-1], flush=True)
+    write_csv(out / 'spots.csv', all_spots)
+    write_csv(out / 'rejected_candidates.csv', rejected)
+    write_csv(out / 'predicted_sites.csv', predictions)
+    write_csv(out / 'sample_comparison.csv', summaries)
+    write_json(out / 'geometric_models.json', models)
+    write_json(out / 'raw_integrity.json', hashes)
+    write_json(out / 'run_config.json', config)
+    write_json(out / 'source_hashes.json', {p.name: sha256(p) for p in [Path(__file__), PACKAGE_DIR/'geometry.py', config_path]})
+
+
+if __name__ == '__main__':
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--config', type=Path, default=BASE / 'annotations/algorithm_trial_v2.json')
+    parser.add_argument('--out', type=Path, required=True)
+    args = parser.parse_args()
+    run(args.config, args.out)

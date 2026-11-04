@@ -1,0 +1,64 @@
+{
+  "detector": {
+    "version": "screen_evidence_v16_no_deletion_from_unresolved_edge_profile",
+    "scales_red_samples": [
+      4,
+      8
+    ],
+    "strong_minimum_DN": 12,
+    "template_minimum_DN": 20,
+    "minimum_separation_raw_px": 90,
+    "strong_top_bottom_margin_raw_px": 20,
+    "weak_edge_margin_raw_px": 20,
+    "maximum_scale_shift_raw_px": 20,
+    "lattice": {
+      "minimum_inliers": 8,
+      "maximum_condition_number": 3,
+      "residual_fraction": 0.12,
+      "minimum_translation_pairs": 3,
+      "prediction_padding_spacing": 1.5
+    },
+    "row": {
+      "minimum_inliers": 5,
+      "row_half_width_mm": 2.5,
+      "residual_fraction": 0.12
+    },
+    "guided": {
+      "search_radius_raw_px": 50,
+      "maximum_error_raw_px": 40,
+      "minimum_contrast_DN": 4,
+      "minimum_significance": 7.5,
+      "minimum_diffraction_NCC": 0.65,
+      "minimum_separation_raw_px": 90,
+      "reflection_center_radius_raw_px": 40
+    },
+    "strong_edge_margin_raw_px": 20,
+    "strong_maximum_scale_shift_raw_px": 80,
+    "saddle_check_radius_raw_px": 300,
+    "minimum_saddle_fraction": 0.15,
+    "generic_template_minimum_significance": 8.0,
+    "generic_template_minimum_NCC": 0.75,
+    "boundary_review_distance_raw_px": 180,
+    "maximum_conditional_loo_fraction": 0.2,
+    "mask_external_screen_background": true,
+    "brightness_prediction": true,
+    "resolution_aware_separation": true,
+    "resolution_floor_raw_px": 48,
+    "weak_context_before_training": true,
+    "contextual_brightness_prediction": true,
+    "cfa_background_prediction": true,
+    "cfa_background": {
+      "minimum_green_contrast_DN": 2.0,
+      "maximum_broadband_R_per_G": 3.0
+    },
+    "saturation_aware_localization": true,
+    "close_training_evidence": true,
+    "maximum_training_closure_passes": 5,
+    "brightness_bilateral_support": true,
+    "edge_ridge_rejection": false,
+    "weak_edge_ridge_distance_raw_px": 80.0,
+    "minimum_edge_tangential_prominence": 0.15,
+    "single_cfa_impulse_rejection": true,
+    "edge_ridge_diagnostic": true
+  }
+}

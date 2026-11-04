@@ -1,0 +1,136 @@
+[
+  {
+    "raw_xy": [
+      3753.8107249755158,
+      3030.5209337878705
+    ],
+    "origin": "INDEPENDENT_STRONG",
+    "flags": []
+  },
+  {
+    "raw_xy": [
+      3530.0,
+      3034.0
+    ],
+    "origin": "INDEPENDENT_STRONG",
+    "flags": []
+  },
+  {
+    "raw_xy": [
+      4213.486594238496,
+      3068.102985205831
+    ],
+    "origin": "INDEPENDENT_STRONG",
+    "flags": []
+  },
+  {
+    "raw_xy": [
+      3292.504125236437,
+      3016.8739613309685
+    ],
+    "origin": "INDEPENDENT_STRONG",
+    "flags": []
+  },
+  {
+    "raw_xy": [
+      4006.0,
+      3050.0
+    ],
+    "origin": "INDEPENDENT_STRONG",
+    "flags": []
+  },
+  {
+    "raw_xy": [
+      3397.077482396163,
+      3035.244042759465
+    ],
+    "origin": "INDEPENDENT_STRONG",
+    "flags": [
+      "LOW_LOCAL_SIGNIFICANCE",
+      "WEAK_SIGNAL",
+      "UNRESOLVED_SHALLOW_SADDLE"
+    ]
+  },
+  {
+    "raw_xy": [
+      2781.6174816666116,
+      3012.9608668486303
+    ],
+    "origin": "INDEPENDENT_STRONG",
+    "flags": []
+  },
+  {
+    "raw_xy": [
+      2758.044670591368,
+      3135.4581546016625
+    ],
+    "origin": "INDEPENDENT_STRONG",
+    "flags": [
+      "LOW_LOCAL_SIGNIFICANCE",
+      "WEAK_SIGNAL",
+      "UNRESOLVED_SHALLOW_SADDLE"
+    ]
+  },
+  {
+    "raw_xy": [
+      4736.121374135303,
+      3040.715113143393
+    ],
+    "origin": "INDEPENDENT_STRONG",
+    "flags": []
+  },
+  {
+    "raw_xy": [
+      4700.2544256895835,
+      3139.625140661452
+    ],
+    "origin": "INDEPENDENT_STRONG",
+    "flags": [
+      "WEAK_SIGNAL"
+    ]
+  },
+  {
+    "raw_xy": [
+      2226.0046280991737,
+      2959.376661157025
+    ],
+    "origin": "INDEPENDENT_WEAK",
+    "flags": [
+      "WEAK_SIGNAL",
+      "OFF_MODEL_REVIEW"
+    ]
+  },
+  {
+    "raw_xy": [
+      3256.480828393487,
+      1983.62752307346
+    ],
+    "origin": "INDEPENDENT_WEAK",
+    "flags": [
+      "WEAK_SIGNAL",
+      "OFF_MODEL_REVIEW"
+    ]
+  },
+  {
+    "raw_xy": [
+      2897.90641394483,
+      1395.675410390929
+    ],
+    "origin": "INDEPENDENT_WEAK",
+    "flags": [
+      "WEAK_SIGNAL",
+      "OFF_MODEL_REVIEW"
+    ]
+  },
+  {
+    "raw_xy": [
+      3031.1698297629714,
+      1390.4442453368088
+    ],
+    "origin": "INDEPENDENT_WEAK",
+    "flags": [
+      "WEAK_SIGNAL",
+      "OFF_MODEL_REVIEW"
+    ]
+  }
+]

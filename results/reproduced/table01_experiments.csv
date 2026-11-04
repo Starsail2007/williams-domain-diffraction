@@ -1,0 +1,4 @@
+experiment,batch_id,cycle_id,frames,up_frames,down_frames,cell_to_screen_mm,screen_width_mm,screen_height_mm,wavelength_nm
+实验1,scan_2026-10-10,original,80,46,34,120,100,120,632.8
+实验2,scan_2026-10-14,cycle01,87,49,38,300,120,120,632.8
+实验3,scan_2026-10-14,cycle02,117,76,41,300,120,120,632.8

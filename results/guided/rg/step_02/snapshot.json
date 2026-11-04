@@ -1,0 +1,46 @@
+{
+  "step": "rg.selection",
+  "sequence": 2,
+  "pass_index": 1,
+  "images": [
+    "results/guided/rg/step_02/selected.png"
+  ],
+  "metrics": [
+    [
+      "总候选",
+      3612
+    ],
+    [
+      "纳入",
+      3277
+    ]
+  ],
+  "table": {
+    "headers": [
+      "选样结果",
+      "候选数"
+    ],
+    "rows": [
+      [
+        "central",
+        284
+      ],
+      [
+        "included",
+        3277
+      ],
+      [
+        "hard_saturated",
+        48
+      ],
+      [
+        "reflection_aperture_overlap",
+        3
+      ]
+    ]
+  },
+  "evidence": [],
+  "links": [],
+  "elapsed_s": 2.18,
+  "status": "computed"
+}

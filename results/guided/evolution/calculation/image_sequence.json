@@ -1,0 +1,383 @@
+{
+  "diffraction": [
+    {
+      "frame_id": "088",
+      "direction": "up",
+      "cycle": "cycle02",
+      "voltage_RMS_V": 1.08,
+      "file": "data/samples/diffraction/up_088.png",
+      "source_sha256": "696ff8130017ef3657f4ce90186c327c149a19fb847ae4e168ddf89ae6f6810e",
+      "use": "display only; current distance=300 mm; historical record may state 350 mm"
+    },
+    {
+      "frame_id": "098",
+      "direction": "up",
+      "cycle": "cycle02",
+      "voltage_RMS_V": 5.38,
+      "file": "data/samples/diffraction/up_098.png",
+      "source_sha256": "0327ced07dd70ea61213811e899d0aef4224f76caa98a86ef516b2cfc526bd16",
+      "use": "display only; current distance=300 mm; historical record may state 350 mm"
+    },
+    {
+      "frame_id": "105",
+      "direction": "up",
+      "cycle": "cycle02",
+      "voltage_RMS_V": 5.72,
+      "file": "data/samples/diffraction/up_105.png",
+      "source_sha256": "a19704e737b2a02d6338202aade66fce94fcda7e9cb1284b77cac791bdbbcd39",
+      "use": "display only; current distance=300 mm; historical record may state 350 mm"
+    },
+    {
+      "frame_id": "108",
+      "direction": "up",
+      "cycle": "cycle02",
+      "voltage_RMS_V": 5.9,
+      "file": "data/samples/diffraction/up_108.png",
+      "source_sha256": "0f3eb0fd5684664fc89a12ff91b1ce45838fe26a69c9501de07eaa4f66ddc454",
+      "use": "display only; current distance=300 mm; historical record may state 350 mm"
+    },
+    {
+      "frame_id": "116",
+      "direction": "up",
+      "cycle": "cycle02",
+      "voltage_RMS_V": 6.23,
+      "file": "data/samples/diffraction/up_116.png",
+      "source_sha256": "69af9d380d9121cda7739aab0bafa09be05bf5bd71a66b3caa764220d655d94f",
+      "use": "display only; current distance=300 mm; historical record may state 350 mm"
+    },
+    {
+      "frame_id": "127",
+      "direction": "up",
+      "cycle": "cycle02",
+      "voltage_RMS_V": 7.01,
+      "file": "data/samples/diffraction/up_127.png",
+      "source_sha256": "4404c8610761d90a0a09b2e78c2b07b5c5a980e2b631d73ea25837310a55a4c4",
+      "use": "display only; current distance=300 mm; historical record may state 350 mm"
+    },
+    {
+      "frame_id": "151",
+      "direction": "up",
+      "cycle": "cycle02",
+      "voltage_RMS_V": 8.74,
+      "file": "data/samples/diffraction/up_151.png",
+      "source_sha256": "86d20909094bdb64dcda1f5324c08994650d10b17a9b5040df06920ac1ad379d",
+      "use": "display only; current distance=300 mm; historical record may state 350 mm"
+    },
+    {
+      "frame_id": "163",
+      "direction": "up",
+      "cycle": "cycle02",
+      "voltage_RMS_V": 12.47,
+      "file": "data/samples/diffraction/up_163.png",
+      "source_sha256": "9173255a7c475def48f054f44b06a6a409b20f139fd4c0b8b5ed91e18368e788",
+      "use": "display only; current distance=300 mm; historical record may state 350 mm"
+    },
+    {
+      "frame_id": "175",
+      "direction": "down",
+      "cycle": "cycle02",
+      "voltage_RMS_V": 6.11,
+      "file": "data/samples/diffraction/down_175.png",
+      "source_sha256": "c020bbb526f85839809dd40574634fffa1d31d66b6a69c04e7395e49f18ada8a",
+      "use": "display only; current distance=300 mm; historical record may state 350 mm"
+    },
+    {
+      "frame_id": "177",
+      "direction": "down",
+      "cycle": "cycle02",
+      "voltage_RMS_V": 5.74,
+      "file": "data/samples/diffraction/down_177.png",
+      "source_sha256": "be2bc0a71e2c7d64b9f50fe4c023be95d1b6bde1d0952301370fe9297563f9a7",
+      "use": "display only; current distance=300 mm; historical record may state 350 mm"
+    },
+    {
+      "frame_id": "181",
+      "direction": "down",
+      "cycle": "cycle02",
+      "voltage_RMS_V": 5.42,
+      "file": "data/samples/diffraction/down_181.png",
+      "source_sha256": "cbb4c7af3a757147c010a6e8dbbcedd268e826099cc29fe9827f4ef995adf9c0",
+      "use": "display only; current distance=300 mm; historical record may state 350 mm"
+    },
+    {
+      "frame_id": "190",
+      "direction": "down",
+      "cycle": "cycle02",
+      "voltage_RMS_V": 4.52,
+      "file": "data/samples/diffraction/down_190.png",
+      "source_sha256": "4590c74900f680b38f78b9bcfc5d9ba35c14856d13ac2343aee9c41bae57cb0c",
+      "use": "display only; current distance=300 mm; historical record may state 350 mm"
+    },
+    {
+      "frame_id": "198",
+      "direction": "down",
+      "cycle": "cycle02",
+      "voltage_RMS_V": 3.7,
+      "file": "data/samples/diffraction/down_198.png",
+      "source_sha256": "3247f925072f13ec3f68f9f3172d34754e2af8d68583139f256048c71a719f33",
+      "use": "display only; current distance=300 mm; historical record may state 350 mm"
+    },
+    {
+      "frame_id": "202",
+      "direction": "down",
+      "cycle": "cycle02",
+      "voltage_RMS_V": 3.02,
+      "file": "data/samples/diffraction/down_202.png",
+      "source_sha256": "dbec33c2f58b31de15036e39b313664c2d5ccb2769c4d536e03935cfb7255a01",
+      "use": "display only; current distance=300 mm; historical record may state 350 mm"
+    }
+  ],
+  "microscopy": {
+    "video_id": "micro_late",
+    "parent_video_basename": "261021130627.mp4",
+    "parent_video_sha256": "5f9162137e56bac001ad8a4deb2a808fc73b00676e8c9f2470194a0e8f6cfb40",
+    "pixel_scale_um": [
+      0.75,
+      0.75
+    ],
+    "frames": [
+      {
+        "file": "micro_late_88.png",
+        "receipt": {
+          "file": "micro_late_88.png",
+          "frame_index": 88,
+          "height": 1024,
+          "pts_s": 44,
+          "video_id": "micro_late",
+          "width": 1536,
+          "sha256": "93f23128c324deb0148b82a8cbdbcbd735124849face66c1f8eb5070da346283",
+          "parent_video_sha256": "5f9162137e56bac001ad8a4deb2a808fc73b00676e8c9f2470194a0e8f6cfb40"
+        },
+        "sample": {
+          "sample_id": "micro_late_up_0088",
+          "video_id": "micro_late",
+          "micro_frame_index": 88,
+          "micro_pts_s": 44.0,
+          "phone_frame_index": 1759,
+          "phone_pts_s": 58.635,
+          "direction": "up",
+          "target_voltage_V": 4.4,
+          "voltage_V": 4.47,
+          "voltage_span_3s_V": 0.010000000000000675,
+          "quasi_static_voltage": true,
+          "steady_state_certified": false,
+          "voltage_crop_file": "crops/phone_late_01759.png",
+          "voltage_center_review": "MANUALLY_REVIEWED",
+          "manual_review_index": 59
+        }
+      },
+      {
+        "file": "micro_late_164.png",
+        "receipt": {
+          "file": "micro_late_164.png",
+          "frame_index": 164,
+          "height": 1024,
+          "pts_s": 82,
+          "video_id": "micro_late",
+          "width": 1536,
+          "sha256": "643a81f950615d0647d85c19e0ee30b86c701873d7b8db4fde2a6f6638e84df7",
+          "parent_video_sha256": "5f9162137e56bac001ad8a4deb2a808fc73b00676e8c9f2470194a0e8f6cfb40"
+        },
+        "sample": {
+          "sample_id": "micro_late_up_0164",
+          "video_id": "micro_late",
+          "micro_frame_index": 164,
+          "micro_pts_s": 82.0,
+          "phone_frame_index": 2899,
+          "phone_pts_s": 96.63666666666667,
+          "direction": "up",
+          "target_voltage_V": 5.38,
+          "voltage_V": 5.39,
+          "voltage_span_3s_V": 0.0,
+          "quasi_static_voltage": true,
+          "steady_state_certified": false,
+          "voltage_crop_file": "crops/phone_late_02899.png",
+          "voltage_center_review": "MANUALLY_REVIEWED",
+          "manual_review_index": 62
+        }
+      },
+      {
+        "file": "micro_late_227.png",
+        "receipt": {
+          "file": "micro_late_227.png",
+          "frame_index": 227,
+          "height": 1024,
+          "pts_s": 113.5,
+          "video_id": "micro_late",
+          "width": 1536,
+          "sha256": "8f95008cdb4db6920dbaf76a19670d74a6d84de023220acf6d4bf016cd64686b",
+          "parent_video_sha256": "5f9162137e56bac001ad8a4deb2a808fc73b00676e8c9f2470194a0e8f6cfb40"
+        },
+        "sample": {
+          "sample_id": "micro_late_up_0227",
+          "video_id": "micro_late",
+          "micro_frame_index": 227,
+          "micro_pts_s": 113.5,
+          "phone_frame_index": 3844,
+          "phone_pts_s": 128.13666666666666,
+          "direction": "up",
+          "target_voltage_V": 6.2,
+          "voltage_V": 6.19,
+          "voltage_span_3s_V": 0.0,
+          "quasi_static_voltage": true,
+          "steady_state_certified": false,
+          "voltage_crop_file": "crops/phone_late_03844.png",
+          "voltage_center_review": "MANUALLY_REVIEWED",
+          "manual_review_index": 70
+        }
+      },
+      {
+        "file": "micro_late_295.png",
+        "receipt": {
+          "file": "micro_late_295.png",
+          "frame_index": 295,
+          "height": 1024,
+          "pts_s": 147.5,
+          "video_id": "micro_late",
+          "width": 1536,
+          "sha256": "cdafaf49dc177cd9e6efa108da8eca7132a09d3cbafcdd119a770600c5153f25",
+          "parent_video_sha256": "5f9162137e56bac001ad8a4deb2a808fc73b00676e8c9f2470194a0e8f6cfb40"
+        },
+        "sample": {
+          "sample_id": "micro_late_up_0295",
+          "video_id": "micro_late",
+          "micro_frame_index": 295,
+          "micro_pts_s": 147.5,
+          "phone_frame_index": 4864,
+          "phone_pts_s": 162.13833333333332,
+          "direction": "up",
+          "target_voltage_V": 8.2,
+          "voltage_V": 8.25,
+          "voltage_span_3s_V": 0.0,
+          "quasi_static_voltage": true,
+          "steady_state_certified": false,
+          "voltage_crop_file": "crops/phone_late_04864.png",
+          "voltage_center_review": "MANUALLY_REVIEWED",
+          "manual_review_index": 77
+        }
+      },
+      {
+        "file": "micro_late_436.png",
+        "receipt": {
+          "file": "micro_late_436.png",
+          "frame_index": 436,
+          "height": 1024,
+          "pts_s": 218,
+          "video_id": "micro_late",
+          "width": 1536,
+          "sha256": "b10aa078076267fa8761b5d0d189d8491083072bfc254a0941813273fe15747c",
+          "parent_video_sha256": "5f9162137e56bac001ad8a4deb2a808fc73b00676e8c9f2470194a0e8f6cfb40"
+        },
+        "sample": {
+          "sample_id": "micro_late_down_0436",
+          "video_id": "micro_late",
+          "micro_frame_index": 436,
+          "micro_pts_s": 218.0,
+          "phone_frame_index": 6979,
+          "phone_pts_s": 232.64,
+          "direction": "down",
+          "target_voltage_V": 7.4,
+          "voltage_V": 7.38,
+          "voltage_span_3s_V": 0.0,
+          "quasi_static_voltage": true,
+          "steady_state_certified": false,
+          "voltage_crop_file": "crops/phone_late_06979.png",
+          "voltage_center_review": "MANUALLY_REVIEWED",
+          "manual_review_index": 92
+        }
+      },
+      {
+        "file": "micro_late_500.png",
+        "receipt": {
+          "file": "micro_late_500.png",
+          "frame_index": 500,
+          "height": 1024,
+          "pts_s": 250,
+          "video_id": "micro_late",
+          "width": 1536,
+          "sha256": "4fdb785fa01013150c8db4f7f641392ce215338b9e49b94b02999e9326d49cf4",
+          "parent_video_sha256": "5f9162137e56bac001ad8a4deb2a808fc73b00676e8c9f2470194a0e8f6cfb40"
+        },
+        "sample": {
+          "sample_id": "micro_late_down_0500",
+          "video_id": "micro_late",
+          "micro_frame_index": 500,
+          "micro_pts_s": 250.0,
+          "phone_frame_index": 7939,
+          "phone_pts_s": 264.64,
+          "direction": "down",
+          "target_voltage_V": 6.2,
+          "voltage_V": 6.16,
+          "voltage_span_3s_V": 0.0,
+          "quasi_static_voltage": true,
+          "steady_state_certified": false,
+          "voltage_crop_file": "crops/phone_late_07939.png",
+          "voltage_center_review": "MANUALLY_REVIEWED",
+          "manual_review_index": 89
+        }
+      },
+      {
+        "file": "micro_late_559.png",
+        "receipt": {
+          "file": "micro_late_559.png",
+          "frame_index": 559,
+          "height": 1024,
+          "pts_s": 279.5,
+          "video_id": "micro_late",
+          "width": 1536,
+          "sha256": "3b4acfc3a045dc210c1da4ec54ad7c119cfd4812c336019ebf62f30738bcce2a",
+          "parent_video_sha256": "5f9162137e56bac001ad8a4deb2a808fc73b00676e8c9f2470194a0e8f6cfb40"
+        },
+        "sample": {
+          "sample_id": "micro_late_down_0559",
+          "video_id": "micro_late",
+          "micro_frame_index": 559,
+          "micro_pts_s": 279.5,
+          "phone_frame_index": 8824,
+          "phone_pts_s": 294.14166666666665,
+          "direction": "down",
+          "target_voltage_V": 5.7,
+          "voltage_V": 5.66,
+          "voltage_span_3s_V": 0.0,
+          "quasi_static_voltage": true,
+          "steady_state_certified": false,
+          "voltage_crop_file": "crops/phone_late_08824.png",
+          "voltage_center_review": "MANUALLY_REVIEWED",
+          "manual_review_index": 84
+        }
+      },
+      {
+        "file": "micro_late_583.png",
+        "receipt": {
+          "file": "micro_late_583.png",
+          "frame_index": 583,
+          "height": 1024,
+          "pts_s": 291.5,
+          "video_id": "micro_late",
+          "width": 1536,
+          "sha256": "1e634625460425904b3944390a37381a58f6f674ec54d20da4995778c7ed02bb",
+          "parent_video_sha256": "5f9162137e56bac001ad8a4deb2a808fc73b00676e8c9f2470194a0e8f6cfb40"
+        },
+        "sample": {
+          "sample_id": "micro_late_down_0583",
+          "video_id": "micro_late",
+          "micro_frame_index": 583,
+          "micro_pts_s": 291.5,
+          "phone_frame_index": 9184,
+          "phone_pts_s": 306.14166666666665,
+          "direction": "down",
+          "target_voltage_V": 5.2,
+          "voltage_V": 5.24,
+          "voltage_span_3s_V": 0.0,
+          "quasi_static_voltage": true,
+          "steady_state_certified": false,
+          "voltage_crop_file": "crops/phone_late_09184.png",
+          "voltage_center_review": "MANUALLY_REVIEWED",
+          "manual_review_index": 82
+        }
+      }
+    ],
+    "scope": "Decoded RGB samples. Parent video not included or decoded during export."
+  },
+  "operation": "Rearrange existing display/native frames in recorded scan order; no measurement or temporal inference"
+}

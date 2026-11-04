@@ -1,0 +1,38 @@
+[
+  {
+    "sample_id": "micro_early_up_0181",
+    "grid_roi": "left",
+    "combination_periods_um": [
+      15.175030873447783,
+      13.345427185103802
+    ],
+    "same_frame_other_roi_stripes": [],
+    "interpretation": "Length-only compatibility; microscopy frequencies are not certified director modes; different ROIs; not a direction/coherence identification"
+  },
+  {
+    "sample_id": "micro_early_up_0187",
+    "grid_roi": "left",
+    "combination_periods_um": [
+      15.176903828049188,
+      13.348036491627182
+    ],
+    "same_frame_other_roi_stripes": [],
+    "interpretation": "Length-only compatibility; microscopy frequencies are not certified director modes; different ROIs; not a direction/coherence identification"
+  },
+  {
+    "sample_id": "micro_late_up_0164",
+    "grid_roi": "left",
+    "combination_periods_um": [
+      14.330082338893273,
+      13.830485723950803
+    ],
+    "same_frame_other_roi_stripes": [
+      {
+        "roi": "right",
+        "period_um": 13.923706898052679,
+        "relative_difference_to_closest_combination": 0.006740267548264178
+      }
+    ],
+    "interpretation": "Length-only compatibility; microscopy frequencies are not certified director modes; different ROIs; not a direction/coherence identification"
+  }
+]

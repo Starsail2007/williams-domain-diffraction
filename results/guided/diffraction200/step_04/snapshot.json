@@ -1,0 +1,27 @@
+{
+  "step": "detection.strong",
+  "sequence": 4,
+  "pass_index": 1,
+  "images": [
+    "results/guided/diffraction200/step_04/candidates.png"
+  ],
+  "metrics": [
+    [
+      "强候选",
+      10
+    ],
+    [
+      "独立弱候选",
+      0
+    ],
+    [
+      "预测补检",
+      0
+    ]
+  ],
+  "table": null,
+  "evidence": [],
+  "links": [],
+  "elapsed_s": 6.46,
+  "status": "computed"
+}

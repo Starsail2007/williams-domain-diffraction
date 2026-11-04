@@ -1,0 +1,19 @@
+{
+  "step": "intensity.input",
+  "sequence": 1,
+  "pass_index": 1,
+  "images": [
+    "results/guided/intensity/observations.png"
+  ],
+  "metrics": [
+    [
+      "输入身份",
+      "实验1的23帧峰比；三轮26帧二维亮节点"
+    ]
+  ],
+  "table": null,
+  "evidence": [],
+  "links": [],
+  "elapsed_s": 1.594,
+  "status": "computed"
+}

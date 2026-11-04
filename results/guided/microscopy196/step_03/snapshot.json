@@ -1,0 +1,14 @@
+{
+  "step": "texture.window",
+  "sequence": 3,
+  "pass_index": 1,
+  "images": [
+    "results/guided/microscopy196/step_03/array.png"
+  ],
+  "metrics": [],
+  "table": null,
+  "evidence": [],
+  "links": [],
+  "elapsed_s": 1.972,
+  "status": "computed"
+}

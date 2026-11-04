@@ -1,0 +1,6 @@
+[
+  {"id":"measurement","folder":"01_measurement","title":"图像处理与测量","question":"照片中的位置和亮度怎样用于测量？","lead":"RG通道拟合、坐标变换、光斑识别与RAW测光。"},
+  {"id":"periods","folder":"03_periods","title":"空间周期","question":"衍射峰距与显微纹理是否对应？","lead":"从光斑位置和傅里叶频谱测量周期，再比较两者。"},
+  {"id":"intensity","folder":"04_intensity","title":"光强分配","question":"电压怎样改变各级光强的配比？","lead":"比较单正弦与双谐波模型，检验二维双斜向强度谱。"},
+  {"id":"discussion","folder":"05_discussion","title":"微观结构的讨论","question":"周期对应与强度模型提供了怎样的结构线索？","lead":"联系相位倍频和组合频率，说明解释的适用范围。"}
+]

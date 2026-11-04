@@ -1,0 +1,520 @@
+{
+  "status": "PASS",
+  "case": "periods",
+  "result": {
+    "status": "PASS",
+    "reader_result": "分别测量衍射与显微周期，比较同周期和两倍周期对应，并保留谐波与混合反例。",
+    "horizontal_frames": 126,
+    "geometry_frames": 28,
+    "geometry_nodes": 572,
+    "conditional_LOO_fits": 1716,
+    "comparison": {
+      "status": "PASS",
+      "operation": "recompute frame-level aggregation",
+      "roi_matches": 31,
+      "one_dimensional_historical_frames": [
+        4,
+        5,
+        7
+      ],
+      "two_dimensional_matches": 1,
+      "summary": [
+        {
+          "batch": "10-10",
+          "cycle": "original",
+          "video": "micro_late",
+          "kind": "1d",
+          "n_roi_matches": 7,
+          "n_historical_frames": 4,
+          "p_median_um": 12.041366909830156,
+          "d_median_um": 5.818594882185434,
+          "residual_median": 0.029820171242544324,
+          "frames": [
+            {
+              "frame_id": "014",
+              "p_um": 12.292431814132451,
+              "d_um": 5.945147082712893,
+              "residual": 0.0338206644101362
+            },
+            {
+              "frame_id": "019",
+              "p_um": 11.667174432866409,
+              "d_um": 5.730478915541851,
+              "residual": 0.017992964010688506
+            },
+            {
+              "frame_id": "022",
+              "p_um": 11.79030200552786,
+              "d_um": 5.746771219895818,
+              "residual": 0.025819678074952446
+            },
+            {
+              "frame_id": "026",
+              "p_um": 12.620200221462328,
+              "d_um": 5.89041854447505,
+              "residual": 0.07124817414710816
+            }
+          ]
+        },
+        {
+          "batch": "10-14",
+          "cycle": "cycle01",
+          "video": "micro_late",
+          "kind": "1d",
+          "n_roi_matches": 11,
+          "n_historical_frames": 5,
+          "p_median_um": 11.79030200552786,
+          "d_median_um": 12.571183736431252,
+          "residual_median": -0.033472381129467266,
+          "frames": [
+            {
+              "frame_id": "010",
+              "p_um": 12.385669532179534,
+              "d_um": 12.814604870425958,
+              "residual": -0.033472381129467266
+            },
+            {
+              "frame_id": "012",
+              "p_um": 11.683182479700395,
+              "d_um": 12.571183736431252,
+              "residual": -0.07063783931161793
+            },
+            {
+              "frame_id": "014",
+              "p_um": 11.667174432866409,
+              "d_um": 12.060412556461575,
+              "residual": -0.03260569418783954
+            },
+            {
+              "frame_id": "017",
+              "p_um": 11.79030200552786,
+              "d_um": 12.300792069652509,
+              "residual": -0.04150058477812074
+            },
+            {
+              "frame_id": "022",
+              "p_um": 12.620200221462328,
+              "d_um": 12.749605430383113,
+              "residual": -0.010149742251034988
+            }
+          ]
+        },
+        {
+          "batch": "10-14",
+          "cycle": "cycle02",
+          "video": "micro_late",
+          "kind": "1d",
+          "n_roi_matches": 12,
+          "n_historical_frames": 7,
+          "p_median_um": 12.292431814132451,
+          "d_median_um": 12.250193132980035,
+          "residual_median": 0.009080414560650674,
+          "frames": [
+            {
+              "frame_id": "099",
+              "p_um": 13.923706898052679,
+              "d_um": 12.1622699837209,
+              "residual": 0.14482797345310106
+            },
+            {
+              "frame_id": "102",
+              "p_um": 12.478907250226616,
+              "d_um": 12.347080182009682,
+              "residual": 0.01067678076708467
+            },
+            {
+              "frame_id": "105",
+              "p_um": 12.292431814132451,
+              "d_um": 12.181815875877962,
+              "residual": 0.009080414560650674
+            },
+            {
+              "frame_id": "110",
+              "p_um": 11.683182479700395,
+              "d_um": 12.250193132980035,
+              "residual": -0.04628585420038245
+            },
+            {
+              "frame_id": "115",
+              "p_um": 11.667174432866409,
+              "d_um": 12.251441886387438,
+              "residual": -0.04768968901286702
+            },
+            {
+              "frame_id": "122",
+              "p_um": 11.79030200552786,
+              "d_um": 12.253175144014989,
+              "residual": -0.03777577101827506
+            },
+            {
+              "frame_id": "127",
+              "p_um": 12.620200221462328,
+              "d_um": 12.039553669306075,
+              "residual": 0.048228245672974346
+            }
+          ]
+        }
+      ],
+      "two_dimensional_supplement": [
+        {
+          "batch": "10-14",
+          "cycle": "cycle02",
+          "video": "micro_late",
+          "kind": "2d",
+          "n_roi_matches": 1,
+          "n_historical_frames": 1,
+          "p_median_um": 19.9084318799491,
+          "d_median_um": 20.153929437967786,
+          "residual_median": -0.012181126205403792,
+          "frames": [
+            {
+              "frame_id": "098",
+              "p_um": 19.9084318799491,
+              "d_um": 20.153929437967786,
+              "residual": -0.012181126205403792
+            }
+          ]
+        }
+      ]
+    },
+    "texture": [
+      {
+        "id": "micro164_left",
+        "title": "两方向格纹、谐波与混合峰：检验局部共同支持",
+        "status": "COMPUTED",
+        "quality_status": "RESOLVED_CANDIDATES",
+        "strongest_period_um": 20.17373120293636,
+        "family_period_um": 20.17373120293636,
+        "family_rank": 1,
+        "lower_support_period_um": 20.17373120293636,
+        "family_ambiguous": false,
+        "pair_coverage": 0.9173284876293321,
+        "pair_angle_deg": 87.96652210066897,
+        "jointly_supported_tiles": 3,
+        "spatial_pair_applicable": true,
+        "spatial_pair_supported": true
+      },
+      {
+        "id": "micro164_center",
+        "title": "空间混合产生全局双峰：局部格纹判断的反例",
+        "status": "COMPUTED",
+        "quality_status": "RESOLVED_CANDIDATES",
+        "strongest_period_um": 19.17800856343236,
+        "family_period_um": 19.735415720471373,
+        "family_rank": 2,
+        "lower_support_period_um": 19.735415720471373,
+        "family_ambiguous": false,
+        "pair_coverage": 0.732854971051261,
+        "pair_angle_deg": 89.71263207332635,
+        "jointly_supported_tiles": 0,
+        "spatial_pair_applicable": true,
+        "spatial_pair_supported": false
+      },
+      {
+        "id": "micro164_right",
+        "title": "同帧单方向条纹：与左侧格纹的空间对照",
+        "status": "COMPUTED",
+        "quality_status": "RESOLVED_CANDIDATES",
+        "strongest_period_um": 13.923706898052679,
+        "family_period_um": 13.923706898052679,
+        "family_rank": 1,
+        "lower_support_period_um": 13.923706898052679,
+        "family_ambiguous": false,
+        "pair_coverage": null,
+        "pair_angle_deg": null,
+        "jointly_supported_tiles": null,
+        "spatial_pair_applicable": false,
+        "spatial_pair_supported": null
+      },
+      {
+        "id": "micro196_right",
+        "title": "最强谱峰是二次谐波：重新寻找受支持的频率族",
+        "status": "COMPUTED",
+        "quality_status": "RESOLVED_CANDIDATES",
+        "strongest_period_um": 6.1582612094678115,
+        "family_period_um": 12.292431814132451,
+        "family_rank": 2,
+        "lower_support_period_um": 12.292431814132451,
+        "family_ambiguous": false,
+        "pair_coverage": null,
+        "pair_angle_deg": null,
+        "jointly_supported_tiles": null,
+        "spatial_pair_applicable": false,
+        "spatial_pair_supported": null
+      },
+      {
+        "id": "micro254_right",
+        "title": "频率族随支持阈值改变：保留身份歧义",
+        "status": "COMPUTED",
+        "quality_status": "RESOLVED_CANDIDATES",
+        "strongest_period_um": 6.163070142897178,
+        "family_period_um": null,
+        "family_rank": null,
+        "lower_support_period_um": 12.154789522066228,
+        "family_ambiguous": true,
+        "pair_coverage": null,
+        "pair_angle_deg": null,
+        "jointly_supported_tiles": null,
+        "spatial_pair_applicable": false,
+        "spatial_pair_supported": null
+      },
+      {
+        "id": "micro436_center",
+        "title": "近均匀与稀疏折线：有谱峰仍缺合格主族",
+        "status": "COMPUTED",
+        "quality_status": "RESOLVED_CANDIDATES",
+        "strongest_period_um": 52.13738676021346,
+        "family_period_um": null,
+        "family_rank": null,
+        "lower_support_period_um": 10.144402026485322,
+        "family_ambiguous": true,
+        "pair_coverage": null,
+        "pair_angle_deg": null,
+        "jointly_supported_tiles": null,
+        "spatial_pair_applicable": false,
+        "spatial_pair_supported": null
+      },
+      {
+        "id": "micro559_center",
+        "title": "降压折叠与方向弥散：二维基底缺少支持",
+        "status": "COMPUTED",
+        "quality_status": "RESOLVED_CANDIDATES",
+        "strongest_period_um": 12.338518146352282,
+        "family_period_um": 12.338518146352282,
+        "family_rank": 1,
+        "lower_support_period_um": 12.338518146352282,
+        "family_ambiguous": false,
+        "pair_coverage": null,
+        "pair_angle_deg": null,
+        "jointly_supported_tiles": null,
+        "spatial_pair_applicable": false,
+        "spatial_pair_supported": null
+      }
+    ]
+  },
+  "events": [
+    {
+      "step": "period.input",
+      "sequence": 1,
+      "pass_index": 1,
+      "images": [],
+      "metrics": [
+        [
+          "输入身份",
+          "126个一维帧、28个二维帧与31条既定匹配"
+        ]
+      ],
+      "table": {
+        "headers": [
+          "输入项",
+          "值"
+        ],
+        "rows": [
+          [
+            "实验3代表帧",
+            "099"
+          ],
+          [
+            "峰距 / mm",
+            "14.063852054322439, 31.01670539739289, 48.201051815520735"
+          ],
+          [
+            "屏距 / mm",
+            300.0
+          ],
+          [
+            "波长 / µm",
+            0.6328
+          ]
+        ]
+      },
+      "evidence": [],
+      "links": [],
+      "elapsed_s": 1.587,
+      "status": "computed"
+    },
+    {
+      "step": "period.horizontal",
+      "sequence": 2,
+      "pass_index": 1,
+      "images": [
+        "results/guided/periods/calculation/01_diffraction_periods.png"
+      ],
+      "metrics": [
+        [
+          "代表帧",
+          "099"
+        ],
+        [
+          "L / mm",
+          300.0
+        ],
+        [
+          "首对峰周期 / µm",
+          13.513260047113393
+        ],
+        [
+          "三对峰周期 / µm",
+          12.162269983720902
+        ],
+        [
+          "全部帧",
+          126
+        ]
+      ],
+      "table": {
+        "headers": [
+          "峰对 n",
+          "峰距 r / mm",
+          "sinθ = r / √(L²+r²)"
+        ],
+        "rows": [
+          [
+            1,
+            14.063852054322439,
+            0.046828078331488505
+          ],
+          [
+            2,
+            31.01670539739289,
+            0.10284083134297675
+          ],
+          [
+            3,
+            48.201051815520735,
+            0.15863563748033227
+          ]
+        ]
+      },
+      "evidence": [],
+      "links": [],
+      "elapsed_s": 4.668,
+      "status": "computed"
+    },
+    {
+      "step": "period.geometry",
+      "sequence": 3,
+      "pass_index": 1,
+      "images": [
+        "results/guided/periods/calculation/02_lattice.png"
+      ],
+      "metrics": [
+        [
+          "几何帧",
+          28
+        ],
+        [
+          "节点",
+          572
+        ],
+        [
+          "条件留一拟合",
+          1716
+        ]
+      ],
+      "table": {
+        "headers": [
+          "模型",
+          "留一误差 / 半步，中位数"
+        ],
+        "rows": [
+          [
+            "square",
+            0.21141605215095832
+          ],
+          [
+            "rectangular",
+            0.09040575605988578
+          ],
+          [
+            "affine",
+            0.07152998691951896
+          ]
+        ]
+      },
+      "evidence": [],
+      "links": [],
+      "elapsed_s": 5.387,
+      "status": "computed"
+    },
+    {
+      "step": "period.comparison",
+      "sequence": 4,
+      "pass_index": 1,
+      "images": [
+        "results/guided/periods/calculation/03_period_comparison.png"
+      ],
+      "metrics": [],
+      "table": {
+        "headers": [
+          "实验组",
+          "配对衍射帧数",
+          "偏差中位数"
+        ],
+        "rows": [
+          [
+            "original",
+            4,
+            "+2.98%"
+          ],
+          [
+            "cycle01",
+            5,
+            "-3.35%"
+          ],
+          [
+            "cycle02",
+            7,
+            "+0.91%"
+          ]
+        ]
+      },
+      "evidence": [],
+      "links": [],
+      "elapsed_s": 5.404,
+      "status": "computed"
+    }
+  ],
+  "source_sha256": {
+    "src/williams_diffraction/microscopy.py": "67899da35a561dd0a2c44f20cb124bd3843d056ffb3286f7fe79569ccf4f482d",
+    "src/williams_diffraction/research_analysis.py": "d1438ea9eac3491d65bec27d2b0bf56e1da200f730df6cbde8266765826745f1",
+    "src/williams_diffraction/microscopy_series.py": "ea26de1df8b43e83b109d22fdc8e55a2567d3cf82b3d0d7f6a465344ffef0621",
+    "src/williams_diffraction/guided_detection.py": "7e6223b378298cab0576e435ba0af54c08b53b2c8138b1f6714c360a352195cb",
+    "src/williams_diffraction/paths.py": "2a04a1a5df60ed4e7536d4b44fd91371f3d1944679c851ee03b68847a6dfaffb",
+    "src/williams_diffraction/weak_tail_trial.py": "efd54eb7b1f23a4b37220b78e2b96254b3bcd1a7cf86b97899ac88095b155827",
+    "src/williams_diffraction/research_route.py": "64f817965d41c9bc90ffd201b2bbc77d177306c94291716e49a62e49b5c75b42",
+    "src/williams_diffraction/green_expanded.py": "1cb068cac0f1830d94598fcfdc401d46463ebe739d55fc64153e0f9e0fb7cf0c",
+    "src/williams_diffraction/guide_events.py": "787d5449d46777c8e25606ed22c51628296debdc994e91c031e699568c3dc3fb",
+    "src/williams_diffraction/delivery_io.py": "c4d7d6d6789feeefe8ff987e874417cbefeaf90d3f4d8ffc16e2273c1542d43f",
+    "src/williams_diffraction/lab_server.py": "4563c3aea828d6fdac715a9d38e04bef0f0f64f357ea2e610dc62af465e1e7a9",
+    "src/williams_diffraction/__init__.py": "88bdc3d63dc7807fb6d37a94da05016d718b15c199461ae12ba590ca942e9403",
+    "src/williams_diffraction/delivery_models.py": "d64f177cae132f18a2b2e9dc0dac05d66aba1e70fabe79e951cffcb60428637a",
+    "src/williams_diffraction/voltage_spectrum.py": "a530aedcd67056faffbb3688ac6b314e44d9c761fbde9641be3efbb810d041d7",
+    "src/williams_diffraction/evidence_detection.py": "3b3c63bcee9ab6e95e835d7e05209a67160dff8f746d4b8acabfd0d2ba8e5e82",
+    "src/williams_diffraction/guided_lab.py": "a3c0de993db58eefbe0b339c33c1c154d9243c604ae3474078c96853a091fa35",
+    "src/williams_diffraction/research_pages.py": "e8a7f92f86781bddb8297be2d5024652b4637de8e66140542ebdd5d41a88fb76",
+    "src/williams_diffraction/delivery_paper.py": "76d1a8e7fcb72cdad9f55bb4a1868b83d4facc2ccf0db38dd3927cbde4308f7b",
+    "src/williams_diffraction/common.py": "577f00591b97fd2ec7812061f8b222b347b6082c200832626eb26f0c179afe02",
+    "src/williams_diffraction/screen_audit.py": "2d420b0ea4415ac3ae40285ae032b0b946e0215ec6214180b88129177b602c47",
+    "src/williams_diffraction/screen_validation_trial.py": "2a5cb63c94b5df0adfcb646d70e77f3a96ac8530b3b10f74bca5af0b3527f06d",
+    "src/williams_diffraction/algorithm_graphics.py": "ca65eaa510d96a6512e35c51b200e29501abef24b32459ea545d60ae4678dd5b",
+    "src/williams_diffraction/green_channel_study.py": "4808284d69c09aba169aee36baa6372c78efe34af93109b08680fb110b7cc62d",
+    "src/williams_diffraction/delivery_algorithms.py": "02864237ff7195bcf9715fa9df6be6ff8e4cf2ff557766ce24a58b7ac5bc2dfe",
+    "src/williams_diffraction/geometry.py": "3244508e782bd945a4a17776853113ca0446380e953c5c302d11d477c60f9c7f",
+    "src/williams_diffraction/research_figures.py": "2c49c1d465f9868a413cc509e989f1862599fdaf14c86be1e467739b3a28d0e5",
+    "src/williams_diffraction/channel_response.py": "23ecdf220f2bc0bbad1207c0b5aa2f0bf291c043acc5c907390a728bfd22f7d8",
+    "src/williams_diffraction/diffraction_models.py": "87f799e0c8bd14e004238e1601590cb2a05a2e3ed38a490f5dbac1b4d7a8190b",
+    "src/williams_diffraction/microscopy_lattice.py": "4f52f963c9eda4d872edeec6ca7ac55dee2447dec4c4f68e4e6ead7d14585021",
+    "src/williams_diffraction/raw_check.py": "b648aef53c8cea75cbf1d971a184261de8c702241ea91d1fe4fd11ba320979d5",
+    "src/williams_diffraction/delivery_examples.py": "725018ea42e365f0ce597a75e326527401770e3f1f482e38b8500aae45803b79",
+    "src/williams_diffraction/green_photometry_trial.py": "5ef1837833ad608ec6467fc6c5ce57a989acd91a8b384baf13258255696f45a9",
+    "src/williams_diffraction/research_measurement.py": "4d4159a8c0846225f2bf812f97a7c6d3b6f8457ed5afe6a3dc9a7b332bc2e925",
+    "src/williams_diffraction/candidate_evidence.py": "ffb3d6f467eeaa0a4ee012c7e2d6b899ab90acd9fd8637e3a832f9bbdf7cbd52",
+    "src/williams_diffraction/raw_photometry.py": "8f3de2fbe55141c580df7f4d8ed0c92a09687bc1f6321bafe8def6e2b47f09db",
+    "src/williams_diffraction/inventory.py": "ad625c34f2930184e56bf535204da2cf4a621dab177917fe84a06fc514f2943b"
+  },
+  "input_manifest_sha256": "a7b2adf67938fae7ba96c1f593a4b0b1df9dbf02ad8bc702bc811d21c840126e",
+  "user_image_sha256": null,
+  "recording": "Snapshots copied from actual calculation stages; no timing animation",
+  "elapsed_s": 5.407150249986444
+}

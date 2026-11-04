@@ -1,0 +1,24 @@
+{
+  "step": "discussion.combination",
+  "sequence": 3,
+  "pass_index": 1,
+  "images": [],
+  "metrics": [
+    [
+      "和差频对应长度 / µm",
+      [
+        13.830485723950803,
+        14.330082338893273
+      ]
+    ],
+    [
+      "另一条纹区 / µm",
+      13.923706898052679
+    ]
+  ],
+  "table": null,
+  "evidence": [],
+  "links": [],
+  "elapsed_s": 1.949,
+  "status": "computed"
+}

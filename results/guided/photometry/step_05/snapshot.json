@@ -1,0 +1,54 @@
+{
+  "step": "photometry.final",
+  "sequence": 5,
+  "pass_index": 1,
+  "images": [
+    "results/guided/photometry/calculation/125_audit_p007_measurement.png",
+    "results/guided/photometry/calculation/125_audit_p013_aperture.png"
+  ],
+  "metrics": [
+    [
+      "光斑数",
+      22
+    ],
+    [
+      "通道记录",
+      88
+    ],
+    [
+      "对原验收积分最大差",
+      0.0
+    ]
+  ],
+  "table": {
+    "headers": [
+      "光斑",
+      "G1净积分",
+      "G2净积分",
+      "平均G净积分"
+    ],
+    "rows": [
+      [
+        "125_audit_p007",
+        3092967.8254964165,
+        3167920.6064569103,
+        3130444.2159766634
+      ],
+      [
+        "125_audit_p013",
+        1788671.8232764287,
+        1784746.198605397,
+        1786709.0109409129
+      ]
+    ]
+  },
+  "evidence": [],
+  "links": [
+    {
+      "label": "完整积分与质量标志",
+      "path": "results/guided/photometry/calculation/net_integrals.csv"
+    }
+  ],
+  "elapsed_s": 13.505,
+  "status": "computed"
+}

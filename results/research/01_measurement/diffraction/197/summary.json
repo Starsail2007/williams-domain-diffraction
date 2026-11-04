@@ -1,0 +1,84 @@
+{
+  "status": "PASS",
+  "id": "197",
+  "case_title": "降压规则宽峰列；二维模型不成立但row模型可支撑局部预测；右边界没有足够独立支持，保留3条条件边不能说全部四边已标定。",
+  "origin_counts": {
+    "INDEPENDENT_WEAK": 5,
+    "INDEPENDENT_STRONG": 20
+  },
+  "candidates": 25,
+  "with_quality_flags": 13,
+  "review_required": 11,
+  "candidate_status_counts": {
+    "REVIEW_REQUIRED": 11,
+    "SIGNAL_CANDIDATE": 12,
+    "WEAK_SIGNAL_CANDIDATE": 2
+  },
+  "supplied_human_exclusions": 0,
+  "conditional_edges": [
+    1,
+    2,
+    3
+  ],
+  "audit_status_counts": {
+    "SAME_OR_UNRESOLVED_MODE": 116,
+    "FINE_TEXTURE_WITHOUT_COARSE_PEAK": 13,
+    "RESOLVED_CLOSE_PAIR": 11,
+    "ALREADY_DETECTED_AFTER_LOCALIZATION": 86,
+    "SCALE_UNSTABLE_REVIEW": 114,
+    "SHAPE_MISMATCH": 16,
+    "DETECTED": 5,
+    "INSUFFICIENT_SIGNAL": 5,
+    "UNRESOLVED_SHALLOW_SADDLE": 6,
+    "MODEL_AND_TEMPLATE_TRAINING_INPUTS": 1,
+    "NO_ACCEPTED_LOCAL_MAXIMUM": 7,
+    "TRAINING_EVIDENCE_CLOSURE_STABLE": 1
+  },
+  "model_gates": [
+    {
+      "kind": "lattice_2d",
+      "status": "INSUFFICIENT_OR_INCONSISTENT_GEOMETRY",
+      "prediction_enabled": null,
+      "maximum_conditional_loo_fraction": null
+    },
+    {
+      "kind": "row",
+      "status": "OBSERVED_GEOMETRY",
+      "prediction_enabled": true,
+      "maximum_conditional_loo_fraction": 0.08092288220387549
+    }
+  ],
+  "elapsed_s": 19.66771179198986,
+  "raw_decoder_used_at_runtime": false,
+  "reference_evaluation": {
+    "status": "PASS",
+    "scope": "regression against accepted v9/v16 coordinates, not detection accuracy against independent human truth",
+    "reference_loaded_after_detection": true,
+    "candidates_found": 25,
+    "reference_candidates": 25,
+    "maximum_coordinate_difference_raw_px": 0.0,
+    "maximum_screen_corner_difference_display_px": 0.0,
+    "prediction_gates": {
+      "lattice_2d": false,
+      "row": true
+    },
+    "reference_prediction_gates": {
+      "lattice_2d": false,
+      "row": true
+    },
+    "model_statuses": {
+      "lattice_2d": "INSUFFICIENT_OR_INCONSISTENT_GEOMETRY",
+      "row": "OBSERVED_GEOMETRY"
+    },
+    "reference_model_statuses": {
+      "lattice_2d": "INSUFFICIENT_OR_INCONSISTENT_GEOMETRY",
+      "row": "OBSERVED_GEOMETRY"
+    },
+    "historical_human_review_summary": "本帧25个候选均已逐项复核；其中5个仍受低信噪比、浅鞍点、光翼或边缘混合限制，逐项原因随表保存。已核对本轮原图、正视标记与峰区对位；未将质量限制改写为已确认独立衍射峰。",
+    "historical_class_counts": {
+      "UNRESOLVED_IMAGE_IDENTITY": 5,
+      "VISIBLE_OPTICAL_SUPPORT": 11,
+      "CONNECTED_OPTICAL_ENVELOPE": 9
+    }
+  }
+}

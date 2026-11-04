@@ -1,0 +1,86 @@
+{
+  "status": "PASS",
+  "id": "108",
+  "case_title": "接近2D→宽横族过渡，二维小点阵与宽峰列共存；两种几何家族同时评估，有独立弱信号和非光学排除。",
+  "origin_counts": {
+    "INDEPENDENT_WEAK": 13,
+    "INDEPENDENT_STRONG": 34
+  },
+  "candidates": 47,
+  "with_quality_flags": 16,
+  "review_required": 16,
+  "candidate_status_counts": {
+    "REVIEW_REQUIRED": 16,
+    "SIGNAL_CANDIDATE": 31
+  },
+  "supplied_human_exclusions": 4,
+  "conditional_edges": [
+    2,
+    3
+  ],
+  "audit_status_counts": {
+    "SAME_OR_UNRESOLVED_MODE": 193,
+    "RESOLVED_CLOSE_PAIR": 7,
+    "FINE_TEXTURE_WITHOUT_COARSE_PEAK": 10,
+    "CONFIRMED_NON_OPTICAL_REVIEW": 40,
+    "SCREEN_EDGE": 8,
+    "ALREADY_DETECTED_AFTER_LOCALIZATION": 138,
+    "SCALE_UNSTABLE_REVIEW": 154,
+    "SHAPE_MISMATCH": 28,
+    "INSUFFICIENT_SIGNAL": 60,
+    "DETECTED": 13,
+    "UNRESOLVED_SHALLOW_SADDLE": 5,
+    "MODEL_AND_TEMPLATE_TRAINING_INPUTS": 1,
+    "MEASURED_BROADBAND_BACKGROUND": 2,
+    "NO_ACCEPTED_LOCAL_MAXIMUM": 45,
+    "SCREEN_EDGE_OR_OUTSIDE": 3,
+    "TRAINING_EVIDENCE_CLOSURE_STABLE": 1
+  },
+  "model_gates": [
+    {
+      "kind": "lattice_2d",
+      "status": "OBSERVED_GEOMETRY",
+      "prediction_enabled": true,
+      "maximum_conditional_loo_fraction": 0.10711247303624911
+    },
+    {
+      "kind": "row",
+      "status": "OBSERVED_GEOMETRY",
+      "prediction_enabled": true,
+      "maximum_conditional_loo_fraction": 0.14493280007921594
+    }
+  ],
+  "elapsed_s": 10.764912459009793,
+  "raw_decoder_used_at_runtime": false,
+  "reference_evaluation": {
+    "status": "PASS",
+    "scope": "regression against accepted v9/v16 coordinates, not detection accuracy against independent human truth",
+    "reference_loaded_after_detection": true,
+    "candidates_found": 47,
+    "reference_candidates": 47,
+    "maximum_coordinate_difference_raw_px": 0.0,
+    "maximum_screen_corner_difference_display_px": 0.0,
+    "prediction_gates": {
+      "lattice_2d": true,
+      "row": true
+    },
+    "reference_prediction_gates": {
+      "lattice_2d": true,
+      "row": true
+    },
+    "model_statuses": {
+      "lattice_2d": "OBSERVED_GEOMETRY",
+      "row": "OBSERVED_GEOMETRY"
+    },
+    "reference_model_statuses": {
+      "lattice_2d": "OBSERVED_GEOMETRY",
+      "row": "OBSERVED_GEOMETRY"
+    },
+    "historical_human_review_summary": "本帧47个候选均已逐项复核；其中18个仍受低信噪比、浅鞍点、光翼或边缘混合限制，逐项原因随表保存。已核对本轮原图、正视标记与峰区对位；未将质量限制改写为已确认独立衍射峰。",
+    "historical_class_counts": {
+      "UNRESOLVED_IMAGE_IDENTITY": 18,
+      "VISIBLE_OPTICAL_SUPPORT": 20,
+      "CONNECTED_OPTICAL_ENVELOPE": 9
+    }
+  }
+}

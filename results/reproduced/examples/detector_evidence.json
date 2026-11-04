@@ -1,0 +1,394 @@
+{
+  "peaks": [
+    {
+      "u_raw_px": 260.0,
+      "v_raw_px": 360.00000000000006,
+      "detection_contrast_DN": 132.75849374733093,
+      "detection_origin": "INDEPENDENT_STRONG",
+      "scale_red_samples": 4,
+      "evidence": {
+        "centroid_shift_raw_px": 5.684341886080802e-14,
+        "localization": "centroid",
+        "background_DN": 1.0228847463607423e-18,
+        "major_rms_raw_px": 11.999961827915538,
+        "axis_ratio": 1.0,
+        "seed_raw_xy": [
+          260.0,
+          360.0
+        ],
+        "seed_contrast_DN": 132.758493747331,
+        "coarse_maximum_distance_raw_px": 0.0,
+        "localization_seed_raw_xy": [
+          260.0,
+          360.0
+        ],
+        "localized_contrast_DN": 132.75849374733093,
+        "local_noise_DN": 0.25,
+        "contrast_to_local_MAD_ratio": 531.0339749893237
+      },
+      "model_groups": [],
+      "review_flags": [],
+      "physical_order": null,
+      "candidate_status": "SIGNAL_CANDIDATE",
+      "zero_order_confirmed": false,
+      "edge_distance_raw_px": 240.0,
+      "brightness_prediction": {
+        "method": "LEAVE_ONE_OUT_DIRECTIONAL_REGION_LOG_MEDIAN",
+        "status": "CENTRAL_REFERENCE_NOT_PREDICTED",
+        "radius_mm": 0.0,
+        "observed_contrast_DN": 132.75849374733093,
+        "interpretation": "regional image evidence; not an order-intensity law"
+      },
+      "final_regional_brightness_prediction": {
+        "method": "LEAVE_ONE_OUT_DIRECTIONAL_REGION_LOG_MEDIAN",
+        "status": "CENTRAL_REFERENCE_NOT_PREDICTED",
+        "radius_mm": 0.0,
+        "observed_contrast_DN": 132.75849374733093,
+        "interpretation": "regional image evidence; not an order-intensity law"
+      }
+    },
+    {
+      "u_raw_px": 499.99999999999994,
+      "v_raw_px": 359.99999999999994,
+      "detection_contrast_DN": 5.291507989314854,
+      "detection_origin": "INDEPENDENT_WEAK",
+      "scale_red_samples": 4,
+      "evidence": {
+        "status": "DETECTED",
+        "contrast_DN": 5.291507989314854,
+        "local_noise_DN": 0.25,
+        "contrast_to_local_MAD_ratio": 21.166031957259417,
+        "diffraction_shape_NCC": 0.9833935146611557,
+        "prediction_error_raw_px": 0.0,
+        "centroid_shift_raw_px": 8.038873388460929e-14,
+        "localization": "centroid",
+        "background_DN": 1.391643129286346e-09,
+        "major_rms_raw_px": 11.96359781242198,
+        "axis_ratio": 1.0,
+        "coarse_maximum_distance_raw_px": 0.0,
+        "template_basis": "ANALYTIC_GAUSSIAN_PRIOR",
+        "cfa_background": {}
+      },
+      "model_groups": [],
+      "review_flags": [
+        "WEAK_SIGNAL",
+        "OFF_MODEL_REVIEW"
+      ],
+      "physical_order": null,
+      "candidate_status": "REVIEW_REQUIRED",
+      "zero_order_confirmed": false,
+      "edge_distance_raw_px": 280.0,
+      "brightness_prediction": {
+        "method": "LEAVE_ONE_OUT_DIRECTIONAL_REGION_LOG_MEDIAN",
+        "status": "INSUFFICIENT_COMPARABLE_OBSERVATIONS",
+        "radius_mm": 37.89473684210525,
+        "observed_contrast_DN": 5.291507989314854,
+        "interpretation": "regional image evidence; not an order-intensity law",
+        "peer_count": 0,
+        "peer_raw_xy": []
+      },
+      "final_regional_brightness_prediction": {
+        "method": "LEAVE_ONE_OUT_DIRECTIONAL_REGION_LOG_MEDIAN",
+        "status": "INSUFFICIENT_COMPARABLE_OBSERVATIONS",
+        "radius_mm": 37.89473684210525,
+        "observed_contrast_DN": 5.291507989314854,
+        "interpretation": "regional image evidence; not an order-intensity law",
+        "peer_count": 0,
+        "peer_raw_xy": []
+      }
+    }
+  ],
+  "models": [
+    {
+      "kind": "lattice_2d",
+      "coordinate_unit": "screen_mm",
+      "status": "INSUFFICIENT_OR_INCONSISTENT_GEOMETRY"
+    },
+    {
+      "kind": "row",
+      "coordinate_unit": "screen_mm",
+      "status": "INSUFFICIENT_OR_INCONSISTENT_GEOMETRY"
+    }
+  ],
+  "audit": [
+    {
+      "origin": "independent_weak_before_training",
+      "raw_xy": [
+        260.0,
+        360.0
+      ],
+      "other_raw_xy": [
+        260.0,
+        360.00000000000006
+      ],
+      "resolution_evidence": {
+        "distance_raw_px": 5.684341886080802e-14,
+        "scales": [],
+        "status": "BELOW_DECLARED_RESOLUTION_FLOOR"
+      },
+      "status": "SAME_OR_UNRESOLVED_MODE"
+    },
+    {
+      "origin": "independent_weak_before_training",
+      "scale_red_samples": 4,
+      "raw_xy": [
+        260.0,
+        360.0
+      ],
+      "template_basis": "ANALYTIC_GAUSSIAN_PRIOR",
+      "status": "ALREADY_DETECTED_AFTER_LOCALIZATION",
+      "contrast_DN": 132.758493747331,
+      "local_noise_DN": 0.25,
+      "contrast_to_local_MAD_ratio": 531.033974989324,
+      "diffraction_shape_NCC": 0.9831250326768959,
+      "prediction_error_raw_px": 0.0,
+      "template_trials": [
+        {
+          "status": "DETECTED",
+          "contrast_DN": 132.758493747331,
+          "local_noise_DN": 0.25,
+          "contrast_to_local_MAD_ratio": 531.033974989324,
+          "diffraction_shape_NCC": 0.9831250326768959,
+          "prediction_error_raw_px": 0.0,
+          "template_basis": "ANALYTIC_GAUSSIAN_PRIOR"
+        }
+      ]
+    },
+    {
+      "origin": "independent_weak_before_training",
+      "scale_red_samples": 4,
+      "raw_xy": [
+        500.0,
+        360.0
+      ],
+      "template_basis": "ANALYTIC_GAUSSIAN_PRIOR",
+      "status": "DETECTED",
+      "contrast_DN": 5.291507989314854,
+      "local_noise_DN": 0.25,
+      "contrast_to_local_MAD_ratio": 21.166031957259417,
+      "diffraction_shape_NCC": 0.9833935146611557,
+      "prediction_error_raw_px": 0.0,
+      "template_trials": [
+        {
+          "status": "DETECTED",
+          "contrast_DN": 5.291507989314854,
+          "local_noise_DN": 0.25,
+          "contrast_to_local_MAD_ratio": 21.166031957259417,
+          "diffraction_shape_NCC": 0.9833935146611557,
+          "prediction_error_raw_px": 0.0,
+          "template_basis": "ANALYTIC_GAUSSIAN_PRIOR"
+        }
+      ],
+      "measured_raw_xy": [
+        499.99999999999994,
+        359.99999999999994
+      ]
+    },
+    {
+      "origin": "independent_weak_before_training",
+      "raw_xy": [
+        260.0,
+        360.0
+      ],
+      "other_raw_xy": [
+        260.0,
+        360.00000000000006
+      ],
+      "resolution_evidence": {
+        "distance_raw_px": 5.684341886080802e-14,
+        "scales": [],
+        "status": "BELOW_DECLARED_RESOLUTION_FLOOR"
+      },
+      "status": "SAME_OR_UNRESOLVED_MODE"
+    },
+    {
+      "origin": "independent_weak_before_training",
+      "scale_red_samples": 8,
+      "raw_xy": [
+        260.0,
+        360.0
+      ],
+      "template_basis": "ANALYTIC_GAUSSIAN_PRIOR",
+      "status": "ALREADY_DETECTED_AFTER_LOCALIZATION",
+      "contrast_DN": 66.29424801864117,
+      "local_noise_DN": 0.25,
+      "contrast_to_local_MAD_ratio": 265.1769920745647,
+      "diffraction_shape_NCC": 0.9977161259364287,
+      "prediction_error_raw_px": 0.0,
+      "template_trials": [
+        {
+          "status": "DETECTED",
+          "contrast_DN": 66.29424801864117,
+          "local_noise_DN": 0.25,
+          "contrast_to_local_MAD_ratio": 265.1769920745647,
+          "diffraction_shape_NCC": 0.9977161259364287,
+          "prediction_error_raw_px": 0.0,
+          "template_basis": "ANALYTIC_GAUSSIAN_PRIOR"
+        }
+      ]
+    },
+    {
+      "status": "MODEL_AND_TEMPLATE_TRAINING_INPUTS",
+      "eligible_raw_xy": [
+        [
+          260.0,
+          360.00000000000006
+        ]
+      ],
+      "template_raw_xy": [],
+      "near_white_candidates_are_shape_templates": false
+    },
+    {
+      "origin": "independent_weak_with_observed_templates",
+      "raw_xy": [
+        260.0,
+        360.0
+      ],
+      "other_raw_xy": [
+        260.0,
+        360.00000000000006
+      ],
+      "resolution_evidence": {
+        "distance_raw_px": 5.684341886080802e-14,
+        "scales": [],
+        "status": "BELOW_DECLARED_RESOLUTION_FLOOR"
+      },
+      "status": "SAME_OR_UNRESOLVED_MODE"
+    },
+    {
+      "origin": "independent_weak_with_observed_templates",
+      "scale_red_samples": 4,
+      "raw_xy": [
+        260.0,
+        360.0
+      ],
+      "template_basis": "ANALYTIC_GAUSSIAN_PRIOR",
+      "status": "ALREADY_DETECTED_AFTER_LOCALIZATION",
+      "contrast_DN": 132.758493747331,
+      "local_noise_DN": 0.25,
+      "contrast_to_local_MAD_ratio": 531.033974989324,
+      "diffraction_shape_NCC": 0.9831250326768959,
+      "prediction_error_raw_px": 0.0,
+      "template_trials": [
+        {
+          "status": "DETECTED",
+          "contrast_DN": 132.758493747331,
+          "local_noise_DN": 0.25,
+          "contrast_to_local_MAD_ratio": 531.033974989324,
+          "diffraction_shape_NCC": 0.9831250326768959,
+          "prediction_error_raw_px": 0.0,
+          "template_basis": "ANALYTIC_GAUSSIAN_PRIOR"
+        }
+      ]
+    },
+    {
+      "origin": "independent_weak_with_observed_templates",
+      "raw_xy": [
+        499.99999999999994,
+        359.99999999999994
+      ],
+      "other_raw_xy": [
+        499.99999999999994,
+        359.99999999999994
+      ],
+      "resolution_evidence": {
+        "distance_raw_px": 0.0,
+        "scales": [],
+        "status": "BELOW_DECLARED_RESOLUTION_FLOOR"
+      },
+      "status": "SAME_OR_UNRESOLVED_MODE"
+    },
+    {
+      "origin": "independent_weak_with_observed_templates",
+      "scale_red_samples": 4,
+      "raw_xy": [
+        500.0,
+        360.0
+      ],
+      "template_basis": "ANALYTIC_GAUSSIAN_PRIOR",
+      "status": "ALREADY_DETECTED_AFTER_LOCALIZATION",
+      "contrast_DN": 5.291507989314854,
+      "local_noise_DN": 0.25,
+      "contrast_to_local_MAD_ratio": 21.166031957259417,
+      "diffraction_shape_NCC": 0.9833935146611557,
+      "prediction_error_raw_px": 0.0,
+      "template_trials": [
+        {
+          "status": "DETECTED",
+          "contrast_DN": 5.291507989314854,
+          "local_noise_DN": 0.25,
+          "contrast_to_local_MAD_ratio": 21.166031957259417,
+          "diffraction_shape_NCC": 0.9833935146611557,
+          "prediction_error_raw_px": 0.0,
+          "template_basis": "ANALYTIC_GAUSSIAN_PRIOR"
+        }
+      ]
+    },
+    {
+      "origin": "independent_weak_with_observed_templates",
+      "raw_xy": [
+        260.0,
+        360.0
+      ],
+      "other_raw_xy": [
+        260.0,
+        360.00000000000006
+      ],
+      "resolution_evidence": {
+        "distance_raw_px": 5.684341886080802e-14,
+        "scales": [],
+        "status": "BELOW_DECLARED_RESOLUTION_FLOOR"
+      },
+      "status": "SAME_OR_UNRESOLVED_MODE"
+    },
+    {
+      "origin": "independent_weak_with_observed_templates",
+      "scale_red_samples": 8,
+      "raw_xy": [
+        260.0,
+        360.0
+      ],
+      "template_basis": "ANALYTIC_GAUSSIAN_PRIOR",
+      "status": "ALREADY_DETECTED_AFTER_LOCALIZATION",
+      "contrast_DN": 66.29424801864117,
+      "local_noise_DN": 0.25,
+      "contrast_to_local_MAD_ratio": 265.1769920745647,
+      "diffraction_shape_NCC": 0.9977161259364287,
+      "prediction_error_raw_px": 0.0,
+      "template_trials": [
+        {
+          "status": "DETECTED",
+          "contrast_DN": 66.29424801864117,
+          "local_noise_DN": 0.25,
+          "contrast_to_local_MAD_ratio": 265.1769920745647,
+          "diffraction_shape_NCC": 0.9977161259364287,
+          "prediction_error_raw_px": 0.0,
+          "template_basis": "ANALYTIC_GAUSSIAN_PRIOR"
+        }
+      ]
+    },
+    {
+      "status": "TRAINING_EVIDENCE_CLOSURE_STABLE",
+      "passes": [
+        {
+          "pass_index": 1,
+          "training_inputs": [
+            {
+              "status": "MODEL_AND_TEMPLATE_TRAINING_INPUTS",
+              "eligible_raw_xy": [
+                [
+                  260.0,
+                  360.00000000000006
+                ]
+              ],
+              "template_raw_xy": [],
+              "near_white_candidates_are_shape_templates": false
+            }
+          ],
+          "new_quarantine": []
+        }
+      ],
+      "quarantine": []
+    }
+  ]
+}

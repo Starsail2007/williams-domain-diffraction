@@ -1,0 +1,5 @@
+﻿group,n_candidates,central,confirmed_nonoptical,channel_failed,hard_saturated,nonfinite,reflection_aperture_overlap,included,n_frames_with_included,near_white_included,reflection_suspect_included,legacy_reflection_overlap_not_assessed,green_max_raw_DN_included,red_clipped_green_clean_count,green_max_raw_DN_red_clipped,nonpositive_R_or_G_r125,min_coverage_r125,nonpositive_R_or_G_r50,min_coverage_r50
+original,535,80,0,0,0,0,0,455,53,0,5,455,1166.0,0,,19,0.5742644849484873,6,1.0
+cycle01,782,87,0,0,11,0,0,684,77,2,0,0,2892.0,11,6715.0,6,0.475753670946679,0,0.7645223923353598
+cycle02,2295,117,0,0,37,0,3,2138,115,25,0,0,3509.0,37,7317.0,33,0.19713776419658774,15,0.5980201801572397
+pooled,3612,284,0,0,48,0,3,3277,245,27,5,455,3509.0,48,7317.0,58,0.19713776419658774,21,0.5980201801572397

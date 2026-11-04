@@ -1,0 +1,291 @@
+{
+  "frame_id": "125",
+  "source_raw_relative": "data/raw/scan_2026-10-14/DSC00203.ARW",
+  "source_raw_sha256": "dde0d3d4101463b49505ca7766163384720f6a16d11adb9e406bacbbe7180d39",
+  "original_shape": [
+    4688,
+    7028
+  ],
+  "crop_xywh": [
+    1338,
+    1240,
+    3974,
+    2888
+  ],
+  "cfa_pattern": [
+    [
+      0,
+      1
+    ],
+    [
+      3,
+      2
+    ]
+  ],
+  "color_desc": "RGBG",
+  "black_level": [
+    512,
+    512,
+    512,
+    512
+  ],
+  "white_level": 16383,
+  "camera_white_level": [
+    15360,
+    15360,
+    15360,
+    15360
+  ],
+  "peaks": [
+    {
+      "peak_uid": "125_audit_p001",
+      "frame_id": "125",
+      "u_raw_px": 1476.7312245979856,
+      "v_raw_px": 602.4362961654003,
+      "detection_contrast_DN": 4.670907974243164,
+      "model_groups": []
+    },
+    {
+      "peak_uid": "125_audit_p002",
+      "frame_id": "125",
+      "u_raw_px": 3370.5905671772907,
+      "v_raw_px": 1378.2481743809367,
+      "detection_contrast_DN": 6.905612945556641,
+      "model_groups": []
+    },
+    {
+      "peak_uid": "125_audit_p003",
+      "frame_id": "125",
+      "u_raw_px": 662.3719245187915,
+      "v_raw_px": 1529.5745203666952,
+      "detection_contrast_DN": 10.548660278320312,
+      "model_groups": []
+    },
+    {
+      "peak_uid": "125_audit_p004",
+      "frame_id": "125",
+      "u_raw_px": 1104.0,
+      "v_raw_px": 1628.0,
+      "detection_contrast_DN": 38.00291442871094,
+      "model_groups": []
+    },
+    {
+      "peak_uid": "125_audit_p005",
+      "frame_id": "125",
+      "u_raw_px": 2634.0,
+      "v_raw_px": 1530.0,
+      "detection_contrast_DN": 4.305599212646484,
+      "model_groups": []
+    },
+    {
+      "peak_uid": "125_audit_p006",
+      "frame_id": "125",
+      "u_raw_px": 602.0,
+      "v_raw_px": 1730.0,
+      "detection_contrast_DN": 71.56146240234375,
+      "model_groups": []
+    },
+    {
+      "peak_uid": "125_audit_p007",
+      "frame_id": "125",
+      "u_raw_px": 2272.6127909789084,
+      "v_raw_px": 1744.3078205654915,
+      "detection_contrast_DN": 4632.85302734375,
+      "model_groups": [
+        "row"
+      ]
+    },
+    {
+      "peak_uid": "125_audit_p008",
+      "frame_id": "125",
+      "u_raw_px": 2662.623423364177,
+      "v_raw_px": 1695.8352631350822,
+      "detection_contrast_DN": 457.3438720703125,
+      "model_groups": [
+        "row"
+      ]
+    },
+    {
+      "peak_uid": "125_audit_p009",
+      "frame_id": "125",
+      "u_raw_px": 3072.412910399358,
+      "v_raw_px": 1647.9101090280137,
+      "detection_contrast_DN": 78.59254455566406,
+      "model_groups": []
+    },
+    {
+      "peak_uid": "125_audit_p010",
+      "frame_id": "125",
+      "u_raw_px": 3350.7537349564254,
+      "v_raw_px": 1642.1722575736617,
+      "detection_contrast_DN": 15.333459854125977,
+      "model_groups": []
+    },
+    {
+      "peak_uid": "125_audit_p011",
+      "frame_id": "125",
+      "u_raw_px": 632.0,
+      "v_raw_px": 1816.0,
+      "detection_contrast_DN": 122.66810607910156,
+      "model_groups": []
+    },
+    {
+      "peak_uid": "125_audit_p012",
+      "frame_id": "125",
+      "u_raw_px": 1108.6216995666055,
+      "v_raw_px": 1859.800987797792,
+      "detection_contrast_DN": 411.3758544921875,
+      "model_groups": [
+        "row"
+      ]
+    },
+    {
+      "peak_uid": "125_audit_p013",
+      "frame_id": "125",
+      "u_raw_px": 1513.3111412152261,
+      "v_raw_px": 1819.1630802924924,
+      "detection_contrast_DN": 2261.9580078125,
+      "model_groups": [
+        "row"
+      ]
+    },
+    {
+      "peak_uid": "125_audit_p014",
+      "frame_id": "125",
+      "u_raw_px": 1895.3506407925615,
+      "v_raw_px": 1778.4184968171685,
+      "detection_contrast_DN": 13679.9072265625,
+      "model_groups": [
+        "row"
+      ]
+    },
+    {
+      "peak_uid": "125_audit_p015",
+      "frame_id": "125",
+      "u_raw_px": 3100.9227563463737,
+      "v_raw_px": 1829.4567395676677,
+      "detection_contrast_DN": 21.33087730407715,
+      "model_groups": []
+    },
+    {
+      "peak_uid": "125_audit_p016",
+      "frame_id": "125",
+      "u_raw_px": 3337.7925396974533,
+      "v_raw_px": 1845.91290049798,
+      "detection_contrast_DN": 7.821447372436523,
+      "model_groups": []
+    },
+    {
+      "peak_uid": "125_audit_p017",
+      "frame_id": "125",
+      "u_raw_px": 672.8301023809968,
+      "v_raw_px": 1937.0949386939515,
+      "detection_contrast_DN": 472.1146545410156,
+      "model_groups": []
+    },
+    {
+      "peak_uid": "125_audit_p018",
+      "frame_id": "125",
+      "u_raw_px": 2632.57490603186,
+      "v_raw_px": 1970.8051727223915,
+      "detection_contrast_DN": 6.630847930908203,
+      "model_groups": []
+    },
+    {
+      "peak_uid": "125_audit_p019",
+      "frame_id": "125",
+      "u_raw_px": 3030.1646553638857,
+      "v_raw_px": 2049.202191456282,
+      "detection_contrast_DN": 6.937908172607422,
+      "model_groups": []
+    },
+    {
+      "peak_uid": "125_audit_p020",
+      "frame_id": "125",
+      "u_raw_px": 3066.087757788504,
+      "v_raw_px": 1938.9833887043187,
+      "detection_contrast_DN": 11.571462631225586,
+      "model_groups": []
+    },
+    {
+      "peak_uid": "125_audit_p021",
+      "frame_id": "125",
+      "u_raw_px": 640.8238498789347,
+      "v_raw_px": 2204.696882566586,
+      "detection_contrast_DN": 9.38255500793457,
+      "model_groups": []
+    },
+    {
+      "peak_uid": "125_audit_p022",
+      "frame_id": "125",
+      "u_raw_px": 722.1157826046424,
+      "v_raw_px": 2284.364314346975,
+      "detection_contrast_DN": 5.553077697753906,
+      "model_groups": []
+    }
+  ],
+  "corners_raw_px": [
+    [
+      313.690515874973,
+      -403.9121517792629
+    ],
+    [
+      3505.359005726639,
+      -473.9643985523878
+    ],
+    [
+      3340.539203013337,
+      2342.2183520891767
+    ],
+    [
+      442.73067906482083,
+      2513.9664169234693
+    ]
+  ],
+  "reflections": [],
+  "photometry_config": {
+    "shape_smoothing_green_samples": 2,
+    "shape_threshold_peak_fraction": 0.08,
+    "shape_min_signal_to_background_MAD": 3,
+    "shape_initial_radius_raw_px": 95,
+    "shape_sigma_bounds_raw_px": [
+      8,
+      75
+    ],
+    "ellipse_growth_multipliers": [
+      2.0,
+      2.5,
+      3.0,
+      3.5,
+      4.0,
+      4.5
+    ],
+    "background_patch_half_raw_px": 360,
+    "background_tile_raw_px": 32,
+    "background_peak_exclusion_sigma": 4.0,
+    "background_reflection_exclusion_raw_px": 90,
+    "background_min_valid_tile_samples": 50,
+    "background_min_tiles": 18,
+    "background_min_sectors": 6,
+    "quadratic_holdout_improvement_fraction": 0.25,
+    "quadratic_max_center_difference_background_MAD": 3,
+    "background_sensitivity_limit_fraction": 0.05,
+    "plateau_increment_limit_fraction": 0.02,
+    "plateau_required_consecutive_steps": 2,
+    "minimum_cell_fraction": 0.995,
+    "signal_to_background_indicator_min": 10,
+    "green_safety_fraction_of_camera_white": 0.8,
+    "geometry_heldout_strip_max_p95_display_px": 2,
+    "physical_orders_assigned": false
+  },
+  "target_uid": "125_audit_p007",
+  "comparison_uid": "125_audit_p013",
+  "peak_coordinates": "Local cropped visible RAW pixel centers; source coordinates = local + crop origin",
+  "scope": "All 22 measured candidates retained to preserve shape exclusion, row direction and nearest-peak partition. Crop bound includes 602px margin around every candidate; no display gamma, interpolation or CFA averaging.",
+  "voltage_RMS_V": 6.77,
+  "experiment": 3,
+  "array": "mosaic125.npz",
+  "reference": "photometry125_reference.json",
+  "source_record": "data/processed/scan_2026-10-14_v2/数据/照片逐张记录/125.json",
+  "source_record_sha256": "ca61eb89a71efe567ede1ceeffa7a33551c64ae20591afd2665a75e077627fca"
+}

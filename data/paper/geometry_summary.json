@@ -1,0 +1,23 @@
+[
+  {
+    "cycle": "original",
+    "n_frames": 9,
+    "R2_median": 0.9998115304898544,
+    "RMS_halfstep_median": 0.049887731406020465,
+    "LOO_RMS_halfstep_median": 0.055189161406792975
+  },
+  {
+    "cycle": "cycle01",
+    "n_frames": 4,
+    "R2_median": 0.9995486107154432,
+    "RMS_halfstep_median": 0.05522552761238589,
+    "LOO_RMS_halfstep_median": 0.06783733415799406
+  },
+  {
+    "cycle": "cycle02",
+    "n_frames": 15,
+    "R2_median": 0.9985759976711497,
+    "RMS_halfstep_median": 0.11093987287731398,
+    "LOO_RMS_halfstep_median": 0.13365874812498527
+  }
+]

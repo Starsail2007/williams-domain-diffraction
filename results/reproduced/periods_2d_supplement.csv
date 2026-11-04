@@ -1,0 +1,2 @@
+batch,cycle,video,kind,n_roi_matches,n_historical_frames,p_median_um,d_median_um,residual_median
+10-14,cycle02,micro_late,2d,1,1,19.9084318799491,20.153929437967786,-0.012181126205403792

@@ -1,0 +1,139 @@
+{
+  "schema_version": 1,
+  "python_version": "3.12.16",
+  "runtime_release": "20261026",
+  "platforms": {
+    "macos-arm64": {
+      "runtime": {
+        "filename": "cpython-3.12.16+20261026-aarch64-apple-darwin-install_only_stripped.tar.gz",
+        "url": "https://github.com/astral-sh/python-build-standalone/releases/download/20261026/cpython-3.12.16+20261026-aarch64-apple-darwin-install_only_stripped.tar.gz",
+        "sha256": "353d5f1b4fd2715e7053f12f068435d5bbad16b91e057006b5d01e0925709a7e"
+      },
+      "wheels": [
+        {
+          "name": "numpy",
+          "version": "2.5.3",
+          "filename": "numpy-2.5.3-cp312-cp312-macosx_14_0_arm64.whl",
+          "url": "https://files.pythonhosted.org/packages/9c/59/a312e95696e5f601914dd8b6dd844692ba61670807417e24b68e337b5c70/numpy-2.5.3-cp312-cp312-macosx_14_0_arm64.whl",
+          "sha256": "a72f874bc9e10e4b8f80426fb49716d5141f64442a0c8418065093ec8017fbb0",
+          "bytes": 5445405
+        },
+        {
+          "name": "scipy",
+          "version": "1.18.1",
+          "filename": "scipy-1.18.1-cp312-cp312-macosx_14_0_arm64.whl",
+          "url": "https://files.pythonhosted.org/packages/a5/f6/a5b82f8abbe14d134691b8b903696f701d25a081353a29dc655c364d9e62/scipy-1.18.1-cp312-cp312-macosx_14_0_arm64.whl",
+          "sha256": "7bbf207c4453ce1ad2e00b17313852b33310b83090c2311bdaf97f93c0380d12",
+          "bytes": 20475078
+        },
+        {
+          "name": "Pillow",
+          "version": "12.3.0",
+          "filename": "pillow-12.3.0-cp312-cp312-macosx_11_0_arm64.whl",
+          "url": "https://files.pythonhosted.org/packages/d8/66/9a386a92561f402389a4fc70c18838bf6d35eb5eb5c6850b4b2dc64f5048/pillow-12.3.0-cp312-cp312-macosx_11_0_arm64.whl",
+          "sha256": "ffd0c5368496f41b0944be820fcb7a838aa6e623d250b01acf2643939c3f99d7",
+          "bytes": 4780323
+        },
+        {
+          "name": "opencv-python-headless",
+          "version": "5.0.0.93",
+          "filename": "opencv_python_headless-5.0.0.93-cp37-abi3-macosx_13_0_arm64.whl",
+          "url": "https://files.pythonhosted.org/packages/53/7c/8c8097891c509d98cd128493835c95631c80be6a8f37ed9d25716c2e16f1/opencv_python_headless-5.0.0.93-cp37-abi3-macosx_13_0_arm64.whl",
+          "sha256": "030ca5e0837a2963ab36ef896baa9767eb8d2b83353fb28af5a521e40dd8756f",
+          "bytes": 48322581
+        }
+      ],
+      "minimum_os": "macOS 14"
+    },
+    "macos-x86_64": {
+      "runtime": {
+        "filename": "cpython-3.12.16+20261026-x86_64-apple-darwin-install_only_stripped.tar.gz",
+        "url": "https://github.com/astral-sh/python-build-standalone/releases/download/20261026/cpython-3.12.16+20261026-x86_64-apple-darwin-install_only_stripped.tar.gz",
+        "sha256": "37c38fda76fec1fbf310adcbafb7f0d96af13b5511bf8ea954c3aa8eec185734"
+      },
+      "wheels": [
+        {
+          "name": "numpy",
+          "version": "2.5.3",
+          "filename": "numpy-2.5.3-cp312-cp312-macosx_14_0_x86_64.whl",
+          "url": "https://files.pythonhosted.org/packages/30/d0/5623a1707ed4fe16e3909fe3cf5ee3da004ae677ad23d83bbf3adf1a6faf/numpy-2.5.3-cp312-cp312-macosx_14_0_x86_64.whl",
+          "sha256": "fc36dc566135b5eceec4cf89758fcb719266a019ef07dae1754ae7c9f617ef3e",
+          "bytes": 6783213
+        },
+        {
+          "name": "scipy",
+          "version": "1.18.1",
+          "filename": "scipy-1.18.1-cp312-cp312-macosx_14_0_x86_64.whl",
+          "url": "https://files.pythonhosted.org/packages/23/22/0858a0bbd6b3e825ceb8cd9baf9eaf3b2f2b1d77727eb6be40500bcdc92f/scipy-1.18.1-cp312-cp312-macosx_14_0_x86_64.whl",
+          "sha256": "78c0665edead396b1abb4897c41a5c1d9bf090c8a637a4c20a61678e0a264e66",
+          "bytes": 23108904
+        },
+        {
+          "name": "Pillow",
+          "version": "12.3.0",
+          "filename": "pillow-12.3.0-cp312-cp312-macosx_10_13_x86_64.whl",
+          "url": "https://files.pythonhosted.org/packages/37/bf/fb3ebff8ddcb76aac5a01389251bbbb9519922a9b520d8247c1ca864a25d/pillow-12.3.0-cp312-cp312-macosx_10_13_x86_64.whl",
+          "sha256": "ba09209fbe443b4acccebe845d8a138b89a8f4fbaeedd44953490b5315d5e965",
+          "bytes": 5345969
+        },
+        {
+          "name": "opencv-python-headless",
+          "version": "5.0.0.93",
+          "filename": "opencv_python_headless-5.0.0.93-cp37-abi3-macosx_14_0_x86_64.whl",
+          "url": "https://files.pythonhosted.org/packages/90/8c/eab2ad388c3cbab2a350c10c2ef19ce6bd099240afc31789032c996bab52/opencv_python_headless-5.0.0.93-cp37-abi3-macosx_14_0_x86_64.whl",
+          "sha256": "1e55af3abfb462eeeabe5c775f12bdb36216d8a93a3583d69e6bd6e1d6ba7d00",
+          "bytes": 34782894
+        }
+      ],
+      "minimum_os": "macOS 14"
+    },
+    "windows-x86_64": {
+      "runtime": {
+        "filename": "cpython-3.12.16+20261026-x86_64-pc-windows-msvc-install_only_stripped.tar.gz",
+        "url": "https://github.com/astral-sh/python-build-standalone/releases/download/20261026/cpython-3.12.16+20261026-x86_64-pc-windows-msvc-install_only_stripped.tar.gz",
+        "sha256": "1f2ab53880fc67ea323398c6388e05af28addc99a8e389209f08a51fdff4b149"
+      },
+      "wheels": [
+        {
+          "name": "numpy",
+          "version": "2.5.3",
+          "filename": "numpy-2.5.3-cp312-cp312-win_amd64.whl",
+          "url": "https://files.pythonhosted.org/packages/3c/a1/accf6d4f0c80c5d9ba9735d6b1550e444180599f34dec69ca01360f717ad/numpy-2.5.3-cp312-cp312-win_amd64.whl",
+          "sha256": "0a59a421a32580a009e8a1751345bf829631b990dc1794b80514ab722b435def",
+          "bytes": 12567828
+        },
+        {
+          "name": "scipy",
+          "version": "1.18.1",
+          "filename": "scipy-1.18.1-cp312-cp312-win_amd64.whl",
+          "url": "https://files.pythonhosted.org/packages/39/e7/979fd14e75008623df31ba70d6bb144700f68feadcea042021c06a05bf82/scipy-1.18.1-cp312-cp312-win_amd64.whl",
+          "sha256": "5e4d44984abc0020154ea81b247adeddcc3ac5527b975ff798bd1ba0adc513c2",
+          "bytes": 36658278
+        },
+        {
+          "name": "Pillow",
+          "version": "12.3.0",
+          "filename": "pillow-12.3.0-cp312-cp312-win_amd64.whl",
+          "url": "https://files.pythonhosted.org/packages/45/89/da2f7971a317f83d807fdd4065c0af40208e59e692cc43d315a71a0e96d1/pillow-12.3.0-cp312-cp312-win_amd64.whl",
+          "sha256": "a2b55dd6b2a4c4b7d87ffa56bdb33fdc5fdb9a462173861a7bc097f17d91cb09",
+          "bytes": 7227137
+        },
+        {
+          "name": "opencv-python-headless",
+          "version": "5.0.0.93",
+          "filename": "opencv_python_headless-5.0.0.93-cp37-abi3-win_amd64.whl",
+          "url": "https://files.pythonhosted.org/packages/b8/88/763b967f7efd7226b82c9fae16d560cba049b1f0c036647e65c610fd636e/opencv_python_headless-5.0.0.93-cp37-abi3-win_amd64.whl",
+          "sha256": "829717b6a95554f273e49e357cee3b3a2a26b6f4842fbc1bed2b45bdd8f87e0e",
+          "bytes": 43825962
+        }
+      ],
+      "minimum_os": "Windows 10/11 64-bit Intel/AMD"
+    }
+  },
+  "dependencies": {
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "Pillow": "12.3.0",
+    "opencv-python-headless": "5.0.0.93"
+  }
+}

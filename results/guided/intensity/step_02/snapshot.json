@@ -1,0 +1,31 @@
+{
+  "step": "intensity.single_sine",
+  "sequence": 2,
+  "pass_index": 1,
+  "images": [
+    "results/guided/intensity/step_02/phase_to_spectrum.png"
+  ],
+  "metrics": [
+    [
+      "示范电压 / V",
+      6.945
+    ],
+    [
+      "β",
+      2.532108337414847
+    ],
+    [
+      "H2/H1",
+      0.8485677750002432
+    ],
+    [
+      "H3/H1",
+      0.20720182242216467
+    ]
+  ],
+  "table": null,
+  "evidence": [],
+  "links": [],
+  "elapsed_s": 1.638,
+  "status": "computed"
+}

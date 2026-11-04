@@ -1,0 +1,27 @@
+{
+  "step": "detection.input",
+  "sequence": 1,
+  "pass_index": 1,
+  "images": [
+    "data/core/diffraction/104/raw_display.png"
+  ],
+  "metrics": [
+    [
+      "实验",
+      "3"
+    ],
+    [
+      "帧号",
+      "104"
+    ],
+    [
+      "电压 / V",
+      5.67
+    ]
+  ],
+  "table": null,
+  "evidence": [],
+  "links": [],
+  "elapsed_s": 1.76,
+  "status": "computed"
+}

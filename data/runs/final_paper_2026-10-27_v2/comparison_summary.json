@@ -1,0 +1,552 @@
+[
+  {
+    "batch": "10-10",
+    "cycle": "original",
+    "video": "micro_early",
+    "kind": "1d",
+    "n_historical_frames": 10,
+    "median_residual": 0.10593408772617285,
+    "p10": 0.07184785575765043,
+    "p90": 0.14519310243172273,
+    "prior_median_residual": 0.10593408772617285,
+    "first_peak_median_residual": 0.10593408772617285,
+    "frames": [
+      {
+        "frame_id": "017",
+        "image_period_um": 12.580056605495905,
+        "optical_period_um": 5.873441154353084,
+        "residual": 0.07092727030832968,
+        "prior_residual": 0.07092727030832968,
+        "first_peak_residual": 0.07092727030832968
+      },
+      {
+        "frame_id": "019",
+        "image_period_um": 13.047995347482614,
+        "optical_period_um": 5.730478915541851,
+        "residual": 0.13847337541847038,
+        "prior_residual": 0.13847337541847038,
+        "first_peak_residual": 0.13847337541847038
+      },
+      {
+        "frame_id": "020",
+        "image_period_um": 13.086838995883914,
+        "optical_period_um": 5.7397209382702234,
+        "residual": 0.1400239782239211,
+        "prior_residual": 0.1400239782239211,
+        "first_peak_residual": 0.1400239782239211
+      },
+      {
+        "frame_id": "022",
+        "image_period_um": 13.697029460685958,
+        "optical_period_um": 5.746771219895818,
+        "residual": 0.19171522030193755,
+        "prior_residual": 0.19171522030193755,
+        "first_peak_residual": 0.19171522030193755
+      },
+      {
+        "frame_id": "024",
+        "image_period_um": 13.183303587826453,
+        "optical_period_um": 5.787947318255473,
+        "residual": 0.13885829145728923,
+        "prior_residual": 0.13885829145728923,
+        "first_peak_residual": 0.13885829145728923
+      },
+      {
+        "frame_id": "026",
+        "image_period_um": 13.161243902049005,
+        "optical_period_um": 5.89041854447505,
+        "residual": 0.1171739157987054,
+        "prior_residual": 0.1171739157987054,
+        "first_peak_residual": 0.1171739157987054
+      },
+      {
+        "frame_id": "028",
+        "image_period_um": 13.10036739772865,
+        "optical_period_um": 5.983573624417099,
+        "residual": 0.09469425965364031,
+        "prior_residual": 0.09469425965364031,
+        "first_peak_residual": 0.09469425965364031
+      },
+      {
+        "frame_id": "030",
+        "image_period_um": 13.084599294332747,
+        "optical_period_um": 6.0530548985726345,
+        "residual": 0.08082608811446723,
+        "prior_residual": 0.08082608811446723,
+        "first_peak_residual": 0.08082608811446723
+      },
+      {
+        "frame_id": "031",
+        "image_period_um": 13.106433806013932,
+        "optical_period_um": 6.113359791608149,
+        "residual": 0.07195014302979719,
+        "prior_residual": 0.07195014302979719,
+        "first_peak_residual": 0.07195014302979719
+      },
+      {
+        "frame_id": "032",
+        "image_period_um": 13.313681487049442,
+        "optical_period_um": 6.19030702503699,
+        "residual": 0.07536519862436752,
+        "prior_residual": 0.07536519862436752,
+        "first_peak_residual": 0.07536519862436752
+      }
+    ]
+  },
+  {
+    "batch": "10-10",
+    "cycle": "original",
+    "video": "micro_late",
+    "kind": "1d",
+    "n_historical_frames": 4,
+    "median_residual": 0.029820171242544324,
+    "p10": 0.020340978229967686,
+    "p90": 0.06001992122601658,
+    "prior_median_residual": 0.029820171242544324,
+    "first_peak_median_residual": 0.029820171242544324,
+    "frames": [
+      {
+        "frame_id": "014",
+        "image_period_um": 12.292431814132451,
+        "optical_period_um": 5.945147082712893,
+        "residual": 0.0338206644101362,
+        "prior_residual": 0.0338206644101362,
+        "first_peak_residual": 0.0338206644101362
+      },
+      {
+        "frame_id": "019",
+        "image_period_um": 11.667174432866409,
+        "optical_period_um": 5.730478915541851,
+        "residual": 0.017992964010688506,
+        "prior_residual": 0.017992964010688506,
+        "first_peak_residual": 0.017992964010688506
+      },
+      {
+        "frame_id": "022",
+        "image_period_um": 11.79030200552786,
+        "optical_period_um": 5.746771219895818,
+        "residual": 0.025819678074952446,
+        "prior_residual": 0.025819678074952446,
+        "first_peak_residual": 0.025819678074952446
+      },
+      {
+        "frame_id": "026",
+        "image_period_um": 12.620200221462328,
+        "optical_period_um": 5.89041854447505,
+        "residual": 0.07124817414710816,
+        "prior_residual": 0.07124817414710816,
+        "first_peak_residual": 0.07124817414710816
+      }
+    ]
+  },
+  {
+    "batch": "10-14",
+    "cycle": "cycle01",
+    "video": "micro_early",
+    "kind": "1d",
+    "n_historical_frames": 11,
+    "median_residual": 0.03228636948128072,
+    "p10": -0.0027580681270702456,
+    "p90": 0.08510707528594563,
+    "prior_median_residual": -0.1319651145481513,
+    "first_peak_median_residual": 0.01238538891551999,
+    "frames": [
+      {
+        "frame_id": "011",
+        "image_period_um": 12.580056605495905,
+        "optical_period_um": 12.691141772754742,
+        "residual": -0.008752968743703904,
+        "prior_residual": -0.1952846497682934,
+        "first_peak_residual": -0.06144305037436559
+      },
+      {
+        "frame_id": "012",
+        "image_period_um": 13.027626565293406,
+        "optical_period_um": 12.571183736431252,
+        "residual": 0.036308659425554723,
+        "prior_residual": -0.17427891566271014,
+        "first_peak_residual": -0.03693842107796502
+      },
+      {
+        "frame_id": "014",
+        "image_period_um": 13.086838995883914,
+        "optical_period_um": 12.060412556461575,
+        "residual": 0.08510707528594563,
+        "prior_residual": -0.1319651145481513,
+        "first_peak_residual": 0.01238538891551999
+      },
+      {
+        "frame_id": "016",
+        "image_period_um": 13.697029460685958,
+        "optical_period_um": 12.334238946464062,
+        "residual": 0.11048841522667086,
+        "prior_residual": -0.0799814890914039,
+        "first_peak_residual": 0.07300497208596646
+      },
+      {
+        "frame_id": "017",
+        "image_period_um": 13.195533959847847,
+        "optical_period_um": 12.300792069652509,
+        "residual": 0.07273855903985005,
+        "prior_residual": -0.11925216541268785,
+        "first_peak_residual": 0.027208328064058596
+      },
+      {
+        "frame_id": "020",
+        "image_period_um": 13.183303587826453,
+        "optical_period_um": 12.811008260021975,
+        "residual": 0.029060579795757602,
+        "prior_residual": -0.09312660502609399,
+        "first_peak_residual": 0.05765716855507996
+      },
+      {
+        "frame_id": "022",
+        "image_period_um": 13.161243902049005,
+        "optical_period_um": 12.749605430383113,
+        "residual": 0.03228636948128072,
+        "prior_residual": -0.1042678129671531,
+        "first_peak_residual": 0.04467109022704896
+      },
+      {
+        "frame_id": "025",
+        "image_period_um": 13.10036739772865,
+        "optical_period_um": 13.07046554944842,
+        "residual": 0.002287741639125762,
+        "prior_residual": -0.13919350841414102,
+        "first_peak_residual": 0.003960884962645905
+      },
+      {
+        "frame_id": "028",
+        "image_period_um": 13.084599294332747,
+        "optical_period_um": 13.120787319641117,
+        "residual": -0.0027580681270702456,
+        "prior_residual": -0.154012192650336,
+        "first_peak_residual": -0.013312395624810736
+      },
+      {
+        "frame_id": "030",
+        "image_period_um": 13.106433806013932,
+        "optical_period_um": 13.141214901727412,
+        "residual": -0.002646718433081008,
+        "prior_residual": -0.1570838168608002,
+        "first_peak_residual": -0.016891740710552605
+      },
+      {
+        "frame_id": "032",
+        "image_period_um": 13.313681487049442,
+        "optical_period_um": 12.66470221644856,
+        "residual": 0.05124315278080571,
+        "prior_residual": -0.1211233942446357,
+        "first_peak_residual": 0.025033136523363808
+      }
+    ]
+  },
+  {
+    "batch": "10-14",
+    "cycle": "cycle01",
+    "video": "micro_early",
+    "kind": "2d",
+    "n_historical_frames": 1,
+    "median_residual": 0.02473701465310174,
+    "p10": 0.02473701465310174,
+    "p90": 0.02473701465310174,
+    "prior_median_residual": -0.12125088092829217,
+    "first_peak_median_residual": 0.02473701465310174,
+    "frames": [
+      {
+        "frame_id": "008",
+        "image_period_um": 20.044462225220986,
+        "optical_period_um": 19.560591584570137,
+        "residual": 0.02473701465310174,
+        "prior_residual": -0.12125088092829217,
+        "first_peak_residual": 0.02473701465310174
+      }
+    ]
+  },
+  {
+    "batch": "10-14",
+    "cycle": "cycle01",
+    "video": "micro_late",
+    "kind": "1d",
+    "n_historical_frames": 5,
+    "median_residual": -0.033472381129467266,
+    "p10": -0.058982937498219055,
+    "p90": -0.019132123025756807,
+    "prior_median_residual": -0.21304564164686196,
+    "first_peak_median_residual": -0.08218216501727393,
+    "frames": [
+      {
+        "frame_id": "010",
+        "image_period_um": 12.385669532179534,
+        "optical_period_um": 12.814604870425958,
+        "residual": -0.033472381129467266,
+        "prior_residual": -0.20131251715182996,
+        "first_peak_residual": -0.06847795499586756
+      },
+      {
+        "frame_id": "012",
+        "image_period_um": 11.683182479700395,
+        "optical_period_um": 12.571183736431252,
+        "residual": -0.07063783931161793,
+        "prior_residual": -0.25949288941478277,
+        "first_peak_residual": -0.13632586032902527
+      },
+      {
+        "frame_id": "014",
+        "image_period_um": 11.667174432866409,
+        "optical_period_um": 12.060412556461575,
+        "residual": -0.03260569418783954,
+        "prior_residual": -0.22612982206281845,
+        "first_peak_residual": -0.09743850830000345
+      },
+      {
+        "frame_id": "017",
+        "image_period_um": 11.79030200552786,
+        "optical_period_um": 12.300792069652509,
+        "residual": -0.04150058477812074,
+        "prior_residual": -0.21304564164686196,
+        "first_peak_residual": -0.08218216501727393
+      },
+      {
+        "frame_id": "022",
+        "image_period_um": 12.620200221462328,
+        "optical_period_um": 12.749605430383113,
+        "residual": -0.010149742251034988,
+        "prior_residual": -0.14109033847454494,
+        "first_peak_residual": 0.0017258567927728174
+      }
+    ]
+  },
+  {
+    "batch": "10-14",
+    "cycle": "cycle02",
+    "video": "micro_early",
+    "kind": "1d",
+    "n_historical_frames": 12,
+    "median_residual": 0.07904065738692628,
+    "p10": 0.05845348173332726,
+    "p90": 0.10077253625602932,
+    "prior_median_residual": -0.10993175055324797,
+    "first_peak_median_residual": 0.0380720954244802,
+    "frames": [
+      {
+        "frame_id": "106",
+        "image_period_um": 12.580056605495905,
+        "optical_period_um": 12.129780518352538,
+        "residual": 0.03712153624396519,
+        "prior_residual": -0.17002788618360554,
+        "first_peak_residual": -0.032003787253775506
+      },
+      {
+        "frame_id": "110",
+        "image_period_um": 13.027626565293406,
+        "optical_period_um": 12.250193132980035,
+        "residual": 0.06346295310400951,
+        "prior_residual": -0.12191300247126019,
+        "first_peak_residual": 0.02409850578994177
+      },
+      {
+        "frame_id": "114",
+        "image_period_um": 13.047995347482614,
+        "optical_period_um": 12.288576485672513,
+        "residual": 0.06179876592667355,
+        "prior_residual": -0.11318161002442911,
+        "first_peak_residual": 0.03427608102978563
+      },
+      {
+        "frame_id": "116",
+        "image_period_um": 13.086838995883914,
+        "optical_period_um": 12.033861966760568,
+        "residual": 0.08750117227801313,
+        "prior_residual": -0.0949798587369039,
+        "first_peak_residual": 0.0554919341971567
+      },
+      {
+        "frame_id": "122",
+        "image_period_um": 13.697029460685958,
+        "optical_period_um": 12.253175144014989,
+        "residual": 0.11783511618016929,
+        "prior_residual": -0.07164919670227676,
+        "first_peak_residual": 0.0827163883685279
+      },
+      {
+        "frame_id": "123",
+        "image_period_um": 13.195533959847847,
+        "optical_period_um": 12.082149973762709,
+        "residual": 0.09215114764366739,
+        "prior_residual": -0.09260618179289565,
+        "first_peak_residual": 0.05826437714825805
+      },
+      {
+        "frame_id": "125",
+        "image_period_um": 13.183303587826453,
+        "optical_period_um": 11.967223257033526,
+        "residual": 0.1016175853557505,
+        "prior_residual": -0.08557827310629212,
+        "first_peak_residual": 0.06645444947211443
+      },
+      {
+        "frame_id": "127",
+        "image_period_um": 13.161243902049005,
+        "optical_period_um": 12.039553669306075,
+        "residual": 0.09316709435853865,
+        "prior_residual": -0.09651776678621815,
+        "first_peak_residual": 0.05370365564892321
+      },
+      {
+        "frame_id": "129",
+        "image_period_um": 13.10036739772865,
+        "optical_period_um": 12.10499976159053,
+        "residual": 0.08222781129632462,
+        "prior_residual": -0.11204956259761872,
+        "first_peak_residual": 0.03559824425176661
+      },
+      {
+        "frame_id": "132",
+        "image_period_um": 13.084599294332747,
+        "optical_period_um": 12.162064121219878,
+        "residual": 0.07585350347752795,
+        "prior_residual": -0.12867322112627844,
+        "first_peak_residual": 0.016222143915954335
+      },
+      {
+        "frame_id": "136",
+        "image_period_um": 13.106433806013932,
+        "optical_period_um": 12.386976139772548,
+        "residual": 0.05808178348962212,
+        "prior_residual": -0.12434319371494212,
+        "first_peak_residual": 0.021270063556681595
+      },
+      {
+        "frame_id": "138",
+        "image_period_um": 13.313681487049442,
+        "optical_period_um": 12.434789863323315,
+        "residual": 0.0706800543785977,
+        "prior_residual": -0.10781393850887722,
+        "first_peak_residual": 0.040545946597193794
+      }
+    ]
+  },
+  {
+    "batch": "10-14",
+    "cycle": "cycle02",
+    "video": "micro_early",
+    "kind": "2d",
+    "n_historical_frames": 2,
+    "median_residual": -0.012487284020726408,
+    "p10": -0.01590833139362515,
+    "p90": -0.009066236647827663,
+    "prior_median_residual": -0.15289033398797586,
+    "first_peak_median_residual": -0.012487284020726408,
+    "frames": [
+      {
+        "frame_id": "099",
+        "image_period_um": 20.04281772806958,
+        "optical_period_um": 20.38453579444974,
+        "residual": -0.01676359323684984,
+        "prior_residual": -0.15661674742080056,
+        "first_peak_residual": -0.01676359323684984
+      },
+      {
+        "frame_id": "100",
+        "image_period_um": 20.046106722372393,
+        "optical_period_um": 20.21206749935856,
+        "residual": -0.008210974804602977,
+        "prior_residual": -0.14916392055515115,
+        "first_peak_residual": -0.008210974804602977
+      }
+    ]
+  },
+  {
+    "batch": "10-14",
+    "cycle": "cycle02",
+    "video": "micro_late",
+    "kind": "1d",
+    "n_historical_frames": 7,
+    "median_residual": 0.009080414560650674,
+    "p10": -0.046847388125376276,
+    "p90": 0.08686813678502506,
+    "prior_median_residual": -0.20737928056939514,
+    "first_peak_median_residual": -0.07558424422115045,
+    "frames": [
+      {
+        "frame_id": "099",
+        "image_period_um": 13.923706898052679,
+        "optical_period_um": 12.1622699837209,
+        "residual": 0.14482797345310106,
+        "prior_residual": -0.11656557682540447,
+        "first_peak_residual": 0.03037363667303694
+      },
+      {
+        "frame_id": "102",
+        "image_period_um": 12.478907250226616,
+        "optical_period_um": 12.347080182009682,
+        "residual": 0.01067678076708467,
+        "prior_residual": -0.23084435913196766,
+        "first_peak_residual": -0.10289812994959124
+      },
+      {
+        "frame_id": "105",
+        "image_period_um": 12.292431814132451,
+        "optical_period_um": 12.181815875877962,
+        "residual": 0.009080414560650674,
+        "prior_residual": -0.23019970073223273,
+        "first_peak_residual": -0.10215419583122298
+      },
+      {
+        "frame_id": "110",
+        "image_period_um": 11.683182479700395,
+        "optical_period_um": 12.250193132980035,
+        "residual": -0.04628585420038245,
+        "prior_residual": -0.21253111042414585,
+        "first_peak_residual": -0.08158791163024603
+      },
+      {
+        "frame_id": "115",
+        "image_period_um": 11.667174432866409,
+        "optical_period_um": 12.251441886387438,
+        "residual": -0.04768968901286702,
+        "prior_residual": -0.20737928056939514,
+        "first_peak_residual": -0.07558424422115045
+      },
+      {
+        "frame_id": "122",
+        "image_period_um": 11.79030200552786,
+        "optical_period_um": 12.253175144014989,
+        "residual": -0.03777577101827506,
+        "prior_residual": -0.20088247094955258,
+        "first_peak_residual": -0.06800571307524755
+      },
+      {
+        "frame_id": "127",
+        "image_period_um": 12.620200221462328,
+        "optical_period_um": 12.039553669306075,
+        "residual": 0.048228245672974346,
+        "prior_residual": -0.13365888782619467,
+        "first_peak_residual": 0.010387103783246254
+      }
+    ]
+  },
+  {
+    "batch": "10-14",
+    "cycle": "cycle02",
+    "video": "micro_late",
+    "kind": "2d",
+    "n_historical_frames": 1,
+    "median_residual": -0.012181126205403792,
+    "p10": -0.012181126205403792,
+    "p90": -0.012181126205403792,
+    "prior_median_residual": -0.15285610806018257,
+    "first_peak_median_residual": -0.012181126205403792,
+    "frames": [
+      {
+        "frame_id": "098",
+        "image_period_um": 19.9084318799491,
+        "optical_period_um": 20.153929437967786,
+        "residual": -0.012181126205403792,
+        "prior_residual": -0.15285610806018257,
+        "first_peak_residual": -0.012181126205403792
+      }
+    ]
+  }
+]

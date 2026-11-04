@@ -1,0 +1,12 @@
+104: recomputing held-out screen edges and native-coordinate homography
+104: independent strong/weak search, CFA background, free geometry, guided evidence and teacher closure
+104 {'INDEPENDENT_WEAK': 15, 'INDEPENDENT_STRONG': 40, 'GUIDED_SCREEN_LATTICE_2D': 1} reference PASS
+108: recomputing held-out screen edges and native-coordinate homography
+108: independent strong/weak search, CFA background, free geometry, guided evidence and teacher closure
+108 {'INDEPENDENT_WEAK': 13, 'INDEPENDENT_STRONG': 34} reference PASS
+197: recomputing held-out screen edges and native-coordinate homography
+197: independent strong/weak search, CFA background, free geometry, guided evidence and teacher closure
+197 {'INDEPENDENT_WEAK': 5, 'INDEPENDENT_STRONG': 20} reference PASS
+200: recomputing held-out screen edges and native-coordinate homography
+200: independent strong/weak search, CFA background, free geometry, guided evidence and teacher closure
+200 {'INDEPENDENT_WEAK': 4, 'INDEPENDENT_STRONG': 10} reference PASS

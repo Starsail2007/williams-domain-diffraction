@@ -1,0 +1,881 @@
+{
+  "horizontal_frames": 126,
+  "geometry": {
+    "frames": 28,
+    "nodes": 572,
+    "conditional_LOO_fits": 1716,
+    "model_comparison": [
+      {
+        "cycle": "cycle01",
+        "frame_id": "008",
+        "model": "square",
+        "n": 9,
+        "LOO_RMS_halfstep": 0.11423011203827724
+      },
+      {
+        "cycle": "cycle01",
+        "frame_id": "008",
+        "model": "rectangular",
+        "n": 9,
+        "LOO_RMS_halfstep": 0.0717285783187725
+      },
+      {
+        "cycle": "cycle01",
+        "frame_id": "008",
+        "model": "affine",
+        "n": 9,
+        "LOO_RMS_halfstep": 0.07388690985788302
+      },
+      {
+        "cycle": "cycle01",
+        "frame_id": "010",
+        "model": "square",
+        "n": 19,
+        "LOO_RMS_halfstep": 0.057775624083369344
+      },
+      {
+        "cycle": "cycle01",
+        "frame_id": "010",
+        "model": "rectangular",
+        "n": 19,
+        "LOO_RMS_halfstep": 0.05516644786331114
+      },
+      {
+        "cycle": "cycle01",
+        "frame_id": "010",
+        "model": "affine",
+        "n": 19,
+        "LOO_RMS_halfstep": 0.04947200456740375
+      },
+      {
+        "cycle": "cycle01",
+        "frame_id": "011",
+        "model": "square",
+        "n": 22,
+        "LOO_RMS_halfstep": 0.06495510804071637
+      },
+      {
+        "cycle": "cycle01",
+        "frame_id": "011",
+        "model": "rectangular",
+        "n": 22,
+        "LOO_RMS_halfstep": 0.06394608999721564
+      },
+      {
+        "cycle": "cycle01",
+        "frame_id": "011",
+        "model": "affine",
+        "n": 22,
+        "LOO_RMS_halfstep": 0.06027041000381283
+      },
+      {
+        "cycle": "cycle01",
+        "frame_id": "012",
+        "model": "square",
+        "n": 20,
+        "LOO_RMS_halfstep": 0.11060068688764554
+      },
+      {
+        "cycle": "cycle01",
+        "frame_id": "012",
+        "model": "rectangular",
+        "n": 20,
+        "LOO_RMS_halfstep": 0.08267594765562758
+      },
+      {
+        "cycle": "cycle01",
+        "frame_id": "012",
+        "model": "affine",
+        "n": 20,
+        "LOO_RMS_halfstep": 0.07946713027336579
+      },
+      {
+        "cycle": "cycle02",
+        "frame_id": "096",
+        "model": "square",
+        "n": 13,
+        "LOO_RMS_halfstep": 0.22587237200795757
+      },
+      {
+        "cycle": "cycle02",
+        "frame_id": "096",
+        "model": "rectangular",
+        "n": 13,
+        "LOO_RMS_halfstep": 0.13577179502347705
+      },
+      {
+        "cycle": "cycle02",
+        "frame_id": "096",
+        "model": "affine",
+        "n": 13,
+        "LOO_RMS_halfstep": 0.08385332280823171
+      },
+      {
+        "cycle": "cycle02",
+        "frame_id": "097",
+        "model": "square",
+        "n": 15,
+        "LOO_RMS_halfstep": 0.1934127836509455
+      },
+      {
+        "cycle": "cycle02",
+        "frame_id": "097",
+        "model": "rectangular",
+        "n": 15,
+        "LOO_RMS_halfstep": 0.11912115023475957
+      },
+      {
+        "cycle": "cycle02",
+        "frame_id": "097",
+        "model": "affine",
+        "n": 15,
+        "LOO_RMS_halfstep": 0.06782614675427748
+      },
+      {
+        "cycle": "cycle02",
+        "frame_id": "098",
+        "model": "square",
+        "n": 15,
+        "LOO_RMS_halfstep": 0.18648692906825
+      },
+      {
+        "cycle": "cycle02",
+        "frame_id": "098",
+        "model": "rectangular",
+        "n": 15,
+        "LOO_RMS_halfstep": 0.12515086684977653
+      },
+      {
+        "cycle": "cycle02",
+        "frame_id": "098",
+        "model": "affine",
+        "n": 15,
+        "LOO_RMS_halfstep": 0.07450416215838736
+      },
+      {
+        "cycle": "cycle02",
+        "frame_id": "099",
+        "model": "square",
+        "n": 19,
+        "LOO_RMS_halfstep": 0.2330715796066189
+      },
+      {
+        "cycle": "cycle02",
+        "frame_id": "099",
+        "model": "rectangular",
+        "n": 19,
+        "LOO_RMS_halfstep": 0.18650700069345305
+      },
+      {
+        "cycle": "cycle02",
+        "frame_id": "099",
+        "model": "affine",
+        "n": 19,
+        "LOO_RMS_halfstep": 0.07613843295723086
+      },
+      {
+        "cycle": "cycle02",
+        "frame_id": "100",
+        "model": "square",
+        "n": 23,
+        "LOO_RMS_halfstep": 0.206270669276661
+      },
+      {
+        "cycle": "cycle02",
+        "frame_id": "100",
+        "model": "rectangular",
+        "n": 23,
+        "LOO_RMS_halfstep": 0.17290661920267972
+      },
+      {
+        "cycle": "cycle02",
+        "frame_id": "100",
+        "model": "affine",
+        "n": 23,
+        "LOO_RMS_halfstep": 0.08106638183181127
+      },
+      {
+        "cycle": "cycle02",
+        "frame_id": "101",
+        "model": "square",
+        "n": 27,
+        "LOO_RMS_halfstep": 0.20676611930742886
+      },
+      {
+        "cycle": "cycle02",
+        "frame_id": "101",
+        "model": "rectangular",
+        "n": 27,
+        "LOO_RMS_halfstep": 0.1668898949904287
+      },
+      {
+        "cycle": "cycle02",
+        "frame_id": "101",
+        "model": "affine",
+        "n": 27,
+        "LOO_RMS_halfstep": 0.07851285272897136
+      },
+      {
+        "cycle": "cycle02",
+        "frame_id": "102",
+        "model": "square",
+        "n": 29,
+        "LOO_RMS_halfstep": 0.21606598499448781
+      },
+      {
+        "cycle": "cycle02",
+        "frame_id": "102",
+        "model": "rectangular",
+        "n": 29,
+        "LOO_RMS_halfstep": 0.18670533140665124
+      },
+      {
+        "cycle": "cycle02",
+        "frame_id": "102",
+        "model": "affine",
+        "n": 29,
+        "LOO_RMS_halfstep": 0.07719714387140797
+      },
+      {
+        "cycle": "cycle02",
+        "frame_id": "103",
+        "model": "square",
+        "n": 29,
+        "LOO_RMS_halfstep": 0.16341397464916263
+      },
+      {
+        "cycle": "cycle02",
+        "frame_id": "103",
+        "model": "rectangular",
+        "n": 29,
+        "LOO_RMS_halfstep": 0.14038544310584983
+      },
+      {
+        "cycle": "cycle02",
+        "frame_id": "103",
+        "model": "affine",
+        "n": 29,
+        "LOO_RMS_halfstep": 0.07044611840892757
+      },
+      {
+        "cycle": "cycle02",
+        "frame_id": "104",
+        "model": "square",
+        "n": 30,
+        "LOO_RMS_halfstep": 0.1534050236581171
+      },
+      {
+        "cycle": "cycle02",
+        "frame_id": "104",
+        "model": "rectangular",
+        "n": 30,
+        "LOO_RMS_halfstep": 0.14963346840472022
+      },
+      {
+        "cycle": "cycle02",
+        "frame_id": "104",
+        "model": "affine",
+        "n": 30,
+        "LOO_RMS_halfstep": 0.06437210078560969
+      },
+      {
+        "cycle": "cycle02",
+        "frame_id": "105",
+        "model": "square",
+        "n": 29,
+        "LOO_RMS_halfstep": 0.11878270882470261
+      },
+      {
+        "cycle": "cycle02",
+        "frame_id": "105",
+        "model": "rectangular",
+        "n": 29,
+        "LOO_RMS_halfstep": 0.12009343553497981
+      },
+      {
+        "cycle": "cycle02",
+        "frame_id": "105",
+        "model": "affine",
+        "n": 29,
+        "LOO_RMS_halfstep": 0.07219781650541772
+      },
+      {
+        "cycle": "cycle02",
+        "frame_id": "106",
+        "model": "square",
+        "n": 24,
+        "LOO_RMS_halfstep": 0.11588353506217643
+      },
+      {
+        "cycle": "cycle02",
+        "frame_id": "106",
+        "model": "rectangular",
+        "n": 24,
+        "LOO_RMS_halfstep": 0.08865806246178148
+      },
+      {
+        "cycle": "cycle02",
+        "frame_id": "106",
+        "model": "affine",
+        "n": 24,
+        "LOO_RMS_halfstep": 0.06283828168684691
+      },
+      {
+        "cycle": "cycle02",
+        "frame_id": "107",
+        "model": "square",
+        "n": 17,
+        "LOO_RMS_halfstep": 0.2663273771515938
+      },
+      {
+        "cycle": "cycle02",
+        "frame_id": "107",
+        "model": "rectangular",
+        "n": 17,
+        "LOO_RMS_halfstep": 0.13365874812498527
+      },
+      {
+        "cycle": "cycle02",
+        "frame_id": "107",
+        "model": "affine",
+        "n": 17,
+        "LOO_RMS_halfstep": 0.08864819278152579
+      },
+      {
+        "cycle": "cycle02",
+        "frame_id": "108",
+        "model": "square",
+        "n": 16,
+        "LOO_RMS_halfstep": 0.32341357973949464
+      },
+      {
+        "cycle": "cycle02",
+        "frame_id": "108",
+        "model": "rectangular",
+        "n": 16,
+        "LOO_RMS_halfstep": 0.08313856650469358
+      },
+      {
+        "cycle": "cycle02",
+        "frame_id": "108",
+        "model": "affine",
+        "n": 16,
+        "LOO_RMS_halfstep": 0.07189613635354344
+      },
+      {
+        "cycle": "cycle02",
+        "frame_id": "111",
+        "model": "square",
+        "n": 15,
+        "LOO_RMS_halfstep": 0.38644694146166186
+      },
+      {
+        "cycle": "cycle02",
+        "frame_id": "111",
+        "model": "rectangular",
+        "n": 15,
+        "LOO_RMS_halfstep": 0.0937605911086644
+      },
+      {
+        "cycle": "cycle02",
+        "frame_id": "111",
+        "model": "affine",
+        "n": 15,
+        "LOO_RMS_halfstep": 0.0915790473139115
+      },
+      {
+        "cycle": "cycle02",
+        "frame_id": "112",
+        "model": "square",
+        "n": 14,
+        "LOO_RMS_halfstep": 0.4008861211145223
+      },
+      {
+        "cycle": "cycle02",
+        "frame_id": "112",
+        "model": "rectangular",
+        "n": 14,
+        "LOO_RMS_halfstep": 0.10644889214320509
+      },
+      {
+        "cycle": "cycle02",
+        "frame_id": "112",
+        "model": "affine",
+        "n": 14,
+        "LOO_RMS_halfstep": 0.07116383748549449
+      },
+      {
+        "cycle": "original",
+        "frame_id": "012",
+        "model": "square",
+        "n": 19,
+        "LOO_RMS_halfstep": 0.04657427443277539
+      },
+      {
+        "cycle": "original",
+        "frame_id": "012",
+        "model": "rectangular",
+        "n": 19,
+        "LOO_RMS_halfstep": 0.03324268295822253
+      },
+      {
+        "cycle": "original",
+        "frame_id": "012",
+        "model": "affine",
+        "n": 19,
+        "LOO_RMS_halfstep": 0.03310074607076418
+      },
+      {
+        "cycle": "original",
+        "frame_id": "013",
+        "model": "square",
+        "n": 23,
+        "LOO_RMS_halfstep": 0.14754372846288877
+      },
+      {
+        "cycle": "original",
+        "frame_id": "013",
+        "model": "rectangular",
+        "n": 23,
+        "LOO_RMS_halfstep": 0.04864406915476944
+      },
+      {
+        "cycle": "original",
+        "frame_id": "013",
+        "model": "affine",
+        "n": 23,
+        "LOO_RMS_halfstep": 0.04813580895198038
+      },
+      {
+        "cycle": "original",
+        "frame_id": "014",
+        "model": "square",
+        "n": 28,
+        "LOO_RMS_halfstep": 0.23358715186753146
+      },
+      {
+        "cycle": "original",
+        "frame_id": "014",
+        "model": "rectangular",
+        "n": 28,
+        "LOO_RMS_halfstep": 0.056764770602426955
+      },
+      {
+        "cycle": "original",
+        "frame_id": "014",
+        "model": "affine",
+        "n": 28,
+        "LOO_RMS_halfstep": 0.05615504332853157
+      },
+      {
+        "cycle": "original",
+        "frame_id": "015",
+        "model": "square",
+        "n": 25,
+        "LOO_RMS_halfstep": 0.24921428331120304
+      },
+      {
+        "cycle": "original",
+        "frame_id": "015",
+        "model": "rectangular",
+        "n": 25,
+        "LOO_RMS_halfstep": 0.04896854229643161
+      },
+      {
+        "cycle": "original",
+        "frame_id": "015",
+        "model": "affine",
+        "n": 25,
+        "LOO_RMS_halfstep": 0.048676273066111726
+      },
+      {
+        "cycle": "original",
+        "frame_id": "016",
+        "model": "square",
+        "n": 25,
+        "LOO_RMS_halfstep": 0.30604273175264907
+      },
+      {
+        "cycle": "original",
+        "frame_id": "016",
+        "model": "rectangular",
+        "n": 25,
+        "LOO_RMS_halfstep": 0.052490788661388864
+      },
+      {
+        "cycle": "original",
+        "frame_id": "016",
+        "model": "affine",
+        "n": 25,
+        "LOO_RMS_halfstep": 0.04832213840944051
+      },
+      {
+        "cycle": "original",
+        "frame_id": "017",
+        "model": "square",
+        "n": 20,
+        "LOO_RMS_halfstep": 0.4346230678564552
+      },
+      {
+        "cycle": "original",
+        "frame_id": "017",
+        "model": "rectangular",
+        "n": 20,
+        "LOO_RMS_halfstep": 0.07297734481206697
+      },
+      {
+        "cycle": "original",
+        "frame_id": "017",
+        "model": "affine",
+        "n": 20,
+        "LOO_RMS_halfstep": 0.07470500694186967
+      },
+      {
+        "cycle": "original",
+        "frame_id": "018",
+        "model": "square",
+        "n": 20,
+        "LOO_RMS_halfstep": 0.4091193762071243
+      },
+      {
+        "cycle": "original",
+        "frame_id": "018",
+        "model": "rectangular",
+        "n": 20,
+        "LOO_RMS_halfstep": 0.055189161406792975
+      },
+      {
+        "cycle": "original",
+        "frame_id": "018",
+        "model": "affine",
+        "n": 20,
+        "LOO_RMS_halfstep": 0.05705566614690676
+      },
+      {
+        "cycle": "original",
+        "frame_id": "019",
+        "model": "square",
+        "n": 15,
+        "LOO_RMS_halfstep": 0.41421549832764
+      },
+      {
+        "cycle": "original",
+        "frame_id": "019",
+        "model": "rectangular",
+        "n": 15,
+        "LOO_RMS_halfstep": 0.06770179589406342
+      },
+      {
+        "cycle": "original",
+        "frame_id": "019",
+        "model": "affine",
+        "n": 15,
+        "LOO_RMS_halfstep": 0.06860088747969503
+      },
+      {
+        "cycle": "original",
+        "frame_id": "020",
+        "model": "square",
+        "n": 12,
+        "LOO_RMS_halfstep": 0.4532987162099777
+      },
+      {
+        "cycle": "original",
+        "frame_id": "020",
+        "model": "rectangular",
+        "n": 12,
+        "LOO_RMS_halfstep": 0.09215344965799008
+      },
+      {
+        "cycle": "original",
+        "frame_id": "020",
+        "model": "affine",
+        "n": 12,
+        "LOO_RMS_halfstep": 0.09638512057576301
+      }
+    ]
+  },
+  "comparison": {
+    "status": "PASS",
+    "operation": "recompute frame-level aggregation",
+    "roi_matches": 31,
+    "one_dimensional_historical_frames": [
+      4,
+      5,
+      7
+    ],
+    "two_dimensional_matches": 1,
+    "summary": [
+      {
+        "batch": "10-10",
+        "cycle": "original",
+        "video": "micro_late",
+        "kind": "1d",
+        "n_roi_matches": 7,
+        "n_historical_frames": 4,
+        "p_median_um": 12.041366909830156,
+        "d_median_um": 5.818594882185434,
+        "residual_median": 0.029820171242544324,
+        "frames": [
+          {
+            "frame_id": "014",
+            "p_um": 12.292431814132451,
+            "d_um": 5.945147082712893,
+            "residual": 0.0338206644101362
+          },
+          {
+            "frame_id": "019",
+            "p_um": 11.667174432866409,
+            "d_um": 5.730478915541851,
+            "residual": 0.017992964010688506
+          },
+          {
+            "frame_id": "022",
+            "p_um": 11.79030200552786,
+            "d_um": 5.746771219895818,
+            "residual": 0.025819678074952446
+          },
+          {
+            "frame_id": "026",
+            "p_um": 12.620200221462328,
+            "d_um": 5.89041854447505,
+            "residual": 0.07124817414710816
+          }
+        ]
+      },
+      {
+        "batch": "10-14",
+        "cycle": "cycle01",
+        "video": "micro_late",
+        "kind": "1d",
+        "n_roi_matches": 11,
+        "n_historical_frames": 5,
+        "p_median_um": 11.79030200552786,
+        "d_median_um": 12.571183736431252,
+        "residual_median": -0.033472381129467266,
+        "frames": [
+          {
+            "frame_id": "010",
+            "p_um": 12.385669532179534,
+            "d_um": 12.814604870425958,
+            "residual": -0.033472381129467266
+          },
+          {
+            "frame_id": "012",
+            "p_um": 11.683182479700395,
+            "d_um": 12.571183736431252,
+            "residual": -0.07063783931161793
+          },
+          {
+            "frame_id": "014",
+            "p_um": 11.667174432866409,
+            "d_um": 12.060412556461575,
+            "residual": -0.03260569418783954
+          },
+          {
+            "frame_id": "017",
+            "p_um": 11.79030200552786,
+            "d_um": 12.300792069652509,
+            "residual": -0.04150058477812074
+          },
+          {
+            "frame_id": "022",
+            "p_um": 12.620200221462328,
+            "d_um": 12.749605430383113,
+            "residual": -0.010149742251034988
+          }
+        ]
+      },
+      {
+        "batch": "10-14",
+        "cycle": "cycle02",
+        "video": "micro_late",
+        "kind": "1d",
+        "n_roi_matches": 12,
+        "n_historical_frames": 7,
+        "p_median_um": 12.292431814132451,
+        "d_median_um": 12.250193132980035,
+        "residual_median": 0.009080414560650674,
+        "frames": [
+          {
+            "frame_id": "099",
+            "p_um": 13.923706898052679,
+            "d_um": 12.1622699837209,
+            "residual": 0.14482797345310106
+          },
+          {
+            "frame_id": "102",
+            "p_um": 12.478907250226616,
+            "d_um": 12.347080182009682,
+            "residual": 0.01067678076708467
+          },
+          {
+            "frame_id": "105",
+            "p_um": 12.292431814132451,
+            "d_um": 12.181815875877962,
+            "residual": 0.009080414560650674
+          },
+          {
+            "frame_id": "110",
+            "p_um": 11.683182479700395,
+            "d_um": 12.250193132980035,
+            "residual": -0.04628585420038245
+          },
+          {
+            "frame_id": "115",
+            "p_um": 11.667174432866409,
+            "d_um": 12.251441886387438,
+            "residual": -0.04768968901286702
+          },
+          {
+            "frame_id": "122",
+            "p_um": 11.79030200552786,
+            "d_um": 12.253175144014989,
+            "residual": -0.03777577101827506
+          },
+          {
+            "frame_id": "127",
+            "p_um": 12.620200221462328,
+            "d_um": 12.039553669306075,
+            "residual": 0.048228245672974346
+          }
+        ]
+      }
+    ],
+    "two_dimensional_supplement": [
+      {
+        "batch": "10-14",
+        "cycle": "cycle02",
+        "video": "micro_late",
+        "kind": "2d",
+        "n_roi_matches": 1,
+        "n_historical_frames": 1,
+        "p_median_um": 19.9084318799491,
+        "d_median_um": 20.153929437967786,
+        "residual_median": -0.012181126205403792,
+        "frames": [
+          {
+            "frame_id": "098",
+            "p_um": 19.9084318799491,
+            "d_um": 20.153929437967786,
+            "residual": -0.012181126205403792
+          }
+        ]
+      }
+    ]
+  },
+  "texture": [
+    {
+      "id": "micro164_left",
+      "title": "两方向格纹、谐波与混合峰：检验局部共同支持",
+      "status": "COMPUTED",
+      "quality_status": "RESOLVED_CANDIDATES",
+      "strongest_period_um": 20.17373120293636,
+      "family_period_um": 20.17373120293636,
+      "family_rank": 1,
+      "lower_support_period_um": 20.17373120293636,
+      "family_ambiguous": false,
+      "pair_coverage": 0.9173284876293321,
+      "pair_angle_deg": 87.96652210066897,
+      "jointly_supported_tiles": 3,
+      "spatial_pair_applicable": true,
+      "spatial_pair_supported": true
+    },
+    {
+      "id": "micro164_center",
+      "title": "空间混合产生全局双峰：局部格纹判断的反例",
+      "status": "COMPUTED",
+      "quality_status": "RESOLVED_CANDIDATES",
+      "strongest_period_um": 19.17800856343236,
+      "family_period_um": 19.735415720471373,
+      "family_rank": 2,
+      "lower_support_period_um": 19.735415720471373,
+      "family_ambiguous": false,
+      "pair_coverage": 0.732854971051261,
+      "pair_angle_deg": 89.71263207332635,
+      "jointly_supported_tiles": 0,
+      "spatial_pair_applicable": true,
+      "spatial_pair_supported": false
+    },
+    {
+      "id": "micro164_right",
+      "title": "同帧单方向条纹：与左侧格纹的空间对照",
+      "status": "COMPUTED",
+      "quality_status": "RESOLVED_CANDIDATES",
+      "strongest_period_um": 13.923706898052679,
+      "family_period_um": 13.923706898052679,
+      "family_rank": 1,
+      "lower_support_period_um": 13.923706898052679,
+      "family_ambiguous": false,
+      "pair_coverage": null,
+      "pair_angle_deg": null,
+      "jointly_supported_tiles": null,
+      "spatial_pair_applicable": false,
+      "spatial_pair_supported": null
+    },
+    {
+      "id": "micro196_right",
+      "title": "最强谱峰是二次谐波：重新寻找受支持的频率族",
+      "status": "COMPUTED",
+      "quality_status": "RESOLVED_CANDIDATES",
+      "strongest_period_um": 6.1582612094678115,
+      "family_period_um": 12.292431814132451,
+      "family_rank": 2,
+      "lower_support_period_um": 12.292431814132451,
+      "family_ambiguous": false,
+      "pair_coverage": null,
+      "pair_angle_deg": null,
+      "jointly_supported_tiles": null,
+      "spatial_pair_applicable": false,
+      "spatial_pair_supported": null
+    },
+    {
+      "id": "micro254_right",
+      "title": "频率族随支持阈值改变：保留身份歧义",
+      "status": "COMPUTED",
+      "quality_status": "RESOLVED_CANDIDATES",
+      "strongest_period_um": 6.163070142897178,
+      "family_period_um": null,
+      "family_rank": null,
+      "lower_support_period_um": 12.154789522066228,
+      "family_ambiguous": true,
+      "pair_coverage": null,
+      "pair_angle_deg": null,
+      "jointly_supported_tiles": null,
+      "spatial_pair_applicable": false,
+      "spatial_pair_supported": null
+    },
+    {
+      "id": "micro436_center",
+      "title": "近均匀与稀疏折线：有谱峰仍缺合格主族",
+      "status": "COMPUTED",
+      "quality_status": "RESOLVED_CANDIDATES",
+      "strongest_period_um": 52.13738676021346,
+      "family_period_um": null,
+      "family_rank": null,
+      "lower_support_period_um": 10.144402026485322,
+      "family_ambiguous": true,
+      "pair_coverage": null,
+      "pair_angle_deg": null,
+      "jointly_supported_tiles": null,
+      "spatial_pair_applicable": false,
+      "spatial_pair_supported": null
+    },
+    {
+      "id": "micro559_center",
+      "title": "降压折叠与方向弥散：二维基底缺少支持",
+      "status": "COMPUTED",
+      "quality_status": "RESOLVED_CANDIDATES",
+      "strongest_period_um": 12.338518146352282,
+      "family_period_um": 12.338518146352282,
+      "family_rank": 1,
+      "lower_support_period_um": 12.338518146352282,
+      "family_ambiguous": false,
+      "pair_coverage": null,
+      "pair_angle_deg": null,
+      "jointly_supported_tiles": null,
+      "spatial_pair_applicable": false,
+      "spatial_pair_supported": null
+    }
+  ]
+}

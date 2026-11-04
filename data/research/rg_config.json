@@ -1,0 +1,9 @@
+{
+  "apertures": [
+    "r125",
+    "r50"
+  ],
+  "bootstrap_replicates": 2000,
+  "seed": 20261018,
+  "per_aperture_reflection_clean_sensitivity": true
+}

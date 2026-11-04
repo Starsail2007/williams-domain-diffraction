@@ -1,0 +1,17 @@
+{
+  "parameters": [
+    1.967245734297287,
+    2.511826283649845,
+    0.168051836130524
+  ],
+  "voltage_window_V": [
+    5.69,
+    8.2
+  ],
+  "R2": [
+    0.9123597447752317,
+    0.9228774424994268
+  ],
+  "n_frames": 23,
+  "scope": "frozen original model; independent refit checked separately"
+}

@@ -1,0 +1,1889 @@
+{
+  "cases": [
+    {
+      "frame": 164,
+      "roi": "left",
+      "reason": "spatially-supported dual-direction grid",
+      "input_path": "work/microscopy_full_2026-10-27/selected_frames_v1/micro_late_164.png",
+      "input_sha256": "643a81f950615d0647d85c19e0ee30b86c701873d7b8db4fde2a6f6638e84df7",
+      "source_receipt": {
+        "file": "micro_late_164.png",
+        "frame_index": 164,
+        "height": 1024,
+        "pts_s": 82,
+        "video_id": "micro_late",
+        "width": 1536,
+        "sha256": "643a81f950615d0647d85c19e0ee30b86c701873d7b8db4fde2a6f6638e84df7",
+        "parent_video_sha256": "5f9162137e56bac001ad8a4deb2a808fc73b00676e8c9f2470194a0e8f6cfb40"
+      },
+      "roi_xywh": [
+        80,
+        100,
+        512,
+        768
+      ],
+      "pixel_scale_um": [
+        0.75,
+        0.75
+      ],
+      "voltage_V": 5.39,
+      "direction": "up",
+      "raw_descriptor": {
+        "status": "RESOLVED_CANDIDATES",
+        "texture_std_green": 22.071286869996893,
+        "band_power_fraction": 0.9908618193299374,
+        "strongest_period_um": 20.17373120293636,
+        "strongest_normal_deg": 31.540614853109027,
+        "morphology": "dual_direction",
+        "long_period_um": 20.17373120293636,
+        "long_normal_deg": 31.540614853109027,
+        "short_period_um": 10.063258573131598,
+        "harmonic_visible": true,
+        "pair_period_1_um": 20.17373120293636,
+        "pair_period_2_um": 19.643132556961838,
+        "pair_angle_deg": 87.96652210066897,
+        "pair_length_ratio": 1.027011915967877,
+        "selected_ranks": [
+          1,
+          2
+        ],
+        "dominant_axis_fraction": 0.3011242512004922,
+        "pair_normal_1_deg": 31.540614853109027,
+        "pair_normal_2_deg": 123.57409275244007
+      },
+      "family_primary": {
+        "base": {
+          "rank": 1,
+          "fx_cycles_um": 0.042246501737211874,
+          "fy_cycles_um": 0.025929900280652587,
+          "period_um": 20.17373120293636,
+          "normal_angle_deg": 31.540614853109027,
+          "stripe_angle_deg": 121.54061485310902,
+          "power": 3565407.413195243,
+          "power_to_band_median": 18974.78483561882,
+          "refined": true,
+          "fft_index_x": 272,
+          "fft_index_y": 369,
+          "delta_bin_x": 0.22265666708935938,
+          "delta_bin_y": 0.06437743834410903
+        },
+        "members": [
+          [
+            1,
+            {
+              "rank": 1,
+              "fx_cycles_um": 0.042246501737211874,
+              "fy_cycles_um": 0.025929900280652587,
+              "period_um": 20.17373120293636,
+              "normal_angle_deg": 31.540614853109027,
+              "stripe_angle_deg": 121.54061485310902,
+              "power": 3565407.413195243,
+              "power_to_band_median": 18974.78483561882,
+              "refined": true,
+              "fft_index_x": 272,
+              "fft_index_y": 369,
+              "delta_bin_x": 0.22265666708935938,
+              "delta_bin_y": 0.06437743834410903
+            }
+          ],
+          [
+            2,
+            {
+              "rank": 4,
+              "fx_cycles_um": 0.08480415043762839,
+              "fy_cycles_um": 0.05179700155737292,
+              "period_um": 10.063258573131598,
+              "normal_angle_deg": 31.415909505902768,
+              "stripe_angle_deg": 121.41590950590276,
+              "power": 264590.0076813661,
+              "power_to_band_median": 1408.1247620757458,
+              "refined": true,
+              "fft_index_x": 289,
+              "fft_index_y": 354,
+              "delta_bin_x": -0.4352062319506997,
+              "delta_bin_y": 0.16492710295319302
+            }
+          ]
+        ],
+        "score": 3829997.420876609
+      },
+      "family_low_threshold": {
+        "base": {
+          "rank": 1,
+          "fx_cycles_um": 0.042246501737211874,
+          "fy_cycles_um": 0.025929900280652587,
+          "period_um": 20.17373120293636,
+          "normal_angle_deg": 31.540614853109027,
+          "stripe_angle_deg": 121.54061485310902,
+          "power": 3565407.413195243,
+          "power_to_band_median": 18974.78483561882,
+          "refined": true,
+          "fft_index_x": 272,
+          "fft_index_y": 369,
+          "delta_bin_x": 0.22265666708935938,
+          "delta_bin_y": 0.06437743834410903
+        },
+        "members": [
+          [
+            1,
+            {
+              "rank": 1,
+              "fx_cycles_um": 0.042246501737211874,
+              "fy_cycles_um": 0.025929900280652587,
+              "period_um": 20.17373120293636,
+              "normal_angle_deg": 31.540614853109027,
+              "stripe_angle_deg": 121.54061485310902,
+              "power": 3565407.413195243,
+              "power_to_band_median": 18974.78483561882,
+              "refined": true,
+              "fft_index_x": 272,
+              "fft_index_y": 369,
+              "delta_bin_x": 0.22265666708935938,
+              "delta_bin_y": 0.06437743834410903
+            }
+          ],
+          [
+            2,
+            {
+              "rank": 4,
+              "fx_cycles_um": 0.08480415043762839,
+              "fy_cycles_um": 0.05179700155737292,
+              "period_um": 10.063258573131598,
+              "normal_angle_deg": 31.415909505902768,
+              "stripe_angle_deg": 121.41590950590276,
+              "power": 264590.0076813661,
+              "power_to_band_median": 1408.1247620757458,
+              "refined": true,
+              "fft_index_x": 289,
+              "fft_index_y": 354,
+              "delta_bin_x": -0.4352062319506997,
+              "delta_bin_y": 0.16492710295319302
+            }
+          ]
+        ],
+        "score": 3829997.420876609
+      },
+      "pair": {
+        "first": {
+          "rank": 1,
+          "fx_cycles_um": 0.042246501737211874,
+          "fy_cycles_um": 0.025929900280652587,
+          "period_um": 20.17373120293636,
+          "normal_angle_deg": 31.540614853109027,
+          "stripe_angle_deg": 121.54061485310902,
+          "power": 3565407.413195243,
+          "power_to_band_median": 18974.78483561882,
+          "refined": true,
+          "fft_index_x": 272,
+          "fft_index_y": 369,
+          "delta_bin_x": 0.22265666708935938,
+          "delta_bin_y": 0.06437743834410903
+        },
+        "second": {
+          "rank": 2,
+          "fx_cycles_um": 0.0281530897260726,
+          "fy_cycles_um": -0.042415402859372946,
+          "period_um": 19.643132556961838,
+          "normal_angle_deg": 123.57409275244007,
+          "stripe_angle_deg": 33.57409275244006,
+          "power": 2811863.987944474,
+          "power_to_band_median": 14964.49296672558,
+          "refined": true,
+          "fft_index_x": 267,
+          "fft_index_y": 409,
+          "delta_bin_x": -0.18921354518812106,
+          "delta_bin_y": -0.5687279530011808
+        },
+        "angle_deg": 87.96652210066897,
+        "coverage": 0.9173284876293321,
+        "basis_frequency_sum": 0.10047778943702977,
+        "members": [
+          {
+            "rank": 1,
+            "integer_coefficients": [
+              1,
+              0
+            ],
+            "relative_residual": 0.0
+          },
+          {
+            "rank": 2,
+            "integer_coefficients": [
+              0,
+              1
+            ],
+            "relative_residual": 0.0
+          },
+          {
+            "rank": 3,
+            "integer_coefficients": [
+              0,
+              2
+            ],
+            "relative_residual": 0.01567537111778404
+          },
+          {
+            "rank": 4,
+            "integer_coefficients": [
+              2,
+              0
+            ],
+            "relative_residual": 0.006403567723320504
+          },
+          {
+            "rank": 6,
+            "integer_coefficients": [
+              2,
+              1
+            ],
+            "relative_residual": 0.04411281017090865
+          },
+          {
+            "rank": 7,
+            "integer_coefficients": [
+              1,
+              1
+            ],
+            "relative_residual": 0.024744898087109585
+          },
+          {
+            "rank": 9,
+            "integer_coefficients": [
+              1,
+              2
+            ],
+            "relative_residual": 0.0720123769854337
+          },
+          {
+            "rank": 10,
+            "integer_coefficients": [
+              1,
+              -1
+            ],
+            "relative_residual": 0.03372443643194729
+          },
+          {
+            "rank": 15,
+            "integer_coefficients": [
+              2,
+              -2
+            ],
+            "relative_residual": 0.13845619516823765
+          },
+          {
+            "rank": 16,
+            "integer_coefficients": [
+              -1,
+              2
+            ],
+            "relative_residual": 0.00980228788060006
+          }
+        ]
+      },
+      "crop_checks": [
+        {
+          "fraction": 0.9,
+          "matches": {
+            "family": {
+              "matched": true,
+              "relative_frequency_error": 0.0015775715296421817,
+              "period_um": 20.170252787760084,
+              "rank": 1
+            },
+            "pair_1": {
+              "matched": true,
+              "relative_frequency_error": 0.0015775715296421817,
+              "period_um": 20.170252787760084,
+              "rank": 1
+            },
+            "pair_2": {
+              "matched": true,
+              "relative_frequency_error": 0.012571827629826178,
+              "period_um": 19.725991975142858,
+              "rank": 2
+            }
+          }
+        },
+        {
+          "fraction": 0.8,
+          "matches": {
+            "family": {
+              "matched": true,
+              "relative_frequency_error": 0.0040823497033998,
+              "period_um": 20.2315905600981,
+              "rank": 1
+            },
+            "pair_1": {
+              "matched": true,
+              "relative_frequency_error": 0.0040823497033998,
+              "period_um": 20.2315905600981,
+              "rank": 1
+            },
+            "pair_2": {
+              "matched": true,
+              "relative_frequency_error": 0.030683260950357855,
+              "period_um": 19.079372176715875,
+              "rank": 2
+            }
+          }
+        }
+      ],
+      "tile_checks": [
+        {
+          "iy": 0,
+          "ix": 0,
+          "modes": [
+            {
+              "matched": true,
+              "relative_frequency_error": 0.05369036393521516,
+              "period_um": 19.556093695454635,
+              "rank": 2,
+              "passes_power_gate": true
+            },
+            {
+              "matched": true,
+              "relative_frequency_error": 0.02857307420952832,
+              "period_um": 19.525438878883037,
+              "rank": 1,
+              "passes_power_gate": true
+            }
+          ],
+          "both_supported": true
+        },
+        {
+          "iy": 0,
+          "ix": 1,
+          "modes": [
+            {
+              "matched": false,
+              "relative_frequency_error": 0.17426920191615186,
+              "period_um": 19.667447503091854,
+              "rank": 2,
+              "passes_power_gate": true
+            },
+            {
+              "matched": true,
+              "relative_frequency_error": 0.04997217047768384,
+              "period_um": 19.09194862367109,
+              "rank": 1,
+              "passes_power_gate": true
+            }
+          ],
+          "both_supported": false
+        },
+        {
+          "iy": 1,
+          "ix": 0,
+          "modes": [
+            {
+              "matched": true,
+              "relative_frequency_error": 0.10901075908708813,
+              "period_um": 20.38981972974864,
+              "rank": 2,
+              "passes_power_gate": true
+            },
+            {
+              "matched": true,
+              "relative_frequency_error": 0.029402281747463246,
+              "period_um": 19.570882966373727,
+              "rank": 1,
+              "passes_power_gate": true
+            }
+          ],
+          "both_supported": true
+        },
+        {
+          "iy": 1,
+          "ix": 1,
+          "modes": [
+            {
+              "matched": true,
+              "relative_frequency_error": 0.03479430329401506,
+              "period_um": 20.730693621562406,
+              "rank": 3,
+              "passes_power_gate": true
+            },
+            {
+              "matched": true,
+              "relative_frequency_error": 0.10737777071498723,
+              "period_um": 19.44847097754612,
+              "rank": 1,
+              "passes_power_gate": true
+            }
+          ],
+          "both_supported": true
+        }
+      ],
+      "frozen_status": {
+        "status": "RESOLVED_CANDIDATES",
+        "morphology": "dual_direction",
+        "long_period_um": 20.17373120293636,
+        "strongest_period_um": 20.17373120293636,
+        "family_ambiguous": false,
+        "family_primary_rank": 1,
+        "pair_coverage": 0.9173284876293321,
+        "tile_both_mode_support": [
+          [
+            true,
+            true
+          ],
+          [
+            false,
+            true
+          ],
+          [
+            true,
+            true
+          ],
+          [
+            true,
+            true
+          ]
+        ],
+        "pair_crop_time_tile_supported": true,
+        "comparison_1d_eligible": false,
+        "comparison_2d_eligible": true,
+        "mode_sensitivity": {
+          "stripe": {
+            "period_min_um": 20.164890113182704,
+            "period_max_um": 20.2315905600981,
+            "all_variants_matched": true,
+            "maximum_relative_frequency_difference": 0.0040823497033998
+          },
+          "pair_1": {
+            "period_min_um": 20.164890113182704,
+            "period_max_um": 20.2315905600981,
+            "all_variants_matched": true,
+            "maximum_relative_frequency_difference": 0.0040823497033998
+          },
+          "pair_2": {
+            "period_min_um": 19.079372176715875,
+            "period_max_um": 19.725991975142858,
+            "all_variants_matched": true,
+            "maximum_relative_frequency_difference": 0.030683260950357855
+          }
+        }
+      }
+    },
+    {
+      "frame": 164,
+      "roi": "center",
+      "reason": "global pair but local co-occurrence fails",
+      "input_path": "work/microscopy_full_2026-10-27/selected_frames_v1/micro_late_164.png",
+      "input_sha256": "643a81f950615d0647d85c19e0ee30b86c701873d7b8db4fde2a6f6638e84df7",
+      "source_receipt": {
+        "file": "micro_late_164.png",
+        "frame_index": 164,
+        "height": 1024,
+        "pts_s": 82,
+        "video_id": "micro_late",
+        "width": 1536,
+        "sha256": "643a81f950615d0647d85c19e0ee30b86c701873d7b8db4fde2a6f6638e84df7",
+        "parent_video_sha256": "5f9162137e56bac001ad8a4deb2a808fc73b00676e8c9f2470194a0e8f6cfb40"
+      },
+      "roi_xywh": [
+        500,
+        200,
+        512,
+        512
+      ],
+      "pixel_scale_um": [
+        0.75,
+        0.75
+      ],
+      "voltage_V": 5.39,
+      "direction": "up",
+      "raw_descriptor": {
+        "status": "RESOLVED_CANDIDATES",
+        "texture_std_green": 21.843158006795043,
+        "band_power_fraction": 0.9077986364817177,
+        "strongest_period_um": 19.17800856343236,
+        "strongest_normal_deg": 34.618526421928884,
+        "morphology": "dual_direction",
+        "long_period_um": 19.735415720471373,
+        "long_normal_deg": 124.33115849525522,
+        "short_period_um": 9.682039788658544,
+        "harmonic_visible": true,
+        "pair_period_1_um": 19.735415720471373,
+        "pair_period_2_um": 19.17800856343236,
+        "pair_angle_deg": 89.71263207332635,
+        "pair_length_ratio": 1.0290649133456875,
+        "selected_ranks": [
+          2,
+          1
+        ],
+        "dominant_axis_fraction": 0.22287928785189595,
+        "pair_normal_1_deg": 124.33115849525522,
+        "pair_normal_2_deg": 34.618526421928884
+      },
+      "family_primary": {
+        "base": {
+          "rank": 2,
+          "fx_cycles_um": 0.028576809375188663,
+          "fy_cycles_um": -0.041843137649425474,
+          "period_um": 19.735415720471373,
+          "normal_angle_deg": 124.33115849525522,
+          "stripe_angle_deg": 34.331158495255224,
+          "power": 1031100.1877454834,
+          "power_to_band_median": 3504.683580966193,
+          "refined": true,
+          "fft_index_x": 267,
+          "fft_index_y": 272,
+          "delta_bin_x": -0.026505199927553305,
+          "delta_bin_y": 0.06776485737938241
+        },
+        "members": [
+          [
+            1,
+            {
+              "rank": 2,
+              "fx_cycles_um": 0.028576809375188663,
+              "fy_cycles_um": -0.041843137649425474,
+              "period_um": 19.735415720471373,
+              "normal_angle_deg": 124.33115849525522,
+              "stripe_angle_deg": 34.331158495255224,
+              "power": 1031100.1877454834,
+              "power_to_band_median": 3504.683580966193,
+              "refined": true,
+              "fft_index_x": 267,
+              "fft_index_y": 272,
+              "delta_bin_x": -0.026505199927553305,
+              "delta_bin_y": 0.06776485737938241
+            }
+          ],
+          [
+            2,
+            {
+              "rank": 4,
+              "fx_cycles_um": 0.057291666666666664,
+              "fy_cycles_um": -0.0859375,
+              "period_um": 9.682039788658544,
+              "normal_angle_deg": 123.69006752597979,
+              "stripe_angle_deg": 33.690067525979785,
+              "power": 146131.5963321196,
+              "power_to_band_median": 496.69761717857136,
+              "refined": false,
+              "fft_index_x": 278,
+              "fft_index_y": 289,
+              "delta_bin_x": 0.0,
+              "delta_bin_y": 0.0
+            }
+          ]
+        ],
+        "score": 1177231.784077603
+      },
+      "family_low_threshold": {
+        "base": {
+          "rank": 2,
+          "fx_cycles_um": 0.028576809375188663,
+          "fy_cycles_um": -0.041843137649425474,
+          "period_um": 19.735415720471373,
+          "normal_angle_deg": 124.33115849525522,
+          "stripe_angle_deg": 34.331158495255224,
+          "power": 1031100.1877454834,
+          "power_to_band_median": 3504.683580966193,
+          "refined": true,
+          "fft_index_x": 267,
+          "fft_index_y": 272,
+          "delta_bin_x": -0.026505199927553305,
+          "delta_bin_y": 0.06776485737938241
+        },
+        "members": [
+          [
+            1,
+            {
+              "rank": 2,
+              "fx_cycles_um": 0.028576809375188663,
+              "fy_cycles_um": -0.041843137649425474,
+              "period_um": 19.735415720471373,
+              "normal_angle_deg": 124.33115849525522,
+              "stripe_angle_deg": 34.331158495255224,
+              "power": 1031100.1877454834,
+              "power_to_band_median": 3504.683580966193,
+              "refined": true,
+              "fft_index_x": 267,
+              "fft_index_y": 272,
+              "delta_bin_x": -0.026505199927553305,
+              "delta_bin_y": 0.06776485737938241
+            }
+          ],
+          [
+            2,
+            {
+              "rank": 4,
+              "fx_cycles_um": 0.057291666666666664,
+              "fy_cycles_um": -0.0859375,
+              "period_um": 9.682039788658544,
+              "normal_angle_deg": 123.69006752597979,
+              "stripe_angle_deg": 33.690067525979785,
+              "power": 146131.5963321196,
+              "power_to_band_median": 496.69761717857136,
+              "refined": false,
+              "fft_index_x": 278,
+              "fft_index_y": 289,
+              "delta_bin_x": 0.0,
+              "delta_bin_y": 0.0
+            }
+          ]
+        ],
+        "score": 1177231.784077603
+      },
+      "pair": {
+        "first": {
+          "rank": 1,
+          "fx_cycles_um": 0.042911270593014535,
+          "fy_cycles_um": 0.029622985734427277,
+          "period_um": 19.17800856343236,
+          "normal_angle_deg": 34.618526421928884,
+          "stripe_angle_deg": 124.61852642192889,
+          "power": 1060859.2735326546,
+          "power_to_band_median": 3605.833964393926,
+          "refined": true,
+          "fft_index_x": 273,
+          "fft_index_y": 245,
+          "delta_bin_x": -0.5220720922824161,
+          "delta_bin_y": -0.3752265220200746
+        },
+        "second": {
+          "rank": 2,
+          "fx_cycles_um": 0.028576809375188663,
+          "fy_cycles_um": -0.041843137649425474,
+          "period_um": 19.735415720471373,
+          "normal_angle_deg": 124.33115849525522,
+          "stripe_angle_deg": 34.331158495255224,
+          "power": 1031100.1877454834,
+          "power_to_band_median": 3504.683580966193,
+          "refined": true,
+          "fft_index_x": 267,
+          "fft_index_y": 272,
+          "delta_bin_x": -0.026505199927553305,
+          "delta_bin_y": 0.06776485737938241
+        },
+        "angle_deg": 89.71263207332635,
+        "coverage": 0.732854971051261,
+        "basis_frequency_sum": 0.10281338594965377,
+        "members": [
+          {
+            "rank": 1,
+            "integer_coefficients": [
+              1,
+              0
+            ],
+            "relative_residual": 0.0
+          },
+          {
+            "rank": 2,
+            "integer_coefficients": [
+              0,
+              1
+            ],
+            "relative_residual": 0.0
+          },
+          {
+            "rank": 4,
+            "integer_coefficients": [
+              0,
+              2
+            ],
+            "relative_residual": 0.04451230979888576
+          },
+          {
+            "rank": 7,
+            "integer_coefficients": [
+              2,
+              0
+            ],
+            "relative_residual": 0.007413359945099556
+          },
+          {
+            "rank": 11,
+            "integer_coefficients": [
+              1,
+              -1
+            ],
+            "relative_residual": 0.006352491428977463
+          },
+          {
+            "rank": 12,
+            "integer_coefficients": [
+              1,
+              2
+            ],
+            "relative_residual": 0.053424749460947996
+          },
+          {
+            "rank": 15,
+            "integer_coefficients": [
+              2,
+              1
+            ],
+            "relative_residual": 0.04548336829221962
+          }
+        ]
+      },
+      "crop_checks": [
+        {
+          "fraction": 0.9,
+          "matches": {
+            "family": {
+              "matched": true,
+              "relative_frequency_error": 0.0031700452583929206,
+              "period_um": 19.76712560451658,
+              "rank": 2
+            },
+            "pair_1": {
+              "matched": true,
+              "relative_frequency_error": 0.0023901695587186323,
+              "period_um": 19.155948362206463,
+              "rank": 1
+            },
+            "pair_2": {
+              "matched": true,
+              "relative_frequency_error": 0.0031700452583929206,
+              "period_um": 19.76712560451658,
+              "rank": 2
+            }
+          }
+        },
+        {
+          "fraction": 0.8,
+          "matches": {
+            "family": {
+              "matched": true,
+              "relative_frequency_error": 0.003500823550414069,
+              "period_um": 19.67793793848632,
+              "rank": 2
+            },
+            "pair_1": {
+              "matched": true,
+              "relative_frequency_error": 0.0075930880042275155,
+              "period_um": 19.185475420153743,
+              "rank": 1
+            },
+            "pair_2": {
+              "matched": true,
+              "relative_frequency_error": 0.003500823550414069,
+              "period_um": 19.67793793848632,
+              "rank": 2
+            }
+          }
+        }
+      ],
+      "tile_checks": [
+        {
+          "iy": 0,
+          "ix": 0,
+          "modes": [
+            {
+              "matched": false,
+              "relative_frequency_error": 0.4304543656555196,
+              "period_um": 20.801115125043207,
+              "rank": 2,
+              "passes_power_gate": true
+            },
+            {
+              "matched": true,
+              "relative_frequency_error": 0.11192061777593747,
+              "period_um": 19.74967239711997,
+              "rank": 1,
+              "passes_power_gate": true
+            }
+          ],
+          "both_supported": false
+        },
+        {
+          "iy": 0,
+          "ix": 1,
+          "modes": [
+            {
+              "matched": false,
+              "relative_frequency_error": 0.3307175533010976,
+              "period_um": 17.958322326980376,
+              "rank": 3,
+              "passes_power_gate": false
+            },
+            {
+              "matched": false,
+              "relative_frequency_error": 0.2742221667664382,
+              "period_um": 20.23857702507763,
+              "rank": 6,
+              "passes_power_gate": false
+            }
+          ],
+          "both_supported": false
+        },
+        {
+          "iy": 1,
+          "ix": 0,
+          "modes": [
+            {
+              "matched": false,
+              "relative_frequency_error": 0.28620380014205815,
+              "period_um": 20.19941782352019,
+              "rank": 3,
+              "passes_power_gate": true
+            },
+            {
+              "matched": true,
+              "relative_frequency_error": 0.11802221779405639,
+              "period_um": 19.663973254391504,
+              "rank": 1,
+              "passes_power_gate": true
+            }
+          ],
+          "both_supported": false
+        },
+        {
+          "iy": 1,
+          "ix": 1,
+          "modes": [
+            {
+              "matched": true,
+              "relative_frequency_error": 0.13324371318505332,
+              "period_um": 18.06184067296507,
+              "rank": 5,
+              "passes_power_gate": false
+            },
+            {
+              "matched": false,
+              "relative_frequency_error": 0.24363218647679918,
+              "period_um": 17.416559999737395,
+              "rank": 6,
+              "passes_power_gate": false
+            }
+          ],
+          "both_supported": false
+        }
+      ],
+      "frozen_status": {
+        "status": "RESOLVED_CANDIDATES",
+        "morphology": "dual_direction",
+        "long_period_um": 19.735415720471373,
+        "strongest_period_um": 19.17800856343236,
+        "family_ambiguous": false,
+        "family_primary_rank": 2,
+        "pair_coverage": 0.732854971051261,
+        "tile_both_mode_support": [
+          [
+            false,
+            true
+          ],
+          [
+            false,
+            false
+          ],
+          [
+            false,
+            true
+          ],
+          [
+            false,
+            false
+          ]
+        ],
+        "pair_crop_time_tile_supported": false,
+        "comparison_1d_eligible": false,
+        "comparison_2d_eligible": false,
+        "mode_sensitivity": {
+          "stripe": {
+            "period_min_um": 19.67793793848632,
+            "period_max_um": 19.94258532151244,
+            "all_variants_matched": true,
+            "maximum_relative_frequency_difference": 0.01666551509845101
+          },
+          "pair_1": {
+            "period_min_um": 19.155948362206463,
+            "period_max_um": 19.248562556521254,
+            "all_variants_matched": true,
+            "maximum_relative_frequency_difference": 0.0075930880042275155
+          },
+          "pair_2": {
+            "period_min_um": 19.67793793848632,
+            "period_max_um": 19.94258532151244,
+            "all_variants_matched": true,
+            "maximum_relative_frequency_difference": 0.01666551509845101
+          }
+        }
+      }
+    },
+    {
+      "frame": 164,
+      "roi": "right",
+      "reason": "same-frame fine stripe",
+      "input_path": "work/microscopy_full_2026-10-27/selected_frames_v1/micro_late_164.png",
+      "input_sha256": "643a81f950615d0647d85c19e0ee30b86c701873d7b8db4fde2a6f6638e84df7",
+      "source_receipt": {
+        "file": "micro_late_164.png",
+        "frame_index": 164,
+        "height": 1024,
+        "pts_s": 82,
+        "video_id": "micro_late",
+        "width": 1536,
+        "sha256": "643a81f950615d0647d85c19e0ee30b86c701873d7b8db4fde2a6f6638e84df7",
+        "parent_video_sha256": "5f9162137e56bac001ad8a4deb2a808fc73b00676e8c9f2470194a0e8f6cfb40"
+      },
+      "roi_xywh": [
+        920,
+        100,
+        512,
+        768
+      ],
+      "pixel_scale_um": [
+        0.75,
+        0.75
+      ],
+      "voltage_V": 5.39,
+      "direction": "up",
+      "raw_descriptor": {
+        "status": "RESOLVED_CANDIDATES",
+        "texture_std_green": 17.391774499944063,
+        "band_power_fraction": 0.8524380073793472,
+        "strongest_period_um": 13.923706898052679,
+        "strongest_normal_deg": 173.46534632028707,
+        "morphology": "stripe",
+        "long_period_um": 13.923706898052679,
+        "long_normal_deg": 173.46534632028707,
+        "short_period_um": 6.498879819738196,
+        "harmonic_visible": true,
+        "pair_period_1_um": null,
+        "pair_period_2_um": null,
+        "pair_angle_deg": null,
+        "pair_length_ratio": null,
+        "selected_ranks": [
+          1
+        ],
+        "dominant_axis_fraction": 0.7589563304360681
+      },
+      "family_primary": {
+        "base": {
+          "rank": 1,
+          "fx_cycles_um": 0.07135335536487199,
+          "fy_cycles_um": -0.008173407181914052,
+          "period_um": 13.923706898052679,
+          "normal_angle_deg": 173.46534632028707,
+          "stripe_angle_deg": 83.46534632028705,
+          "power": 712795.0817791101,
+          "power_to_band_median": 10396.414180120677,
+          "refined": true,
+          "fft_index_x": 283,
+          "fft_index_y": 389,
+          "delta_bin_x": 0.399688460110842,
+          "delta_bin_y": -0.29211746321750576
+        },
+        "members": [
+          [
+            1,
+            {
+              "rank": 1,
+              "fx_cycles_um": 0.07135335536487199,
+              "fy_cycles_um": -0.008173407181914052,
+              "period_um": 13.923706898052679,
+              "normal_angle_deg": 173.46534632028707,
+              "stripe_angle_deg": 83.46534632028705,
+              "power": 712795.0817791101,
+              "power_to_band_median": 10396.414180120677,
+              "refined": true,
+              "fft_index_x": 283,
+              "fft_index_y": 389,
+              "delta_bin_x": 0.399688460110842,
+              "delta_bin_y": -0.29211746321750576
+            }
+          ],
+          [
+            2,
+            {
+              "rank": 3,
+              "fx_cycles_um": 0.15156537216065613,
+              "fy_cycles_um": -0.026546883325859895,
+              "period_um": 6.498879819738196,
+              "normal_angle_deg": 170.06533928735084,
+              "stripe_angle_deg": 80.06533928735084,
+              "power": 172759.1886133333,
+              "power_to_band_median": 2519.764970547863,
+              "refined": true,
+              "fft_index_x": 314,
+              "fft_index_y": 399,
+              "delta_bin_x": 0.2011029096919526,
+              "delta_bin_y": 0.2910047956953003
+            }
+          ],
+          [
+            3,
+            {
+              "rank": 14,
+              "fx_cycles_um": 0.22360746783401186,
+              "fy_cycles_um": -0.03217258103075325,
+              "period_um": 4.426539524716593,
+              "normal_angle_deg": 171.81248802296895,
+              "stripe_angle_deg": 81.81248802296895,
+              "power": 28929.67861480405,
+              "power_to_band_median": 421.9514537426165,
+              "refined": true,
+              "fft_index_x": 342,
+              "fft_index_y": 402,
+              "delta_bin_x": -0.1347323517394414,
+              "delta_bin_y": 0.5314066737138725
+            }
+          ]
+        ],
+        "score": 914483.9490072475
+      },
+      "family_low_threshold": {
+        "base": {
+          "rank": 1,
+          "fx_cycles_um": 0.07135335536487199,
+          "fy_cycles_um": -0.008173407181914052,
+          "period_um": 13.923706898052679,
+          "normal_angle_deg": 173.46534632028707,
+          "stripe_angle_deg": 83.46534632028705,
+          "power": 712795.0817791101,
+          "power_to_band_median": 10396.414180120677,
+          "refined": true,
+          "fft_index_x": 283,
+          "fft_index_y": 389,
+          "delta_bin_x": 0.399688460110842,
+          "delta_bin_y": -0.29211746321750576
+        },
+        "members": [
+          [
+            1,
+            {
+              "rank": 1,
+              "fx_cycles_um": 0.07135335536487199,
+              "fy_cycles_um": -0.008173407181914052,
+              "period_um": 13.923706898052679,
+              "normal_angle_deg": 173.46534632028707,
+              "stripe_angle_deg": 83.46534632028705,
+              "power": 712795.0817791101,
+              "power_to_band_median": 10396.414180120677,
+              "refined": true,
+              "fft_index_x": 283,
+              "fft_index_y": 389,
+              "delta_bin_x": 0.399688460110842,
+              "delta_bin_y": -0.29211746321750576
+            }
+          ],
+          [
+            2,
+            {
+              "rank": 3,
+              "fx_cycles_um": 0.15156537216065613,
+              "fy_cycles_um": -0.026546883325859895,
+              "period_um": 6.498879819738196,
+              "normal_angle_deg": 170.06533928735084,
+              "stripe_angle_deg": 80.06533928735084,
+              "power": 172759.1886133333,
+              "power_to_band_median": 2519.764970547863,
+              "refined": true,
+              "fft_index_x": 314,
+              "fft_index_y": 399,
+              "delta_bin_x": 0.2011029096919526,
+              "delta_bin_y": 0.2910047956953003
+            }
+          ],
+          [
+            3,
+            {
+              "rank": 14,
+              "fx_cycles_um": 0.22360746783401186,
+              "fy_cycles_um": -0.03217258103075325,
+              "period_um": 4.426539524716593,
+              "normal_angle_deg": 171.81248802296895,
+              "stripe_angle_deg": 81.81248802296895,
+              "power": 28929.67861480405,
+              "power_to_band_median": 421.9514537426165,
+              "refined": true,
+              "fft_index_x": 342,
+              "fft_index_y": 402,
+              "delta_bin_x": -0.1347323517394414,
+              "delta_bin_y": 0.5314066737138725
+            }
+          ]
+        ],
+        "score": 914483.9490072475
+      },
+      "pair": null,
+      "crop_checks": [
+        {
+          "fraction": 0.9,
+          "matches": {
+            "family": {
+              "matched": true,
+              "relative_frequency_error": 0.00602720352624792,
+              "period_um": 13.980925044734278,
+              "rank": 1
+            }
+          }
+        },
+        {
+          "fraction": 0.8,
+          "matches": {
+            "family": {
+              "matched": true,
+              "relative_frequency_error": 0.00920825184723357,
+              "period_um": 13.98455453915429,
+              "rank": 1
+            }
+          }
+        }
+      ],
+      "tile_checks": [],
+      "frozen_status": {
+        "status": "RESOLVED_CANDIDATES",
+        "morphology": "stripe",
+        "long_period_um": 13.923706898052679,
+        "strongest_period_um": 13.923706898052679,
+        "family_ambiguous": false,
+        "family_primary_rank": 1,
+        "pair_coverage": null,
+        "tile_both_mode_support": [],
+        "pair_crop_time_tile_supported": false,
+        "comparison_1d_eligible": true,
+        "comparison_2d_eligible": false,
+        "mode_sensitivity": {
+          "stripe": {
+            "period_min_um": 13.871340572321483,
+            "period_max_um": 13.98455453915429,
+            "all_variants_matched": true,
+            "maximum_relative_frequency_difference": 0.00920825184723357
+          }
+        }
+      }
+    },
+    {
+      "frame": 196,
+      "roi": "right",
+      "reason": "strongest peak is second harmonic, select supported lower frequency",
+      "input_path": "work/microscopy_full_2026-10-27/selected_frames_v1/micro_late_196.png",
+      "input_sha256": "50697616d8042c895a43f48e3d4ece7b45a3b99cf17f9018921d2f5e1341f7c0",
+      "source_receipt": {
+        "file": "micro_late_196.png",
+        "frame_index": 196,
+        "height": 1024,
+        "pts_s": 98,
+        "video_id": "micro_late",
+        "width": 1536,
+        "sha256": "50697616d8042c895a43f48e3d4ece7b45a3b99cf17f9018921d2f5e1341f7c0",
+        "parent_video_sha256": "5f9162137e56bac001ad8a4deb2a808fc73b00676e8c9f2470194a0e8f6cfb40"
+      },
+      "roi_xywh": [
+        920,
+        100,
+        512,
+        768
+      ],
+      "pixel_scale_um": [
+        0.75,
+        0.75
+      ],
+      "voltage_V": 5.72,
+      "direction": "up",
+      "raw_descriptor": {
+        "status": "RESOLVED_CANDIDATES",
+        "texture_std_green": 11.921668040975227,
+        "band_power_fraction": 0.9122385702347954,
+        "strongest_period_um": 6.1582612094678115,
+        "strongest_normal_deg": 170.15076751148203,
+        "morphology": "stripe",
+        "long_period_um": 12.292431814132451,
+        "long_normal_deg": 171.25211251646633,
+        "short_period_um": 6.1582612094678115,
+        "harmonic_visible": true,
+        "pair_period_1_um": null,
+        "pair_period_2_um": null,
+        "pair_angle_deg": null,
+        "pair_length_ratio": null,
+        "selected_ranks": [
+          2
+        ],
+        "dominant_axis_fraction": 0.8951424296289157
+      },
+      "family_primary": {
+        "base": {
+          "rank": 2,
+          "fx_cycles_um": 0.08040452317212378,
+          "fy_cycles_um": -0.012372404999572376,
+          "period_um": 12.292431814132451,
+          "normal_angle_deg": 171.25211251646633,
+          "stripe_angle_deg": 81.25211251646634,
+          "power": 293083.7166017784,
+          "power_to_band_median": 26553.45531239365,
+          "refined": true,
+          "fft_index_x": 287,
+          "fft_index_y": 391,
+          "delta_bin_x": -0.12466310190446551,
+          "delta_bin_y": 0.12650527975368991
+        },
+        "members": [
+          [
+            1,
+            {
+              "rank": 2,
+              "fx_cycles_um": 0.08040452317212378,
+              "fy_cycles_um": -0.012372404999572376,
+              "period_um": 12.292431814132451,
+              "normal_angle_deg": 171.25211251646633,
+              "stripe_angle_deg": 81.25211251646634,
+              "power": 293083.7166017784,
+              "power_to_band_median": 26553.45531239365,
+              "refined": true,
+              "fft_index_x": 287,
+              "fft_index_y": 391,
+              "delta_bin_x": -0.12466310190446551,
+              "delta_bin_y": 0.12650527975368991
+            }
+          ],
+          [
+            2,
+            {
+              "rank": 1,
+              "fx_cycles_um": 0.15999017343596308,
+              "fy_cycles_um": -0.027776698793663443,
+              "period_um": 6.1582612094678115,
+              "normal_angle_deg": 170.15076751148203,
+              "stripe_angle_deg": 80.15076751148203,
+              "power": 358228.71370189165,
+              "power_to_band_median": 32455.607739627383,
+              "refined": true,
+              "fft_index_x": 317,
+              "fft_index_y": 400,
+              "delta_bin_x": 0.43622659940982866,
+              "delta_bin_y": -0.000621494849855034
+            }
+          ],
+          [
+            3,
+            {
+              "rank": 4,
+              "fx_cycles_um": 0.23987184803725226,
+              "fy_cycles_um": -0.040151218163767204,
+              "period_um": 4.111689732982764,
+              "normal_angle_deg": 170.49757488410876,
+              "stripe_angle_deg": 80.49757488410877,
+              "power": 121730.64664446122,
+              "power_to_band_median": 11028.82590442375,
+              "refined": true,
+              "fft_index_x": 348,
+              "fft_index_y": 407,
+              "delta_bin_x": 0.11078964630487291,
+              "delta_bin_y": 0.1271016623299105
+            }
+          ]
+        ],
+        "score": 773043.0769481313
+      },
+      "family_low_threshold": {
+        "base": {
+          "rank": 2,
+          "fx_cycles_um": 0.08040452317212378,
+          "fy_cycles_um": -0.012372404999572376,
+          "period_um": 12.292431814132451,
+          "normal_angle_deg": 171.25211251646633,
+          "stripe_angle_deg": 81.25211251646634,
+          "power": 293083.7166017784,
+          "power_to_band_median": 26553.45531239365,
+          "refined": true,
+          "fft_index_x": 287,
+          "fft_index_y": 391,
+          "delta_bin_x": -0.12466310190446551,
+          "delta_bin_y": 0.12650527975368991
+        },
+        "members": [
+          [
+            1,
+            {
+              "rank": 2,
+              "fx_cycles_um": 0.08040452317212378,
+              "fy_cycles_um": -0.012372404999572376,
+              "period_um": 12.292431814132451,
+              "normal_angle_deg": 171.25211251646633,
+              "stripe_angle_deg": 81.25211251646634,
+              "power": 293083.7166017784,
+              "power_to_band_median": 26553.45531239365,
+              "refined": true,
+              "fft_index_x": 287,
+              "fft_index_y": 391,
+              "delta_bin_x": -0.12466310190446551,
+              "delta_bin_y": 0.12650527975368991
+            }
+          ],
+          [
+            2,
+            {
+              "rank": 1,
+              "fx_cycles_um": 0.15999017343596308,
+              "fy_cycles_um": -0.027776698793663443,
+              "period_um": 6.1582612094678115,
+              "normal_angle_deg": 170.15076751148203,
+              "stripe_angle_deg": 80.15076751148203,
+              "power": 358228.71370189165,
+              "power_to_band_median": 32455.607739627383,
+              "refined": true,
+              "fft_index_x": 317,
+              "fft_index_y": 400,
+              "delta_bin_x": 0.43622659940982866,
+              "delta_bin_y": -0.000621494849855034
+            }
+          ],
+          [
+            3,
+            {
+              "rank": 4,
+              "fx_cycles_um": 0.23987184803725226,
+              "fy_cycles_um": -0.040151218163767204,
+              "period_um": 4.111689732982764,
+              "normal_angle_deg": 170.49757488410876,
+              "stripe_angle_deg": 80.49757488410877,
+              "power": 121730.64664446122,
+              "power_to_band_median": 11028.82590442375,
+              "refined": true,
+              "fft_index_x": 348,
+              "fft_index_y": 407,
+              "delta_bin_x": 0.11078964630487291,
+              "delta_bin_y": 0.1271016623299105
+            }
+          ]
+        ],
+        "score": 773043.0769481313
+      },
+      "pair": null,
+      "crop_checks": [
+        {
+          "fraction": 0.9,
+          "matches": {
+            "family": {
+              "matched": true,
+              "relative_frequency_error": 0.005131433821991928,
+              "period_um": 12.301106302014958,
+              "rank": 2
+            }
+          }
+        },
+        {
+          "fraction": 0.8,
+          "matches": {
+            "family": {
+              "matched": true,
+              "relative_frequency_error": 0.014158515869036837,
+              "period_um": 12.365519640731579,
+              "rank": 3
+            }
+          }
+        }
+      ],
+      "tile_checks": [],
+      "frozen_status": {
+        "status": "RESOLVED_CANDIDATES",
+        "morphology": "stripe",
+        "long_period_um": 12.292431814132451,
+        "strongest_period_um": 6.1582612094678115,
+        "family_ambiguous": false,
+        "family_primary_rank": 2,
+        "pair_coverage": null,
+        "tile_both_mode_support": [],
+        "pair_crop_time_tile_supported": false,
+        "comparison_1d_eligible": true,
+        "comparison_2d_eligible": false,
+        "mode_sensitivity": {
+          "stripe": {
+            "period_min_um": 12.292431814132451,
+            "period_max_um": 12.365519640731579,
+            "all_variants_matched": true,
+            "maximum_relative_frequency_difference": 0.014158515869036837
+          }
+        }
+      }
+    },
+    {
+      "frame": 254,
+      "roi": "right",
+      "reason": "visible fine stripes with threshold-sensitive frequency-family identity",
+      "input_path": "work/microscopy_full_2026-10-27/selected_frames_v1/micro_late_254.png",
+      "input_sha256": "542c0c43a733890617abefe70dfa2bc713fedaa00d8621c3dc6c950458e44d16",
+      "source_receipt": {
+        "file": "micro_late_254.png",
+        "frame_index": 254,
+        "height": 1024,
+        "pts_s": 127,
+        "video_id": "micro_late",
+        "width": 1536,
+        "sha256": "542c0c43a733890617abefe70dfa2bc713fedaa00d8621c3dc6c950458e44d16",
+        "parent_video_sha256": "5f9162137e56bac001ad8a4deb2a808fc73b00676e8c9f2470194a0e8f6cfb40"
+      },
+      "roi_xywh": [
+        920,
+        100,
+        512,
+        768
+      ],
+      "pixel_scale_um": [
+        0.75,
+        0.75
+      ],
+      "voltage_V": 6.8,
+      "direction": "up",
+      "raw_descriptor": {
+        "status": "RESOLVED_CANDIDATES",
+        "texture_std_green": 8.375212955611099,
+        "band_power_fraction": 0.8951390787070345,
+        "strongest_period_um": 6.163070142897178,
+        "strongest_normal_deg": 169.03389753182768,
+        "morphology": "stripe",
+        "long_period_um": 12.154789522066228,
+        "long_normal_deg": 170.7289791110326,
+        "short_period_um": 6.163070142897178,
+        "harmonic_visible": true,
+        "pair_period_1_um": null,
+        "pair_period_2_um": null,
+        "pair_angle_deg": null,
+        "pair_length_ratio": null,
+        "selected_ranks": [
+          3
+        ],
+        "dominant_axis_fraction": 0.924849460793085
+      },
+      "family_primary": null,
+      "family_low_threshold": {
+        "base": {
+          "rank": 3,
+          "fx_cycles_um": 0.08119740160963443,
+          "fy_cycles_um": -0.013254418547328289,
+          "period_um": 12.154789522066228,
+          "normal_angle_deg": 170.7289791110326,
+          "stripe_angle_deg": 80.7289791110326,
+          "power": 87538.72500610621,
+          "power_to_band_median": 10488.445717567329,
+          "refined": true,
+          "fft_index_x": 287,
+          "fft_index_y": 392,
+          "delta_bin_x": 0.17980221809962302,
+          "delta_bin_y": -0.36545491673890534
+        },
+        "members": [
+          [
+            1,
+            {
+              "rank": 3,
+              "fx_cycles_um": 0.08119740160963443,
+              "fy_cycles_um": -0.013254418547328289,
+              "period_um": 12.154789522066228,
+              "normal_angle_deg": 170.7289791110326,
+              "stripe_angle_deg": 80.7289791110326,
+              "power": 87538.72500610621,
+              "power_to_band_median": 10488.445717567329,
+              "refined": true,
+              "fft_index_x": 287,
+              "fft_index_y": 392,
+              "delta_bin_x": 0.17980221809962302,
+              "delta_bin_y": -0.36545491673890534
+            }
+          ],
+          [
+            2,
+            {
+              "rank": 1,
+              "fx_cycles_um": 0.1592939680999389,
+              "fy_cycles_um": -0.030865819122370405,
+              "period_um": 6.163070142897178,
+              "normal_angle_deg": 169.03389753182768,
+              "stripe_angle_deg": 79.03389753182769,
+              "power": 569005.4498811836,
+              "power_to_band_median": 68175.34495347606,
+              "refined": true,
+              "fft_index_x": 317,
+              "fft_index_y": 402,
+              "delta_bin_x": 0.16888375037654316,
+              "delta_bin_y": -0.22128818551464696
+            }
+          ],
+          [
+            3,
+            {
+              "rank": 2,
+              "fx_cycles_um": 0.23972442521013612,
+              "fy_cycles_um": -0.04412752709951221,
+              "period_um": 4.1025303998214255,
+              "normal_angle_deg": 169.56997645807314,
+              "stripe_angle_deg": 79.56997645807314,
+              "power": 260306.14335121625,
+              "power_to_band_median": 31188.560883175847,
+              "refined": true,
+              "fft_index_x": 348,
+              "fft_index_y": 409,
+              "delta_bin_x": 0.054179280692282956,
+              "delta_bin_y": 0.41745560931903564
+            }
+          ]
+        ],
+        "score": 916850.318238506
+      },
+      "pair": null,
+      "crop_checks": [
+        {
+          "fraction": 0.9,
+          "matches": {}
+        },
+        {
+          "fraction": 0.8,
+          "matches": {}
+        }
+      ],
+      "tile_checks": [],
+      "frozen_status": {
+        "status": "RESOLVED_CANDIDATES",
+        "morphology": "stripe",
+        "long_period_um": null,
+        "strongest_period_um": 6.163070142897178,
+        "family_ambiguous": true,
+        "family_primary_rank": null,
+        "pair_coverage": null,
+        "tile_both_mode_support": [],
+        "pair_crop_time_tile_supported": false,
+        "comparison_1d_eligible": false,
+        "comparison_2d_eligible": false,
+        "mode_sensitivity": {}
+      }
+    },
+    {
+      "frame": 436,
+      "roi": "center",
+      "reason": "nearly uniform sparse-object field: do not turn every FFT peak into a period",
+      "input_path": "work/microscopy_full_2026-10-27/selected_frames_v1/micro_late_436.png",
+      "input_sha256": "b10aa078076267fa8761b5d0d189d8491083072bfc254a0941813273fe15747c",
+      "source_receipt": {
+        "file": "micro_late_436.png",
+        "frame_index": 436,
+        "height": 1024,
+        "pts_s": 218,
+        "video_id": "micro_late",
+        "width": 1536,
+        "sha256": "b10aa078076267fa8761b5d0d189d8491083072bfc254a0941813273fe15747c",
+        "parent_video_sha256": "5f9162137e56bac001ad8a4deb2a808fc73b00676e8c9f2470194a0e8f6cfb40"
+      },
+      "roi_xywh": [
+        500,
+        200,
+        512,
+        512
+      ],
+      "pixel_scale_um": [
+        0.75,
+        0.75
+      ],
+      "voltage_V": 7.38,
+      "direction": "down",
+      "raw_descriptor": {
+        "status": "RESOLVED_CANDIDATES",
+        "texture_std_green": 5.095885486659263,
+        "band_power_fraction": 0.869467951324419,
+        "strongest_period_um": 52.13738676021346,
+        "strongest_normal_deg": 153.42865705224403,
+        "morphology": "stripe",
+        "long_period_um": 10.144402026485322,
+        "long_normal_deg": 154.0430764038988,
+        "short_period_um": 5.11013506760756,
+        "harmonic_visible": true,
+        "pair_period_1_um": null,
+        "pair_period_2_um": null,
+        "pair_angle_deg": null,
+        "pair_length_ratio": null,
+        "selected_ranks": [
+          2
+        ],
+        "dominant_axis_fraction": 0.8095031555374238
+      },
+      "family_primary": null,
+      "family_low_threshold": {
+        "base": {
+          "rank": 2,
+          "fx_cycles_um": 0.08863246629270792,
+          "fy_cycles_um": -0.043146484722648974,
+          "period_um": 10.144402026485322,
+          "normal_angle_deg": 154.0430764038988,
+          "stripe_angle_deg": 64.04307640389881,
+          "power": 20190.62981666648,
+          "power_to_band_median": 2961.8827535285873,
+          "refined": true,
+          "fft_index_x": 290,
+          "fft_index_y": 273,
+          "delta_bin_x": 0.0348670563998444,
+          "delta_bin_y": -0.43174986650279157
+        },
+        "members": [
+          [
+            1,
+            {
+              "rank": 2,
+              "fx_cycles_um": 0.08863246629270792,
+              "fy_cycles_um": -0.043146484722648974,
+              "period_um": 10.144402026485322,
+              "normal_angle_deg": 154.0430764038988,
+              "stripe_angle_deg": 64.04307640389881,
+              "power": 20190.62981666648,
+              "power_to_band_median": 2961.8827535285873,
+              "refined": true,
+              "fft_index_x": 290,
+              "fft_index_y": 273,
+              "delta_bin_x": 0.0348670563998444,
+              "delta_bin_y": -0.43174986650279157
+            }
+          ],
+          [
+            2,
+            {
+              "rank": 4,
+              "fx_cycles_um": 0.17539533825674186,
+              "fy_cycles_um": -0.08678060186470492,
+              "period_um": 5.11013506760756,
+              "normal_angle_deg": 153.6751098143264,
+              "stripe_angle_deg": 63.675109814326404,
+              "power": 3096.108398055911,
+              "power_to_band_median": 454.1864295727485,
+              "refined": true,
+              "fft_index_x": 323,
+              "fft_index_y": 289,
+              "delta_bin_x": 0.35180989058888146,
+              "delta_bin_y": 0.3237511160466904
+            }
+          ]
+        ],
+        "score": 23286.73821472239
+      },
+      "pair": null,
+      "crop_checks": [
+        {
+          "fraction": 0.9,
+          "matches": {}
+        },
+        {
+          "fraction": 0.8,
+          "matches": {}
+        }
+      ],
+      "tile_checks": [],
+      "frozen_status": {
+        "status": "RESOLVED_CANDIDATES",
+        "morphology": "stripe",
+        "long_period_um": null,
+        "strongest_period_um": 52.13738676021346,
+        "family_ambiguous": true,
+        "family_primary_rank": null,
+        "pair_coverage": null,
+        "tile_both_mode_support": [],
+        "pair_crop_time_tile_supported": false,
+        "comparison_1d_eligible": false,
+        "comparison_2d_eligible": false,
+        "mode_sensitivity": {}
+      }
+    },
+    {
+      "frame": 559,
+      "roi": "center",
+      "reason": "folded descending texture with angular spread",
+      "input_path": "work/microscopy_full_2026-10-27/selected_frames_v1/micro_late_559.png",
+      "input_sha256": "3b4acfc3a045dc210c1da4ec54ad7c119cfd4812c336019ebf62f30738bcce2a",
+      "source_receipt": {
+        "file": "micro_late_559.png",
+        "frame_index": 559,
+        "height": 1024,
+        "pts_s": 279.5,
+        "video_id": "micro_late",
+        "width": 1536,
+        "sha256": "3b4acfc3a045dc210c1da4ec54ad7c119cfd4812c336019ebf62f30738bcce2a",
+        "parent_video_sha256": "5f9162137e56bac001ad8a4deb2a808fc73b00676e8c9f2470194a0e8f6cfb40"
+      },
+      "roi_xywh": [
+        500,
+        200,
+        512,
+        512
+      ],
+      "pixel_scale_um": [
+        0.75,
+        0.75
+      ],
+      "voltage_V": 5.66,
+      "direction": "down",
+      "raw_descriptor": {
+        "status": "RESOLVED_CANDIDATES",
+        "texture_std_green": 17.81039749667903,
+        "band_power_fraction": 0.9342119008863791,
+        "strongest_period_um": 12.338518146352282,
+        "strongest_normal_deg": 164.38451911299296,
+        "morphology": "mixed",
+        "long_period_um": 12.338518146352282,
+        "long_normal_deg": 164.38451911299296,
+        "short_period_um": 5.9479508237643826,
+        "harmonic_visible": true,
+        "pair_period_1_um": null,
+        "pair_period_2_um": null,
+        "pair_angle_deg": null,
+        "pair_length_ratio": null,
+        "selected_ranks": [
+          1
+        ],
+        "dominant_axis_fraction": 0.47459717214885616
+      },
+      "family_primary": {
+        "base": {
+          "rank": 1,
+          "fx_cycles_um": 0.07805555416886927,
+          "fy_cycles_um": -0.021816238129752107,
+          "period_um": 12.338518146352282,
+          "normal_angle_deg": 164.38451911299296,
+          "stripe_angle_deg": 74.38451911299296,
+          "power": 756534.2140703226,
+          "power_to_band_median": 6849.028028467075,
+          "refined": true,
+          "fft_index_x": 286,
+          "fft_index_y": 265,
+          "delta_bin_x": -0.02666719915420312,
+          "delta_bin_y": -0.6225645581751907
+        },
+        "members": [
+          [
+            1,
+            {
+              "rank": 1,
+              "fx_cycles_um": 0.07805555416886927,
+              "fy_cycles_um": -0.021816238129752107,
+              "period_um": 12.338518146352282,
+              "normal_angle_deg": 164.38451911299296,
+              "stripe_angle_deg": 74.38451911299296,
+              "power": 756534.2140703226,
+              "power_to_band_median": 6849.028028467075,
+              "refined": true,
+              "fft_index_x": 286,
+              "fft_index_y": 265,
+              "delta_bin_x": -0.02666719915420312,
+              "delta_bin_y": -0.6225645581751907
+            }
+          ],
+          [
+            2,
+            {
+              "rank": 8,
+              "fx_cycles_um": 0.16145833333333331,
+              "fy_cycles_um": -0.046875,
+              "period_um": 5.9479508237643826,
+              "normal_angle_deg": 163.81079374297306,
+              "stripe_angle_deg": 73.81079374297306,
+              "power": 58129.29183191263,
+              "power_to_band_median": 526.2539904040669,
+              "refined": false,
+              "fft_index_x": 318,
+              "fft_index_y": 274,
+              "delta_bin_x": 0.0,
+              "delta_bin_y": 0.0
+            }
+          ]
+        ],
+        "score": 814663.5059022352
+      },
+      "family_low_threshold": {
+        "base": {
+          "rank": 1,
+          "fx_cycles_um": 0.07805555416886927,
+          "fy_cycles_um": -0.021816238129752107,
+          "period_um": 12.338518146352282,
+          "normal_angle_deg": 164.38451911299296,
+          "stripe_angle_deg": 74.38451911299296,
+          "power": 756534.2140703226,
+          "power_to_band_median": 6849.028028467075,
+          "refined": true,
+          "fft_index_x": 286,
+          "fft_index_y": 265,
+          "delta_bin_x": -0.02666719915420312,
+          "delta_bin_y": -0.6225645581751907
+        },
+        "members": [
+          [
+            1,
+            {
+              "rank": 1,
+              "fx_cycles_um": 0.07805555416886927,
+              "fy_cycles_um": -0.021816238129752107,
+              "period_um": 12.338518146352282,
+              "normal_angle_deg": 164.38451911299296,
+              "stripe_angle_deg": 74.38451911299296,
+              "power": 756534.2140703226,
+              "power_to_band_median": 6849.028028467075,
+              "refined": true,
+              "fft_index_x": 286,
+              "fft_index_y": 265,
+              "delta_bin_x": -0.02666719915420312,
+              "delta_bin_y": -0.6225645581751907
+            }
+          ],
+          [
+            2,
+            {
+              "rank": 8,
+              "fx_cycles_um": 0.16145833333333331,
+              "fy_cycles_um": -0.046875,
+              "period_um": 5.9479508237643826,
+              "normal_angle_deg": 163.81079374297306,
+              "stripe_angle_deg": 73.81079374297306,
+              "power": 58129.29183191263,
+              "power_to_band_median": 526.2539904040669,
+              "refined": false,
+              "fft_index_x": 318,
+              "fft_index_y": 274,
+              "delta_bin_x": 0.0,
+              "delta_bin_y": 0.0
+            }
+          ]
+        ],
+        "score": 814663.5059022352
+      },
+      "pair": null,
+      "crop_checks": [
+        {
+          "fraction": 0.9,
+          "matches": {
+            "family": {
+              "matched": true,
+              "relative_frequency_error": 0.008231070564612081,
+              "period_um": 12.338913760038194,
+              "rank": 1
+            }
+          }
+        },
+        {
+          "fraction": 0.8,
+          "matches": {
+            "family": {
+              "matched": true,
+              "relative_frequency_error": 0.01162832497916734,
+              "period_um": 12.371703772471749,
+              "rank": 1
+            }
+          }
+        }
+      ],
+      "tile_checks": [],
+      "frozen_status": {
+        "status": "RESOLVED_CANDIDATES",
+        "morphology": "mixed",
+        "long_period_um": 12.338518146352282,
+        "strongest_period_um": 12.338518146352282,
+        "family_ambiguous": false,
+        "family_primary_rank": 1,
+        "pair_coverage": null,
+        "tile_both_mode_support": [],
+        "pair_crop_time_tile_supported": false,
+        "comparison_1d_eligible": false,
+        "comparison_2d_eligible": false,
+        "mode_sensitivity": {
+          "stripe": {
+            "period_min_um": 12.338518146352282,
+            "period_max_um": 12.646366501224659,
+            "all_variants_matched": true,
+            "maximum_relative_frequency_difference": 0.037124999328099616
+          }
+        }
+      }
+    }
+  ],
+  "scope": "Independently calculated reference, evaluation only; actual FFT/crops/tiles must be recomputed from PNG."
+}

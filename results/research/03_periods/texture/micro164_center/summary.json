@@ -1,0 +1,16 @@
+{
+  "id": "micro164_center",
+  "title": "空间混合产生全局双峰：局部格纹判断的反例",
+  "status": "COMPUTED",
+  "quality_status": "RESOLVED_CANDIDATES",
+  "strongest_period_um": 19.17800856343236,
+  "family_period_um": 19.735415720471373,
+  "family_rank": 2,
+  "lower_support_period_um": 19.735415720471373,
+  "family_ambiguous": false,
+  "pair_coverage": 0.732854971051261,
+  "pair_angle_deg": 89.71263207332635,
+  "jointly_supported_tiles": 0,
+  "spatial_pair_applicable": true,
+  "spatial_pair_supported": false
+}

@@ -1,0 +1,933 @@
+{
+  "status": "PASS",
+  "paper_version": "williams_final_2026-11-02_v04",
+  "refit_requested": true,
+  "targets": {
+    "figure01": {
+      "status": "COPIED_REFERENCE",
+      "operation": "byte-copy frozen paper artwork",
+      "evidence": [
+        "data/experiments.csv"
+      ],
+      "limit": "光路示意与记录参数；示意图不按比例。"
+    },
+    "figure02": {
+      "status": "PASS",
+      "operation": "refit affine RG response",
+      "n": 2138,
+      "slope": 0.12055062511367143,
+      "intercept_DN_RAW_px2": 26427.750445430192,
+      "R2": 0.9954647592357232
+    },
+    "figure03": {
+      "status": "COPIED_REFERENCE",
+      "operation": "byte-copy frozen paper artwork",
+      "evidence": [
+        "provenance/artifact_map.json"
+      ],
+      "limit": "真实照片处理流程图；此处提供冻结图稿来源，原照片的RAW测量须另配原始数据。示例配置只说明相关方法。"
+    },
+    "figure04": {
+      "status": "PASS",
+      "operation": "replay stored geometric proposals; measured spots are frozen",
+      "strong": 25,
+      "additional": 10,
+      "prediction_rows": 50,
+      "status_counts": {
+        "ALREADY_DETECTED": 26,
+        "DETECTED": 10,
+        "INSUFFICIENT_SIGNAL": 12,
+        "SHAPE_MISMATCH": 2
+      },
+      "proposal_models": {
+        "lattice_2d": 43,
+        "row": 7
+      },
+      "raw_redetection_performed": false
+    },
+    "figure05": {
+      "status": "COPIED_REFERENCE",
+      "operation": "byte-copy frozen paper artwork",
+      "evidence": [
+        "data/samples/micro_late_164.png"
+      ],
+      "limit": "1536×1024解码帧、82 s、5.39 V；方形像素与0.75 μm/px的标尺假设。"
+    },
+    "figure06": {
+      "status": "COPIED_REFERENCE",
+      "operation": "byte-copy frozen paper artwork",
+      "evidence": [
+        "data/samples/diffraction/previews.json"
+      ],
+      "limit": "8张升压显示裁图，来自冻结正视PNG；不作CFA积分输入。"
+    },
+    "figure07": {
+      "status": "COPIED_REFERENCE",
+      "operation": "byte-copy frozen paper artwork",
+      "evidence": [
+        "data/samples/diffraction/previews.json"
+      ],
+      "limit": "6张降压显示裁图，保留原帧ID；5 s拍摄间隔不是稳态认证。"
+    },
+    "figure08": {
+      "status": "COPIED_REFERENCE",
+      "operation": "byte-copy frozen paper artwork",
+      "evidence": [
+        "data/samples/microscopy_frames.json"
+      ],
+      "limit": "单次micro_late升压88/164/227/295帧；不混入早期视频。"
+    },
+    "figure09": {
+      "status": "COPIED_REFERENCE",
+      "operation": "byte-copy frozen paper artwork",
+      "evidence": [
+        "data/samples/microscopy_frames.json"
+      ],
+      "limit": "同次扫描降压436/500/559/583帧；只展示选择，不声明可逆平衡态。"
+    },
+    "figure10": {
+      "status": "PASS",
+      "operation": "recompute FFT from decoded RGB crops",
+      "frame_index": 164,
+      "video_id": "micro_late",
+      "results": {
+        "grid": {
+          "selected_periods_um": [
+            20.17373120293636,
+            19.643132556961838
+          ],
+          "reviewed_ranks": [
+            1,
+            2
+          ],
+          "candidates": {
+            "shape": [
+              768,
+              512
+            ],
+            "sx_um": 0.75,
+            "sy_um": 0.75,
+            "frequency_bin_x_cycles_um": 0.0026041666666666665,
+            "frequency_bin_y_cycles_um": 0.001736111111111111,
+            "channel": 1,
+            "preprocess": "plane removal, separable Hann, no zero padding",
+            "period_band_um": [
+              4.0,
+              80.0
+            ],
+            "peaks": [
+              {
+                "rank": 1,
+                "fx_cycles_um": 0.042246501737211874,
+                "fy_cycles_um": 0.025929900280652587,
+                "period_um": 20.17373120293636,
+                "normal_angle_deg": 31.540614853109027,
+                "stripe_angle_deg": 121.54061485310902,
+                "power": 3565407.413195243,
+                "power_to_band_median": 18974.78483561882,
+                "refined": true,
+                "fft_index_x": 272,
+                "fft_index_y": 369,
+                "delta_bin_x": 0.22265666708935938,
+                "delta_bin_y": 0.06437743834410903
+              },
+              {
+                "rank": 2,
+                "fx_cycles_um": 0.0281530897260726,
+                "fy_cycles_um": -0.042415402859372946,
+                "period_um": 19.643132556961838,
+                "normal_angle_deg": 123.57409275244007,
+                "stripe_angle_deg": 33.57409275244006,
+                "power": 2811863.987944474,
+                "power_to_band_median": 14964.49296672558,
+                "refined": true,
+                "fft_index_x": 267,
+                "fft_index_y": 409,
+                "delta_bin_x": -0.18921354518812106,
+                "delta_bin_y": -0.5687279530011808
+              },
+              {
+                "rank": 3,
+                "fx_cycles_um": 0.0561622892142717,
+                "fy_cycles_um": -0.08559438546148555,
+                "period_um": 9.768027976029263,
+                "normal_angle_deg": 123.27066453050121,
+                "stripe_angle_deg": 33.27066453050121,
+                "power": 330961.22773213213,
+                "power_to_band_median": 1761.3465608188424,
+                "refined": true,
+                "fft_index_x": 277,
+                "fft_index_y": 433,
+                "delta_bin_x": 0.5663190582803345,
+                "delta_bin_y": 0.3023660258156839
+              },
+              {
+                "rank": 4,
+                "fx_cycles_um": 0.08480415043762839,
+                "fy_cycles_um": 0.05179700155737292,
+                "period_um": 10.063258573131598,
+                "normal_angle_deg": 31.415909505902768,
+                "stripe_angle_deg": 121.41590950590276,
+                "power": 264590.0076813661,
+                "power_to_band_median": 1408.1247620757458,
+                "refined": true,
+                "fft_index_x": 289,
+                "fft_index_y": 354,
+                "delta_bin_x": -0.4352062319506997,
+                "delta_bin_y": 0.16492710295319302
+              },
+              {
+                "rank": 5,
+                "fx_cycles_um": 0.07866476842015421,
+                "fy_cycles_um": 0.06050694447674529,
+                "period_um": 10.076245157312398,
+                "normal_angle_deg": 37.566571325606404,
+                "stripe_angle_deg": 127.5665713256064,
+                "power": 191641.3999789113,
+                "power_to_band_median": 1019.8986844361168,
+                "refined": true,
+                "fft_index_x": 286,
+                "fft_index_y": 349,
+                "delta_bin_x": 0.20727107333921577,
+                "delta_bin_y": 0.14799998139471215
+              },
+              {
+                "rank": 6,
+                "fx_cycles_um": 0.11430185578653917,
+                "fy_cycles_um": 0.01087263833986922,
+                "period_um": 8.709450542925698,
+                "normal_angle_deg": 5.4337485341160905,
+                "stripe_angle_deg": 95.43374853411609,
+                "power": 186133.24483962634,
+                "power_to_band_median": 990.5847669796332,
+                "refined": true,
+                "fft_index_x": 300,
+                "fft_index_y": 377,
+                "delta_bin_x": -0.10808737796895586,
+                "delta_bin_y": 0.7373603162353284
+              },
+              {
+                "rank": 7,
+                "fx_cycles_um": 0.0710664799476472,
+                "fy_cycles_um": -0.015456044995793863,
+                "period_um": 13.74989900536014,
+                "normal_angle_deg": 167.72998355374872,
+                "stripe_angle_deg": 77.72998355374871,
+                "power": 165499.98437871275,
+                "power_to_band_median": 880.7763685749605,
+                "refined": true,
+                "fft_index_x": 283,
+                "fft_index_y": 393,
+                "delta_bin_x": 0.2895282998965223,
+                "delta_bin_y": -0.09731808242273532
+              },
+              {
+                "rank": 8,
+                "fx_cycles_um": 0.01839613574262524,
+                "fy_cycles_um": 0.07662586451496112,
+                "period_um": 12.689843487871713,
+                "normal_angle_deg": 76.50007545199877,
+                "stripe_angle_deg": 166.50007545199878,
+                "power": 144919.85348758948,
+                "power_to_band_median": 771.2507210703532,
+                "refined": true,
+                "fft_index_x": 263,
+                "fft_index_y": 340,
+                "delta_bin_x": 0.06411612516809309,
+                "delta_bin_y": -0.13649796061761058
+              },
+              {
+                "rank": 9,
+                "fx_cycles_um": 0.09499884863762746,
+                "fy_cycles_um": -0.05856564678847728,
+                "period_um": 8.96051727787167,
+                "normal_angle_deg": 148.3466674972731,
+                "stripe_angle_deg": 58.34666749727312,
+                "power": 127110.7413481772,
+                "power_to_band_median": 676.4721917757403,
+                "refined": true,
+                "fft_index_x": 292,
+                "fft_index_y": 417,
+                "delta_bin_x": 0.47955787684894424,
+                "delta_bin_y": 0.733812550162917
+              },
+              {
+                "rank": 10,
+                "fx_cycles_um": 0.015470116502573296,
+                "fy_cycles_um": 0.06929360018592123,
+                "period_um": 14.084608281740243,
+                "normal_angle_deg": 77.41483612148676,
+                "stripe_angle_deg": 167.41483612148676,
+                "power": 121629.3655996744,
+                "power_to_band_median": 647.300791882955,
+                "refined": true,
+                "fft_index_x": 262,
+                "fft_index_y": 344,
+                "delta_bin_x": -0.05947526301185408,
+                "delta_bin_y": 0.08688629290937143
+              },
+              {
+                "rank": 11,
+                "fx_cycles_um": 0.05208333333333333,
+                "fy_cycles_um": -0.005208333333333333,
+                "period_um": 19.10471405203179,
+                "normal_angle_deg": 174.28940686250036,
+                "stripe_angle_deg": 84.28940686250036,
+                "power": 101206.0015456563,
+                "power_to_band_median": 538.6094437048207,
+                "refined": false,
+                "fft_index_x": 276,
+                "fft_index_y": 387,
+                "delta_bin_x": 0.0,
+                "delta_bin_y": 0.0
+              },
+              {
+                "rank": 12,
+                "fx_cycles_um": 0.09950387855804914,
+                "fy_cycles_um": 0.015582275277517061,
+                "period_um": 9.928851997959658,
+                "normal_angle_deg": 8.900215663786128,
+                "stripe_angle_deg": 98.90021566378613,
+                "power": 79143.46675123335,
+                "power_to_band_median": 421.19457293767886,
+                "refined": true,
+                "fft_index_x": 294,
+                "fft_index_y": 375,
+                "delta_bin_x": 0.2094893662908686,
+                "delta_bin_y": 0.02460944015017284
+              }
+            ],
+            "status": "CANDIDATES_ONLY"
+          }
+        },
+        "stripe": {
+          "selected_periods_um": [
+            13.923706898052679
+          ],
+          "reviewed_ranks": [
+            1
+          ],
+          "candidates": {
+            "shape": [
+              768,
+              512
+            ],
+            "sx_um": 0.75,
+            "sy_um": 0.75,
+            "frequency_bin_x_cycles_um": 0.0026041666666666665,
+            "frequency_bin_y_cycles_um": 0.001736111111111111,
+            "channel": 1,
+            "preprocess": "plane removal, separable Hann, no zero padding",
+            "period_band_um": [
+              4.0,
+              80.0
+            ],
+            "peaks": [
+              {
+                "rank": 1,
+                "fx_cycles_um": 0.07135335536487199,
+                "fy_cycles_um": -0.008173407181914052,
+                "period_um": 13.923706898052679,
+                "normal_angle_deg": 173.46534632028707,
+                "stripe_angle_deg": 83.46534632028705,
+                "power": 712795.0817791101,
+                "power_to_band_median": 10396.414180120677,
+                "refined": true,
+                "fft_index_x": 283,
+                "fft_index_y": 389,
+                "delta_bin_x": 0.399688460110842,
+                "delta_bin_y": -0.29211746321750576
+              },
+              {
+                "rank": 2,
+                "fx_cycles_um": 0.026126149857439464,
+                "fy_cycles_um": -0.004269133015359087,
+                "period_um": 37.77483540160625,
+                "normal_angle_deg": 170.7196247673817,
+                "stripe_angle_deg": 80.7196247673817,
+                "power": 253885.43515052614,
+                "power_to_band_median": 3703.025182969766,
+                "refined": true,
+                "fft_index_x": 266,
+                "fft_index_y": 387,
+                "delta_bin_x": 0.032441545256754765,
+                "delta_bin_y": -0.540979383153166
+              },
+              {
+                "rank": 3,
+                "fx_cycles_um": 0.15156537216065613,
+                "fy_cycles_um": -0.026546883325859895,
+                "period_um": 6.498879819738196,
+                "normal_angle_deg": 170.06533928735084,
+                "stripe_angle_deg": 80.06533928735084,
+                "power": 172759.1886133333,
+                "power_to_band_median": 2519.764970547863,
+                "refined": true,
+                "fft_index_x": 314,
+                "fft_index_y": 399,
+                "delta_bin_x": 0.2011029096919526,
+                "delta_bin_y": 0.2910047956953003
+              },
+              {
+                "rank": 4,
+                "fx_cycles_um": 0.052597246081288095,
+                "fy_cycles_um": -0.008858381229021012,
+                "period_um": 18.748362914621143,
+                "normal_angle_deg": 170.44001190660163,
+                "stripe_angle_deg": 80.44001190660163,
+                "power": 172524.50495700474,
+                "power_to_band_median": 2516.342011334386,
+                "refined": true,
+                "fft_index_x": 276,
+                "fft_index_y": 389,
+                "delta_bin_x": 0.1973424952146294,
+                "delta_bin_y": 0.10242758791610286
+              },
+              {
+                "rank": 5,
+                "fx_cycles_um": 0.1312515104344002,
+                "fy_cycles_um": -0.028416611371955294,
+                "period_um": 7.446434863095702,
+                "normal_angle_deg": 167.7837238030785,
+                "stripe_angle_deg": 77.7837238030785,
+                "power": 74113.30448996754,
+                "power_to_band_median": 1080.9735216072606,
+                "refined": true,
+                "fft_index_x": 307,
+                "fft_index_y": 400,
+                "delta_bin_x": -0.5994199931903246,
+                "delta_bin_y": 0.3679681502462513
+              },
+              {
+                "rank": 6,
+                "fx_cycles_um": 0.1227282013052511,
+                "fy_cycles_um": -0.01660128883700198,
+                "period_um": 8.07454880610898,
+                "normal_angle_deg": 172.2964308460269,
+                "stripe_angle_deg": 82.2964308460269,
+                "power": 72837.35690063461,
+                "power_to_band_median": 1062.3632927351393,
+                "refined": true,
+                "fft_index_x": 303,
+                "fft_index_y": 394,
+                "delta_bin_x": 0.1276293012164207,
+                "delta_bin_y": -0.4376576298868597
+              },
+              {
+                "rank": 7,
+                "fx_cycles_um": 0.04303347824565835,
+                "fy_cycles_um": 0.024448422269678156,
+                "period_um": 20.204677221087767,
+                "normal_angle_deg": 29.60201734019239,
+                "stripe_angle_deg": 119.60201734019239,
+                "power": 65498.47421366149,
+                "power_to_band_median": 955.3226214630363,
+                "refined": true,
+                "fft_index_x": 273,
+                "fft_index_y": 370,
+                "delta_bin_x": -0.47514435366719215,
+                "delta_bin_y": -0.08229122733461887
+              },
+              {
+                "rank": 8,
+                "fx_cycles_um": 0.15397792956066653,
+                "fy_cycles_um": -0.016557982482197607,
+                "period_um": 6.457209842616582,
+                "normal_angle_deg": 173.86229679508997,
+                "stripe_angle_deg": 83.86229679508996,
+                "power": 62695.17311632973,
+                "power_to_band_median": 914.4353033200649,
+                "refined": true,
+                "fft_index_x": 315,
+                "fft_index_y": 393,
+                "delta_bin_x": 0.12752495129595576,
+                "delta_bin_y": 0.5373979097458207
+              },
+              {
+                "rank": 9,
+                "fx_cycles_um": 0.12936756639083105,
+                "fy_cycles_um": -0.008534283098136683,
+                "period_um": 7.713147372127481,
+                "normal_angle_deg": 176.22570844247332,
+                "stripe_angle_deg": 86.2257084424733,
+                "power": 57809.55738870618,
+                "power_to_band_median": 843.1765559918581,
+                "refined": true,
+                "fft_index_x": 306,
+                "fft_index_y": 389,
+                "delta_bin_x": -0.32285450592086995,
+                "delta_bin_y": -0.08425293547327085
+              },
+              {
+                "rank": 10,
+                "fx_cycles_um": 0.032111488882948944,
+                "fy_cycles_um": -0.036780804479888136,
+                "period_um": 20.48090412706812,
+                "normal_angle_deg": 131.12259176077265,
+                "stripe_angle_deg": 41.12259176077265,
+                "power": 53240.32301547627,
+                "power_to_band_median": 776.5323629489224,
+                "refined": true,
+                "fft_index_x": 268,
+                "fft_index_y": 405,
+                "delta_bin_x": 0.33081173105239337,
+                "delta_bin_y": 0.18574338041556832
+              },
+              {
+                "rank": 11,
+                "fx_cycles_um": 0.10868048817086962,
+                "fy_cycles_um": -0.015947737299038964,
+                "period_um": 9.103791857849814,
+                "normal_angle_deg": 171.65201461974078,
+                "stripe_angle_deg": 81.6520146197408,
+                "power": 39588.96836600058,
+                "power_to_band_median": 577.4216498090035,
+                "refined": true,
+                "fft_index_x": 298,
+                "fft_index_y": 393,
+                "delta_bin_x": -0.2666925423860701,
+                "delta_bin_y": 0.18589668424644362
+              },
+              {
+                "rank": 12,
+                "fx_cycles_um": 0.09664328045631623,
+                "fy_cycles_um": -0.013013530565984642,
+                "period_um": 10.254778448405121,
+                "normal_angle_deg": 172.33094909793067,
+                "stripe_angle_deg": 82.33094909793067,
+                "power": 34485.02159761923,
+                "power_to_band_median": 502.97845299998744,
+                "refined": true,
+                "fft_index_x": 293,
+                "fft_index_y": 391,
+                "delta_bin_x": 0.11101969522543771,
+                "delta_bin_y": 0.49579360600715483
+              }
+            ],
+            "status": "CANDIDATES_ONLY"
+          }
+        }
+      },
+      "limit": "Candidate texture frequencies retain harmonics; not a certified director fundamental"
+    },
+    "figure11": {
+      "status": "PASS",
+      "operation": "recompute frame-level aggregation",
+      "roi_matches": 31,
+      "one_dimensional_historical_frames": [
+        4,
+        5,
+        7
+      ],
+      "two_dimensional_matches": 1,
+      "summary": [
+        {
+          "batch": "10-10",
+          "cycle": "original",
+          "video": "micro_late",
+          "kind": "1d",
+          "n_roi_matches": 7,
+          "n_historical_frames": 4,
+          "p_median_um": 12.041366909830156,
+          "d_median_um": 5.818594882185434,
+          "residual_median": 0.029820171242544324,
+          "frames": [
+            {
+              "frame_id": "014",
+              "p_um": 12.292431814132451,
+              "d_um": 5.945147082712893,
+              "residual": 0.0338206644101362
+            },
+            {
+              "frame_id": "019",
+              "p_um": 11.667174432866409,
+              "d_um": 5.730478915541851,
+              "residual": 0.017992964010688506
+            },
+            {
+              "frame_id": "022",
+              "p_um": 11.79030200552786,
+              "d_um": 5.746771219895818,
+              "residual": 0.025819678074952446
+            },
+            {
+              "frame_id": "026",
+              "p_um": 12.620200221462328,
+              "d_um": 5.89041854447505,
+              "residual": 0.07124817414710816
+            }
+          ]
+        },
+        {
+          "batch": "10-14",
+          "cycle": "cycle01",
+          "video": "micro_late",
+          "kind": "1d",
+          "n_roi_matches": 11,
+          "n_historical_frames": 5,
+          "p_median_um": 11.79030200552786,
+          "d_median_um": 12.571183736431252,
+          "residual_median": -0.033472381129467266,
+          "frames": [
+            {
+              "frame_id": "010",
+              "p_um": 12.385669532179534,
+              "d_um": 12.814604870425958,
+              "residual": -0.033472381129467266
+            },
+            {
+              "frame_id": "012",
+              "p_um": 11.683182479700395,
+              "d_um": 12.571183736431252,
+              "residual": -0.07063783931161793
+            },
+            {
+              "frame_id": "014",
+              "p_um": 11.667174432866409,
+              "d_um": 12.060412556461575,
+              "residual": -0.03260569418783954
+            },
+            {
+              "frame_id": "017",
+              "p_um": 11.79030200552786,
+              "d_um": 12.300792069652509,
+              "residual": -0.04150058477812074
+            },
+            {
+              "frame_id": "022",
+              "p_um": 12.620200221462328,
+              "d_um": 12.749605430383113,
+              "residual": -0.010149742251034988
+            }
+          ]
+        },
+        {
+          "batch": "10-14",
+          "cycle": "cycle02",
+          "video": "micro_late",
+          "kind": "1d",
+          "n_roi_matches": 12,
+          "n_historical_frames": 7,
+          "p_median_um": 12.292431814132451,
+          "d_median_um": 12.250193132980035,
+          "residual_median": 0.009080414560650674,
+          "frames": [
+            {
+              "frame_id": "099",
+              "p_um": 13.923706898052679,
+              "d_um": 12.1622699837209,
+              "residual": 0.14482797345310106
+            },
+            {
+              "frame_id": "102",
+              "p_um": 12.478907250226616,
+              "d_um": 12.347080182009682,
+              "residual": 0.01067678076708467
+            },
+            {
+              "frame_id": "105",
+              "p_um": 12.292431814132451,
+              "d_um": 12.181815875877962,
+              "residual": 0.009080414560650674
+            },
+            {
+              "frame_id": "110",
+              "p_um": 11.683182479700395,
+              "d_um": 12.250193132980035,
+              "residual": -0.04628585420038245
+            },
+            {
+              "frame_id": "115",
+              "p_um": 11.667174432866409,
+              "d_um": 12.251441886387438,
+              "residual": -0.04768968901286702
+            },
+            {
+              "frame_id": "122",
+              "p_um": 11.79030200552786,
+              "d_um": 12.253175144014989,
+              "residual": -0.03777577101827506
+            },
+            {
+              "frame_id": "127",
+              "p_um": 12.620200221462328,
+              "d_um": 12.039553669306075,
+              "residual": 0.048228245672974346
+            }
+          ]
+        }
+      ],
+      "two_dimensional_supplement": [
+        {
+          "batch": "10-14",
+          "cycle": "cycle02",
+          "video": "micro_late",
+          "kind": "2d",
+          "n_roi_matches": 1,
+          "n_historical_frames": 1,
+          "p_median_um": 19.9084318799491,
+          "d_median_um": 20.153929437967786,
+          "residual_median": -0.012181126205403792,
+          "frames": [
+            {
+              "frame_id": "098",
+              "p_um": 19.9084318799491,
+              "d_um": 20.153929437967786,
+              "residual": -0.012181126205403792
+            }
+          ]
+        }
+      ]
+    },
+    "figure12": {
+      "status": "PASS",
+      "operation": "refit retained labelled geometry",
+      "frames": 28,
+      "nodes": 572,
+      "zero_order_and_order_labels_independently_confirmed": false
+    },
+    "figure13": {
+      "status": "COPIED_REFERENCE",
+      "operation": "byte-copy frozen paper artwork",
+      "evidence": [
+        "paper/main.tex"
+      ],
+      "limit": "模型含义示意；不是独立测量或新拟合。"
+    },
+    "figure14": {
+      "status": "COPIED_REFERENCE",
+      "operation": "byte-copy frozen paper artwork",
+      "evidence": [
+        "paper/assets/15_one_d_real.png"
+      ],
+      "limit": "6.78/8.20 V实图的冻结图稿；23帧峰比是相关数值，不是实图像素输入，数值重算见图15。"
+    },
+    "figure15": {
+      "status": "PASS",
+      "operation": "refit",
+      "frames": 23,
+      "parameters": [
+        1.9672457339405125,
+        2.5118262836033973,
+        0.16805183612236907
+      ],
+      "voltage_window_V": [
+        5.69,
+        8.2
+      ],
+      "R2_ratio_domain": [
+        0.9123597447752317,
+        0.9228774424994268
+      ],
+      "training_loss": "natural-log ratios",
+      "train_log_RMSE": 1.864463373003453
+    },
+    "figure16": {
+      "status": "PASS",
+      "operation": "26 per-frame refits",
+      "summary": [
+        {
+          "cycle": "original",
+          "frames": 7,
+          "nodes": 71,
+          "NRMSE_median": 0.15753068248011295
+        },
+        {
+          "cycle": "cycle01",
+          "frames": 4,
+          "nodes": 36,
+          "NRMSE_median": 0.20431139706951518
+        },
+        {
+          "cycle": "cycle02",
+          "frames": 15,
+          "nodes": 169,
+          "NRMSE_median": 0.22916805501404464
+        }
+      ],
+      "loss": "signed, unnormalized camera-signal L2 per frame",
+      "physical_power_calibrated": false
+    },
+    "figure17": {
+      "status": "COPIED_REFERENCE",
+      "operation": "byte-copy frozen paper artwork",
+      "evidence": [
+        "paper/main.tex"
+      ],
+      "limit": "取向到相位的物理机制示意；不唯一反演真实三维取向。"
+    },
+    "table02": {
+      "status": "PASS",
+      "operation": "recompute frame-level aggregation",
+      "roi_matches": 31,
+      "one_dimensional_historical_frames": [
+        4,
+        5,
+        7
+      ],
+      "two_dimensional_matches": 1,
+      "summary": [
+        {
+          "batch": "10-10",
+          "cycle": "original",
+          "video": "micro_late",
+          "kind": "1d",
+          "n_roi_matches": 7,
+          "n_historical_frames": 4,
+          "p_median_um": 12.041366909830156,
+          "d_median_um": 5.818594882185434,
+          "residual_median": 0.029820171242544324,
+          "frames": [
+            {
+              "frame_id": "014",
+              "p_um": 12.292431814132451,
+              "d_um": 5.945147082712893,
+              "residual": 0.0338206644101362
+            },
+            {
+              "frame_id": "019",
+              "p_um": 11.667174432866409,
+              "d_um": 5.730478915541851,
+              "residual": 0.017992964010688506
+            },
+            {
+              "frame_id": "022",
+              "p_um": 11.79030200552786,
+              "d_um": 5.746771219895818,
+              "residual": 0.025819678074952446
+            },
+            {
+              "frame_id": "026",
+              "p_um": 12.620200221462328,
+              "d_um": 5.89041854447505,
+              "residual": 0.07124817414710816
+            }
+          ]
+        },
+        {
+          "batch": "10-14",
+          "cycle": "cycle01",
+          "video": "micro_late",
+          "kind": "1d",
+          "n_roi_matches": 11,
+          "n_historical_frames": 5,
+          "p_median_um": 11.79030200552786,
+          "d_median_um": 12.571183736431252,
+          "residual_median": -0.033472381129467266,
+          "frames": [
+            {
+              "frame_id": "010",
+              "p_um": 12.385669532179534,
+              "d_um": 12.814604870425958,
+              "residual": -0.033472381129467266
+            },
+            {
+              "frame_id": "012",
+              "p_um": 11.683182479700395,
+              "d_um": 12.571183736431252,
+              "residual": -0.07063783931161793
+            },
+            {
+              "frame_id": "014",
+              "p_um": 11.667174432866409,
+              "d_um": 12.060412556461575,
+              "residual": -0.03260569418783954
+            },
+            {
+              "frame_id": "017",
+              "p_um": 11.79030200552786,
+              "d_um": 12.300792069652509,
+              "residual": -0.04150058477812074
+            },
+            {
+              "frame_id": "022",
+              "p_um": 12.620200221462328,
+              "d_um": 12.749605430383113,
+              "residual": -0.010149742251034988
+            }
+          ]
+        },
+        {
+          "batch": "10-14",
+          "cycle": "cycle02",
+          "video": "micro_late",
+          "kind": "1d",
+          "n_roi_matches": 12,
+          "n_historical_frames": 7,
+          "p_median_um": 12.292431814132451,
+          "d_median_um": 12.250193132980035,
+          "residual_median": 0.009080414560650674,
+          "frames": [
+            {
+              "frame_id": "099",
+              "p_um": 13.923706898052679,
+              "d_um": 12.1622699837209,
+              "residual": 0.14482797345310106
+            },
+            {
+              "frame_id": "102",
+              "p_um": 12.478907250226616,
+              "d_um": 12.347080182009682,
+              "residual": 0.01067678076708467
+            },
+            {
+              "frame_id": "105",
+              "p_um": 12.292431814132451,
+              "d_um": 12.181815875877962,
+              "residual": 0.009080414560650674
+            },
+            {
+              "frame_id": "110",
+              "p_um": 11.683182479700395,
+              "d_um": 12.250193132980035,
+              "residual": -0.04628585420038245
+            },
+            {
+              "frame_id": "115",
+              "p_um": 11.667174432866409,
+              "d_um": 12.251441886387438,
+              "residual": -0.04768968901286702
+            },
+            {
+              "frame_id": "122",
+              "p_um": 11.79030200552786,
+              "d_um": 12.253175144014989,
+              "residual": -0.03777577101827506
+            },
+            {
+              "frame_id": "127",
+              "p_um": 12.620200221462328,
+              "d_um": 12.039553669306075,
+              "residual": 0.048228245672974346
+            }
+          ]
+        }
+      ],
+      "two_dimensional_supplement": [
+        {
+          "batch": "10-14",
+          "cycle": "cycle02",
+          "video": "micro_late",
+          "kind": "2d",
+          "n_roi_matches": 1,
+          "n_historical_frames": 1,
+          "p_median_um": 19.9084318799491,
+          "d_median_um": 20.153929437967786,
+          "residual_median": -0.012181126205403792,
+          "frames": [
+            {
+              "frame_id": "098",
+              "p_um": 19.9084318799491,
+              "d_um": 20.153929437967786,
+              "residual": -0.012181126205403792
+            }
+          ]
+        }
+      ]
+    },
+    "table01": {
+      "status": "COPIED_REFERENCE",
+      "operation": "export documented experiment settings"
+    }
+  }
+}

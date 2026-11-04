@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "scope": "regression against accepted v9/v16 coordinates, not detection accuracy against independent human truth",
+  "reference_loaded_after_detection": true,
+  "candidates_found": 25,
+  "reference_candidates": 25,
+  "maximum_coordinate_difference_raw_px": 0.0,
+  "maximum_screen_corner_difference_display_px": 0.0,
+  "prediction_gates": {
+    "lattice_2d": false,
+    "row": true
+  },
+  "reference_prediction_gates": {
+    "lattice_2d": false,
+    "row": true
+  },
+  "model_statuses": {
+    "lattice_2d": "INSUFFICIENT_OR_INCONSISTENT_GEOMETRY",
+    "row": "OBSERVED_GEOMETRY"
+  },
+  "reference_model_statuses": {
+    "lattice_2d": "INSUFFICIENT_OR_INCONSISTENT_GEOMETRY",
+    "row": "OBSERVED_GEOMETRY"
+  },
+  "historical_human_review_summary": "本帧25个候选均已逐项复核；其中5个仍受低信噪比、浅鞍点、光翼或边缘混合限制，逐项原因随表保存。已核对本轮原图、正视标记与峰区对位；未将质量限制改写为已确认独立衍射峰。",
+  "historical_class_counts": {
+    "UNRESOLVED_IMAGE_IDENTITY": 5,
+    "VISIBLE_OPTICAL_SUPPORT": 11,
+    "CONNECTED_OPTICAL_ENVELOPE": 9
+  }
+}

@@ -1,0 +1,351 @@
+{
+  "scope": "selected non-RAW data/code/assets checked before/after export; no original write operations. main.tex is bound to the captured snapshot, while upstream editing may continue independently.",
+  "files_checked": 86,
+  "status": "PASS",
+  "files": [
+    {
+      "path": "archive/legacy_workspace/图像分析/stage1/outputs/algorithm_trial_v2_r4/geometric_models.json",
+      "sha256": "dc0d9b500bc6d7d68378d9f1eb37b3febad8d317e052e19739934c3e8580eec8"
+    },
+    {
+      "path": "archive/legacy_workspace/图像分析/stage1/outputs/algorithm_trial_v2_r4/predicted_sites.csv",
+      "sha256": "281e2ca35de704144e8b471024e38c13d54e89f4880414d42f504c90257b882a"
+    },
+    {
+      "path": "archive/legacy_workspace/图像分析/stage1/outputs/algorithm_trial_v2_r4/source/guided_detection.py",
+      "sha256": "53f212ee0c63c6ef29fc05885f005fa0e7637f397a3db0297459fb761e01f68a"
+    },
+    {
+      "path": "archive/legacy_workspace/图像分析/stage1/outputs/algorithm_trial_v2_r4/spots.csv",
+      "sha256": "4f479643199b4beba8c988facb15b85d7dcd196ae2d99ff342b83ab40bafaddd"
+    },
+    {
+      "path": "archive/legacy_workspace/图像分析/stage1/outputs/rawcheck_20261010/raw_displays/014.png",
+      "sha256": "2506a10e4b9bd60076ebe3f78dbbf4e13164f03e3a355d53edbb6df28d7bab47"
+    },
+    {
+      "path": "data/processed/scan_2026-10-14_v2/黑白正视图/088.png",
+      "sha256": "696ff8130017ef3657f4ce90186c327c149a19fb847ae4e168ddf89ae6f6810e"
+    },
+    {
+      "path": "data/processed/scan_2026-10-14_v2/黑白正视图/098.png",
+      "sha256": "0327ced07dd70ea61213811e899d0aef4224f76caa98a86ef516b2cfc526bd16"
+    },
+    {
+      "path": "data/processed/scan_2026-10-14_v2/黑白正视图/105.png",
+      "sha256": "a19704e737b2a02d6338202aade66fce94fcda7e9cb1284b77cac791bdbbcd39"
+    },
+    {
+      "path": "data/processed/scan_2026-10-14_v2/黑白正视图/108.png",
+      "sha256": "0f3eb0fd5684664fc89a12ff91b1ce45838fe26a69c9501de07eaa4f66ddc454"
+    },
+    {
+      "path": "data/processed/scan_2026-10-14_v2/黑白正视图/116.png",
+      "sha256": "69af9d380d9121cda7739aab0bafa09be05bf5bd71a66b3caa764220d655d94f"
+    },
+    {
+      "path": "data/processed/scan_2026-10-14_v2/黑白正视图/127.png",
+      "sha256": "4404c8610761d90a0a09b2e78c2b07b5c5a980e2b631d73ea25837310a55a4c4"
+    },
+    {
+      "path": "data/processed/scan_2026-10-14_v2/黑白正视图/151.png",
+      "sha256": "86d20909094bdb64dcda1f5324c08994650d10b17a9b5040df06920ac1ad379d"
+    },
+    {
+      "path": "data/processed/scan_2026-10-14_v2/黑白正视图/163.png",
+      "sha256": "9173255a7c475def48f054f44b06a6a409b20f139fd4c0b8b5ed91e18368e788"
+    },
+    {
+      "path": "data/processed/scan_2026-10-14_v2/黑白正视图/175.png",
+      "sha256": "c020bbb526f85839809dd40574634fffa1d31d66b6a69c04e7395e49f18ada8a"
+    },
+    {
+      "path": "data/processed/scan_2026-10-14_v2/黑白正视图/177.png",
+      "sha256": "be2bc0a71e2c7d64b9f50fe4c023be95d1b6bde1d0952301370fe9297563f9a7"
+    },
+    {
+      "path": "data/processed/scan_2026-10-14_v2/黑白正视图/181.png",
+      "sha256": "cbb4c7af3a757147c010a6e8dbbcedd268e826099cc29fe9827f4ef995adf9c0"
+    },
+    {
+      "path": "data/processed/scan_2026-10-14_v2/黑白正视图/190.png",
+      "sha256": "4590c74900f680b38f78b9bcfc5d9ba35c14856d13ac2343aee9c41bae57cb0c"
+    },
+    {
+      "path": "data/processed/scan_2026-10-14_v2/黑白正视图/198.png",
+      "sha256": "3247f925072f13ec3f68f9f3172d34754e2af8d68583139f256048c71a719f33"
+    },
+    {
+      "path": "data/processed/scan_2026-10-14_v2/黑白正视图/202.png",
+      "sha256": "dbec33c2f58b31de15036e39b313664c2d5ccb2769c4d536e03935cfb7255a01"
+    },
+    {
+      "path": "results/analysis/bright_node_article_2026-10-12_v1/data/individual_fits.csv",
+      "sha256": "403052e6df1b507a9a2df06186d1b2e8c88e023b3551185e939cdf290b9e2292"
+    },
+    {
+      "path": "results/analysis/bright_node_article_2026-10-12_v1/data/individual_node_predictions.csv",
+      "sha256": "13b430a8b0d494c681314c322a1a5ba332a01d403020ae6651c06a701bcb92d6"
+    },
+    {
+      "path": "results/analysis/channel_response_audit_2026-10-19_v1/data/fit_metrics.csv",
+      "sha256": "50912683411fecff8096632a797bf963dfb4b02438a5c4e6f4b0f0ab36ac67be"
+    },
+    {
+      "path": "results/analysis/channel_response_audit_2026-10-19_v1/data/point_audit.csv",
+      "sha256": "4716f234c7d5cbf46371dbb963b3320d581e1cb8a4db74a8aaf2f4246c12778f"
+    },
+    {
+      "path": "results/analysis/microscopy_2026-10-21_full_v2/data/full_series.json",
+      "sha256": "bb8e8a40a212b1112d954e84bbb665f1d63a085ed29224c866872a490b5516cd"
+    },
+    {
+      "path": "work/microscopy_full_2026-10-27/selected_frames_v1/micro_late_164.png",
+      "sha256": "643a81f950615d0647d85c19e0ee30b86c701873d7b8db4fde2a6f6638e84df7"
+    },
+    {
+      "path": "work/microscopy_full_2026-10-27/selected_frames_v1/micro_late_227.png",
+      "sha256": "8f95008cdb4db6920dbaf76a19670d74a6d84de023220acf6d4bf016cd64686b"
+    },
+    {
+      "path": "work/microscopy_full_2026-10-27/selected_frames_v1/micro_late_295.png",
+      "sha256": "cdafaf49dc177cd9e6efa108da8eca7132a09d3cbafcdd119a770600c5153f25"
+    },
+    {
+      "path": "work/microscopy_full_2026-10-27/selected_frames_v1/micro_late_436.png",
+      "sha256": "b10aa078076267fa8761b5d0d189d8491083072bfc254a0941813273fe15747c"
+    },
+    {
+      "path": "work/microscopy_full_2026-10-27/selected_frames_v1/micro_late_500.png",
+      "sha256": "4fdb785fa01013150c8db4f7f641392ce215338b9e49b94b02999e9326d49cf4"
+    },
+    {
+      "path": "work/microscopy_full_2026-10-27/selected_frames_v1/micro_late_559.png",
+      "sha256": "3b4acfc3a045dc210c1da4ec54ad7c119cfd4812c336019ebf62f30738bcce2a"
+    },
+    {
+      "path": "work/microscopy_full_2026-10-27/selected_frames_v1/micro_late_583.png",
+      "sha256": "1e634625460425904b3944390a37381a58f6f674ec54d20da4995778c7ed02bb"
+    },
+    {
+      "path": "work/microscopy_full_2026-10-27/selected_frames_v1/micro_late_88.png",
+      "sha256": "93f23128c324deb0148b82a8cbdbcbd735124849face66c1f8eb5070da346283"
+    },
+    {
+      "path": "writing/manuscript/williams_final_2026-11-02_v04/assets/01_setup.pdf",
+      "sha256": "210c743b8eeb58bd8554e3381169124e989c757eeafb3094d77c5dc457b3efde"
+    },
+    {
+      "path": "writing/manuscript/williams_final_2026-11-02_v04/assets/01_setup.png",
+      "sha256": "f71bc9fbc84ed3103e66862a1cfd4f1d99cc8546647486bedf4dd811c7aacca5"
+    },
+    {
+      "path": "writing/manuscript/williams_final_2026-11-02_v04/assets/03_one_dimensional.pdf",
+      "sha256": "ce830859f4a1b2556b45c6ae374daaeef01c3ccab9646dda5d62572c09be1ffa"
+    },
+    {
+      "path": "writing/manuscript/williams_final_2026-11-02_v04/assets/03_one_dimensional.png",
+      "sha256": "9827d8de6c492f982bbc5cae35d386341eda8cfef25d1d254257d2e222ca1aca"
+    },
+    {
+      "path": "writing/manuscript/williams_final_2026-11-02_v04/assets/04_lattice.pdf",
+      "sha256": "482f7e3aeca31e1d06427af117ab0624ea31d06ec955085f348442570e035a61"
+    },
+    {
+      "path": "writing/manuscript/williams_final_2026-11-02_v04/assets/04_lattice.png",
+      "sha256": "7c61ee4e1ec6d8013c0d9181412a3b6c5d47f60b9b5cf0516c9459d1948aef45"
+    },
+    {
+      "path": "writing/manuscript/williams_final_2026-11-02_v04/assets/05_bright_signal.pdf",
+      "sha256": "7fde4724aeeac80407dabd5577817d89ccc0542290b68ecb750e7ab0e7d386b4"
+    },
+    {
+      "path": "writing/manuscript/williams_final_2026-11-02_v04/assets/06_period_agreement.pdf",
+      "sha256": "3efcadee66988d25bb406734b70d1064bb0877010881e1e3257fdf243e81c9ae"
+    },
+    {
+      "path": "writing/manuscript/williams_final_2026-11-02_v04/assets/06_period_agreement.png",
+      "sha256": "a083b8d149036f9dbf36031b0a01c3460d75b3d594e3e9a5acdd73dca0e1bdfd"
+    },
+    {
+      "path": "writing/manuscript/williams_final_2026-11-02_v04/assets/07_microphysics.pdf",
+      "sha256": "fe4e40470e02e73f0e3fbdc06b78afe95e5fd40e14cb3141e98847a0d419cb6c"
+    },
+    {
+      "path": "writing/manuscript/williams_final_2026-11-02_v04/assets/07_microphysics.png",
+      "sha256": "401f66a66daa8f3551ae08c7e1eabb11bb290bcad918899cb7b9bc7f22e407d4"
+    },
+    {
+      "path": "writing/manuscript/williams_final_2026-11-02_v04/assets/09_rgb_simple.pdf",
+      "sha256": "46b6ede4b4ad3944e869daccbe2c1d0b3fb1481edd98d0fd1ae1c32fbe1e441a"
+    },
+    {
+      "path": "writing/manuscript/williams_final_2026-11-02_v04/assets/09_rgb_simple.png",
+      "sha256": "45f5d8ed0e73e65aeecfc8be3aaca02a997384b48cd60454b426e0f42a5dc900"
+    },
+    {
+      "path": "writing/manuscript/williams_final_2026-11-02_v04/assets/10_processing.pdf",
+      "sha256": "6db2dd96cdb4ff456502297ced5322053eda4d248f6a73c1dd2587605f6e06b6"
+    },
+    {
+      "path": "writing/manuscript/williams_final_2026-11-02_v04/assets/10_processing.png",
+      "sha256": "cdd186d57609bc47919348ca11e796d8af137e12e8f4905ab3ebfed9c3452b2f"
+    },
+    {
+      "path": "writing/manuscript/williams_final_2026-11-02_v04/assets/11_diffraction_evolution.pdf",
+      "sha256": "5dffcba23c1e756cb89f72b942ce75d08c4f97a2d410482934d9f9dd8b97fdfa"
+    },
+    {
+      "path": "writing/manuscript/williams_final_2026-11-02_v04/assets/11_diffraction_evolution.png",
+      "sha256": "3321b05ec9b038ceab11f64adb203071cd357e9c8ee0afda3cc578643855c050"
+    },
+    {
+      "path": "writing/manuscript/williams_final_2026-11-02_v04/assets/12_microscopy_evolution.pdf",
+      "sha256": "ab2d757cbd9950858d32bb9a07e345a8357b46df8a20d8edd8f5813307bbda73"
+    },
+    {
+      "path": "writing/manuscript/williams_final_2026-11-02_v04/assets/12_microscopy_evolution.png",
+      "sha256": "0f03157361bc2271de856ea75244ebbea7b0f7dc56b66c922d9bab069572b82a"
+    },
+    {
+      "path": "writing/manuscript/williams_final_2026-11-02_v04/assets/13_video_scale.pdf",
+      "sha256": "2c4db776c652a6adc22641203bff32d28c58b1fc39f6c7ce9624985b12e5b63d"
+    },
+    {
+      "path": "writing/manuscript/williams_final_2026-11-02_v04/assets/13_video_scale.png",
+      "sha256": "37d92101645e672b12914505225e069d647357e56d855dfbc12e103114de8d7a"
+    },
+    {
+      "path": "writing/manuscript/williams_final_2026-11-02_v04/assets/14_texture_fft.pdf",
+      "sha256": "82302ea5e30336d208914493f0520ce30844a41be9265dc759a57284f52ef8f9"
+    },
+    {
+      "path": "writing/manuscript/williams_final_2026-11-02_v04/assets/14_texture_fft.png",
+      "sha256": "d10f60df561a2a71886665dc2c4e348f7df1f4c7ce6d0411cf10f82df63b1b0a"
+    },
+    {
+      "path": "writing/manuscript/williams_final_2026-11-02_v04/assets/15_one_d_real.pdf",
+      "sha256": "bc5bcfd844b8f63085aeca18e5e92aabf7bc24f1b8a5f61f4e058d781a697da8"
+    },
+    {
+      "path": "writing/manuscript/williams_final_2026-11-02_v04/assets/15_one_d_real.png",
+      "sha256": "459cbd8e23c1315505e22a18f9e1fc499f6189a79acab7903d49ada981d3e352"
+    },
+    {
+      "path": "writing/manuscript/williams_final_2026-11-02_v04/assets/16_models_explained.pdf",
+      "sha256": "358b1bbb2b934b695378c772637c446412ebe6c2537b3e7d8bd5a9c2f6597ab2"
+    },
+    {
+      "path": "writing/manuscript/williams_final_2026-11-02_v04/assets/16_models_explained.png",
+      "sha256": "329ccb7769bf273d94432b693f5f2e0f222c50a32a624a9e8c9de67fe16ad484"
+    },
+    {
+      "path": "writing/manuscript/williams_final_2026-11-02_v04/assets/17_detection_prediction.pdf",
+      "sha256": "e860c926cb4aebf15b802b995ace0f2b7f5b0b55aa0b71e9219f85f3d01bc3b5"
+    },
+    {
+      "path": "writing/manuscript/williams_final_2026-11-02_v04/assets/17_detection_prediction.png",
+      "sha256": "f15ba4aa9dd06e74f3ca1bb1e449b11b9b28bb227b1912f24daf6029d7948866"
+    },
+    {
+      "path": "writing/manuscript/williams_final_2026-11-02_v04/assets/18_diffraction_down.pdf",
+      "sha256": "4165b785804fd21f23ccd1a2e405a06a1e076329a2dbddffee7c38df87a8ff60"
+    },
+    {
+      "path": "writing/manuscript/williams_final_2026-11-02_v04/assets/18_diffraction_down.png",
+      "sha256": "7433c93b01f6abc035c8fdf044d9387c1f627d917f88a3d31be82f0d668941fb"
+    },
+    {
+      "path": "writing/manuscript/williams_final_2026-11-02_v04/assets/19_microscopy_down.pdf",
+      "sha256": "3afb5ebdb002cb850c9b99ff0a71e6bb0706b54d86de517aed321c60c3e82869"
+    },
+    {
+      "path": "writing/manuscript/williams_final_2026-11-02_v04/assets/19_microscopy_down.png",
+      "sha256": "6dd520d0747c12b9436e67f79256e6f15b0c0ef3bfb3b98f6c62adae91975594"
+    },
+    {
+      "path": "writing/manuscript/williams_final_2026-11-02_v04/assets/20_spectrum_fit.pdf",
+      "sha256": "26e89543a4d539d5656fb9c8784eddfd1d5894a67c2a3b16e84f37c7b2dde02b"
+    },
+    {
+      "path": "writing/manuscript/williams_final_2026-11-02_v04/assets/20_spectrum_fit.png",
+      "sha256": "a2fc7271bc6023a5a0c93c4a2a61d01dad6cb246f4c7bab0200bc25017126f50"
+    },
+    {
+      "path": "writing/manuscript/williams_final_2026-11-02_v04/code/diffraction_models.py",
+      "sha256": "87f799e0c8bd14e004238e1601590cb2a05a2e3ed38a490f5dbac1b4d7a8190b"
+    },
+    {
+      "path": "writing/manuscript/williams_final_2026-11-02_v04/code/microscopy.py",
+      "sha256": "0cced91aca32df9b3f8b183c35eeff3648fb92ea715e8136be2dd3b07d03970f"
+    },
+    {
+      "path": "writing/manuscript/williams_final_2026-11-02_v04/code/prediction_guided.py",
+      "sha256": "53f212ee0c63c6ef29fc05885f005fa0e7637f397a3db0297459fb761e01f68a"
+    },
+    {
+      "path": "writing/manuscript/williams_final_2026-11-02_v04/code/revise_single_scan_paper.py",
+      "sha256": "3f338738e806b4550e5d726108b52a6c8e1b45f384e3acb7b38a69fb6af7382c"
+    },
+    {
+      "path": "writing/manuscript/williams_final_2026-11-02_v04/data/channel_metrics_complete.json",
+      "sha256": "f5c003194696c81757132adc4b937e88bc06ea8e663124900a8e8d9234ff61b0"
+    },
+    {
+      "path": "writing/manuscript/williams_final_2026-11-02_v04/data/combination_lengths.json",
+      "sha256": "ffac55878922753370705b3860e2618406b37669544a0fb19606d6b1c5cb8b60"
+    },
+    {
+      "path": "writing/manuscript/williams_final_2026-11-02_v04/data/comparison_summary.json",
+      "sha256": "a0a52993f6e8074318c25686b41b6cf20bf92b39cb6b5a18eb5e00a192723d55"
+    },
+    {
+      "path": "writing/manuscript/williams_final_2026-11-02_v04/data/figure_evidence.json",
+      "sha256": "61a2d8093a07a5f46f6b1f34aae6e7edfb3f6cceb69f89dde4508f5c8638a32e"
+    },
+    {
+      "path": "writing/manuscript/williams_final_2026-11-02_v04/data/geometry_models.json",
+      "sha256": "84a483fd9ba2c668fafaf433cc5f93667a2ec6fc5ade150640c9338cd810431a"
+    },
+    {
+      "path": "writing/manuscript/williams_final_2026-11-02_v04/data/geometry_nodes.json",
+      "sha256": "9283f3fe8d23e15cb401a572fbacceab7ca16a9555918da265768adf95b062cf"
+    },
+    {
+      "path": "writing/manuscript/williams_final_2026-11-02_v04/data/geometry_summary.json",
+      "sha256": "9278642ef3e78fe588c2203abcad57ce53ad200b3c906238d729590268417192"
+    },
+    {
+      "path": "writing/manuscript/williams_final_2026-11-02_v04/data/horizontal_periods.json",
+      "sha256": "e782d1cc6d83ae63b62669d2510453dd1e04b1bfd2ab2c4015fa77f56da0e156"
+    },
+    {
+      "path": "writing/manuscript/williams_final_2026-11-02_v04/data/microscopy_matches.json",
+      "sha256": "7a77fab2ceae079d526a928c2d0b11717beaeeefe472ae5d23ee3b0e32af2829"
+    },
+    {
+      "path": "writing/manuscript/williams_final_2026-11-02_v04/data/microscopy_scan_summary.json",
+      "sha256": "5d41982cfa205fba137e9233776747b3e0eed893c63660eaec4e1e42983b2346"
+    },
+    {
+      "path": "writing/manuscript/williams_final_2026-11-02_v04/data/microscopy_selected.json",
+      "sha256": "00cd2c200ec6093064196ffee758b3e178971a13c49f6d3537f4a9d9f1efc106"
+    },
+    {
+      "path": "writing/manuscript/williams_final_2026-11-02_v04/data/one_dimensional_metrics_complete.json",
+      "sha256": "136ff8a328ed006f72e38fcc2fd5c2b0c1b2dad6dc8724032dd13d9c4cebd1a7"
+    },
+    {
+      "path": "writing/manuscript/williams_final_2026-11-02_v04/data/spectrum_metrics.json",
+      "sha256": "2451b4b3cc09e851e3980562b5ff8c26291b91157d5fd8669d70df9c90569766"
+    },
+    {
+      "path": "writing/manuscript/williams_final_2026-11-02_v04/data/spectrum_metrics_complete.json",
+      "sha256": "eabd2b5783aeaeb366cde8b04efbaf72e21b5f6c2ee32de1db97dafd8ad7cc71"
+    },
+    {
+      "path": "writing/manuscript/williams_final_2026-11-02_v04/data/spectrum_nodes.json",
+      "sha256": "d453b6520cc435d19027f05b6f7289e4bbadfe8a52badf26df9b6246cc305fab"
+    }
+  ]
+}

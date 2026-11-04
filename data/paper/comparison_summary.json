@@ -1,0 +1,194 @@
+[
+  {
+    "batch": "10-10",
+    "cycle": "original",
+    "video": "micro_late",
+    "kind": "1d",
+    "n_historical_frames": 4,
+    "median_residual": 0.029820171242544324,
+    "p10": 0.020340978229967686,
+    "p90": 0.06001992122601658,
+    "prior_median_residual": 0.029820171242544324,
+    "first_peak_median_residual": 0.029820171242544324,
+    "frames": [
+      {
+        "frame_id": "014",
+        "image_period_um": 12.292431814132451,
+        "optical_period_um": 5.945147082712893,
+        "residual": 0.0338206644101362,
+        "prior_residual": 0.0338206644101362,
+        "first_peak_residual": 0.0338206644101362
+      },
+      {
+        "frame_id": "019",
+        "image_period_um": 11.667174432866409,
+        "optical_period_um": 5.730478915541851,
+        "residual": 0.017992964010688506,
+        "prior_residual": 0.017992964010688506,
+        "first_peak_residual": 0.017992964010688506
+      },
+      {
+        "frame_id": "022",
+        "image_period_um": 11.79030200552786,
+        "optical_period_um": 5.746771219895818,
+        "residual": 0.025819678074952446,
+        "prior_residual": 0.025819678074952446,
+        "first_peak_residual": 0.025819678074952446
+      },
+      {
+        "frame_id": "026",
+        "image_period_um": 12.620200221462328,
+        "optical_period_um": 5.89041854447505,
+        "residual": 0.07124817414710816,
+        "prior_residual": 0.07124817414710816,
+        "first_peak_residual": 0.07124817414710816
+      }
+    ]
+  },
+  {
+    "batch": "10-14",
+    "cycle": "cycle01",
+    "video": "micro_late",
+    "kind": "1d",
+    "n_historical_frames": 5,
+    "median_residual": -0.033472381129467266,
+    "p10": -0.058982937498219055,
+    "p90": -0.019132123025756807,
+    "prior_median_residual": -0.21304564164686196,
+    "first_peak_median_residual": -0.08218216501727393,
+    "frames": [
+      {
+        "frame_id": "010",
+        "image_period_um": 12.385669532179534,
+        "optical_period_um": 12.814604870425958,
+        "residual": -0.033472381129467266,
+        "prior_residual": -0.20131251715182996,
+        "first_peak_residual": -0.06847795499586756
+      },
+      {
+        "frame_id": "012",
+        "image_period_um": 11.683182479700395,
+        "optical_period_um": 12.571183736431252,
+        "residual": -0.07063783931161793,
+        "prior_residual": -0.25949288941478277,
+        "first_peak_residual": -0.13632586032902527
+      },
+      {
+        "frame_id": "014",
+        "image_period_um": 11.667174432866409,
+        "optical_period_um": 12.060412556461575,
+        "residual": -0.03260569418783954,
+        "prior_residual": -0.22612982206281845,
+        "first_peak_residual": -0.09743850830000345
+      },
+      {
+        "frame_id": "017",
+        "image_period_um": 11.79030200552786,
+        "optical_period_um": 12.300792069652509,
+        "residual": -0.04150058477812074,
+        "prior_residual": -0.21304564164686196,
+        "first_peak_residual": -0.08218216501727393
+      },
+      {
+        "frame_id": "022",
+        "image_period_um": 12.620200221462328,
+        "optical_period_um": 12.749605430383113,
+        "residual": -0.010149742251034988,
+        "prior_residual": -0.14109033847454494,
+        "first_peak_residual": 0.0017258567927728174
+      }
+    ]
+  },
+  {
+    "batch": "10-14",
+    "cycle": "cycle02",
+    "video": "micro_late",
+    "kind": "1d",
+    "n_historical_frames": 7,
+    "median_residual": 0.009080414560650674,
+    "p10": -0.046847388125376276,
+    "p90": 0.08686813678502506,
+    "prior_median_residual": -0.20737928056939514,
+    "first_peak_median_residual": -0.07558424422115045,
+    "frames": [
+      {
+        "frame_id": "099",
+        "image_period_um": 13.923706898052679,
+        "optical_period_um": 12.1622699837209,
+        "residual": 0.14482797345310106,
+        "prior_residual": -0.11656557682540447,
+        "first_peak_residual": 0.03037363667303694
+      },
+      {
+        "frame_id": "102",
+        "image_period_um": 12.478907250226616,
+        "optical_period_um": 12.347080182009682,
+        "residual": 0.01067678076708467,
+        "prior_residual": -0.23084435913196766,
+        "first_peak_residual": -0.10289812994959124
+      },
+      {
+        "frame_id": "105",
+        "image_period_um": 12.292431814132451,
+        "optical_period_um": 12.181815875877962,
+        "residual": 0.009080414560650674,
+        "prior_residual": -0.23019970073223273,
+        "first_peak_residual": -0.10215419583122298
+      },
+      {
+        "frame_id": "110",
+        "image_period_um": 11.683182479700395,
+        "optical_period_um": 12.250193132980035,
+        "residual": -0.04628585420038245,
+        "prior_residual": -0.21253111042414585,
+        "first_peak_residual": -0.08158791163024603
+      },
+      {
+        "frame_id": "115",
+        "image_period_um": 11.667174432866409,
+        "optical_period_um": 12.251441886387438,
+        "residual": -0.04768968901286702,
+        "prior_residual": -0.20737928056939514,
+        "first_peak_residual": -0.07558424422115045
+      },
+      {
+        "frame_id": "122",
+        "image_period_um": 11.79030200552786,
+        "optical_period_um": 12.253175144014989,
+        "residual": -0.03777577101827506,
+        "prior_residual": -0.20088247094955258,
+        "first_peak_residual": -0.06800571307524755
+      },
+      {
+        "frame_id": "127",
+        "image_period_um": 12.620200221462328,
+        "optical_period_um": 12.039553669306075,
+        "residual": 0.048228245672974346,
+        "prior_residual": -0.13365888782619467,
+        "first_peak_residual": 0.010387103783246254
+      }
+    ]
+  },
+  {
+    "batch": "10-14",
+    "cycle": "cycle02",
+    "video": "micro_late",
+    "kind": "2d",
+    "n_historical_frames": 1,
+    "median_residual": -0.012181126205403792,
+    "p10": -0.012181126205403792,
+    "p90": -0.012181126205403792,
+    "prior_median_residual": -0.15285610806018257,
+    "first_peak_median_residual": -0.012181126205403792,
+    "frames": [
+      {
+        "frame_id": "098",
+        "image_period_um": 19.9084318799491,
+        "optical_period_um": 20.153929437967786,
+        "residual": -0.012181126205403792,
+        "prior_residual": -0.15285610806018257,
+        "first_peak_residual": -0.012181126205403792
+      }
+    ]
+  }
+]

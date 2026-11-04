@@ -1,0 +1,31 @@
+{
+  "step": "intensity.double_harmonic",
+  "sequence": 3,
+  "pass_index": 1,
+  "images": [
+    "results/guided/intensity/step_03/phase_to_spectrum.png"
+  ],
+  "metrics": [
+    [
+      "示范电压 / V",
+      6.945
+    ],
+    [
+      "β",
+      2.239536008771955
+    ],
+    [
+      "H2/H1",
+      0.3843221269484095
+    ],
+    [
+      "H3/H1",
+      0.34057786383653627
+    ]
+  ],
+  "table": null,
+  "evidence": [],
+  "links": [],
+  "elapsed_s": 1.9,
+  "status": "computed"
+}

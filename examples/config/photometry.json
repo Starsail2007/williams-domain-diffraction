@@ -1,0 +1,37 @@
+{
+  "photometry": {
+    "shape_smoothing_green_samples": 2,
+    "shape_threshold_peak_fraction": 0.08,
+    "shape_min_signal_to_background_MAD": 3,
+    "shape_initial_radius_raw_px": 95,
+    "shape_sigma_bounds_raw_px": [
+      8,
+      75
+    ],
+    "ellipse_growth_multipliers": [
+      2.0,
+      2.5,
+      3.0,
+      3.5,
+      4.0,
+      4.5
+    ],
+    "background_patch_half_raw_px": 360,
+    "background_tile_raw_px": 32,
+    "background_peak_exclusion_sigma": 4.0,
+    "background_reflection_exclusion_raw_px": 90,
+    "background_min_valid_tile_samples": 50,
+    "background_min_tiles": 18,
+    "background_min_sectors": 6,
+    "quadratic_holdout_improvement_fraction": 0.25,
+    "quadratic_max_center_difference_background_MAD": 3,
+    "background_sensitivity_limit_fraction": 0.05,
+    "plateau_increment_limit_fraction": 0.02,
+    "plateau_required_consecutive_steps": 2,
+    "minimum_cell_fraction": 0.995,
+    "signal_to_background_indicator_min": 10,
+    "green_safety_fraction_of_camera_white": 0.8,
+    "geometry_heldout_strip_max_p95_display_px": 2,
+    "physical_orders_assigned": false
+  }
+}

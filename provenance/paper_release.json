@@ -1,0 +1,280 @@
+{
+  "schema_version": 3,
+  "delivery_id": "williams-domain-diffraction-0.7.0",
+  "paper_version": "williams_final_2026-11-02_v04",
+  "paper_status": "Reading PDF; replaceable independently of calculation inputs",
+  "pdf": "paper/manuscript.pdf",
+  "pages": 18,
+  "figures": [
+    {
+      "number": 1,
+      "label": "fig:setup",
+      "title": "图1给出激光、液晶盒与光屏的实验光路及盒屏距定义。",
+      "caption": "实验光路示意。计算衍射角所用的L是液晶盒至光屏的距离。示意不按比例绘制。",
+      "section": "2.1.1",
+      "preview": "results/paper/fig01_01_setup.png",
+      "inputs": [
+        "data/experiments.csv"
+      ],
+      "code": "paper/manuscript.pdf",
+      "operation": "copy",
+      "scope": "光路示意与记录参数；示意图不按比例。"
+    },
+    {
+      "number": 2,
+      "label": "fig:rgb",
+      "title": "图2用同峰R削顶/G未饱和和2138个候选的RG净积分线性拟合支持采用G通道相对测光。",
+      "caption": "改用绿色通道的实验依据。（a）实验3在6.77 V时的同一侧峰，R出现削顶而G未达上限。（b）同轮2138个既定未饱和候选的红绿净积分及拟合直线。",
+      "section": "2.2.1",
+      "preview": "results/paper/fig02_09_rgb_simple.png",
+      "inputs": [
+        "data/paper/channel_points_cycle02.csv"
+      ],
+      "code": "src/williams_diffraction/delivery_paper.py:rgb",
+      "operation": "numeric",
+      "scope": "2138个既定点重拟合RG；相机信号线性不等于功率标定。"
+    },
+    {
+      "number": 3,
+      "label": "fig:processing",
+      "title": "图3展示实验3的5.38 V照片从原图到正视与标记检查图的处理过程。",
+      "caption": "同一张实拍照片的处理过程（例图：实验3在5.38 V时）。",
+      "section": "2.2.2",
+      "preview": "results/paper/fig03_10_processing.png",
+      "inputs": [
+        "provenance/artifact_map.json"
+      ],
+      "code": "src/williams_diffraction/raw_photometry.py:measure_frame",
+      "operation": "copy",
+      "scope": "真实照片处理流程图；此处提供冻结图稿来源，原照片的RAW测量须另配原始数据。示例配置只说明相关方法。"
+    },
+    {
+      "number": 4,
+      "label": "fig:predict",
+      "title": "图4展示实验1的014帧由25个初检候选经点阵预测引导新增10个弱候选。",
+      "caption": "初检与预测补检（实验1，5.69 V）。青圈为初检，绿圈为新增，灰虚圈为待查，黄线为排列。",
+      "section": "2.2.3",
+      "preview": "results/paper/fig04_17_detection_prediction.png",
+      "inputs": [
+        "data/paper/prediction014.json"
+      ],
+      "code": "src/williams_diffraction/guided_detection.py:prediction_sites",
+      "operation": "numeric",
+      "scope": "014历史开发样本：25强点、10新增点；重放候选坐标，不重新检峰。"
+    },
+    {
+      "number": 5,
+      "label": "fig:video",
+      "title": "图5标明5.39 V显微帧及后续频谱分析所用的格纹与条纹区域。",
+      "caption": "5.39 V的显微图样与频谱取样区域。",
+      "section": "2.2.4",
+      "preview": "results/paper/fig05_13_video_scale.png",
+      "inputs": [
+        "data/samples/micro_late_164.png"
+      ],
+      "code": "data/paper/figure_evidence.json",
+      "operation": "copy",
+      "scope": "1536×1024解码帧、82 s、5.39 V；方形像素与0.75 μm/px的标尺假设。"
+    },
+    {
+      "number": 6,
+      "label": "fig:evolution",
+      "title": "图6展示实验3升压中从中央斑、二维点阵到横向峰列的演化。",
+      "caption": "升压过程的衍射图样变化（以实验3为例）",
+      "section": "2.3.1",
+      "preview": "results/paper/fig06_11_diffraction_evolution.png",
+      "inputs": [
+        "data/samples/diffraction/previews.json"
+      ],
+      "code": "data/paper/figure_evidence.json",
+      "operation": "copy",
+      "scope": "8张升压显示裁图，来自冻结正视PNG；不作CFA积分输入。"
+    },
+    {
+      "number": 7,
+      "label": "fig:diffdown",
+      "title": "图7展示实验3降压路径中的衍射图样，并与升压形态形成对照。",
+      "caption": "实验3的降压衍射图样。",
+      "section": "2.3.1",
+      "preview": "results/paper/fig07_18_diffraction_down.png",
+      "inputs": [
+        "data/samples/diffraction/previews.json"
+      ],
+      "code": "data/paper/figure_evidence.json",
+      "operation": "copy",
+      "scope": "6张降压显示裁图，保留原帧ID；5 s拍摄间隔不是稳态认证。"
+    },
+    {
+      "number": 8,
+      "label": "fig:microevolution",
+      "title": "图8展示显微升压中的近均匀、格纹/条纹共存、条纹占主导及高压结构变化。",
+      "caption": "升压过程的液晶显微图样。",
+      "section": "2.3.2",
+      "preview": "results/paper/fig08_12_microscopy_evolution.png",
+      "inputs": [
+        "data/samples/microscopy_frames.json"
+      ],
+      "code": "data/paper/microscopy_selected.json",
+      "operation": "copy",
+      "scope": "单次micro_late升压88/164/227/295帧；不混入早期视频。"
+    },
+    {
+      "number": 9,
+      "label": "fig:microdown",
+      "title": "图9展示显微降压中稀疏纹理向密条纹重新出现的路径。",
+      "caption": "降压过程的液晶显微图样。",
+      "section": "2.3.2",
+      "preview": "results/paper/fig09_19_microscopy_down.png",
+      "inputs": [
+        "data/samples/microscopy_frames.json"
+      ],
+      "code": "data/paper/microscopy_selected.json",
+      "operation": "copy",
+      "scope": "同次扫描降压436/500/559/583帧；只展示选择，不声明可逆平衡态。"
+    },
+    {
+      "number": 10,
+      "label": "fig:texturefft",
+      "title": "图10用同帧两个ROI的二维频谱检验格纹的双方向与条纹的单方向周期。",
+      "caption": "同帧5.39 V的“纹理—频谱”对照。上排网格给出20.17、19.64 μm两个周期，法向夹角约87.97°；下排条纹主要周期13.92 μm。",
+      "section": "2.3.3",
+      "preview": "results/paper/fig10_14_texture_fft.png",
+      "inputs": [
+        "data/examples/microscopy/grid.png"
+      ],
+      "code": "src/williams_diffraction/microscopy.py:spectrum_peaks",
+      "operation": "numeric",
+      "scope": "164帧两个ROI重算FFT；保留谐波与组合峰，不认证取向基频。"
+    },
+    {
+      "number": 11,
+      "label": "fig:periods",
+      "title": "图11对比三轮近电压配对的一维显微周期与衍射周期及一倍/两倍关系。",
+      "caption": "显微纹理周期与衍射光学周期的一维配对结果。",
+      "section": "2.4.1",
+      "preview": "results/paper/fig11_06_period_agreement.png",
+      "inputs": [
+        "data/paper/microscopy_matches.json"
+      ],
+      "code": "src/williams_diffraction/delivery_paper.py:period_summary",
+      "operation": "numeric",
+      "scope": "图11使用30条一维ROI匹配聚合的4/5/7帧共16点；另1条二维仅单列补充，不画入图11。"
+    },
+    {
+      "number": 12,
+      "label": "fig:lattice",
+      "title": "图12将三轮实测光斑位置与中心矩形几何模型比较。",
+      "caption": "三轮实验的实测光斑与中心矩形模型的位置比较",
+      "section": "2.4.2",
+      "preview": "results/paper/fig12_04_lattice.png",
+      "inputs": [
+        "data/paper/geometry_nodes.json"
+      ],
+      "code": "src/williams_diffraction/diffraction_models.py:fit_geometry",
+      "operation": "numeric",
+      "scope": "28帧572点重拟合中心矩形几何；级次与暂定零级仍有条件。"
+    },
+    {
+      "number": 13,
+      "label": "fig:modelmeaning",
+      "title": "图13解释一维双谐波相位轮廓和双斜向空间频率生成中心矩形节点的含义。",
+      "caption": "两个模型的示意图（a）一维双谐波改变一个周期内的相位轮廓。（b）两条斜向空间频率的整数叠加形成中心矩形节点。",
+      "section": "2.5",
+      "preview": "results/paper/fig13_16_models_explained.png",
+      "inputs": [
+        "paper/manuscript.pdf"
+      ],
+      "code": "src/williams_diffraction/diffraction_models.py",
+      "operation": "copy",
+      "scope": "模型含义示意；不是独立测量或新拟合。"
+    },
+    {
+      "number": 14,
+      "label": "fig:onedreal",
+      "title": "图14给出实验1的6.78 V与8.20 V实拍一维衍射图样。",
+      "caption": "例图：实验1在6.78、8.20 V时的一维衍射图样",
+      "section": "2.5.1",
+      "preview": "results/paper/fig14_15_one_d_real.png",
+      "inputs": [
+        "paper/assets/15_one_d_real.png"
+      ],
+      "code": "data/paper/one_d_reference.json",
+      "operation": "copy",
+      "scope": "6.78/8.20 V实图的冻结图稿；23帧峰比是相关数值，不是实图像素输入，数值重算见图15。"
+    },
+    {
+      "number": 15,
+      "label": "fig:oned",
+      "title": "图15将实验1的二阶/一阶和三阶/一阶峰比与同一组三参数双谐波预测比较。",
+      "caption": "两条峰比及同一组三参数的预测。三角点表示二维共存阶段的横向峰，圆点表示后续一维峰列。",
+      "section": "2.5.1",
+      "preview": "results/paper/fig15_03_one_dimensional.png",
+      "inputs": [
+        "data/legacy_original_23/one_dimensional_ratios.csv"
+      ],
+      "code": "src/williams_diffraction/diffraction_models.py:fit_one_d",
+      "operation": "numeric",
+      "scope": "23帧；默认参数重放，--refit重新优化；自然对数损失、原比值域R²。"
+    },
+    {
+      "number": 16,
+      "label": "fig:spectrumfit",
+      "title": "图16展示三轮主要亮节点实测信号与双斜向Bessel强度谱的逐帧拟合。",
+      "caption": "三轮主要亮节点的实测与双斜向谱拟合。",
+      "section": "2.5.2",
+      "preview": "results/paper/fig16_20_spectrum_fit.png",
+      "inputs": [
+        "data/paper/spectrum_nodes.json"
+      ],
+      "code": "src/williams_diffraction/diffraction_models.py:fit_spectrum",
+      "operation": "numeric",
+      "scope": "三轮26帧276点；逐帧双斜向拟合，不是统一电压律或光功率验证。"
+    },
+    {
+      "number": 17,
+      "label": "fig:microphysics",
+      "title": "图17示意非线性取向映射产生相位倍频及双方向和差频。",
+      "caption": "取向调制产生相位倍频与和差频的示意。",
+      "section": "2.6.1",
+      "preview": "results/paper/fig17_07_microphysics.png",
+      "inputs": [
+        "paper/manuscript.pdf"
+      ],
+      "code": "src/williams_diffraction/diffraction_models.py:phase_weights",
+      "operation": "copy",
+      "scope": "取向到相位的物理机制示意；不唯一反演真实三维取向。"
+    }
+  ],
+  "tables": [
+    {
+      "number": 1,
+      "caption_tex": "衍射数据一览",
+      "label": "tab:setup",
+      "line": 82,
+      "caption_plain": "衍射数据一览",
+      "one_sentence": "表1汇总三轮衍射扫描的照片数、升降压数量、盒屏距与光屏尺寸。",
+      "section_number": "2.1.1"
+    },
+    {
+      "number": 2,
+      "caption_tex": "一维周期的近电压配对。周期单位为$\\mu$m。",
+      "label": "tab:periods",
+      "line": 227,
+      "caption_plain": "一维周期的近电压配对。周期单位为μm。",
+      "one_sentence": "表2汇总三轮一维近电压配对的显微周期、衍射周期、对应关系、偏差中位数和配对帧数。",
+      "section_number": "2.4.1"
+    }
+  ],
+  "numerical_scope": "current v04 paper subset; broader reference diagnostics under data/runs and data/support",
+  "microscopy": {
+    "video_id": "micro_late",
+    "frames": 699,
+    "roi_records": 2097,
+    "reviewed_centers": 41,
+    "reviewed_roi_records": 123,
+    "matched_roi_records": 31
+  },
+  "raw_remeasurement": false,
+  "pdf_source": "paper/manuscript.pdf",
+  "role": "Reference figure index for the calculation examples; the reading PDF is independently replaceable"
+}

@@ -1,0 +1,20 @@
+{
+  "video_id": "micro_late",
+  "parent_video_basename": "261021130627.mp4",
+  "parent_video_sha256": "5f9162137e56bac001ad8a4deb2a808fc73b00676e8c9f2470194a0e8f6cfb40",
+  "parent_frame": "data/samples/micro_late_164.png",
+  "parent_frame_sha256": "643a81f950615d0647d85c19e0ee30b86c701873d7b8db4fde2a6f6638e84df7",
+  "frame_index": 164,
+  "pts_s": 82.0,
+  "voltage_V": 5.39,
+  "roi_xywh": [
+    920,
+    100,
+    512,
+    768
+  ],
+  "sx_um": 0.75,
+  "sy_um": 0.75,
+  "identity": "decoded RGB video crop, not CFA",
+  "role": "stripe"
+}

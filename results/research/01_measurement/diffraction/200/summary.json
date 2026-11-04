@@ -1,0 +1,80 @@
+{
+  "status": "PASS",
+  "id": "200",
+  "case_title": "仍有14个候选且能拟合row，但条件留一误差比例0.298超过0.2门槛，必须禁用几何补检；用于证明有亮斑不等于允许猜点。",
+  "origin_counts": {
+    "INDEPENDENT_WEAK": 4,
+    "INDEPENDENT_STRONG": 10
+  },
+  "candidates": 14,
+  "with_quality_flags": 7,
+  "review_required": 6,
+  "candidate_status_counts": {
+    "REVIEW_REQUIRED": 6,
+    "SIGNAL_CANDIDATE": 7,
+    "WEAK_SIGNAL_CANDIDATE": 1
+  },
+  "supplied_human_exclusions": 4,
+  "conditional_edges": [
+    2,
+    3
+  ],
+  "audit_status_counts": {
+    "SAME_OR_UNRESOLVED_MODE": 44,
+    "SHAPE_MISMATCH": 16,
+    "ALREADY_DETECTED_AFTER_LOCALIZATION": 33,
+    "SCALE_UNSTABLE_REVIEW": 92,
+    "INSUFFICIENT_SIGNAL": 29,
+    "DETECTED": 4,
+    "UNRESOLVED_SHALLOW_SADDLE": 4,
+    "MODEL_AND_TEMPLATE_TRAINING_INPUTS": 1,
+    "TRAINING_EVIDENCE_CLOSURE_STABLE": 1
+  },
+  "model_gates": [
+    {
+      "kind": "lattice_2d",
+      "status": "INSUFFICIENT_OR_INCONSISTENT_GEOMETRY",
+      "prediction_enabled": null,
+      "maximum_conditional_loo_fraction": null
+    },
+    {
+      "kind": "row",
+      "status": "OBSERVED_GEOMETRY",
+      "prediction_enabled": false,
+      "maximum_conditional_loo_fraction": 0.29802050315302303
+    }
+  ],
+  "elapsed_s": 14.0845996249991,
+  "raw_decoder_used_at_runtime": false,
+  "reference_evaluation": {
+    "status": "PASS",
+    "scope": "regression against accepted v9/v16 coordinates, not detection accuracy against independent human truth",
+    "reference_loaded_after_detection": true,
+    "candidates_found": 14,
+    "reference_candidates": 14,
+    "maximum_coordinate_difference_raw_px": 0.0,
+    "maximum_screen_corner_difference_display_px": 0.0,
+    "prediction_gates": {
+      "lattice_2d": false,
+      "row": false
+    },
+    "reference_prediction_gates": {
+      "lattice_2d": false,
+      "row": false
+    },
+    "model_statuses": {
+      "lattice_2d": "INSUFFICIENT_OR_INCONSISTENT_GEOMETRY",
+      "row": "OBSERVED_GEOMETRY"
+    },
+    "reference_model_statuses": {
+      "lattice_2d": "INSUFFICIENT_OR_INCONSISTENT_GEOMETRY",
+      "row": "OBSERVED_GEOMETRY"
+    },
+    "historical_human_review_summary": "本帧14个候选均已逐项复核；其中5个仍受低信噪比、浅鞍点、光翼或边缘混合限制，逐项原因随表保存。已核对本轮原图、正视标记与峰区对位；未将质量限制改写为已确认独立衍射峰。",
+    "historical_class_counts": {
+      "UNRESOLVED_IMAGE_IDENTITY": 5,
+      "VISIBLE_OPTICAL_SUPPORT": 7,
+      "CONNECTED_OPTICAL_ENVELOPE": 2
+    }
+  }
+}

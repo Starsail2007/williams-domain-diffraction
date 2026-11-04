@@ -1,0 +1,9 @@
+{
+  "source": "User confirmation in this conversation on 2026-10-27: 氦氖激光632.8nm",
+  "laser_type": "helium_neon",
+  "wavelength_nm": 632.8,
+  "uncertainty_nm": null,
+  "independent_spectral_measurement_performed_here": false,
+  "analysis_scope": "Treat the reported experimental laser as shared by the historical diffraction batches; per-batch serial numbers not independently available",
+  "does_not_change": "raw data, measured peak coordinates, intensity integrals, archived fitted models"
+}

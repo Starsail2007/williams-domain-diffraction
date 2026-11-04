@@ -1,0 +1,262 @@
+{
+  "frame_id": "104",
+  "title": "全204帧候选最多；丰富二维弱点与亮横族，上方激光虚像及边缘非光学信号需要排除；本帧几何引导实际新增1个，不能自动把全部格点填满。",
+  "role": "primary_dense_2d_weak_reflection",
+  "batch_id": "scan_2026-10-14",
+  "cycle": "cycle02",
+  "direction": "up",
+  "voltage_RMS_V": 5.67,
+  "input_arrays": "linear_cfa.npz",
+  "raw_display": "raw_display.png",
+  "raw_shape": [
+    4688,
+    7028
+  ],
+  "red_shape": [
+    2344,
+    3514
+  ],
+  "screen_size_mm": [
+    120.0,
+    120.0
+  ],
+  "corners_prior_display": [
+    [
+      314,
+      180
+    ],
+    [
+      962,
+      184
+    ],
+    [
+      920,
+      700
+    ],
+    [
+      346,
+      788
+    ]
+  ],
+  "corner_overrides_display": {
+    "TL": [
+      316,
+      124
+    ],
+    "TR": [
+      970,
+      127
+    ],
+    "basis": "Root reinspection of original RAW display: actual bright board top, previous line was inside board"
+  },
+  "edge_half_widths_display": [
+    30,
+    15,
+    8,
+    15
+  ],
+  "edge_method": "multipeak",
+  "physical_visibility_review": {
+    "raw_display_sha256": "0c3a0356de2a4f4a28537bc0ab65079976a31b7edfd94b1a842a6ffd837c29d3",
+    "edges": [
+      {
+        "side": 0,
+        "side_name": "top",
+        "physical_edge_identity_visible": true,
+        "endpoint_visibility": {
+          "TL": true,
+          "TR": true
+        },
+        "endpoint_visibility_reasons_zh": {
+          "TL": "原图可见物理板的交角/顶边端点；仅支持数显示像素尺度的视觉定位。",
+          "TR": "原图可见物理板的交角/顶边端点；仅支持数显示像素尺度的视觉定位。"
+        },
+        "coordinate_repair_required": false,
+        "reason_codes": [],
+        "reasons_zh": [
+          "明亮上沿可与板面及背景区分；亮边有有限宽度，视觉通过不等于亚像素角点标定。"
+        ]
+      },
+      {
+        "side": 1,
+        "side_name": "right",
+        "physical_edge_identity_visible": true,
+        "endpoint_visibility": {
+          "TR": true,
+          "BR": true
+        },
+        "endpoint_visibility_reasons_zh": {
+          "TR": "原图可见物理板的交角/顶边端点；仅支持数显示像素尺度的视觉定位。",
+          "BR": "原图可见物理板的交角/顶边端点；仅支持数显示像素尺度的视觉定位。"
+        },
+        "coordinate_repair_required": false,
+        "reason_codes": [],
+        "reasons_zh": [
+          "板右侧可见段与外部背景的边界已检查；暗背景区或边带模糊不作为额外角点证据。"
+        ]
+      },
+      {
+        "side": 2,
+        "side_name": "bottom",
+        "physical_edge_identity_visible": true,
+        "endpoint_visibility": {
+          "BR": true,
+          "BL": "uncertain"
+        },
+        "endpoint_visibility_reasons_zh": {
+          "BR": "原图可见物理板的交角/顶边端点；仅支持数显示像素尺度的视觉定位。",
+          "BL": "左下候选角处黑板与深色衣服/手暗部融合；可看见的左边或右端底边不足以独立确定左下物理端点。"
+        },
+        "coordinate_repair_required": false,
+        "reason_codes": [
+          "CENTRAL_BOTTOM_OCCLUSION",
+          "PHYSICAL_BL_NOT_INDEPENDENTLY_VISIBLE",
+          "ORIGINAL_GRADIENT_VALIDATION_INSUFFICIENT"
+        ],
+        "reasons_zh": [
+          "手及其阴影覆盖中段底边；仅允许用真正可见的外侧板边段判断，不能以手轮廓充当板边。",
+          "BL：左下候选角处黑板与深色衣服/手暗部融合；可看见的左边或右端底边不足以独立确定左下物理端点。",
+          "v8保留条件几何：梯度诊断状态为REVIEWED_PRIOR_INSUFFICIENT_EDGE_SUPPORT；该统计不足本身不靠目视或同一梯度残差升级为精度认证。",
+          "原端点条带诊断：[{\"sampled\":8,\"accepted\":8,\"inlier_fraction\":1.0,\"p95_display_px\":2.4065964210216393},{\"sampled\":8,\"accepted\":8,\"inlier_fraction\":1.0,\"p95_display_px\":1.7746424332641195}]"
+        ]
+      },
+      {
+        "side": 3,
+        "side_name": "left",
+        "physical_edge_identity_visible": true,
+        "endpoint_visibility": {
+          "BL": "uncertain",
+          "TL": true
+        },
+        "endpoint_visibility_reasons_zh": {
+          "BL": "左下候选角处黑板与深色衣服/手暗部融合；可看见的左边或右端底边不足以独立确定左下物理端点。",
+          "TL": "原图可见物理板的交角/顶边端点；仅支持数显示像素尺度的视觉定位。"
+        },
+        "coordinate_repair_required": false,
+        "reason_codes": [
+          "PHYSICAL_BL_NOT_INDEPENDENTLY_VISIBLE",
+          "ORIGINAL_GRADIENT_VALIDATION_INSUFFICIENT"
+        ],
+        "reasons_zh": [
+          "板左侧上部可见边段已检查；下端遇深色衣服或手时不据直线外推认证角点。",
+          "BL：左下候选角处黑板与深色衣服/手暗部融合；可看见的左边或右端底边不足以独立确定左下物理端点。",
+          "v8保留条件几何：梯度诊断状态为REVIEWED_PRIOR_INSUFFICIENT_EDGE_SUPPORT；该统计不足本身不靠目视或同一梯度残差升级为精度认证。",
+          "原端点条带诊断：[{\"sampled\":8,\"accepted\":7,\"inlier_fraction\":0.875,\"p95_display_px\":2.2851058227241356},{\"sampled\":8,\"accepted\":8,\"inlier_fraction\":1.0,\"p95_display_px\":1.5044161092444068}]"
+        ]
+      }
+    ],
+    "accepted_visible_corner_constraints": {}
+  },
+  "reviewed_non_optical_exclusions": [
+    {
+      "frame_id": "104",
+      "peak_uid": "104_audit_p003",
+      "u_raw_px": 2862.6143189096842,
+      "v_raw_px": 1840.2029015760359,
+      "raw_sha256": "dce7a7c3bedb9b0d5a55ebdd240423dc49529d3e8bdfd8eedcc3ec9c395e0422",
+      "radius_raw_px": 70.0,
+      "confirmed": true,
+      "reason": "LASER_VIRTUAL_IMAGE_REFLECTION",
+      "human_confirmed": true,
+      "evidence": "User identified 099–104 as the emitter virtual image. Root reviewed all 097–113 upper-track crops: the same isolated circular/speckled image persists across the adjacent views, distinct from the evolving lower diffraction structure. Extension outside 099–104 is a recorded visual/contextual inference, not a brightness-only rule.",
+      "root_evidence": "work/validation/reflection_review_2026-10-19_v2/upper_track_096_113.jpg",
+      "nearest_other_catalog_candidate_raw_px": 264.0922665570532,
+      "review_source": "data/annotations/scan_2026-10-14/image_audit_non_optical_2026-10-19_v1.json",
+      "bound_source_catalog_sha256": "005a6045f245dfbc0ce1f22a9112c591e3f517967a0dd5a3fa60478de870a08b"
+    },
+    {
+      "frame_id": "104",
+      "peak_uid": "104_p045",
+      "u_raw_px": 3873.4838827504336,
+      "v_raw_px": 3540.043283718382,
+      "radius_raw_px": 45,
+      "confirmed": true,
+      "reason": "NON_OPTICAL_HAND_SURFACE",
+      "evidence": "Root reviewed all unmatched legacy locations against the new RAW-derived rectification in unmatched_02/03.jpg: located on the hand surface/skin crease below the visible board, not a separate optical spot. Only this local region is excluded.",
+      "raw_sha256": "dce7a7c3bedb9b0d5a55ebdd240423dc49529d3e8bdfd8eedcc3ec9c395e0422",
+      "review_source": "data/annotations/scan_2026-10-14/image_audit_non_optical_v5_baseline_rebound_2026-10-19.json",
+      "bound_source_catalog_sha256": "c5405a53cd5455d03e6af56b35fe4344a7db82012130831f6c7c66023ac5d380"
+    },
+    {
+      "frame_id": "104",
+      "peak_uid": "104_p047",
+      "u_raw_px": 3342.085225679843,
+      "v_raw_px": 3672.516587234838,
+      "radius_raw_px": 45,
+      "confirmed": true,
+      "reason": "NON_OPTICAL_HAND_SURFACE",
+      "evidence": "Root reviewed all unmatched legacy locations against the new RAW-derived rectification in unmatched_02/03.jpg: located on the hand surface/skin crease below the visible board, not a separate optical spot. Only this local region is excluded.",
+      "raw_sha256": "dce7a7c3bedb9b0d5a55ebdd240423dc49529d3e8bdfd8eedcc3ec9c395e0422",
+      "review_source": "data/annotations/scan_2026-10-14/image_audit_non_optical_v5_baseline_rebound_2026-10-19.json",
+      "bound_source_catalog_sha256": "c5405a53cd5455d03e6af56b35fe4344a7db82012130831f6c7c66023ac5d380"
+    },
+    {
+      "frame_id": "104",
+      "raw_sha256": "dce7a7c3bedb9b0d5a55ebdd240423dc49529d3e8bdfd8eedcc3ec9c395e0422",
+      "peak_uid": "104_audit_p057",
+      "u_raw_px": 4074.9439188026836,
+      "v_raw_px": 3537.051608463788,
+      "radius_raw_px": 80.0,
+      "confirmed": true,
+      "reason": "NON_OPTICAL_HAND_EDGE",
+      "decision_source": "ROOT_REVIEWED_NATIVE_COLOR_GRAY_AND_FULL_FRAME_CONTEXT_V14",
+      "reason_zh": "已逐个目视确认的光屏硬边、手轮廓、蓝白月牙或连续背景阶跃；中心没有独立屏上红光核。与近边真红斑分开，排除位置邻域仅用于重新识别，不改 RAW 或历史测量。",
+      "radius_policy": "within inspected native crop, at most 80 RAW px and 60% of nearest retained candidate distance",
+      "nearest_retained_candidate_raw_px": 408.1773091580359,
+      "review_source": "data/annotations/scan_2026-10-14/image_audit_non_optical_2026-10-19_v3_complete_visual.json",
+      "bound_source_catalog_sha256": "32a4b0ff9eea210f24201224e299e201e37e2761002189f913e281e09dfeee60"
+    },
+    {
+      "frame_id": "104",
+      "raw_sha256": "dce7a7c3bedb9b0d5a55ebdd240423dc49529d3e8bdfd8eedcc3ec9c395e0422",
+      "peak_uid": "104_audit_p058",
+      "u_raw_px": 2988.9738798642093,
+      "v_raw_px": 3668.5484386836124,
+      "radius_raw_px": 80.0,
+      "confirmed": true,
+      "reason": "NON_OPTICAL_HAND_EDGE",
+      "decision_source": "ROOT_REVIEWED_NATIVE_COLOR_GRAY_AND_FULL_FRAME_CONTEXT_V14",
+      "reason_zh": "已逐个目视确认的光屏硬边、手轮廓、蓝白月牙或连续背景阶跃；中心没有独立屏上红光核。与近边真红斑分开，排除位置邻域仅用于重新识别，不改 RAW 或历史测量。",
+      "radius_policy": "within inspected native crop, at most 80 RAW px and 60% of nearest retained candidate distance",
+      "nearest_retained_candidate_raw_px": 197.66472465640197,
+      "review_source": "data/annotations/scan_2026-10-14/image_audit_non_optical_2026-10-19_v3_complete_visual.json",
+      "bound_source_catalog_sha256": "32a4b0ff9eea210f24201224e299e201e37e2761002189f913e281e09dfeee60"
+    },
+    {
+      "frame_id": "104",
+      "raw_sha256": "dce7a7c3bedb9b0d5a55ebdd240423dc49529d3e8bdfd8eedcc3ec9c395e0422",
+      "peak_uid": "104_audit_p059",
+      "u_raw_px": 3219.9233250620346,
+      "v_raw_px": 3685.399875930521,
+      "radius_raw_px": 80.0,
+      "confirmed": true,
+      "reason": "NON_OPTICAL_HAND_EDGE",
+      "decision_source": "ROOT_REVIEWED_NATIVE_COLOR_GRAY_AND_FULL_FRAME_CONTEXT_V14",
+      "reason_zh": "已逐个目视确认的光屏硬边、手轮廓、蓝白月牙或连续背景阶跃；中心没有独立屏上红光核。与近边真红斑分开，排除位置邻域仅用于重新识别，不改 RAW 或历史测量。",
+      "radius_policy": "within inspected native crop, at most 80 RAW px and 60% of nearest retained candidate distance",
+      "nearest_retained_candidate_raw_px": 164.62394325879688,
+      "review_source": "data/annotations/scan_2026-10-14/image_audit_non_optical_2026-10-19_v3_complete_visual.json",
+      "bound_source_catalog_sha256": "32a4b0ff9eea210f24201224e299e201e37e2761002189f913e281e09dfeee60"
+    }
+  ],
+  "source_raw": {
+    "path": "data/raw/scan_2026-10-14/DSC00182.ARW",
+    "sha256": "dce7a7c3bedb9b0d5a55ebdd240423dc49529d3e8bdfd8eedcc3ec9c395e0422",
+    "bytes": 68616192,
+    "black_level": [
+      512,
+      512,
+      512,
+      512
+    ],
+    "white_level": 16383,
+    "camera_white_level": [
+      15360,
+      15360,
+      15360,
+      15360
+    ]
+  },
+  "array_definition": "Exact detector inputs from native Bayer samples: black-subtracted R, aligned G1/G2 mean, native near-white mask. Float32/bool stored losslessly; no display tone map or resize.",
+  "references": "reference/104.json"
+}

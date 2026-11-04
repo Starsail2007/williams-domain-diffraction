@@ -1,0 +1,23 @@
+{
+  "step": "evolution.input",
+  "sequence": 1,
+  "pass_index": 1,
+  "images": [
+    "data/samples/diffraction/up_088.png"
+  ],
+  "metrics": [
+    [
+      "输入身份",
+      "实验3衍射序列与一次分时显微扫描"
+    ],
+    [
+      "图中电压 / V",
+      1.08
+    ]
+  ],
+  "table": null,
+  "evidence": [],
+  "links": [],
+  "elapsed_s": 1.632,
+  "status": "computed"
+}

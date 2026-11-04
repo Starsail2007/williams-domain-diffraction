@@ -1,0 +1,79 @@
+{
+  "selection_basis": "All 204 diffraction frames audited by complexity/weakness/review/model stability; microscopy by harmonic, spatial mixture and ambiguity challenges. Not selected for model fit quality.",
+  "diffraction": [
+    {
+      "id": "104",
+      "role": "primary_dense_2d_weak_reflection",
+      "title": "全204帧候选最多；丰富二维弱点与亮横族，上方激光虚像及边缘非光学信号需要排除；本帧几何引导实际新增1个，不能自动把全部格点填满。",
+      "expected_reference_candidates": 56
+    },
+    {
+      "id": "108",
+      "role": "optional_coexisting_grid_and_broad_row_transition",
+      "title": "接近2D→宽横族过渡，二维小点阵与宽峰列共存；两种几何家族同时评估，有独立弱信号和非光学排除。",
+      "expected_reference_candidates": 47
+    },
+    {
+      "id": "197",
+      "role": "descending_row_with_conditional_screen_edge",
+      "title": "降压规则宽峰列；二维模型不成立但row模型可支撑局部预测；右边界没有足够独立支持，保留3条条件边不能说全部四边已标定。",
+      "expected_reference_candidates": 25
+    },
+    {
+      "id": "200",
+      "role": "negative_prediction_gate_despite_visible_peaks",
+      "title": "仍有14个候选且能拟合row，但条件留一误差比例0.298超过0.2门槛，必须禁用几何补检；用于证明有亮斑不等于允许猜点。",
+      "expected_reference_candidates": 14
+    }
+  ],
+  "microscopy": [
+    {
+      "id": "micro164_left",
+      "frame_index": 164,
+      "roi_name": "left",
+      "title": "两方向格纹、谐波与混合峰：检验局部共同支持"
+    },
+    {
+      "id": "micro164_center",
+      "frame_index": 164,
+      "roi_name": "center",
+      "title": "空间混合产生全局双峰：局部格纹判断的反例"
+    },
+    {
+      "id": "micro164_right",
+      "frame_index": 164,
+      "roi_name": "right",
+      "title": "同帧单方向条纹：与左侧格纹的空间对照"
+    },
+    {
+      "id": "micro196_right",
+      "frame_index": 196,
+      "roi_name": "right",
+      "title": "最强谱峰是二次谐波：重新寻找受支持的频率族"
+    },
+    {
+      "id": "micro254_right",
+      "frame_index": 254,
+      "roi_name": "right",
+      "title": "频率族随支持阈值改变：保留身份歧义"
+    },
+    {
+      "id": "micro436_center",
+      "frame_index": 436,
+      "roi_name": "center",
+      "title": "近均匀与稀疏折线：有谱峰仍缺合格主族"
+    },
+    {
+      "id": "micro559_center",
+      "frame_index": 559,
+      "roi_name": "center",
+      "title": "降压折叠与方向弥散：二维基底缺少支持"
+    }
+  ],
+  "current_detector": "v16",
+  "geometry": "v9",
+  "raw_frames_read_once_to_prepare_inputs": 4,
+  "raw_decoder_needed_for_public_run": false,
+  "inference": "fresh from lossless arrays/PNG; historical coordinates are post-computation evaluation only",
+  "original_project_writes": false
+}

@@ -1,0 +1,121 @@
+{
+  "status": "PASS",
+  "case": "discussion",
+  "result": {
+    "status": "PASS",
+    "reader_result": "周期对应、倍频与组合频率提供结构线索；现有结果仍不能唯一反演取向场。",
+    "illustrative_identity_max_error": 1.1102230246251565e-16,
+    "recomputed_microscopy_lengths_um": {
+      "stripe": 13.923706898052679,
+      "combination": [
+        13.830485723950803,
+        14.330082338893273
+      ]
+    },
+    "material_parameters_fitted": false
+  },
+  "events": [
+    {
+      "step": "discussion.input",
+      "sequence": 1,
+      "pass_index": 1,
+      "images": [],
+      "metrics": [
+        [
+          "输入身份",
+          "倍频示意与同帧分区频谱；候选微观解释"
+        ]
+      ],
+      "table": null,
+      "evidence": [],
+      "links": [],
+      "elapsed_s": 1.59,
+      "status": "computed"
+    },
+    {
+      "step": "discussion.doubling",
+      "sequence": 2,
+      "pass_index": 1,
+      "images": [
+        "results/guided/discussion/calculation/01_phase_doubling.png"
+      ],
+      "metrics": [
+        [
+          "恒等式数值误差",
+          1.1102230246251565e-16
+        ]
+      ],
+      "table": null,
+      "evidence": [],
+      "links": [],
+      "elapsed_s": 1.621,
+      "status": "computed"
+    },
+    {
+      "step": "discussion.combination",
+      "sequence": 3,
+      "pass_index": 1,
+      "images": [],
+      "metrics": [
+        [
+          "和差频对应长度 / µm",
+          [
+            13.830485723950803,
+            14.330082338893273
+          ]
+        ],
+        [
+          "另一条纹区 / µm",
+          13.923706898052679
+        ]
+      ],
+      "table": null,
+      "evidence": [],
+      "links": [],
+      "elapsed_s": 1.949,
+      "status": "computed"
+    }
+  ],
+  "source_sha256": {
+    "src/williams_diffraction/microscopy.py": "67899da35a561dd0a2c44f20cb124bd3843d056ffb3286f7fe79569ccf4f482d",
+    "src/williams_diffraction/research_analysis.py": "d1438ea9eac3491d65bec27d2b0bf56e1da200f730df6cbde8266765826745f1",
+    "src/williams_diffraction/microscopy_series.py": "ea26de1df8b43e83b109d22fdc8e55a2567d3cf82b3d0d7f6a465344ffef0621",
+    "src/williams_diffraction/guided_detection.py": "7e6223b378298cab0576e435ba0af54c08b53b2c8138b1f6714c360a352195cb",
+    "src/williams_diffraction/paths.py": "2a04a1a5df60ed4e7536d4b44fd91371f3d1944679c851ee03b68847a6dfaffb",
+    "src/williams_diffraction/weak_tail_trial.py": "efd54eb7b1f23a4b37220b78e2b96254b3bcd1a7cf86b97899ac88095b155827",
+    "src/williams_diffraction/research_route.py": "64f817965d41c9bc90ffd201b2bbc77d177306c94291716e49a62e49b5c75b42",
+    "src/williams_diffraction/green_expanded.py": "1cb068cac0f1830d94598fcfdc401d46463ebe739d55fc64153e0f9e0fb7cf0c",
+    "src/williams_diffraction/guide_events.py": "787d5449d46777c8e25606ed22c51628296debdc994e91c031e699568c3dc3fb",
+    "src/williams_diffraction/delivery_io.py": "c4d7d6d6789feeefe8ff987e874417cbefeaf90d3f4d8ffc16e2273c1542d43f",
+    "src/williams_diffraction/lab_server.py": "4563c3aea828d6fdac715a9d38e04bef0f0f64f357ea2e610dc62af465e1e7a9",
+    "src/williams_diffraction/__init__.py": "88bdc3d63dc7807fb6d37a94da05016d718b15c199461ae12ba590ca942e9403",
+    "src/williams_diffraction/delivery_models.py": "d64f177cae132f18a2b2e9dc0dac05d66aba1e70fabe79e951cffcb60428637a",
+    "src/williams_diffraction/voltage_spectrum.py": "a530aedcd67056faffbb3688ac6b314e44d9c761fbde9641be3efbb810d041d7",
+    "src/williams_diffraction/evidence_detection.py": "3b3c63bcee9ab6e95e835d7e05209a67160dff8f746d4b8acabfd0d2ba8e5e82",
+    "src/williams_diffraction/guided_lab.py": "a3c0de993db58eefbe0b339c33c1c154d9243c604ae3474078c96853a091fa35",
+    "src/williams_diffraction/research_pages.py": "e8a7f92f86781bddb8297be2d5024652b4637de8e66140542ebdd5d41a88fb76",
+    "src/williams_diffraction/delivery_paper.py": "76d1a8e7fcb72cdad9f55bb4a1868b83d4facc2ccf0db38dd3927cbde4308f7b",
+    "src/williams_diffraction/common.py": "577f00591b97fd2ec7812061f8b222b347b6082c200832626eb26f0c179afe02",
+    "src/williams_diffraction/screen_audit.py": "2d420b0ea4415ac3ae40285ae032b0b946e0215ec6214180b88129177b602c47",
+    "src/williams_diffraction/screen_validation_trial.py": "2a5cb63c94b5df0adfcb646d70e77f3a96ac8530b3b10f74bca5af0b3527f06d",
+    "src/williams_diffraction/algorithm_graphics.py": "ca65eaa510d96a6512e35c51b200e29501abef24b32459ea545d60ae4678dd5b",
+    "src/williams_diffraction/green_channel_study.py": "4808284d69c09aba169aee36baa6372c78efe34af93109b08680fb110b7cc62d",
+    "src/williams_diffraction/delivery_algorithms.py": "02864237ff7195bcf9715fa9df6be6ff8e4cf2ff557766ce24a58b7ac5bc2dfe",
+    "src/williams_diffraction/geometry.py": "3244508e782bd945a4a17776853113ca0446380e953c5c302d11d477c60f9c7f",
+    "src/williams_diffraction/research_figures.py": "2c49c1d465f9868a413cc509e989f1862599fdaf14c86be1e467739b3a28d0e5",
+    "src/williams_diffraction/channel_response.py": "23ecdf220f2bc0bbad1207c0b5aa2f0bf291c043acc5c907390a728bfd22f7d8",
+    "src/williams_diffraction/diffraction_models.py": "87f799e0c8bd14e004238e1601590cb2a05a2e3ed38a490f5dbac1b4d7a8190b",
+    "src/williams_diffraction/microscopy_lattice.py": "4f52f963c9eda4d872edeec6ca7ac55dee2447dec4c4f68e4e6ead7d14585021",
+    "src/williams_diffraction/raw_check.py": "b648aef53c8cea75cbf1d971a184261de8c702241ea91d1fe4fd11ba320979d5",
+    "src/williams_diffraction/delivery_examples.py": "725018ea42e365f0ce597a75e326527401770e3f1f482e38b8500aae45803b79",
+    "src/williams_diffraction/green_photometry_trial.py": "5ef1837833ad608ec6467fc6c5ce57a989acd91a8b384baf13258255696f45a9",
+    "src/williams_diffraction/research_measurement.py": "4d4159a8c0846225f2bf812f97a7c6d3b6f8457ed5afe6a3dc9a7b332bc2e925",
+    "src/williams_diffraction/candidate_evidence.py": "ffb3d6f467eeaa0a4ee012c7e2d6b899ab90acd9fd8637e3a832f9bbdf7cbd52",
+    "src/williams_diffraction/raw_photometry.py": "8f3de2fbe55141c580df7f4d8ed0c92a09687bc1f6321bafe8def6e2b47f09db",
+    "src/williams_diffraction/inventory.py": "ad625c34f2930184e56bf535204da2cf4a621dab177917fe84a06fc514f2943b"
+  },
+  "input_manifest_sha256": "a7b2adf67938fae7ba96c1f593a4b0b1df9dbf02ad8bc702bc811d21c840126e",
+  "user_image_sha256": null,
+  "recording": "Snapshots copied from actual calculation stages; no timing animation",
+  "elapsed_s": 1.951449500018498
+}

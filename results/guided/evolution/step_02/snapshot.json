@@ -1,0 +1,22 @@
+{
+  "step": "evolution.final",
+  "sequence": 2,
+  "pass_index": 1,
+  "images": [
+    "results/guided/evolution/calculation/diffraction_up.png",
+    "results/guided/evolution/calculation/diffraction_down.png",
+    "results/guided/evolution/calculation/microscopy_up.png",
+    "results/guided/evolution/calculation/microscopy_down.png"
+  ],
+  "metrics": [
+    [
+      "本步操作",
+      "按记录排列图样；没有新增测量"
+    ]
+  ],
+  "table": null,
+  "evidence": [],
+  "links": [],
+  "elapsed_s": 2.108,
+  "status": "computed"
+}

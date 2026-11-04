@@ -1,0 +1,14 @@
+[
+  {
+    "sample_id": "micro_late_up_0164",
+    "batch": "10-14",
+    "cycle": "cycle02",
+    "image_ratio": 1.4298226776616092,
+    "same_variant_min": 1.40551358381671,
+    "same_variant_max": 1.435100491170129,
+    "historical_ratio": 1.4910744024719662,
+    "historical_2d_frame": "098",
+    "historical_1d_frame": "099",
+    "relative_difference": -0.04107891913965611
+  }
+]

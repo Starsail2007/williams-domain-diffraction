@@ -1,0 +1,88 @@
+{
+  "status": "PASS",
+  "id": "104",
+  "case_title": "全204帧候选最多；丰富二维弱点与亮横族，上方激光虚像及边缘非光学信号需要排除；本帧几何引导实际新增1个，不能自动把全部格点填满。",
+  "origin_counts": {
+    "INDEPENDENT_WEAK": 15,
+    "INDEPENDENT_STRONG": 40,
+    "GUIDED_SCREEN_LATTICE_2D": 1
+  },
+  "candidates": 56,
+  "with_quality_flags": 18,
+  "review_required": 17,
+  "candidate_status_counts": {
+    "REVIEW_REQUIRED": 17,
+    "SIGNAL_CANDIDATE": 38,
+    "WEAK_SIGNAL_CANDIDATE": 1
+  },
+  "supplied_human_exclusions": 6,
+  "conditional_edges": [
+    2,
+    3
+  ],
+  "audit_status_counts": {
+    "SAME_OR_UNRESOLVED_MODE": 274,
+    "CONFIRMED_NON_OPTICAL_REVIEW": 31,
+    "FINE_TEXTURE_WITHOUT_COARSE_PEAK": 8,
+    "RESOLVED_CLOSE_PAIR": 6,
+    "MEASURED_BROADBAND_BACKGROUND": 13,
+    "SCREEN_EDGE": 3,
+    "ALREADY_DETECTED_AFTER_LOCALIZATION": 197,
+    "SHAPE_MISMATCH": 25,
+    "SCALE_UNSTABLE_REVIEW": 154,
+    "DETECTED": 16,
+    "INSUFFICIENT_SIGNAL": 43,
+    "UNRESOLVED_SHALLOW_SADDLE": 3,
+    "MODEL_AND_TEMPLATE_TRAINING_INPUTS": 1,
+    "NO_ACCEPTED_LOCAL_MAXIMUM": 67,
+    "SCREEN_EDGE_OR_OUTSIDE": 4,
+    "TRAINING_EVIDENCE_CLOSURE_STABLE": 1
+  },
+  "model_gates": [
+    {
+      "kind": "lattice_2d",
+      "status": "OBSERVED_GEOMETRY",
+      "prediction_enabled": true,
+      "maximum_conditional_loo_fraction": 0.08291387814035052
+    },
+    {
+      "kind": "row",
+      "status": "OBSERVED_GEOMETRY",
+      "prediction_enabled": true,
+      "maximum_conditional_loo_fraction": 0.15618129380313403
+    }
+  ],
+  "elapsed_s": 8.860369250003714,
+  "raw_decoder_used_at_runtime": false,
+  "reference_evaluation": {
+    "status": "PASS",
+    "scope": "regression against accepted v9/v16 coordinates, not detection accuracy against independent human truth",
+    "reference_loaded_after_detection": true,
+    "candidates_found": 56,
+    "reference_candidates": 56,
+    "maximum_coordinate_difference_raw_px": 0.0,
+    "maximum_screen_corner_difference_display_px": 0.0,
+    "prediction_gates": {
+      "lattice_2d": true,
+      "row": true
+    },
+    "reference_prediction_gates": {
+      "lattice_2d": true,
+      "row": true
+    },
+    "model_statuses": {
+      "lattice_2d": "OBSERVED_GEOMETRY",
+      "row": "OBSERVED_GEOMETRY"
+    },
+    "reference_model_statuses": {
+      "lattice_2d": "OBSERVED_GEOMETRY",
+      "row": "OBSERVED_GEOMETRY"
+    },
+    "historical_human_review_summary": "本帧56个候选均已逐项复核；其中24个仍受低信噪比、浅鞍点、光翼或边缘混合限制，逐项原因随表保存。已核对本轮原图、正视标记与峰区对位；未将质量限制改写为已确认独立衍射峰。",
+    "historical_class_counts": {
+      "UNRESOLVED_IMAGE_IDENTITY": 24,
+      "VISIBLE_OPTICAL_SUPPORT": 31,
+      "CONNECTED_OPTICAL_ENVELOPE": 1
+    }
+  }
+}

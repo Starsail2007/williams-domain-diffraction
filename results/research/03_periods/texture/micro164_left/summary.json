@@ -1,0 +1,16 @@
+{
+  "id": "micro164_left",
+  "title": "两方向格纹、谐波与混合峰：检验局部共同支持",
+  "status": "COMPUTED",
+  "quality_status": "RESOLVED_CANDIDATES",
+  "strongest_period_um": 20.17373120293636,
+  "family_period_um": 20.17373120293636,
+  "family_rank": 1,
+  "lower_support_period_um": 20.17373120293636,
+  "family_ambiguous": false,
+  "pair_coverage": 0.9173284876293321,
+  "pair_angle_deg": 87.96652210066897,
+  "jointly_supported_tiles": 3,
+  "spatial_pair_applicable": true,
+  "spatial_pair_supported": true
+}

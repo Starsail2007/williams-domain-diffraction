@@ -1,0 +1,23 @@
+{
+  "step": "photometry.channel",
+  "sequence": 2,
+  "pass_index": 1,
+  "images": [
+    "results/guided/photometry/step_02/array.png"
+  ],
+  "metrics": [
+    [
+      "G1黑电平 / DN",
+      512.0
+    ],
+    [
+      "光斑",
+      "125_audit_p007"
+    ]
+  ],
+  "table": null,
+  "evidence": [],
+  "links": [],
+  "elapsed_s": 4.993,
+  "status": "computed"
+}

@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "reader_result": "周期对应、倍频与组合频率提供结构线索；现有结果仍不能唯一反演取向场。",
+  "illustrative_identity_max_error": 1.1102230246251565e-16,
+  "recomputed_microscopy_lengths_um": {
+    "stripe": 13.923706898052679,
+    "combination": [
+      13.830485723950803,
+      14.330082338893273
+    ]
+  },
+  "material_parameters_fitted": false,
+  "chapter": "discussion",
+  "inputs_and_limits": "Each chapter declares its experiment and input stage; illustrative pixel processing is not a synthetic end-to-end source for the historical model datasets."
+}

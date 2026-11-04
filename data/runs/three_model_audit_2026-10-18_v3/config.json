@@ -1,0 +1,20 @@
+{
+  "analysis_dir": "results/analysis/scan_2026-10-14_audit_v2",
+  "alternative_analysis_dir": "results/analysis/scan_2026-10-14_audit_alternative_v2",
+  "legacy_article_dir": "writing/manuscript/three_model_article_2026-10-12_v01",
+  "legacy_geometry_dir": "results/analysis/two_dimensional_full_pattern_2026-10-12_v2/data",
+  "legacy_bright_dir": "results/analysis/bright_node_article_2026-10-12_v1/data",
+  "measurement_dir": "data/processed/scan_2026-10-14_v2",
+  "font_path": "/System/Library/Fonts/Supplemental/Songti.ttc",
+  "shared_model_minimum_complete_frames": 5,
+  "shared_model_area": "r50",
+  "shared_model_subset": "bright",
+  "shared_model_loss": "Existing equal-frame profiled-shape loss; fixed-six linear signal law. Only frames retaining all six A/B/C nodes train this voltage closure.",
+  "representative_frames": {
+    "cycle01": "010",
+    "cycle02": "103"
+  },
+  "old_data_identity": "Frozen original article values; old results not refitted or overwritten.",
+  "scale_extension": "Compare original linear Q6 with log-quadratic positive envelope (one extra scale coefficient), same complete frames and unchanged phase endpoints. Whole-frame holdout, no held-signal anchor; report each cycle's actual outcome without carrying forward old fit or holdout scores.",
+  "insufficient_complete_frame_policy": "Keep declared minimum 5; report observations and explicit NOT_FITTED status, do not impute or relax eligibility."
+}

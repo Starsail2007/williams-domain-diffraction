@@ -1,0 +1,4430 @@
+[
+  {
+    "u_raw_px": 2853.5445205479455,
+    "v_raw_px": 976.7651087832393,
+    "detection_contrast_DN": 5.06831169128418,
+    "detection_origin": "INDEPENDENT_WEAK",
+    "scale_red_samples": 4,
+    "evidence": {
+      "status": "DETECTED",
+      "contrast_DN": 5.06831169128418,
+      "local_noise_DN": 0.574720011806488,
+      "contrast_to_local_MAD_ratio": 8.818749281677551,
+      "diffraction_shape_NCC": 0.7636258602142334,
+      "prediction_error_raw_px": 0.0,
+      "centroid_shift_raw_px": 2.802371872966017,
+      "localization": "centroid",
+      "background_DN": 15.0,
+      "major_rms_raw_px": 22.293799528230355,
+      "axis_ratio": 1.0484179268863532,
+      "coarse_maximum_distance_raw_px": 12.649110640673518,
+      "template_basis": "INDEPENDENT_OBSERVED",
+      "cfa_background": {
+        "method": "LEAVE_CORE_OUT_LOCAL_CFA_BACKGROUND",
+        "R_contrast_DN": 5.004523754119873,
+        "G_contrast_DN": -0.03646240010857582,
+        "status": "INSUFFICIENT_BROADBAND_EVIDENCE",
+        "green_noise_DN": 0.4736538928985595
+      }
+    },
+    "model_groups": [],
+    "review_flags": [
+      "WEAK_SIGNAL",
+      "OFF_MODEL_REVIEW"
+    ],
+    "physical_order": null,
+    "candidate_status": "REVIEW_REQUIRED",
+    "zero_order_confirmed": false,
+    "edge_distance_raw_px": 375.0713458340328,
+    "final_regional_brightness_prediction": {
+      "method": "LEAVE_ONE_OUT_DIRECTIONAL_REGION_LOG_MEDIAN",
+      "status": "INSUFFICIENT_COMPARABLE_OBSERVATIONS",
+      "radius_mm": 74.57356545365437,
+      "observed_contrast_DN": 5.06831169128418,
+      "interpretation": "regional image evidence; not an order-intensity law",
+      "peer_count": 0,
+      "peer_raw_xy": []
+    },
+    "candidate_uid": "run_108_p001",
+    "label": "001",
+    "X_mm": 47.50532752242951,
+    "Y_mm": 13.35453395775866
+  },
+  {
+    "u_raw_px": 2944.75936153426,
+    "v_raw_px": 1804.937549311161,
+    "detection_contrast_DN": 6.119146347045898,
+    "detection_origin": "INDEPENDENT_WEAK",
+    "scale_red_samples": 4,
+    "evidence": {
+      "status": "DETECTED",
+      "contrast_DN": 6.119146347045898,
+      "local_noise_DN": 0.7721219884872436,
+      "contrast_to_local_MAD_ratio": 7.925103077344875,
+      "diffraction_shape_NCC": 0.7429203987121582,
+      "prediction_error_raw_px": 0.0,
+      "centroid_shift_raw_px": 5.119085554729376,
+      "localization": "centroid",
+      "background_DN": 20.0,
+      "major_rms_raw_px": 22.10604085262465,
+      "axis_ratio": 1.0398963172373352,
+      "coarse_maximum_distance_raw_px": 10.0,
+      "template_basis": "INDEPENDENT_OBSERVED",
+      "cfa_background": {
+        "method": "LEAVE_CORE_OUT_LOCAL_CFA_BACKGROUND",
+        "R_contrast_DN": 5.864612102508545,
+        "G_contrast_DN": 0.9098096489906311,
+        "status": "INSUFFICIENT_BROADBAND_EVIDENCE",
+        "green_noise_DN": 0.5481037210464478
+      }
+    },
+    "model_groups": [],
+    "review_flags": [
+      "WEAK_SIGNAL",
+      "OFF_MODEL_REVIEW"
+    ],
+    "physical_order": null,
+    "candidate_status": "REVIEW_REQUIRED",
+    "zero_order_confirmed": false,
+    "edge_distance_raw_px": 1203.8228752172774,
+    "final_regional_brightness_prediction": {
+      "method": "LEAVE_ONE_OUT_DIRECTIONAL_REGION_LOG_MEDIAN",
+      "status": "WITHIN_BROAD_REGIONAL_RANGE",
+      "radius_mm": 43.38850245847921,
+      "observed_contrast_DN": 6.119146347045898,
+      "interpretation": "regional image evidence; not an order-intensity law",
+      "peer_count": 3,
+      "peer_raw_xy": [
+        [
+          2768.5182987141443,
+          2007.0953511374876
+        ],
+        [
+          3134.3611343079947,
+          2037.1373190153022
+        ],
+        [
+          2589.2001183256916,
+          2246.2286643987572
+        ]
+      ],
+      "predicted_contrast_DN": 7.397684097290038,
+      "lower_contrast_DN": 0.9247105121612549,
+      "upper_contrast_DN": 59.18147277832032,
+      "log_MAD": 0.6034149312790952,
+      "peer_contrasts_DN": [
+        4.924236297607422,
+        31.978029251098633,
+        7.397684097290039
+      ],
+      "observed_to_predicted_ratio": 0.8271705396676101
+    },
+    "candidate_uid": "run_108_p002",
+    "label": "002",
+    "X_mm": 50.991357141801714,
+    "Y_mm": 44.37267665648859
+  },
+  {
+    "u_raw_px": 2768.5182987141443,
+    "v_raw_px": 2007.0953511374876,
+    "detection_contrast_DN": 4.924236297607422,
+    "detection_origin": "INDEPENDENT_WEAK",
+    "scale_red_samples": 4,
+    "evidence": {
+      "status": "DETECTED",
+      "contrast_DN": 4.924236297607422,
+      "local_noise_DN": 0.5119569190979003,
+      "contrast_to_local_MAD_ratio": 9.618458338807551,
+      "diffraction_shape_NCC": 0.7507988214492798,
+      "prediction_error_raw_px": 0.0,
+      "centroid_shift_raw_px": 1.2117869744634058,
+      "localization": "centroid",
+      "background_DN": 15.0,
+      "major_rms_raw_px": 22.489950273469457,
+      "axis_ratio": 1.0471235843216988,
+      "coarse_maximum_distance_raw_px": 4.0,
+      "template_basis": "INDEPENDENT_OBSERVED",
+      "cfa_background": {
+        "method": "LEAVE_CORE_OUT_LOCAL_CFA_BACKGROUND",
+        "R_contrast_DN": 4.873261451721191,
+        "G_contrast_DN": 1.5464929342269897,
+        "status": "INSUFFICIENT_BROADBAND_EVIDENCE",
+        "green_noise_DN": 0.5237348522186279
+      }
+    },
+    "model_groups": [],
+    "review_flags": [
+      "WEAK_SIGNAL",
+      "OFF_MODEL_REVIEW"
+    ],
+    "physical_order": null,
+    "candidate_status": "REVIEW_REQUIRED",
+    "zero_order_confirmed": false,
+    "edge_distance_raw_px": 1251.318496032929,
+    "final_regional_brightness_prediction": {
+      "method": "LEAVE_ONE_OUT_DIRECTIONAL_REGION_LOG_MEDIAN",
+      "status": "WITHIN_BROAD_REGIONAL_RANGE",
+      "radius_mm": 37.85607928881116,
+      "observed_contrast_DN": 4.924236297607422,
+      "interpretation": "regional image evidence; not an order-intensity law",
+      "peer_count": 3,
+      "peer_raw_xy": [
+        [
+          2944.75936153426,
+          1804.937549311161
+        ],
+        [
+          3134.3611343079947,
+          2037.1373190153022
+        ],
+        [
+          2589.2001183256916,
+          2246.2286643987572
+        ]
+      ],
+      "predicted_contrast_DN": 7.397684097290038,
+      "lower_contrast_DN": 0.9247105121612549,
+      "upper_contrast_DN": 59.18147277832032,
+      "log_MAD": 0.2813150331832179,
+      "peer_contrasts_DN": [
+        6.119146347045898,
+        31.978029251098633,
+        7.397684097290039
+      ],
+      "observed_to_predicted_ratio": 0.6656456578635598
+    },
+    "candidate_uid": "run_108_p003",
+    "label": "003",
+    "X_mm": 44.48507149883853,
+    "Y_mm": 51.882292621376514
+  },
+  {
+    "u_raw_px": 3493.42313500453,
+    "v_raw_px": 2004.43295077016,
+    "detection_contrast_DN": 4.323150634765625,
+    "detection_origin": "INDEPENDENT_WEAK",
+    "scale_red_samples": 8,
+    "evidence": {
+      "status": "DETECTED",
+      "contrast_DN": 4.323150634765625,
+      "local_noise_DN": 0.3425611141204834,
+      "contrast_to_local_MAD_ratio": 12.62008574985284,
+      "diffraction_shape_NCC": 0.9161025562474325,
+      "prediction_error_raw_px": 0.0,
+      "centroid_shift_raw_px": 0.7212624989423195,
+      "localization": "centroid",
+      "background_DN": 16.0,
+      "major_rms_raw_px": 22.422002635987663,
+      "axis_ratio": 1.0281251708012855,
+      "coarse_maximum_distance_raw_px": 0.0,
+      "template_basis": "ANALYTIC_GAUSSIAN_PRIOR",
+      "cfa_background": {
+        "method": "LEAVE_CORE_OUT_LOCAL_CFA_BACKGROUND",
+        "R_contrast_DN": 4.817441463470459,
+        "G_contrast_DN": 1.5921885967254639,
+        "status": "INSUFFICIENT_BROADBAND_EVIDENCE",
+        "green_noise_DN": 0.4924307178497314
+      }
+    },
+    "model_groups": [],
+    "review_flags": [
+      "WEAK_SIGNAL",
+      "OFF_MODEL_REVIEW"
+    ],
+    "physical_order": null,
+    "candidate_status": "REVIEW_REQUIRED",
+    "zero_order_confirmed": false,
+    "edge_distance_raw_px": 1181.7652357177735,
+    "brightness_prediction": {
+      "method": "LEAVE_ONE_OUT_DIRECTIONAL_REGION_LOG_MEDIAN",
+      "status": "INSUFFICIENT_COMPARABLE_OBSERVATIONS",
+      "radius_mm": 36.57860675115358,
+      "observed_contrast_DN": 4.323150634765625,
+      "interpretation": "regional image evidence; not an order-intensity law",
+      "peer_count": 2,
+      "peer_raw_xy": [
+        [
+          3134.3611343079947,
+          2037.1373190153022
+        ],
+        [
+          3657.174283744724,
+          2227.5634864005224
+        ]
+      ]
+    },
+    "final_regional_brightness_prediction": {
+      "method": "LEAVE_ONE_OUT_DIRECTIONAL_REGION_LOG_MEDIAN",
+      "status": "INSUFFICIENT_COMPARABLE_OBSERVATIONS",
+      "radius_mm": 36.57860675115358,
+      "observed_contrast_DN": 4.323150634765625,
+      "interpretation": "regional image evidence; not an order-intensity law",
+      "peer_count": 2,
+      "peer_raw_xy": [
+        [
+          3134.3611343079947,
+          2037.1373190153022
+        ],
+        [
+          3657.174283744724,
+          2227.5634864005224
+        ]
+      ]
+    },
+    "candidate_uid": "run_108_p004",
+    "label": "004",
+    "X_mm": 71.97618588996843,
+    "Y_mm": 53.25083967914433
+  },
+  {
+    "u_raw_px": 3134.3611343079947,
+    "v_raw_px": 2037.1373190153022,
+    "detection_contrast_DN": 31.978029251098633,
+    "detection_origin": "INDEPENDENT_STRONG",
+    "scale_red_samples": 4,
+    "evidence": {
+      "centroid_shift_raw_px": 8.870035638312562,
+      "localization": "centroid",
+      "background_DN": 18.0,
+      "major_rms_raw_px": 30.074128163779992,
+      "axis_ratio": 1.0682551629638442,
+      "seed_raw_xy": [
+        3134.0,
+        2046.0
+      ],
+      "seed_contrast_DN": 34.51450729370117,
+      "coarse_maximum_distance_raw_px": 12.0,
+      "localization_seed_raw_xy": [
+        3134.0,
+        2046.0
+      ],
+      "localized_contrast_DN": 31.978029251098633,
+      "cfa_background": {
+        "method": "LEAVE_CORE_OUT_LOCAL_CFA_BACKGROUND",
+        "R_contrast_DN": 31.978029251098633,
+        "G_contrast_DN": 2.27108097076416,
+        "status": "INSUFFICIENT_BROADBAND_EVIDENCE",
+        "green_noise_DN": 0.49585239830017086
+      },
+      "local_noise_DN": 0.6593599436759948,
+      "contrast_to_local_MAD_ratio": 48.49859254843122
+    },
+    "model_groups": [
+      "lattice_2d"
+    ],
+    "review_flags": [],
+    "physical_order": null,
+    "candidate_status": "SIGNAL_CANDIDATE",
+    "zero_order_confirmed": false,
+    "edge_distance_raw_px": 1437.2584628571703,
+    "brightness_prediction": {
+      "method": "LEAVE_ONE_OUT_DIRECTIONAL_REGION_LOG_MEDIAN",
+      "status": "INSUFFICIENT_COMPARABLE_OBSERVATIONS",
+      "radius_mm": 33.34712001492483,
+      "observed_contrast_DN": 31.978029251098633,
+      "interpretation": "regional image evidence; not an order-intensity law",
+      "peer_count": 2,
+      "peer_raw_xy": [
+        [
+          2957.1752487381345,
+          2254.8424900816317
+        ],
+        [
+          3493.42313500453,
+          2004.43295077016
+        ]
+      ]
+    },
+    "final_regional_brightness_prediction": {
+      "method": "LEAVE_ONE_OUT_DIRECTIONAL_REGION_LOG_MEDIAN",
+      "status": "WITHIN_BROAD_REGIONAL_RANGE",
+      "radius_mm": 33.34712001492483,
+      "observed_contrast_DN": 31.978029251098633,
+      "interpretation": "regional image evidence; not an order-intensity law",
+      "peer_count": 5,
+      "peer_raw_xy": [
+        [
+          2944.75936153426,
+          1804.937549311161
+        ],
+        [
+          2768.5182987141443,
+          2007.0953511374876
+        ],
+        [
+          3493.42313500453,
+          2004.43295077016
+        ],
+        [
+          2957.1752487381345,
+          2254.8424900816317
+        ],
+        [
+          3301.9811761272435,
+          2278.346709470305
+        ]
+      ],
+      "predicted_contrast_DN": 6.119146347045899,
+      "lower_contrast_DN": 0.7648932933807375,
+      "upper_contrast_DN": 48.953170776367195,
+      "log_MAD": 0.32209989809587736,
+      "peer_contrasts_DN": [
+        6.119146347045898,
+        4.924236297607422,
+        4.323150634765625,
+        16.877412796020508,
+        6.179416656494141
+      ],
+      "observed_to_predicted_ratio": 5.225897116602949
+    },
+    "candidate_uid": "run_108_p005",
+    "label": "005",
+    "X_mm": 58.20783542090843,
+    "Y_mm": 53.80457212313131
+  },
+  {
+    "u_raw_px": 2589.2001183256916,
+    "v_raw_px": 2246.2286643987572,
+    "detection_contrast_DN": 7.397684097290039,
+    "detection_origin": "INDEPENDENT_WEAK",
+    "scale_red_samples": 4,
+    "evidence": {
+      "status": "DETECTED",
+      "contrast_DN": 7.397684097290039,
+      "local_noise_DN": 0.6020008438110351,
+      "contrast_to_local_MAD_ratio": 12.288494564987907,
+      "diffraction_shape_NCC": 0.7645200610198456,
+      "prediction_error_raw_px": 0.0,
+      "centroid_shift_raw_px": 1.2217083952070669,
+      "localization": "centroid",
+      "background_DN": 16.0,
+      "major_rms_raw_px": 22.60546320885033,
+      "axis_ratio": 1.056838232674275,
+      "coarse_maximum_distance_raw_px": 5.656854249492381,
+      "template_basis": "ANALYTIC_GAUSSIAN_PRIOR",
+      "cfa_background": {
+        "method": "LEAVE_CORE_OUT_LOCAL_CFA_BACKGROUND",
+        "R_contrast_DN": 7.332756519317627,
+        "G_contrast_DN": -0.3569355010986328,
+        "status": "INSUFFICIENT_BROADBAND_EVIDENCE",
+        "green_noise_DN": 0.5184934598922729
+      }
+    },
+    "model_groups": [],
+    "review_flags": [
+      "WEAK_SIGNAL",
+      "OFF_MODEL_REVIEW"
+    ],
+    "physical_order": null,
+    "candidate_status": "REVIEW_REQUIRED",
+    "zero_order_confirmed": false,
+    "edge_distance_raw_px": 1060.6509041602633,
+    "brightness_prediction": {
+      "method": "LEAVE_ONE_OUT_DIRECTIONAL_REGION_LOG_MEDIAN",
+      "status": "INSUFFICIENT_COMPARABLE_OBSERVATIONS",
+      "radius_mm": 33.27438686888117,
+      "observed_contrast_DN": 7.397684097290039,
+      "interpretation": "regional image evidence; not an order-intensity law",
+      "peer_count": 2,
+      "peer_raw_xy": [
+        [
+          2957.1752487381345,
+          2254.8424900816317
+        ],
+        [
+          2434.274446025615,
+          2445.523886968896
+        ]
+      ]
+    },
+    "final_regional_brightness_prediction": {
+      "method": "LEAVE_ONE_OUT_DIRECTIONAL_REGION_LOG_MEDIAN",
+      "status": "WITHIN_BROAD_REGIONAL_RANGE",
+      "radius_mm": 33.27438686888117,
+      "observed_contrast_DN": 7.397684097290039,
+      "interpretation": "regional image evidence; not an order-intensity law",
+      "peer_count": 4,
+      "peer_raw_xy": [
+        [
+          2944.75936153426,
+          1804.937549311161
+        ],
+        [
+          2768.5182987141443,
+          2007.0953511374876
+        ],
+        [
+          2957.1752487381345,
+          2254.8424900816317
+        ],
+        [
+          2434.274446025615,
+          2445.523886968896
+        ]
+      ],
+      "predicted_contrast_DN": 6.8085364092318805,
+      "lower_contrast_DN": 0.8510670511539853,
+      "upper_contrast_DN": 54.46829127385504,
+      "log_MAD": 0.3193242866340446,
+      "peer_contrasts_DN": [
+        6.119146347045898,
+        4.924236297607422,
+        16.877412796020508,
+        7.575593948364258
+      ],
+      "observed_to_predicted_ratio": 1.086530739155528
+    },
+    "candidate_uid": "run_108_p006",
+    "label": "006",
+    "X_mm": 37.83090175710774,
+    "Y_mm": 60.87012348715558
+  },
+  {
+    "u_raw_px": 2957.1752487381345,
+    "v_raw_px": 2254.8424900816317,
+    "detection_contrast_DN": 16.877412796020508,
+    "detection_origin": "INDEPENDENT_STRONG",
+    "scale_red_samples": 4,
+    "evidence": {
+      "centroid_shift_raw_px": 5.904485529301886,
+      "localization": "centroid",
+      "background_DN": 16.0,
+      "major_rms_raw_px": 29.716795744893908,
+      "axis_ratio": 1.0296589290778533,
+      "seed_raw_xy": [
+        2952.0,
+        2252.0
+      ],
+      "seed_contrast_DN": 17.35344886779785,
+      "coarse_maximum_distance_raw_px": 7.211102550927978,
+      "localization_seed_raw_xy": [
+        2952.0,
+        2252.0
+      ],
+      "localized_contrast_DN": 16.877412796020508,
+      "cfa_background": {
+        "method": "LEAVE_CORE_OUT_LOCAL_CFA_BACKGROUND",
+        "R_contrast_DN": 16.877412796020508,
+        "G_contrast_DN": 1.2550582885742188,
+        "status": "INSUFFICIENT_BROADBAND_EVIDENCE",
+        "green_noise_DN": 0.45420969886779783
+      },
+      "local_noise_DN": 0.6110401953935622,
+      "contrast_to_local_MAD_ratio": 27.620789799515574
+    },
+    "model_groups": [
+      "lattice_2d"
+    ],
+    "review_flags": [],
+    "physical_order": null,
+    "candidate_status": "SIGNAL_CANDIDATE",
+    "zero_order_confirmed": false,
+    "edge_distance_raw_px": 1363.0714790388995,
+    "brightness_prediction": {
+      "method": "LEAVE_ONE_OUT_DIRECTIONAL_REGION_LOG_MEDIAN",
+      "status": "WITHIN_BROAD_REGIONAL_RANGE",
+      "radius_mm": 25.95023464995312,
+      "observed_contrast_DN": 16.877412796020508,
+      "interpretation": "regional image evidence; not an order-intensity law",
+      "peer_count": 3,
+      "peer_raw_xy": [
+        [
+          2778.4696809110383,
+          2462.9915586123952
+        ],
+        [
+          3134.3611343079947,
+          2037.1373190153022
+        ],
+        [
+          2589.2001183256916,
+          2246.2286643987572
+        ]
+      ],
+      "predicted_contrast_DN": 31.978029251098633,
+      "lower_contrast_DN": 0.7047197054468043,
+      "upper_contrast_DN": 1451.0653624135243,
+      "log_MAD": 1.2716680724137184,
+      "peer_contrasts_DN": [
+        75.39775085449219,
+        31.978029251098633,
+        7.397684097290039
+      ],
+      "observed_to_predicted_ratio": 0.5277815172253203,
+      "opposite_measured_raw_xy": [
+        3269.9600232055272,
+        3397.940017228346
+      ],
+      "opposite_position_residual_mm": 1.0524324723498002
+    },
+    "final_regional_brightness_prediction": {
+      "method": "LEAVE_ONE_OUT_DIRECTIONAL_REGION_LOG_MEDIAN",
+      "status": "WITHIN_BROAD_REGIONAL_RANGE",
+      "radius_mm": 25.95023464995312,
+      "observed_contrast_DN": 16.877412796020508,
+      "interpretation": "regional image evidence; not an order-intensity law",
+      "peer_count": 3,
+      "peer_raw_xy": [
+        [
+          3134.3611343079947,
+          2037.1373190153022
+        ],
+        [
+          2589.2001183256916,
+          2246.2286643987572
+        ],
+        [
+          2778.4696809110383,
+          2462.9915586123952
+        ]
+      ],
+      "predicted_contrast_DN": 31.978029251098633,
+      "lower_contrast_DN": 0.7047197054468043,
+      "upper_contrast_DN": 1451.0653624135243,
+      "log_MAD": 1.2716680724137184,
+      "peer_contrasts_DN": [
+        31.978029251098633,
+        7.397684097290039,
+        75.39775085449219
+      ],
+      "observed_to_predicted_ratio": 0.5277815172253203,
+      "opposite_measured_raw_xy": [
+        3269.9600232055272,
+        3397.940017228346
+      ],
+      "opposite_position_residual_mm": 1.0524324723498002
+    },
+    "candidate_uid": "run_108_p007",
+    "label": "007",
+    "X_mm": 51.58281819679389,
+    "Y_mm": 62.06944687163746
+  },
+  {
+    "u_raw_px": 3301.9811761272435,
+    "v_raw_px": 2278.346709470305,
+    "detection_contrast_DN": 6.179416656494141,
+    "detection_origin": "INDEPENDENT_WEAK",
+    "scale_red_samples": 4,
+    "evidence": {
+      "status": "DETECTED",
+      "contrast_DN": 6.179416656494141,
+      "local_noise_DN": 0.6823382246017455,
+      "contrast_to_local_MAD_ratio": 9.056236971189511,
+      "diffraction_shape_NCC": 0.8293558955192566,
+      "prediction_error_raw_px": 0.0,
+      "centroid_shift_raw_px": 0.34722009588269037,
+      "localization": "centroid",
+      "background_DN": 19.0,
+      "major_rms_raw_px": 22.453891261318763,
+      "axis_ratio": 1.0369120847540967,
+      "coarse_maximum_distance_raw_px": 10.770329614269007,
+      "template_basis": "INDEPENDENT_OBSERVED",
+      "cfa_background": {
+        "method": "LEAVE_CORE_OUT_LOCAL_CFA_BACKGROUND",
+        "R_contrast_DN": 6.178426742553711,
+        "G_contrast_DN": 0.7512831687927246,
+        "status": "INSUFFICIENT_BROADBAND_EVIDENCE",
+        "green_noise_DN": 0.4384869358062744
+      }
+    },
+    "model_groups": [],
+    "review_flags": [
+      "WEAK_SIGNAL",
+      "OFF_MODEL_REVIEW"
+    ],
+    "physical_order": null,
+    "candidate_status": "REVIEW_REQUIRED",
+    "zero_order_confirmed": false,
+    "edge_distance_raw_px": 1304.4499909061,
+    "final_regional_brightness_prediction": {
+      "method": "LEAVE_ONE_OUT_DIRECTIONAL_REGION_LOG_MEDIAN",
+      "status": "WITHIN_BROAD_REGIONAL_RANGE",
+      "radius_mm": 24.21247717846641,
+      "observed_contrast_DN": 6.179416656494141,
+      "interpretation": "regional image evidence; not an order-intensity law",
+      "peer_count": 3,
+      "peer_raw_xy": [
+        [
+          3134.3611343079947,
+          2037.1373190153022
+        ],
+        [
+          3657.174283744724,
+          2227.5634864005224
+        ],
+        [
+          3471.6341820150196,
+          2445.0976671961243
+        ]
+      ],
+      "predicted_contrast_DN": 31.978029251098633,
+      "lower_contrast_DN": 3.9972536563873295,
+      "upper_contrast_DN": 255.824234008789,
+      "log_MAD": 0.05075920770045485,
+      "peer_contrasts_DN": [
+        31.978029251098633,
+        30.9017391204834,
+        210.8327178955078
+      ],
+      "observed_to_predicted_ratio": 0.193239445994998,
+      "opposite_measured_raw_xy": [
+        2948.2212249741224,
+        3416.5730137090054
+      ],
+      "opposite_position_residual_mm": 0.27883870924102544
+    },
+    "candidate_uid": "run_108_p008",
+    "label": "008",
+    "X_mm": 64.8077440807631,
+    "Y_mm": 63.84744340001486
+  },
+  {
+    "u_raw_px": 3657.174283744724,
+    "v_raw_px": 2227.5634864005224,
+    "detection_contrast_DN": 30.9017391204834,
+    "detection_origin": "INDEPENDENT_STRONG",
+    "scale_red_samples": 4,
+    "evidence": {
+      "centroid_shift_raw_px": 3.229421322768034,
+      "localization": "centroid",
+      "background_DN": 19.0,
+      "major_rms_raw_px": 31.007504482993156,
+      "axis_ratio": 1.1258717028522638,
+      "seed_raw_xy": [
+        3660.0,
+        2226.0
+      ],
+      "seed_contrast_DN": 31.077428817749023,
+      "coarse_maximum_distance_raw_px": 2.8284271247461903,
+      "localization_seed_raw_xy": [
+        3660.0,
+        2226.0
+      ],
+      "localized_contrast_DN": 30.9017391204834,
+      "cfa_background": {
+        "method": "LEAVE_CORE_OUT_LOCAL_CFA_BACKGROUND",
+        "R_contrast_DN": 30.9017391204834,
+        "G_contrast_DN": 4.950541019439697,
+        "status": "INSUFFICIENT_BROADBAND_EVIDENCE",
+        "green_noise_DN": 0.515104299545288,
+        "annular_R_per_G": 2.7239405696370587,
+        "annular_texture_correlation": 0.5973999847138252,
+        "annular_residual_MAD_DN": 2.8256952508961732,
+        "predicted_broadband_R_DN": 12.447104249596858,
+        "red_excess_DN": 18.45463487088654,
+        "training_samples": 13441
+      },
+      "local_noise_DN": 0.6652789117991924,
+      "contrast_to_local_MAD_ratio": 46.44929904197951
+    },
+    "model_groups": [
+      "lattice_2d"
+    ],
+    "review_flags": [],
+    "physical_order": null,
+    "candidate_status": "SIGNAL_CANDIDATE",
+    "zero_order_confirmed": false,
+    "edge_distance_raw_px": 1001.8538244102213,
+    "brightness_prediction": {
+      "method": "LEAVE_ONE_OUT_DIRECTIONAL_REGION_LOG_MEDIAN",
+      "status": "INSUFFICIENT_COMPARABLE_OBSERVATIONS",
+      "radius_mm": 31.91520397529135,
+      "observed_contrast_DN": 30.9017391204834,
+      "interpretation": "regional image evidence; not an order-intensity law",
+      "peer_count": 2,
+      "peer_raw_xy": [
+        [
+          3818.2130234809974,
+          2432.090147664004
+        ],
+        [
+          3493.42313500453,
+          2004.43295077016
+        ]
+      ]
+    },
+    "final_regional_brightness_prediction": {
+      "method": "LEAVE_ONE_OUT_DIRECTIONAL_REGION_LOG_MEDIAN",
+      "status": "WITHIN_BROAD_REGIONAL_RANGE",
+      "radius_mm": 31.91520397529135,
+      "observed_contrast_DN": 30.9017391204834,
+      "interpretation": "regional image evidence; not an order-intensity law",
+      "peer_count": 3,
+      "peer_raw_xy": [
+        [
+          3493.42313500453,
+          2004.43295077016
+        ],
+        [
+          3301.9811761272435,
+          2278.346709470305
+        ],
+        [
+          3818.2130234809974,
+          2432.090147664004
+        ]
+      ],
+      "predicted_contrast_DN": 6.179416656494141,
+      "lower_contrast_DN": 0.7724270820617677,
+      "upper_contrast_DN": 49.43533325195312,
+      "log_MAD": 0.5296431712412231,
+      "peer_contrasts_DN": [
+        4.323150634765625,
+        6.179416656494141,
+        11.488441467285156
+      ],
+      "observed_to_predicted_ratio": 5.000753442965818,
+      "opposite_measured_raw_xy": [
+        2609.2250446969606,
+        3441.9380602119054
+      ],
+      "opposite_position_residual_mm": 1.3458090277976054
+    },
+    "candidate_uid": "run_108_p009",
+    "label": "009",
+    "X_mm": 78.68657690958057,
+    "Y_mm": 62.64757596695056
+  },
+  {
+    "u_raw_px": 2434.274446025615,
+    "v_raw_px": 2445.523886968896,
+    "detection_contrast_DN": 7.575593948364258,
+    "detection_origin": "INDEPENDENT_WEAK",
+    "scale_red_samples": 4,
+    "evidence": {
+      "status": "DETECTED",
+      "contrast_DN": 7.575593948364258,
+      "local_noise_DN": 0.6040877861022949,
+      "contrast_to_local_MAD_ratio": 12.540551427539414,
+      "diffraction_shape_NCC": 0.8009263095008301,
+      "prediction_error_raw_px": 0.0,
+      "centroid_shift_raw_px": 2.3021225016248152,
+      "localization": "centroid",
+      "background_DN": 17.0,
+      "major_rms_raw_px": 23.008563700599442,
+      "axis_ratio": 1.1150827331209605,
+      "coarse_maximum_distance_raw_px": 10.0,
+      "template_basis": "ANALYTIC_GAUSSIAN_PRIOR",
+      "cfa_background": {
+        "method": "LEAVE_CORE_OUT_LOCAL_CFA_BACKGROUND",
+        "R_contrast_DN": 7.538081645965576,
+        "G_contrast_DN": 1.0629327297210693,
+        "status": "INSUFFICIENT_BROADBAND_EVIDENCE",
+        "green_noise_DN": 0.5318083213806152
+      }
+    },
+    "model_groups": [],
+    "review_flags": [
+      "WEAK_SIGNAL",
+      "OFF_MODEL_REVIEW"
+    ],
+    "physical_order": null,
+    "candidate_status": "REVIEW_REQUIRED",
+    "zero_order_confirmed": false,
+    "edge_distance_raw_px": 896.2728109677429,
+    "brightness_prediction": {
+      "method": "LEAVE_ONE_OUT_DIRECTIONAL_REGION_LOG_MEDIAN",
+      "status": "INSUFFICIENT_COMPARABLE_OBSERVATIONS",
+      "radius_mm": 32.21426028611335,
+      "observed_contrast_DN": 7.575593948364258,
+      "interpretation": "regional image evidence; not an order-intensity law",
+      "peer_count": 2,
+      "peer_raw_xy": [
+        [
+          2300.0647671811107,
+          2804.0635536208943
+        ],
+        [
+          2589.2001183256916,
+          2246.2286643987572
+        ]
+      ]
+    },
+    "final_regional_brightness_prediction": {
+      "method": "LEAVE_ONE_OUT_DIRECTIONAL_REGION_LOG_MEDIAN",
+      "status": "INSUFFICIENT_COMPARABLE_OBSERVATIONS",
+      "radius_mm": 32.21426028611335,
+      "observed_contrast_DN": 7.575593948364258,
+      "interpretation": "regional image evidence; not an order-intensity law",
+      "peer_count": 2,
+      "peer_raw_xy": [
+        [
+          2589.2001183256916,
+          2246.2286643987572
+        ],
+        [
+          2300.0647671811107,
+          2804.0635536208943
+        ]
+      ]
+    },
+    "candidate_uid": "run_108_p010",
+    "label": "010",
+    "X_mm": 32.0499668122872,
+    "Y_mm": 68.39198268475617
+  },
+  {
+    "u_raw_px": 3471.6341820150196,
+    "v_raw_px": 2445.0976671961243,
+    "detection_contrast_DN": 210.8327178955078,
+    "detection_origin": "INDEPENDENT_STRONG",
+    "scale_red_samples": 4,
+    "evidence": {
+      "centroid_shift_raw_px": 5.167534980836505,
+      "localization": "centroid",
+      "background_DN": 24.0,
+      "major_rms_raw_px": 28.175995047043074,
+      "axis_ratio": 1.1488827448101282,
+      "seed_raw_xy": [
+        3470.0,
+        2450.0
+      ],
+      "seed_contrast_DN": 214.7161865234375,
+      "coarse_maximum_distance_raw_px": 6.0,
+      "localization_seed_raw_xy": [
+        3470.0,
+        2450.0
+      ],
+      "localized_contrast_DN": 210.8327178955078,
+      "cfa_background": {
+        "method": "LEAVE_CORE_OUT_LOCAL_CFA_BACKGROUND",
+        "R_contrast_DN": 210.8327178955078,
+        "G_contrast_DN": 26.823009490966797,
+        "status": "INSUFFICIENT_BROADBAND_EVIDENCE",
+        "green_noise_DN": 0.5363950698852539,
+        "annular_R_per_G": 6.97055190730655,
+        "annular_texture_correlation": 0.9131375475162132,
+        "annular_residual_MAD_DN": 5.695763339044065,
+        "predicted_broadband_R_DN": 184.4004067866671,
+        "red_excess_DN": 26.432311108840707,
+        "training_samples": 13438
+      },
+      "local_noise_DN": 1.070307300567627,
+      "contrast_to_local_MAD_ratio": 196.98335028051736
+    },
+    "model_groups": [
+      "lattice_2d"
+    ],
+    "review_flags": [],
+    "physical_order": null,
+    "candidate_status": "SIGNAL_CANDIDATE",
+    "zero_order_confirmed": false,
+    "edge_distance_raw_px": 1121.233045051259,
+    "brightness_prediction": {
+      "method": "LEAVE_ONE_OUT_DIRECTIONAL_REGION_LOG_MEDIAN",
+      "status": "INSUFFICIENT_COMPARABLE_OBSERVATIONS",
+      "radius_mm": 20.876931762729892,
+      "observed_contrast_DN": 210.8327178955078,
+      "interpretation": "regional image evidence; not an order-intensity law",
+      "peer_count": 1,
+      "peer_raw_xy": [
+        [
+          3818.2130234809974,
+          2432.090147664004
+        ]
+      ]
+    },
+    "final_regional_brightness_prediction": {
+      "method": "LEAVE_ONE_OUT_DIRECTIONAL_REGION_LOG_MEDIAN",
+      "status": "BRIGHT_REGION_WITH_OPPOSITE_MEASURED_SUPPORT",
+      "radius_mm": 20.876931762729892,
+      "observed_contrast_DN": 210.8327178955078,
+      "interpretation": "regional image evidence; not an order-intensity law",
+      "peer_count": 3,
+      "peer_raw_xy": [
+        [
+          3301.9811761272435,
+          2278.346709470305
+        ],
+        [
+          3818.2130234809974,
+          2432.090147664004
+        ],
+        [
+          3621.5333375148966,
+          2623.852850780907
+        ]
+      ],
+      "predicted_contrast_DN": 6.315080642700195,
+      "lower_contrast_DN": 0.7893850803375245,
+      "upper_contrast_DN": 50.52064514160154,
+      "log_MAD": 0.03219710659969052,
+      "peer_contrasts_DN": [
+        6.179416656494141,
+        11.488441467285156,
+        6.315080642700195
+      ],
+      "observed_to_predicted_ratio": 33.38559391782528,
+      "opposite_measured_raw_xy": [
+        2783.761440578156,
+        3246.3297733184318
+      ],
+      "opposite_position_residual_mm": 0.574517032952466
+    },
+    "candidate_uid": "run_108_p011",
+    "label": "011",
+    "X_mm": 71.612322185303,
+    "Y_mm": 71.12096866204047
+  },
+  {
+    "u_raw_px": 3818.2130234809974,
+    "v_raw_px": 2432.090147664004,
+    "detection_contrast_DN": 11.488441467285156,
+    "detection_origin": "INDEPENDENT_WEAK",
+    "scale_red_samples": 4,
+    "evidence": {
+      "status": "DETECTED",
+      "contrast_DN": 11.488441467285156,
+      "local_noise_DN": 0.6006236881256103,
+      "contrast_to_local_MAD_ratio": 19.127519767223273,
+      "diffraction_shape_NCC": 0.7531625681937213,
+      "prediction_error_raw_px": 0.0,
+      "centroid_shift_raw_px": 1.9216958523050631,
+      "localization": "centroid",
+      "background_DN": 19.0,
+      "major_rms_raw_px": 21.86172930706931,
+      "axis_ratio": 1.024896180014893,
+      "coarse_maximum_distance_raw_px": 8.0,
+      "template_basis": "ANALYTIC_GAUSSIAN_PRIOR",
+      "cfa_background": {
+        "method": "LEAVE_CORE_OUT_LOCAL_CFA_BACKGROUND",
+        "R_contrast_DN": 11.468267440795898,
+        "G_contrast_DN": 2.2839386463165283,
+        "status": "INSUFFICIENT_BROADBAND_EVIDENCE",
+        "green_noise_DN": 0.5023762138366699
+      }
+    },
+    "model_groups": [],
+    "review_flags": [
+      "WEAK_SIGNAL",
+      "OFF_MODEL_REVIEW"
+    ],
+    "physical_order": null,
+    "candidate_status": "REVIEW_REQUIRED",
+    "zero_order_confirmed": false,
+    "edge_distance_raw_px": 826.0325716331056,
+    "brightness_prediction": {
+      "method": "LEAVE_ONE_OUT_DIRECTIONAL_REGION_LOG_MEDIAN",
+      "status": "INSUFFICIENT_COMPARABLE_OBSERVATIONS",
+      "radius_mm": 31.378409346631123,
+      "observed_contrast_DN": 11.488441467285156,
+      "interpretation": "regional image evidence; not an order-intensity law",
+      "peer_count": 2,
+      "peer_raw_xy": [
+        [
+          3888.8056942563753,
+          2778.766354942451
+        ],
+        [
+          3657.174283744724,
+          2227.5634864005224
+        ]
+      ]
+    },
+    "final_regional_brightness_prediction": {
+      "method": "LEAVE_ONE_OUT_DIRECTIONAL_REGION_LOG_MEDIAN",
+      "status": "INSUFFICIENT_COMPARABLE_OBSERVATIONS",
+      "radius_mm": 31.378409346631123,
+      "observed_contrast_DN": 11.488441467285156,
+      "interpretation": "regional image evidence; not an order-intensity law",
+      "peer_count": 2,
+      "peer_raw_xy": [
+        [
+          3657.174283744724,
+          2227.5634864005224
+        ],
+        [
+          3888.8056942563753,
+          2778.766354942451
+        ]
+      ]
+    },
+    "candidate_uid": "run_108_p012",
+    "label": "012",
+    "X_mm": 85.45649812262165,
+    "Y_mm": 71.53828641348413
+  },
+  {
+    "u_raw_px": 2778.4696809110383,
+    "v_raw_px": 2462.9915586123952,
+    "detection_contrast_DN": 75.39775085449219,
+    "detection_origin": "INDEPENDENT_STRONG",
+    "scale_red_samples": 4,
+    "evidence": {
+      "centroid_shift_raw_px": 1.112454129583853,
+      "localization": "centroid",
+      "background_DN": 18.0,
+      "major_rms_raw_px": 29.134711553809428,
+      "axis_ratio": 1.1407844158672735,
+      "seed_raw_xy": [
+        2778.0,
+        2464.0
+      ],
+      "seed_contrast_DN": 75.69993591308594,
+      "coarse_maximum_distance_raw_px": 2.0,
+      "localization_seed_raw_xy": [
+        2778.0,
+        2464.0
+      ],
+      "localized_contrast_DN": 75.39775085449219,
+      "cfa_background": {
+        "method": "LEAVE_CORE_OUT_LOCAL_CFA_BACKGROUND",
+        "R_contrast_DN": 75.39775085449219,
+        "G_contrast_DN": 7.926898956298828,
+        "status": "INSUFFICIENT_BROADBAND_EVIDENCE",
+        "green_noise_DN": 0.4722357336044311,
+        "annular_R_per_G": 3.1515109128935967,
+        "annular_texture_correlation": 0.6884584378184352,
+        "annular_residual_MAD_DN": 2.9187011858507246,
+        "predicted_broadband_R_DN": 22.695237536552558,
+        "red_excess_DN": 52.70251331793963,
+        "training_samples": 13438
+      },
+      "local_noise_DN": 0.6739515727043152,
+      "contrast_to_local_MAD_ratio": 111.87413741309226
+    },
+    "model_groups": [
+      "lattice_2d"
+    ],
+    "review_flags": [],
+    "physical_order": null,
+    "candidate_status": "SIGNAL_CANDIDATE",
+    "zero_order_confirmed": false,
+    "edge_distance_raw_px": 1174.276884050434,
+    "brightness_prediction": {
+      "method": "LEAVE_ONE_OUT_DIRECTIONAL_REGION_LOG_MEDIAN",
+      "status": "WITHIN_BROAD_REGIONAL_RANGE",
+      "radius_mm": 21.75897682742116,
+      "observed_contrast_DN": 75.39775085449219,
+      "interpretation": "regional image evidence; not an order-intensity law",
+      "peer_count": 3,
+      "peer_raw_xy": [
+        [
+          2604.558930252998,
+          2677.220691819951
+        ],
+        [
+          2957.1752487381345,
+          2254.8424900816317
+        ],
+        [
+          2434.274446025615,
+          2445.523886968896
+        ]
+      ],
+      "predicted_contrast_DN": 16.877412796020508,
+      "lower_contrast_DN": 0.47859081441021695,
+      "upper_contrast_DN": 595.1787082213497,
+      "log_MAD": 1.1876285011195622,
+      "peer_contrasts_DN": [
+        49.43736267089844,
+        16.877412796020508,
+        7.575593948364258
+      ],
+      "observed_to_predicted_ratio": 4.467376117758409,
+      "opposite_measured_raw_xy": [
+        3446.3094494169222,
+        3202.542680523376
+      ],
+      "opposite_position_residual_mm": 0.9713515120631291
+    },
+    "final_regional_brightness_prediction": {
+      "method": "LEAVE_ONE_OUT_DIRECTIONAL_REGION_LOG_MEDIAN",
+      "status": "WITHIN_BROAD_REGIONAL_RANGE",
+      "radius_mm": 21.75897682742116,
+      "observed_contrast_DN": 75.39775085449219,
+      "interpretation": "regional image evidence; not an order-intensity law",
+      "peer_count": 3,
+      "peer_raw_xy": [
+        [
+          2957.1752487381345,
+          2254.8424900816317
+        ],
+        [
+          2434.274446025615,
+          2445.523886968896
+        ],
+        [
+          2604.558930252998,
+          2677.220691819951
+        ]
+      ],
+      "predicted_contrast_DN": 16.877412796020508,
+      "lower_contrast_DN": 0.47859081441021695,
+      "upper_contrast_DN": 595.1787082213497,
+      "log_MAD": 1.1876285011195622,
+      "peer_contrasts_DN": [
+        16.877412796020508,
+        7.575593948364258,
+        49.43736267089844
+      ],
+      "observed_to_predicted_ratio": 4.467376117758409,
+      "opposite_measured_raw_xy": [
+        3446.3094494169222,
+        3202.542680523376
+      ],
+      "opposite_position_residual_mm": 0.9713515120631291
+    },
+    "candidate_uid": "run_108_p013",
+    "label": "013",
+    "X_mm": 44.866196770911536,
+    "Y_mm": 69.98665292003074
+  },
+  {
+    "u_raw_px": 3130.5389392822153,
+    "v_raw_px": 2462.0408791606837,
+    "detection_contrast_DN": 584.014404296875,
+    "detection_origin": "INDEPENDENT_STRONG",
+    "scale_red_samples": 4,
+    "evidence": {
+      "centroid_shift_raw_px": 4.976661286058416,
+      "localization": "centroid",
+      "background_DN": 28.0,
+      "major_rms_raw_px": 26.454994413403746,
+      "axis_ratio": 1.0902192449640193,
+      "seed_raw_xy": [
+        3126.0,
+        2460.0
+      ],
+      "seed_contrast_DN": 592.8577880859375,
+      "coarse_maximum_distance_raw_px": 4.0,
+      "localization_seed_raw_xy": [
+        3126.0,
+        2460.0
+      ],
+      "localized_contrast_DN": 584.014404296875,
+      "cfa_background": {
+        "method": "LEAVE_CORE_OUT_LOCAL_CFA_BACKGROUND",
+        "R_contrast_DN": 584.014404296875,
+        "G_contrast_DN": 73.31646728515625,
+        "status": "INSUFFICIENT_BROADBAND_EVIDENCE",
+        "green_noise_DN": 0.6917846076965332,
+        "annular_R_per_G": 7.55684700068089,
+        "annular_texture_correlation": 0.9678723594009675,
+        "annular_residual_MAD_DN": 6.1634745462902565,
+        "predicted_broadband_R_DN": 551.3264893909679,
+        "red_excess_DN": 32.687914905907064,
+        "training_samples": 13427
+      },
+      "local_noise_DN": 1.8271423660755157,
+      "contrast_to_local_MAD_ratio": 319.63267621628654
+    },
+    "model_groups": [
+      "lattice_2d"
+    ],
+    "review_flags": [],
+    "physical_order": null,
+    "candidate_status": "SIGNAL_CANDIDATE",
+    "zero_order_confirmed": false,
+    "edge_distance_raw_px": 1139.2398483480642,
+    "brightness_prediction": {
+      "method": "LEAVE_ONE_OUT_DIRECTIONAL_REGION_LOG_MEDIAN",
+      "status": "INSUFFICIENT_COMPARABLE_OBSERVATIONS",
+      "radius_mm": 16.262774191790406,
+      "observed_contrast_DN": 584.014404296875,
+      "interpretation": "regional image evidence; not an order-intensity law",
+      "peer_count": 1,
+      "peer_raw_xy": [
+        [
+          2957.1752487381345,
+          2254.8424900816317
+        ]
+      ]
+    },
+    "final_regional_brightness_prediction": {
+      "method": "LEAVE_ONE_OUT_DIRECTIONAL_REGION_LOG_MEDIAN",
+      "status": "INSUFFICIENT_COMPARABLE_OBSERVATIONS",
+      "radius_mm": 16.262774191790406,
+      "observed_contrast_DN": 584.014404296875,
+      "interpretation": "regional image evidence; not an order-intensity law",
+      "peer_count": 2,
+      "peer_raw_xy": [
+        [
+          2957.1752487381345,
+          2254.8424900816317
+        ],
+        [
+          3301.9811761272435,
+          2278.346709470305
+        ]
+      ]
+    },
+    "candidate_uid": "run_108_p014",
+    "label": "014",
+    "X_mm": 58.2999396287079,
+    "Y_mm": 70.88902052231333
+  },
+  {
+    "u_raw_px": 2604.558930252998,
+    "v_raw_px": 2677.220691819951,
+    "detection_contrast_DN": 49.43736267089844,
+    "detection_origin": "INDEPENDENT_STRONG",
+    "scale_red_samples": 4,
+    "evidence": {
+      "centroid_shift_raw_px": 2.834952731070524,
+      "localization": "centroid",
+      "background_DN": 21.0,
+      "major_rms_raw_px": 30.21512820531677,
+      "axis_ratio": 1.2614553969941869,
+      "seed_raw_xy": [
+        2604.0,
+        2680.0
+      ],
+      "seed_contrast_DN": 49.56624221801758,
+      "coarse_maximum_distance_raw_px": 8.246211251235321,
+      "localization_seed_raw_xy": [
+        2604.0,
+        2680.0
+      ],
+      "localized_contrast_DN": 49.43736267089844,
+      "cfa_background": {
+        "method": "LEAVE_CORE_OUT_LOCAL_CFA_BACKGROUND",
+        "R_contrast_DN": 49.43736267089844,
+        "G_contrast_DN": 6.884954452514648,
+        "status": "INSUFFICIENT_BROADBAND_EVIDENCE",
+        "green_noise_DN": 0.5571570350646973,
+        "annular_R_per_G": 5.4312380604013075,
+        "annular_texture_correlation": 0.9068754190579501,
+        "annular_residual_MAD_DN": 5.035871003346628,
+        "predicted_broadband_R_DN": 33.88986868099131,
+        "red_excess_DN": 15.547493989907125,
+        "training_samples": 13431
+      },
+      "local_noise_DN": 0.8905327222466468,
+      "contrast_to_local_MAD_ratio": 55.51436958563101
+    },
+    "model_groups": [
+      "lattice_2d"
+    ],
+    "review_flags": [],
+    "physical_order": null,
+    "candidate_status": "SIGNAL_CANDIDATE",
+    "zero_order_confirmed": false,
+    "edge_distance_raw_px": 978.9437729217929,
+    "brightness_prediction": {
+      "method": "LEAVE_ONE_OUT_DIRECTIONAL_REGION_LOG_MEDIAN",
+      "status": "WITHIN_BROAD_REGIONAL_RANGE",
+      "radius_mm": 21.856228247274807,
+      "observed_contrast_DN": 49.43736267089844,
+      "interpretation": "regional image evidence; not an order-intensity law",
+      "peer_count": 5,
+      "peer_raw_xy": [
+        [
+          2718.0,
+          2814.0
+        ],
+        [
+          2353.0603599616434,
+          2952.995411964299
+        ],
+        [
+          2778.4696809110383,
+          2462.9915586123952
+        ],
+        [
+          2300.0647671811107,
+          2804.0635536208943
+        ],
+        [
+          2434.274446025615,
+          2445.523886968896
+        ]
+      ],
+      "predicted_contrast_DN": 75.39775085449222,
+      "lower_contrast_DN": 0.46446957002208883,
+      "upper_contrast_DN": 12239.382729950918,
+      "log_MAD": 1.6965455597273684,
+      "peer_contrasts_DN": [
+        296.09698486328125,
+        236.7682342529297,
+        75.39775085449219,
+        39.56654357910156,
+        7.575593948364258
+      ],
+      "observed_to_predicted_ratio": 0.6556874987730877
+    },
+    "final_regional_brightness_prediction": {
+      "method": "LEAVE_ONE_OUT_DIRECTIONAL_REGION_LOG_MEDIAN",
+      "status": "WITHIN_BROAD_REGIONAL_RANGE",
+      "radius_mm": 21.856228247274807,
+      "observed_contrast_DN": 49.43736267089844,
+      "interpretation": "regional image evidence; not an order-intensity law",
+      "peer_count": 5,
+      "peer_raw_xy": [
+        [
+          2434.274446025615,
+          2445.523886968896
+        ],
+        [
+          2778.4696809110383,
+          2462.9915586123952
+        ],
+        [
+          2300.0647671811107,
+          2804.0635536208943
+        ],
+        [
+          2718.0,
+          2814.0
+        ],
+        [
+          2353.0603599616434,
+          2952.995411964299
+        ]
+      ],
+      "predicted_contrast_DN": 75.39775085449222,
+      "lower_contrast_DN": 0.46446957002208883,
+      "upper_contrast_DN": 12239.382729950918,
+      "log_MAD": 1.6965455597273684,
+      "peer_contrasts_DN": [
+        7.575593948364258,
+        75.39775085449219,
+        39.56654357910156,
+        296.09698486328125,
+        236.7682342529297
+      ],
+      "observed_to_predicted_ratio": 0.6556874987730877
+    },
+    "candidate_uid": "run_108_p015",
+    "label": "015",
+    "X_mm": 38.29947918735872,
+    "Y_mm": 78.19984037664658
+  },
+  {
+    "u_raw_px": 2957.9879206000414,
+    "v_raw_px": 2678.2493217613337,
+    "detection_contrast_DN": 243.84080505371094,
+    "detection_origin": "INDEPENDENT_STRONG",
+    "scale_red_samples": 4,
+    "evidence": {
+      "centroid_shift_raw_px": 4.5785324175161195,
+      "localization": "centroid",
+      "background_DN": 35.0,
+      "major_rms_raw_px": 32.000537312048515,
+      "axis_ratio": 1.7745120536554893,
+      "seed_raw_xy": [
+        2954.0,
+        2676.0
+      ],
+      "seed_contrast_DN": 249.822998046875,
+      "coarse_maximum_distance_raw_px": 4.47213595499958,
+      "localization_seed_raw_xy": [
+        2954.0,
+        2676.0
+      ],
+      "localized_contrast_DN": 243.84080505371094,
+      "cfa_background": {
+        "method": "LEAVE_CORE_OUT_LOCAL_CFA_BACKGROUND",
+        "R_contrast_DN": 243.84080505371094,
+        "G_contrast_DN": 30.232309341430664,
+        "status": "INSUFFICIENT_BROADBAND_EVIDENCE",
+        "green_noise_DN": 0.8248229370117187,
+        "annular_R_per_G": 5.27872766541874,
+        "annular_texture_correlation": 0.9928646771360767,
+        "annular_residual_MAD_DN": 12.799966422378661,
+        "predicted_broadband_R_DN": 153.28518829410294,
+        "red_excess_DN": 90.555616759608,
+        "training_samples": 13425
+      },
+      "local_noise_DN": 2.6704406101226805,
+      "contrast_to_local_MAD_ratio": 91.31107583123102
+    },
+    "model_groups": [
+      "lattice_2d"
+    ],
+    "review_flags": [],
+    "physical_order": null,
+    "candidate_status": "SIGNAL_CANDIDATE",
+    "zero_order_confirmed": false,
+    "edge_distance_raw_px": 941.7988455860731,
+    "brightness_prediction": {
+      "method": "LEAVE_ONE_OUT_DIRECTIONAL_REGION_LOG_MEDIAN",
+      "status": "INSUFFICIENT_COMPARABLE_OBSERVATIONS",
+      "radius_mm": 10.198810546601518,
+      "observed_contrast_DN": 243.84080505371094,
+      "interpretation": "regional image evidence; not an order-intensity law",
+      "peer_count": 0,
+      "peer_raw_xy": []
+    },
+    "final_regional_brightness_prediction": {
+      "method": "LEAVE_ONE_OUT_DIRECTIONAL_REGION_LOG_MEDIAN",
+      "status": "INSUFFICIENT_COMPARABLE_OBSERVATIONS",
+      "radius_mm": 10.198810546601518,
+      "observed_contrast_DN": 243.84080505371094,
+      "interpretation": "regional image evidence; not an order-intensity law",
+      "peer_count": 0,
+      "peer_raw_xy": []
+    },
+    "candidate_uid": "run_108_p016",
+    "label": "016",
+    "X_mm": 51.74076117846821,
+    "Y_mm": 79.2905819543936
+  },
+  {
+    "u_raw_px": 3128.0,
+    "v_raw_px": 2658.0,
+    "detection_contrast_DN": 119.13565063476562,
+    "detection_origin": "INDEPENDENT_STRONG",
+    "scale_red_samples": 4,
+    "evidence": {
+      "centroid_shift_raw_px": 16.25925039285877,
+      "localization": "local_maximum",
+      "background_DN": 57.0,
+      "major_rms_raw_px": 31.690811650498144,
+      "axis_ratio": 1.4439193183964132,
+      "seed_raw_xy": [
+        3128.0,
+        2658.0
+      ],
+      "seed_contrast_DN": 119.13565063476562,
+      "coarse_maximum_distance_raw_px": 2.8284271247461903,
+      "localization_seed_raw_xy": [
+        3128.0,
+        2658.0
+      ],
+      "localized_contrast_DN": 119.13565063476562,
+      "cfa_background": {
+        "method": "LEAVE_CORE_OUT_LOCAL_CFA_BACKGROUND",
+        "R_contrast_DN": 119.13565063476562,
+        "G_contrast_DN": 11.76739501953125,
+        "status": "INSUFFICIENT_BROADBAND_EVIDENCE",
+        "green_noise_DN": 1.0064491287231445,
+        "annular_R_per_G": 4.378125415262043,
+        "annular_texture_correlation": 0.9950285345800147,
+        "annular_residual_MAD_DN": 15.151148716793209,
+        "predicted_broadband_R_DN": 16.81857999179558,
+        "red_excess_DN": 102.31707064297004,
+        "training_samples": 13432
+      },
+      "local_noise_DN": 5.667759160995483,
+      "contrast_to_local_MAD_ratio": 21.01988585800119
+    },
+    "model_groups": [],
+    "review_flags": [],
+    "physical_order": null,
+    "candidate_status": "SIGNAL_CANDIDATE",
+    "zero_order_confirmed": false,
+    "edge_distance_raw_px": 944.5662371911017,
+    "brightness_prediction": {
+      "method": "LEAVE_ONE_OUT_DIRECTIONAL_REGION_LOG_MEDIAN",
+      "status": "INSUFFICIENT_COMPARABLE_OBSERVATIONS",
+      "radius_mm": 8.189960441208944,
+      "observed_contrast_DN": 119.13565063476562,
+      "interpretation": "regional image evidence; not an order-intensity law",
+      "peer_count": 1,
+      "peer_raw_xy": [
+        [
+          3130.5389392822153,
+          2462.0408791606837
+        ]
+      ]
+    },
+    "final_regional_brightness_prediction": {
+      "method": "LEAVE_ONE_OUT_DIRECTIONAL_REGION_LOG_MEDIAN",
+      "status": "INSUFFICIENT_COMPARABLE_OBSERVATIONS",
+      "radius_mm": 8.189960441208944,
+      "observed_contrast_DN": 119.13565063476562,
+      "interpretation": "regional image evidence; not an order-intensity law",
+      "peer_count": 1,
+      "peer_raw_xy": [
+        [
+          3130.5389392822153,
+          2462.0408791606837
+        ]
+      ]
+    },
+    "candidate_uid": "run_108_p017",
+    "label": "017",
+    "X_mm": 58.313260438093145,
+    "Y_mm": 78.96206014349748
+  },
+  {
+    "u_raw_px": 3294.4430056505553,
+    "v_raw_px": 2663.5865445821923,
+    "detection_contrast_DN": 841.8803100585938,
+    "detection_origin": "INDEPENDENT_STRONG",
+    "scale_red_samples": 4,
+    "evidence": {
+      "centroid_shift_raw_px": 3.9099275497451433,
+      "localization": "centroid",
+      "background_DN": 45.0,
+      "major_rms_raw_px": 29.691896165454704,
+      "axis_ratio": 1.6343394590309774,
+      "seed_raw_xy": [
+        3296.0,
+        2660.0
+      ],
+      "seed_contrast_DN": 851.337646484375,
+      "coarse_maximum_distance_raw_px": 4.47213595499958,
+      "localization_seed_raw_xy": [
+        3296.0,
+        2660.0
+      ],
+      "localized_contrast_DN": 841.8803100585938,
+      "cfa_background": {
+        "method": "LEAVE_CORE_OUT_LOCAL_CFA_BACKGROUND",
+        "R_contrast_DN": 841.8803100585938,
+        "G_contrast_DN": 102.59697723388672,
+        "status": "INSUFFICIENT_BROADBAND_EVIDENCE",
+        "green_noise_DN": 1.0093674545288085,
+        "annular_R_per_G": 6.120988905694578,
+        "annular_texture_correlation": 0.9844660223258724,
+        "annular_residual_MAD_DN": 17.903037783683843,
+        "predicted_broadband_R_DN": 623.8469221249513,
+        "red_excess_DN": 218.03338793364242,
+        "training_samples": 13427
+      },
+      "local_noise_DN": 4.072228153038025,
+      "contrast_to_local_MAD_ratio": 206.7370192484234
+    },
+    "model_groups": [
+      "lattice_2d"
+    ],
+    "review_flags": [],
+    "physical_order": null,
+    "candidate_status": "SIGNAL_CANDIDATE",
+    "zero_order_confirmed": false,
+    "edge_distance_raw_px": 921.9979733009529,
+    "brightness_prediction": {
+      "method": "LEAVE_ONE_OUT_DIRECTIONAL_REGION_LOG_MEDIAN",
+      "status": "INSUFFICIENT_COMPARABLE_OBSERVATIONS",
+      "radius_mm": 9.952318880507697,
+      "observed_contrast_DN": 841.8803100585938,
+      "interpretation": "regional image evidence; not an order-intensity law",
+      "peer_count": 1,
+      "peer_raw_xy": [
+        [
+          3471.6341820150196,
+          2445.0976671961243
+        ]
+      ]
+    },
+    "final_regional_brightness_prediction": {
+      "method": "LEAVE_ONE_OUT_DIRECTIONAL_REGION_LOG_MEDIAN",
+      "status": "INSUFFICIENT_COMPARABLE_OBSERVATIONS",
+      "radius_mm": 9.952318880507697,
+      "observed_contrast_DN": 841.8803100585938,
+      "interpretation": "regional image evidence; not an order-intensity law",
+      "peer_count": 1,
+      "peer_raw_xy": [
+        [
+          3471.6341820150196,
+          2445.0976671961243
+        ]
+      ]
+    },
+    "candidate_uid": "run_108_p018",
+    "label": "018",
+    "X_mm": 64.83462768360349,
+    "Y_mm": 79.69929478073045
+  },
+  {
+    "u_raw_px": 3621.5333375148966,
+    "v_raw_px": 2623.852850780907,
+    "detection_contrast_DN": 6.315080642700195,
+    "detection_origin": "INDEPENDENT_WEAK",
+    "scale_red_samples": 4,
+    "evidence": {
+      "status": "DETECTED",
+      "contrast_DN": 6.315080642700195,
+      "local_noise_DN": 0.7940900253295898,
+      "contrast_to_local_MAD_ratio": 7.952600386938621,
+      "diffraction_shape_NCC": 0.6631624698638916,
+      "prediction_error_raw_px": 0.0,
+      "centroid_shift_raw_px": 3.536400272431784,
+      "localization": "centroid",
+      "background_DN": 22.0,
+      "major_rms_raw_px": 21.886818687791347,
+      "axis_ratio": 1.0178477578698808,
+      "coarse_maximum_distance_raw_px": 18.439088914585774,
+      "template_basis": "INDEPENDENT_OBSERVED",
+      "cfa_background": {
+        "method": "LEAVE_CORE_OUT_LOCAL_CFA_BACKGROUND",
+        "R_contrast_DN": 6.137376308441162,
+        "G_contrast_DN": 0.4427989423274994,
+        "status": "INSUFFICIENT_BROADBAND_EVIDENCE",
+        "green_noise_DN": 0.5057144731521607
+      }
+    },
+    "model_groups": [],
+    "review_flags": [
+      "WEAK_SIGNAL",
+      "OFF_MODEL_REVIEW"
+    ],
+    "physical_order": null,
+    "candidate_status": "REVIEW_REQUIRED",
+    "zero_order_confirmed": false,
+    "edge_distance_raw_px": 928.0937295924557,
+    "final_regional_brightness_prediction": {
+      "method": "LEAVE_ONE_OUT_DIRECTIONAL_REGION_LOG_MEDIAN",
+      "status": "WITHIN_BROAD_REGIONAL_RANGE",
+      "radius_mm": 21.19377531628446,
+      "observed_contrast_DN": 6.315080642700195,
+      "interpretation": "regional image evidence; not an order-intensity law",
+      "peer_count": 4,
+      "peer_raw_xy": [
+        [
+          3657.174283744724,
+          2227.5634864005224
+        ],
+        [
+          3471.6341820150196,
+          2445.0976671961243
+        ],
+        [
+          3818.2130234809974,
+          2432.090147664004
+        ],
+        [
+          3888.8056942563753,
+          2778.766354942451
+        ]
+      ],
+      "predicted_contrast_DN": 80.71615480478154,
+      "lower_contrast_DN": 1.080931568440341,
+      "upper_contrast_DN": 6027.29889355529,
+      "log_MAD": 1.4377051686611997,
+      "peer_contrasts_DN": [
+        30.9017391204834,
+        210.8327178955078,
+        11.488441467285156,
+        214.9166259765625
+      ],
+      "observed_to_predicted_ratio": 0.07823812541583183,
+      "opposite_measured_raw_xy": [
+        2609.184037252343,
+        3059.4016787282003
+      ],
+      "opposite_position_residual_mm": 1.2509067164916519
+    },
+    "candidate_uid": "run_108_p019",
+    "label": "019",
+    "X_mm": 77.81356053455032,
+    "Y_mm": 79.0283798559234
+  },
+  {
+    "u_raw_px": 4300.335086493817,
+    "v_raw_px": 2729.4519866869377,
+    "detection_contrast_DN": 59.322994232177734,
+    "detection_origin": "INDEPENDENT_STRONG",
+    "scale_red_samples": 4,
+    "evidence": {
+      "centroid_shift_raw_px": 7.8012283902168065,
+      "localization": "centroid",
+      "background_DN": 18.0,
+      "major_rms_raw_px": 31.694689760227696,
+      "axis_ratio": 1.3382366959924117,
+      "seed_raw_xy": [
+        4308.0,
+        2728.0
+      ],
+      "seed_contrast_DN": 65.03256225585938,
+      "coarse_maximum_distance_raw_px": 8.48528137423857,
+      "localization_seed_raw_xy": [
+        4308.0,
+        2728.0
+      ],
+      "localized_contrast_DN": 59.322994232177734,
+      "cfa_background": {
+        "method": "LEAVE_CORE_OUT_LOCAL_CFA_BACKGROUND",
+        "R_contrast_DN": 59.322994232177734,
+        "G_contrast_DN": 7.784430980682373,
+        "status": "INSUFFICIENT_BROADBAND_EVIDENCE",
+        "green_noise_DN": 0.4772650382995605,
+        "annular_R_per_G": 4.186623959103261,
+        "annular_texture_correlation": 0.7168967790838028,
+        "annular_residual_MAD_DN": 4.019157862371449,
+        "predicted_broadband_R_DN": 32.02057871317738,
+        "red_excess_DN": 27.302415519000355,
+        "training_samples": 13436
+      },
+      "local_noise_DN": 0.8795855540513992,
+      "contrast_to_local_MAD_ratio": 67.44425708100154
+    },
+    "model_groups": [
+      "row"
+    ],
+    "review_flags": [],
+    "physical_order": null,
+    "candidate_status": "SIGNAL_CANDIDATE",
+    "zero_order_confirmed": false,
+    "edge_distance_raw_px": 323.10697517394533,
+    "brightness_prediction": {
+      "method": "LEAVE_ONE_OUT_DIRECTIONAL_REGION_LOG_MEDIAN",
+      "status": "INSUFFICIENT_COMPARABLE_OBSERVATIONS",
+      "radius_mm": 47.86237737902805,
+      "observed_contrast_DN": 59.322994232177734,
+      "interpretation": "regional image evidence; not an order-intensity law",
+      "peer_count": 0,
+      "peer_raw_xy": []
+    },
+    "final_regional_brightness_prediction": {
+      "method": "LEAVE_ONE_OUT_DIRECTIONAL_REGION_LOG_MEDIAN",
+      "status": "INSUFFICIENT_COMPARABLE_OBSERVATIONS",
+      "radius_mm": 47.86237737902805,
+      "observed_contrast_DN": 59.322994232177734,
+      "interpretation": "regional image evidence; not an order-intensity law",
+      "peer_count": 0,
+      "peer_raw_xy": []
+    },
+    "candidate_uid": "run_108_p020",
+    "label": "020",
+    "X_mm": 106.0803706175439,
+    "Y_mm": 85.75524795714936
+  },
+  {
+    "u_raw_px": 1838.6152019002375,
+    "v_raw_px": 2786.718362872282,
+    "detection_contrast_DN": 24.963865280151367,
+    "detection_origin": "INDEPENDENT_STRONG",
+    "scale_red_samples": 4,
+    "evidence": {
+      "centroid_shift_raw_px": 5.3562659834399815,
+      "localization": "centroid",
+      "background_DN": 27.0,
+      "major_rms_raw_px": 30.78538109594135,
+      "axis_ratio": 1.0864998092933669,
+      "seed_raw_xy": [
+        1834.0,
+        2784.0
+      ],
+      "seed_contrast_DN": 27.22280502319336,
+      "coarse_maximum_distance_raw_px": 4.47213595499958,
+      "localization_seed_raw_xy": [
+        1834.0,
+        2784.0
+      ],
+      "localized_contrast_DN": 24.963865280151367,
+      "cfa_background": {
+        "method": "LEAVE_CORE_OUT_LOCAL_CFA_BACKGROUND",
+        "R_contrast_DN": 24.963865280151367,
+        "G_contrast_DN": 3.8384289741516113,
+        "status": "INSUFFICIENT_BROADBAND_EVIDENCE",
+        "green_noise_DN": 0.587827734375,
+        "annular_R_per_G": 2.563780639439509,
+        "annular_texture_correlation": 0.5315642449832905,
+        "annular_residual_MAD_DN": 3.3133123311051857,
+        "predicted_broadband_R_DN": 9.088689276555943,
+        "red_excess_DN": 15.875176003595424,
+        "training_samples": 13432
+      },
+      "local_noise_DN": 1.1889431123256682,
+      "contrast_to_local_MAD_ratio": 20.996686066266065
+    },
+    "model_groups": [],
+    "review_flags": [],
+    "physical_order": null,
+    "candidate_status": "SIGNAL_CANDIDATE",
+    "zero_order_confirmed": false,
+    "edge_distance_raw_px": 284.81747123761363,
+    "brightness_prediction": {
+      "method": "LEAVE_ONE_OUT_DIRECTIONAL_REGION_LOG_MEDIAN",
+      "status": "INSUFFICIENT_COMPARABLE_OBSERVATIONS",
+      "radius_mm": 48.59659914396429,
+      "observed_contrast_DN": 24.963865280151367,
+      "interpretation": "regional image evidence; not an order-intensity law",
+      "peer_count": 1,
+      "peer_raw_xy": [
+        [
+          1922.5100922816882,
+          3015.0256652910025
+        ]
+      ]
+    },
+    "final_regional_brightness_prediction": {
+      "method": "LEAVE_ONE_OUT_DIRECTIONAL_REGION_LOG_MEDIAN",
+      "status": "INSUFFICIENT_COMPARABLE_OBSERVATIONS",
+      "radius_mm": 48.59659914396429,
+      "observed_contrast_DN": 24.963865280151367,
+      "interpretation": "regional image evidence; not an order-intensity law",
+      "peer_count": 1,
+      "peer_raw_xy": [
+        [
+          1922.5100922816882,
+          3015.0256652910025
+        ]
+      ]
+    },
+    "candidate_uid": "run_108_p021",
+    "label": "021",
+    "X_mm": 10.116289980364533,
+    "Y_mm": 80.37709391668201
+  },
+  {
+    "u_raw_px": 2300.0647671811107,
+    "v_raw_px": 2804.0635536208943,
+    "detection_contrast_DN": 39.56654357910156,
+    "detection_origin": "INDEPENDENT_STRONG",
+    "scale_red_samples": 4,
+    "evidence": {
+      "centroid_shift_raw_px": 6.06389951278951,
+      "localization": "centroid",
+      "background_DN": 31.0,
+      "major_rms_raw_px": 29.59373423913028,
+      "axis_ratio": 1.0616803898666705,
+      "seed_raw_xy": [
+        2300.0,
+        2798.0
+      ],
+      "seed_contrast_DN": 48.17127990722656,
+      "coarse_maximum_distance_raw_px": 2.0,
+      "localization_seed_raw_xy": [
+        2300.0,
+        2798.0
+      ],
+      "localized_contrast_DN": 39.56654357910156,
+      "cfa_background": {
+        "method": "LEAVE_CORE_OUT_LOCAL_CFA_BACKGROUND",
+        "R_contrast_DN": 39.56654357910156,
+        "G_contrast_DN": 3.3818318843841553,
+        "status": "INSUFFICIENT_BROADBAND_EVIDENCE",
+        "green_noise_DN": 0.5993907520294189,
+        "annular_R_per_G": 6.658336083209448,
+        "annular_texture_correlation": 0.9232757388460884,
+        "annular_residual_MAD_DN": 5.545200011901791,
+        "predicted_broadband_R_DN": 22.90782767842528,
+        "red_excess_DN": 16.65871590067628,
+        "training_samples": 13428
+      },
+      "local_noise_DN": 1.6056414020776748,
+      "contrast_to_local_MAD_ratio": 24.64220437259719
+    },
+    "model_groups": [],
+    "review_flags": [],
+    "physical_order": null,
+    "candidate_status": "SIGNAL_CANDIDATE",
+    "zero_order_confirmed": false,
+    "edge_distance_raw_px": 744.8891069620678,
+    "brightness_prediction": {
+      "method": "LEAVE_ONE_OUT_DIRECTIONAL_REGION_LOG_MEDIAN",
+      "status": "INSUFFICIENT_COMPARABLE_OBSERVATIONS",
+      "radius_mm": 31.69515359675185,
+      "observed_contrast_DN": 39.56654357910156,
+      "interpretation": "regional image evidence; not an order-intensity law",
+      "peer_count": 2,
+      "peer_raw_xy": [
+        [
+          2353.0603599616434,
+          2952.995411964299
+        ],
+        [
+          2434.274446025615,
+          2445.523886968896
+        ]
+      ]
+    },
+    "final_regional_brightness_prediction": {
+      "method": "LEAVE_ONE_OUT_DIRECTIONAL_REGION_LOG_MEDIAN",
+      "status": "INSUFFICIENT_COMPARABLE_OBSERVATIONS",
+      "radius_mm": 31.69515359675185,
+      "observed_contrast_DN": 39.56654357910156,
+      "interpretation": "regional image evidence; not an order-intensity law",
+      "peer_count": 2,
+      "peer_raw_xy": [
+        [
+          2434.274446025615,
+          2445.523886968896
+        ],
+        [
+          2353.0603599616434,
+          2952.995411964299
+        ]
+      ]
+    },
+    "candidate_uid": "run_108_p022",
+    "label": "022",
+    "X_mm": 26.892127079210606,
+    "Y_mm": 82.46169946877569
+  },
+  {
+    "u_raw_px": 2718.0,
+    "v_raw_px": 2814.0,
+    "detection_contrast_DN": 296.09698486328125,
+    "detection_origin": "INDEPENDENT_STRONG",
+    "scale_red_samples": 4,
+    "evidence": {
+      "centroid_shift_raw_px": 21.338588065330413,
+      "localization": "local_maximum",
+      "background_DN": 41.0,
+      "major_rms_raw_px": 28.362219357687675,
+      "axis_ratio": 1.1472334787777365,
+      "seed_raw_xy": [
+        2780.0,
+        2842.0
+      ],
+      "seed_contrast_DN": 440.4171142578125,
+      "coarse_maximum_distance_raw_px": 68.0294054067798,
+      "localization_seed_raw_xy": [
+        2718.0,
+        2814.0
+      ],
+      "localized_contrast_DN": 296.09698486328125,
+      "cfa_background": {
+        "method": "LEAVE_CORE_OUT_LOCAL_CFA_BACKGROUND",
+        "R_contrast_DN": 296.09698486328125,
+        "G_contrast_DN": 34.341339111328125,
+        "status": "INSUFFICIENT_BROADBAND_EVIDENCE",
+        "green_noise_DN": 1.1663872392654417,
+        "annular_R_per_G": 8.121503418785396,
+        "annular_texture_correlation": 0.9985353471691466,
+        "annular_residual_MAD_DN": 8.8493337135622,
+        "predicted_broadband_R_DN": 279.82562096444593,
+        "red_excess_DN": 16.271363898835318,
+        "training_samples": 13432
+      },
+      "local_noise_DN": 3.660674932479858,
+      "contrast_to_local_MAD_ratio": 80.88589954713507
+    },
+    "model_groups": [],
+    "review_flags": [],
+    "physical_order": null,
+    "candidate_status": "SIGNAL_CANDIDATE",
+    "zero_order_confirmed": false,
+    "edge_distance_raw_px": 831.2866219550139,
+    "brightness_prediction": {
+      "method": "LEAVE_ONE_OUT_DIRECTIONAL_REGION_LOG_MEDIAN",
+      "status": "WITHIN_BROAD_REGIONAL_RANGE",
+      "radius_mm": 15.950063099804472,
+      "observed_contrast_DN": 296.09698486328125,
+      "interpretation": "regional image evidence; not an order-intensity law",
+      "peer_count": 3,
+      "peer_raw_xy": [
+        [
+          2754.124493115784,
+          2899.118167128389
+        ],
+        [
+          2604.558930252998,
+          2677.220691819951
+        ],
+        [
+          2609.184037252343,
+          3059.4016787282003
+        ]
+      ],
+      "predicted_contrast_DN": 49.437362670898445,
+      "lower_contrast_DN": 6.179670333862307,
+      "upper_contrast_DN": 395.49890136718767,
+      "log_MAD": 0.6286705469345756,
+      "peer_contrasts_DN": [
+        958.46142578125,
+        49.43736267089844,
+        32.3519401550293
+      ],
+      "observed_to_predicted_ratio": 5.989336179487994
+    },
+    "final_regional_brightness_prediction": {
+      "method": "LEAVE_ONE_OUT_DIRECTIONAL_REGION_LOG_MEDIAN",
+      "status": "WITHIN_BROAD_REGIONAL_RANGE",
+      "radius_mm": 15.950063099804472,
+      "observed_contrast_DN": 296.09698486328125,
+      "interpretation": "regional image evidence; not an order-intensity law",
+      "peer_count": 3,
+      "peer_raw_xy": [
+        [
+          2604.558930252998,
+          2677.220691819951
+        ],
+        [
+          2754.124493115784,
+          2899.118167128389
+        ],
+        [
+          2609.184037252343,
+          3059.4016787282003
+        ]
+      ],
+      "predicted_contrast_DN": 49.437362670898445,
+      "lower_contrast_DN": 6.179670333862307,
+      "upper_contrast_DN": 395.49890136718767,
+      "log_MAD": 0.6286705469345756,
+      "peer_contrasts_DN": [
+        49.43736267089844,
+        958.46142578125,
+        32.3519401550293
+      ],
+      "observed_to_predicted_ratio": 5.989336179487994
+    },
+    "candidate_uid": "run_108_p023",
+    "label": "023",
+    "X_mm": 42.56939028665034,
+    "Y_mm": 84.17046539578192
+  },
+  {
+    "u_raw_px": 2955.8721734641194,
+    "v_raw_px": 2834.5264369299603,
+    "detection_contrast_DN": 93.62577819824219,
+    "detection_origin": "INDEPENDENT_STRONG",
+    "scale_red_samples": 4,
+    "evidence": {
+      "centroid_shift_raw_px": 10.352900458968069,
+      "localization": "centroid",
+      "background_DN": 76.0,
+      "major_rms_raw_px": 34.3797626751354,
+      "axis_ratio": 1.7300035067582225,
+      "seed_raw_xy": [
+        2950.0,
+        2826.0
+      ],
+      "seed_contrast_DN": 124.2274169921875,
+      "coarse_maximum_distance_raw_px": 4.47213595499958,
+      "localization_seed_raw_xy": [
+        2950.0,
+        2826.0
+      ],
+      "localized_contrast_DN": 93.62577819824219,
+      "cfa_background": {
+        "method": "LEAVE_CORE_OUT_LOCAL_CFA_BACKGROUND",
+        "R_contrast_DN": 93.62577819824219,
+        "G_contrast_DN": 3.7990853786468506,
+        "status": "INSUFFICIENT_BROADBAND_EVIDENCE",
+        "green_noise_DN": 1.3107270114898681
+      },
+      "local_noise_DN": 9.826213661384582,
+      "contrast_to_local_MAD_ratio": 9.52816429854118,
+      "unresolved_stronger_raw_xy": [
+        2953.739670617533,
+        3009.497976629755
+      ],
+      "saddle_fraction": 0.005792767933161588
+    },
+    "model_groups": [],
+    "review_flags": [
+      "UNRESOLVED_SHALLOW_SADDLE"
+    ],
+    "physical_order": null,
+    "candidate_status": "REVIEW_REQUIRED",
+    "zero_order_confirmed": false,
+    "edge_distance_raw_px": 786.5563508209063,
+    "brightness_prediction": {
+      "method": "LEAVE_ONE_OUT_DIRECTIONAL_REGION_LOG_MEDIAN",
+      "status": "INSUFFICIENT_COMPARABLE_OBSERVATIONS",
+      "radius_mm": 6.672289326302249,
+      "observed_contrast_DN": 93.62577819824219,
+      "interpretation": "regional image evidence; not an order-intensity law",
+      "peer_count": 2,
+      "peer_raw_xy": [
+        [
+          2754.124493115784,
+          2899.118167128389
+        ],
+        [
+          2718.0,
+          2814.0
+        ]
+      ]
+    },
+    "final_regional_brightness_prediction": {
+      "method": "LEAVE_ONE_OUT_DIRECTIONAL_REGION_LOG_MEDIAN",
+      "status": "INSUFFICIENT_COMPARABLE_OBSERVATIONS",
+      "radius_mm": 6.672289326302249,
+      "observed_contrast_DN": 93.62577819824219,
+      "interpretation": "regional image evidence; not an order-intensity law",
+      "peer_count": 2,
+      "peer_raw_xy": [
+        [
+          2718.0,
+          2814.0
+        ],
+        [
+          2754.124493115784,
+          2899.118167128389
+        ]
+      ]
+    },
+    "candidate_uid": "run_108_p024",
+    "label": "024",
+    "X_mm": 51.706839874345604,
+    "Y_mm": 85.78838195456748
+  },
+  {
+    "u_raw_px": 3123.2082844231672,
+    "v_raw_px": 2853.8772839565586,
+    "detection_contrast_DN": 12473.2822265625,
+    "detection_origin": "INDEPENDENT_STRONG",
+    "scale_red_samples": 4,
+    "evidence": {
+      "centroid_shift_raw_px": 17.89480637553888,
+      "localization": "NEAR_WHITE_GREEN_CENTROID_CONDITIONAL",
+      "background_DN": 40.0,
+      "major_rms_raw_px": 22.391078989538375,
+      "axis_ratio": 1.6789388495889297,
+      "near_white_localization": {
+        "method": "NATIVE_NEAR_WHITE_ALIGNED_GREEN_CENTROID",
+        "status": "CONDITIONAL_GREEN_LOCATION",
+        "red_centroid_sample_xy": [
+          937.655003565452,
+          1232.8093092339832
+        ],
+        "green_centroid_sample_xy": [
+          937.6041422115835,
+          1232.9386419782793
+        ],
+        "coarse_seed_sample_xy": [
+          938.0,
+          1231.0
+        ],
+        "red_green_centroid_separation_raw_px": 0.27794845611732943,
+        "green_shift_from_fine_raw_px": 17.89480637553888,
+        "green_shift_from_coarse_raw_px": 3.9572900366774464,
+        "interpretation": "position diagnostic only; native clipping and physical reference uncertainty remain"
+      },
+      "localization_channel": "G_MEAN_ALIGNED_AT_R_CENTRES",
+      "red_background_DN": 106.0,
+      "red_major_rms_raw_px": 23.583255130265773,
+      "red_axis_ratio": 1.4743391216286506,
+      "localization_channel_disagreement": false,
+      "seed_raw_xy": [
+        3124.0,
+        2836.0
+      ],
+      "seed_contrast_DN": 13192.1162109375,
+      "coarse_maximum_distance_raw_px": 14.0,
+      "localization_seed_raw_xy": [
+        3124.0,
+        2836.0
+      ],
+      "localized_contrast_DN": 12473.2822265625,
+      "cfa_background": {
+        "method": "NATIVE_CFA_NEAR_WHITE_GUARD",
+        "status": "RADIOMETRIC_NONLINEARITY_NO_COLOR_REJECTION",
+        "interpretation": "near-white/saturated native samples cannot establish a linear R/G background"
+      },
+      "local_noise_DN": 10.547659431266784,
+      "contrast_to_local_MAD_ratio": 1182.563990413601
+    },
+    "model_groups": [
+      "lattice_2d",
+      "row"
+    ],
+    "review_flags": [],
+    "physical_order": null,
+    "candidate_status": "SIGNAL_CANDIDATE",
+    "zero_order_confirmed": false,
+    "edge_distance_raw_px": 750.2044853313514,
+    "brightness_prediction": {
+      "method": "LEAVE_ONE_OUT_DIRECTIONAL_REGION_LOG_MEDIAN",
+      "status": "CENTRAL_REFERENCE_NOT_PREDICTED",
+      "radius_mm": 0.0,
+      "observed_contrast_DN": 12473.2822265625,
+      "interpretation": "regional image evidence; not an order-intensity law"
+    },
+    "final_regional_brightness_prediction": {
+      "method": "LEAVE_ONE_OUT_DIRECTIONAL_REGION_LOG_MEDIAN",
+      "status": "CENTRAL_REFERENCE_NOT_PREDICTED",
+      "radius_mm": 0.0,
+      "observed_contrast_DN": 12473.2822265625,
+      "interpretation": "regional image evidence; not an order-intensity law"
+    },
+    "candidate_uid": "run_108_p025",
+    "label": "025",
+    "X_mm": 58.23836866254589,
+    "Y_mm": 87.15167815965201
+  },
+  {
+    "u_raw_px": 3494.6655453018257,
+    "v_raw_px": 2832.0536188517126,
+    "detection_contrast_DN": 1159.9306640625,
+    "detection_origin": "INDEPENDENT_STRONG",
+    "scale_red_samples": 4,
+    "evidence": {
+      "centroid_shift_raw_px": 18.336323320280762,
+      "localization": "NEAR_WHITE_GREEN_CENTROID_CONDITIONAL",
+      "background_DN": 32.5,
+      "major_rms_raw_px": 25.165001851891518,
+      "axis_ratio": 1.1132496774467904,
+      "near_white_localization": {
+        "method": "NATIVE_NEAR_WHITE_ALIGNED_GREEN_CENTROID",
+        "status": "CONDITIONAL_GREEN_LOCATION",
+        "red_centroid_sample_xy": [
+          1123.0938497372206,
+          1221.9733417346015
+        ],
+        "green_centroid_sample_xy": [
+          1123.3327726509128,
+          1222.0268094258563
+        ],
+        "coarse_seed_sample_xy": [
+          1128.0,
+          1219.0
+        ],
+        "red_green_centroid_separation_raw_px": 0.4896649985257828,
+        "green_shift_from_fine_raw_px": 18.336323320280762,
+        "green_shift_from_coarse_raw_px": 11.125571702797084,
+        "interpretation": "position diagnostic only; native clipping and physical reference uncertainty remain"
+      },
+      "localization_channel": "G_MEAN_ALIGNED_AT_R_CENTRES",
+      "red_background_DN": 48.0,
+      "red_major_rms_raw_px": 25.535267269871166,
+      "red_axis_ratio": 1.1380543618473973,
+      "localization_channel_disagreement": false,
+      "seed_raw_xy": [
+        3510.0,
+        2822.0
+      ],
+      "seed_contrast_DN": 2117.82666015625,
+      "coarse_maximum_distance_raw_px": 7.211102550927978,
+      "localization_seed_raw_xy": [
+        3510.0,
+        2822.0
+      ],
+      "localized_contrast_DN": 1159.9306640625,
+      "cfa_background": {
+        "method": "NATIVE_CFA_NEAR_WHITE_GUARD",
+        "status": "RADIOMETRIC_NONLINEARITY_NO_COLOR_REJECTION",
+        "interpretation": "near-white/saturated native samples cannot establish a linear R/G background"
+      },
+      "local_noise_DN": 5.4884705284595485,
+      "contrast_to_local_MAD_ratio": 211.33950852935678
+    },
+    "model_groups": [
+      "row"
+    ],
+    "review_flags": [],
+    "physical_order": null,
+    "candidate_status": "SIGNAL_CANDIDATE",
+    "zero_order_confirmed": false,
+    "edge_distance_raw_px": 733.9494090458711,
+    "brightness_prediction": {
+      "method": "LEAVE_ONE_OUT_DIRECTIONAL_REGION_LOG_MEDIAN",
+      "status": "INSUFFICIENT_COMPARABLE_OBSERVATIONS",
+      "radius_mm": 14.741343635402602,
+      "observed_contrast_DN": 1159.9306640625,
+      "interpretation": "regional image evidence; not an order-intensity law",
+      "peer_count": 0,
+      "peer_raw_xy": []
+    },
+    "final_regional_brightness_prediction": {
+      "method": "LEAVE_ONE_OUT_DIRECTIONAL_REGION_LOG_MEDIAN",
+      "status": "INSUFFICIENT_COMPARABLE_OBSERVATIONS",
+      "radius_mm": 14.741343635402602,
+      "observed_contrast_DN": 1159.9306640625,
+      "interpretation": "regional image evidence; not an order-intensity law",
+      "peer_count": 1,
+      "peer_raw_xy": [
+        [
+          3621.5333375148966,
+          2623.852850780907
+        ]
+      ]
+    },
+    "candidate_uid": "run_108_p026",
+    "label": "026",
+    "X_mm": 72.97633590513313,
+    "Y_mm": 87.46716783214593
+  },
+  {
+    "u_raw_px": 3888.8056942563753,
+    "v_raw_px": 2778.766354942451,
+    "detection_contrast_DN": 214.9166259765625,
+    "detection_origin": "INDEPENDENT_STRONG",
+    "scale_red_samples": 4,
+    "evidence": {
+      "centroid_shift_raw_px": 9.601457065199687,
+      "localization": "centroid",
+      "background_DN": 30.0,
+      "major_rms_raw_px": 29.585571541034273,
+      "axis_ratio": 1.4258392432495077,
+      "seed_raw_xy": [
+        3898.0,
+        2776.0
+      ],
+      "seed_contrast_DN": 267.9715270996094,
+      "coarse_maximum_distance_raw_px": 6.324555320336759,
+      "localization_seed_raw_xy": [
+        3898.0,
+        2776.0
+      ],
+      "localized_contrast_DN": 214.9166259765625,
+      "cfa_background": {
+        "method": "LEAVE_CORE_OUT_LOCAL_CFA_BACKGROUND",
+        "R_contrast_DN": 214.9166259765625,
+        "G_contrast_DN": 24.94755744934082,
+        "status": "INSUFFICIENT_BROADBAND_EVIDENCE",
+        "green_noise_DN": 0.6288553796768188,
+        "annular_R_per_G": 7.273144801115508,
+        "annular_texture_correlation": 0.9027001884441802,
+        "annular_residual_MAD_DN": 5.7430207033970575,
+        "predicted_broadband_R_DN": 180.41487462299924,
+        "red_excess_DN": 34.501751353563265,
+        "training_samples": 13424
+      },
+      "local_noise_DN": 1.348775532531738,
+      "contrast_to_local_MAD_ratio": 159.34202600276282
+    },
+    "model_groups": [
+      "row"
+    ],
+    "review_flags": [],
+    "physical_order": null,
+    "candidate_status": "SIGNAL_CANDIDATE",
+    "zero_order_confirmed": false,
+    "edge_distance_raw_px": 729.8217356529714,
+    "brightness_prediction": {
+      "method": "LEAVE_ONE_OUT_DIRECTIONAL_REGION_LOG_MEDIAN",
+      "status": "INSUFFICIENT_COMPARABLE_OBSERVATIONS",
+      "radius_mm": 30.728904217374755,
+      "observed_contrast_DN": 214.9166259765625,
+      "interpretation": "regional image evidence; not an order-intensity law",
+      "peer_count": 1,
+      "peer_raw_xy": [
+        [
+          3818.2130234809974,
+          2432.090147664004
+        ]
+      ]
+    },
+    "final_regional_brightness_prediction": {
+      "method": "LEAVE_ONE_OUT_DIRECTIONAL_REGION_LOG_MEDIAN",
+      "status": "INSUFFICIENT_COMPARABLE_OBSERVATIONS",
+      "radius_mm": 30.728904217374755,
+      "observed_contrast_DN": 214.9166259765625,
+      "interpretation": "regional image evidence; not an order-intensity law",
+      "peer_count": 1,
+      "peer_raw_xy": [
+        [
+          3818.2130234809974,
+          2432.090147664004
+        ]
+      ]
+    },
+    "candidate_uid": "run_108_p027",
+    "label": "027",
+    "X_mm": 88.96049987119915,
+    "Y_mm": 86.50653600563825
+  },
+  {
+    "u_raw_px": 4302.463188178371,
+    "v_raw_px": 2837.4254391700447,
+    "detection_contrast_DN": 9.413122177124023,
+    "detection_origin": "INDEPENDENT_STRONG",
+    "scale_red_samples": 4,
+    "evidence": {
+      "centroid_shift_raw_px": 11.936399033819157,
+      "localization": "centroid",
+      "background_DN": 19.0,
+      "major_rms_raw_px": 31.978994115651833,
+      "axis_ratio": 1.1377296580709781,
+      "seed_raw_xy": [
+        4296.0,
+        2786.0
+      ],
+      "seed_contrast_DN": 24.44319725036621,
+      "coarse_maximum_distance_raw_px": 63.150613615387776,
+      "localization_seed_raw_xy": [
+        4308.0,
+        2848.0
+      ],
+      "localized_contrast_DN": 9.413122177124023,
+      "cfa_background": {
+        "method": "LEAVE_CORE_OUT_LOCAL_CFA_BACKGROUND",
+        "R_contrast_DN": 9.413122177124023,
+        "G_contrast_DN": 1.942733883857727,
+        "status": "INSUFFICIENT_BROADBAND_EVIDENCE",
+        "green_noise_DN": 0.4970485725402832
+      },
+      "local_noise_DN": 0.8611962308764457,
+      "contrast_to_local_MAD_ratio": 10.930287244225651,
+      "unresolved_stronger_raw_xy": [
+        4300.335086493817,
+        2729.4519866869377
+      ],
+      "saddle_fraction": 0.022060156225524423
+    },
+    "model_groups": [],
+    "review_flags": [
+      "WEAK_SIGNAL",
+      "UNRESOLVED_SHALLOW_SADDLE"
+    ],
+    "physical_order": null,
+    "candidate_status": "REVIEW_REQUIRED",
+    "zero_order_confirmed": false,
+    "edge_distance_raw_px": 312.94451011157906,
+    "brightness_prediction": {
+      "method": "LEAVE_ONE_OUT_DIRECTIONAL_REGION_LOG_MEDIAN",
+      "status": "INSUFFICIENT_COMPARABLE_OBSERVATIONS",
+      "radius_mm": 48.33359930247983,
+      "observed_contrast_DN": 9.413122177124023,
+      "interpretation": "regional image evidence; not an order-intensity law",
+      "peer_count": 1,
+      "peer_raw_xy": [
+        [
+          4300.335086493817,
+          2729.4519866869377
+        ]
+      ]
+    },
+    "final_regional_brightness_prediction": {
+      "method": "LEAVE_ONE_OUT_DIRECTIONAL_REGION_LOG_MEDIAN",
+      "status": "INSUFFICIENT_COMPARABLE_OBSERVATIONS",
+      "radius_mm": 48.33359930247983,
+      "observed_contrast_DN": 9.413122177124023,
+      "interpretation": "regional image evidence; not an order-intensity law",
+      "peer_count": 1,
+      "peer_raw_xy": [
+        [
+          4300.335086493817,
+          2729.4519866869377
+        ]
+      ]
+    },
+    "candidate_uid": "run_108_p028",
+    "label": "028",
+    "X_mm": 106.45525973328432,
+    "Y_mm": 90.50849763725626
+  },
+  {
+    "u_raw_px": 4593.241449459631,
+    "v_raw_px": 2783.5651621106167,
+    "detection_contrast_DN": 6.988286972045898,
+    "detection_origin": "INDEPENDENT_WEAK",
+    "scale_red_samples": 4,
+    "evidence": {
+      "status": "DETECTED",
+      "contrast_DN": 6.988286972045898,
+      "local_noise_DN": 0.7721587503433227,
+      "contrast_to_local_MAD_ratio": 9.050324132102002,
+      "diffraction_shape_NCC": 0.8293155883460567,
+      "prediction_error_raw_px": 0.0,
+      "centroid_shift_raw_px": 4.778377050347244,
+      "localization": "centroid",
+      "background_DN": 11.0,
+      "major_rms_raw_px": 23.225584046803423,
+      "axis_ratio": 1.3233196115166141,
+      "coarse_maximum_distance_raw_px": 2.8284271247461903,
+      "template_basis": "ANALYTIC_GAUSSIAN_PRIOR",
+      "cfa_background": {
+        "method": "LEAVE_CORE_OUT_LOCAL_CFA_BACKGROUND",
+        "R_contrast_DN": 6.395461082458496,
+        "G_contrast_DN": 0.9445856213569641,
+        "status": "INSUFFICIENT_BROADBAND_EVIDENCE",
+        "green_noise_DN": 0.5245195764541626
+      },
+      "boundary_tangential_profile": {
+        "method": "COARSE_TANGENTIAL_EDGE_PROFILE",
+        "side": 1,
+        "edge_distance_raw_px": 26.984051416264673,
+        "status": "RESOLVED_TANGENTIAL_MAXIMUM",
+        "coarse_contrast_DN": 3.9979655742645264,
+        "tangential_prominence": 0.35144286525065804,
+        "minimum_prominence": 0.15,
+        "profile_offsets_raw_px": [
+          -80.0,
+          -78.0,
+          -76.0,
+          -74.0,
+          -72.0,
+          -70.0,
+          -68.0,
+          -66.0,
+          -64.0,
+          -62.0,
+          -60.0,
+          -58.0,
+          -56.0,
+          -54.0,
+          -52.0,
+          -50.0,
+          -48.0,
+          -46.0,
+          -44.0,
+          -42.0,
+          -40.0,
+          -38.0,
+          -36.0,
+          -34.0,
+          -32.0,
+          -30.0,
+          -28.0,
+          -26.0,
+          -24.0,
+          -22.0,
+          -20.0,
+          -18.0,
+          -16.0,
+          -14.0,
+          -12.0,
+          -10.0,
+          -8.0,
+          -6.0,
+          -4.0,
+          -2.0,
+          0.0,
+          2.0,
+          4.0,
+          6.0,
+          8.0,
+          10.0,
+          12.0,
+          14.0,
+          16.0,
+          18.0,
+          20.0,
+          22.0,
+          24.0,
+          26.0,
+          28.0,
+          30.0,
+          32.0,
+          34.0,
+          36.0,
+          38.0,
+          40.0,
+          42.0,
+          44.0,
+          46.0,
+          48.0,
+          50.0,
+          52.0,
+          54.0,
+          56.0,
+          58.0,
+          60.0,
+          62.0,
+          64.0,
+          66.0,
+          68.0,
+          70.0,
+          72.0,
+          74.0,
+          76.0,
+          78.0,
+          80.0
+        ],
+        "profile_contrast_DN": [
+          3.255582571029663,
+          3.168628454208374,
+          3.0905261039733887,
+          3.0203516483306885,
+          2.957094192504883,
+          2.8998727798461914,
+          2.8476171493530273,
+          2.799945116043091,
+          2.756291151046753,
+          2.715453624725342,
+          2.6790215969085693,
+          2.647794008255005,
+          2.6226367950439453,
+          2.604391574859619,
+          2.5941874980926514,
+          2.592909097671509,
+          2.6011548042297363,
+          2.6192500591278076,
+          2.6472761631011963,
+          2.6849172115325928,
+          2.7313599586486816,
+          2.7856805324554443,
+          2.8460495471954346,
+          2.911132574081421,
+          2.9805257320404053,
+          3.052985429763794,
+          3.1276161670684814,
+          3.203524112701416,
+          3.280118942260742,
+          3.3568646907806396,
+          3.4333901405334473,
+          3.50919246673584,
+          3.583773612976074,
+          3.6564793586730957,
+          3.7262468338012695,
+          3.791844129562378,
+          3.8500418663024902,
+          3.901411294937134,
+          3.94431734085083,
+          3.9769937992095947,
+          3.9979655742645264,
+          4.0060296058654785,
+          4.00014591217041,
+          3.9795961380004883,
+          3.9438869953155518,
+          3.893157482147217,
+          3.8277182579040527,
+          3.7482635974884033,
+          3.6558735370635986,
+          3.550774097442627,
+          3.435345411300659,
+          3.312138080596924,
+          3.1836776733398438,
+          3.052748680114746,
+          2.9224584102630615,
+          2.7962090969085693,
+          2.677515745162964,
+          2.570192813873291,
+          2.4780046939849854,
+          2.4042649269104004,
+          2.351858615875244,
+          2.323000907897949,
+          2.318934440612793,
+          2.339663505554199,
+          2.3855175971984863,
+          2.4550442695617676,
+          2.5460541248321533,
+          2.6557042598724365,
+          2.780740737915039,
+          2.9176583290100098,
+          3.062985420227051,
+          3.2136242389678955,
+          3.366656541824341,
+          3.5195274353027344,
+          3.670262098312378,
+          3.8171322345733643,
+          3.9579079151153564,
+          4.092006206512451,
+          4.21857213973999,
+          4.336240291595459,
+          4.443721771240234
+        ]
+      }
+    },
+    "model_groups": [],
+    "review_flags": [
+      "WEAK_SIGNAL",
+      "OFF_MODEL_REVIEW",
+      "BOUNDARY_OR_OCCLUSION_REVIEW"
+    ],
+    "physical_order": null,
+    "candidate_status": "REVIEW_REQUIRED",
+    "zero_order_confirmed": false,
+    "edge_distance_raw_px": 26.984486237290795,
+    "brightness_prediction": {
+      "method": "LEAVE_ONE_OUT_DIRECTIONAL_REGION_LOG_MEDIAN",
+      "status": "INSUFFICIENT_COMPARABLE_OBSERVATIONS",
+      "radius_mm": 60.61715368624359,
+      "observed_contrast_DN": 6.988286972045898,
+      "interpretation": "regional image evidence; not an order-intensity law",
+      "peer_count": 1,
+      "peer_raw_xy": [
+        [
+          4300.335086493817,
+          2729.4519866869377
+        ]
+      ]
+    },
+    "final_regional_brightness_prediction": {
+      "method": "LEAVE_ONE_OUT_DIRECTIONAL_REGION_LOG_MEDIAN",
+      "status": "INSUFFICIENT_COMPARABLE_OBSERVATIONS",
+      "radius_mm": 60.61715368624359,
+      "observed_contrast_DN": 6.988286972045898,
+      "interpretation": "regional image evidence; not an order-intensity law",
+      "peer_count": 1,
+      "peer_raw_xy": [
+        [
+          4300.335086493817,
+          2729.4519866869377
+        ]
+      ]
+    },
+    "candidate_uid": "run_108_p029",
+    "label": "029",
+    "X_mm": 118.82221208793446,
+    "Y_mm": 89.16096580199613
+  },
+  {
+    "u_raw_px": 1830.0,
+    "v_raw_px": 2876.0,
+    "detection_contrast_DN": 13.327377319335938,
+    "detection_origin": "INDEPENDENT_STRONG",
+    "scale_red_samples": 4,
+    "evidence": {
+      "centroid_shift_raw_px": 19.337354829524596,
+      "localization": "local_maximum",
+      "background_DN": 35.0,
+      "major_rms_raw_px": 31.719788247918455,
+      "axis_ratio": 1.1017699966122838,
+      "seed_raw_xy": [
+        1874.0,
+        2930.0
+      ],
+      "seed_contrast_DN": 57.165618896484375,
+      "coarse_maximum_distance_raw_px": 69.65629906907199,
+      "localization_seed_raw_xy": [
+        1830.0,
+        2876.0
+      ],
+      "localized_contrast_DN": 13.327377319335938,
+      "cfa_background": {
+        "method": "LEAVE_CORE_OUT_LOCAL_CFA_BACKGROUND",
+        "R_contrast_DN": 13.327377319335938,
+        "G_contrast_DN": 1.2623405456542969,
+        "status": "INSUFFICIENT_BROADBAND_EVIDENCE",
+        "green_noise_DN": 0.659162702178955
+      },
+      "local_noise_DN": 1.8968000741958617,
+      "contrast_to_local_MAD_ratio": 7.026242512662284
+    },
+    "model_groups": [],
+    "review_flags": [
+      "LOW_LOCAL_SIGNIFICANCE"
+    ],
+    "physical_order": null,
+    "candidate_status": "REVIEW_REQUIRED",
+    "zero_order_confirmed": false,
+    "edge_distance_raw_px": 271.8966604169687,
+    "brightness_prediction": {
+      "method": "LEAVE_ONE_OUT_DIRECTIONAL_REGION_LOG_MEDIAN",
+      "status": "INSUFFICIENT_COMPARABLE_OBSERVATIONS",
+      "radius_mm": 48.65651710800551,
+      "observed_contrast_DN": 13.327377319335938,
+      "interpretation": "regional image evidence; not an order-intensity law",
+      "peer_count": 2,
+      "peer_raw_xy": [
+        [
+          1922.5100922816882,
+          3015.0256652910025
+        ],
+        [
+          1838.6152019002375,
+          2786.718362872282
+        ]
+      ]
+    },
+    "final_regional_brightness_prediction": {
+      "method": "LEAVE_ONE_OUT_DIRECTIONAL_REGION_LOG_MEDIAN",
+      "status": "INSUFFICIENT_COMPARABLE_OBSERVATIONS",
+      "radius_mm": 48.65651710800551,
+      "observed_contrast_DN": 13.327377319335938,
+      "interpretation": "regional image evidence; not an order-intensity law",
+      "peer_count": 2,
+      "peer_raw_xy": [
+        [
+          1838.6152019002375,
+          2786.718362872282
+        ],
+        [
+          1922.5100922816882,
+          3015.0256652910025
+        ]
+      ]
+    },
+    "candidate_uid": "run_108_p030",
+    "label": "030",
+    "X_mm": 9.688199802881437,
+    "Y_mm": 83.9364393225357
+  },
+  {
+    "u_raw_px": 2353.0603599616434,
+    "v_raw_px": 2952.995411964299,
+    "detection_contrast_DN": 236.7682342529297,
+    "detection_origin": "INDEPENDENT_STRONG",
+    "scale_red_samples": 4,
+    "evidence": {
+      "centroid_shift_raw_px": 7.596429233856933,
+      "localization": "centroid",
+      "background_DN": 34.0,
+      "major_rms_raw_px": 26.86551265493094,
+      "axis_ratio": 1.0963599103678545,
+      "seed_raw_xy": [
+        2356.0,
+        2960.0
+      ],
+      "seed_contrast_DN": 269.7899475097656,
+      "coarse_maximum_distance_raw_px": 0.0,
+      "localization_seed_raw_xy": [
+        2356.0,
+        2960.0
+      ],
+      "localized_contrast_DN": 236.7682342529297,
+      "cfa_background": {
+        "method": "LEAVE_CORE_OUT_LOCAL_CFA_BACKGROUND",
+        "R_contrast_DN": 236.7682342529297,
+        "G_contrast_DN": 26.819026947021484,
+        "status": "INSUFFICIENT_BROADBAND_EVIDENCE",
+        "green_noise_DN": 0.6018396572113037,
+        "annular_R_per_G": 5.823752586249684,
+        "annular_texture_correlation": 0.8570802965697125,
+        "annular_residual_MAD_DN": 5.1682269354115835,
+        "predicted_broadband_R_DN": 155.32065451441443,
+        "red_excess_DN": 81.44757973851526,
+        "training_samples": 13413
+      },
+      "local_noise_DN": 1.540744000840187,
+      "contrast_to_local_MAD_ratio": 153.6713653428584
+    },
+    "model_groups": [
+      "row"
+    ],
+    "review_flags": [],
+    "physical_order": null,
+    "candidate_status": "SIGNAL_CANDIDATE",
+    "zero_order_confirmed": false,
+    "edge_distance_raw_px": 730.317273821533,
+    "brightness_prediction": {
+      "method": "LEAVE_ONE_OUT_DIRECTIONAL_REGION_LOG_MEDIAN",
+      "status": "WITHIN_BROAD_REGIONAL_RANGE",
+      "radius_mm": 29.516694218799422,
+      "observed_contrast_DN": 236.7682342529297,
+      "interpretation": "regional image evidence; not an order-intensity law",
+      "peer_count": 3,
+      "peer_raw_xy": [
+        [
+          2604.558930252998,
+          2677.220691819951
+        ],
+        [
+          2300.0647671811107,
+          2804.0635536208943
+        ],
+        [
+          2609.184037252343,
+          3059.4016787282003
+        ]
+      ],
+      "predicted_contrast_DN": 39.56654357910156,
+      "lower_contrast_DN": 4.945817947387696,
+      "upper_contrast_DN": 316.5323486328126,
+      "log_MAD": 0.2984620711179971,
+      "peer_contrasts_DN": [
+        49.43736267089844,
+        39.56654357910156,
+        32.3519401550293
+      ],
+      "observed_to_predicted_ratio": 5.984051494909629,
+      "opposite_measured_raw_xy": [
+        3888.8056942563753,
+        2778.766354942451
+      ],
+      "opposite_position_residual_mm": 1.5665164346687568
+    },
+    "final_regional_brightness_prediction": {
+      "method": "LEAVE_ONE_OUT_DIRECTIONAL_REGION_LOG_MEDIAN",
+      "status": "WITHIN_BROAD_REGIONAL_RANGE",
+      "radius_mm": 29.516694218799422,
+      "observed_contrast_DN": 236.7682342529297,
+      "interpretation": "regional image evidence; not an order-intensity law",
+      "peer_count": 3,
+      "peer_raw_xy": [
+        [
+          2604.558930252998,
+          2677.220691819951
+        ],
+        [
+          2300.0647671811107,
+          2804.0635536208943
+        ],
+        [
+          2609.184037252343,
+          3059.4016787282003
+        ]
+      ],
+      "predicted_contrast_DN": 39.56654357910156,
+      "lower_contrast_DN": 4.945817947387696,
+      "upper_contrast_DN": 316.5323486328126,
+      "log_MAD": 0.2984620711179971,
+      "peer_contrasts_DN": [
+        49.43736267089844,
+        39.56654357910156,
+        32.3519401550293
+      ],
+      "observed_to_predicted_ratio": 5.984051494909629,
+      "opposite_measured_raw_xy": [
+        3888.8056942563753,
+        2778.766354942451
+      ],
+      "opposite_position_residual_mm": 1.5665164346687568
+    },
+    "candidate_uid": "run_108_p031",
+    "label": "031",
+    "X_mm": 28.764609912265627,
+    "Y_mm": 88.74315003699853
+  },
+  {
+    "u_raw_px": 2754.124493115784,
+    "v_raw_px": 2899.118167128389,
+    "detection_contrast_DN": 958.46142578125,
+    "detection_origin": "INDEPENDENT_STRONG",
+    "scale_red_samples": 4,
+    "evidence": {
+      "centroid_shift_raw_px": 11.087279091133636,
+      "localization": "centroid",
+      "background_DN": 44.0,
+      "major_rms_raw_px": 24.873355538251598,
+      "axis_ratio": 1.0232318538534015,
+      "seed_raw_xy": [
+        2752.0,
+        2910.0
+      ],
+      "seed_contrast_DN": 1384.5517578125,
+      "coarse_maximum_distance_raw_px": 4.0,
+      "localization_seed_raw_xy": [
+        2752.0,
+        2910.0
+      ],
+      "localized_contrast_DN": 958.46142578125,
+      "cfa_background": {
+        "method": "LEAVE_CORE_OUT_LOCAL_CFA_BACKGROUND",
+        "R_contrast_DN": 958.46142578125,
+        "G_contrast_DN": 121.11358642578125,
+        "status": "INSUFFICIENT_BROADBAND_EVIDENCE",
+        "green_noise_DN": 1.06419917678833,
+        "annular_R_per_G": 8.354902634988765,
+        "annular_texture_correlation": 0.9953913470886572,
+        "annular_residual_MAD_DN": 7.82673229269443,
+        "predicted_broadband_R_DN": 1012.835755198309,
+        "red_excess_DN": -54.374329417059016,
+        "training_samples": 13433
+      },
+      "local_noise_DN": 4.45740898361206,
+      "contrast_to_local_MAD_ratio": 215.02658367340595
+    },
+    "model_groups": [
+      "row"
+    ],
+    "review_flags": [],
+    "physical_order": null,
+    "candidate_status": "SIGNAL_CANDIDATE",
+    "zero_order_confirmed": false,
+    "edge_distance_raw_px": 742.9221229101641,
+    "brightness_prediction": {
+      "method": "LEAVE_ONE_OUT_DIRECTIONAL_REGION_LOG_MEDIAN",
+      "status": "BRIGHT_REGION_WITH_OPPOSITE_MEASURED_SUPPORT",
+      "radius_mm": 14.308701353660467,
+      "observed_contrast_DN": 958.46142578125,
+      "interpretation": "regional image evidence; not an order-intensity law",
+      "peer_count": 3,
+      "peer_raw_xy": [
+        [
+          2718.0,
+          2814.0
+        ],
+        [
+          2604.558930252998,
+          2677.220691819951
+        ],
+        [
+          2609.184037252343,
+          3059.4016787282003
+        ]
+      ],
+      "predicted_contrast_DN": 49.437362670898445,
+      "lower_contrast_DN": 6.179670333862307,
+      "upper_contrast_DN": 395.49890136718767,
+      "log_MAD": 0.6286705469345756,
+      "peer_contrasts_DN": [
+        296.09698486328125,
+        49.43736267089844,
+        32.3519401550293
+      ],
+      "observed_to_predicted_ratio": 19.387389901068754,
+      "opposite_measured_raw_xy": [
+        3494.6655453018257,
+        2832.0536188517126
+      ],
+      "opposite_position_residual_mm": 1.0880931798298206
+    },
+    "final_regional_brightness_prediction": {
+      "method": "LEAVE_ONE_OUT_DIRECTIONAL_REGION_LOG_MEDIAN",
+      "status": "BRIGHT_REGION_WITH_OPPOSITE_MEASURED_SUPPORT",
+      "radius_mm": 14.308701353660467,
+      "observed_contrast_DN": 958.46142578125,
+      "interpretation": "regional image evidence; not an order-intensity law",
+      "peer_count": 3,
+      "peer_raw_xy": [
+        [
+          2604.558930252998,
+          2677.220691819951
+        ],
+        [
+          2718.0,
+          2814.0
+        ],
+        [
+          2609.184037252343,
+          3059.4016787282003
+        ]
+      ],
+      "predicted_contrast_DN": 49.437362670898445,
+      "lower_contrast_DN": 6.179670333862307,
+      "upper_contrast_DN": 395.49890136718767,
+      "log_MAD": 0.6286705469345756,
+      "peer_contrasts_DN": [
+        49.43736267089844,
+        296.09698486328125,
+        32.3519401550293
+      ],
+      "observed_to_predicted_ratio": 19.387389901068754,
+      "opposite_measured_raw_xy": [
+        3494.6655453018257,
+        2832.0536188517126
+      ],
+      "opposite_position_residual_mm": 1.0880931798298206
+    },
+    "candidate_uid": "run_108_p032",
+    "label": "032",
+    "X_mm": 43.94570668476154,
+    "Y_mm": 87.8289875550117
+  },
+  {
+    "u_raw_px": 2953.739670617533,
+    "v_raw_px": 3009.497976629755,
+    "detection_contrast_DN": 820.1060180664062,
+    "detection_origin": "INDEPENDENT_STRONG",
+    "scale_red_samples": 4,
+    "evidence": {
+      "centroid_shift_raw_px": 5.504136481657186,
+      "localization": "centroid",
+      "background_DN": 61.0,
+      "major_rms_raw_px": 32.293277023625876,
+      "axis_ratio": 1.8882643311433533,
+      "seed_raw_xy": [
+        2954.0,
+        3004.0
+      ],
+      "seed_contrast_DN": 825.1409912109375,
+      "coarse_maximum_distance_raw_px": 12.0,
+      "localization_seed_raw_xy": [
+        2954.0,
+        3004.0
+      ],
+      "localized_contrast_DN": 820.1060180664062,
+      "cfa_background": {
+        "method": "LEAVE_CORE_OUT_LOCAL_CFA_BACKGROUND",
+        "R_contrast_DN": 820.1060180664062,
+        "G_contrast_DN": 98.89955139160156,
+        "status": "INSUFFICIENT_BROADBAND_EVIDENCE",
+        "green_noise_DN": 1.1924641204833983,
+        "annular_R_per_G": 5.76604727369283,
+        "annular_texture_correlation": 0.9869053974979412,
+        "annular_residual_MAD_DN": 27.791493905042795,
+        "predicted_broadband_R_DN": 569.3555939885036,
+        "red_excess_DN": 250.7504240779026,
+        "training_samples": 13429
+      },
+      "local_noise_DN": 5.178715129137039,
+      "contrast_to_local_MAD_ratio": 158.36090567180233
+    },
+    "model_groups": [],
+    "review_flags": [],
+    "physical_order": null,
+    "candidate_status": "SIGNAL_CANDIDATE",
+    "zero_order_confirmed": false,
+    "edge_distance_raw_px": 612.7188419716632,
+    "brightness_prediction": {
+      "method": "LEAVE_ONE_OUT_DIRECTIONAL_REGION_LOG_MEDIAN",
+      "status": "INSUFFICIENT_COMPARABLE_OBSERVATIONS",
+      "radius_mm": 8.897238962568451,
+      "observed_contrast_DN": 820.1060180664062,
+      "interpretation": "regional image evidence; not an order-intensity law",
+      "peer_count": 0,
+      "peer_raw_xy": []
+    },
+    "final_regional_brightness_prediction": {
+      "method": "LEAVE_ONE_OUT_DIRECTIONAL_REGION_LOG_MEDIAN",
+      "status": "INSUFFICIENT_COMPARABLE_OBSERVATIONS",
+      "radius_mm": 8.897238962568451,
+      "observed_contrast_DN": 820.1060180664062,
+      "interpretation": "regional image evidence; not an order-intensity law",
+      "peer_count": 0,
+      "peer_raw_xy": []
+    },
+    "candidate_uid": "run_108_p033",
+    "label": "033",
+    "X_mm": 51.67757346109125,
+    "Y_mm": 93.1614058973799
+  },
+  {
+    "u_raw_px": 3288.755542954897,
+    "v_raw_px": 2991.0080857784483,
+    "detection_contrast_DN": 380.3106689453125,
+    "detection_origin": "INDEPENDENT_STRONG",
+    "scale_red_samples": 4,
+    "evidence": {
+      "centroid_shift_raw_px": 4.8578886997117525,
+      "localization": "centroid",
+      "background_DN": 54.0,
+      "major_rms_raw_px": 33.296665551165155,
+      "axis_ratio": 1.857733514228719,
+      "seed_raw_xy": [
+        3284.0,
+        2992.0
+      ],
+      "seed_contrast_DN": 390.0850524902344,
+      "coarse_maximum_distance_raw_px": 8.94427190999916,
+      "localization_seed_raw_xy": [
+        3284.0,
+        2992.0
+      ],
+      "localized_contrast_DN": 380.3106689453125,
+      "cfa_background": {
+        "method": "LEAVE_CORE_OUT_LOCAL_CFA_BACKGROUND",
+        "R_contrast_DN": 380.3106689453125,
+        "G_contrast_DN": 46.963809967041016,
+        "status": "INSUFFICIENT_BROADBAND_EVIDENCE",
+        "green_noise_DN": 1.0387486610412597,
+        "annular_R_per_G": 5.45198993032659,
+        "annular_texture_correlation": 0.9910934171286843,
+        "annular_residual_MAD_DN": 29.165097938052575,
+        "predicted_broadband_R_DN": 257.8527429742332,
+        "red_excess_DN": 122.4579259710793,
+        "training_samples": 13424
+      },
+      "local_noise_DN": 5.330892953252792,
+      "contrast_to_local_MAD_ratio": 71.34089397035358
+    },
+    "model_groups": [],
+    "review_flags": [],
+    "physical_order": null,
+    "candidate_status": "SIGNAL_CANDIDATE",
+    "zero_order_confirmed": false,
+    "edge_distance_raw_px": 596.8721696436575,
+    "brightness_prediction": {
+      "method": "LEAVE_ONE_OUT_DIRECTIONAL_REGION_LOG_MEDIAN",
+      "status": "INSUFFICIENT_COMPARABLE_OBSERVATIONS",
+      "radius_mm": 9.236708761193434,
+      "observed_contrast_DN": 380.3106689453125,
+      "interpretation": "regional image evidence; not an order-intensity law",
+      "peer_count": 1,
+      "peer_raw_xy": [
+        [
+          3291.2078526463347,
+          2903.333790886385
+        ]
+      ]
+    },
+    "final_regional_brightness_prediction": {
+      "method": "LEAVE_ONE_OUT_DIRECTIONAL_REGION_LOG_MEDIAN",
+      "status": "INSUFFICIENT_COMPARABLE_OBSERVATIONS",
+      "radius_mm": 9.236708761193434,
+      "observed_contrast_DN": 380.3106689453125,
+      "interpretation": "regional image evidence; not an order-intensity law",
+      "peer_count": 1,
+      "peer_raw_xy": [
+        [
+          3291.2078526463347,
+          2903.333790886385
+        ]
+      ]
+    },
+    "candidate_uid": "run_108_p034",
+    "label": "034",
+    "X_mm": 64.88684927977538,
+    "Y_mm": 93.56373666074441
+  },
+  {
+    "u_raw_px": 3291.2078526463347,
+    "v_raw_px": 2903.333790886385,
+    "detection_contrast_DN": 232.63629150390625,
+    "detection_origin": "INDEPENDENT_STRONG",
+    "scale_red_samples": 4,
+    "evidence": {
+      "centroid_shift_raw_px": 4.732969989541699,
+      "localization": "centroid",
+      "background_DN": 87.0,
+      "major_rms_raw_px": 35.22411151399918,
+      "axis_ratio": 1.805189609779963,
+      "seed_raw_xy": [
+        3292.0,
+        2908.0
+      ],
+      "seed_contrast_DN": 243.69345092773438,
+      "coarse_maximum_distance_raw_px": 5.656854249492381,
+      "localization_seed_raw_xy": [
+        3292.0,
+        2908.0
+      ],
+      "localized_contrast_DN": 232.63629150390625,
+      "cfa_background": {
+        "method": "LEAVE_CORE_OUT_LOCAL_CFA_BACKGROUND",
+        "R_contrast_DN": 232.63629150390625,
+        "G_contrast_DN": 19.368030548095703,
+        "status": "INSUFFICIENT_BROADBAND_EVIDENCE",
+        "green_noise_DN": 1.4897770454406738,
+        "annular_R_per_G": 5.336903234753338,
+        "annular_texture_correlation": 0.9928740423361282,
+        "annular_residual_MAD_DN": 33.48639982488357,
+        "predicted_broadband_R_DN": 115.82005888377184,
+        "red_excess_DN": 116.81623262013441,
+        "training_samples": 13427
+      },
+      "local_noise_DN": 10.957373852062224,
+      "contrast_to_local_MAD_ratio": 21.23102621529365
+    },
+    "model_groups": [],
+    "review_flags": [],
+    "physical_order": null,
+    "candidate_status": "SIGNAL_CANDIDATE",
+    "zero_order_confirmed": false,
+    "edge_distance_raw_px": 683.8367608317452,
+    "brightness_prediction": {
+      "method": "LEAVE_ONE_OUT_DIRECTIONAL_REGION_LOG_MEDIAN",
+      "status": "INSUFFICIENT_COMPARABLE_OBSERVATIONS",
+      "radius_mm": 7.184572173148508,
+      "observed_contrast_DN": 232.63629150390625,
+      "interpretation": "regional image evidence; not an order-intensity law",
+      "peer_count": 2,
+      "peer_raw_xy": [
+        [
+          3494.6655453018257,
+          2832.0536188517126
+        ],
+        [
+          3288.755542954897,
+          2991.0080857784483
+        ]
+      ]
+    },
+    "final_regional_brightness_prediction": {
+      "method": "LEAVE_ONE_OUT_DIRECTIONAL_REGION_LOG_MEDIAN",
+      "status": "INSUFFICIENT_COMPARABLE_OBSERVATIONS",
+      "radius_mm": 7.184572173148508,
+      "observed_contrast_DN": 232.63629150390625,
+      "interpretation": "regional image evidence; not an order-intensity law",
+      "peer_count": 2,
+      "peer_raw_xy": [
+        [
+          3494.6655453018257,
+          2832.0536188517126
+        ],
+        [
+          3288.755542954897,
+          2991.0080857784483
+        ]
+      ]
+    },
+    "candidate_uid": "run_108_p035",
+    "label": "035",
+    "X_mm": 64.90969596688339,
+    "Y_mm": 89.81841198768599
+  },
+  {
+    "u_raw_px": 3808.4022618457984,
+    "v_raw_px": 2880.0507677067853,
+    "detection_contrast_DN": 9.839241027832031,
+    "detection_origin": "INDEPENDENT_WEAK",
+    "scale_red_samples": 4,
+    "evidence": {
+      "status": "DETECTED",
+      "contrast_DN": 9.839241027832031,
+      "local_noise_DN": 1.242789687538147,
+      "contrast_to_local_MAD_ratio": 7.917060405709248,
+      "diffraction_shape_NCC": 0.8080627918243408,
+      "prediction_error_raw_px": 0.0,
+      "centroid_shift_raw_px": 7.400896853598267,
+      "localization": "centroid",
+      "background_DN": 36.0,
+      "major_rms_raw_px": 21.46208720411067,
+      "axis_ratio": 1.0390554161433914,
+      "coarse_maximum_distance_raw_px": 4.47213595499958,
+      "template_basis": "INDEPENDENT_OBSERVED",
+      "cfa_background": {
+        "method": "LEAVE_CORE_OUT_LOCAL_CFA_BACKGROUND",
+        "R_contrast_DN": 8.54627513885498,
+        "G_contrast_DN": 1.850777506828308,
+        "status": "INSUFFICIENT_BROADBAND_EVIDENCE",
+        "green_noise_DN": 0.6532101093292236
+      },
+      "unresolved_stronger_raw_xy": [
+        3888.8056942563753,
+        2778.766354942451
+      ],
+      "saddle_fraction": 0.1301280587511701
+    },
+    "model_groups": [],
+    "review_flags": [
+      "WEAK_SIGNAL",
+      "OFF_MODEL_REVIEW",
+      "UNRESOLVED_SHALLOW_SADDLE"
+    ],
+    "physical_order": null,
+    "candidate_status": "REVIEW_REQUIRED",
+    "zero_order_confirmed": false,
+    "edge_distance_raw_px": 654.1386323409341,
+    "final_regional_brightness_prediction": {
+      "method": "LEAVE_ONE_OUT_DIRECTIONAL_REGION_LOG_MEDIAN",
+      "status": "WITHIN_BROAD_REGIONAL_RANGE",
+      "radius_mm": 27.804289929073256,
+      "observed_contrast_DN": 9.839241027832031,
+      "interpretation": "regional image evidence; not an order-intensity law",
+      "peer_count": 3,
+      "peer_raw_xy": [
+        [
+          3621.5333375148966,
+          2623.852850780907
+        ],
+        [
+          3888.8056942563753,
+          2778.766354942451
+        ],
+        [
+          3773.286186597855,
+          3223.1602290137894
+        ]
+      ],
+      "predicted_contrast_DN": 6.315080642700195,
+      "lower_contrast_DN": 0.7893850803375245,
+      "upper_contrast_DN": 50.52064514160154,
+      "log_MAD": 0.16166360930827314,
+      "peer_contrasts_DN": [
+        6.315080642700195,
+        214.9166259765625,
+        5.662694931030273
+      ],
+      "observed_to_predicted_ratio": 1.558054692334852
+    },
+    "candidate_uid": "run_108_p036",
+    "label": "036",
+    "X_mm": 85.82569983097382,
+    "Y_mm": 90.61833324250196
+  },
+  {
+    "u_raw_px": 4580.989071694488,
+    "v_raw_px": 2881.357871982707,
+    "detection_contrast_DN": 6.452520370483398,
+    "detection_origin": "INDEPENDENT_WEAK",
+    "scale_red_samples": 4,
+    "evidence": {
+      "status": "DETECTED",
+      "contrast_DN": 6.452520370483398,
+      "local_noise_DN": 0.8355651755332947,
+      "contrast_to_local_MAD_ratio": 7.722342385039101,
+      "diffraction_shape_NCC": 0.7690130472183228,
+      "prediction_error_raw_px": 0.0,
+      "centroid_shift_raw_px": 4.00581199268006,
+      "localization": "centroid",
+      "background_DN": 11.0,
+      "major_rms_raw_px": 22.473914850588145,
+      "axis_ratio": 1.1274375742167038,
+      "coarse_maximum_distance_raw_px": 10.0,
+      "template_basis": "INDEPENDENT_OBSERVED",
+      "cfa_background": {
+        "method": "LEAVE_CORE_OUT_LOCAL_CFA_BACKGROUND",
+        "R_contrast_DN": 6.2360005378723145,
+        "G_contrast_DN": 1.0695717334747314,
+        "status": "INSUFFICIENT_BROADBAND_EVIDENCE",
+        "green_noise_DN": 0.5658512140274048
+      },
+      "boundary_tangential_profile": {
+        "method": "COARSE_TANGENTIAL_EDGE_PROFILE",
+        "side": 1,
+        "edge_distance_raw_px": 31.920553932667005,
+        "status": "RESOLVED_TANGENTIAL_MAXIMUM",
+        "coarse_contrast_DN": 4.770625114440918,
+        "tangential_prominence": 0.5149230973441952,
+        "minimum_prominence": 0.15,
+        "profile_offsets_raw_px": [
+          -80.0,
+          -78.0,
+          -76.0,
+          -74.0,
+          -72.0,
+          -70.0,
+          -68.0,
+          -66.0,
+          -64.0,
+          -62.0,
+          -60.0,
+          -58.0,
+          -56.0,
+          -54.0,
+          -52.0,
+          -50.0,
+          -48.0,
+          -46.0,
+          -44.0,
+          -42.0,
+          -40.0,
+          -38.0,
+          -36.0,
+          -34.0,
+          -32.0,
+          -30.0,
+          -28.0,
+          -26.0,
+          -24.0,
+          -22.0,
+          -20.0,
+          -18.0,
+          -16.0,
+          -14.0,
+          -12.0,
+          -10.0,
+          -8.0,
+          -6.0,
+          -4.0,
+          -2.0,
+          0.0,
+          2.0,
+          4.0,
+          6.0,
+          8.0,
+          10.0,
+          12.0,
+          14.0,
+          16.0,
+          18.0,
+          20.0,
+          22.0,
+          24.0,
+          26.0,
+          28.0,
+          30.0,
+          32.0,
+          34.0,
+          36.0,
+          38.0,
+          40.0,
+          42.0,
+          44.0,
+          46.0,
+          48.0,
+          50.0,
+          52.0,
+          54.0,
+          56.0,
+          58.0,
+          60.0,
+          62.0,
+          64.0,
+          66.0,
+          68.0,
+          70.0,
+          72.0,
+          74.0,
+          76.0,
+          78.0,
+          80.0
+        ],
+        "profile_contrast_DN": [
+          3.4468469619750977,
+          3.347937822341919,
+          3.237618923187256,
+          3.118673324584961,
+          2.994445323944092,
+          2.868798017501831,
+          2.7460944652557373,
+          2.6298720836639404,
+          2.525510311126709,
+          2.4381539821624756,
+          2.3717737197875977,
+          2.329664707183838,
+          2.314120054244995,
+          2.326406717300415,
+          2.366514205932617,
+          2.433208703994751,
+          2.5241384506225586,
+          2.636127471923828,
+          2.7653396129608154,
+          2.9076051712036133,
+          3.0584354400634766,
+          3.2132503986358643,
+          3.3694427013397217,
+          3.524122476577759,
+          3.6750118732452393,
+          3.8206539154052734,
+          3.9600307941436768,
+          4.092576503753662,
+          4.21793270111084,
+          4.335869789123535,
+          4.445716857910156,
+          4.546718597412109,
+          4.637754440307617,
+          4.717194080352783,
+          4.782475471496582,
+          4.831972122192383,
+          4.863582611083984,
+          4.875043869018555,
+          4.864314079284668,
+          4.8298749923706055,
+          4.770625114440918,
+          4.6861958503723145,
+          4.576878547668457,
+          4.443716049194336,
+          4.288354396820068,
+          4.112978935241699,
+          3.9202754497528076,
+          3.7129225730895996,
+          3.493849992752075,
+          3.266547679901123,
+          3.033871650695801,
+          2.7984485626220703,
+          2.5627474784851074,
+          2.3287105560302734,
+          2.098073720932007,
+          1.8725793361663818,
+          1.653684377670288,
+          1.442702054977417,
+          1.2409319877624512,
+          1.0497426986694336,
+          0.8705388903617859,
+          0.7043086290359497,
+          0.5523861646652222,
+          0.4159081280231476,
+          0.2956590950489044,
+          0.192128524184227,
+          0.1055402085185051,
+          0.035895880311727524,
+          -0.0172325037419796,
+          -0.054654981940984726,
+          -0.07729724794626236,
+          -0.0863039419054985,
+          -0.08281084150075912,
+          -0.06804955005645752,
+          -0.0438004732131958,
+          -0.01136515848338604,
+          0.02856883779168129,
+          0.07479283213615417,
+          0.12612058222293854,
+          0.18139642477035522,
+          0.2393588125705719
+        ]
+      }
+    },
+    "model_groups": [],
+    "review_flags": [
+      "WEAK_SIGNAL",
+      "OFF_MODEL_REVIEW",
+      "BOUNDARY_OR_OCCLUSION_REVIEW"
+    ],
+    "physical_order": null,
+    "candidate_status": "REVIEW_REQUIRED",
+    "zero_order_confirmed": false,
+    "edge_distance_raw_px": 31.92056297766797,
+    "final_regional_brightness_prediction": {
+      "method": "LEAVE_ONE_OUT_DIRECTIONAL_REGION_LOG_MEDIAN",
+      "status": "INSUFFICIENT_COMPARABLE_OBSERVATIONS",
+      "radius_mm": 60.694232740260624,
+      "observed_contrast_DN": 6.452520370483398,
+      "interpretation": "regional image evidence; not an order-intensity law",
+      "peer_count": 1,
+      "peer_raw_xy": [
+        [
+          4300.335086493817,
+          2729.4519866869377
+        ]
+      ]
+    },
+    "candidate_uid": "run_108_p037",
+    "label": "037",
+    "X_mm": 118.60152146599081,
+    "Y_mm": 93.48252893635527
+  },
+  {
+    "u_raw_px": 1922.5100922816882,
+    "v_raw_px": 3015.0256652910025,
+    "detection_contrast_DN": 349.25604248046875,
+    "detection_origin": "INDEPENDENT_STRONG",
+    "scale_red_samples": 4,
+    "evidence": {
+      "centroid_shift_raw_px": 5.00041997565955,
+      "localization": "centroid",
+      "background_DN": 35.0,
+      "major_rms_raw_px": 27.7749436107846,
+      "axis_ratio": 1.1517137142070935,
+      "seed_raw_xy": [
+        1922.0,
+        3020.0
+      ],
+      "seed_contrast_DN": 361.2803955078125,
+      "coarse_maximum_distance_raw_px": 2.8284271247461903,
+      "localization_seed_raw_xy": [
+        1922.0,
+        3020.0
+      ],
+      "localized_contrast_DN": 349.25604248046875,
+      "cfa_background": {
+        "method": "LEAVE_CORE_OUT_LOCAL_CFA_BACKGROUND",
+        "R_contrast_DN": 349.25604248046875,
+        "G_contrast_DN": 41.285221099853516,
+        "status": "INSUFFICIENT_BROADBAND_EVIDENCE",
+        "green_noise_DN": 0.6760986064910889,
+        "annular_R_per_G": 7.346318704524037,
+        "annular_texture_correlation": 0.9339289041240738,
+        "annular_residual_MAD_DN": 5.544667282997085,
+        "predicted_broadband_R_DN": 300.5805774743275,
+        "red_excess_DN": 48.67546500614122,
+        "training_samples": 13434
+      },
+      "local_noise_DN": 2.0760584842443466,
+      "contrast_to_local_MAD_ratio": 168.23034858172244
+    },
+    "model_groups": [],
+    "review_flags": [],
+    "physical_order": null,
+    "candidate_status": "SIGNAL_CANDIDATE",
+    "zero_order_confirmed": false,
+    "edge_distance_raw_px": 357.5785161717098,
+    "brightness_prediction": {
+      "method": "LEAVE_ONE_OUT_DIRECTIONAL_REGION_LOG_MEDIAN",
+      "status": "INSUFFICIENT_COMPARABLE_OBSERVATIONS",
+      "radius_mm": 45.468890503861296,
+      "observed_contrast_DN": 349.25604248046875,
+      "interpretation": "regional image evidence; not an order-intensity law",
+      "peer_count": 1,
+      "peer_raw_xy": [
+        [
+          1838.6152019002375,
+          2786.718362872282
+        ]
+      ]
+    },
+    "final_regional_brightness_prediction": {
+      "method": "LEAVE_ONE_OUT_DIRECTIONAL_REGION_LOG_MEDIAN",
+      "status": "INSUFFICIENT_COMPARABLE_OBSERVATIONS",
+      "radius_mm": 45.468890503861296,
+      "observed_contrast_DN": 349.25604248046875,
+      "interpretation": "regional image evidence; not an order-intensity law",
+      "peer_count": 1,
+      "peer_raw_xy": [
+        [
+          1838.6152019002375,
+          2786.718362872282
+        ]
+      ]
+    },
+    "candidate_uid": "run_108_p038",
+    "label": "038",
+    "X_mm": 12.850951919601862,
+    "Y_mm": 89.87241428328694
+  },
+  {
+    "u_raw_px": 2609.184037252343,
+    "v_raw_px": 3059.4016787282003,
+    "detection_contrast_DN": 32.3519401550293,
+    "detection_origin": "INDEPENDENT_STRONG",
+    "scale_red_samples": 4,
+    "evidence": {
+      "centroid_shift_raw_px": 3.8315688206892355,
+      "localization": "centroid",
+      "background_DN": 21.0,
+      "major_rms_raw_px": 30.62315110760218,
+      "axis_ratio": 1.2193996704325991,
+      "seed_raw_xy": [
+        2612.0,
+        3062.0
+      ],
+      "seed_contrast_DN": 32.82330322265625,
+      "coarse_maximum_distance_raw_px": 2.8284271247461903,
+      "localization_seed_raw_xy": [
+        2612.0,
+        3062.0
+      ],
+      "localized_contrast_DN": 32.3519401550293,
+      "cfa_background": {
+        "method": "LEAVE_CORE_OUT_LOCAL_CFA_BACKGROUND",
+        "R_contrast_DN": 32.3519401550293,
+        "G_contrast_DN": 3.2092487812042236,
+        "status": "INSUFFICIENT_BROADBAND_EVIDENCE",
+        "green_noise_DN": 0.4934741889953613,
+        "annular_R_per_G": 6.02230853856448,
+        "annular_texture_correlation": 0.9201869235756821,
+        "annular_residual_MAD_DN": 5.736539366058051,
+        "predicted_broadband_R_DN": 15.572217485610402,
+        "red_excess_DN": 16.779722669418895,
+        "training_samples": 13431
+      },
+      "local_noise_DN": 0.9393491974353789,
+      "contrast_to_local_MAD_ratio": 34.44080246553348
+    },
+    "model_groups": [
+      "lattice_2d"
+    ],
+    "review_flags": [],
+    "physical_order": null,
+    "candidate_status": "SIGNAL_CANDIDATE",
+    "zero_order_confirmed": false,
+    "edge_distance_raw_px": 598.2914390458346,
+    "brightness_prediction": {
+      "method": "LEAVE_ONE_OUT_DIRECTIONAL_REGION_LOG_MEDIAN",
+      "status": "WITHIN_BROAD_REGIONAL_RANGE",
+      "radius_mm": 21.018698479483522,
+      "observed_contrast_DN": 32.3519401550293,
+      "interpretation": "regional image evidence; not an order-intensity law",
+      "peer_count": 3,
+      "peer_raw_xy": [
+        [
+          2718.0,
+          2814.0
+        ],
+        [
+          2353.0603599616434,
+          2952.995411964299
+        ],
+        [
+          2300.0647671811107,
+          2804.0635536208943
+        ]
+      ],
+      "predicted_contrast_DN": 236.7682342529296,
+      "lower_contrast_DN": 29.596029281616207,
+      "upper_contrast_DN": 1894.1458740234357,
+      "log_MAD": 0.3315172238631179,
+      "peer_contrasts_DN": [
+        296.09698486328125,
+        236.7682342529297,
+        39.56654357910156
+      ],
+      "observed_to_predicted_ratio": 0.1366396985520831
+    },
+    "final_regional_brightness_prediction": {
+      "method": "LEAVE_ONE_OUT_DIRECTIONAL_REGION_LOG_MEDIAN",
+      "status": "WITHIN_BROAD_REGIONAL_RANGE",
+      "radius_mm": 21.018698479483522,
+      "observed_contrast_DN": 32.3519401550293,
+      "interpretation": "regional image evidence; not an order-intensity law",
+      "peer_count": 3,
+      "peer_raw_xy": [
+        [
+          2300.0647671811107,
+          2804.0635536208943
+        ],
+        [
+          2718.0,
+          2814.0
+        ],
+        [
+          2353.0603599616434,
+          2952.995411964299
+        ]
+      ],
+      "predicted_contrast_DN": 236.7682342529296,
+      "lower_contrast_DN": 29.596029281616207,
+      "upper_contrast_DN": 1894.1458740234357,
+      "log_MAD": 0.3315172238631179,
+      "peer_contrasts_DN": [
+        39.56654357910156,
+        296.09698486328125,
+        236.7682342529297
+      ],
+      "observed_to_predicted_ratio": 0.1366396985520831,
+      "opposite_measured_raw_xy": [
+        3621.5333375148966,
+        2623.852850780907
+      ],
+      "opposite_position_residual_mm": 1.2509067164916519
+    },
+    "candidate_uid": "run_108_p039",
+    "label": "039",
+    "X_mm": 38.385742850333344,
+    "Y_mm": 94.05522320055057
+  },
+  {
+    "u_raw_px": 3122.0,
+    "v_raw_px": 3046.0,
+    "detection_contrast_DN": 101.44656372070312,
+    "detection_origin": "INDEPENDENT_STRONG",
+    "scale_red_samples": 4,
+    "evidence": {
+      "centroid_shift_raw_px": 20.32404140419805,
+      "localization": "local_maximum",
+      "background_DN": 61.0,
+      "major_rms_raw_px": 29.211297712122178,
+      "axis_ratio": 1.379785719432331,
+      "seed_raw_xy": [
+        3122.0,
+        3046.0
+      ],
+      "seed_contrast_DN": 101.44656372070312,
+      "coarse_maximum_distance_raw_px": 6.324555320336759,
+      "localization_seed_raw_xy": [
+        3122.0,
+        3046.0
+      ],
+      "localized_contrast_DN": 101.44656372070312,
+      "cfa_background": {
+        "method": "LEAVE_CORE_OUT_LOCAL_CFA_BACKGROUND",
+        "R_contrast_DN": 101.44656372070312,
+        "G_contrast_DN": 7.207618713378906,
+        "status": "INSUFFICIENT_BROADBAND_EVIDENCE",
+        "green_noise_DN": 1.0520112075805663,
+        "annular_R_per_G": 4.28442714691746,
+        "annular_texture_correlation": 0.9934897256657708,
+        "annular_residual_MAD_DN": 17.305256768338236,
+        "predicted_broadband_R_DN": -8.761548741177727,
+        "red_excess_DN": 110.20811246188086,
+        "training_samples": 13432
+      },
+      "local_noise_DN": 7.93732021408081,
+      "contrast_to_local_MAD_ratio": 12.780958936334315
+    },
+    "model_groups": [],
+    "review_flags": [],
+    "physical_order": null,
+    "candidate_status": "SIGNAL_CANDIDATE",
+    "zero_order_confirmed": false,
+    "edge_distance_raw_px": 559.2112217806862,
+    "brightness_prediction": {
+      "method": "LEAVE_ONE_OUT_DIRECTIONAL_REGION_LOG_MEDIAN",
+      "status": "INSUFFICIENT_COMPARABLE_OBSERVATIONS",
+      "radius_mm": 8.17087036410982,
+      "observed_contrast_DN": 101.44656372070312,
+      "interpretation": "regional image evidence; not an order-intensity law",
+      "peer_count": 1,
+      "peer_raw_xy": [
+        [
+          3112.713024220182,
+          3212.3702929239766
+        ]
+      ]
+    },
+    "final_regional_brightness_prediction": {
+      "method": "LEAVE_ONE_OUT_DIRECTIONAL_REGION_LOG_MEDIAN",
+      "status": "INSUFFICIENT_COMPARABLE_OBSERVATIONS",
+      "radius_mm": 8.17087036410982,
+      "observed_contrast_DN": 101.44656372070312,
+      "interpretation": "regional image evidence; not an order-intensity law",
+      "peer_count": 1,
+      "peer_raw_xy": [
+        [
+          3112.713024220182,
+          3212.3702929239766
+        ]
+      ]
+    },
+    "candidate_uid": "run_108_p040",
+    "label": "040",
+    "X_mm": 58.30179517811549,
+    "Y_mm": 95.32230234536823
+  },
+  {
+    "u_raw_px": 2783.761440578156,
+    "v_raw_px": 3246.3297733184318,
+    "detection_contrast_DN": 84.77981567382812,
+    "detection_origin": "INDEPENDENT_STRONG",
+    "scale_red_samples": 4,
+    "evidence": {
+      "centroid_shift_raw_px": 4.5557703125077476,
+      "localization": "centroid",
+      "background_DN": 23.0,
+      "major_rms_raw_px": 30.33547189866146,
+      "axis_ratio": 1.159230477355821,
+      "seed_raw_xy": [
+        2788.0,
+        3248.0
+      ],
+      "seed_contrast_DN": 85.5528335571289,
+      "coarse_maximum_distance_raw_px": 11.661903789690601,
+      "localization_seed_raw_xy": [
+        2788.0,
+        3248.0
+      ],
+      "localized_contrast_DN": 84.77981567382812,
+      "cfa_background": {
+        "method": "LEAVE_CORE_OUT_LOCAL_CFA_BACKGROUND",
+        "R_contrast_DN": 84.77981567382812,
+        "G_contrast_DN": 9.738715171813965,
+        "status": "INSUFFICIENT_BROADBAND_EVIDENCE",
+        "green_noise_DN": 0.5308638244628906,
+        "annular_R_per_G": 5.896966998809251,
+        "annular_texture_correlation": 0.867993067717293,
+        "annular_residual_MAD_DN": 4.753782405133732,
+        "predicted_broadband_R_DN": 55.157269128150034,
+        "red_excess_DN": 29.62254654567809,
+        "training_samples": 13421
+      },
+      "local_noise_DN": 0.8482918473243712,
+      "contrast_to_local_MAD_ratio": 99.94180179997637
+    },
+    "model_groups": [
+      "lattice_2d"
+    ],
+    "review_flags": [],
+    "physical_order": null,
+    "candidate_status": "SIGNAL_CANDIDATE",
+    "zero_order_confirmed": false,
+    "edge_distance_raw_px": 394.499622249055,
+    "brightness_prediction": {
+      "method": "LEAVE_ONE_OUT_DIRECTIONAL_REGION_LOG_MEDIAN",
+      "status": "INSUFFICIENT_COMPARABLE_OBSERVATIONS",
+      "radius_mm": 20.32573419874718,
+      "observed_contrast_DN": 84.77981567382812,
+      "interpretation": "regional image evidence; not an order-intensity law",
+      "peer_count": 2,
+      "peer_raw_xy": [
+        [
+          2948.2212249741224,
+          3416.5730137090054
+        ],
+        [
+          2609.2250446969606,
+          3441.9380602119054
+        ]
+      ]
+    },
+    "final_regional_brightness_prediction": {
+      "method": "LEAVE_ONE_OUT_DIRECTIONAL_REGION_LOG_MEDIAN",
+      "status": "INSUFFICIENT_COMPARABLE_OBSERVATIONS",
+      "radius_mm": 20.32573419874718,
+      "observed_contrast_DN": 84.77981567382812,
+      "interpretation": "regional image evidence; not an order-intensity law",
+      "peer_count": 2,
+      "peer_raw_xy": [
+        [
+          2948.2212249741224,
+          3416.5730137090054
+        ],
+        [
+          2609.2250446969606,
+          3441.9380602119054
+        ]
+      ]
+    },
+    "candidate_uid": "run_108_p041",
+    "label": "041",
+    "X_mm": 45.09516318239063,
+    "Y_mm": 102.65624588740687
+  },
+  {
+    "u_raw_px": 3112.713024220182,
+    "v_raw_px": 3212.3702929239766,
+    "detection_contrast_DN": 354.8069763183594,
+    "detection_origin": "INDEPENDENT_STRONG",
+    "scale_red_samples": 4,
+    "evidence": {
+      "centroid_shift_raw_px": 10.394776518408012,
+      "localization": "centroid",
+      "background_DN": 33.0,
+      "major_rms_raw_px": 27.778481370576245,
+      "axis_ratio": 1.1642494907052598,
+      "seed_raw_xy": [
+        3112.0,
+        3202.0
+      ],
+      "seed_contrast_DN": 377.51580810546875,
+      "coarse_maximum_distance_raw_px": 10.0,
+      "localization_seed_raw_xy": [
+        3112.0,
+        3202.0
+      ],
+      "localized_contrast_DN": 354.8069763183594,
+      "cfa_background": {
+        "method": "LEAVE_CORE_OUT_LOCAL_CFA_BACKGROUND",
+        "R_contrast_DN": 354.8069763183594,
+        "G_contrast_DN": 43.18168258666992,
+        "status": "INSUFFICIENT_BROADBAND_EVIDENCE",
+        "green_noise_DN": 0.6044794412612915,
+        "annular_R_per_G": 8.011095201649459,
+        "annular_texture_correlation": 0.9779239641518579,
+        "annular_residual_MAD_DN": 6.201254710481112,
+        "predicted_broadband_R_DN": 345.6532280532405,
+        "red_excess_DN": 9.15374826511885,
+        "training_samples": 13438
+      },
+      "local_noise_DN": 1.919194053697586,
+      "contrast_to_local_MAD_ratio": 184.87290309949424
+    },
+    "model_groups": [
+      "lattice_2d"
+    ],
+    "review_flags": [],
+    "physical_order": null,
+    "candidate_status": "SIGNAL_CANDIDATE",
+    "zero_order_confirmed": false,
+    "edge_distance_raw_px": 394.6612105702968,
+    "brightness_prediction": {
+      "method": "LEAVE_ONE_OUT_DIRECTIONAL_REGION_LOG_MEDIAN",
+      "status": "INSUFFICIENT_COMPARABLE_OBSERVATIONS",
+      "radius_mm": 15.319530863935814,
+      "observed_contrast_DN": 354.8069763183594,
+      "interpretation": "regional image evidence; not an order-intensity law",
+      "peer_count": 2,
+      "peer_raw_xy": [
+        [
+          2948.2212249741224,
+          3416.5730137090054
+        ],
+        [
+          3269.9600232055272,
+          3397.940017228346
+        ]
+      ]
+    },
+    "final_regional_brightness_prediction": {
+      "method": "LEAVE_ONE_OUT_DIRECTIONAL_REGION_LOG_MEDIAN",
+      "status": "INSUFFICIENT_COMPARABLE_OBSERVATIONS",
+      "radius_mm": 15.319530863935814,
+      "observed_contrast_DN": 354.8069763183594,
+      "interpretation": "regional image evidence; not an order-intensity law",
+      "peer_count": 2,
+      "peer_raw_xy": [
+        [
+          2948.2212249741224,
+          3416.5730137090054
+        ],
+        [
+          3269.9600232055272,
+          3397.940017228346
+        ]
+      ]
+    },
+    "candidate_uid": "run_108_p042",
+    "label": "042",
+    "X_mm": 58.029572386744846,
+    "Y_mm": 102.46978607173742
+  },
+  {
+    "u_raw_px": 3446.3094494169222,
+    "v_raw_px": 3202.542680523376,
+    "detection_contrast_DN": 46.274322509765625,
+    "detection_origin": "INDEPENDENT_STRONG",
+    "scale_red_samples": 4,
+    "evidence": {
+      "centroid_shift_raw_px": 10.620100869067503,
+      "localization": "centroid",
+      "background_DN": 21.0,
+      "major_rms_raw_px": 29.66050774049881,
+      "axis_ratio": 1.1992114576949342,
+      "seed_raw_xy": [
+        3440.0,
+        3194.0
+      ],
+      "seed_contrast_DN": 49.58992004394531,
+      "coarse_maximum_distance_raw_px": 10.0,
+      "localization_seed_raw_xy": [
+        3440.0,
+        3194.0
+      ],
+      "localized_contrast_DN": 46.274322509765625,
+      "cfa_background": {
+        "method": "LEAVE_CORE_OUT_LOCAL_CFA_BACKGROUND",
+        "R_contrast_DN": 46.274322509765625,
+        "G_contrast_DN": 7.300565242767334,
+        "status": "INSUFFICIENT_BROADBAND_EVIDENCE",
+        "green_noise_DN": 0.4844986404418945,
+        "annular_R_per_G": 4.215431930381325,
+        "annular_texture_correlation": 0.7672864676722378,
+        "annular_residual_MAD_DN": 4.585517997679806,
+        "predicted_broadband_R_DN": 27.55396167450065,
+        "red_excess_DN": 18.720360835264977,
+        "training_samples": 13434
+      },
+      "local_noise_DN": 0.7369259577155113,
+      "contrast_to_local_MAD_ratio": 62.79372035315077
+    },
+    "model_groups": [
+      "lattice_2d"
+    ],
+    "review_flags": [],
+    "physical_order": null,
+    "candidate_status": "SIGNAL_CANDIDATE",
+    "zero_order_confirmed": false,
+    "edge_distance_raw_px": 370.34261643149466,
+    "brightness_prediction": {
+      "method": "LEAVE_ONE_OUT_DIRECTIONAL_REGION_LOG_MEDIAN",
+      "status": "INSUFFICIENT_COMPARABLE_OBSERVATIONS",
+      "radius_mm": 20.910031037231757,
+      "observed_contrast_DN": 46.274322509765625,
+      "interpretation": "regional image evidence; not an order-intensity law",
+      "peer_count": 1,
+      "peer_raw_xy": [
+        [
+          3269.9600232055272,
+          3397.940017228346
+        ]
+      ]
+    },
+    "final_regional_brightness_prediction": {
+      "method": "LEAVE_ONE_OUT_DIRECTIONAL_REGION_LOG_MEDIAN",
+      "status": "INSUFFICIENT_COMPARABLE_OBSERVATIONS",
+      "radius_mm": 20.910031037231757,
+      "observed_contrast_DN": 46.274322509765625,
+      "interpretation": "regional image evidence; not an order-intensity law",
+      "peer_count": 1,
+      "peer_raw_xy": [
+        [
+          3269.9600232055272,
+          3397.940017228346
+        ]
+      ]
+    },
+    "candidate_uid": "run_108_p043",
+    "label": "043",
+    "X_mm": 71.4506808139368,
+    "Y_mm": 103.35859660802471
+  },
+  {
+    "u_raw_px": 3773.286186597855,
+    "v_raw_px": 3223.1602290137894,
+    "detection_contrast_DN": 5.662694931030273,
+    "detection_origin": "INDEPENDENT_WEAK",
+    "scale_red_samples": 4,
+    "evidence": {
+      "status": "DETECTED",
+      "contrast_DN": 5.662694931030273,
+      "local_noise_DN": 0.5833540992736816,
+      "contrast_to_local_MAD_ratio": 9.707131462829766,
+      "diffraction_shape_NCC": 0.7384940385818481,
+      "prediction_error_raw_px": 0.0,
+      "centroid_shift_raw_px": 1.1021546544670024,
+      "localization": "centroid",
+      "background_DN": 17.0,
+      "major_rms_raw_px": 22.03660865332253,
+      "axis_ratio": 1.0128225122534522,
+      "coarse_maximum_distance_raw_px": 4.47213595499958,
+      "template_basis": "INDEPENDENT_OBSERVED",
+      "cfa_background": {
+        "method": "LEAVE_CORE_OUT_LOCAL_CFA_BACKGROUND",
+        "R_contrast_DN": 5.6316657066345215,
+        "G_contrast_DN": 0.2034110277891159,
+        "status": "INSUFFICIENT_BROADBAND_EVIDENCE",
+        "green_noise_DN": 0.5017342952728271
+      }
+    },
+    "model_groups": [],
+    "review_flags": [
+      "WEAK_SIGNAL",
+      "OFF_MODEL_REVIEW"
+    ],
+    "physical_order": null,
+    "candidate_status": "REVIEW_REQUIRED",
+    "zero_order_confirmed": false,
+    "edge_distance_raw_px": 316.41495468509765,
+    "final_regional_brightness_prediction": {
+      "method": "LEAVE_ONE_OUT_DIRECTIONAL_REGION_LOG_MEDIAN",
+      "status": "INSUFFICIENT_COMPARABLE_OBSERVATIONS",
+      "radius_mm": 32.474482450307725,
+      "observed_contrast_DN": 5.662694931030273,
+      "interpretation": "regional image evidence; not an order-intensity law",
+      "peer_count": 0,
+      "peer_raw_xy": []
+    },
+    "candidate_uid": "run_108_p044",
+    "label": "044",
+    "X_mm": 84.96425445541045,
+    "Y_mm": 105.59941620533404
+  },
+  {
+    "u_raw_px": 2948.2212249741224,
+    "v_raw_px": 3416.5730137090054,
+    "detection_contrast_DN": 62.87209701538086,
+    "detection_origin": "INDEPENDENT_STRONG",
+    "scale_red_samples": 4,
+    "evidence": {
+      "centroid_shift_raw_px": 4.039236384625767,
+      "localization": "centroid",
+      "background_DN": 25.0,
+      "major_rms_raw_px": 30.300163159566402,
+      "axis_ratio": 1.0875502900473468,
+      "seed_raw_xy": [
+        2952.0,
+        3418.0
+      ],
+      "seed_contrast_DN": 63.71662521362305,
+      "coarse_maximum_distance_raw_px": 5.656854249492381,
+      "localization_seed_raw_xy": [
+        2952.0,
+        3418.0
+      ],
+      "localized_contrast_DN": 62.87209701538086,
+      "cfa_background": {
+        "method": "LEAVE_CORE_OUT_LOCAL_CFA_BACKGROUND",
+        "R_contrast_DN": 62.87209701538086,
+        "G_contrast_DN": 6.539200305938721,
+        "status": "INSUFFICIENT_BROADBAND_EVIDENCE",
+        "green_noise_DN": 0.5004490442276001,
+        "annular_R_per_G": 4.134143271727705,
+        "annular_texture_correlation": 0.7528405736197753,
+        "annular_residual_MAD_DN": 5.335975354248042,
+        "predicted_broadband_R_DN": 22.078922582007813,
+        "red_excess_DN": 40.793174433373046,
+        "training_samples": 13430
+      },
+      "local_noise_DN": 0.885861668908596,
+      "contrast_to_local_MAD_ratio": 70.97281575896706
+    },
+    "model_groups": [
+      "lattice_2d"
+    ],
+    "review_flags": [],
+    "physical_order": null,
+    "candidate_status": "SIGNAL_CANDIDATE",
+    "zero_order_confirmed": false,
+    "edge_distance_raw_px": 208.33955594832764,
+    "brightness_prediction": {
+      "method": "LEAVE_ONE_OUT_DIRECTIONAL_REGION_LOG_MEDIAN",
+      "status": "INSUFFICIENT_COMPARABLE_OBSERVATIONS",
+      "radius_mm": 24.491205203689496,
+      "observed_contrast_DN": 62.87209701538086,
+      "interpretation": "regional image evidence; not an order-intensity law",
+      "peer_count": 2,
+      "peer_raw_xy": [
+        [
+          2783.761440578156,
+          3246.3297733184318
+        ],
+        [
+          2609.2250446969606,
+          3441.9380602119054
+        ]
+      ]
+    },
+    "final_regional_brightness_prediction": {
+      "method": "LEAVE_ONE_OUT_DIRECTIONAL_REGION_LOG_MEDIAN",
+      "status": "INSUFFICIENT_COMPARABLE_OBSERVATIONS",
+      "radius_mm": 24.491205203689496,
+      "observed_contrast_DN": 62.87209701538086,
+      "interpretation": "regional image evidence; not an order-intensity law",
+      "peer_count": 2,
+      "peer_raw_xy": [
+        [
+          2783.761440578156,
+          3246.3297733184318
+        ],
+        [
+          2609.2250446969606,
+          3441.9380602119054
+        ]
+      ]
+    },
+    "candidate_uid": "run_108_p045",
+    "label": "045",
+    "X_mm": 51.58576404865717,
+    "Y_mm": 110.72204057053771
+  },
+  {
+    "u_raw_px": 3269.9600232055272,
+    "v_raw_px": 3397.940017228346,
+    "detection_contrast_DN": 21.02872085571289,
+    "detection_origin": "INDEPENDENT_STRONG",
+    "scale_red_samples": 4,
+    "evidence": {
+      "centroid_shift_raw_px": 1.9404290737810916,
+      "localization": "centroid",
+      "background_DN": 18.0,
+      "major_rms_raw_px": 31.01229596712765,
+      "axis_ratio": 1.127994645530894,
+      "seed_raw_xy": [
+        3270.0,
+        3396.0
+      ],
+      "seed_contrast_DN": 21.044544219970703,
+      "coarse_maximum_distance_raw_px": 4.47213595499958,
+      "localization_seed_raw_xy": [
+        3270.0,
+        3396.0
+      ],
+      "localized_contrast_DN": 21.02872085571289,
+      "cfa_background": {
+        "method": "LEAVE_CORE_OUT_LOCAL_CFA_BACKGROUND",
+        "R_contrast_DN": 21.02872085571289,
+        "G_contrast_DN": 2.2432568073272705,
+        "status": "INSUFFICIENT_BROADBAND_EVIDENCE",
+        "green_noise_DN": 0.48179947185516353
+      },
+      "local_noise_DN": 0.7188724841415882,
+      "contrast_to_local_MAD_ratio": 29.25236578059246
+    },
+    "model_groups": [
+      "lattice_2d"
+    ],
+    "review_flags": [],
+    "physical_order": null,
+    "candidate_status": "SIGNAL_CANDIDATE",
+    "zero_order_confirmed": false,
+    "edge_distance_raw_px": 193.99216870465673,
+    "brightness_prediction": {
+      "method": "LEAVE_ONE_OUT_DIRECTIONAL_REGION_LOG_MEDIAN",
+      "status": "INSUFFICIENT_COMPARABLE_OBSERVATIONS",
+      "radius_mm": 24.90962602123548,
+      "observed_contrast_DN": 21.02872085571289,
+      "interpretation": "regional image evidence; not an order-intensity law",
+      "peer_count": 1,
+      "peer_raw_xy": [
+        [
+          3446.3094494169222,
+          3202.542680523376
+        ]
+      ]
+    },
+    "final_regional_brightness_prediction": {
+      "method": "LEAVE_ONE_OUT_DIRECTIONAL_REGION_LOG_MEDIAN",
+      "status": "INSUFFICIENT_COMPARABLE_OBSERVATIONS",
+      "radius_mm": 24.90962602123548,
+      "observed_contrast_DN": 21.02872085571289,
+      "interpretation": "regional image evidence; not an order-intensity law",
+      "peer_count": 1,
+      "peer_raw_xy": [
+        [
+          3446.3094494169222,
+          3202.542680523376
+        ]
+      ]
+    },
+    "candidate_uid": "run_108_p046",
+    "label": "046",
+    "X_mm": 64.47793640807774,
+    "Y_mm": 111.26717655522182
+  },
+  {
+    "u_raw_px": 2609.2250446969606,
+    "v_raw_px": 3441.9380602119054,
+    "detection_contrast_DN": 29.510513305664062,
+    "detection_origin": "INDEPENDENT_STRONG",
+    "scale_red_samples": 4,
+    "evidence": {
+      "centroid_shift_raw_px": 0.7774266904719064,
+      "localization": "centroid",
+      "background_DN": 17.0,
+      "major_rms_raw_px": 31.329510761229884,
+      "axis_ratio": 1.069426403961441,
+      "seed_raw_xy": [
+        2610.0,
+        3442.0
+      ],
+      "seed_contrast_DN": 29.525146484375,
+      "coarse_maximum_distance_raw_px": 2.0,
+      "localization_seed_raw_xy": [
+        2610.0,
+        3442.0
+      ],
+      "localized_contrast_DN": 29.510513305664062,
+      "cfa_background": {
+        "method": "LEAVE_CORE_OUT_LOCAL_CFA_BACKGROUND",
+        "R_contrast_DN": 29.510513305664062,
+        "G_contrast_DN": 6.516582489013672,
+        "status": "MEASURED_RED_EXCESS_OR_UNEXPLAINED_FEATURE",
+        "green_noise_DN": 0.6482613979339599,
+        "annular_R_per_G": 1.2513552467622455,
+        "annular_texture_correlation": 0.8199838163100825,
+        "annular_residual_MAD_DN": 2.551662506457126,
+        "predicted_broadband_R_DN": 6.307461540532252,
+        "red_excess_DN": 23.20305176513181,
+        "training_samples": 13435,
+        "observed_annular_G_range_DN": [
+          -6.080257549285888,
+          8.44276840209961
+        ]
+      },
+      "local_noise_DN": 0.9081290144205093,
+      "contrast_to_local_MAD_ratio": 32.49594808342861
+    },
+    "model_groups": [
+      "lattice_2d"
+    ],
+    "review_flags": [],
+    "physical_order": null,
+    "candidate_status": "SIGNAL_CANDIDATE",
+    "zero_order_confirmed": false,
+    "edge_distance_raw_px": 217.75402265179636,
+    "brightness_prediction": {
+      "method": "LEAVE_ONE_OUT_DIRECTIONAL_REGION_LOG_MEDIAN",
+      "status": "INSUFFICIENT_COMPARABLE_OBSERVATIONS",
+      "radius_mm": 30.635997595286657,
+      "observed_contrast_DN": 29.510513305664062,
+      "interpretation": "regional image evidence; not an order-intensity law",
+      "peer_count": 1,
+      "peer_raw_xy": [
+        [
+          2948.2212249741224,
+          3416.5730137090054
+        ]
+      ]
+    },
+    "final_regional_brightness_prediction": {
+      "method": "LEAVE_ONE_OUT_DIRECTIONAL_REGION_LOG_MEDIAN",
+      "status": "INSUFFICIENT_COMPARABLE_OBSERVATIONS",
+      "radius_mm": 30.635997595286646,
+      "observed_contrast_DN": 29.510513305664062,
+      "interpretation": "regional image evidence; not an order-intensity law",
+      "peer_count": 1,
+      "peer_raw_xy": [
+        [
+          2948.2212249741224,
+          3416.5730137090054
+        ]
+      ]
+    },
+    "candidate_uid": "run_108_p047",
+    "label": "047",
+    "X_mm": 38.29697959698527,
+    "Y_mm": 110.40905012628548
+  }
+]

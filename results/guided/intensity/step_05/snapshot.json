@@ -1,0 +1,41 @@
+{
+  "step": "intensity.two_d",
+  "sequence": 5,
+  "pass_index": 1,
+  "images": [
+    "results/guided/intensity/calculation/02_two_d_spectra.png"
+  ],
+  "metrics": [],
+  "table": {
+    "headers": [
+      "实验组",
+      "帧数",
+      "亮节点",
+      "相对谱误差中位数"
+    ],
+    "rows": [
+      [
+        "original",
+        7,
+        71,
+        0.15753068248011295
+      ],
+      [
+        "cycle01",
+        4,
+        36,
+        0.20431139706951518
+      ],
+      [
+        "cycle02",
+        15,
+        169,
+        0.22916805501404464
+      ]
+    ]
+  },
+  "evidence": [],
+  "links": [],
+  "elapsed_s": 6.177,
+  "status": "computed"
+}

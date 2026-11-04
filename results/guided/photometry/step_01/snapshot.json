@@ -1,0 +1,23 @@
+{
+  "step": "photometry.input",
+  "sequence": 1,
+  "pass_index": 1,
+  "images": [
+    "results/guided/photometry/input/01_clipping.png"
+  ],
+  "metrics": [
+    [
+      "剖面来源",
+      "实验3，第125帧"
+    ],
+    [
+      "电压 / V",
+      6.77
+    ]
+  ],
+  "table": null,
+  "evidence": [],
+  "links": [],
+  "elapsed_s": 1.684,
+  "status": "computed"
+}

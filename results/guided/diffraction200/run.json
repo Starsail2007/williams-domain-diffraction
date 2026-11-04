@@ -1,0 +1,382 @@
+{
+  "status": "PASS",
+  "case": "diffraction200",
+  "result": {
+    "status": "PASS",
+    "id": "200",
+    "case_title": "仍有14个候选且能拟合row，但条件留一误差比例0.298超过0.2门槛，必须禁用几何补检；用于证明有亮斑不等于允许猜点。",
+    "origin_counts": {
+      "INDEPENDENT_WEAK": 4,
+      "INDEPENDENT_STRONG": 10
+    },
+    "candidates": 14,
+    "with_quality_flags": 7,
+    "review_required": 6,
+    "candidate_status_counts": {
+      "REVIEW_REQUIRED": 6,
+      "SIGNAL_CANDIDATE": 7,
+      "WEAK_SIGNAL_CANDIDATE": 1
+    },
+    "supplied_human_exclusions": 4,
+    "conditional_edges": [
+      2,
+      3
+    ],
+    "audit_status_counts": {
+      "SAME_OR_UNRESOLVED_MODE": 44,
+      "SHAPE_MISMATCH": 16,
+      "ALREADY_DETECTED_AFTER_LOCALIZATION": 33,
+      "SCALE_UNSTABLE_REVIEW": 92,
+      "INSUFFICIENT_SIGNAL": 29,
+      "DETECTED": 4,
+      "UNRESOLVED_SHALLOW_SADDLE": 4,
+      "MODEL_AND_TEMPLATE_TRAINING_INPUTS": 1,
+      "TRAINING_EVIDENCE_CLOSURE_STABLE": 1
+    },
+    "model_gates": [
+      {
+        "kind": "lattice_2d",
+        "status": "INSUFFICIENT_OR_INCONSISTENT_GEOMETRY",
+        "prediction_enabled": null,
+        "maximum_conditional_loo_fraction": null
+      },
+      {
+        "kind": "row",
+        "status": "OBSERVED_GEOMETRY",
+        "prediction_enabled": false,
+        "maximum_conditional_loo_fraction": 0.29802050315302303
+      }
+    ],
+    "elapsed_s": 7.673330707999412,
+    "raw_decoder_used_at_runtime": false,
+    "reference_evaluation": {
+      "status": "PASS",
+      "scope": "regression against accepted v9/v16 coordinates, not detection accuracy against independent human truth",
+      "reference_loaded_after_detection": true,
+      "candidates_found": 14,
+      "reference_candidates": 14,
+      "maximum_coordinate_difference_raw_px": 0.0,
+      "maximum_screen_corner_difference_display_px": 0.0,
+      "prediction_gates": {
+        "lattice_2d": false,
+        "row": false
+      },
+      "reference_prediction_gates": {
+        "lattice_2d": false,
+        "row": false
+      },
+      "model_statuses": {
+        "lattice_2d": "INSUFFICIENT_OR_INCONSISTENT_GEOMETRY",
+        "row": "OBSERVED_GEOMETRY"
+      },
+      "reference_model_statuses": {
+        "lattice_2d": "INSUFFICIENT_OR_INCONSISTENT_GEOMETRY",
+        "row": "OBSERVED_GEOMETRY"
+      },
+      "historical_human_review_summary": "本帧14个候选均已逐项复核；其中5个仍受低信噪比、浅鞍点、光翼或边缘混合限制，逐项原因随表保存。已核对本轮原图、正视标记与峰区对位；未将质量限制改写为已确认独立衍射峰。",
+      "historical_class_counts": {
+        "UNRESOLVED_IMAGE_IDENTITY": 5,
+        "VISIBLE_OPTICAL_SUPPORT": 7,
+        "CONNECTED_OPTICAL_ENVELOPE": 2
+      }
+    }
+  },
+  "events": [
+    {
+      "step": "detection.input",
+      "sequence": 1,
+      "pass_index": 1,
+      "images": [
+        "data/core/diffraction/200/raw_display.png"
+      ],
+      "metrics": [
+        [
+          "实验",
+          "3"
+        ],
+        [
+          "帧号",
+          "200"
+        ],
+        [
+          "电压 / V",
+          3.48
+        ]
+      ],
+      "table": null,
+      "evidence": [],
+      "links": [],
+      "elapsed_s": 1.591,
+      "status": "computed"
+    },
+    {
+      "step": "detection.geometry",
+      "sequence": 2,
+      "pass_index": 1,
+      "images": [
+        "results/guided/diffraction200/calculation/01_screen_geometry.png"
+      ],
+      "metrics": [
+        [
+          "条件屏边",
+          2
+        ],
+        [
+          "数值映射误差 / mm",
+          7.598787547635766e-06
+        ]
+      ],
+      "table": null,
+      "evidence": [],
+      "links": [],
+      "elapsed_s": 1.976,
+      "status": "computed"
+    },
+    {
+      "step": "detection.contrast",
+      "sequence": 3,
+      "pass_index": 1,
+      "images": [
+        "results/guided/diffraction200/step_03/contrast_4.png",
+        "results/guided/diffraction200/step_03/contrast_8.png"
+      ],
+      "metrics": [
+        [
+          "实际检测尺度 / R采样",
+          "4, 8"
+        ]
+      ],
+      "table": null,
+      "evidence": [],
+      "links": [],
+      "elapsed_s": 4.218,
+      "status": "computed"
+    },
+    {
+      "step": "detection.strong",
+      "sequence": 4,
+      "pass_index": 1,
+      "images": [
+        "results/guided/diffraction200/step_04/candidates.png"
+      ],
+      "metrics": [
+        [
+          "强候选",
+          10
+        ],
+        [
+          "独立弱候选",
+          0
+        ],
+        [
+          "预测补检",
+          0
+        ]
+      ],
+      "table": null,
+      "evidence": [],
+      "links": [],
+      "elapsed_s": 6.46,
+      "status": "computed"
+    },
+    {
+      "step": "detection.weak",
+      "sequence": 5,
+      "pass_index": 1,
+      "images": [
+        "results/guided/diffraction200/step_05/candidates.png"
+      ],
+      "metrics": [
+        [
+          "强候选",
+          10
+        ],
+        [
+          "独立弱候选",
+          4
+        ],
+        [
+          "预测补检",
+          0
+        ]
+      ],
+      "table": null,
+      "evidence": [],
+      "links": [],
+      "elapsed_s": 6.68,
+      "status": "computed"
+    },
+    {
+      "step": "detection.models",
+      "sequence": 6,
+      "pass_index": 1,
+      "images": [
+        "results/guided/diffraction200/step_06/candidates.png"
+      ],
+      "metrics": [
+        [
+          "强候选",
+          10
+        ],
+        [
+          "独立弱候选",
+          4
+        ],
+        [
+          "预测补检",
+          0
+        ],
+        [
+          "可参与几何训练",
+          7
+        ]
+      ],
+      "table": {
+        "headers": [
+          "几何族",
+          "条件留一误差 / 间距",
+          "允许预测"
+        ],
+        "rows": [
+          [
+            "二维点阵",
+            null,
+            false
+          ],
+          [
+            "横向峰列",
+            0.29802050315302303,
+            false
+          ]
+        ]
+      },
+      "evidence": [],
+      "links": [],
+      "elapsed_s": 6.784,
+      "status": "computed"
+    },
+    {
+      "step": "detection.guided",
+      "sequence": 7,
+      "pass_index": 1,
+      "images": [
+        "results/guided/diffraction200/step_07/candidates.png"
+      ],
+      "metrics": [
+        [
+          "强候选",
+          10
+        ],
+        [
+          "独立弱候选",
+          4
+        ],
+        [
+          "预测补检",
+          0
+        ]
+      ],
+      "table": {
+        "headers": [
+          "几何族",
+          "条件留一误差 / 间距",
+          "允许预测"
+        ],
+        "rows": [
+          [
+            "二维点阵",
+            null,
+            false
+          ],
+          [
+            "横向峰列",
+            0.29802050315302303,
+            false
+          ]
+        ]
+      },
+      "evidence": [],
+      "links": [],
+      "elapsed_s": 7.023,
+      "status": "computed"
+    },
+    {
+      "step": "detection.final",
+      "sequence": 8,
+      "pass_index": 1,
+      "images": [
+        "results/guided/diffraction200/calculation/05_guided_detection.png"
+      ],
+      "metrics": [
+        [
+          "候选总数",
+          14
+        ],
+        [
+          "待复核标记",
+          6
+        ],
+        [
+          "质量标志",
+          7
+        ]
+      ],
+      "table": null,
+      "evidence": [],
+      "links": [
+        {
+          "label": "坐标与来源",
+          "path": "results/guided/diffraction200/calculation/coordinates.csv"
+        },
+        {
+          "label": "完整搜索证据",
+          "path": "results/guided/diffraction200/calculation/all_search_evidence.json"
+        }
+      ],
+      "elapsed_s": 9.275,
+      "status": "computed"
+    }
+  ],
+  "source_sha256": {
+    "src/williams_diffraction/microscopy.py": "67899da35a561dd0a2c44f20cb124bd3843d056ffb3286f7fe79569ccf4f482d",
+    "src/williams_diffraction/research_analysis.py": "d1438ea9eac3491d65bec27d2b0bf56e1da200f730df6cbde8266765826745f1",
+    "src/williams_diffraction/microscopy_series.py": "ea26de1df8b43e83b109d22fdc8e55a2567d3cf82b3d0d7f6a465344ffef0621",
+    "src/williams_diffraction/guided_detection.py": "7e6223b378298cab0576e435ba0af54c08b53b2c8138b1f6714c360a352195cb",
+    "src/williams_diffraction/paths.py": "2a04a1a5df60ed4e7536d4b44fd91371f3d1944679c851ee03b68847a6dfaffb",
+    "src/williams_diffraction/weak_tail_trial.py": "efd54eb7b1f23a4b37220b78e2b96254b3bcd1a7cf86b97899ac88095b155827",
+    "src/williams_diffraction/research_route.py": "64f817965d41c9bc90ffd201b2bbc77d177306c94291716e49a62e49b5c75b42",
+    "src/williams_diffraction/green_expanded.py": "1cb068cac0f1830d94598fcfdc401d46463ebe739d55fc64153e0f9e0fb7cf0c",
+    "src/williams_diffraction/guide_events.py": "787d5449d46777c8e25606ed22c51628296debdc994e91c031e699568c3dc3fb",
+    "src/williams_diffraction/delivery_io.py": "c4d7d6d6789feeefe8ff987e874417cbefeaf90d3f4d8ffc16e2273c1542d43f",
+    "src/williams_diffraction/lab_server.py": "4563c3aea828d6fdac715a9d38e04bef0f0f64f357ea2e610dc62af465e1e7a9",
+    "src/williams_diffraction/__init__.py": "88bdc3d63dc7807fb6d37a94da05016d718b15c199461ae12ba590ca942e9403",
+    "src/williams_diffraction/delivery_models.py": "d64f177cae132f18a2b2e9dc0dac05d66aba1e70fabe79e951cffcb60428637a",
+    "src/williams_diffraction/voltage_spectrum.py": "a530aedcd67056faffbb3688ac6b314e44d9c761fbde9641be3efbb810d041d7",
+    "src/williams_diffraction/evidence_detection.py": "3b3c63bcee9ab6e95e835d7e05209a67160dff8f746d4b8acabfd0d2ba8e5e82",
+    "src/williams_diffraction/guided_lab.py": "a3c0de993db58eefbe0b339c33c1c154d9243c604ae3474078c96853a091fa35",
+    "src/williams_diffraction/research_pages.py": "e8a7f92f86781bddb8297be2d5024652b4637de8e66140542ebdd5d41a88fb76",
+    "src/williams_diffraction/delivery_paper.py": "76d1a8e7fcb72cdad9f55bb4a1868b83d4facc2ccf0db38dd3927cbde4308f7b",
+    "src/williams_diffraction/common.py": "577f00591b97fd2ec7812061f8b222b347b6082c200832626eb26f0c179afe02",
+    "src/williams_diffraction/screen_audit.py": "2d420b0ea4415ac3ae40285ae032b0b946e0215ec6214180b88129177b602c47",
+    "src/williams_diffraction/screen_validation_trial.py": "2a5cb63c94b5df0adfcb646d70e77f3a96ac8530b3b10f74bca5af0b3527f06d",
+    "src/williams_diffraction/algorithm_graphics.py": "ca65eaa510d96a6512e35c51b200e29501abef24b32459ea545d60ae4678dd5b",
+    "src/williams_diffraction/green_channel_study.py": "4808284d69c09aba169aee36baa6372c78efe34af93109b08680fb110b7cc62d",
+    "src/williams_diffraction/delivery_algorithms.py": "02864237ff7195bcf9715fa9df6be6ff8e4cf2ff557766ce24a58b7ac5bc2dfe",
+    "src/williams_diffraction/geometry.py": "3244508e782bd945a4a17776853113ca0446380e953c5c302d11d477c60f9c7f",
+    "src/williams_diffraction/research_figures.py": "2c49c1d465f9868a413cc509e989f1862599fdaf14c86be1e467739b3a28d0e5",
+    "src/williams_diffraction/channel_response.py": "23ecdf220f2bc0bbad1207c0b5aa2f0bf291c043acc5c907390a728bfd22f7d8",
+    "src/williams_diffraction/diffraction_models.py": "87f799e0c8bd14e004238e1601590cb2a05a2e3ed38a490f5dbac1b4d7a8190b",
+    "src/williams_diffraction/microscopy_lattice.py": "4f52f963c9eda4d872edeec6ca7ac55dee2447dec4c4f68e4e6ead7d14585021",
+    "src/williams_diffraction/raw_check.py": "b648aef53c8cea75cbf1d971a184261de8c702241ea91d1fe4fd11ba320979d5",
+    "src/williams_diffraction/delivery_examples.py": "725018ea42e365f0ce597a75e326527401770e3f1f482e38b8500aae45803b79",
+    "src/williams_diffraction/green_photometry_trial.py": "5ef1837833ad608ec6467fc6c5ce57a989acd91a8b384baf13258255696f45a9",
+    "src/williams_diffraction/research_measurement.py": "4d4159a8c0846225f2bf812f97a7c6d3b6f8457ed5afe6a3dc9a7b332bc2e925",
+    "src/williams_diffraction/candidate_evidence.py": "ffb3d6f467eeaa0a4ee012c7e2d6b899ab90acd9fd8637e3a832f9bbdf7cbd52",
+    "src/williams_diffraction/raw_photometry.py": "8f3de2fbe55141c580df7f4d8ed0c92a09687bc1f6321bafe8def6e2b47f09db",
+    "src/williams_diffraction/inventory.py": "ad625c34f2930184e56bf535204da2cf4a621dab177917fe84a06fc514f2943b"
+  },
+  "input_manifest_sha256": "a7b2adf67938fae7ba96c1f593a4b0b1df9dbf02ad8bc702bc811d21c840126e",
+  "user_image_sha256": null,
+  "recording": "Snapshots copied from actual calculation stages; no timing animation",
+  "elapsed_s": 9.280498749983963
+}

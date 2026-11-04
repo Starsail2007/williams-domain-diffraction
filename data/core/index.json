@@ -1,0 +1,345 @@
+{
+  "schema_version": 1,
+  "diffraction": [
+    {
+      "id": "104",
+      "case": "diffraction/104/case.json",
+      "title": "全204帧候选最多；丰富二维弱点与亮横族，上方激光虚像及边缘非光学信号需要排除；本帧几何引导实际新增1个，不能自动把全部格点填满。",
+      "role": "primary_dense_2d_weak_reflection",
+      "expected_reference_candidates": 56
+    },
+    {
+      "id": "108",
+      "case": "diffraction/108/case.json",
+      "title": "接近2D→宽横族过渡，二维小点阵与宽峰列共存；两种几何家族同时评估，有独立弱信号和非光学排除。",
+      "role": "optional_coexisting_grid_and_broad_row_transition",
+      "expected_reference_candidates": 47
+    },
+    {
+      "id": "197",
+      "case": "diffraction/197/case.json",
+      "title": "降压规则宽峰列；二维模型不成立但row模型可支撑局部预测；右边界没有足够独立支持，保留3条条件边不能说全部四边已标定。",
+      "role": "descending_row_with_conditional_screen_edge",
+      "expected_reference_candidates": 25
+    },
+    {
+      "id": "200",
+      "case": "diffraction/200/case.json",
+      "title": "仍有14个候选且能拟合row，但条件留一误差比例0.298超过0.2门槛，必须禁用几何补检；用于证明有亮斑不等于允许猜点。",
+      "role": "negative_prediction_gate_despite_visible_peaks",
+      "expected_reference_candidates": 14
+    }
+  ],
+  "microscopy": [
+    {
+      "id": "micro164_left",
+      "frame_index": 164,
+      "roi_name": "left",
+      "image": "microscopy/micro_late_164.png",
+      "roi_xywh": [
+        80,
+        100,
+        512,
+        768
+      ],
+      "pixel_scale_um": [
+        0.75,
+        0.75
+      ],
+      "title": "两方向格纹、谐波与混合峰：检验局部共同支持",
+      "voltage_V": 5.39,
+      "direction": "up",
+      "source_receipt": {
+        "file": "micro_late_164.png",
+        "frame_index": 164,
+        "height": 1024,
+        "pts_s": 82,
+        "video_id": "micro_late",
+        "width": 1536,
+        "sha256": "643a81f950615d0647d85c19e0ee30b86c701873d7b8db4fde2a6f6638e84df7",
+        "parent_video_sha256": "5f9162137e56bac001ad8a4deb2a808fc73b00676e8c9f2470194a0e8f6cfb40"
+      }
+    },
+    {
+      "id": "micro164_center",
+      "frame_index": 164,
+      "roi_name": "center",
+      "image": "microscopy/micro_late_164.png",
+      "roi_xywh": [
+        500,
+        200,
+        512,
+        512
+      ],
+      "pixel_scale_um": [
+        0.75,
+        0.75
+      ],
+      "title": "空间混合产生全局双峰：局部格纹判断的反例",
+      "voltage_V": 5.39,
+      "direction": "up",
+      "source_receipt": {
+        "file": "micro_late_164.png",
+        "frame_index": 164,
+        "height": 1024,
+        "pts_s": 82,
+        "video_id": "micro_late",
+        "width": 1536,
+        "sha256": "643a81f950615d0647d85c19e0ee30b86c701873d7b8db4fde2a6f6638e84df7",
+        "parent_video_sha256": "5f9162137e56bac001ad8a4deb2a808fc73b00676e8c9f2470194a0e8f6cfb40"
+      }
+    },
+    {
+      "id": "micro164_right",
+      "frame_index": 164,
+      "roi_name": "right",
+      "image": "microscopy/micro_late_164.png",
+      "roi_xywh": [
+        920,
+        100,
+        512,
+        768
+      ],
+      "pixel_scale_um": [
+        0.75,
+        0.75
+      ],
+      "title": "同帧单方向条纹：与左侧格纹的空间对照",
+      "voltage_V": 5.39,
+      "direction": "up",
+      "source_receipt": {
+        "file": "micro_late_164.png",
+        "frame_index": 164,
+        "height": 1024,
+        "pts_s": 82,
+        "video_id": "micro_late",
+        "width": 1536,
+        "sha256": "643a81f950615d0647d85c19e0ee30b86c701873d7b8db4fde2a6f6638e84df7",
+        "parent_video_sha256": "5f9162137e56bac001ad8a4deb2a808fc73b00676e8c9f2470194a0e8f6cfb40"
+      }
+    },
+    {
+      "id": "micro196_right",
+      "frame_index": 196,
+      "roi_name": "right",
+      "image": "microscopy/micro_late_196.png",
+      "roi_xywh": [
+        920,
+        100,
+        512,
+        768
+      ],
+      "pixel_scale_um": [
+        0.75,
+        0.75
+      ],
+      "title": "最强谱峰是二次谐波：重新寻找受支持的频率族",
+      "voltage_V": 5.72,
+      "direction": "up",
+      "source_receipt": {
+        "file": "micro_late_196.png",
+        "frame_index": 196,
+        "height": 1024,
+        "pts_s": 98,
+        "video_id": "micro_late",
+        "width": 1536,
+        "sha256": "50697616d8042c895a43f48e3d4ece7b45a3b99cf17f9018921d2f5e1341f7c0",
+        "parent_video_sha256": "5f9162137e56bac001ad8a4deb2a808fc73b00676e8c9f2470194a0e8f6cfb40"
+      }
+    },
+    {
+      "id": "micro254_right",
+      "frame_index": 254,
+      "roi_name": "right",
+      "image": "microscopy/micro_late_254.png",
+      "roi_xywh": [
+        920,
+        100,
+        512,
+        768
+      ],
+      "pixel_scale_um": [
+        0.75,
+        0.75
+      ],
+      "title": "频率族随支持阈值改变：保留身份歧义",
+      "voltage_V": 6.8,
+      "direction": "up",
+      "source_receipt": {
+        "file": "micro_late_254.png",
+        "frame_index": 254,
+        "height": 1024,
+        "pts_s": 127,
+        "video_id": "micro_late",
+        "width": 1536,
+        "sha256": "542c0c43a733890617abefe70dfa2bc713fedaa00d8621c3dc6c950458e44d16",
+        "parent_video_sha256": "5f9162137e56bac001ad8a4deb2a808fc73b00676e8c9f2470194a0e8f6cfb40"
+      }
+    },
+    {
+      "id": "micro436_center",
+      "frame_index": 436,
+      "roi_name": "center",
+      "image": "microscopy/micro_late_436.png",
+      "roi_xywh": [
+        500,
+        200,
+        512,
+        512
+      ],
+      "pixel_scale_um": [
+        0.75,
+        0.75
+      ],
+      "title": "近均匀与稀疏折线：有谱峰仍缺合格主族",
+      "voltage_V": 7.38,
+      "direction": "down",
+      "source_receipt": {
+        "file": "micro_late_436.png",
+        "frame_index": 436,
+        "height": 1024,
+        "pts_s": 218,
+        "video_id": "micro_late",
+        "width": 1536,
+        "sha256": "b10aa078076267fa8761b5d0d189d8491083072bfc254a0941813273fe15747c",
+        "parent_video_sha256": "5f9162137e56bac001ad8a4deb2a808fc73b00676e8c9f2470194a0e8f6cfb40"
+      }
+    },
+    {
+      "id": "micro559_center",
+      "frame_index": 559,
+      "roi_name": "center",
+      "image": "microscopy/micro_late_559.png",
+      "roi_xywh": [
+        500,
+        200,
+        512,
+        512
+      ],
+      "pixel_scale_um": [
+        0.75,
+        0.75
+      ],
+      "title": "降压折叠与方向弥散：二维基底缺少支持",
+      "voltage_V": 5.66,
+      "direction": "down",
+      "source_receipt": {
+        "file": "micro_late_559.png",
+        "frame_index": 559,
+        "height": 1024,
+        "pts_s": 279.5,
+        "video_id": "micro_late",
+        "width": 1536,
+        "sha256": "3b4acfc3a045dc210c1da4ec54ad7c119cfd4812c336019ebf62f30738bcce2a",
+        "parent_video_sha256": "5f9162137e56bac001ad8a4deb2a808fc73b00676e8c9f2470194a0e8f6cfb40"
+      }
+    }
+  ],
+  "source_files": [
+    {
+      "source": "data/annotations/scan_2026-10-14/raw_display/104.png",
+      "destination": "diffraction/104/raw_display.png",
+      "source_sha256": "0c3a0356de2a4f4a28537bc0ab65079976a31b7edfd94b1a842a6ffd837c29d3",
+      "export_sha256": "0c3a0356de2a4f4a28537bc0ab65079976a31b7edfd94b1a842a6ffd837c29d3",
+      "transformation": "byte_copy"
+    },
+    {
+      "source": "data/raw/scan_2026-10-14/DSC00182.ARW",
+      "destination": "diffraction/104/linear_cfa.npz",
+      "source_sha256": "dce7a7c3bedb9b0d5a55ebdd240423dc49529d3e8bdfd8eedcc3ec9c395e0422",
+      "export_sha256": "2f4503620cd819b3165f3a89f7bcb1341c64d4ef6a4bb4e4ea96aa897afdd38a",
+      "transformation": "Exact detector inputs from native Bayer samples: black-subtracted R, aligned G1/G2 mean, native near-white mask. Float32/bool stored losslessly; no display tone map or resize."
+    },
+    {
+      "source": "data/annotations/scan_2026-10-14/raw_display/108.png",
+      "destination": "diffraction/108/raw_display.png",
+      "source_sha256": "622ed00d8f6e671b91dad4a375a67867de7b3023b6e1aa1db877f5cad0915598",
+      "export_sha256": "622ed00d8f6e671b91dad4a375a67867de7b3023b6e1aa1db877f5cad0915598",
+      "transformation": "byte_copy"
+    },
+    {
+      "source": "data/raw/scan_2026-10-14/DSC00186.ARW",
+      "destination": "diffraction/108/linear_cfa.npz",
+      "source_sha256": "4577ce5a6b628b136dd11f54966bd6e58d4abed30d426ff9ae7835443b17bddb",
+      "export_sha256": "e4251c273ef7792b0e6188516e59cc779ba894b0d462a95cbb9cfde0353f93c3",
+      "transformation": "Exact detector inputs from native Bayer samples: black-subtracted R, aligned G1/G2 mean, native near-white mask. Float32/bool stored losslessly; no display tone map or resize."
+    },
+    {
+      "source": "data/annotations/scan_2026-10-14/raw_display/197.png",
+      "destination": "diffraction/197/raw_display.png",
+      "source_sha256": "5f1b1b24bfdcb4540ae5a414cba5e8da2d1926a95fd79344dc041f107895589c",
+      "export_sha256": "5f1b1b24bfdcb4540ae5a414cba5e8da2d1926a95fd79344dc041f107895589c",
+      "transformation": "byte_copy"
+    },
+    {
+      "source": "data/raw/scan_2026-10-14/DSC00276.ARW",
+      "destination": "diffraction/197/linear_cfa.npz",
+      "source_sha256": "0aa8a700b3da0c8ae2acd7c3a74aaaba374c1fc50cdf27b8bb8992b0884e6537",
+      "export_sha256": "98b4d7b2fc8bc28f8a1f8dc3df3c23688576d12f263c0c0030c8e40d72a4ed94",
+      "transformation": "Exact detector inputs from native Bayer samples: black-subtracted R, aligned G1/G2 mean, native near-white mask. Float32/bool stored losslessly; no display tone map or resize."
+    },
+    {
+      "source": "data/annotations/scan_2026-10-14/raw_display/200.png",
+      "destination": "diffraction/200/raw_display.png",
+      "source_sha256": "2316b773fb1c1f073e9a382363c245bb391509739eb4a9516744b9bfc54f8058",
+      "export_sha256": "2316b773fb1c1f073e9a382363c245bb391509739eb4a9516744b9bfc54f8058",
+      "transformation": "byte_copy"
+    },
+    {
+      "source": "data/raw/scan_2026-10-14/DSC00279.ARW",
+      "destination": "diffraction/200/linear_cfa.npz",
+      "source_sha256": "108c0392b2c40a15391f2dbb2ff2093a97ed0aa4ae1d169af25cde93acb1dbaf",
+      "export_sha256": "271e16ab0d1d51c41ea747226d83e7f337337dea2c2780e84db3de1ed5258a7a",
+      "transformation": "Exact detector inputs from native Bayer samples: black-subtracted R, aligned G1/G2 mean, native near-white mask. Float32/bool stored losslessly; no display tone map or resize."
+    },
+    {
+      "source": "work/microscopy_full_2026-10-27/selected_frames_v1/micro_late_164.png",
+      "destination": "microscopy/micro_late_164.png",
+      "source_sha256": "643a81f950615d0647d85c19e0ee30b86c701873d7b8db4fde2a6f6638e84df7",
+      "export_sha256": "643a81f950615d0647d85c19e0ee30b86c701873d7b8db4fde2a6f6638e84df7",
+      "transformation": "byte_copy"
+    },
+    {
+      "source": "work/microscopy_full_2026-10-27/selected_frames_v1/micro_late_196.png",
+      "destination": "microscopy/micro_late_196.png",
+      "source_sha256": "50697616d8042c895a43f48e3d4ece7b45a3b99cf17f9018921d2f5e1341f7c0",
+      "export_sha256": "50697616d8042c895a43f48e3d4ece7b45a3b99cf17f9018921d2f5e1341f7c0",
+      "transformation": "byte_copy"
+    },
+    {
+      "source": "work/microscopy_full_2026-10-27/selected_frames_v1/micro_late_254.png",
+      "destination": "microscopy/micro_late_254.png",
+      "source_sha256": "542c0c43a733890617abefe70dfa2bc713fedaa00d8621c3dc6c950458e44d16",
+      "export_sha256": "542c0c43a733890617abefe70dfa2bc713fedaa00d8621c3dc6c950458e44d16",
+      "transformation": "byte_copy"
+    },
+    {
+      "source": "work/microscopy_full_2026-10-27/selected_frames_v1/micro_late_436.png",
+      "destination": "microscopy/micro_late_436.png",
+      "source_sha256": "b10aa078076267fa8761b5d0d189d8491083072bfc254a0941813273fe15747c",
+      "export_sha256": "b10aa078076267fa8761b5d0d189d8491083072bfc254a0941813273fe15747c",
+      "transformation": "byte_copy"
+    },
+    {
+      "source": "work/microscopy_full_2026-10-27/selected_frames_v1/micro_late_559.png",
+      "destination": "microscopy/micro_late_559.png",
+      "source_sha256": "3b4acfc3a045dc210c1da4ec54ad7c119cfd4812c336019ebf62f30738bcce2a",
+      "export_sha256": "3b4acfc3a045dc210c1da4ec54ad7c119cfd4812c336019ebf62f30738bcce2a",
+      "transformation": "byte_copy"
+    },
+    {
+      "source": "src/williams_diffraction/microscopy_lattice.py",
+      "destination": "code/microscopy_lattice.py",
+      "source_sha256": "4f52f963c9eda4d872edeec6ca7ac55dee2447dec4c4f68e4e6ead7d14585021",
+      "export_sha256": "4f52f963c9eda4d872edeec6ca7ac55dee2447dec4c4f68e4e6ead7d14585021",
+      "transformation": "byte_copy"
+    },
+    {
+      "source": "src/williams_diffraction/microscopy_series.py",
+      "destination": "code/microscopy_series.py",
+      "source_sha256": "ea26de1df8b43e83b109d22fdc8e55a2567d3cf82b3d0d7f6a465344ffef0621",
+      "export_sha256": "ea26de1df8b43e83b109d22fdc8e55a2567d3cf82b3d0d7f6a465344ffef0621",
+      "transformation": "byte_copy"
+    }
+  ]
+}

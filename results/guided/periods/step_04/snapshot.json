@@ -1,0 +1,37 @@
+{
+  "step": "period.comparison",
+  "sequence": 4,
+  "pass_index": 1,
+  "images": [
+    "results/guided/periods/calculation/03_period_comparison.png"
+  ],
+  "metrics": [],
+  "table": {
+    "headers": [
+      "实验组",
+      "配对衍射帧数",
+      "偏差中位数"
+    ],
+    "rows": [
+      [
+        "original",
+        4,
+        "+2.98%"
+      ],
+      [
+        "cycle01",
+        5,
+        "-3.35%"
+      ],
+      [
+        "cycle02",
+        7,
+        "+0.91%"
+      ]
+    ]
+  },
+  "evidence": [],
+  "links": [],
+  "elapsed_s": 5.404,
+  "status": "computed"
+}

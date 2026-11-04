@@ -1,0 +1,17 @@
+{
+  "step": "discussion.input",
+  "sequence": 1,
+  "pass_index": 1,
+  "images": [],
+  "metrics": [
+    [
+      "输入身份",
+      "倍频示意与同帧分区频谱；候选微观解释"
+    ]
+  ],
+  "table": null,
+  "evidence": [],
+  "links": [],
+  "elapsed_s": 1.59,
+  "status": "computed"
+}

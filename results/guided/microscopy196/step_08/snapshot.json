@@ -1,0 +1,30 @@
+{
+  "step": "texture.final",
+  "sequence": 8,
+  "pass_index": 1,
+  "images": [],
+  "metrics": [
+    [
+      "最强谱峰周期 / µm",
+      6.1582612094678115
+    ],
+    [
+      "通过质量检查的频率族 / µm",
+      12.292431814132451
+    ],
+    [
+      "频率族歧义",
+      false
+    ]
+  ],
+  "table": null,
+  "evidence": [],
+  "links": [
+    {
+      "label": "全部频率候选",
+      "path": "results/guided/microscopy196/calculation/frequency_candidates.csv"
+    }
+  ],
+  "elapsed_s": 2.55,
+  "status": "computed"
+}

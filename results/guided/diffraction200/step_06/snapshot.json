@@ -1,0 +1,49 @@
+{
+  "step": "detection.models",
+  "sequence": 6,
+  "pass_index": 1,
+  "images": [
+    "results/guided/diffraction200/step_06/candidates.png"
+  ],
+  "metrics": [
+    [
+      "强候选",
+      10
+    ],
+    [
+      "独立弱候选",
+      4
+    ],
+    [
+      "预测补检",
+      0
+    ],
+    [
+      "可参与几何训练",
+      7
+    ]
+  ],
+  "table": {
+    "headers": [
+      "几何族",
+      "条件留一误差 / 间距",
+      "允许预测"
+    ],
+    "rows": [
+      [
+        "二维点阵",
+        null,
+        false
+      ],
+      [
+        "横向峰列",
+        0.29802050315302303,
+        false
+      ]
+    ]
+  },
+  "evidence": [],
+  "links": [],
+  "elapsed_s": 6.784,
+  "status": "computed"
+}

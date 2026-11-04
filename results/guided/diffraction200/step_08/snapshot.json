@@ -1,0 +1,36 @@
+{
+  "step": "detection.final",
+  "sequence": 8,
+  "pass_index": 1,
+  "images": [
+    "results/guided/diffraction200/calculation/05_guided_detection.png"
+  ],
+  "metrics": [
+    [
+      "候选总数",
+      14
+    ],
+    [
+      "待复核标记",
+      6
+    ],
+    [
+      "质量标志",
+      7
+    ]
+  ],
+  "table": null,
+  "evidence": [],
+  "links": [
+    {
+      "label": "坐标与来源",
+      "path": "results/guided/diffraction200/calculation/coordinates.csv"
+    },
+    {
+      "label": "完整搜索证据",
+      "path": "results/guided/diffraction200/calculation/all_search_evidence.json"
+    }
+  ],
+  "elapsed_s": 9.275,
+  "status": "computed"
+}

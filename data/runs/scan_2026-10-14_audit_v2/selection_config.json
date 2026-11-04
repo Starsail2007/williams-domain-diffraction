@@ -1,0 +1,73 @@
+{
+  "minimum_horizontal_radius_mm": 8,
+  "row_half_width_mm": 2.0,
+  "maximum_row_slope": 0.35,
+  "maximum_pair_asymmetry": 0.3,
+  "maximum_order_spacing_deviation": 0.25,
+  "minimum_horizontal_screen_edge_margin_raw_px": {
+    "r50": 50,
+    "r125": 125
+  },
+  "maximum_lattice_residual_fraction": 0.12,
+  "maximum_grid_index": 4,
+  "minimum_grid_r50_coverage": 0.95,
+  "bright_fraction": 0.1,
+  "minimum_spectrum_nodes": 5,
+  "spectrum_models": [
+    "bessel_low",
+    "gaussian_axis"
+  ],
+  "one_d_voltage_window_V": [
+    5.69,
+    8.2
+  ],
+  "screen_bottom_y_shift_display_px": 10,
+  "screen_bottom_y_shift_overrides_px": {
+    "112": 15
+  },
+  "legacy_model_table": "results/analysis/scan_2026-10-10/数据/升压区间扩展比较/固定区间_全部候选拟合和留出比较.csv",
+  "legacy_geometry_measurement_dir": "data/processed/scan_2026-10-10",
+  "legacy_geometry_batch_id": "scan_2026-10-10",
+  "representative_frames": [
+    "001",
+    "008",
+    "010",
+    "012",
+    "014",
+    "021",
+    "035",
+    "049",
+    "067",
+    "074",
+    "087",
+    "088",
+    "098",
+    "103",
+    "108",
+    "127",
+    "151",
+    "174",
+    "195",
+    "204"
+  ],
+  "font_path": "/System/Library/Fonts/Supplemental/Songti.ttc",
+  "selection_identity": "Retain original voltage windows, 2 mm row bands, 30% pair asymmetry and 25% spacing tolerance. Require a complete supported chain and apply the existing spacing tolerance to adjacent gaps on EACH side, including the origin-to-first gap. Unresolved shallow saddles and edge profiles remain detected and measured but cannot certify independent members of a consecutive 1D chain. Rank supported count, then the fixed Euclidean mean radius of first anchors, then the existing geometric cost; identical anchor UIDs cannot gain preference through ray tilt. Isolated inner components do not lock an otherwise complete outer chain and remain unassigned. Preserve same-support angular and radial families as alternatives, without counting a repeated primary chain as independent evidence. No integrated signal ratios or fitted-model scores enter selection. Keep all original flags and coordinates; physical diffraction orders remain conditional. Unavailable complete chains retain partial observations for 2D exclusion only. Original lattice, reflection, coverage and corner-interval gates remain unchanged.",
+  "one_d_voltage_window_by_direction_V": {
+    "down": [
+      3.7,
+      5.74
+    ]
+  },
+  "one_d_display_area_by_direction": {
+    "up": "r125",
+    "down": "r50"
+  },
+  "minimum_one_d_frames": 6,
+  "horizontal_pairing_strategy": "bilateral_supported_triplet",
+  "require_stable_detection_lattice": true,
+  "bilateral_branch_policy": "primary",
+  "screen_visible_corner_interval_sensitivity": true,
+  "per_aperture_reflection_clean_sensitivity": true,
+  "reflection_aperture_policy": "Measured signed integrals retained; primary spectra compare the common clean UID set; per-aperture clean spectra are separate named diagnostics. Horizontal ratios use their own aperture-specific gate.",
+  "bilateral_chain_policy": "independent_consecutive"
+}

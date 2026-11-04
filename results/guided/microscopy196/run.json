@@ -1,0 +1,326 @@
+{
+  "status": "PASS",
+  "case": "microscopy196",
+  "result": {
+    "id": "micro196_right",
+    "title": "最强谱峰是二次谐波：重新寻找受支持的频率族",
+    "status": "COMPUTED",
+    "quality_status": "RESOLVED_CANDIDATES",
+    "strongest_period_um": 6.1582612094678115,
+    "family_period_um": 12.292431814132451,
+    "family_rank": 2,
+    "lower_support_period_um": 12.292431814132451,
+    "family_ambiguous": false,
+    "pair_coverage": null,
+    "pair_angle_deg": null,
+    "jointly_supported_tiles": null,
+    "spatial_pair_applicable": false,
+    "spatial_pair_supported": null
+  },
+  "events": [
+    {
+      "step": "texture.input",
+      "sequence": 1,
+      "pass_index": 1,
+      "images": [
+        "results/guided/microscopy196/step_01/whole.png",
+        "results/guided/microscopy196/step_01/roi.png"
+      ],
+      "metrics": [
+        [
+          "标尺 / µm·px⁻¹",
+          0.75
+        ],
+        [
+          "ROI像素",
+          "512 × 768"
+        ]
+      ],
+      "table": null,
+      "evidence": [],
+      "links": [],
+      "elapsed_s": 1.77,
+      "status": "computed"
+    },
+    {
+      "step": "texture.detrend",
+      "sequence": 2,
+      "pass_index": 1,
+      "images": [
+        "results/guided/microscopy196/step_02/array.png"
+      ],
+      "metrics": [],
+      "table": null,
+      "evidence": [],
+      "links": [],
+      "elapsed_s": 1.876,
+      "status": "computed"
+    },
+    {
+      "step": "texture.window",
+      "sequence": 3,
+      "pass_index": 1,
+      "images": [
+        "results/guided/microscopy196/step_03/array.png"
+      ],
+      "metrics": [],
+      "table": null,
+      "evidence": [],
+      "links": [],
+      "elapsed_s": 1.972,
+      "status": "computed"
+    },
+    {
+      "step": "texture.spectrum",
+      "sequence": 4,
+      "pass_index": 1,
+      "images": [
+        "results/guided/microscopy196/step_04/spectrum.png"
+      ],
+      "metrics": [],
+      "table": {
+        "headers": [
+          "候选",
+          "周期 / µm",
+          "fx / µm⁻¹",
+          "fy / µm⁻¹"
+        ],
+        "rows": [
+          [
+            1,
+            6.1582612094678115,
+            0.15999017343596308,
+            -0.027776698793663443
+          ],
+          [
+            2,
+            12.292431814132451,
+            0.08040452317212378,
+            -0.012372404999572376
+          ],
+          [
+            3,
+            11.582716463039322,
+            0.08333333333333333,
+            -0.022569444444444444
+          ],
+          [
+            4,
+            4.111689732982764,
+            0.23987184803725226,
+            -0.040151218163767204
+          ],
+          [
+            5,
+            6.072500921599745,
+            0.15885416666666666,
+            -0.043402777777777776
+          ],
+          [
+            6,
+            6.053048096587359,
+            0.16504414848525373,
+            -0.007311560637256403
+          ],
+          [
+            7,
+            4.140795546589758,
+            0.24098666871798824,
+            -0.015729834378964434
+          ],
+          [
+            8,
+            47.0683399214998,
+            0.01653801759181625,
+            0.013336937300977738
+          ]
+        ]
+      },
+      "evidence": [],
+      "links": [],
+      "elapsed_s": 2.026,
+      "status": "computed"
+    },
+    {
+      "step": "texture.family",
+      "sequence": 5,
+      "pass_index": 1,
+      "images": [
+        "results/guided/microscopy196/step_05/family.png"
+      ],
+      "metrics": [
+        [
+          "质量检查",
+          "RESOLVED_CANDIDATES"
+        ],
+        [
+          "频率族有歧义",
+          false
+        ]
+      ],
+      "table": {
+        "headers": [
+          "谐波倍数",
+          "谱峰编号",
+          "周期 / µm"
+        ],
+        "rows": [
+          [
+            1,
+            2,
+            12.292431814132451
+          ],
+          [
+            2,
+            1,
+            6.1582612094678115
+          ],
+          [
+            3,
+            4,
+            4.111689732982764
+          ]
+        ]
+      },
+      "evidence": [],
+      "links": [],
+      "elapsed_s": 2.098,
+      "status": "computed"
+    },
+    {
+      "step": "texture.checks",
+      "sequence": 6,
+      "pass_index": 1,
+      "images": [
+        "results/guided/microscopy196/step_06/tiles.png"
+      ],
+      "metrics": [
+        [
+          "二维共同支持",
+          "不适用：没有合格二维基底"
+        ]
+      ],
+      "table": {
+        "headers": [
+          "裁剪",
+          "频率角色",
+          "相对频率差",
+          "匹配"
+        ],
+        "rows": [
+          [
+            "crop_90",
+            "family",
+            0.005131433821991928,
+            true
+          ],
+          [
+            "crop_80",
+            "family",
+            0.014158515869036837,
+            true
+          ]
+        ]
+      },
+      "evidence": [],
+      "links": [],
+      "elapsed_s": 2.189,
+      "status": "computed"
+    },
+    {
+      "step": "texture.profile",
+      "sequence": 7,
+      "pass_index": 1,
+      "images": [
+        "results/guided/microscopy196/step_07/profile.png"
+      ],
+      "metrics": [
+        [
+          "所选谱峰周期 / µm",
+          12.292431814132451
+        ],
+        [
+          "附近ACF峰 / µm",
+          12.418534029568145
+        ]
+      ],
+      "table": null,
+      "evidence": [],
+      "links": [],
+      "elapsed_s": 2.473,
+      "status": "computed"
+    },
+    {
+      "step": "texture.final",
+      "sequence": 8,
+      "pass_index": 1,
+      "images": [],
+      "metrics": [
+        [
+          "最强谱峰周期 / µm",
+          6.1582612094678115
+        ],
+        [
+          "通过质量检查的频率族 / µm",
+          12.292431814132451
+        ],
+        [
+          "频率族歧义",
+          false
+        ]
+      ],
+      "table": null,
+      "evidence": [],
+      "links": [
+        {
+          "label": "全部频率候选",
+          "path": "results/guided/microscopy196/calculation/frequency_candidates.csv"
+        }
+      ],
+      "elapsed_s": 2.55,
+      "status": "computed"
+    }
+  ],
+  "source_sha256": {
+    "src/williams_diffraction/microscopy.py": "67899da35a561dd0a2c44f20cb124bd3843d056ffb3286f7fe79569ccf4f482d",
+    "src/williams_diffraction/research_analysis.py": "d1438ea9eac3491d65bec27d2b0bf56e1da200f730df6cbde8266765826745f1",
+    "src/williams_diffraction/microscopy_series.py": "ea26de1df8b43e83b109d22fdc8e55a2567d3cf82b3d0d7f6a465344ffef0621",
+    "src/williams_diffraction/guided_detection.py": "7e6223b378298cab0576e435ba0af54c08b53b2c8138b1f6714c360a352195cb",
+    "src/williams_diffraction/paths.py": "2a04a1a5df60ed4e7536d4b44fd91371f3d1944679c851ee03b68847a6dfaffb",
+    "src/williams_diffraction/weak_tail_trial.py": "efd54eb7b1f23a4b37220b78e2b96254b3bcd1a7cf86b97899ac88095b155827",
+    "src/williams_diffraction/research_route.py": "64f817965d41c9bc90ffd201b2bbc77d177306c94291716e49a62e49b5c75b42",
+    "src/williams_diffraction/green_expanded.py": "1cb068cac0f1830d94598fcfdc401d46463ebe739d55fc64153e0f9e0fb7cf0c",
+    "src/williams_diffraction/guide_events.py": "787d5449d46777c8e25606ed22c51628296debdc994e91c031e699568c3dc3fb",
+    "src/williams_diffraction/delivery_io.py": "c4d7d6d6789feeefe8ff987e874417cbefeaf90d3f4d8ffc16e2273c1542d43f",
+    "src/williams_diffraction/lab_server.py": "4563c3aea828d6fdac715a9d38e04bef0f0f64f357ea2e610dc62af465e1e7a9",
+    "src/williams_diffraction/__init__.py": "88bdc3d63dc7807fb6d37a94da05016d718b15c199461ae12ba590ca942e9403",
+    "src/williams_diffraction/delivery_models.py": "d64f177cae132f18a2b2e9dc0dac05d66aba1e70fabe79e951cffcb60428637a",
+    "src/williams_diffraction/voltage_spectrum.py": "a530aedcd67056faffbb3688ac6b314e44d9c761fbde9641be3efbb810d041d7",
+    "src/williams_diffraction/evidence_detection.py": "3b3c63bcee9ab6e95e835d7e05209a67160dff8f746d4b8acabfd0d2ba8e5e82",
+    "src/williams_diffraction/guided_lab.py": "a3c0de993db58eefbe0b339c33c1c154d9243c604ae3474078c96853a091fa35",
+    "src/williams_diffraction/research_pages.py": "e8a7f92f86781bddb8297be2d5024652b4637de8e66140542ebdd5d41a88fb76",
+    "src/williams_diffraction/delivery_paper.py": "76d1a8e7fcb72cdad9f55bb4a1868b83d4facc2ccf0db38dd3927cbde4308f7b",
+    "src/williams_diffraction/common.py": "577f00591b97fd2ec7812061f8b222b347b6082c200832626eb26f0c179afe02",
+    "src/williams_diffraction/screen_audit.py": "2d420b0ea4415ac3ae40285ae032b0b946e0215ec6214180b88129177b602c47",
+    "src/williams_diffraction/screen_validation_trial.py": "2a5cb63c94b5df0adfcb646d70e77f3a96ac8530b3b10f74bca5af0b3527f06d",
+    "src/williams_diffraction/algorithm_graphics.py": "ca65eaa510d96a6512e35c51b200e29501abef24b32459ea545d60ae4678dd5b",
+    "src/williams_diffraction/green_channel_study.py": "4808284d69c09aba169aee36baa6372c78efe34af93109b08680fb110b7cc62d",
+    "src/williams_diffraction/delivery_algorithms.py": "02864237ff7195bcf9715fa9df6be6ff8e4cf2ff557766ce24a58b7ac5bc2dfe",
+    "src/williams_diffraction/geometry.py": "3244508e782bd945a4a17776853113ca0446380e953c5c302d11d477c60f9c7f",
+    "src/williams_diffraction/research_figures.py": "2c49c1d465f9868a413cc509e989f1862599fdaf14c86be1e467739b3a28d0e5",
+    "src/williams_diffraction/channel_response.py": "23ecdf220f2bc0bbad1207c0b5aa2f0bf291c043acc5c907390a728bfd22f7d8",
+    "src/williams_diffraction/diffraction_models.py": "87f799e0c8bd14e004238e1601590cb2a05a2e3ed38a490f5dbac1b4d7a8190b",
+    "src/williams_diffraction/microscopy_lattice.py": "4f52f963c9eda4d872edeec6ca7ac55dee2447dec4c4f68e4e6ead7d14585021",
+    "src/williams_diffraction/raw_check.py": "b648aef53c8cea75cbf1d971a184261de8c702241ea91d1fe4fd11ba320979d5",
+    "src/williams_diffraction/delivery_examples.py": "725018ea42e365f0ce597a75e326527401770e3f1f482e38b8500aae45803b79",
+    "src/williams_diffraction/green_photometry_trial.py": "5ef1837833ad608ec6467fc6c5ce57a989acd91a8b384baf13258255696f45a9",
+    "src/williams_diffraction/research_measurement.py": "4d4159a8c0846225f2bf812f97a7c6d3b6f8457ed5afe6a3dc9a7b332bc2e925",
+    "src/williams_diffraction/candidate_evidence.py": "ffb3d6f467eeaa0a4ee012c7e2d6b899ab90acd9fd8637e3a832f9bbdf7cbd52",
+    "src/williams_diffraction/raw_photometry.py": "8f3de2fbe55141c580df7f4d8ed0c92a09687bc1f6321bafe8def6e2b47f09db",
+    "src/williams_diffraction/inventory.py": "ad625c34f2930184e56bf535204da2cf4a621dab177917fe84a06fc514f2943b"
+  },
+  "input_manifest_sha256": "a7b2adf67938fae7ba96c1f593a4b0b1df9dbf02ad8bc702bc811d21c840126e",
+  "user_image_sha256": null,
+  "recording": "Snapshots copied from actual calculation stages; no timing animation",
+  "elapsed_s": 2.553692042012699
+}

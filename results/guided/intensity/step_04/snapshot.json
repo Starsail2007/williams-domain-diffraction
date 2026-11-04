@@ -1,0 +1,37 @@
+{
+  "step": "intensity.comparison",
+  "sequence": 4,
+  "pass_index": 1,
+  "images": [
+    "results/guided/intensity/calculation/01_one_d_models.png"
+  ],
+  "metrics": [],
+  "table": {
+    "headers": [
+      "模型",
+      "训练 log RMSE",
+      "相邻两帧留出 log RMSE"
+    ],
+    "rows": [
+      [
+        "single_sine",
+        0.6779105189196228,
+        0.6751804046003905
+      ],
+      [
+        "double_harmonic",
+        0.08709588134314206,
+        0.09964679716025672
+      ]
+    ]
+  },
+  "evidence": [],
+  "links": [
+    {
+      "label": "留出帧与全部参数",
+      "path": "results/guided/intensity/calculation/one_d_folds.json"
+    }
+  ],
+  "elapsed_s": 5.567,
+  "status": "computed"
+}

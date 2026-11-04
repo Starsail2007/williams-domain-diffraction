@@ -1,0 +1,16 @@
+{
+  "id": "micro164_right",
+  "title": "同帧单方向条纹：与左侧格纹的空间对照",
+  "status": "COMPUTED",
+  "quality_status": "RESOLVED_CANDIDATES",
+  "strongest_period_um": 13.923706898052679,
+  "family_period_um": 13.923706898052679,
+  "family_rank": 1,
+  "lower_support_period_um": 13.923706898052679,
+  "family_ambiguous": false,
+  "pair_coverage": null,
+  "pair_angle_deg": null,
+  "jointly_supported_tiles": null,
+  "spatial_pair_applicable": false,
+  "spatial_pair_supported": null
+}

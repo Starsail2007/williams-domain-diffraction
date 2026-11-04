@@ -1,0 +1,20 @@
+{
+  "step": "photometry.background",
+  "sequence": 3,
+  "pass_index": 1,
+  "images": [
+    "results/guided/photometry/step_03/background.png",
+    "results/guided/photometry/step_03/support.png"
+  ],
+  "metrics": [
+    [
+      "平面常数 / DN",
+      27.58446452560936
+    ]
+  ],
+  "table": null,
+  "evidence": [],
+  "links": [],
+  "elapsed_s": 5.168,
+  "status": "computed"
+}

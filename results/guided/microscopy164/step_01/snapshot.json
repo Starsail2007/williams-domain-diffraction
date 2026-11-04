@@ -1,0 +1,24 @@
+{
+  "step": "texture.input",
+  "sequence": 1,
+  "pass_index": 1,
+  "images": [
+    "results/guided/microscopy164/step_01/whole.png",
+    "results/guided/microscopy164/step_01/roi.png"
+  ],
+  "metrics": [
+    [
+      "标尺 / µm·px⁻¹",
+      0.75
+    ],
+    [
+      "ROI像素",
+      "512 × 512"
+    ]
+  ],
+  "table": null,
+  "evidence": [],
+  "links": [],
+  "elapsed_s": 1.764,
+  "status": "computed"
+}

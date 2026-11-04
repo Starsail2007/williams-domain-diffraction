@@ -1,0 +1,26 @@
+{
+  "step": "rg.final",
+  "sequence": 4,
+  "pass_index": 1,
+  "images": [
+    "results/guided/rg/calculation/02_rg_and_residual.png",
+    "results/guided/rg/calculation/04_weak_signal.png",
+    "results/guided/rg/calculation/03_three_experiments.png"
+  ],
+  "metrics": [
+    [
+      "按帧重采样次数",
+      2000
+    ]
+  ],
+  "table": null,
+  "evidence": [],
+  "links": [
+    {
+      "label": "拟合、留出和区间",
+      "path": "results/guided/rg/calculation/fits.csv"
+    }
+  ],
+  "elapsed_s": 4.321,
+  "status": "computed"
+}

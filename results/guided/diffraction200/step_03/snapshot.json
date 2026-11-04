@@ -1,0 +1,20 @@
+{
+  "step": "detection.contrast",
+  "sequence": 3,
+  "pass_index": 1,
+  "images": [
+    "results/guided/diffraction200/step_03/contrast_4.png",
+    "results/guided/diffraction200/step_03/contrast_8.png"
+  ],
+  "metrics": [
+    [
+      "实际检测尺度 / R采样",
+      "4, 8"
+    ]
+  ],
+  "table": null,
+  "evidence": [],
+  "links": [],
+  "elapsed_s": 4.218,
+  "status": "computed"
+}

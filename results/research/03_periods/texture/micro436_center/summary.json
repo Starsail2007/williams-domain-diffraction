@@ -1,0 +1,16 @@
+{
+  "id": "micro436_center",
+  "title": "近均匀与稀疏折线：有谱峰仍缺合格主族",
+  "status": "COMPUTED",
+  "quality_status": "RESOLVED_CANDIDATES",
+  "strongest_period_um": 52.13738676021346,
+  "family_period_um": null,
+  "family_rank": null,
+  "lower_support_period_um": 10.144402026485322,
+  "family_ambiguous": true,
+  "pair_coverage": null,
+  "pair_angle_deg": null,
+  "jointly_supported_tiles": null,
+  "spatial_pair_applicable": false,
+  "spatial_pair_supported": null
+}

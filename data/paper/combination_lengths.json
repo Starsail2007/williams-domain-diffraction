@@ -1,0 +1,18 @@
+[
+  {
+    "sample_id": "micro_late_up_0164",
+    "grid_roi": "left",
+    "combination_periods_um": [
+      14.330082338893273,
+      13.830485723950803
+    ],
+    "same_frame_other_roi_stripes": [
+      {
+        "roi": "right",
+        "period_um": 13.923706898052679,
+        "relative_difference_to_closest_combination": 0.006740267548264178
+      }
+    ],
+    "interpretation": "Length-only compatibility; microscopy frequencies are not certified director modes; different ROIs; not a direction/coherence identification"
+  }
+]

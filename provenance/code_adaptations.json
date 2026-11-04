@@ -1,0 +1,97 @@
+{
+  "scope": "exported copy only; original project and historical code snapshots unchanged",
+  "files": [
+    {
+      "file": "src/williams_diffraction/geometry.py",
+      "source_sha256": "728a320077663c65dc0cb5042477235546ae9f3976d9656d2f0b85040ae39039",
+      "export_sha256": "3244508e782bd945a4a17776853113ca0446380e953c5c302d11d477c60f9c7f",
+      "local_imports": {
+        "run": [
+          "rawpy"
+        ]
+      },
+      "non_import_AST_identical": true
+    },
+    {
+      "file": "src/williams_diffraction/guided_detection.py",
+      "source_sha256": "9eab65cabcc235544aa2cff717313e07d5bc66a65a1e8a77d4826a4d812b9c0e",
+      "export_sha256": "7e6223b378298cab0576e435ba0af54c08b53b2c8138b1f6714c360a352195cb",
+      "local_imports": {
+        "read_red": [
+          "rawpy"
+        ]
+      },
+      "non_import_AST_identical": true
+    },
+    {
+      "file": "src/williams_diffraction/raw_check.py",
+      "source_sha256": "4ca8d27c1d7e226279398a6e5e74f8fffa62d065153d9873e31b53baa85328c6",
+      "export_sha256": "b648aef53c8cea75cbf1d971a184261de8c702241ea91d1fe4fd11ba320979d5",
+      "local_imports": {
+        "run": [
+          "rawpy"
+        ]
+      },
+      "non_import_AST_identical": true
+    },
+    {
+      "file": "src/williams_diffraction/green_channel_study.py",
+      "source_sha256": "4a9a60e8019b501db5e11788e1e16540db5fa07bd900b69e6383df360c6b05f1",
+      "export_sha256": "4808284d69c09aba169aee36baa6372c78efe34af93109b08680fb110b7cc62d",
+      "local_imports": {
+        "run": [
+          "rawpy",
+          "exifread"
+        ]
+      },
+      "non_import_AST_identical": true
+    },
+    {
+      "file": "src/williams_diffraction/green_expanded.py",
+      "source_sha256": "7e5e95425bfcf4a4ca3a200fcd66cb1b645f4fe0d102b556cff74c493cf4dc9f",
+      "export_sha256": "1cb068cac0f1830d94598fcfdc401d46463ebe739d55fc64153e0f9e0fb7cf0c",
+      "local_imports": {
+        "search": [
+          "rawpy"
+        ]
+      },
+      "non_import_AST_identical": true
+    },
+    {
+      "file": "src/williams_diffraction/green_photometry_trial.py",
+      "source_sha256": "e7bb971bc3600aace90c56d6a883fc5cd5a958cde7f154e0b1ae746a0f42e006",
+      "export_sha256": "5ef1837833ad608ec6467fc6c5ce57a989acd91a8b384baf13258255696f45a9",
+      "local_imports": {
+        "run": [
+          "rawpy"
+        ]
+      },
+      "non_import_AST_identical": true
+    },
+    {
+      "file": "src/williams_diffraction/weak_tail_trial.py",
+      "source_sha256": "ff7a8765363bb54c895ea36a0575d7728afe0a8b41900eeeddb8c8ee7a4e8adc",
+      "export_sha256": "efd54eb7b1f23a4b37220b78e2b96254b3bcd1a7cf86b97899ac88095b155827",
+      "local_imports": {
+        "run": [
+          "rawpy"
+        ]
+      },
+      "non_import_AST_identical": true
+    },
+    {
+      "file": "src/williams_diffraction/inventory.py",
+      "source_sha256": "64621555398e58d2583972b18d52f69753e24b17e967a2c209edf9425c60a133",
+      "export_sha256": "ad625c34f2930184e56bf535204da2cf4a621dab177917fe84a06fc514f2943b",
+      "local_imports": {
+        "read_metadata": [
+          "exifread"
+        ],
+        "audit": [
+          "rawpy"
+        ]
+      },
+      "non_import_AST_identical": true
+    }
+  ]
+}

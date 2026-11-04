@@ -1,0 +1,16 @@
+{
+  "id": "micro254_right",
+  "title": "频率族随支持阈值改变：保留身份歧义",
+  "status": "COMPUTED",
+  "quality_status": "RESOLVED_CANDIDATES",
+  "strongest_period_um": 6.163070142897178,
+  "family_period_um": null,
+  "family_rank": null,
+  "lower_support_period_um": 12.154789522066228,
+  "family_ambiguous": true,
+  "pair_coverage": null,
+  "pair_angle_deg": null,
+  "jointly_supported_tiles": null,
+  "spatial_pair_applicable": false,
+  "spatial_pair_supported": null
+}

@@ -1,0 +1,19 @@
+{
+  "step": "discussion.doubling",
+  "sequence": 2,
+  "pass_index": 1,
+  "images": [
+    "results/guided/discussion/calculation/01_phase_doubling.png"
+  ],
+  "metrics": [
+    [
+      "恒等式数值误差",
+      1.1102230246251565e-16
+    ]
+  ],
+  "table": null,
+  "evidence": [],
+  "links": [],
+  "elapsed_s": 1.621,
+  "status": "computed"
+}

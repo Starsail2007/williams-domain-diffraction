@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "reader_result": "观察二维点阵、横向峰列及升降压差异，由此提出周期和光强问题。",
+  "display_frames": 14,
+  "native_microscopy_frames": 8,
+  "operation": "display arrangement, not measurement",
+  "chapter": "evolution",
+  "inputs_and_limits": "Each chapter declares its experiment and input stage; illustrative pixel processing is not a synthetic end-to-end source for the historical model datasets."
+}

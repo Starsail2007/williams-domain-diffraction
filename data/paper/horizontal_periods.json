@@ -1,0 +1,2522 @@
+[
+  {
+    "frame_id": "010",
+    "cycle": "cycle01",
+    "direction": "up",
+    "voltage_V": 5.68,
+    "radius_mm": [
+      14.294000211302922,
+      29.204112039719924,
+      45.51137878691948
+    ],
+    "angle_deg": [
+      2.7278899067466393,
+      5.560055522756515,
+      8.626258663330999
+    ],
+    "first_period_um": 13.296163626620976,
+    "three_period_um": 12.814604870425958,
+    "distance_mm": 300.0,
+    "estimator": "origin-constrained sin(theta_m)=m*lambda/d, m=1,2,3; unchanged conditional labels"
+  },
+  {
+    "frame_id": "011",
+    "cycle": "cycle01",
+    "direction": "up",
+    "voltage_V": 5.8,
+    "radius_mm": [
+      14.179153290148404,
+      29.283005614107402,
+      46.193450387300835
+    ],
+    "angle_deg": [
+      2.7060050455068643,
+      5.5749812601763695,
+      8.753551080605934
+    ],
+    "first_period_um": 13.403615636231512,
+    "three_period_um": 12.691141772754742,
+    "distance_mm": 300.0,
+    "estimator": "origin-constrained sin(theta_m)=m*lambda/d, m=1,2,3; unchanged conditional labels"
+  },
+  {
+    "frame_id": "012",
+    "cycle": "cycle01",
+    "direction": "up",
+    "voltage_V": 5.93,
+    "radius_mm": [
+      14.04921922094125,
+      29.565771124644847,
+      46.73585555625575
+    ],
+    "angle_deg": [
+      2.6812442732855755,
+      5.628470923482789,
+      8.85471601823228
+    ],
+    "first_period_um": 13.527303809456678,
+    "three_period_um": 12.571183736431252,
+    "distance_mm": 300.0,
+    "estimator": "origin-constrained sin(theta_m)=m*lambda/d, m=1,2,3; unchanged conditional labels"
+  },
+  {
+    "frame_id": "013",
+    "cycle": "cycle01",
+    "direction": "up",
+    "voltage_V": 6.05,
+    "radius_mm": [
+      14.282169694462278,
+      29.836452481592772,
+      46.58597208788881
+    ],
+    "angle_deg": [
+      2.7256355580640266,
+      5.679665456116758,
+      8.826766526851081
+    ],
+    "first_period_um": 13.307152456938324,
+    "three_period_um": 12.551481762881306,
+    "distance_mm": 300.0,
+    "estimator": "origin-constrained sin(theta_m)=m*lambda/d, m=1,2,3; unchanged conditional labels"
+  },
+  {
+    "frame_id": "014",
+    "cycle": "cycle01",
+    "direction": "up",
+    "voltage_V": 6.2,
+    "radius_mm": [
+      14.703469519746289,
+      30.868073824318394,
+      48.72100568633371
+    ],
+    "angle_deg": [
+      2.805910539065024,
+      5.874694078975602,
+      9.224491118040103
+    ],
+    "first_period_um": 12.92673633891803,
+    "three_period_um": 12.060412556461575,
+    "distance_mm": 300.0,
+    "estimator": "origin-constrained sin(theta_m)=m*lambda/d, m=1,2,3; unchanged conditional labels"
+  },
+  {
+    "frame_id": "015",
+    "cycle": "cycle01",
+    "direction": "up",
+    "voltage_V": 6.3,
+    "radius_mm": [
+      14.859248065607197,
+      30.95538533101075,
+      47.67646044084611
+    ],
+    "angle_deg": [
+      2.835589997766061,
+      5.891194165973693,
+      9.030017678070193
+    ],
+    "first_period_um": 12.79154396070342,
+    "three_period_um": 12.2093942881015,
+    "distance_mm": 300.0,
+    "estimator": "origin-constrained sin(theta_m)=m*lambda/d, m=1,2,3; unchanged conditional labels"
+  },
+  {
+    "frame_id": "016",
+    "cycle": "cycle01",
+    "direction": "up",
+    "voltage_V": 6.41,
+    "radius_mm": [
+      14.890091059869087,
+      30.754142542886726,
+      47.040792606724224
+    ],
+    "angle_deg": [
+      2.841466129886982,
+      5.85316192945129,
+      8.911565973005228
+    ],
+    "first_period_um": 12.765112759970124,
+    "three_period_um": 12.334238946464062,
+    "distance_mm": 300.0,
+    "estimator": "origin-constrained sin(theta_m)=m*lambda/d, m=1,2,3; unchanged conditional labels"
+  },
+  {
+    "frame_id": "017",
+    "cycle": "cycle01",
+    "direction": "up",
+    "voltage_V": 6.59,
+    "radius_mm": [
+      14.79608629313906,
+      30.706052861383103,
+      47.308507095814505
+    ],
+    "angle_deg": [
+      2.823556384588462,
+      5.8440728454603414,
+      8.9614618851736
+    ],
+    "first_period_um": 12.846015359627176,
+    "three_period_um": 12.300792069652509,
+    "distance_mm": 300.0,
+    "estimator": "origin-constrained sin(theta_m)=m*lambda/d, m=1,2,3; unchanged conditional labels"
+  },
+  {
+    "frame_id": "018",
+    "cycle": "cycle01",
+    "direction": "up",
+    "voltage_V": 6.73,
+    "radius_mm": [
+      14.839196229371586,
+      30.64867313035518,
+      47.09176751109598
+    ],
+    "angle_deg": [
+      2.8317697387505603,
+      5.833227530021173,
+      8.921067592399135
+    ],
+    "first_period_um": 12.80878658260238,
+    "three_period_um": 12.340591894266634,
+    "distance_mm": 300.0,
+    "estimator": "origin-constrained sin(theta_m)=m*lambda/d, m=1,2,3; unchanged conditional labels"
+  },
+  {
+    "frame_id": "019",
+    "cycle": "cycle01",
+    "direction": "up",
+    "voltage_V": 6.75,
+    "radius_mm": [
+      14.785160374927667,
+      30.281798775664342,
+      46.20800156628997
+    ],
+    "angle_deg": [
+      2.821474747743304,
+      5.763874901161904,
+      8.756265767543397
+    ],
+    "first_period_um": 12.855485264076004,
+    "three_period_um": 12.534654832287472,
+    "distance_mm": 300.0,
+    "estimator": "origin-constrained sin(theta_m)=m*lambda/d, m=1,2,3; unchanged conditional labels"
+  },
+  {
+    "frame_id": "020",
+    "cycle": "cycle01",
+    "direction": "up",
+    "voltage_V": 6.86,
+    "radius_mm": [
+      15.249962555199684,
+      30.339283709436334,
+      44.43216958518174
+    ],
+    "angle_deg": [
+      2.910023517091996,
+      5.774742774439356,
+      8.424675030371006
+    ],
+    "first_period_um": 12.464628406799195,
+    "three_period_um": 12.811008260021975,
+    "distance_mm": 300.0,
+    "estimator": "origin-constrained sin(theta_m)=m*lambda/d, m=1,2,3; unchanged conditional labels"
+  },
+  {
+    "frame_id": "021",
+    "cycle": "cycle01",
+    "direction": "up",
+    "voltage_V": 6.94,
+    "radius_mm": [
+      14.887647988812708,
+      30.466394876821045,
+      45.92896343664177
+    ],
+    "angle_deg": [
+      2.8410006841215942,
+      5.798772425596868,
+      8.70420115805752
+    ],
+    "first_period_um": 12.767202374513086,
+    "three_period_um": 12.554944112194104,
+    "distance_mm": 300.0,
+    "estimator": "origin-constrained sin(theta_m)=m*lambda/d, m=1,2,3; unchanged conditional labels"
+  },
+  {
+    "frame_id": "022",
+    "cycle": "cycle01",
+    "direction": "up",
+    "voltage_V": 7.0,
+    "radius_mm": [
+      15.087555992301072,
+      29.849399240245738,
+      45.16470101949845
+    ],
+    "angle_deg": [
+      2.8790852449527455,
+      5.682113876395373,
+      8.561526530694142
+    ],
+    "first_period_um": 12.598457088717309,
+    "three_period_um": 12.749605430383113,
+    "distance_mm": 300.0,
+    "estimator": "origin-constrained sin(theta_m)=m*lambda/d, m=1,2,3; unchanged conditional labels"
+  },
+  {
+    "frame_id": "023",
+    "cycle": "cycle01",
+    "direction": "up",
+    "voltage_V": 7.07,
+    "radius_mm": [
+      15.222459125304631,
+      29.76915405027694,
+      44.68008665751535
+    ],
+    "angle_deg": [
+      2.904784262818541,
+      5.666938009320403,
+      8.471001810201649
+    ],
+    "first_period_um": 12.487091088844714,
+    "three_period_um": 12.837672536862035,
+    "distance_mm": 300.0,
+    "estimator": "origin-constrained sin(theta_m)=m*lambda/d, m=1,2,3; unchanged conditional labels"
+  },
+  {
+    "frame_id": "024",
+    "cycle": "cycle01",
+    "direction": "up",
+    "voltage_V": 7.2,
+    "radius_mm": [
+      14.699835667876544,
+      29.861725561751207,
+      44.911637740676525
+    ],
+    "angle_deg": [
+      2.8052181871906274,
+      5.684444943642033,
+      8.514260302191417
+    ],
+    "first_period_um": 12.929924217538188,
+    "three_period_um": 12.81700679615861,
+    "distance_mm": 300.0,
+    "estimator": "origin-constrained sin(theta_m)=m*lambda/d, m=1,2,3; unchanged conditional labels"
+  },
+  {
+    "frame_id": "025",
+    "cycle": "cycle01",
+    "direction": "up",
+    "voltage_V": 7.23,
+    "radius_mm": [
+      14.56573249658718,
+      29.250638702833697,
+      43.98773154895946
+    ],
+    "angle_deg": [
+      2.7796671567756523,
+      5.568857912523918,
+      8.34159781034456
+    ],
+    "first_period_um": 13.048683065193394,
+    "three_period_um": 13.07046554944842,
+    "distance_mm": 300.0,
+    "estimator": "origin-constrained sin(theta_m)=m*lambda/d, m=1,2,3; unchanged conditional labels"
+  },
+  {
+    "frame_id": "026",
+    "cycle": "cycle01",
+    "direction": "up",
+    "voltage_V": 7.36,
+    "radius_mm": [
+      14.311559312917787,
+      29.08601839115408,
+      44.006855427371974
+    ],
+    "angle_deg": [
+      2.7312358428331356,
+      5.537712177705221,
+      8.34517329881204
+    ],
+    "first_period_um": 13.27988730495591,
+    "three_period_um": 13.10412794136222,
+    "distance_mm": 300.0,
+    "estimator": "origin-constrained sin(theta_m)=m*lambda/d, m=1,2,3; unchanged conditional labels"
+  },
+  {
+    "frame_id": "027",
+    "cycle": "cycle01",
+    "direction": "up",
+    "voltage_V": 7.43,
+    "radius_mm": [
+      14.392359457840744,
+      29.025502558187757,
+      44.355178662432735
+    ],
+    "angle_deg": [
+      2.7466322965667627,
+      5.526261913216124,
+      8.410285936242957
+    ],
+    "first_period_um": 13.205502451790105,
+    "three_period_um": 13.041559391097552,
+    "distance_mm": 300.0,
+    "estimator": "origin-constrained sin(theta_m)=m*lambda/d, m=1,2,3; unchanged conditional labels"
+  },
+  {
+    "frame_id": "028",
+    "cycle": "cycle01",
+    "direction": "up",
+    "voltage_V": 7.46,
+    "radius_mm": [
+      14.331841213408858,
+      29.03922835305012,
+      43.943035018478895
+    ],
+    "angle_deg": [
+      2.7351005926817455,
+      5.528859024176765,
+      8.33324088582323
+    ],
+    "first_period_um": 13.261136793766095,
+    "three_period_um": 13.120787319641117,
+    "distance_mm": 300.0,
+    "estimator": "origin-constrained sin(theta_m)=m*lambda/d, m=1,2,3; unchanged conditional labels"
+  },
+  {
+    "frame_id": "029",
+    "cycle": "cycle01",
+    "direction": "up",
+    "voltage_V": 7.58,
+    "radius_mm": [
+      14.048510527617571,
+      28.79272806008651,
+      43.75702505717527
+    ],
+    "angle_deg": [
+      2.6811092190057977,
+      5.482214285721611,
+      8.29845871259848
+    ],
+    "first_period_um": 13.52798471663438,
+    "three_period_um": 13.206142033832418,
+    "distance_mm": 300.0,
+    "estimator": "origin-constrained sin(theta_m)=m*lambda/d, m=1,2,3; unchanged conditional labels"
+  },
+  {
+    "frame_id": "030",
+    "cycle": "cycle01",
+    "direction": "up",
+    "voltage_V": 7.71,
+    "radius_mm": [
+      14.255889559252692,
+      28.954375045022445,
+      43.91831924643649
+    ],
+    "angle_deg": [
+      2.720627751020804,
+      5.512803235521378,
+      8.32861961671369
+    ],
+    "first_period_um": 13.331628213038059,
+    "three_period_um": 13.141214901727412,
+    "distance_mm": 300.0,
+    "estimator": "origin-constrained sin(theta_m)=m*lambda/d, m=1,2,3; unchanged conditional labels"
+  },
+  {
+    "frame_id": "031",
+    "cycle": "cycle01",
+    "direction": "up",
+    "voltage_V": 7.74,
+    "radius_mm": [
+      14.54986419869357,
+      29.410425220182923,
+      45.27026947197114
+    ],
+    "angle_deg": [
+      2.7766436547767603,
+      5.599085948967392,
+      8.581240751873828
+    ],
+    "first_period_um": 13.06288070223613,
+    "three_period_um": 12.816916925268986,
+    "distance_mm": 300.0,
+    "estimator": "origin-constrained sin(theta_m)=m*lambda/d, m=1,2,3; unchanged conditional labels"
+  },
+  {
+    "frame_id": "032",
+    "cycle": "cycle01",
+    "direction": "up",
+    "voltage_V": 7.79,
+    "radius_mm": [
+      14.633341462061471,
+      30.172685413172783,
+      45.583004473642546
+    ],
+    "angle_deg": [
+      2.7925490099662382,
+      5.7432452181377975,
+      8.639629946770059
+    ],
+    "first_period_um": 12.98853765079816,
+    "three_period_um": 12.66470221644856,
+    "distance_mm": 300.0,
+    "estimator": "origin-constrained sin(theta_m)=m*lambda/d, m=1,2,3; unchanged conditional labels"
+  },
+  {
+    "frame_id": "033",
+    "cycle": "cycle01",
+    "direction": "up",
+    "voltage_V": 7.86,
+    "radius_mm": [
+      14.560599438271476,
+      30.005493894084214,
+      45.38083271219535
+    ],
+    "angle_deg": [
+      2.778689119604049,
+      5.711632003418259,
+      8.601885522529587
+    ],
+    "first_period_um": 13.053272310069017,
+    "three_period_um": 12.724614163795293,
+    "distance_mm": 300.0,
+    "estimator": "origin-constrained sin(theta_m)=m*lambda/d, m=1,2,3; unchanged conditional labels"
+  },
+  {
+    "frame_id": "034",
+    "cycle": "cycle01",
+    "direction": "up",
+    "voltage_V": 7.97,
+    "radius_mm": [
+      14.522497484242363,
+      30.14746213814552,
+      45.43099126444901
+    ],
+    "angle_deg": [
+      2.7714292396430706,
+      5.7384761286487525,
+      8.611250568286504
+    ],
+    "first_period_um": 13.087439150335447,
+    "three_period_um": 12.70106945372961,
+    "distance_mm": 300.0,
+    "estimator": "origin-constrained sin(theta_m)=m*lambda/d, m=1,2,3; unchanged conditional labels"
+  },
+  {
+    "frame_id": "035",
+    "cycle": "cycle01",
+    "direction": "up",
+    "voltage_V": 8.01,
+    "radius_mm": [
+      14.528667634717479,
+      29.502499406854483,
+      44.7521680371007
+    ],
+    "angle_deg": [
+      2.772604895417998,
+      5.616502907587139,
+      8.48446913570486
+    ],
+    "first_period_um": 13.081894069185246,
+    "three_period_um": 12.900458947261567,
+    "distance_mm": 300.0,
+    "estimator": "origin-constrained sin(theta_m)=m*lambda/d, m=1,2,3; unchanged conditional labels"
+  },
+  {
+    "frame_id": "036",
+    "cycle": "cycle01",
+    "direction": "up",
+    "voltage_V": 8.12,
+    "radius_mm": [
+      14.531652407574233,
+      29.42002184734571,
+      44.84791538542015
+    ],
+    "angle_deg": [
+      2.773173610927707,
+      5.600901316893244,
+      8.502356632228578
+    ],
+    "first_period_um": 13.079213361706575,
+    "three_period_um": 12.893057342792726,
+    "distance_mm": 300.0,
+    "estimator": "origin-constrained sin(theta_m)=m*lambda/d, m=1,2,3; unchanged conditional labels"
+  },
+  {
+    "frame_id": "037",
+    "cycle": "cycle01",
+    "direction": "up",
+    "voltage_V": 8.29,
+    "radius_mm": [
+      14.480163532221281,
+      29.441031086661358,
+      44.43332899489601
+    ],
+    "angle_deg": [
+      2.763362897715964,
+      5.604875538311547,
+      8.424891708200333
+    ],
+    "first_period_um": 13.125612035135077,
+    "three_period_um": 12.969402848454274,
+    "distance_mm": 300.0,
+    "estimator": "origin-constrained sin(theta_m)=m*lambda/d, m=1,2,3; unchanged conditional labels"
+  },
+  {
+    "frame_id": "038",
+    "cycle": "cycle01",
+    "direction": "up",
+    "voltage_V": 8.35,
+    "radius_mm": [
+      14.318876638026474,
+      29.661998524006293,
+      46.37092444780476
+    ],
+    "angle_deg": [
+      2.7326301741643837,
+      5.646671650487598,
+      8.786658164888912
+    ],
+    "first_period_um": 13.27311634410405,
+    "three_period_um": 12.606841153905265,
+    "distance_mm": 300.0,
+    "estimator": "origin-constrained sin(theta_m)=m*lambda/d, m=1,2,3; unchanged conditional labels"
+  },
+  {
+    "frame_id": "039",
+    "cycle": "cycle01",
+    "direction": "up",
+    "voltage_V": 8.41,
+    "radius_mm": [
+      14.14911019761685,
+      29.518978088912174,
+      45.79330104003638
+    ],
+    "angle_deg": [
+      2.700279999424019,
+      5.6196199420931086,
+      8.678883213687689
+    ],
+    "first_period_um": 13.432012437460768,
+    "three_period_um": 12.735172814847678,
+    "distance_mm": 300.0,
+    "estimator": "origin-constrained sin(theta_m)=m*lambda/d, m=1,2,3; unchanged conditional labels"
+  },
+  {
+    "frame_id": "040",
+    "cycle": "cycle01",
+    "direction": "up",
+    "voltage_V": 8.54,
+    "radius_mm": [
+      14.129145857085282,
+      29.57471346124062,
+      45.78548748488538
+    ],
+    "angle_deg": [
+      2.6964755420022573,
+      5.630162350827231,
+      8.67742490773657
+    ],
+    "first_period_um": 13.450949641029903,
+    "three_period_um": 12.731065732883128,
+    "distance_mm": 300.0,
+    "estimator": "origin-constrained sin(theta_m)=m*lambda/d, m=1,2,3; unchanged conditional labels"
+  },
+  {
+    "frame_id": "064",
+    "cycle": "cycle01",
+    "direction": "down",
+    "voltage_V": 5.74,
+    "radius_mm": [
+      12.491827867315841,
+      25.048460056163538,
+      37.75912705769927
+    ],
+    "angle_deg": [
+      2.38438597120988,
+      4.772832927863828,
+      7.173739401217233
+    ],
+    "first_period_um": 15.210304449264228,
+    "three_period_um": 15.205023045253325,
+    "distance_mm": 300.0,
+    "estimator": "origin-constrained sin(theta_m)=m*lambda/d, m=1,2,3; unchanged conditional labels"
+  },
+  {
+    "frame_id": "065",
+    "cycle": "cycle01",
+    "direction": "down",
+    "voltage_V": 5.64,
+    "radius_mm": [
+      13.754812878942817,
+      26.524017658100952,
+      41.29548557243664
+    ],
+    "angle_deg": [
+      2.625137292383962,
+      5.052576348020487,
+      7.837602246972407
+    ],
+    "first_period_um": 13.816213600871192,
+    "three_period_um": 14.039086433030766,
+    "distance_mm": 300.0,
+    "estimator": "origin-constrained sin(theta_m)=m*lambda/d, m=1,2,3; unchanged conditional labels"
+  },
+  {
+    "frame_id": "067",
+    "cycle": "cycle01",
+    "direction": "down",
+    "voltage_V": 5.41,
+    "radius_mm": [
+      16.099904660489415,
+      33.01723180664648,
+      51.88604642671478
+    ],
+    "angle_deg": [
+      3.0719084426458583,
+      6.280550156526508,
+      9.8124338860854
+    ],
+    "first_period_um": 11.808341997315157,
+    "three_period_um": 11.305003069060357,
+    "distance_mm": 300.0,
+    "estimator": "origin-constrained sin(theta_m)=m*lambda/d, m=1,2,3; unchanged conditional labels"
+  },
+  {
+    "frame_id": "068",
+    "cycle": "cycle01",
+    "direction": "down",
+    "voltage_V": 5.18,
+    "radius_mm": [
+      16.29920449711508,
+      33.55921657770962,
+      52.30296626001652
+    ],
+    "angle_deg": [
+      3.109861241976776,
+      6.382802634640039,
+      9.889728961455985
+    ],
+    "first_period_um": 11.664371755619863,
+    "three_period_um": 11.187984924961203,
+    "distance_mm": 300.0,
+    "estimator": "origin-constrained sin(theta_m)=m*lambda/d, m=1,2,3; unchanged conditional labels"
+  },
+  {
+    "frame_id": "069",
+    "cycle": "cycle01",
+    "direction": "down",
+    "voltage_V": 4.95,
+    "radius_mm": [
+      16.45598602382493,
+      33.83881264582411,
+      52.70163703435034
+    ],
+    "angle_deg": [
+      3.1397153335654617,
+      6.435536152949589,
+      9.963606755335311
+    ],
+    "first_period_um": 11.553570134989254,
+    "three_period_um": 11.101624765280036,
+    "distance_mm": 300.0,
+    "estimator": "origin-constrained sin(theta_m)=m*lambda/d, m=1,2,3; unchanged conditional labels"
+  },
+  {
+    "frame_id": "070",
+    "cycle": "cycle01",
+    "direction": "down",
+    "voltage_V": 4.66,
+    "radius_mm": [
+      16.57788690562365,
+      33.938323976782854,
+      53.085779100792415
+    ],
+    "angle_deg": [
+      3.162926329259498,
+      6.454301958061079,
+      10.03476058583766
+    ],
+    "first_period_um": 11.468869966356351,
+    "three_period_um": 11.036287104263243,
+    "distance_mm": 300.0,
+    "estimator": "origin-constrained sin(theta_m)=m*lambda/d, m=1,2,3; unchanged conditional labels"
+  },
+  {
+    "frame_id": "071",
+    "cycle": "cycle01",
+    "direction": "down",
+    "voltage_V": 4.58,
+    "radius_mm": [
+      16.6727182901667,
+      34.10178149236499,
+      53.46890902940857
+    ],
+    "angle_deg": [
+      3.180982337298686,
+      6.485123688129893,
+      10.105695805154419
+    ],
+    "first_period_um": 11.403836279695323,
+    "three_period_um": 10.967419155166404,
+    "distance_mm": 300.0,
+    "estimator": "origin-constrained sin(theta_m)=m*lambda/d, m=1,2,3; unchanged conditional labels"
+  },
+  {
+    "frame_id": "072",
+    "cycle": "cycle01",
+    "direction": "down",
+    "voltage_V": 4.49,
+    "radius_mm": [
+      16.69422450156963,
+      34.233859850611466,
+      53.53255590279659
+    ],
+    "angle_deg": [
+      3.1850770575954135,
+      6.510025777232939,
+      10.117476784405806
+    ],
+    "first_period_um": 11.389190636451078,
+    "three_period_um": 10.946518893022592,
+    "distance_mm": 300.0,
+    "estimator": "origin-constrained sin(theta_m)=m*lambda/d, m=1,2,3; unchanged conditional labels"
+  },
+  {
+    "frame_id": "073",
+    "cycle": "cycle01",
+    "direction": "down",
+    "voltage_V": 4.37,
+    "radius_mm": [
+      16.765327247825816,
+      34.33897540827242,
+      53.65743850127294
+    ],
+    "angle_deg": [
+      3.1986145822679584,
+      6.52984252810643,
+      10.14058992860702
+    ],
+    "first_period_um": 11.341037833302744,
+    "three_period_um": 10.917993358767871,
+    "distance_mm": 300.0,
+    "estimator": "origin-constrained sin(theta_m)=m*lambda/d, m=1,2,3; unchanged conditional labels"
+  },
+  {
+    "frame_id": "074",
+    "cycle": "cycle01",
+    "direction": "down",
+    "voltage_V": 4.3,
+    "radius_mm": [
+      16.77444959907509,
+      34.304287488985906,
+      53.62938238081701
+    ],
+    "angle_deg": [
+      3.2003513958802317,
+      6.523303214023614,
+      10.135397620593075
+    ],
+    "first_period_um": 11.334889509598073,
+    "three_period_um": 10.924242094488607,
+    "distance_mm": 300.0,
+    "estimator": "origin-constrained sin(theta_m)=m*lambda/d, m=1,2,3; unchanged conditional labels"
+  },
+  {
+    "frame_id": "075",
+    "cycle": "cycle01",
+    "direction": "down",
+    "voltage_V": 4.25,
+    "radius_mm": [
+      16.777076779617836,
+      34.3040197682016,
+      53.647958233817526
+    ],
+    "angle_deg": [
+      3.20085158632937,
+      6.523252743042262,
+      10.138835447240849
+    ],
+    "first_period_um": 11.333120072525626,
+    "three_period_um": 10.921761902638082,
+    "distance_mm": 300.0,
+    "estimator": "origin-constrained sin(theta_m)=m*lambda/d, m=1,2,3; unchanged conditional labels"
+  },
+  {
+    "frame_id": "076",
+    "cycle": "cycle01",
+    "direction": "down",
+    "voltage_V": 4.1,
+    "radius_mm": [
+      16.782956850120247,
+      34.319411762248905,
+      53.64363210453423
+    ],
+    "angle_deg": [
+      3.2019710946416935,
+      6.526154440142133,
+      10.138034818589537
+    ],
+    "first_period_um": 11.329161786307004,
+    "three_period_um": 10.920699996357305,
+    "distance_mm": 300.0,
+    "estimator": "origin-constrained sin(theta_m)=m*lambda/d, m=1,2,3; unchanged conditional labels"
+  },
+  {
+    "frame_id": "077",
+    "cycle": "cycle01",
+    "direction": "down",
+    "voltage_V": 4.07,
+    "radius_mm": [
+      16.8451057700784,
+      34.457039008721644,
+      53.76187669868219
+    ],
+    "angle_deg": [
+      3.213803495565395,
+      6.552098418136496,
+      10.1599166835631
+    ],
+    "first_period_um": 11.28749422813222,
+    "three_period_um": 10.89071245659271,
+    "distance_mm": 300.0,
+    "estimator": "origin-constrained sin(theta_m)=m*lambda/d, m=1,2,3; unchanged conditional labels"
+  },
+  {
+    "frame_id": "078",
+    "cycle": "cycle01",
+    "direction": "down",
+    "voltage_V": 3.72,
+    "radius_mm": [
+      16.875589887440196,
+      34.53099189481469,
+      53.94957254525988
+    ],
+    "angle_deg": [
+      3.219607201703212,
+      6.566038090704834,
+      10.194644763378731
+    ],
+    "first_period_um": 11.267168605788036,
+    "three_period_um": 10.85901788816838,
+    "distance_mm": 300.0,
+    "estimator": "origin-constrained sin(theta_m)=m*lambda/d, m=1,2,3; unchanged conditional labels"
+  },
+  {
+    "frame_id": "079",
+    "cycle": "cycle01",
+    "direction": "down",
+    "voltage_V": 3.61,
+    "radius_mm": [
+      16.98922402355626,
+      34.84578349458561,
+      54.40602617316307
+    ],
+    "angle_deg": [
+      3.2412408062193423,
+      6.625365653400523,
+      10.279067627702215
+    ],
+    "first_period_um": 11.192045524748412,
+    "three_period_um": 10.769463137693748,
+    "distance_mm": 300.0,
+    "estimator": "origin-constrained sin(theta_m)=m*lambda/d, m=1,2,3; unchanged conditional labels"
+  },
+  {
+    "frame_id": "080",
+    "cycle": "cycle01",
+    "direction": "down",
+    "voltage_V": 3.56,
+    "radius_mm": [
+      17.112188109111845,
+      35.16967857856661,
+      54.69383823120659
+    ],
+    "angle_deg": [
+      3.2646495990290854,
+      6.686394021279482,
+      10.332276421031356
+    ],
+    "first_period_um": 11.111880189924529,
+    "three_period_um": 10.70097541241556,
+    "distance_mm": 300.0,
+    "estimator": "origin-constrained sin(theta_m)=m*lambda/d, m=1,2,3; unchanged conditional labels"
+  },
+  {
+    "frame_id": "081",
+    "cycle": "cycle01",
+    "direction": "down",
+    "voltage_V": 3.35,
+    "radius_mm": [
+      17.2177495027671,
+      35.577501596112256,
+      55.432546289661964
+    ],
+    "angle_deg": [
+      3.2847445543847518,
+      6.763214417292514,
+      10.46876125353581
+    ],
+    "first_period_um": 11.043975277252464,
+    "three_period_um": 10.57272973202225,
+    "distance_mm": 300.0,
+    "estimator": "origin-constrained sin(theta_m)=m*lambda/d, m=1,2,3; unchanged conditional labels"
+  },
+  {
+    "frame_id": "082",
+    "cycle": "cycle01",
+    "direction": "down",
+    "voltage_V": 3.28,
+    "radius_mm": [
+      17.76319321979997,
+      37.01477400529187,
+      56.970056977816355
+    ],
+    "angle_deg": [
+      3.3885637137434075,
+      7.033752632683145,
+      10.752447543322488
+    ],
+    "first_period_um": 10.705985491839627,
+    "three_period_um": 10.257108660413714,
+    "distance_mm": 300.0,
+    "estimator": "origin-constrained sin(theta_m)=m*lambda/d, m=1,2,3; unchanged conditional labels"
+  },
+  {
+    "frame_id": "099",
+    "cycle": "cycle02",
+    "direction": "up",
+    "voltage_V": 5.41,
+    "radius_mm": [
+      14.063852054322439,
+      31.01670539739289,
+      48.201051815520735
+    ],
+    "angle_deg": [
+      2.6840328166278264,
+      5.902781816952721,
+      9.127712615736705
+    ],
+    "first_period_um": 13.513260047113391,
+    "three_period_um": 12.1622699837209,
+    "distance_mm": 300.0,
+    "estimator": "origin-constrained sin(theta_m)=m*lambda/d, m=1,2,3; unchanged conditional labels"
+  },
+  {
+    "frame_id": "100",
+    "cycle": "cycle02",
+    "direction": "up",
+    "voltage_V": 5.47,
+    "radius_mm": [
+      13.660917168686595,
+      30.70361697154106,
+      47.52749674088689
+    ],
+    "angle_deg": [
+      2.6072418955400396,
+      5.843612447625337,
+      9.002266406972122
+    ],
+    "first_period_um": 13.910978180691465,
+    "three_period_um": 12.329498001921854,
+    "distance_mm": 300.0,
+    "estimator": "origin-constrained sin(theta_m)=m*lambda/d, m=1,2,3; unchanged conditional labels"
+  },
+  {
+    "frame_id": "101",
+    "cycle": "cycle02",
+    "direction": "up",
+    "voltage_V": 5.54,
+    "radius_mm": [
+      13.819167519131469,
+      30.689803888117858,
+      47.26021762041475
+    ],
+    "angle_deg": [
+      2.637402219577668,
+      5.841001677435101,
+      8.952462832303556
+    ],
+    "first_period_um": 13.752008003340228,
+    "three_period_um": 12.366338306671379,
+    "distance_mm": 300.0,
+    "estimator": "origin-constrained sin(theta_m)=m*lambda/d, m=1,2,3; unchanged conditional labels"
+  },
+  {
+    "frame_id": "102",
+    "cycle": "cycle02",
+    "direction": "up",
+    "voltage_V": 5.6,
+    "radius_mm": [
+      13.661638209648178,
+      30.68935865875455,
+      47.43077253543104
+    ],
+    "angle_deg": [
+      2.6073793192481496,
+      5.840917525540278,
+      8.98424483849506
+    ],
+    "first_period_um": 13.910245499237915,
+    "three_period_um": 12.347080182009682,
+    "distance_mm": 300.0,
+    "estimator": "origin-constrained sin(theta_m)=m*lambda/d, m=1,2,3; unchanged conditional labels"
+  },
+  {
+    "frame_id": "103",
+    "cycle": "cycle02",
+    "direction": "up",
+    "voltage_V": 5.63,
+    "radius_mm": [
+      13.658159669288978,
+      31.179181105470043,
+      47.971509658954886
+    ],
+    "angle_deg": [
+      2.606716341497782,
+      5.9334825009310705,
+      9.084971407044854
+    ],
+    "first_period_um": 13.913780911557337,
+    "three_period_um": 12.20401740497215,
+    "distance_mm": 300.0,
+    "estimator": "origin-constrained sin(theta_m)=m*lambda/d, m=1,2,3; unchanged conditional labels"
+  },
+  {
+    "frame_id": "104",
+    "cycle": "cycle02",
+    "direction": "up",
+    "voltage_V": 5.67,
+    "radius_mm": [
+      13.400950379202353,
+      30.913278963012523,
+      47.695298735229926
+    ],
+    "angle_deg": [
+      2.557692696589911,
+      5.883237046831345,
+      9.033526864059334
+    ],
+    "first_period_um": 14.180285953144198,
+    "three_period_um": 12.293081443017062,
+    "distance_mm": 300.0,
+    "estimator": "origin-constrained sin(theta_m)=m*lambda/d, m=1,2,3; unchanged conditional labels"
+  },
+  {
+    "frame_id": "105",
+    "cycle": "cycle02",
+    "direction": "up",
+    "voltage_V": 5.72,
+    "radius_mm": [
+      13.880849997326289,
+      31.160704898932238,
+      48.04465749294947
+    ],
+    "angle_deg": [
+      2.649157650005896,
+      5.929991491454617,
+      9.098592789364764
+    ],
+    "first_period_um": 13.691027743358168,
+    "three_period_um": 12.181815875877962,
+    "distance_mm": 300.0,
+    "estimator": "origin-constrained sin(theta_m)=m*lambda/d, m=1,2,3; unchanged conditional labels"
+  },
+  {
+    "frame_id": "106",
+    "cycle": "cycle02",
+    "direction": "up",
+    "voltage_V": 5.85,
+    "radius_mm": [
+      14.624944812141473,
+      31.201024753628374,
+      48.084479817074936
+    ],
+    "angle_deg": [
+      2.7909491722270205,
+      5.937609718753179,
+      9.10600795377227
+    ],
+    "first_period_um": 12.995977091486788,
+    "three_period_um": 12.129780518352538,
+    "distance_mm": 300.0,
+    "estimator": "origin-constrained sin(theta_m)=m*lambda/d, m=1,2,3; unchanged conditional labels"
+  },
+  {
+    "frame_id": "107",
+    "cycle": "cycle02",
+    "direction": "up",
+    "voltage_V": 5.86,
+    "radius_mm": [
+      15.045463662641458,
+      30.40832203261256,
+      47.23011533964678
+    ],
+    "angle_deg": [
+      2.87106642738265,
+      5.7877943345219744,
+      8.94685285421735
+    ],
+    "first_period_um": 12.633614688253793,
+    "three_period_um": 12.33301621928127,
+    "distance_mm": 300.0,
+    "estimator": "origin-constrained sin(theta_m)=m*lambda/d, m=1,2,3; unchanged conditional labels"
+  },
+  {
+    "frame_id": "108",
+    "cycle": "cycle02",
+    "direction": "up",
+    "voltage_V": 5.9,
+    "radius_mm": [
+      14.517145320780577,
+      30.122651786924166,
+      46.66521339873228
+    ],
+    "angle_deg": [
+      2.7704094405993627,
+      5.733785034872346,
+      8.841543563702894
+    ],
+    "first_period_um": 13.092252933091213,
+    "three_period_um": 12.490872814851185,
+    "distance_mm": 300.0,
+    "estimator": "origin-constrained sin(theta_m)=m*lambda/d, m=1,2,3; unchanged conditional labels"
+  },
+  {
+    "frame_id": "109",
+    "cycle": "cycle02",
+    "direction": "up",
+    "voltage_V": 5.93,
+    "radius_mm": [
+      14.97124498057468,
+      30.921202784014405,
+      47.813294265490164
+    ],
+    "angle_deg": [
+      2.8569270910358995,
+      5.884734481154605,
+      9.055505443929196
+    ],
+    "first_period_um": 12.696088021693718,
+    "three_period_um": 12.18478313517756,
+    "distance_mm": 300.0,
+    "estimator": "origin-constrained sin(theta_m)=m*lambda/d, m=1,2,3; unchanged conditional labels"
+  },
+  {
+    "frame_id": "110",
+    "cycle": "cycle02",
+    "direction": "up",
+    "voltage_V": 5.97,
+    "radius_mm": [
+      14.94177358892763,
+      30.70479747308403,
+      47.56786046093974
+    ],
+    "angle_deg": [
+      2.8513124252350828,
+      5.843835569613692,
+      9.009786408725136
+    ],
+    "first_period_um": 12.721067838337,
+    "three_period_um": 12.250193132980035,
+    "distance_mm": 300.0,
+    "estimator": "origin-constrained sin(theta_m)=m*lambda/d, m=1,2,3; unchanged conditional labels"
+  },
+  {
+    "frame_id": "111",
+    "cycle": "cycle02",
+    "direction": "up",
+    "voltage_V": 6.01,
+    "radius_mm": [
+      15.011613577567573,
+      30.828658327283527,
+      47.649851281869275
+    ],
+    "angle_deg": [
+      2.8646177205243504,
+      5.86724503656445,
+      9.025060823773261
+    ],
+    "first_period_um": 12.662031168554359,
+    "three_period_um": 12.219193617000649,
+    "distance_mm": 300.0,
+    "estimator": "origin-constrained sin(theta_m)=m*lambda/d, m=1,2,3; unchanged conditional labels"
+  },
+  {
+    "frame_id": "112",
+    "cycle": "cycle02",
+    "direction": "up",
+    "voltage_V": 6.08,
+    "radius_mm": [
+      15.028315271061967,
+      30.64208681303895,
+      47.468705149664125
+    ],
+    "angle_deg": [
+      2.8677995332963286,
+      5.831982626492546,
+      8.991312623486827
+    ],
+    "first_period_um": 12.6479944068269,
+    "three_period_um": 12.2685076080772,
+    "distance_mm": 300.0,
+    "estimator": "origin-constrained sin(theta_m)=m*lambda/d, m=1,2,3; unchanged conditional labels"
+  },
+  {
+    "frame_id": "113",
+    "cycle": "cycle02",
+    "direction": "up",
+    "voltage_V": 6.13,
+    "radius_mm": [
+      15.058324660231776,
+      30.50918893717399,
+      47.252267134708674
+    ],
+    "angle_deg": [
+      2.873516529279739,
+      5.806861941855291,
+      8.950981165688209
+    ],
+    "first_period_um": 12.622851666805794,
+    "three_period_um": 12.317268099339808,
+    "distance_mm": 300.0,
+    "estimator": "origin-constrained sin(theta_m)=m*lambda/d, m=1,2,3; unchanged conditional labels"
+  },
+  {
+    "frame_id": "114",
+    "cycle": "cycle02",
+    "direction": "up",
+    "voltage_V": 6.16,
+    "radius_mm": [
+      15.06702308964189,
+      30.68773475365581,
+      47.301907008081635
+    ],
+    "angle_deg": [
+      2.875173629483135,
+      5.840610594331887,
+      8.960231942863263
+    ],
+    "first_period_um": 12.615582615515258,
+    "three_period_um": 12.288576485672513,
+    "distance_mm": 300.0,
+    "estimator": "origin-constrained sin(theta_m)=m*lambda/d, m=1,2,3; unchanged conditional labels"
+  },
+  {
+    "frame_id": "115",
+    "cycle": "cycle02",
+    "direction": "up",
+    "voltage_V": 6.2,
+    "radius_mm": [
+      15.06038007581745,
+      30.713538982421984,
+      47.51337445724938
+    ],
+    "angle_deg": [
+      2.8739080980563068,
+      5.845487762634522,
+      8.99963526744857
+    ],
+    "first_period_um": 12.621133250846038,
+    "three_period_um": 12.251441886387438,
+    "distance_mm": 300.0,
+    "estimator": "origin-constrained sin(theta_m)=m*lambda/d, m=1,2,3; unchanged conditional labels"
+  },
+  {
+    "frame_id": "116",
+    "cycle": "cycle02",
+    "direction": "up",
+    "voltage_V": 6.23,
+    "radius_mm": [
+      15.331132825420863,
+      31.27233771267639,
+      48.39708219616458
+    ],
+    "angle_deg": [
+      2.925485729147336,
+      5.951083416238416,
+      9.164205757282607
+    ],
+    "first_period_um": 12.398805307629576,
+    "three_period_um": 12.033861966760568,
+    "distance_mm": 300.0,
+    "estimator": "origin-constrained sin(theta_m)=m*lambda/d, m=1,2,3; unchanged conditional labels"
+  },
+  {
+    "frame_id": "117",
+    "cycle": "cycle02",
+    "direction": "up",
+    "voltage_V": 6.31,
+    "radius_mm": [
+      15.17161164048812,
+      30.97604001486709,
+      48.29823755314645
+    ],
+    "angle_deg": [
+      2.8950979646835178,
+      5.895097334983867,
+      9.145805710520474
+    ],
+    "first_period_um": 12.528834136949316,
+    "three_period_um": 12.090104000400942,
+    "distance_mm": 300.0,
+    "estimator": "origin-constrained sin(theta_m)=m*lambda/d, m=1,2,3; unchanged conditional labels"
+  },
+  {
+    "frame_id": "118",
+    "cycle": "cycle02",
+    "direction": "up",
+    "voltage_V": 6.33,
+    "radius_mm": [
+      15.228579316808176,
+      31.078322579559046,
+      48.355634141328366
+    ],
+    "angle_deg": [
+      2.9059501303256083,
+      5.914425125795268,
+      9.156490384924584
+    ],
+    "first_period_um": 12.482085560381204,
+    "three_period_um": 12.066842281362801,
+    "distance_mm": 300.0,
+    "estimator": "origin-constrained sin(theta_m)=m*lambda/d, m=1,2,3; unchanged conditional labels"
+  },
+  {
+    "frame_id": "119",
+    "cycle": "cycle02",
+    "direction": "up",
+    "voltage_V": 6.35,
+    "radius_mm": [
+      15.319345246060797,
+      31.2731718929168,
+      48.366974227184045
+    ],
+    "angle_deg": [
+      2.923240326896486,
+      5.951241020323714,
+      9.158601325118763
+    ],
+    "first_period_um": 12.408320815614724,
+    "three_period_um": 12.039150160413492,
+    "distance_mm": 300.0,
+    "estimator": "origin-constrained sin(theta_m)=m*lambda/d, m=1,2,3; unchanged conditional labels"
+  },
+  {
+    "frame_id": "120",
+    "cycle": "cycle02",
+    "direction": "up",
+    "voltage_V": 6.39,
+    "radius_mm": [
+      15.097060217213274,
+      30.887323147125812,
+      47.80450254957814
+    ],
+    "angle_deg": [
+      2.8808958358432535,
+      5.878331890966444,
+      9.053867936926046
+    ],
+    "first_period_um": 12.590545853952491,
+    "three_period_um": 12.182926183942861,
+    "distance_mm": 300.0,
+    "estimator": "origin-constrained sin(theta_m)=m*lambda/d, m=1,2,3; unchanged conditional labels"
+  },
+  {
+    "frame_id": "121",
+    "cycle": "cycle02",
+    "direction": "up",
+    "voltage_V": 6.43,
+    "radius_mm": [
+      15.227586146554811,
+      31.05704789731978,
+      48.11473368893329
+    ],
+    "angle_deg": [
+      2.9057609362579164,
+      5.910405073660972,
+      9.111641207245345
+    ],
+    "first_period_um": 12.482897571901338,
+    "three_period_um": 12.107433586208291,
+    "distance_mm": 300.0,
+    "estimator": "origin-constrained sin(theta_m)=m*lambda/d, m=1,2,3; unchanged conditional labels"
+  },
+  {
+    "frame_id": "122",
+    "cycle": "cycle02",
+    "direction": "up",
+    "voltage_V": 6.49,
+    "radius_mm": [
+      15.025192919411403,
+      30.701540628088598,
+      47.523058849436396
+    ],
+    "angle_deg": [
+      2.8672047004488115,
+      5.843220005623228,
+      9.001439582242561
+    ],
+    "first_period_um": 12.650616179667406,
+    "three_period_um": 12.253175144014989,
+    "distance_mm": 300.0,
+    "estimator": "origin-constrained sin(theta_m)=m*lambda/d, m=1,2,3; unchanged conditional labels"
+  },
+  {
+    "frame_id": "123",
+    "cycle": "cycle02",
+    "direction": "up",
+    "voltage_V": 6.63,
+    "radius_mm": [
+      15.244561106263596,
+      31.155838252928334,
+      48.20062291772555
+    ],
+    "angle_deg": [
+      2.9089945741966963,
+      5.929071949710657,
+      9.127632763647394
+    ],
+    "first_period_um": 12.46903348991706,
+    "three_period_um": 12.082149973762709,
+    "distance_mm": 300.0,
+    "estimator": "origin-constrained sin(theta_m)=m*lambda/d, m=1,2,3; unchanged conditional labels"
+  },
+  {
+    "frame_id": "124",
+    "cycle": "cycle02",
+    "direction": "up",
+    "voltage_V": 6.73,
+    "radius_mm": [
+      15.069052742504898,
+      30.795078167243588,
+      47.67773339039715
+    ],
+    "angle_deg": [
+      2.8755602891879004,
+      5.860898643781811,
+      9.030254804488635
+    ],
+    "first_period_um": 12.613887696430066,
+    "three_period_um": 12.215167626487776,
+    "distance_mm": 300.0,
+    "estimator": "origin-constrained sin(theta_m)=m*lambda/d, m=1,2,3; unchanged conditional labels"
+  },
+  {
+    "frame_id": "125",
+    "cycle": "cycle02",
+    "direction": "up",
+    "voltage_V": 6.77,
+    "radius_mm": [
+      15.377139133736407,
+      31.475354929753575,
+      48.66892789410647
+    ],
+    "angle_deg": [
+      2.934249331069663,
+      5.9894373749627725,
+      9.214800312785249
+    ],
+    "first_period_um": 12.361806539746796,
+    "three_period_um": 11.967223257033526,
+    "distance_mm": 300.0,
+    "estimator": "origin-constrained sin(theta_m)=m*lambda/d, m=1,2,3; unchanged conditional labels"
+  },
+  {
+    "frame_id": "126",
+    "cycle": "cycle02",
+    "direction": "up",
+    "voltage_V": 6.86,
+    "radius_mm": [
+      15.257919490463316,
+      31.257339711778894,
+      48.418909593016394
+    ],
+    "angle_deg": [
+      2.911539261037689,
+      5.948249785135586,
+      9.16826869608439
+    ],
+    "first_period_um": 12.458144917870246,
+    "three_period_um": 12.03601117047714,
+    "distance_mm": 300.0,
+    "estimator": "origin-constrained sin(theta_m)=m*lambda/d, m=1,2,3; unchanged conditional labels"
+  },
+  {
+    "frame_id": "127",
+    "cycle": "cycle02",
+    "direction": "up",
+    "voltage_V": 7.01,
+    "radius_mm": [
+      15.218342150688581,
+      31.173495875132392,
+      48.46722367186708
+    ],
+    "angle_deg": [
+      2.9039999972903385,
+      5.932408302828876,
+      9.177261519488669
+    ],
+    "first_period_um": 12.490460511825457,
+    "three_period_um": 12.039553669306075,
+    "distance_mm": 300.0,
+    "estimator": "origin-constrained sin(theta_m)=m*lambda/d, m=1,2,3; unchanged conditional labels"
+  },
+  {
+    "frame_id": "128",
+    "cycle": "cycle02",
+    "direction": "up",
+    "voltage_V": 7.12,
+    "radius_mm": [
+      15.088376826852018,
+      30.999766497395157,
+      48.24905116222439
+    ],
+    "angle_deg": [
+      2.8792416172748165,
+      5.8995809219638815,
+      9.136648896652625
+    ],
+    "first_period_um": 12.597773439412292,
+    "three_period_um": 12.09991379760297,
+    "distance_mm": 300.0,
+    "estimator": "origin-constrained sin(theta_m)=m*lambda/d, m=1,2,3; unchanged conditional labels"
+  },
+  {
+    "frame_id": "129",
+    "cycle": "cycle02",
+    "direction": "up",
+    "voltage_V": 7.17,
+    "radius_mm": [
+      15.025869588040642,
+      30.9453225540779,
+      48.275774112375096
+    ],
+    "angle_deg": [
+      2.867333611262373,
+      5.8892925571184085,
+      9.14162384907085
+    ],
+    "first_period_um": 12.650047902692071,
+    "three_period_um": 12.10499976159053,
+    "distance_mm": 300.0,
+    "estimator": "origin-constrained sin(theta_m)=m*lambda/d, m=1,2,3; unchanged conditional labels"
+  },
+  {
+    "frame_id": "130",
+    "cycle": "cycle02",
+    "direction": "up",
+    "voltage_V": 7.33,
+    "radius_mm": [
+      14.952058032011058,
+      31.110358737778128,
+      48.49783634656162
+    ],
+    "angle_deg": [
+      2.8532717454869685,
+      5.920478550183161,
+      9.18295929914361
+    ],
+    "first_period_um": 12.712339591606256,
+    "three_period_um": 12.05600227845768,
+    "distance_mm": 300.0,
+    "estimator": "origin-constrained sin(theta_m)=m*lambda/d, m=1,2,3; unchanged conditional labels"
+  },
+  {
+    "frame_id": "131",
+    "cycle": "cycle02",
+    "direction": "up",
+    "voltage_V": 7.4,
+    "radius_mm": [
+      14.89814909036837,
+      30.86905304964777,
+      48.250133617453386
+    ],
+    "angle_deg": [
+      2.843001316373914,
+      5.874879137939669,
+      9.136850417644867
+    ],
+    "first_period_um": 12.75822540622528,
+    "three_period_um": 12.12440557841167,
+    "distance_mm": 300.0,
+    "estimator": "origin-constrained sin(theta_m)=m*lambda/d, m=1,2,3; unchanged conditional labels"
+  },
+  {
+    "frame_id": "132",
+    "cycle": "cycle02",
+    "direction": "up",
+    "voltage_V": 7.5,
+    "radius_mm": [
+      14.761860074815727,
+      31.09436825642685,
+      47.90855790624515
+    ],
+    "angle_deg": [
+      2.817035483760426,
+      5.9174570693234285,
+      9.073247880796664
+    ],
+    "first_period_um": 12.875727391564197,
+    "three_period_um": 12.162064121219878,
+    "distance_mm": 300.0,
+    "estimator": "origin-constrained sin(theta_m)=m*lambda/d, m=1,2,3; unchanged conditional labels"
+  },
+  {
+    "frame_id": "133",
+    "cycle": "cycle02",
+    "direction": "up",
+    "voltage_V": 7.55,
+    "radius_mm": [
+      14.727812194002958,
+      30.800457739314588,
+      47.832110910354615
+    ],
+    "angle_deg": [
+      2.8105484879609386,
+      5.861915351369305,
+      9.059010100732053
+    ],
+    "first_period_um": 12.905421792406857,
+    "three_period_um": 12.208620548871624,
+    "distance_mm": 300.0,
+    "estimator": "origin-constrained sin(theta_m)=m*lambda/d, m=1,2,3; unchanged conditional labels"
+  },
+  {
+    "frame_id": "134",
+    "cycle": "cycle02",
+    "direction": "up",
+    "voltage_V": 7.59,
+    "radius_mm": [
+      14.697460901795008,
+      30.641937135496047,
+      47.792414033523734
+    ],
+    "angle_deg": [
+      2.804765726436445,
+      5.831954335337516,
+      9.051616357826246
+    ],
+    "first_period_um": 12.932008387437529,
+    "three_period_um": 12.234306624475876,
+    "distance_mm": 300.0,
+    "estimator": "origin-constrained sin(theta_m)=m*lambda/d, m=1,2,3; unchanged conditional labels"
+  },
+  {
+    "frame_id": "135",
+    "cycle": "cycle02",
+    "direction": "up",
+    "voltage_V": 7.61,
+    "radius_mm": [
+      14.670394315361925,
+      30.641350268268777,
+      47.767583336432374
+    ],
+    "angle_deg": [
+      2.799608744065466,
+      5.83184340917246,
+      9.046991361074648
+    ],
+    "first_period_um": 12.9558106095352,
+    "three_period_um": 12.239933649085955,
+    "distance_mm": 300.0,
+    "estimator": "origin-constrained sin(theta_m)=m*lambda/d, m=1,2,3; unchanged conditional labels"
+  },
+  {
+    "frame_id": "136",
+    "cycle": "cycle02",
+    "direction": "up",
+    "voltage_V": 7.74,
+    "radius_mm": [
+      14.810591012902384,
+      30.50293399843171,
+      46.92204751599204
+    ],
+    "angle_deg": [
+      2.8263198533026195,
+      5.805679562613154,
+      8.889430211958954
+    ],
+    "first_period_um": 12.833465185858266,
+    "three_period_um": 12.386976139772548,
+    "distance_mm": 300.0,
+    "estimator": "origin-constrained sin(theta_m)=m*lambda/d, m=1,2,3; unchanged conditional labels"
+  },
+  {
+    "frame_id": "137",
+    "cycle": "cycle02",
+    "direction": "up",
+    "voltage_V": 7.76,
+    "radius_mm": [
+      14.628897066900736,
+      30.506357057411584,
+      46.523448443948645
+    ],
+    "angle_deg": [
+      2.79170220717978,
+      5.806326628538883,
+      8.815106189690384
+    ],
+    "first_period_um": 12.992474324488448,
+    "three_period_um": 12.46411385900153,
+    "distance_mm": 300.0,
+    "estimator": "origin-constrained sin(theta_m)=m*lambda/d, m=1,2,3; unchanged conditional labels"
+  },
+  {
+    "frame_id": "138",
+    "cycle": "cycle02",
+    "direction": "up",
+    "voltage_V": 7.86,
+    "radius_mm": [
+      14.855340826680312,
+      30.59632139095606,
+      46.55801280103685
+    ],
+    "angle_deg": [
+      2.8348455958623107,
+      5.823332186905197,
+      8.821552355075966
+    ],
+    "first_period_um": 12.794900148895882,
+    "three_period_um": 12.434789863323315,
+    "distance_mm": 300.0,
+    "estimator": "origin-constrained sin(theta_m)=m*lambda/d, m=1,2,3; unchanged conditional labels"
+  },
+  {
+    "frame_id": "139",
+    "cycle": "cycle02",
+    "direction": "up",
+    "voltage_V": 7.89,
+    "radius_mm": [
+      14.55942837790204,
+      30.445265755931608,
+      46.26949755291468
+    ],
+    "angle_deg": [
+      2.77846598912967,
+      5.794778225763744,
+      8.767738101346547
+    ],
+    "first_period_um": 13.054319758242523,
+    "three_period_um": 12.51840979881167,
+    "distance_mm": 300.0,
+    "estimator": "origin-constrained sin(theta_m)=m*lambda/d, m=1,2,3; unchanged conditional labels"
+  },
+  {
+    "frame_id": "140",
+    "cycle": "cycle02",
+    "direction": "up",
+    "voltage_V": 7.94,
+    "radius_mm": [
+      14.686225148281437,
+      30.587689160151328,
+      46.60155958804803
+    ],
+    "angle_deg": [
+      2.8026249897894764,
+      5.821700519263213,
+      8.829673400516684
+    ],
+    "first_period_um": 12.941878389978863,
+    "three_period_um": 12.438249323443761,
+    "distance_mm": 300.0,
+    "estimator": "origin-constrained sin(theta_m)=m*lambda/d, m=1,2,3; unchanged conditional labels"
+  },
+  {
+    "frame_id": "141",
+    "cycle": "cycle02",
+    "direction": "up",
+    "voltage_V": 8.08,
+    "radius_mm": [
+      14.842897097822604,
+      30.889042001731486,
+      46.460615678682885
+    ],
+    "angle_deg": [
+      2.8324748269999502,
+      5.878656724491317,
+      8.803387461479934
+    ],
+    "first_period_um": 12.805600686970054,
+    "three_period_um": 12.418406607860286,
+    "distance_mm": 300.0,
+    "estimator": "origin-constrained sin(theta_m)=m*lambda/d, m=1,2,3; unchanged conditional labels"
+  },
+  {
+    "frame_id": "142",
+    "cycle": "cycle02",
+    "direction": "up",
+    "voltage_V": 8.11,
+    "radius_mm": [
+      14.880928470649435,
+      30.571779937557633,
+      46.455432387659265
+    ],
+    "angle_deg": [
+      2.8397205019530816,
+      5.818693326965795,
+      8.802420710102258
+    ],
+    "first_period_um": 12.772953275211508,
+    "three_period_um": 12.453423508820531,
+    "distance_mm": 300.0,
+    "estimator": "origin-constrained sin(theta_m)=m*lambda/d, m=1,2,3; unchanged conditional labels"
+  },
+  {
+    "frame_id": "143",
+    "cycle": "cycle02",
+    "direction": "up",
+    "voltage_V": 8.18,
+    "radius_mm": [
+      14.864303247640322,
+      30.82229094438999,
+      46.276260586994866
+    ],
+    "angle_deg": [
+      2.836553102824353,
+      5.866041661112808,
+      8.768999730443124
+    ],
+    "first_period_um": 12.787204348939193,
+    "three_period_um": 12.455882091106814,
+    "distance_mm": 300.0,
+    "estimator": "origin-constrained sin(theta_m)=m*lambda/d, m=1,2,3; unchanged conditional labels"
+  },
+  {
+    "frame_id": "144",
+    "cycle": "cycle02",
+    "direction": "up",
+    "voltage_V": 8.28,
+    "radius_mm": [
+      14.724001389270754,
+      30.944499761899586,
+      46.56508728348422
+    ],
+    "angle_deg": [
+      2.8098224272902557,
+      5.889137069751662,
+      8.822871700456561
+    ],
+    "first_period_um": 12.908753890310045,
+    "three_period_um": 12.401419700482444,
+    "distance_mm": 300.0,
+    "estimator": "origin-constrained sin(theta_m)=m*lambda/d, m=1,2,3; unchanged conditional labels"
+  },
+  {
+    "frame_id": "145",
+    "cycle": "cycle02",
+    "direction": "up",
+    "voltage_V": 8.34,
+    "radius_mm": [
+      14.948552024986437,
+      30.60158170964508,
+      46.624858687954934
+    ],
+    "angle_deg": [
+      2.8526038062707584,
+      5.824326489753131,
+      8.834018305576588
+    ],
+    "first_period_um": 12.715313734273439,
+    "three_period_um": 12.417551071461334,
+    "distance_mm": 300.0,
+    "estimator": "origin-constrained sin(theta_m)=m*lambda/d, m=1,2,3; unchanged conditional labels"
+  },
+  {
+    "frame_id": "146",
+    "cycle": "cycle02",
+    "direction": "up",
+    "voltage_V": 8.37,
+    "radius_mm": [
+      14.810725412490639,
+      30.264175569435302,
+      46.309299088008366
+    ],
+    "angle_deg": [
+      2.8263454593240467,
+      5.760543044397382,
+      8.775162866742713
+    ],
+    "first_period_um": 12.833349012020015,
+    "three_period_um": 12.517880821388045,
+    "distance_mm": 300.0,
+    "estimator": "origin-constrained sin(theta_m)=m*lambda/d, m=1,2,3; unchanged conditional labels"
+  },
+  {
+    "frame_id": "147",
+    "cycle": "cycle02",
+    "direction": "up",
+    "voltage_V": 8.42,
+    "radius_mm": [
+      14.753975909769963,
+      30.43724876653642,
+      46.598316130565244
+    ],
+    "angle_deg": [
+      2.815533354242555,
+      5.7932626979565764,
+      8.829068540070134
+    ],
+    "first_period_um": 12.882591251706499,
+    "three_period_um": 12.452127866941392,
+    "distance_mm": 300.0,
+    "estimator": "origin-constrained sin(theta_m)=m*lambda/d, m=1,2,3; unchanged conditional labels"
+  },
+  {
+    "frame_id": "148",
+    "cycle": "cycle02",
+    "direction": "up",
+    "voltage_V": 8.48,
+    "radius_mm": [
+      14.992683287619467,
+      30.668424489951526,
+      47.26522918817302
+    ],
+    "angle_deg": [
+      2.8610113200463334,
+      5.836960772406669,
+      8.953396790755368
+    ],
+    "first_period_um": 12.677978789418313,
+    "three_period_um": 12.300983344283969,
+    "distance_mm": 300.0,
+    "estimator": "origin-constrained sin(theta_m)=m*lambda/d, m=1,2,3; unchanged conditional labels"
+  },
+  {
+    "frame_id": "149",
+    "cycle": "cycle02",
+    "direction": "up",
+    "voltage_V": 8.59,
+    "radius_mm": [
+      15.014042496260572,
+      30.711632150032575,
+      47.359987019431465
+    ],
+    "angle_deg": [
+      2.865080451018257,
+      5.845127361727452,
+      8.971055007577586
+    ],
+    "first_period_um": 12.659987866517378,
+    "three_period_um": 12.279367287781264,
+    "distance_mm": 300.0,
+    "estimator": "origin-constrained sin(theta_m)=m*lambda/d, m=1,2,3; unchanged conditional labels"
+  },
+  {
+    "frame_id": "150",
+    "cycle": "cycle02",
+    "direction": "up",
+    "voltage_V": 8.65,
+    "radius_mm": [
+      14.995836897171385,
+      30.675349532837856,
+      47.359568008237346
+    ],
+    "angle_deg": [
+      2.8616121142685764,
+      5.83826967627997,
+      8.970976928201194
+    ],
+    "first_period_um": 12.675319266138107,
+    "three_period_um": 12.284520217813618,
+    "distance_mm": 300.0,
+    "estimator": "origin-constrained sin(theta_m)=m*lambda/d, m=1,2,3; unchanged conditional labels"
+  },
+  {
+    "frame_id": "151",
+    "cycle": "cycle02",
+    "direction": "up",
+    "voltage_V": 8.74,
+    "radius_mm": [
+      14.688085622468263,
+      30.476128415566855,
+      46.40785422085414
+    ],
+    "angle_deg": [
+      2.8029794645781947,
+      5.80061241208095,
+      8.793546525517879
+    ],
+    "first_period_um": 12.94024301947845,
+    "three_period_um": 12.483739522722095,
+    "distance_mm": 300.0,
+    "estimator": "origin-constrained sin(theta_m)=m*lambda/d, m=1,2,3; unchanged conditional labels"
+  },
+  {
+    "frame_id": "152",
+    "cycle": "cycle02",
+    "direction": "up",
+    "voltage_V": 8.78,
+    "radius_mm": [
+      14.846064598202648,
+      30.400828603956263,
+      46.857826721102015
+    ],
+    "angle_deg": [
+      2.8330782974566415,
+      5.786377745611781,
+      8.877457434119634
+    ],
+    "first_period_um": 12.802875204716413,
+    "three_period_um": 12.407305793017585,
+    "distance_mm": 300.0,
+    "estimator": "origin-constrained sin(theta_m)=m*lambda/d, m=1,2,3; unchanged conditional labels"
+  },
+  {
+    "frame_id": "153",
+    "cycle": "cycle02",
+    "direction": "up",
+    "voltage_V": 8.88,
+    "radius_mm": [
+      14.778744173794172,
+      30.157323621764817,
+      46.70084839847314
+    ],
+    "angle_deg": [
+      2.8202523114784586,
+      5.74034069768283,
+      8.848188444821377
+    ],
+    "first_period_um": 12.86105296069503,
+    "three_period_um": 12.46555755642546,
+    "distance_mm": 300.0,
+    "estimator": "origin-constrained sin(theta_m)=m*lambda/d, m=1,2,3; unchanged conditional labels"
+  },
+  {
+    "frame_id": "155",
+    "cycle": "cycle02",
+    "direction": "up",
+    "voltage_V": 9.01,
+    "radius_mm": [
+      9.655569424518589,
+      19.18773028187868,
+      29.84601012567736
+    ],
+    "angle_deg": [
+      1.8434415647862599,
+      3.6596017850707647,
+      5.6814729475716375
+    ],
+    "first_period_um": 19.671372323458375,
+    "three_period_um": 19.393201103617276,
+    "distance_mm": 300.0,
+    "estimator": "origin-constrained sin(theta_m)=m*lambda/d, m=1,2,3; unchanged conditional labels"
+  },
+  {
+    "frame_id": "179",
+    "cycle": "cycle02",
+    "direction": "down",
+    "voltage_V": 5.58,
+    "radius_mm": [
+      16.00084411994554,
+      33.078615431818804,
+      51.80485488418235
+    ],
+    "angle_deg": [
+      3.0530432725361067,
+      6.292133005497698,
+      9.797377130626678
+    ],
+    "first_period_um": 11.881237637635712,
+    "three_period_um": 11.315164614044045,
+    "distance_mm": 300.0,
+    "estimator": "origin-constrained sin(theta_m)=m*lambda/d, m=1,2,3; unchanged conditional labels"
+  },
+  {
+    "frame_id": "180",
+    "cycle": "cycle02",
+    "direction": "down",
+    "voltage_V": 5.56,
+    "radius_mm": [
+      16.111098358239012,
+      33.32167154375236,
+      52.311786318222566
+    ],
+    "angle_deg": [
+      3.074040137724353,
+      6.337991660211733,
+      9.891363769215033
+    ],
+    "first_period_um": 11.80016134542805,
+    "three_period_um": 11.217656874817745,
+    "distance_mm": 300.0,
+    "estimator": "origin-constrained sin(theta_m)=m*lambda/d, m=1,2,3; unchanged conditional labels"
+  },
+  {
+    "frame_id": "181",
+    "cycle": "cycle02",
+    "direction": "down",
+    "voltage_V": 5.42,
+    "radius_mm": [
+      16.00191160733053,
+      32.91294718133973,
+      51.38920799663805
+    ],
+    "angle_deg": [
+      3.0532465692431283,
+      6.26087087613715,
+      9.72027515584123
+    ],
+    "first_period_um": 11.88044728879121,
+    "three_period_um": 11.388764410157162,
+    "distance_mm": 300.0,
+    "estimator": "origin-constrained sin(theta_m)=m*lambda/d, m=1,2,3; unchanged conditional labels"
+  },
+  {
+    "frame_id": "182",
+    "cycle": "cycle02",
+    "direction": "down",
+    "voltage_V": 5.38,
+    "radius_mm": [
+      16.190502136330164,
+      33.31059236581647,
+      51.896384401180164
+    ],
+    "angle_deg": [
+      3.0891613162388754,
+      6.335901471267255,
+      9.814350937752236
+    ],
+    "first_period_um": 11.742456141803418,
+    "three_period_um": 11.271633196945752,
+    "distance_mm": 300.0,
+    "estimator": "origin-constrained sin(theta_m)=m*lambda/d, m=1,2,3; unchanged conditional labels"
+  },
+  {
+    "frame_id": "183",
+    "cycle": "cycle02",
+    "direction": "down",
+    "voltage_V": 5.35,
+    "radius_mm": [
+      16.094364159175576,
+      33.02419841820058,
+      51.426809245114384
+    ],
+    "angle_deg": [
+      3.070853322621568,
+      6.281864754710511,
+      9.727251606985433
+    ],
+    "first_period_um": 11.812395359133056,
+    "three_period_um": 11.368372462004553,
+    "distance_mm": 300.0,
+    "estimator": "origin-constrained sin(theta_m)=m*lambda/d, m=1,2,3; unchanged conditional labels"
+  },
+  {
+    "frame_id": "184",
+    "cycle": "cycle02",
+    "direction": "down",
+    "voltage_V": 5.31,
+    "radius_mm": [
+      16.16023622541003,
+      33.1158819803358,
+      51.79802876707499
+    ],
+    "angle_deg": [
+      3.083397708659663,
+      6.2991648049886555,
+      9.796111183071238
+    ],
+    "first_period_um": 11.764384347205382,
+    "three_period_um": 11.30494643223552,
+    "distance_mm": 300.0,
+    "estimator": "origin-constrained sin(theta_m)=m*lambda/d, m=1,2,3; unchanged conditional labels"
+  },
+  {
+    "frame_id": "185",
+    "cycle": "cycle02",
+    "direction": "down",
+    "voltage_V": 5.16,
+    "radius_mm": [
+      16.273608310240935,
+      33.34950029446518,
+      51.84932191777624
+    ],
+    "angle_deg": [
+      3.104987095413719,
+      6.34324173558554,
+      9.805623593050067
+    ],
+    "first_period_um": 11.682664282321566,
+    "three_period_um": 11.270483393687625,
+    "distance_mm": 300.0,
+    "estimator": "origin-constrained sin(theta_m)=m*lambda/d, m=1,2,3; unchanged conditional labels"
+  },
+  {
+    "frame_id": "186",
+    "cycle": "cycle02",
+    "direction": "down",
+    "voltage_V": 5.12,
+    "radius_mm": [
+      16.691050780483884,
+      34.1859408593542,
+      53.44498907063063
+    ],
+    "angle_deg": [
+      3.184472792349942,
+      6.500991402776619,
+      10.101268018909497
+    ],
+    "first_period_um": 11.3913495502154,
+    "three_period_um": 10.962222618493088,
+    "distance_mm": 300.0,
+    "estimator": "origin-constrained sin(theta_m)=m*lambda/d, m=1,2,3; unchanged conditional labels"
+  },
+  {
+    "frame_id": "187",
+    "cycle": "cycle02",
+    "direction": "down",
+    "voltage_V": 5.08,
+    "radius_mm": [
+      16.70399775724548,
+      34.188757647807336,
+      53.42092217278546
+    ],
+    "angle_deg": [
+      3.1869378463792155,
+      6.50152247305944,
+      10.096812909956533
+    ],
+    "first_period_um": 11.382547570961277,
+    "three_period_um": 10.964505712252736,
+    "distance_mm": 300.0,
+    "estimator": "origin-constrained sin(theta_m)=m*lambda/d, m=1,2,3; unchanged conditional labels"
+  },
+  {
+    "frame_id": "188",
+    "cycle": "cycle02",
+    "direction": "down",
+    "voltage_V": 4.93,
+    "radius_mm": [
+      16.760487564146885,
+      34.28954845990809,
+      53.509011334227175
+    ],
+    "angle_deg": [
+      3.1976931476445043,
+      6.52052458287114,
+      10.11311880654818
+    ],
+    "first_period_um": 11.344302426756082,
+    "three_period_um": 10.941660951605375,
+    "distance_mm": 300.0,
+    "estimator": "origin-constrained sin(theta_m)=m*lambda/d, m=1,2,3; unchanged conditional labels"
+  },
+  {
+    "frame_id": "189",
+    "cycle": "cycle02",
+    "direction": "down",
+    "voltage_V": 4.77,
+    "radius_mm": [
+      16.7797971568144,
+      34.3300650678098,
+      53.653233346021906
+    ],
+    "angle_deg": [
+      3.2013695200295658,
+      6.528162780498721,
+      10.13981169697144
+    ],
+    "first_period_um": 11.331288451224255,
+    "three_period_um": 10.918670977124773,
+    "distance_mm": 300.0,
+    "estimator": "origin-constrained sin(theta_m)=m*lambda/d, m=1,2,3; unchanged conditional labels"
+  },
+  {
+    "frame_id": "190",
+    "cycle": "cycle02",
+    "direction": "down",
+    "voltage_V": 4.52,
+    "radius_mm": [
+      16.776078502696265,
+      34.32561166299779,
+      53.60786102119513
+    ],
+    "angle_deg": [
+      3.2006615238565006,
+      6.527323235281351,
+      10.131414577842369
+    ],
+    "first_period_um": 11.333792358418007,
+    "three_period_um": 10.925056831363348,
+    "distance_mm": 300.0,
+    "estimator": "origin-constrained sin(theta_m)=m*lambda/d, m=1,2,3; unchanged conditional labels"
+  },
+  {
+    "frame_id": "191",
+    "cycle": "cycle02",
+    "direction": "down",
+    "voltage_V": 4.48,
+    "radius_mm": [
+      16.777508984143566,
+      34.33804000657614,
+      53.63667521624727
+    ],
+    "angle_deg": [
+      3.200933873956515,
+      6.529666189834118,
+      10.136747311901923
+    ],
+    "first_period_um": 11.332829030845437,
+    "three_period_um": 10.92019718374173,
+    "distance_mm": 300.0,
+    "estimator": "origin-constrained sin(theta_m)=m*lambda/d, m=1,2,3; unchanged conditional labels"
+  },
+  {
+    "frame_id": "192",
+    "cycle": "cycle02",
+    "direction": "down",
+    "voltage_V": 4.36,
+    "radius_mm": [
+      16.7862525042262,
+      34.363817472276544,
+      53.60800491397261
+    ],
+    "angle_deg": [
+      3.202598554103561,
+      6.534525611457789,
+      10.131441208973824
+    ],
+    "first_period_um": 11.326944465893886,
+    "three_period_um": 10.921219737675042,
+    "distance_mm": 300.0,
+    "estimator": "origin-constrained sin(theta_m)=m*lambda/d, m=1,2,3; unchanged conditional labels"
+  },
+  {
+    "frame_id": "193",
+    "cycle": "cycle02",
+    "direction": "down",
+    "voltage_V": 4.22,
+    "radius_mm": [
+      16.780849222689213,
+      34.328421673823385,
+      53.60043719805817
+    ],
+    "angle_deg": [
+      3.2015698231309275,
+      6.527852972125099,
+      10.130040598710812
+    ],
+    "first_period_um": 11.330580258112343,
+    "three_period_um": 10.925550225092975,
+    "distance_mm": 300.0,
+    "estimator": "origin-constrained sin(theta_m)=m*lambda/d, m=1,2,3; unchanged conditional labels"
+  },
+  {
+    "frame_id": "194",
+    "cycle": "cycle02",
+    "direction": "down",
+    "voltage_V": 4.08,
+    "radius_mm": [
+      16.812698110223604,
+      34.38553843974112,
+      53.67653818049165
+    ],
+    "angle_deg": [
+      3.2076335041842023,
+      6.538620251746597,
+      10.144124583946304
+    ],
+    "first_period_um": 11.309183351287292,
+    "three_period_um": 10.909338340216086,
+    "distance_mm": 300.0,
+    "estimator": "origin-constrained sin(theta_m)=m*lambda/d, m=1,2,3; unchanged conditional labels"
+  },
+  {
+    "frame_id": "195",
+    "cycle": "cycle02",
+    "direction": "down",
+    "voltage_V": 3.99,
+    "radius_mm": [
+      16.719791370976875,
+      34.239933866180344,
+      53.46165623346574
+    ],
+    "angle_deg": [
+      3.1899448730263815,
+      6.5111709144238,
+      10.10435326429686
+    ],
+    "first_period_um": 11.371828795978837,
+    "three_period_um": 10.953989207746028,
+    "distance_mm": 300.0,
+    "estimator": "origin-constrained sin(theta_m)=m*lambda/d, m=1,2,3; unchanged conditional labels"
+  },
+  {
+    "frame_id": "196",
+    "cycle": "cycle02",
+    "direction": "down",
+    "voltage_V": 3.89,
+    "radius_mm": [
+      16.881399108710166,
+      34.59176301918605,
+      53.9981707842453
+    ],
+    "angle_deg": [
+      3.220713180404734,
+      6.577492496481908,
+      10.203635330752801
+    ],
+    "first_period_um": 11.263303583724099,
+    "three_period_um": 10.847320322117113,
+    "distance_mm": 300.0,
+    "estimator": "origin-constrained sin(theta_m)=m*lambda/d, m=1,2,3; unchanged conditional labels"
+  },
+  {
+    "frame_id": "197",
+    "cycle": "cycle02",
+    "direction": "down",
+    "voltage_V": 3.81,
+    "radius_mm": [
+      16.82800893948701,
+      34.458235823313515,
+      53.925495186448536
+    ],
+    "angle_deg": [
+      3.2105484936054807,
+      6.552324016668314,
+      10.1901903169307
+    ],
+    "first_period_um": 11.298926011650195,
+    "three_period_um": 10.870516635187622,
+    "distance_mm": 300.0,
+    "estimator": "origin-constrained sin(theta_m)=m*lambda/d, m=1,2,3; unchanged conditional labels"
+  },
+  {
+    "frame_id": "198",
+    "cycle": "cycle02",
+    "direction": "down",
+    "voltage_V": 3.7,
+    "radius_mm": [
+      16.902631428854964,
+      34.683451129315756,
+      54.13113635654256
+    ],
+    "angle_deg": [
+      3.224755439083644,
+      6.594773270521674,
+      10.22823107268733
+    ],
+    "first_period_um": 11.249199818963051,
+    "three_period_um": 10.821653618066893,
+    "distance_mm": 300.0,
+    "estimator": "origin-constrained sin(theta_m)=m*lambda/d, m=1,2,3; unchanged conditional labels"
+  },
+  {
+    "frame_id": "199",
+    "cycle": "cycle02",
+    "direction": "down",
+    "voltage_V": 3.57,
+    "radius_mm": [
+      17.08510312765368,
+      35.38457361049448,
+      55.240893016772965
+    ],
+    "angle_deg": [
+      3.2594934981316563,
+      6.726876180201743,
+      10.433362577319446
+    ],
+    "first_period_um": 11.129438748536275,
+    "three_period_um": 10.617361658603468,
+    "distance_mm": 300.0,
+    "estimator": "origin-constrained sin(theta_m)=m*lambda/d, m=1,2,3; unchanged conditional labels"
+  }
+]

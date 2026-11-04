@@ -1,0 +1,225 @@
+{
+  "frame_id": "200",
+  "title": "仍有14个候选且能拟合row，但条件留一误差比例0.298超过0.2门槛，必须禁用几何补检；用于证明有亮斑不等于允许猜点。",
+  "role": "negative_prediction_gate_despite_visible_peaks",
+  "batch_id": "scan_2026-10-14",
+  "cycle": "cycle02",
+  "direction": "down",
+  "voltage_RMS_V": 3.48,
+  "input_arrays": "linear_cfa.npz",
+  "raw_display": "raw_display.png",
+  "raw_shape": [
+    4688,
+    7028
+  ],
+  "red_shape": [
+    2344,
+    3514
+  ],
+  "screen_size_mm": [
+    120.0,
+    120.0
+  ],
+  "corners_prior_display": [
+    [
+      423,
+      115
+    ],
+    [
+      1108,
+      117
+    ],
+    [
+      1059,
+      745
+    ],
+    [
+      431,
+      765
+    ]
+  ],
+  "corner_overrides_display": {},
+  "edge_half_widths_display": [
+    30,
+    15,
+    8,
+    15
+  ],
+  "edge_method": "multipeak",
+  "physical_visibility_review": {
+    "raw_display_sha256": "2316b773fb1c1f073e9a382363c245bb391509739eb4a9516744b9bfc54f8058",
+    "edges": [
+      {
+        "side": 0,
+        "side_name": "top",
+        "physical_edge_identity_visible": true,
+        "endpoint_visibility": {
+          "TL": true,
+          "TR": true
+        },
+        "endpoint_visibility_reasons_zh": {
+          "TL": "原图可见物理板的交角/顶边端点；仅支持数显示像素尺度的视觉定位。",
+          "TR": "原图可见物理板的交角/顶边端点；仅支持数显示像素尺度的视觉定位。"
+        },
+        "coordinate_repair_required": false,
+        "reason_codes": [],
+        "reasons_zh": [
+          "明亮上沿可与板面及背景区分；亮边有有限宽度，视觉通过不等于亚像素角点标定。"
+        ]
+      },
+      {
+        "side": 1,
+        "side_name": "right",
+        "physical_edge_identity_visible": true,
+        "endpoint_visibility": {
+          "TR": true,
+          "BR": true
+        },
+        "endpoint_visibility_reasons_zh": {
+          "TR": "原图可见物理板的交角/顶边端点；仅支持数显示像素尺度的视觉定位。",
+          "BR": "原图可见物理板的交角/顶边端点；仅支持数显示像素尺度的视觉定位。"
+        },
+        "coordinate_repair_required": false,
+        "reason_codes": [],
+        "reasons_zh": [
+          "板右侧可见段与外部背景的边界已检查；暗背景区或边带模糊不作为额外角点证据。"
+        ]
+      },
+      {
+        "side": 2,
+        "side_name": "bottom",
+        "physical_edge_identity_visible": true,
+        "endpoint_visibility": {
+          "BR": true,
+          "BL": "uncertain"
+        },
+        "endpoint_visibility_reasons_zh": {
+          "BR": "原图可见物理板的交角/顶边端点；仅支持数显示像素尺度的视觉定位。",
+          "BL": "左下候选角处黑板与深色衣服/手暗部融合；可看见的左边或右端底边不足以独立确定左下物理端点。"
+        },
+        "coordinate_repair_required": false,
+        "reason_codes": [
+          "CENTRAL_BOTTOM_OCCLUSION",
+          "PHYSICAL_BL_NOT_INDEPENDENTLY_VISIBLE",
+          "REVOKE_PHYSICAL_ENDPOINT_CERTIFICATION"
+        ],
+        "reasons_zh": [
+          "手及其阴影覆盖中段底边；仅允许用真正可见的外侧板边段判断，不能以手轮廓充当板边。",
+          "BL：左下候选角处黑板与深色衣服/手暗部融合；可看见的左边或右端底边不足以独立确定左下物理端点。",
+          "保留梯度拟合数值诊断，撤销其“两物理端点已独立验证”的自动supported含义。"
+        ]
+      },
+      {
+        "side": 3,
+        "side_name": "left",
+        "physical_edge_identity_visible": true,
+        "endpoint_visibility": {
+          "BL": "uncertain",
+          "TL": true
+        },
+        "endpoint_visibility_reasons_zh": {
+          "BL": "左下候选角处黑板与深色衣服/手暗部融合；可看见的左边或右端底边不足以独立确定左下物理端点。",
+          "TL": "原图可见物理板的交角/顶边端点；仅支持数显示像素尺度的视觉定位。"
+        },
+        "coordinate_repair_required": false,
+        "reason_codes": [
+          "PHYSICAL_BL_NOT_INDEPENDENTLY_VISIBLE",
+          "ORIGINAL_GRADIENT_VALIDATION_INSUFFICIENT"
+        ],
+        "reasons_zh": [
+          "板左侧上部可见边段已检查；下端遇深色衣服或手时不据直线外推认证角点。",
+          "BL：左下候选角处黑板与深色衣服/手暗部融合；可看见的左边或右端底边不足以独立确定左下物理端点。",
+          "v8保留条件几何：梯度诊断状态为REVIEWED_PRIOR_INSUFFICIENT_EDGE_SUPPORT；该统计不足本身不靠目视或同一梯度残差升级为精度认证。",
+          "原端点条带诊断：[{\"sampled\":8,\"accepted\":7,\"inlier_fraction\":0.875,\"p95_display_px\":1.338245834831347},{\"sampled\":8,\"accepted\":7,\"inlier_fraction\":0.875,\"p95_display_px\":2.1529330930934907}]"
+        ]
+      }
+    ],
+    "accepted_visible_corner_constraints": {}
+  },
+  "reviewed_non_optical_exclusions": [
+    {
+      "frame_id": "200",
+      "peak_uid": "200_audit_p001",
+      "u_raw_px": 2163.4769153563066,
+      "v_raw_px": 1467.5806289729007,
+      "raw_sha256": "108c0392b2c40a15391f2dbb2ff2093a97ed0aa4ae1d169af25cde93acb1dbaf",
+      "confirmed": true,
+      "reason": "NON_OPTICAL_SCREEN_OR_HAND_BOUNDARY",
+      "radius_raw_px": 45.0,
+      "reviewer": "root_visual_acceptance",
+      "review_basis": "Native unmarked and x3 atlas pages 01-06 individually inspected; broad physical screen/hand boundary or texture, no compact optical spot at the bound centre",
+      "atlas_page": 6,
+      "nearest_protected_candidate_distance_raw_px": 737.9410876596527,
+      "review_source": "data/annotations/scan_2026-10-14/image_audit_non_optical_2026-10-19_v2_boundaries.json",
+      "bound_source_catalog_sha256": "005a6045f245dfbc0ce1f22a9112c591e3f517967a0dd5a3fa60478de870a08b"
+    },
+    {
+      "frame_id": "200",
+      "peak_uid": "200_audit_p005",
+      "u_raw_px": 5312.494836844279,
+      "v_raw_px": 2852.6894671623295,
+      "raw_sha256": "108c0392b2c40a15391f2dbb2ff2093a97ed0aa4ae1d169af25cde93acb1dbaf",
+      "confirmed": true,
+      "reason": "NON_OPTICAL_SCREEN_OR_HAND_BOUNDARY",
+      "radius_raw_px": 45.0,
+      "reviewer": "root_visual_acceptance",
+      "review_basis": "Native unmarked and x3 atlas pages 01-06 individually inspected; broad physical screen/hand boundary or texture, no compact optical spot at the bound centre",
+      "atlas_page": 6,
+      "nearest_protected_candidate_distance_raw_px": 606.2672777428547,
+      "review_source": "data/annotations/scan_2026-10-14/image_audit_non_optical_2026-10-19_v2_boundaries.json",
+      "bound_source_catalog_sha256": "005a6045f245dfbc0ce1f22a9112c591e3f517967a0dd5a3fa60478de870a08b"
+    },
+    {
+      "frame_id": "200",
+      "peak_uid": "200_audit_p007",
+      "u_raw_px": 2186.511450919597,
+      "v_raw_px": 3088.808258755549,
+      "raw_sha256": "108c0392b2c40a15391f2dbb2ff2093a97ed0aa4ae1d169af25cde93acb1dbaf",
+      "confirmed": true,
+      "reason": "NON_OPTICAL_SCREEN_OR_HAND_BOUNDARY",
+      "radius_raw_px": 38.094,
+      "reviewer": "root_visual_acceptance",
+      "review_basis": "Native unmarked and x3 atlas pages 01-06 individually inspected; broad physical screen/hand boundary or texture, no compact optical spot at the bound centre",
+      "atlas_page": 6,
+      "nearest_protected_candidate_distance_raw_px": 114.2839916280805,
+      "review_source": "data/annotations/scan_2026-10-14/image_audit_non_optical_2026-10-19_v2_boundaries.json",
+      "bound_source_catalog_sha256": "005a6045f245dfbc0ce1f22a9112c591e3f517967a0dd5a3fa60478de870a08b"
+    },
+    {
+      "frame_id": "200",
+      "peak_uid": "200_audit_p018",
+      "u_raw_px": 5298.810611643331,
+      "v_raw_px": 3029.447444228579,
+      "raw_sha256": "108c0392b2c40a15391f2dbb2ff2093a97ed0aa4ae1d169af25cde93acb1dbaf",
+      "confirmed": true,
+      "reason": "NON_OPTICAL_SCREEN_OR_HAND_BOUNDARY",
+      "radius_raw_px": 45.0,
+      "reviewer": "root_visual_acceptance",
+      "review_basis": "Native unmarked and x3 atlas pages 01-06 individually inspected; broad physical screen/hand boundary or texture, no compact optical spot at the bound centre",
+      "atlas_page": 6,
+      "nearest_protected_candidate_distance_raw_px": 562.8020419029588,
+      "review_source": "data/annotations/scan_2026-10-14/image_audit_non_optical_2026-10-19_v2_boundaries.json",
+      "bound_source_catalog_sha256": "005a6045f245dfbc0ce1f22a9112c591e3f517967a0dd5a3fa60478de870a08b"
+    }
+  ],
+  "source_raw": {
+    "path": "data/raw/scan_2026-10-14/DSC00279.ARW",
+    "sha256": "108c0392b2c40a15391f2dbb2ff2093a97ed0aa4ae1d169af25cde93acb1dbaf",
+    "bytes": 68608000,
+    "black_level": [
+      512,
+      512,
+      512,
+      512
+    ],
+    "white_level": 16383,
+    "camera_white_level": [
+      15360,
+      15360,
+      15360,
+      15360
+    ]
+  },
+  "array_definition": "Exact detector inputs from native Bayer samples: black-subtracted R, aligned G1/G2 mean, native near-white mask. Float32/bool stored losslessly; no display tone map or resize.",
+  "references": "reference/200.json"
+}

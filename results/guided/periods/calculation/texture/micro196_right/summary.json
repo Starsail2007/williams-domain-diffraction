@@ -1,0 +1,16 @@
+{
+  "id": "micro196_right",
+  "title": "最强谱峰是二次谐波：重新寻找受支持的频率族",
+  "status": "COMPUTED",
+  "quality_status": "RESOLVED_CANDIDATES",
+  "strongest_period_um": 6.1582612094678115,
+  "family_period_um": 12.292431814132451,
+  "family_rank": 2,
+  "lower_support_period_um": 12.292431814132451,
+  "family_ambiguous": false,
+  "pair_coverage": null,
+  "pair_angle_deg": null,
+  "jointly_supported_tiles": null,
+  "spatial_pair_applicable": false,
+  "spatial_pair_supported": null
+}

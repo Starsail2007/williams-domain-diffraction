@@ -1,0 +1,1298 @@
+{
+  "chapters": [
+    {
+      "id": "measurement",
+      "folder": "01_measurement",
+      "title": "图像处理与测量",
+      "question": "照片中的位置和亮度怎样用于测量？",
+      "lead": "RG通道拟合、坐标变换、光斑识别与RAW测光。"
+    },
+    {
+      "id": "periods",
+      "folder": "03_periods",
+      "title": "空间周期",
+      "question": "衍射峰距与显微纹理是否对应？",
+      "lead": "从光斑位置和傅里叶频谱测量周期，再比较两者。"
+    },
+    {
+      "id": "intensity",
+      "folder": "04_intensity",
+      "title": "光强分配",
+      "question": "电压怎样改变各级光强的配比？",
+      "lead": "比较单正弦与双谐波模型，检验二维双斜向强度谱。"
+    },
+    {
+      "id": "discussion",
+      "folder": "05_discussion",
+      "title": "微观结构的讨论",
+      "question": "周期对应与强度模型提供了怎样的结构线索？",
+      "lead": "联系相位倍频和组合频率，说明解释的适用范围。"
+    }
+  ],
+  "cases": [
+    {
+      "id": "diffraction104",
+      "type": "detection",
+      "chapter": "measurement",
+      "title": "从一张衍射照片开始",
+      "identity": "实验3 · 第104帧 · 5.67 V · 原生R采样与屏边显示图",
+      "steps": [
+        {
+          "id": "detection.input",
+          "title": "看清这张照片",
+          "why": "亮横峰、密集小光斑和边缘干扰同时存在。",
+          "method": "显示照片帮助定位；识别读取随包保存的无损原生R采样。",
+          "check": "结合本次实际数值、图像和质量标志判断这一步。",
+          "sources": [
+            {
+              "file": "src/williams_diffraction/delivery_algorithms.py",
+              "symbol": "diffraction_case",
+              "focus": "with Image.open"
+            }
+          ]
+        },
+        {
+          "id": "detection.geometry",
+          "title": "把像素变成毫米",
+          "why": "斜拍照片中的像素距离不能直接当屏面距离。",
+          "method": "从物理屏边与角点建立单应变换，再检查边缘支持。",
+          "check": "结合本次实际数值、图像和质量标志判断这一步。",
+          "sources": [
+            {
+              "file": "src/williams_diffraction/geometry.py",
+              "symbol": "homography",
+              "focus": ""
+            }
+          ]
+        },
+        {
+          "id": "detection.contrast",
+          "title": "显出不同尺度的光斑",
+          "why": "缓慢变化的背景会淹没弱光斑。",
+          "method": "在两个尺度上计算局部对比；下面是检测当时实际使用的数组。",
+          "check": "结合本次实际数值、图像和质量标志判断这一步。",
+          "sources": [
+            {
+              "file": "src/williams_diffraction/evidence_detection.py",
+              "symbol": "screen_contrast_fields",
+              "focus": ""
+            }
+          ]
+        },
+        {
+          "id": "detection.strong",
+          "title": "先找可靠的强光斑",
+          "why": "先获得无需点阵预测就能识别的位置。",
+          "method": "寻找局部极大值，并检查定位、颜色、孤立采样脉冲和屏边。",
+          "check": "结合本次实际数值、图像和质量标志判断这一步。",
+          "sources": [
+            {
+              "file": "src/williams_diffraction/evidence_detection.py",
+              "symbol": "_detect_evidence",
+              "focus": "points.append(dict(q=center"
+            }
+          ]
+        },
+        {
+          "id": "detection.weak",
+          "title": "独立寻找弱光斑",
+          "why": "弱光斑不能只靠降低一个全局阈值来找。",
+          "method": "结合局部噪声、形状先验、跨尺度稳定性和近邻分辨证据。",
+          "check": "结合本次实际数值、图像和质量标志判断这一步。",
+          "sources": [
+            {
+              "file": "src/williams_diffraction/evidence_detection.py",
+              "symbol": "_detect_evidence",
+              "focus": "def independent_weak_search"
+            }
+          ]
+        },
+        {
+          "id": "detection.models",
+          "title": "检查点阵能否用于预测",
+          "why": "模糊点和边界点不能随意参与训练。",
+          "method": "筛选训练点，拟合峰列和二维点阵，再留出节点检查位置预测。",
+          "check": "结合本次实际数值、图像和质量标志判断这一步。",
+          "sources": [
+            {
+              "file": "src/williams_diffraction/evidence_detection.py",
+              "symbol": "geometry_models",
+              "focus": "maximum_conditional_loo_fraction"
+            }
+          ]
+        },
+        {
+          "id": "detection.guided",
+          "title": "回到图像验证预测位置",
+          "why": "点阵只能提出待查位置，需要实际信号支持。",
+          "method": "先补充实测模板弱检，再对预测位置检查局部信号、噪声和形状。",
+          "check": "结合本次实际数值、图像和质量标志判断这一步。",
+          "sources": [
+            {
+              "file": "src/williams_diffraction/evidence_detection.py",
+              "symbol": "search_evidence",
+              "focus": ""
+            }
+          ]
+        },
+        {
+          "id": "detection.final",
+          "title": "保留结果，也保留限制",
+          "why": "最终目录要区分强候选、独立弱候选和预测补检。",
+          "method": "复核训练证据是否稳定；必要时隔离不可靠训练点并重跑。",
+          "check": "区分候选来源与质量标志；候选数不等于物理级次数。",
+          "sources": [
+            {
+              "file": "src/williams_diffraction/evidence_detection.py",
+              "symbol": "detect_evidence",
+              "focus": ""
+            }
+          ]
+        }
+      ],
+      "preview": "data/core/diffraction/104/raw_display.png",
+      "sample": "104",
+      "input": {
+        "step": "detection.input",
+        "images": [
+          "data/core/diffraction/104/raw_display.png"
+        ],
+        "metrics": [
+          [
+            "输入",
+            "实验3 · 第104帧 · 5.67 V · 原生R采样与屏边显示图"
+          ]
+        ],
+        "table": null,
+        "evidence": [],
+        "links": [],
+        "status": "input"
+      }
+    },
+    {
+      "id": "diffraction200",
+      "type": "detection",
+      "chapter": "measurement",
+      "title": "预测什么时候应该停止",
+      "identity": "实验3 · 第200帧 · 3.48 V · 保留补检关闭的例子",
+      "steps": [
+        {
+          "id": "detection.input",
+          "title": "看清这张照片",
+          "why": "亮横峰、密集小光斑和边缘干扰同时存在。",
+          "method": "显示照片帮助定位；识别读取随包保存的无损原生R采样。",
+          "check": "结合本次实际数值、图像和质量标志判断这一步。",
+          "sources": [
+            {
+              "file": "src/williams_diffraction/delivery_algorithms.py",
+              "symbol": "diffraction_case",
+              "focus": "with Image.open"
+            }
+          ]
+        },
+        {
+          "id": "detection.geometry",
+          "title": "把像素变成毫米",
+          "why": "斜拍照片中的像素距离不能直接当屏面距离。",
+          "method": "从物理屏边与角点建立单应变换，再检查边缘支持。",
+          "check": "结合本次实际数值、图像和质量标志判断这一步。",
+          "sources": [
+            {
+              "file": "src/williams_diffraction/geometry.py",
+              "symbol": "homography",
+              "focus": ""
+            }
+          ]
+        },
+        {
+          "id": "detection.contrast",
+          "title": "显出不同尺度的光斑",
+          "why": "缓慢变化的背景会淹没弱光斑。",
+          "method": "在两个尺度上计算局部对比；下面是检测当时实际使用的数组。",
+          "check": "结合本次实际数值、图像和质量标志判断这一步。",
+          "sources": [
+            {
+              "file": "src/williams_diffraction/evidence_detection.py",
+              "symbol": "screen_contrast_fields",
+              "focus": ""
+            }
+          ]
+        },
+        {
+          "id": "detection.strong",
+          "title": "先找可靠的强光斑",
+          "why": "先获得无需点阵预测就能识别的位置。",
+          "method": "寻找局部极大值，并检查定位、颜色、孤立采样脉冲和屏边。",
+          "check": "结合本次实际数值、图像和质量标志判断这一步。",
+          "sources": [
+            {
+              "file": "src/williams_diffraction/evidence_detection.py",
+              "symbol": "_detect_evidence",
+              "focus": "points.append(dict(q=center"
+            }
+          ]
+        },
+        {
+          "id": "detection.weak",
+          "title": "独立寻找弱光斑",
+          "why": "弱光斑不能只靠降低一个全局阈值来找。",
+          "method": "结合局部噪声、形状先验、跨尺度稳定性和近邻分辨证据。",
+          "check": "结合本次实际数值、图像和质量标志判断这一步。",
+          "sources": [
+            {
+              "file": "src/williams_diffraction/evidence_detection.py",
+              "symbol": "_detect_evidence",
+              "focus": "def independent_weak_search"
+            }
+          ]
+        },
+        {
+          "id": "detection.models",
+          "title": "检查点阵能否用于预测",
+          "why": "模糊点和边界点不能随意参与训练。",
+          "method": "筛选训练点，拟合峰列和二维点阵，再留出节点检查位置预测。",
+          "check": "结合本次实际数值、图像和质量标志判断这一步。",
+          "sources": [
+            {
+              "file": "src/williams_diffraction/evidence_detection.py",
+              "symbol": "geometry_models",
+              "focus": "maximum_conditional_loo_fraction"
+            }
+          ]
+        },
+        {
+          "id": "detection.guided",
+          "title": "回到图像验证预测位置",
+          "why": "点阵只能提出待查位置，需要实际信号支持。",
+          "method": "先补充实测模板弱检，再对预测位置检查局部信号、噪声和形状。",
+          "check": "结合本次实际数值、图像和质量标志判断这一步。",
+          "sources": [
+            {
+              "file": "src/williams_diffraction/evidence_detection.py",
+              "symbol": "search_evidence",
+              "focus": ""
+            }
+          ]
+        },
+        {
+          "id": "detection.final",
+          "title": "保留结果，也保留限制",
+          "why": "最终目录要区分强候选、独立弱候选和预测补检。",
+          "method": "复核训练证据是否稳定；必要时隔离不可靠训练点并重跑。",
+          "check": "区分候选来源与质量标志；候选数不等于物理级次数。",
+          "sources": [
+            {
+              "file": "src/williams_diffraction/evidence_detection.py",
+              "symbol": "detect_evidence",
+              "focus": ""
+            }
+          ]
+        }
+      ],
+      "preview": "data/core/diffraction/200/raw_display.png",
+      "sample": "200",
+      "input": {
+        "step": "detection.input",
+        "images": [
+          "data/core/diffraction/200/raw_display.png"
+        ],
+        "metrics": [
+          [
+            "输入",
+            "实验3 · 第200帧 · 3.48 V · 保留补检关闭的例子"
+          ]
+        ],
+        "table": null,
+        "evidence": [],
+        "links": [],
+        "status": "input"
+      }
+    },
+    {
+      "id": "rg",
+      "type": "rg",
+      "chapter": "measurement",
+      "title": "为什么用绿色通道测光",
+      "identity": "三轮正式CFA积分；削顶剖面另取第125帧",
+      "steps": [
+        {
+          "id": "rg.input",
+          "title": "为什么改用绿色通道",
+          "why": "红色激光的强峰会使R通道削顶。",
+          "method": "查看第125帧同一光斑的R、G1、G2原生剖面。",
+          "check": "结合本次实际数值、图像和质量标志判断这一步。",
+          "sources": [
+            {
+              "file": "src/williams_diffraction/research_measurement.py",
+              "symbol": "native_profiles",
+              "focus": ""
+            }
+          ]
+        },
+        {
+          "id": "rg.selection",
+          "title": "选出可比较的光斑",
+          "why": "拟合需要统一的饱和和质量条件。",
+          "method": "重建选样规则；保留弱信号与负积分。",
+          "check": "纳入数量与排除理由由本次筛选给出；负积分保留。",
+          "sources": [
+            {
+              "file": "src/williams_diffraction/research_measurement.py",
+              "symbol": "rg_rows",
+              "focus": "selection="
+            }
+          ]
+        },
+        {
+          "id": "rg.fitted",
+          "title": "拟合并检验预测",
+          "why": "一条直线的外观不足以说明响应关系。",
+          "method": "比较比例、直线和二次模型，执行整帧留出及按帧重采样。",
+          "check": "结合本次实际数值、图像和质量标志判断这一步。",
+          "sources": [
+            {
+              "file": "src/williams_diffraction/channel_response.py",
+              "symbol": "fit_rows",
+              "focus": ""
+            }
+          ]
+        },
+        {
+          "id": "rg.final",
+          "title": "查看残差与适用范围",
+          "why": "弱信号和更亮区域可能有不同偏离。",
+          "method": "查看三轮结果、残差及弱信号放大图。",
+          "check": "结合本次实际数值、图像和质量标志判断这一步。",
+          "sources": [
+            {
+              "file": "src/williams_diffraction/channel_response.py",
+              "symbol": "bootstrap",
+              "focus": ""
+            }
+          ]
+        }
+      ],
+      "preview": "",
+      "input": {
+        "step": "rg.input",
+        "images": [],
+        "metrics": [
+          [
+            "输入",
+            "三轮正式CFA积分；削顶剖面另取第125帧"
+          ]
+        ],
+        "table": {
+          "headers": [
+            "group",
+            "frame_id",
+            "peak_uid",
+            "Q_R_r125",
+            "Q_G_r125"
+          ],
+          "rows": [
+            [
+              "",
+              "001",
+              "001_p001",
+              "69722900.81329039",
+              "10939758.563970082"
+            ],
+            [
+              "",
+              "002",
+              "002_p001",
+              "330978.11878459353",
+              "42984.67768988043"
+            ],
+            [
+              "",
+              "002",
+              "002_p002",
+              "68971467.60473023",
+              "10464191.636815835"
+            ],
+            [
+              "",
+              "003",
+              "003_p001",
+              "313864.4999550652",
+              "34299.96375506861"
+            ],
+            [
+              "",
+              "003",
+              "003_p002",
+              "67679316.70726667",
+              "9776151.018709365"
+            ],
+            [
+              "",
+              "004",
+              "004_p001",
+              "63250799.167640336",
+              "9943335.861148458"
+            ],
+            [
+              "",
+              "005",
+              "005_p001",
+              "68878148.03034103",
+              "10639184.619010687"
+            ],
+            [
+              "",
+              "006",
+              "006_p001",
+              "59169245.93960785",
+              "9313651.462728294"
+            ]
+          ]
+        },
+        "evidence": [],
+        "links": [],
+        "status": "input"
+      }
+    },
+    {
+      "id": "photometry",
+      "type": "photometry",
+      "chapter": "measurement",
+      "title": "一个光斑的净积分怎样得到",
+      "identity": "实验3 · 第125帧 · 6.77 V · 22光斑、88通道",
+      "steps": [
+        {
+          "id": "photometry.input",
+          "title": "从相机采样出发",
+          "why": "显示照片的拉伸与插值不应进入积分。",
+          "method": "实验3第125帧，保留原生CFA裁剪及已审阅的22个位置。",
+          "check": "结合本次实际数值、图像和质量标志判断这一步。",
+          "sources": [
+            {
+              "file": "src/williams_diffraction/research_measurement.py",
+              "symbol": "run_photometry",
+              "focus": ""
+            }
+          ]
+        },
+        {
+          "id": "photometry.channel",
+          "title": "取出G1并扣黑电平",
+          "why": "不同CFA通道有各自的采样位置和黑电平。",
+          "method": "直接取原生采样，不插值。",
+          "check": "结合本次实际数值、图像和质量标志判断这一步。",
+          "sources": [
+            {
+              "file": "src/williams_diffraction/green_photometry_trial.py",
+              "symbol": "channel_patch",
+              "focus": ""
+            }
+          ]
+        },
+        {
+          "id": "photometry.background",
+          "title": "估计光斑下面的背景",
+          "why": "周围光斑和屏边会污染背景估计。",
+          "method": "屏蔽光斑、虚像与屏外区域，分块拟合背景平面。",
+          "check": "结合本次实际数值、图像和质量标志判断这一步。",
+          "sources": [
+            {
+              "file": "src/williams_diffraction/green_photometry_trial.py",
+              "symbol": "fit_tiled_background",
+              "focus": ""
+            }
+          ]
+        },
+        {
+          "id": "photometry.integral",
+          "title": "划分区域并求净积分",
+          "why": "邻峰重叠和屏边裁剪会改变有效积分区域。",
+          "method": "最近峰分区与圆孔径相交，对有符号净信号加权求和。",
+          "check": "结合本次实际数值、图像和质量标志判断这一步。",
+          "sources": [
+            {
+              "file": "src/williams_diffraction/raw_photometry.py",
+              "symbol": "measure_frame",
+              "focus": "row[f'Q_r{rad}']"
+            }
+          ]
+        },
+        {
+          "id": "photometry.final",
+          "title": "合并绿色通道并检查质量",
+          "why": "G1和G2应先各自测量，再取平均。",
+          "method": "完成22个光斑、88条通道记录，两种孔径均保留。",
+          "check": "结合本次实际数值、图像和质量标志判断这一步。",
+          "sources": [
+            {
+              "file": "src/williams_diffraction/raw_photometry.py",
+              "symbol": "measure_frame",
+              "focus": "g1,g2="
+            }
+          ]
+        }
+      ],
+      "preview": "",
+      "input": {
+        "step": "photometry.input",
+        "images": [],
+        "metrics": [
+          [
+            "输入",
+            "实验3 · 第125帧 · 6.77 V · 22光斑、88通道"
+          ],
+          [
+            "原生采样",
+            "data/research/mosaic125.npz"
+          ],
+          [
+            "标定与位置",
+            "data/research/photometry125.json"
+          ]
+        ],
+        "table": null,
+        "evidence": [],
+        "links": [],
+        "status": "input"
+      }
+    },
+    {
+      "id": "microscopy196",
+      "type": "texture",
+      "chapter": "periods",
+      "title": "最亮谱峰一定是基频吗",
+      "identity": "显微第196帧右区 · 原生RGB像素 · 0.75 µm/px",
+      "steps": [
+        {
+          "id": "texture.input",
+          "title": "确定区域和标尺",
+          "why": "频谱回答的是所选区域的纹理问题。",
+          "method": "保留原生像素，只取声明的ROI；标尺来自实验。",
+          "check": "结合本次实际数值、图像和质量标志判断这一步。",
+          "sources": [
+            {
+              "file": "src/williams_diffraction/delivery_algorithms.py",
+              "symbol": "microscopy_case",
+              "focus": "roi=whole"
+            }
+          ]
+        },
+        {
+          "id": "texture.detrend",
+          "title": "去除照明趋势",
+          "why": "缓慢变化的照明会影响低频。",
+          "method": "去除常数和平面趋势；显示拉伸仅用于看图。",
+          "check": "结合本次实际数值、图像和质量标志判断这一步。",
+          "sources": [
+            {
+              "file": "src/williams_diffraction/microscopy.py",
+              "symbol": "detrend_plane",
+              "focus": ""
+            }
+          ]
+        },
+        {
+          "id": "texture.window",
+          "title": "减弱边界泄漏",
+          "why": "截取区域的边缘不一定首尾相接。",
+          "method": "乘二维Hann窗，保持原始采样和数组尺寸。",
+          "check": "结合本次实际数值、图像和质量标志判断这一步。",
+          "sources": [
+            {
+              "file": "src/williams_diffraction/microscopy.py",
+              "symbol": "spectrum_peaks",
+              "focus": "window ="
+            }
+          ]
+        },
+        {
+          "id": "texture.spectrum",
+          "title": "计算二维傅里叶频谱",
+          "why": "纹理的方向和疏密需要转换成空间频率。",
+          "method": "FFT功率谱、物理频率轴、共轭去重及亚像素定位。",
+          "check": "结合本次实际数值、图像和质量标志判断这一步。",
+          "sources": [
+            {
+              "file": "src/williams_diffraction/microscopy.py",
+              "symbol": "spectrum_peaks",
+              "focus": "transformed ="
+            }
+          ]
+        },
+        {
+          "id": "texture.family",
+          "title": "判断最亮峰是不是谐波",
+          "why": "一个周期内的亮度轮廓可以突出二次谐波。",
+          "method": "按方向和整数倍频关系寻找受支持的频率族，并保留歧义。",
+          "check": "结合倍频关系判断频率族，并保留证据不足的情形。",
+          "sources": [
+            {
+              "file": "src/williams_diffraction/microscopy_lattice.py",
+              "symbol": "select_texture_family",
+              "focus": ""
+            }
+          ]
+        },
+        {
+          "id": "texture.checks",
+          "title": "换区域后再检查",
+          "why": "全图出现两个频率不一定意味着它们局部共存。",
+          "method": "90%和80%中心裁剪及四分块各自重新计算频谱。",
+          "check": "结合本次实际数值、图像和质量标志判断这一步。",
+          "sources": [
+            {
+              "file": "src/williams_diffraction/delivery_algorithms.py",
+              "symbol": "analyze_texture",
+              "focus": "for frac in"
+            }
+          ]
+        },
+        {
+          "id": "texture.profile",
+          "title": "回到条纹剖面",
+          "why": "频谱解释应与原图中的纹理相互核对。",
+          "method": "沿所选频率法线采样，计算线性自相关。",
+          "check": "结合本次实际数值、图像和质量标志判断这一步。",
+          "sources": [
+            {
+              "file": "src/williams_diffraction/microscopy.py",
+              "symbol": "normal_profile",
+              "focus": ""
+            }
+          ]
+        },
+        {
+          "id": "texture.final",
+          "title": "读出可支持的周期",
+          "why": "将最强谱峰与通过检查的频率族分别报告。",
+          "method": "保留候选、裁剪、分块和质量标志。",
+          "check": "结合本次实际数值、图像和质量标志判断这一步。",
+          "sources": [
+            {
+              "file": "src/williams_diffraction/delivery_algorithms.py",
+              "symbol": "microscopy_case",
+              "focus": "summary=dict"
+            }
+          ]
+        }
+      ],
+      "preview": "data/core/microscopy/micro_late_196.png",
+      "sample": "micro196_right",
+      "input": {
+        "step": "texture.input",
+        "images": [
+          "data/core/microscopy/micro_late_196.png"
+        ],
+        "metrics": [
+          [
+            "输入",
+            "显微第196帧右区 · 原生RGB像素 · 0.75 µm/px"
+          ]
+        ],
+        "table": null,
+        "evidence": [],
+        "links": [],
+        "status": "input"
+      }
+    },
+    {
+      "id": "microscopy164",
+      "type": "texture",
+      "chapter": "periods",
+      "title": "两个频率真的局部共存吗",
+      "identity": "显微第164帧中区 · 同图分块检查",
+      "steps": [
+        {
+          "id": "texture.input",
+          "title": "确定区域和标尺",
+          "why": "频谱回答的是所选区域的纹理问题。",
+          "method": "保留原生像素，只取声明的ROI；标尺来自实验。",
+          "check": "结合本次实际数值、图像和质量标志判断这一步。",
+          "sources": [
+            {
+              "file": "src/williams_diffraction/delivery_algorithms.py",
+              "symbol": "microscopy_case",
+              "focus": "roi=whole"
+            }
+          ]
+        },
+        {
+          "id": "texture.detrend",
+          "title": "去除照明趋势",
+          "why": "缓慢变化的照明会影响低频。",
+          "method": "去除常数和平面趋势；显示拉伸仅用于看图。",
+          "check": "结合本次实际数值、图像和质量标志判断这一步。",
+          "sources": [
+            {
+              "file": "src/williams_diffraction/microscopy.py",
+              "symbol": "detrend_plane",
+              "focus": ""
+            }
+          ]
+        },
+        {
+          "id": "texture.window",
+          "title": "减弱边界泄漏",
+          "why": "截取区域的边缘不一定首尾相接。",
+          "method": "乘二维Hann窗，保持原始采样和数组尺寸。",
+          "check": "结合本次实际数值、图像和质量标志判断这一步。",
+          "sources": [
+            {
+              "file": "src/williams_diffraction/microscopy.py",
+              "symbol": "spectrum_peaks",
+              "focus": "window ="
+            }
+          ]
+        },
+        {
+          "id": "texture.spectrum",
+          "title": "计算二维傅里叶频谱",
+          "why": "纹理的方向和疏密需要转换成空间频率。",
+          "method": "FFT功率谱、物理频率轴、共轭去重及亚像素定位。",
+          "check": "结合本次实际数值、图像和质量标志判断这一步。",
+          "sources": [
+            {
+              "file": "src/williams_diffraction/microscopy.py",
+              "symbol": "spectrum_peaks",
+              "focus": "transformed ="
+            }
+          ]
+        },
+        {
+          "id": "texture.family",
+          "title": "判断最亮峰是不是谐波",
+          "why": "一个周期内的亮度轮廓可以突出二次谐波。",
+          "method": "按方向和整数倍频关系寻找受支持的频率族，并保留歧义。",
+          "check": "结合倍频关系判断频率族，并保留证据不足的情形。",
+          "sources": [
+            {
+              "file": "src/williams_diffraction/microscopy_lattice.py",
+              "symbol": "select_texture_family",
+              "focus": ""
+            }
+          ]
+        },
+        {
+          "id": "texture.checks",
+          "title": "换区域后再检查",
+          "why": "全图出现两个频率不一定意味着它们局部共存。",
+          "method": "90%和80%中心裁剪及四分块各自重新计算频谱。",
+          "check": "结合本次实际数值、图像和质量标志判断这一步。",
+          "sources": [
+            {
+              "file": "src/williams_diffraction/delivery_algorithms.py",
+              "symbol": "analyze_texture",
+              "focus": "for frac in"
+            }
+          ]
+        },
+        {
+          "id": "texture.profile",
+          "title": "回到条纹剖面",
+          "why": "频谱解释应与原图中的纹理相互核对。",
+          "method": "沿所选频率法线采样，计算线性自相关。",
+          "check": "结合本次实际数值、图像和质量标志判断这一步。",
+          "sources": [
+            {
+              "file": "src/williams_diffraction/microscopy.py",
+              "symbol": "normal_profile",
+              "focus": ""
+            }
+          ]
+        },
+        {
+          "id": "texture.final",
+          "title": "读出可支持的周期",
+          "why": "将最强谱峰与通过检查的频率族分别报告。",
+          "method": "保留候选、裁剪、分块和质量标志。",
+          "check": "结合本次实际数值、图像和质量标志判断这一步。",
+          "sources": [
+            {
+              "file": "src/williams_diffraction/delivery_algorithms.py",
+              "symbol": "microscopy_case",
+              "focus": "summary=dict"
+            }
+          ]
+        }
+      ],
+      "preview": "data/core/microscopy/micro_late_164.png",
+      "sample": "micro164_center",
+      "input": {
+        "step": "texture.input",
+        "images": [
+          "data/core/microscopy/micro_late_164.png"
+        ],
+        "metrics": [
+          [
+            "输入",
+            "显微第164帧中区 · 同图分块检查"
+          ]
+        ],
+        "table": null,
+        "evidence": [],
+        "links": [],
+        "status": "input"
+      }
+    },
+    {
+      "id": "periods",
+      "type": "period",
+      "chapter": "periods",
+      "title": "衍射与显微周期怎样对应",
+      "identity": "126个一维帧、28个二维帧与31条既定匹配",
+      "steps": [
+        {
+          "id": "period.input",
+          "title": "两条周期测量路线",
+          "why": "衍射位置与显微纹理是不同测量。",
+          "method": "读取既定峰距；另从7个像素ROI重算纹理检查。",
+          "check": "结合本次实际数值、图像和质量标志判断这一步。",
+          "sources": [
+            {
+              "file": "src/williams_diffraction/research_analysis.py",
+              "symbol": "periods",
+              "focus": ""
+            }
+          ]
+        },
+        {
+          "id": "period.horizontal",
+          "title": "把峰距换成周期",
+          "why": "首峰偏移可能影响周期估算。",
+          "method": "用精确角几何，对照首对峰与前三对峰共同估计。",
+          "check": "结合本次实际数值、图像和质量标志判断这一步。",
+          "sources": [
+            {
+              "file": "src/williams_diffraction/research_analysis.py",
+              "symbol": "periods",
+              "focus": "radius=np.asarray"
+            }
+          ]
+        },
+        {
+          "id": "period.geometry",
+          "title": "检验二维点阵几何",
+          "why": "方格、中心矩形和一般仿射有不同自由度。",
+          "method": "在既定整数标签下分别拟合，并留一节点预测。",
+          "check": "结合本次实际数值、图像和质量标志判断这一步。",
+          "sources": [
+            {
+              "file": "src/williams_diffraction/diffraction_models.py",
+              "symbol": "fit_geometry",
+              "focus": ""
+            }
+          ]
+        },
+        {
+          "id": "period.comparison",
+          "title": "与显微周期比较",
+          "why": "同电压不自动代表同状态。",
+          "method": "先合并同一衍射帧的ROI，再按实验汇总。",
+          "check": "按既定实验条件比较两种测量，不通过调整距离消除差异。",
+          "sources": [
+            {
+              "file": "src/williams_diffraction/delivery_paper.py",
+              "symbol": "period_summary",
+              "focus": ""
+            }
+          ]
+        }
+      ],
+      "preview": "",
+      "function": "periods",
+      "input": {
+        "step": "period.input",
+        "images": [],
+        "metrics": [
+          [
+            "输入",
+            "126个一维帧、28个二维帧与31条既定匹配"
+          ]
+        ],
+        "table": {
+          "headers": [
+            "输入量",
+            "值"
+          ],
+          "rows": [
+            [
+              "代表帧",
+              "099"
+            ],
+            [
+              "峰距 / mm",
+              "[14.063852054322439, 31.01670539739289, 48.201051815520735]"
+            ],
+            [
+              "屏距 / mm",
+              300.0
+            ],
+            [
+              "波长 / µm",
+              0.6328
+            ]
+          ]
+        },
+        "evidence": [],
+        "links": [],
+        "status": "input"
+      }
+    },
+    {
+      "id": "intensity",
+      "type": "intensity",
+      "chapter": "intensity",
+      "title": "相位模型怎样决定各级光强",
+      "identity": "实验1的23帧峰比；三轮26帧二维亮节点",
+      "steps": [
+        {
+          "id": "intensity.input",
+          "title": "需要解释哪两条峰比",
+          "why": "模型要同时解释H2/H1和H3/H1。",
+          "method": "使用实验1的23帧正式峰比；两条响应共用参数。",
+          "check": "结合本次实际数值、图像和质量标志判断这一步。",
+          "sources": [
+            {
+              "file": "src/williams_diffraction/research_analysis.py",
+              "symbol": "one_d_models",
+              "focus": ""
+            }
+          ]
+        },
+        {
+          "id": "intensity.single_sine",
+          "title": "先检验单正弦相位",
+          "why": "先从最简单的周期相位出发。",
+          "method": "实际拟合后，在6.945V展示相位、复透射场与傅里叶权重。",
+          "check": "结合本次实际数值、图像和质量标志判断这一步。",
+          "sources": [
+            {
+              "file": "src/williams_diffraction/diffraction_models.py",
+              "symbol": "fit_one_d",
+              "focus": "if single"
+            }
+          ]
+        },
+        {
+          "id": "intensity.double_harmonic",
+          "title": "加入第二空间谐波",
+          "why": "单正弦难以同时描述两条峰比。",
+          "method": "保留同一损失，加入二次相位谐波，再计算复场频谱。",
+          "check": "结合本次实际数值、图像和质量标志判断这一步。",
+          "sources": [
+            {
+              "file": "src/williams_diffraction/diffraction_models.py",
+              "symbol": "one_d_prediction",
+              "focus": ""
+            }
+          ]
+        },
+        {
+          "id": "intensity.comparison",
+          "title": "留出数据再比较",
+          "why": "模型改善应接受未参与拟合的数据检查。",
+          "method": "22折相邻两帧留出；原参数还直接转移到另两轮。",
+          "check": "结合本次实际数值、图像和质量标志判断这一步。",
+          "sources": [
+            {
+              "file": "src/williams_diffraction/research_analysis.py",
+              "symbol": "one_d_models",
+              "focus": "for held in"
+            }
+          ]
+        },
+        {
+          "id": "intensity.two_d",
+          "title": "解释二维亮节点",
+          "why": "两组斜向正弦相位给出组合级次。",
+          "method": "对26帧276个既定亮节点重新多起点拟合双Bessel谱。",
+          "check": "结合本次实际数值、图像和质量标志判断这一步。",
+          "sources": [
+            {
+              "file": "src/williams_diffraction/diffraction_models.py",
+              "symbol": "weights",
+              "focus": ""
+            }
+          ]
+        }
+      ],
+      "preview": "",
+      "function": "intensity",
+      "input": {
+        "step": "intensity.input",
+        "images": [],
+        "metrics": [
+          [
+            "输入",
+            "实验1的23帧峰比；三轮26帧二维亮节点"
+          ]
+        ],
+        "table": {
+          "headers": [
+            "frame_id",
+            "voltage_RMS_V",
+            "R21_observed",
+            "R31_observed"
+          ],
+          "rows": [
+            [
+              "014",
+              "5.69",
+              "0.3061864486151455",
+              "0.2245865011160152"
+            ],
+            [
+              "015",
+              "5.76",
+              "0.30320288756615693",
+              "0.21328490151891324"
+            ],
+            [
+              "016",
+              "5.8",
+              "0.3154305950479481",
+              "0.2103450348758342"
+            ],
+            [
+              "017",
+              "5.86",
+              "0.2953491613629036",
+              "0.1937943694323812"
+            ],
+            [
+              "018",
+              "5.87",
+              "0.3126259410285564",
+              "0.1996212582229675"
+            ],
+            [
+              "019",
+              "6.14",
+              "0.3246280932901967",
+              "0.23147825631393226"
+            ],
+            [
+              "020",
+              "6.25",
+              "0.34161629580737174",
+              "0.2567864414054183"
+            ],
+            [
+              "021",
+              "6.36",
+              "0.3560278603161913",
+              "0.23259810217599158"
+            ]
+          ]
+        },
+        "evidence": [],
+        "links": [],
+        "status": "input"
+      }
+    },
+    {
+      "id": "discussion",
+      "type": "discussion",
+      "chapter": "discussion",
+      "title": "光学结果能说明怎样的结构",
+      "identity": "倍频示意与同帧分区频谱；候选微观解释",
+      "steps": [
+        {
+          "id": "discussion.input",
+          "title": "从光学模型回到结构",
+          "why": "周期与强度模型提供结构线索。",
+          "method": "明确区分图像纹理、光学相位与分子取向。",
+          "check": "结合本次实际数值、图像和质量标志判断这一步。",
+          "sources": [
+            {
+              "file": "src/williams_diffraction/research_analysis.py",
+              "symbol": "discussion",
+              "focus": ""
+            }
+          ]
+        },
+        {
+          "id": "discussion.doubling",
+          "title": "为什么会出现倍频",
+          "why": "取向到光程的非线性映射可能改变主导频率。",
+          "method": "计算cos²(qx)=(1+cos(2qx))/2的示意关系。",
+          "check": "结合本次实际数值、图像和质量标志判断这一步。",
+          "sources": [
+            {
+              "file": "src/williams_diffraction/research_analysis.py",
+              "symbol": "discussion",
+              "focus": "theta=np.cos"
+            }
+          ]
+        },
+        {
+          "id": "discussion.combination",
+          "title": "检验和差频的长度联系",
+          "why": "两方向结构可能产生组合频率。",
+          "method": "从同帧两区域实际频谱重算和差频长度。",
+          "check": "结合本次实际数值、图像和质量标志判断这一步。",
+          "sources": [
+            {
+              "file": "src/williams_diffraction/research_analysis.py",
+              "symbol": "discussion",
+              "focus": "periods['combination']"
+            }
+          ]
+        }
+      ],
+      "preview": "",
+      "function": "discussion",
+      "input": {
+        "step": "discussion.input",
+        "images": [],
+        "metrics": [
+          [
+            "输入",
+            "倍频示意与同帧分区频谱；候选微观解释"
+          ]
+        ],
+        "table": null,
+        "evidence": [],
+        "links": [],
+        "status": "input"
+      }
+    },
+    {
+      "id": "own_image",
+      "type": "texture",
+      "chapter": "own",
+      "title": "分析自己的显微图像",
+      "identity": "自己提供的8位PNG/JPG与实验标尺；默认分析整图",
+      "steps": [
+        {
+          "id": "texture.input",
+          "title": "确定区域和标尺",
+          "why": "频谱回答的是所选区域的纹理问题。",
+          "method": "保留原生像素，只取声明的ROI；标尺来自实验。",
+          "check": "结合本次实际数值、图像和质量标志判断这一步。",
+          "sources": [
+            {
+              "file": "src/williams_diffraction/delivery_algorithms.py",
+              "symbol": "microscopy_case",
+              "focus": "roi=whole"
+            }
+          ]
+        },
+        {
+          "id": "texture.detrend",
+          "title": "去除照明趋势",
+          "why": "缓慢变化的照明会影响低频。",
+          "method": "去除常数和平面趋势；显示拉伸仅用于看图。",
+          "check": "结合本次实际数值、图像和质量标志判断这一步。",
+          "sources": [
+            {
+              "file": "src/williams_diffraction/microscopy.py",
+              "symbol": "detrend_plane",
+              "focus": ""
+            }
+          ]
+        },
+        {
+          "id": "texture.window",
+          "title": "减弱边界泄漏",
+          "why": "截取区域的边缘不一定首尾相接。",
+          "method": "乘二维Hann窗，保持原始采样和数组尺寸。",
+          "check": "结合本次实际数值、图像和质量标志判断这一步。",
+          "sources": [
+            {
+              "file": "src/williams_diffraction/microscopy.py",
+              "symbol": "spectrum_peaks",
+              "focus": "window ="
+            }
+          ]
+        },
+        {
+          "id": "texture.spectrum",
+          "title": "计算二维傅里叶频谱",
+          "why": "纹理的方向和疏密需要转换成空间频率。",
+          "method": "FFT功率谱、物理频率轴、共轭去重及亚像素定位。",
+          "check": "结合本次实际数值、图像和质量标志判断这一步。",
+          "sources": [
+            {
+              "file": "src/williams_diffraction/microscopy.py",
+              "symbol": "spectrum_peaks",
+              "focus": "transformed ="
+            }
+          ]
+        },
+        {
+          "id": "texture.family",
+          "title": "判断最亮峰是不是谐波",
+          "why": "一个周期内的亮度轮廓可以突出二次谐波。",
+          "method": "按方向和整数倍频关系寻找受支持的频率族，并保留歧义。",
+          "check": "结合倍频关系判断频率族，并保留证据不足的情形。",
+          "sources": [
+            {
+              "file": "src/williams_diffraction/microscopy_lattice.py",
+              "symbol": "select_texture_family",
+              "focus": ""
+            }
+          ]
+        },
+        {
+          "id": "texture.checks",
+          "title": "换区域后再检查",
+          "why": "全图出现两个频率不一定意味着它们局部共存。",
+          "method": "90%和80%中心裁剪及四分块各自重新计算频谱。",
+          "check": "结合本次实际数值、图像和质量标志判断这一步。",
+          "sources": [
+            {
+              "file": "src/williams_diffraction/delivery_algorithms.py",
+              "symbol": "analyze_texture",
+              "focus": "for frac in"
+            }
+          ]
+        },
+        {
+          "id": "texture.profile",
+          "title": "回到条纹剖面",
+          "why": "频谱解释应与原图中的纹理相互核对。",
+          "method": "沿所选频率法线采样，计算线性自相关。",
+          "check": "结合本次实际数值、图像和质量标志判断这一步。",
+          "sources": [
+            {
+              "file": "src/williams_diffraction/microscopy.py",
+              "symbol": "normal_profile",
+              "focus": ""
+            }
+          ]
+        },
+        {
+          "id": "texture.final",
+          "title": "读出可支持的周期",
+          "why": "将最强谱峰与通过检查的频率族分别报告。",
+          "method": "保留候选、裁剪、分块和质量标志。",
+          "check": "结合本次实际数值、图像和质量标志判断这一步。",
+          "sources": [
+            {
+              "file": "src/williams_diffraction/delivery_algorithms.py",
+              "symbol": "microscopy_case",
+              "focus": "summary=dict"
+            }
+          ]
+        }
+      ],
+      "preview": "",
+      "sample": null,
+      "input": {
+        "step": "texture.input",
+        "images": [],
+        "metrics": [
+          [
+            "输入",
+            "自己提供的8位PNG/JPG与实验标尺；默认分析整图"
+          ]
+        ],
+        "table": null,
+        "evidence": [],
+        "links": [],
+        "status": "input"
+      }
+    }
+  ]
+}

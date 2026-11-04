@@ -1,0 +1,1581 @@
+{
+  "status": "PASS",
+  "case": "diffraction104",
+  "result": {
+    "status": "PASS",
+    "id": "104",
+    "case_title": "全204帧候选最多；丰富二维弱点与亮横族，上方激光虚像及边缘非光学信号需要排除；本帧几何引导实际新增1个，不能自动把全部格点填满。",
+    "origin_counts": {
+      "INDEPENDENT_WEAK": 15,
+      "INDEPENDENT_STRONG": 40,
+      "GUIDED_SCREEN_LATTICE_2D": 1
+    },
+    "candidates": 56,
+    "with_quality_flags": 18,
+    "review_required": 17,
+    "candidate_status_counts": {
+      "REVIEW_REQUIRED": 17,
+      "SIGNAL_CANDIDATE": 38,
+      "WEAK_SIGNAL_CANDIDATE": 1
+    },
+    "supplied_human_exclusions": 6,
+    "conditional_edges": [
+      2,
+      3
+    ],
+    "audit_status_counts": {
+      "SAME_OR_UNRESOLVED_MODE": 274,
+      "CONFIRMED_NON_OPTICAL_REVIEW": 31,
+      "FINE_TEXTURE_WITHOUT_COARSE_PEAK": 8,
+      "RESOLVED_CLOSE_PAIR": 6,
+      "MEASURED_BROADBAND_BACKGROUND": 13,
+      "SCREEN_EDGE": 3,
+      "ALREADY_DETECTED_AFTER_LOCALIZATION": 197,
+      "SHAPE_MISMATCH": 25,
+      "SCALE_UNSTABLE_REVIEW": 154,
+      "DETECTED": 16,
+      "INSUFFICIENT_SIGNAL": 43,
+      "UNRESOLVED_SHALLOW_SADDLE": 3,
+      "MODEL_AND_TEMPLATE_TRAINING_INPUTS": 1,
+      "NO_ACCEPTED_LOCAL_MAXIMUM": 67,
+      "SCREEN_EDGE_OR_OUTSIDE": 4,
+      "TRAINING_EVIDENCE_CLOSURE_STABLE": 1
+    },
+    "model_gates": [
+      {
+        "kind": "lattice_2d",
+        "status": "OBSERVED_GEOMETRY",
+        "prediction_enabled": true,
+        "maximum_conditional_loo_fraction": 0.08291387814035052
+      },
+      {
+        "kind": "row",
+        "status": "OBSERVED_GEOMETRY",
+        "prediction_enabled": true,
+        "maximum_conditional_loo_fraction": 0.15618129380313403
+      }
+    ],
+    "elapsed_s": 8.860369250003714,
+    "raw_decoder_used_at_runtime": false,
+    "reference_evaluation": {
+      "status": "PASS",
+      "scope": "regression against accepted v9/v16 coordinates, not detection accuracy against independent human truth",
+      "reference_loaded_after_detection": true,
+      "candidates_found": 56,
+      "reference_candidates": 56,
+      "maximum_coordinate_difference_raw_px": 0.0,
+      "maximum_screen_corner_difference_display_px": 0.0,
+      "prediction_gates": {
+        "lattice_2d": true,
+        "row": true
+      },
+      "reference_prediction_gates": {
+        "lattice_2d": true,
+        "row": true
+      },
+      "model_statuses": {
+        "lattice_2d": "OBSERVED_GEOMETRY",
+        "row": "OBSERVED_GEOMETRY"
+      },
+      "reference_model_statuses": {
+        "lattice_2d": "OBSERVED_GEOMETRY",
+        "row": "OBSERVED_GEOMETRY"
+      },
+      "historical_human_review_summary": "本帧56个候选均已逐项复核；其中24个仍受低信噪比、浅鞍点、光翼或边缘混合限制，逐项原因随表保存。已核对本轮原图、正视标记与峰区对位；未将质量限制改写为已确认独立衍射峰。",
+      "historical_class_counts": {
+        "UNRESOLVED_IMAGE_IDENTITY": 24,
+        "VISIBLE_OPTICAL_SUPPORT": 31,
+        "CONNECTED_OPTICAL_ENVELOPE": 1
+      }
+    }
+  },
+  "events": [
+    {
+      "step": "detection.input",
+      "sequence": 1,
+      "pass_index": 1,
+      "images": [
+        "data/core/diffraction/104/raw_display.png"
+      ],
+      "metrics": [
+        [
+          "实验",
+          "3"
+        ],
+        [
+          "帧号",
+          "104"
+        ],
+        [
+          "电压 / V",
+          5.67
+        ]
+      ],
+      "table": null,
+      "evidence": [],
+      "links": [],
+      "elapsed_s": 1.76,
+      "status": "computed"
+    },
+    {
+      "step": "detection.geometry",
+      "sequence": 2,
+      "pass_index": 1,
+      "images": [
+        "results/guided/diffraction104/calculation/01_screen_geometry.png"
+      ],
+      "metrics": [
+        [
+          "条件屏边",
+          2
+        ],
+        [
+          "数值映射误差 / mm",
+          7.236429368617792e-06
+        ]
+      ],
+      "table": null,
+      "evidence": [],
+      "links": [],
+      "elapsed_s": 2.174,
+      "status": "computed"
+    },
+    {
+      "step": "detection.contrast",
+      "sequence": 3,
+      "pass_index": 1,
+      "images": [
+        "results/guided/diffraction104/step_03/contrast_4.png",
+        "results/guided/diffraction104/step_03/contrast_8.png"
+      ],
+      "metrics": [
+        [
+          "实际检测尺度 / R采样",
+          "4, 8"
+        ]
+      ],
+      "table": null,
+      "evidence": [],
+      "links": [],
+      "elapsed_s": 4.368,
+      "status": "computed"
+    },
+    {
+      "step": "detection.strong",
+      "sequence": 4,
+      "pass_index": 1,
+      "images": [
+        "results/guided/diffraction104/step_04/candidates.png"
+      ],
+      "metrics": [
+        [
+          "强候选",
+          40
+        ],
+        [
+          "独立弱候选",
+          0
+        ],
+        [
+          "预测补检",
+          0
+        ]
+      ],
+      "table": null,
+      "evidence": [],
+      "links": [],
+      "elapsed_s": 6.786,
+      "status": "computed"
+    },
+    {
+      "step": "detection.weak",
+      "sequence": 5,
+      "pass_index": 1,
+      "images": [
+        "results/guided/diffraction104/step_05/candidates.png"
+      ],
+      "metrics": [
+        [
+          "强候选",
+          40
+        ],
+        [
+          "独立弱候选",
+          11
+        ],
+        [
+          "预测补检",
+          0
+        ]
+      ],
+      "table": null,
+      "evidence": [],
+      "links": [],
+      "elapsed_s": 7.129,
+      "status": "computed"
+    },
+    {
+      "step": "detection.models",
+      "sequence": 6,
+      "pass_index": 1,
+      "images": [
+        "results/guided/diffraction104/step_06/candidates.png"
+      ],
+      "metrics": [
+        [
+          "强候选",
+          40
+        ],
+        [
+          "独立弱候选",
+          11
+        ],
+        [
+          "预测补检",
+          0
+        ],
+        [
+          "可参与几何训练",
+          38
+        ]
+      ],
+      "table": {
+        "headers": [
+          "几何族",
+          "条件留一误差 / 间距",
+          "允许预测"
+        ],
+        "rows": [
+          [
+            "二维点阵",
+            0.08291387814035052,
+            true
+          ],
+          [
+            "横向峰列",
+            0.15618129380313403,
+            true
+          ]
+        ]
+      },
+      "evidence": [],
+      "links": [],
+      "elapsed_s": 7.479,
+      "status": "computed"
+    },
+    {
+      "step": "detection.guided",
+      "sequence": 7,
+      "pass_index": 1,
+      "images": [
+        "results/guided/diffraction104/step_07/candidates.png"
+      ],
+      "metrics": [
+        [
+          "强候选",
+          40
+        ],
+        [
+          "独立弱候选",
+          15
+        ],
+        [
+          "预测补检",
+          1
+        ]
+      ],
+      "table": {
+        "headers": [
+          "几何族",
+          "条件留一误差 / 间距",
+          "允许预测"
+        ],
+        "rows": [
+          [
+            "二维点阵",
+            0.08291387814035052,
+            true
+          ],
+          [
+            "横向峰列",
+            0.15618129380313403,
+            true
+          ]
+        ]
+      },
+      "evidence": [
+        {
+          "label": "找到实测光斑",
+          "image": "results/guided/diffraction104/step_07/accepted.png",
+          "record": {
+            "origin": "guided_lattice_2d",
+            "index_m": 0,
+            "index_n": 2,
+            "predicted_screen_mm": [
+              83.08713579089078,
+              87.65370343889286
+            ],
+            "predicted_raw_xy": [
+              3850.84397286258,
+              2884.320051891948
+            ],
+            "status": "DETECTED",
+            "contrast_DN": 19.621978759765625,
+            "local_noise_DN": 0.9261683046340942,
+            "contrast_to_local_MAD_ratio": 21.18619117236772,
+            "diffraction_shape_NCC": 0.7711504697799683,
+            "prediction_error_raw_px": 3.917033070253995,
+            "local_maximum_sample_xy": [
+              1237.0,
+              1225.0
+            ],
+            "brightness_prediction": {
+              "method": "LEAVE_ONE_OUT_DIRECTIONAL_REGION_LOG_MEDIAN",
+              "status": "SEARCH_PRIOR_FROM_OTHER_MEASURED_LOCATIONS",
+              "radius_mm": 27.43180414605862,
+              "interpretation": "regional image evidence; not an order-intensity law",
+              "peer_count": 5,
+              "peer_raw_xy": [
+                [
+                  3964.0,
+                  2826.0
+                ],
+                [
+                  3703.4195772624666,
+                  2727.123455776729
+                ],
+                [
+                  3692.6706092595664,
+                  3055.020136701118
+                ],
+                [
+                  3881.1623456790126,
+                  2557.1379867046535
+                ],
+                [
+                  3857.462823882839,
+                  3191.6378144949304
+                ]
+              ],
+              "predicted_contrast_DN": 24.47530746459961,
+              "lower_contrast_DN": 3.0594134330749516,
+              "upper_contrast_DN": 195.80245971679685,
+              "log_MAD": 0.03892647814328318,
+              "peer_contrasts_DN": [
+                153.5448455810547,
+                25.12643051147461,
+                24.47530746459961,
+                24.066932678222656,
+                5.489278793334961
+              ],
+              "opposite_measured_raw_xy": [
+                2511.1775659984664,
+                2923.464892102092
+              ],
+              "opposite_position_residual_mm": 1.0493927812661576
+            },
+            "joint_position_shape_brightness_score": 0.24973560154329755,
+            "attempts": [
+              {
+                "status": "DETECTED",
+                "contrast_DN": 19.621978759765625,
+                "local_noise_DN": 0.9261683046340942,
+                "contrast_to_local_MAD_ratio": 21.18619117236772,
+                "diffraction_shape_NCC": 0.7711504697799683,
+                "prediction_error_raw_px": 3.917033070253995,
+                "local_maximum_sample_xy": [
+                  1237.0,
+                  1225.0
+                ],
+                "brightness_prediction": {
+                  "method": "LEAVE_ONE_OUT_DIRECTIONAL_REGION_LOG_MEDIAN",
+                  "status": "SEARCH_PRIOR_FROM_OTHER_MEASURED_LOCATIONS",
+                  "radius_mm": 27.43180414605862,
+                  "interpretation": "regional image evidence; not an order-intensity law",
+                  "peer_count": 5,
+                  "peer_raw_xy": [
+                    [
+                      3964.0,
+                      2826.0
+                    ],
+                    [
+                      3703.4195772624666,
+                      2727.123455776729
+                    ],
+                    [
+                      3692.6706092595664,
+                      3055.020136701118
+                    ],
+                    [
+                      3881.1623456790126,
+                      2557.1379867046535
+                    ],
+                    [
+                      3857.462823882839,
+                      3191.6378144949304
+                    ]
+                  ],
+                  "predicted_contrast_DN": 24.47530746459961,
+                  "lower_contrast_DN": 3.0594134330749516,
+                  "upper_contrast_DN": 195.80245971679685,
+                  "log_MAD": 0.03892647814328318,
+                  "peer_contrasts_DN": [
+                    153.5448455810547,
+                    25.12643051147461,
+                    24.47530746459961,
+                    24.066932678222656,
+                    5.489278793334961
+                  ],
+                  "opposite_measured_raw_xy": [
+                    2511.1775659984664,
+                    2923.464892102092
+                  ],
+                  "opposite_position_residual_mm": 1.0493927812661576
+                },
+                "joint_position_shape_brightness_score": 0.24973560154329755
+              },
+              {
+                "status": "INSUFFICIENT_SIGNAL",
+                "contrast_DN": 7.455778121948242,
+                "local_noise_DN": 1.0331707563400268,
+                "contrast_to_local_MAD_ratio": 7.216404525772767,
+                "diffraction_shape_NCC": 0.17527338862419128,
+                "prediction_error_raw_px": 34.902317079274994,
+                "local_maximum_sample_xy": [
+                  1240.0,
+                  1243.0
+                ],
+                "brightness_prediction": {
+                  "method": "LEAVE_ONE_OUT_DIRECTIONAL_REGION_LOG_MEDIAN",
+                  "status": "SEARCH_PRIOR_FROM_OTHER_MEASURED_LOCATIONS",
+                  "radius_mm": 27.43180414605862,
+                  "interpretation": "regional image evidence; not an order-intensity law",
+                  "peer_count": 5,
+                  "peer_raw_xy": [
+                    [
+                      3964.0,
+                      2826.0
+                    ],
+                    [
+                      3703.4195772624666,
+                      2727.123455776729
+                    ],
+                    [
+                      3692.6706092595664,
+                      3055.020136701118
+                    ],
+                    [
+                      3881.1623456790126,
+                      2557.1379867046535
+                    ],
+                    [
+                      3857.462823882839,
+                      3191.6378144949304
+                    ]
+                  ],
+                  "predicted_contrast_DN": 24.47530746459961,
+                  "lower_contrast_DN": 3.0594134330749516,
+                  "upper_contrast_DN": 195.80245971679685,
+                  "log_MAD": 0.03892647814328318,
+                  "peer_contrasts_DN": [
+                    153.5448455810547,
+                    25.12643051147461,
+                    24.47530746459961,
+                    24.066932678222656,
+                    5.489278793334961
+                  ],
+                  "opposite_measured_raw_xy": [
+                    2511.1775659984664,
+                    2923.464892102092
+                  ],
+                  "opposite_position_residual_mm": 1.0493927812661576
+                },
+                "joint_position_shape_brightness_score": 1.9128471483352747
+              }
+            ],
+            "selection": "MINIMUM_JOINT_EVIDENCE_SCORE",
+            "measured_raw_xy": [
+              3859.5155530173233,
+              2880.1070626308774
+            ]
+          }
+        },
+        {
+          "label": "预测位置被拒绝",
+          "image": "results/guided/diffraction104/step_07/rejected.png",
+          "record": {
+            "origin": "guided_lattice_2d",
+            "index_m": -5,
+            "index_n": -4,
+            "predicted_screen_mm": [
+              36.166788707350214,
+              49.86868588794965
+            ],
+            "predicted_raw_xy": [
+              2686.498976481638,
+              2045.5835637505922
+            ],
+            "status": "NO_ACCEPTED_LOCAL_MAXIMUM",
+            "attempts": [
+              {
+                "status": "INSUFFICIENT_SIGNAL",
+                "contrast_DN": 2.1731481552124023,
+                "local_noise_DN": 0.5913186967849731,
+                "contrast_to_local_MAD_ratio": 3.6750878452311904,
+                "diffraction_shape_NCC": 0.7174004316329956,
+                "prediction_error_raw_px": 24.366704499964623,
+                "local_maximum_sample_xy": [
+                  646.0,
+                  797.0
+                ],
+                "brightness_prediction": {
+                  "method": "LEAVE_ONE_OUT_DIRECTIONAL_REGION_LOG_MEDIAN",
+                  "status": "SEARCH_PRIOR_FROM_OTHER_MEASURED_LOCATIONS",
+                  "radius_mm": 40.575435585791986,
+                  "interpretation": "regional image evidence; not an order-intensity law",
+                  "peer_count": 7,
+                  "peer_raw_xy": [
+                    [
+                      2677.1242800177224,
+                      2409.9886741249447
+                    ],
+                    [
+                      2861.564090652686,
+                      2225.1044563161563
+                    ],
+                    [
+                      2505.516435179651,
+                      2569.157945064665
+                    ],
+                    [
+                      2476.76613246348,
+                      2232.4531272159975
+                    ],
+                    [
+                      3045.819272590926,
+                      2030.4150731158604
+                    ],
+                    [
+                      2302.6635254522507,
+                      2398.3781236853174
+                    ],
+                    [
+                      3211.5072777949827,
+                      1842.0764942706721
+                    ]
+                  ],
+                  "predicted_contrast_DN": 10.73405647277832,
+                  "lower_contrast_DN": 0.5726958729276406,
+                  "upper_contrast_DN": 201.1887527175389,
+                  "log_MAD": 0.9769406669346008,
+                  "peer_contrasts_DN": [
+                    47.802364349365234,
+                    32.30183792114258,
+                    20.74611473083496,
+                    10.73405647277832,
+                    10.239347457885742,
+                    6.777631759643555,
+                    4.874778747558594
+                  ]
+                },
+                "joint_position_shape_brightness_score": 0.9506899131932365
+              },
+              {
+                "status": "INSUFFICIENT_SIGNAL",
+                "contrast_DN": 2.0465478897094727,
+                "local_noise_DN": 0.5941507736206054,
+                "contrast_to_local_MAD_ratio": 3.444492510273654,
+                "diffraction_shape_NCC": 0.5569936037063599,
+                "prediction_error_raw_px": 11.273941323395645,
+                "local_maximum_sample_xy": [
+                  657.0,
+                  811.0
+                ],
+                "brightness_prediction": {
+                  "method": "LEAVE_ONE_OUT_DIRECTIONAL_REGION_LOG_MEDIAN",
+                  "status": "SEARCH_PRIOR_FROM_OTHER_MEASURED_LOCATIONS",
+                  "radius_mm": 40.575435585791986,
+                  "interpretation": "regional image evidence; not an order-intensity law",
+                  "peer_count": 7,
+                  "peer_raw_xy": [
+                    [
+                      2677.1242800177224,
+                      2409.9886741249447
+                    ],
+                    [
+                      2861.564090652686,
+                      2225.1044563161563
+                    ],
+                    [
+                      2505.516435179651,
+                      2569.157945064665
+                    ],
+                    [
+                      2476.76613246348,
+                      2232.4531272159975
+                    ],
+                    [
+                      3045.819272590926,
+                      2030.4150731158604
+                    ],
+                    [
+                      2302.6635254522507,
+                      2398.3781236853174
+                    ],
+                    [
+                      3211.5072777949827,
+                      1842.0764942706721
+                    ]
+                  ],
+                  "predicted_contrast_DN": 10.73405647277832,
+                  "lower_contrast_DN": 0.5726958729276406,
+                  "upper_contrast_DN": 201.1887527175389,
+                  "log_MAD": 0.9769406669346008,
+                  "peer_contrasts_DN": [
+                    47.802364349365234,
+                    32.30183792114258,
+                    20.74611473083496,
+                    10.73405647277832,
+                    10.239347457885742,
+                    6.777631759643555,
+                    4.874778747558594
+                  ]
+                },
+                "joint_position_shape_brightness_score": 0.8421917433204626
+              },
+              {
+                "status": "INSUFFICIENT_SIGNAL",
+                "contrast_DN": 1.931523323059082,
+                "local_noise_DN": 0.5447173885345459,
+                "contrast_to_local_MAD_ratio": 3.5459182389155273,
+                "diffraction_shape_NCC": 0.6569029092788696,
+                "prediction_error_raw_px": 39.408217281095624,
+                "local_maximum_sample_xy": [
+                  634.0,
+                  811.0
+                ],
+                "brightness_prediction": {
+                  "method": "LEAVE_ONE_OUT_DIRECTIONAL_REGION_LOG_MEDIAN",
+                  "status": "SEARCH_PRIOR_FROM_OTHER_MEASURED_LOCATIONS",
+                  "radius_mm": 40.575435585791986,
+                  "interpretation": "regional image evidence; not an order-intensity law",
+                  "peer_count": 7,
+                  "peer_raw_xy": [
+                    [
+                      2677.1242800177224,
+                      2409.9886741249447
+                    ],
+                    [
+                      2861.564090652686,
+                      2225.1044563161563
+                    ],
+                    [
+                      2505.516435179651,
+                      2569.157945064665
+                    ],
+                    [
+                      2476.76613246348,
+                      2232.4531272159975
+                    ],
+                    [
+                      3045.819272590926,
+                      2030.4150731158604
+                    ],
+                    [
+                      2302.6635254522507,
+                      2398.3781236853174
+                    ],
+                    [
+                      3211.5072777949827,
+                      1842.0764942706721
+                    ]
+                  ],
+                  "predicted_contrast_DN": 10.73405647277832,
+                  "lower_contrast_DN": 0.5726958729276406,
+                  "upper_contrast_DN": 201.1887527175389,
+                  "log_MAD": 0.9769406669346008,
+                  "peer_contrasts_DN": [
+                    47.802364349365234,
+                    32.30183792114258,
+                    20.74611473083496,
+                    10.73405647277832,
+                    10.239347457885742,
+                    6.777631759643555,
+                    4.874778747558594
+                  ]
+                },
+                "joint_position_shape_brightness_score": 1.6561840856986814
+              },
+              {
+                "status": "INSUFFICIENT_SIGNAL",
+                "contrast_DN": 1.8667936325073242,
+                "local_noise_DN": 0.559229838180542,
+                "contrast_to_local_MAD_ratio": 3.3381509802498197,
+                "diffraction_shape_NCC": 0.6617341637611389,
+                "prediction_error_raw_px": 23.396038059124535,
+                "local_maximum_sample_xy": [
+                  642.0,
+                  810.0
+                ],
+                "brightness_prediction": {
+                  "method": "LEAVE_ONE_OUT_DIRECTIONAL_REGION_LOG_MEDIAN",
+                  "status": "SEARCH_PRIOR_FROM_OTHER_MEASURED_LOCATIONS",
+                  "radius_mm": 40.575435585791986,
+                  "interpretation": "regional image evidence; not an order-intensity law",
+                  "peer_count": 7,
+                  "peer_raw_xy": [
+                    [
+                      2677.1242800177224,
+                      2409.9886741249447
+                    ],
+                    [
+                      2861.564090652686,
+                      2225.1044563161563
+                    ],
+                    [
+                      2505.516435179651,
+                      2569.157945064665
+                    ],
+                    [
+                      2476.76613246348,
+                      2232.4531272159975
+                    ],
+                    [
+                      3045.819272590926,
+                      2030.4150731158604
+                    ],
+                    [
+                      2302.6635254522507,
+                      2398.3781236853174
+                    ],
+                    [
+                      3211.5072777949827,
+                      1842.0764942706721
+                    ]
+                  ],
+                  "predicted_contrast_DN": 10.73405647277832,
+                  "lower_contrast_DN": 0.5726958729276406,
+                  "upper_contrast_DN": 201.1887527175389,
+                  "log_MAD": 0.9769406669346008,
+                  "peer_contrasts_DN": [
+                    47.802364349365234,
+                    32.30183792114258,
+                    20.74611473083496,
+                    10.73405647277832,
+                    10.239347457885742,
+                    6.777631759643555,
+                    4.874778747558594
+                  ]
+                },
+                "joint_position_shape_brightness_score": 1.0365796706534456
+              },
+              {
+                "status": "INSUFFICIENT_SIGNAL",
+                "contrast_DN": 0.4442119598388672,
+                "local_noise_DN": 0.5865474320411682,
+                "contrast_to_local_MAD_ratio": 0.757333398073234,
+                "diffraction_shape_NCC": 0.42991483211517334,
+                "prediction_error_raw_px": 35.503465887165554,
+                "local_maximum_sample_xy": [
+                  671.0,
+                  807.0
+                ],
+                "brightness_prediction": {
+                  "method": "LEAVE_ONE_OUT_DIRECTIONAL_REGION_LOG_MEDIAN",
+                  "status": "SEARCH_PRIOR_FROM_OTHER_MEASURED_LOCATIONS",
+                  "radius_mm": 40.575435585791986,
+                  "interpretation": "regional image evidence; not an order-intensity law",
+                  "peer_count": 7,
+                  "peer_raw_xy": [
+                    [
+                      2677.1242800177224,
+                      2409.9886741249447
+                    ],
+                    [
+                      2861.564090652686,
+                      2225.1044563161563
+                    ],
+                    [
+                      2505.516435179651,
+                      2569.157945064665
+                    ],
+                    [
+                      2476.76613246348,
+                      2232.4531272159975
+                    ],
+                    [
+                      3045.819272590926,
+                      2030.4150731158604
+                    ],
+                    [
+                      2302.6635254522507,
+                      2398.3781236853174
+                    ],
+                    [
+                      3211.5072777949827,
+                      1842.0764942706721
+                    ]
+                  ],
+                  "predicted_contrast_DN": 10.73405647277832,
+                  "lower_contrast_DN": 0.5726958729276406,
+                  "upper_contrast_DN": 201.1887527175389,
+                  "log_MAD": 0.9769406669346008,
+                  "peer_contrasts_DN": [
+                    47.802364349365234,
+                    32.30183792114258,
+                    20.74611473083496,
+                    10.73405647277832,
+                    10.239347457885742,
+                    6.777631759643555,
+                    4.874778747558594
+                  ]
+                },
+                "joint_position_shape_brightness_score": 2.5387755626089707
+              },
+              {
+                "status": "INSUFFICIENT_SIGNAL",
+                "contrast_DN": 0.05798625946044922,
+                "local_noise_DN": 0.5796425657272338,
+                "contrast_to_local_MAD_ratio": 0.10003795940641148,
+                "diffraction_shape_NCC": 0.16084741055965424,
+                "prediction_error_raw_px": 49.680348799190405,
+                "local_maximum_sample_xy": [
+                  669.0,
+                  826.0
+                ],
+                "brightness_prediction": {
+                  "method": "LEAVE_ONE_OUT_DIRECTIONAL_REGION_LOG_MEDIAN",
+                  "status": "SEARCH_PRIOR_FROM_OTHER_MEASURED_LOCATIONS",
+                  "radius_mm": 40.575435585791986,
+                  "interpretation": "regional image evidence; not an order-intensity law",
+                  "peer_count": 7,
+                  "peer_raw_xy": [
+                    [
+                      2677.1242800177224,
+                      2409.9886741249447
+                    ],
+                    [
+                      2861.564090652686,
+                      2225.1044563161563
+                    ],
+                    [
+                      2505.516435179651,
+                      2569.157945064665
+                    ],
+                    [
+                      2476.76613246348,
+                      2232.4531272159975
+                    ],
+                    [
+                      3045.819272590926,
+                      2030.4150731158604
+                    ],
+                    [
+                      2302.6635254522507,
+                      2398.3781236853174
+                    ],
+                    [
+                      3211.5072777949827,
+                      1842.0764942706721
+                    ]
+                  ],
+                  "predicted_contrast_DN": 10.73405647277832,
+                  "lower_contrast_DN": 0.5726958729276406,
+                  "upper_contrast_DN": 201.1887527175389,
+                  "log_MAD": 0.9769406669346008,
+                  "peer_contrasts_DN": [
+                    47.802364349365234,
+                    32.30183792114258,
+                    20.74611473083496,
+                    10.73405647277832,
+                    10.239347457885742,
+                    6.777631759643555,
+                    4.874778747558594
+                  ]
+                },
+                "joint_position_shape_brightness_score": 5.555129589091434
+              }
+            ]
+          }
+        }
+      ],
+      "links": [],
+      "elapsed_s": 8.162,
+      "status": "computed"
+    },
+    {
+      "step": "detection.final",
+      "sequence": 8,
+      "pass_index": 1,
+      "images": [
+        "results/guided/diffraction104/calculation/05_guided_detection.png"
+      ],
+      "metrics": [
+        [
+          "候选总数",
+          56
+        ],
+        [
+          "待复核标记",
+          17
+        ],
+        [
+          "质量标志",
+          18
+        ]
+      ],
+      "table": null,
+      "evidence": [
+        {
+          "label": "找到实测光斑",
+          "image": "results/guided/diffraction104/step_08/accepted.png",
+          "record": {
+            "origin": "guided_lattice_2d",
+            "index_m": 0,
+            "index_n": 2,
+            "predicted_screen_mm": [
+              83.08713579089078,
+              87.65370343889286
+            ],
+            "predicted_raw_xy": [
+              3850.84397286258,
+              2884.320051891948
+            ],
+            "status": "DETECTED",
+            "contrast_DN": 19.621978759765625,
+            "local_noise_DN": 0.9261683046340942,
+            "contrast_to_local_MAD_ratio": 21.18619117236772,
+            "diffraction_shape_NCC": 0.7711504697799683,
+            "prediction_error_raw_px": 3.917033070253995,
+            "local_maximum_sample_xy": [
+              1237.0,
+              1225.0
+            ],
+            "brightness_prediction": {
+              "method": "LEAVE_ONE_OUT_DIRECTIONAL_REGION_LOG_MEDIAN",
+              "status": "SEARCH_PRIOR_FROM_OTHER_MEASURED_LOCATIONS",
+              "radius_mm": 27.43180414605862,
+              "interpretation": "regional image evidence; not an order-intensity law",
+              "peer_count": 5,
+              "peer_raw_xy": [
+                [
+                  3964.0,
+                  2826.0
+                ],
+                [
+                  3703.4195772624666,
+                  2727.123455776729
+                ],
+                [
+                  3692.6706092595664,
+                  3055.020136701118
+                ],
+                [
+                  3881.1623456790126,
+                  2557.1379867046535
+                ],
+                [
+                  3857.462823882839,
+                  3191.6378144949304
+                ]
+              ],
+              "predicted_contrast_DN": 24.47530746459961,
+              "lower_contrast_DN": 3.0594134330749516,
+              "upper_contrast_DN": 195.80245971679685,
+              "log_MAD": 0.03892647814328318,
+              "peer_contrasts_DN": [
+                153.5448455810547,
+                25.12643051147461,
+                24.47530746459961,
+                24.066932678222656,
+                5.489278793334961
+              ],
+              "opposite_measured_raw_xy": [
+                2511.1775659984664,
+                2923.464892102092
+              ],
+              "opposite_position_residual_mm": 1.0493927812661576
+            },
+            "joint_position_shape_brightness_score": 0.24973560154329755,
+            "attempts": [
+              {
+                "status": "DETECTED",
+                "contrast_DN": 19.621978759765625,
+                "local_noise_DN": 0.9261683046340942,
+                "contrast_to_local_MAD_ratio": 21.18619117236772,
+                "diffraction_shape_NCC": 0.7711504697799683,
+                "prediction_error_raw_px": 3.917033070253995,
+                "local_maximum_sample_xy": [
+                  1237.0,
+                  1225.0
+                ],
+                "brightness_prediction": {
+                  "method": "LEAVE_ONE_OUT_DIRECTIONAL_REGION_LOG_MEDIAN",
+                  "status": "SEARCH_PRIOR_FROM_OTHER_MEASURED_LOCATIONS",
+                  "radius_mm": 27.43180414605862,
+                  "interpretation": "regional image evidence; not an order-intensity law",
+                  "peer_count": 5,
+                  "peer_raw_xy": [
+                    [
+                      3964.0,
+                      2826.0
+                    ],
+                    [
+                      3703.4195772624666,
+                      2727.123455776729
+                    ],
+                    [
+                      3692.6706092595664,
+                      3055.020136701118
+                    ],
+                    [
+                      3881.1623456790126,
+                      2557.1379867046535
+                    ],
+                    [
+                      3857.462823882839,
+                      3191.6378144949304
+                    ]
+                  ],
+                  "predicted_contrast_DN": 24.47530746459961,
+                  "lower_contrast_DN": 3.0594134330749516,
+                  "upper_contrast_DN": 195.80245971679685,
+                  "log_MAD": 0.03892647814328318,
+                  "peer_contrasts_DN": [
+                    153.5448455810547,
+                    25.12643051147461,
+                    24.47530746459961,
+                    24.066932678222656,
+                    5.489278793334961
+                  ],
+                  "opposite_measured_raw_xy": [
+                    2511.1775659984664,
+                    2923.464892102092
+                  ],
+                  "opposite_position_residual_mm": 1.0493927812661576
+                },
+                "joint_position_shape_brightness_score": 0.24973560154329755
+              },
+              {
+                "status": "INSUFFICIENT_SIGNAL",
+                "contrast_DN": 7.455778121948242,
+                "local_noise_DN": 1.0331707563400268,
+                "contrast_to_local_MAD_ratio": 7.216404525772767,
+                "diffraction_shape_NCC": 0.17527338862419128,
+                "prediction_error_raw_px": 34.902317079274994,
+                "local_maximum_sample_xy": [
+                  1240.0,
+                  1243.0
+                ],
+                "brightness_prediction": {
+                  "method": "LEAVE_ONE_OUT_DIRECTIONAL_REGION_LOG_MEDIAN",
+                  "status": "SEARCH_PRIOR_FROM_OTHER_MEASURED_LOCATIONS",
+                  "radius_mm": 27.43180414605862,
+                  "interpretation": "regional image evidence; not an order-intensity law",
+                  "peer_count": 5,
+                  "peer_raw_xy": [
+                    [
+                      3964.0,
+                      2826.0
+                    ],
+                    [
+                      3703.4195772624666,
+                      2727.123455776729
+                    ],
+                    [
+                      3692.6706092595664,
+                      3055.020136701118
+                    ],
+                    [
+                      3881.1623456790126,
+                      2557.1379867046535
+                    ],
+                    [
+                      3857.462823882839,
+                      3191.6378144949304
+                    ]
+                  ],
+                  "predicted_contrast_DN": 24.47530746459961,
+                  "lower_contrast_DN": 3.0594134330749516,
+                  "upper_contrast_DN": 195.80245971679685,
+                  "log_MAD": 0.03892647814328318,
+                  "peer_contrasts_DN": [
+                    153.5448455810547,
+                    25.12643051147461,
+                    24.47530746459961,
+                    24.066932678222656,
+                    5.489278793334961
+                  ],
+                  "opposite_measured_raw_xy": [
+                    2511.1775659984664,
+                    2923.464892102092
+                  ],
+                  "opposite_position_residual_mm": 1.0493927812661576
+                },
+                "joint_position_shape_brightness_score": 1.9128471483352747
+              }
+            ],
+            "selection": "MINIMUM_JOINT_EVIDENCE_SCORE",
+            "measured_raw_xy": [
+              3859.5155530173233,
+              2880.1070626308774
+            ],
+            "final_prediction_error_raw_px": 9.64082884891314
+          }
+        },
+        {
+          "label": "预测位置被拒绝",
+          "image": "results/guided/diffraction104/step_08/rejected.png",
+          "record": {
+            "origin": "guided_lattice_2d",
+            "index_m": -5,
+            "index_n": -4,
+            "predicted_screen_mm": [
+              36.166788707350214,
+              49.86868588794965
+            ],
+            "predicted_raw_xy": [
+              2686.498976481638,
+              2045.5835637505922
+            ],
+            "status": "NO_ACCEPTED_LOCAL_MAXIMUM",
+            "attempts": [
+              {
+                "status": "INSUFFICIENT_SIGNAL",
+                "contrast_DN": 2.1731481552124023,
+                "local_noise_DN": 0.5913186967849731,
+                "contrast_to_local_MAD_ratio": 3.6750878452311904,
+                "diffraction_shape_NCC": 0.7174004316329956,
+                "prediction_error_raw_px": 24.366704499964623,
+                "local_maximum_sample_xy": [
+                  646.0,
+                  797.0
+                ],
+                "brightness_prediction": {
+                  "method": "LEAVE_ONE_OUT_DIRECTIONAL_REGION_LOG_MEDIAN",
+                  "status": "SEARCH_PRIOR_FROM_OTHER_MEASURED_LOCATIONS",
+                  "radius_mm": 40.575435585791986,
+                  "interpretation": "regional image evidence; not an order-intensity law",
+                  "peer_count": 7,
+                  "peer_raw_xy": [
+                    [
+                      2677.1242800177224,
+                      2409.9886741249447
+                    ],
+                    [
+                      2861.564090652686,
+                      2225.1044563161563
+                    ],
+                    [
+                      2505.516435179651,
+                      2569.157945064665
+                    ],
+                    [
+                      2476.76613246348,
+                      2232.4531272159975
+                    ],
+                    [
+                      3045.819272590926,
+                      2030.4150731158604
+                    ],
+                    [
+                      2302.6635254522507,
+                      2398.3781236853174
+                    ],
+                    [
+                      3211.5072777949827,
+                      1842.0764942706721
+                    ]
+                  ],
+                  "predicted_contrast_DN": 10.73405647277832,
+                  "lower_contrast_DN": 0.5726958729276406,
+                  "upper_contrast_DN": 201.1887527175389,
+                  "log_MAD": 0.9769406669346008,
+                  "peer_contrasts_DN": [
+                    47.802364349365234,
+                    32.30183792114258,
+                    20.74611473083496,
+                    10.73405647277832,
+                    10.239347457885742,
+                    6.777631759643555,
+                    4.874778747558594
+                  ]
+                },
+                "joint_position_shape_brightness_score": 0.9506899131932365
+              },
+              {
+                "status": "INSUFFICIENT_SIGNAL",
+                "contrast_DN": 2.0465478897094727,
+                "local_noise_DN": 0.5941507736206054,
+                "contrast_to_local_MAD_ratio": 3.444492510273654,
+                "diffraction_shape_NCC": 0.5569936037063599,
+                "prediction_error_raw_px": 11.273941323395645,
+                "local_maximum_sample_xy": [
+                  657.0,
+                  811.0
+                ],
+                "brightness_prediction": {
+                  "method": "LEAVE_ONE_OUT_DIRECTIONAL_REGION_LOG_MEDIAN",
+                  "status": "SEARCH_PRIOR_FROM_OTHER_MEASURED_LOCATIONS",
+                  "radius_mm": 40.575435585791986,
+                  "interpretation": "regional image evidence; not an order-intensity law",
+                  "peer_count": 7,
+                  "peer_raw_xy": [
+                    [
+                      2677.1242800177224,
+                      2409.9886741249447
+                    ],
+                    [
+                      2861.564090652686,
+                      2225.1044563161563
+                    ],
+                    [
+                      2505.516435179651,
+                      2569.157945064665
+                    ],
+                    [
+                      2476.76613246348,
+                      2232.4531272159975
+                    ],
+                    [
+                      3045.819272590926,
+                      2030.4150731158604
+                    ],
+                    [
+                      2302.6635254522507,
+                      2398.3781236853174
+                    ],
+                    [
+                      3211.5072777949827,
+                      1842.0764942706721
+                    ]
+                  ],
+                  "predicted_contrast_DN": 10.73405647277832,
+                  "lower_contrast_DN": 0.5726958729276406,
+                  "upper_contrast_DN": 201.1887527175389,
+                  "log_MAD": 0.9769406669346008,
+                  "peer_contrasts_DN": [
+                    47.802364349365234,
+                    32.30183792114258,
+                    20.74611473083496,
+                    10.73405647277832,
+                    10.239347457885742,
+                    6.777631759643555,
+                    4.874778747558594
+                  ]
+                },
+                "joint_position_shape_brightness_score": 0.8421917433204626
+              },
+              {
+                "status": "INSUFFICIENT_SIGNAL",
+                "contrast_DN": 1.931523323059082,
+                "local_noise_DN": 0.5447173885345459,
+                "contrast_to_local_MAD_ratio": 3.5459182389155273,
+                "diffraction_shape_NCC": 0.6569029092788696,
+                "prediction_error_raw_px": 39.408217281095624,
+                "local_maximum_sample_xy": [
+                  634.0,
+                  811.0
+                ],
+                "brightness_prediction": {
+                  "method": "LEAVE_ONE_OUT_DIRECTIONAL_REGION_LOG_MEDIAN",
+                  "status": "SEARCH_PRIOR_FROM_OTHER_MEASURED_LOCATIONS",
+                  "radius_mm": 40.575435585791986,
+                  "interpretation": "regional image evidence; not an order-intensity law",
+                  "peer_count": 7,
+                  "peer_raw_xy": [
+                    [
+                      2677.1242800177224,
+                      2409.9886741249447
+                    ],
+                    [
+                      2861.564090652686,
+                      2225.1044563161563
+                    ],
+                    [
+                      2505.516435179651,
+                      2569.157945064665
+                    ],
+                    [
+                      2476.76613246348,
+                      2232.4531272159975
+                    ],
+                    [
+                      3045.819272590926,
+                      2030.4150731158604
+                    ],
+                    [
+                      2302.6635254522507,
+                      2398.3781236853174
+                    ],
+                    [
+                      3211.5072777949827,
+                      1842.0764942706721
+                    ]
+                  ],
+                  "predicted_contrast_DN": 10.73405647277832,
+                  "lower_contrast_DN": 0.5726958729276406,
+                  "upper_contrast_DN": 201.1887527175389,
+                  "log_MAD": 0.9769406669346008,
+                  "peer_contrasts_DN": [
+                    47.802364349365234,
+                    32.30183792114258,
+                    20.74611473083496,
+                    10.73405647277832,
+                    10.239347457885742,
+                    6.777631759643555,
+                    4.874778747558594
+                  ]
+                },
+                "joint_position_shape_brightness_score": 1.6561840856986814
+              },
+              {
+                "status": "INSUFFICIENT_SIGNAL",
+                "contrast_DN": 1.8667936325073242,
+                "local_noise_DN": 0.559229838180542,
+                "contrast_to_local_MAD_ratio": 3.3381509802498197,
+                "diffraction_shape_NCC": 0.6617341637611389,
+                "prediction_error_raw_px": 23.396038059124535,
+                "local_maximum_sample_xy": [
+                  642.0,
+                  810.0
+                ],
+                "brightness_prediction": {
+                  "method": "LEAVE_ONE_OUT_DIRECTIONAL_REGION_LOG_MEDIAN",
+                  "status": "SEARCH_PRIOR_FROM_OTHER_MEASURED_LOCATIONS",
+                  "radius_mm": 40.575435585791986,
+                  "interpretation": "regional image evidence; not an order-intensity law",
+                  "peer_count": 7,
+                  "peer_raw_xy": [
+                    [
+                      2677.1242800177224,
+                      2409.9886741249447
+                    ],
+                    [
+                      2861.564090652686,
+                      2225.1044563161563
+                    ],
+                    [
+                      2505.516435179651,
+                      2569.157945064665
+                    ],
+                    [
+                      2476.76613246348,
+                      2232.4531272159975
+                    ],
+                    [
+                      3045.819272590926,
+                      2030.4150731158604
+                    ],
+                    [
+                      2302.6635254522507,
+                      2398.3781236853174
+                    ],
+                    [
+                      3211.5072777949827,
+                      1842.0764942706721
+                    ]
+                  ],
+                  "predicted_contrast_DN": 10.73405647277832,
+                  "lower_contrast_DN": 0.5726958729276406,
+                  "upper_contrast_DN": 201.1887527175389,
+                  "log_MAD": 0.9769406669346008,
+                  "peer_contrasts_DN": [
+                    47.802364349365234,
+                    32.30183792114258,
+                    20.74611473083496,
+                    10.73405647277832,
+                    10.239347457885742,
+                    6.777631759643555,
+                    4.874778747558594
+                  ]
+                },
+                "joint_position_shape_brightness_score": 1.0365796706534456
+              },
+              {
+                "status": "INSUFFICIENT_SIGNAL",
+                "contrast_DN": 0.4442119598388672,
+                "local_noise_DN": 0.5865474320411682,
+                "contrast_to_local_MAD_ratio": 0.757333398073234,
+                "diffraction_shape_NCC": 0.42991483211517334,
+                "prediction_error_raw_px": 35.503465887165554,
+                "local_maximum_sample_xy": [
+                  671.0,
+                  807.0
+                ],
+                "brightness_prediction": {
+                  "method": "LEAVE_ONE_OUT_DIRECTIONAL_REGION_LOG_MEDIAN",
+                  "status": "SEARCH_PRIOR_FROM_OTHER_MEASURED_LOCATIONS",
+                  "radius_mm": 40.575435585791986,
+                  "interpretation": "regional image evidence; not an order-intensity law",
+                  "peer_count": 7,
+                  "peer_raw_xy": [
+                    [
+                      2677.1242800177224,
+                      2409.9886741249447
+                    ],
+                    [
+                      2861.564090652686,
+                      2225.1044563161563
+                    ],
+                    [
+                      2505.516435179651,
+                      2569.157945064665
+                    ],
+                    [
+                      2476.76613246348,
+                      2232.4531272159975
+                    ],
+                    [
+                      3045.819272590926,
+                      2030.4150731158604
+                    ],
+                    [
+                      2302.6635254522507,
+                      2398.3781236853174
+                    ],
+                    [
+                      3211.5072777949827,
+                      1842.0764942706721
+                    ]
+                  ],
+                  "predicted_contrast_DN": 10.73405647277832,
+                  "lower_contrast_DN": 0.5726958729276406,
+                  "upper_contrast_DN": 201.1887527175389,
+                  "log_MAD": 0.9769406669346008,
+                  "peer_contrasts_DN": [
+                    47.802364349365234,
+                    32.30183792114258,
+                    20.74611473083496,
+                    10.73405647277832,
+                    10.239347457885742,
+                    6.777631759643555,
+                    4.874778747558594
+                  ]
+                },
+                "joint_position_shape_brightness_score": 2.5387755626089707
+              },
+              {
+                "status": "INSUFFICIENT_SIGNAL",
+                "contrast_DN": 0.05798625946044922,
+                "local_noise_DN": 0.5796425657272338,
+                "contrast_to_local_MAD_ratio": 0.10003795940641148,
+                "diffraction_shape_NCC": 0.16084741055965424,
+                "prediction_error_raw_px": 49.680348799190405,
+                "local_maximum_sample_xy": [
+                  669.0,
+                  826.0
+                ],
+                "brightness_prediction": {
+                  "method": "LEAVE_ONE_OUT_DIRECTIONAL_REGION_LOG_MEDIAN",
+                  "status": "SEARCH_PRIOR_FROM_OTHER_MEASURED_LOCATIONS",
+                  "radius_mm": 40.575435585791986,
+                  "interpretation": "regional image evidence; not an order-intensity law",
+                  "peer_count": 7,
+                  "peer_raw_xy": [
+                    [
+                      2677.1242800177224,
+                      2409.9886741249447
+                    ],
+                    [
+                      2861.564090652686,
+                      2225.1044563161563
+                    ],
+                    [
+                      2505.516435179651,
+                      2569.157945064665
+                    ],
+                    [
+                      2476.76613246348,
+                      2232.4531272159975
+                    ],
+                    [
+                      3045.819272590926,
+                      2030.4150731158604
+                    ],
+                    [
+                      2302.6635254522507,
+                      2398.3781236853174
+                    ],
+                    [
+                      3211.5072777949827,
+                      1842.0764942706721
+                    ]
+                  ],
+                  "predicted_contrast_DN": 10.73405647277832,
+                  "lower_contrast_DN": 0.5726958729276406,
+                  "upper_contrast_DN": 201.1887527175389,
+                  "log_MAD": 0.9769406669346008,
+                  "peer_contrasts_DN": [
+                    47.802364349365234,
+                    32.30183792114258,
+                    20.74611473083496,
+                    10.73405647277832,
+                    10.239347457885742,
+                    6.777631759643555,
+                    4.874778747558594
+                  ]
+                },
+                "joint_position_shape_brightness_score": 5.555129589091434
+              }
+            ]
+          }
+        }
+      ],
+      "links": [
+        {
+          "label": "坐标与来源",
+          "path": "results/guided/diffraction104/calculation/coordinates.csv"
+        },
+        {
+          "label": "完整搜索证据",
+          "path": "results/guided/diffraction104/calculation/all_search_evidence.json"
+        }
+      ],
+      "elapsed_s": 10.64,
+      "status": "computed"
+    }
+  ],
+  "source_sha256": {
+    "src/williams_diffraction/microscopy.py": "67899da35a561dd0a2c44f20cb124bd3843d056ffb3286f7fe79569ccf4f482d",
+    "src/williams_diffraction/research_analysis.py": "d1438ea9eac3491d65bec27d2b0bf56e1da200f730df6cbde8266765826745f1",
+    "src/williams_diffraction/microscopy_series.py": "ea26de1df8b43e83b109d22fdc8e55a2567d3cf82b3d0d7f6a465344ffef0621",
+    "src/williams_diffraction/guided_detection.py": "7e6223b378298cab0576e435ba0af54c08b53b2c8138b1f6714c360a352195cb",
+    "src/williams_diffraction/paths.py": "2a04a1a5df60ed4e7536d4b44fd91371f3d1944679c851ee03b68847a6dfaffb",
+    "src/williams_diffraction/weak_tail_trial.py": "efd54eb7b1f23a4b37220b78e2b96254b3bcd1a7cf86b97899ac88095b155827",
+    "src/williams_diffraction/research_route.py": "64f817965d41c9bc90ffd201b2bbc77d177306c94291716e49a62e49b5c75b42",
+    "src/williams_diffraction/green_expanded.py": "1cb068cac0f1830d94598fcfdc401d46463ebe739d55fc64153e0f9e0fb7cf0c",
+    "src/williams_diffraction/guide_events.py": "787d5449d46777c8e25606ed22c51628296debdc994e91c031e699568c3dc3fb",
+    "src/williams_diffraction/delivery_io.py": "c4d7d6d6789feeefe8ff987e874417cbefeaf90d3f4d8ffc16e2273c1542d43f",
+    "src/williams_diffraction/lab_server.py": "4563c3aea828d6fdac715a9d38e04bef0f0f64f357ea2e610dc62af465e1e7a9",
+    "src/williams_diffraction/__init__.py": "88bdc3d63dc7807fb6d37a94da05016d718b15c199461ae12ba590ca942e9403",
+    "src/williams_diffraction/delivery_models.py": "d64f177cae132f18a2b2e9dc0dac05d66aba1e70fabe79e951cffcb60428637a",
+    "src/williams_diffraction/voltage_spectrum.py": "a530aedcd67056faffbb3688ac6b314e44d9c761fbde9641be3efbb810d041d7",
+    "src/williams_diffraction/evidence_detection.py": "3b3c63bcee9ab6e95e835d7e05209a67160dff8f746d4b8acabfd0d2ba8e5e82",
+    "src/williams_diffraction/guided_lab.py": "a3c0de993db58eefbe0b339c33c1c154d9243c604ae3474078c96853a091fa35",
+    "src/williams_diffraction/research_pages.py": "e8a7f92f86781bddb8297be2d5024652b4637de8e66140542ebdd5d41a88fb76",
+    "src/williams_diffraction/delivery_paper.py": "76d1a8e7fcb72cdad9f55bb4a1868b83d4facc2ccf0db38dd3927cbde4308f7b",
+    "src/williams_diffraction/common.py": "577f00591b97fd2ec7812061f8b222b347b6082c200832626eb26f0c179afe02",
+    "src/williams_diffraction/screen_audit.py": "2d420b0ea4415ac3ae40285ae032b0b946e0215ec6214180b88129177b602c47",
+    "src/williams_diffraction/screen_validation_trial.py": "2a5cb63c94b5df0adfcb646d70e77f3a96ac8530b3b10f74bca5af0b3527f06d",
+    "src/williams_diffraction/algorithm_graphics.py": "ca65eaa510d96a6512e35c51b200e29501abef24b32459ea545d60ae4678dd5b",
+    "src/williams_diffraction/green_channel_study.py": "4808284d69c09aba169aee36baa6372c78efe34af93109b08680fb110b7cc62d",
+    "src/williams_diffraction/delivery_algorithms.py": "02864237ff7195bcf9715fa9df6be6ff8e4cf2ff557766ce24a58b7ac5bc2dfe",
+    "src/williams_diffraction/geometry.py": "3244508e782bd945a4a17776853113ca0446380e953c5c302d11d477c60f9c7f",
+    "src/williams_diffraction/research_figures.py": "2c49c1d465f9868a413cc509e989f1862599fdaf14c86be1e467739b3a28d0e5",
+    "src/williams_diffraction/channel_response.py": "23ecdf220f2bc0bbad1207c0b5aa2f0bf291c043acc5c907390a728bfd22f7d8",
+    "src/williams_diffraction/diffraction_models.py": "87f799e0c8bd14e004238e1601590cb2a05a2e3ed38a490f5dbac1b4d7a8190b",
+    "src/williams_diffraction/microscopy_lattice.py": "4f52f963c9eda4d872edeec6ca7ac55dee2447dec4c4f68e4e6ead7d14585021",
+    "src/williams_diffraction/raw_check.py": "b648aef53c8cea75cbf1d971a184261de8c702241ea91d1fe4fd11ba320979d5",
+    "src/williams_diffraction/delivery_examples.py": "725018ea42e365f0ce597a75e326527401770e3f1f482e38b8500aae45803b79",
+    "src/williams_diffraction/green_photometry_trial.py": "5ef1837833ad608ec6467fc6c5ce57a989acd91a8b384baf13258255696f45a9",
+    "src/williams_diffraction/research_measurement.py": "4d4159a8c0846225f2bf812f97a7c6d3b6f8457ed5afe6a3dc9a7b332bc2e925",
+    "src/williams_diffraction/candidate_evidence.py": "ffb3d6f467eeaa0a4ee012c7e2d6b899ab90acd9fd8637e3a832f9bbdf7cbd52",
+    "src/williams_diffraction/raw_photometry.py": "8f3de2fbe55141c580df7f4d8ed0c92a09687bc1f6321bafe8def6e2b47f09db",
+    "src/williams_diffraction/inventory.py": "ad625c34f2930184e56bf535204da2cf4a621dab177917fe84a06fc514f2943b"
+  },
+  "input_manifest_sha256": "a7b2adf67938fae7ba96c1f593a4b0b1df9dbf02ad8bc702bc811d21c840126e",
+  "user_image_sha256": null,
+  "recording": "Snapshots copied from actual calculation stages; no timing animation",
+  "elapsed_s": 10.647512957977597
+}

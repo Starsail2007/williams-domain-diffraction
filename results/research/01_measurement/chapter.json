@@ -1,0 +1,554 @@
+{
+  "status": "PASS",
+  "reader_result": "建立屏面坐标与绿色净积分；RG、识别补检和CFA测光均已实际重算。",
+  "rg": {
+    "status": "PASS",
+    "input_candidates": 3612,
+    "included_candidates": 3277,
+    "reference_groups": 80,
+    "primary": [
+      {
+        "group": "original",
+        "area": "r125",
+        "subset": "all_unsaturated",
+        "model": "affine",
+        "response": "G_from_R",
+        "n": 455,
+        "n_frames": 53,
+        "slope": 0.12109860484748373,
+        "intercept_DN_pixel2": 3727.321037041857,
+        "quadratic_per_million": 0.0,
+        "R_min": -49879.450220018945,
+        "R_max": 7456634.244940186,
+        "G_min": -141168.177762848,
+        "G_max": 910585.2062597484,
+        "R2": 0.9923599865820601,
+        "RMSE_DN_pixel2": 17469.414650139246,
+        "MAE_DN_pixel2": 9240.346666534835,
+        "RMSE_pct_range": 1.6609801228615704,
+        "SSE_million_units": 0.13885710393941744,
+        "LOFO_R2": 0.9923206573801936,
+        "LOFO_RMSE_DN_pixel2": 17514.321390360565,
+        "LOFO_MAE_DN_pixel2": 9272.88544582216,
+        "LOFO_RMSE_pct_range": 1.6652498253320835,
+        "LOFO_SSE_million_units": 0.13957191146300296,
+        "slope_ci_low": 0.12044341161995055,
+        "slope_ci_high": 0.12165994243474115,
+        "intercept_ci_low_DN_pixel2": 2066.226220639355,
+        "intercept_ci_high_DN_pixel2": 6073.626864131407,
+        "soft_l1_slope": 0.1206096950277485,
+        "soft_l1_intercept_DN_pixel2": 5280.542825353298
+      },
+      {
+        "group": "cycle01",
+        "area": "r125",
+        "subset": "all_unsaturated",
+        "model": "affine",
+        "response": "G_from_R",
+        "n": 684,
+        "n_frames": 77,
+        "slope": 0.12081192921779006,
+        "intercept_DN_pixel2": 17466.541995622134,
+        "quadratic_per_million": 0.0,
+        "R_min": -345535.26410880225,
+        "R_max": 17339801.76094892,
+        "G_min": -30628.519151744113,
+        "G_max": 2135142.1213698573,
+        "R2": 0.9986305406649659,
+        "RMSE_DN_pixel2": 13548.135377000815,
+        "MAE_DN_pixel2": 9840.56503752503,
+        "RMSE_pct_range": 0.6255572553951465,
+        "SSE_million_units": 0.12554954898038206,
+        "LOFO_R2": 0.9986134777120884,
+        "LOFO_RMSE_DN_pixel2": 13632.276455235304,
+        "LOFO_MAE_DN_pixel2": 9906.926023841183,
+        "LOFO_RMSE_pct_range": 0.6294422964359755,
+        "LOFO_SSE_million_units": 0.1271138495647426,
+        "slope_ci_low": 0.12033815365081282,
+        "slope_ci_high": 0.12121019192776825,
+        "intercept_ci_low_DN_pixel2": 15578.80492169725,
+        "intercept_ci_high_DN_pixel2": 19199.32295358203,
+        "soft_l1_slope": 0.12077351802848342,
+        "soft_l1_intercept_DN_pixel2": 16970.4957317306
+      },
+      {
+        "group": "cycle02",
+        "area": "r125",
+        "subset": "all_unsaturated",
+        "model": "affine",
+        "response": "G_from_R",
+        "n": 2138,
+        "n_frames": 115,
+        "slope": 0.12055062511367143,
+        "intercept_DN_pixel2": 26427.750445430192,
+        "quadratic_per_million": 0.0,
+        "R_min": -846965.495617524,
+        "R_max": 27181438.919150475,
+        "G_min": -96977.41135561583,
+        "G_max": 3278827.461039352,
+        "R2": 0.9954647592357232,
+        "RMSE_DN_pixel2": 26375.90443134456,
+        "MAE_DN_pixel2": 16897.303161159685,
+        "RMSE_pct_range": 0.7813219492343512,
+        "SSE_million_units": 1.4873816593136988,
+        "LOFO_R2": 0.9954582915409951,
+        "LOFO_RMSE_DN_pixel2": 26394.70503425442,
+        "LOFO_MAE_DN_pixel2": 16909.3521416904,
+        "LOFO_RMSE_pct_range": 0.7818788713202096,
+        "LOFO_SSE_million_units": 1.4895028103212424,
+        "slope_ci_low": 0.12024406384273308,
+        "slope_ci_high": 0.12082361786390576,
+        "intercept_ci_low_DN_pixel2": 25123.35866651979,
+        "intercept_ci_high_DN_pixel2": 27729.310822260333,
+        "soft_l1_slope": 0.1209823844701284,
+        "soft_l1_intercept_DN_pixel2": 22555.313698713904
+      }
+    ],
+    "signed_nonpositive_r125": 58,
+    "bootstrap_replicates": 2000,
+    "measurement": "Refit frozen CFA integrals; pixel remeasurement is the separate photometry example",
+    "radiometric_power_calibration": false
+  },
+  "photometry": {
+    "status": "PASS",
+    "frame_id": "125",
+    "experiment": 3,
+    "voltage_RMS_V": 6.77,
+    "peaks": 22,
+    "channels": 88,
+    "maximum_reference_difference": 0.0,
+    "raw_decoding_at_runtime": false,
+    "signed_integrals_preserved": true,
+    "green_to_red_conversion_applied": false,
+    "reference_loaded_after_measurement": true,
+    "target": [
+      {
+        "peak_uid": "125_audit_p007",
+        "frame_id": "125",
+        "aperture_radius_raw_px": 125.0,
+        "background_protected_radius_raw_px": 180.0,
+        "measurement_unit": "DN_RAW_pixel2",
+        "green_linearity": "WORKING_ASSUMPTION_NOT_RADIOMETRIC_CALIBRATION",
+        "background_exclusion_shape_sigma_a": 17.934792059047307,
+        "background_exclusion_shape_sigma_b": 35.66907594035068,
+        "background_exclusion_shape_angle": 0.020358697777312636,
+        "background_exclusion_shape_shape_supported": true,
+        "background_exclusion_shape_peak_DN": 1051.509016050195,
+        "background_exclusion_shape_shape_noise_DN": 12.6021,
+        "Q_R_r50": 17589896.343369197,
+        "Q_G1_r50": 2146866.2915758584,
+        "Q_G2_r50": 2214711.510497964,
+        "Q_B_r50": 678942.335632122,
+        "Q_G_r50": 2180788.901036911,
+        "Q_RGB_r50": 20449627.58003823,
+        "reflection_overlap_area_max_raw_pixel2_r50": 0.0,
+        "reflection_overlap_fraction_max_r50": 0.0,
+        "reflection_overlap_r50": false,
+        "Q_R_r125": 25174218.636153787,
+        "Q_G1_r125": 3092967.8254964165,
+        "Q_G2_r125": 3167920.6064569103,
+        "Q_B_r125": 989828.1359465162,
+        "Q_G_r125": 3130444.2159766634,
+        "Q_RGB_r125": 29294490.988076966,
+        "reflection_overlap_area_max_raw_pixel2_r125": 0.0,
+        "reflection_overlap_fraction_max_r125": 0.0,
+        "reflection_overlap_r125": false,
+        "Q_G": 3130444.2159766634,
+        "Q_R": 25174218.636153787,
+        "Q_B": 989828.1359465162,
+        "Q_RGB": 29294490.988076966,
+        "red_equivalent_from_green_assumed": null,
+        "aperture_coverage_min": 1.0,
+        "measurement_status": "OK",
+        "quality_flags": "R_SATURATED"
+      },
+      {
+        "peak_uid": "125_audit_p013",
+        "frame_id": "125",
+        "aperture_radius_raw_px": 125.0,
+        "background_protected_radius_raw_px": 180.0,
+        "measurement_unit": "DN_RAW_pixel2",
+        "green_linearity": "WORKING_ASSUMPTION_NOT_RADIOMETRIC_CALIBRATION",
+        "background_exclusion_shape_sigma_a": 21.016927704662272,
+        "background_exclusion_shape_sigma_b": 37.44643429207578,
+        "background_exclusion_shape_angle": 0.020358697777312636,
+        "background_exclusion_shape_shape_supported": true,
+        "background_exclusion_shape_peak_DN": 512.9005049759744,
+        "background_exclusion_shape_shape_noise_DN": 11.8608,
+        "Q_R_r50": 9248673.464057561,
+        "Q_G1_r50": 1140555.6925677035,
+        "Q_G2_r50": 1142575.5384436955,
+        "Q_B_r50": 354295.40264803567,
+        "Q_G_r50": 1141565.6155056995,
+        "Q_RGB_r50": 10744534.482211296,
+        "reflection_overlap_area_max_raw_pixel2_r50": 0.0,
+        "reflection_overlap_fraction_max_r50": 0.0,
+        "reflection_overlap_r50": false,
+        "Q_R_r125": 14452295.055788824,
+        "Q_G1_r125": 1788671.8232764287,
+        "Q_G2_r125": 1784746.198605397,
+        "Q_B_r125": 565607.5766607432,
+        "Q_G_r125": 1786709.0109409129,
+        "Q_RGB_r125": 16804611.64339048,
+        "reflection_overlap_area_max_raw_pixel2_r125": 0.0,
+        "reflection_overlap_fraction_max_r125": 0.0,
+        "reflection_overlap_r125": false,
+        "Q_G": 1786709.0109409129,
+        "Q_R": 14452295.055788824,
+        "Q_B": 565607.5766607432,
+        "Q_RGB": 16804611.64339048,
+        "red_equivalent_from_green_assumed": null,
+        "aperture_coverage_min": 1.0,
+        "measurement_status": "OK",
+        "quality_flags": ""
+      }
+    ],
+    "partition_example": {
+      "peak_uid": "125_audit_p011",
+      "aperture_coverage_min": 0.5373337271597646,
+      "quality_flags": "REGION_PARTITIONED_OR_SCREEN_CLIPPED;WEAK_SHAPE_EVIDENCE"
+    }
+  },
+  "diffraction": [
+    {
+      "status": "PASS",
+      "id": "104",
+      "case_title": "全204帧候选最多；丰富二维弱点与亮横族，上方激光虚像及边缘非光学信号需要排除；本帧几何引导实际新增1个，不能自动把全部格点填满。",
+      "origin_counts": {
+        "INDEPENDENT_WEAK": 15,
+        "INDEPENDENT_STRONG": 40,
+        "GUIDED_SCREEN_LATTICE_2D": 1
+      },
+      "candidates": 56,
+      "with_quality_flags": 18,
+      "review_required": 17,
+      "candidate_status_counts": {
+        "REVIEW_REQUIRED": 17,
+        "SIGNAL_CANDIDATE": 38,
+        "WEAK_SIGNAL_CANDIDATE": 1
+      },
+      "supplied_human_exclusions": 6,
+      "conditional_edges": [
+        2,
+        3
+      ],
+      "audit_status_counts": {
+        "SAME_OR_UNRESOLVED_MODE": 274,
+        "CONFIRMED_NON_OPTICAL_REVIEW": 31,
+        "FINE_TEXTURE_WITHOUT_COARSE_PEAK": 8,
+        "RESOLVED_CLOSE_PAIR": 6,
+        "MEASURED_BROADBAND_BACKGROUND": 13,
+        "SCREEN_EDGE": 3,
+        "ALREADY_DETECTED_AFTER_LOCALIZATION": 197,
+        "SHAPE_MISMATCH": 25,
+        "SCALE_UNSTABLE_REVIEW": 154,
+        "DETECTED": 16,
+        "INSUFFICIENT_SIGNAL": 43,
+        "UNRESOLVED_SHALLOW_SADDLE": 3,
+        "MODEL_AND_TEMPLATE_TRAINING_INPUTS": 1,
+        "NO_ACCEPTED_LOCAL_MAXIMUM": 67,
+        "SCREEN_EDGE_OR_OUTSIDE": 4,
+        "TRAINING_EVIDENCE_CLOSURE_STABLE": 1
+      },
+      "model_gates": [
+        {
+          "kind": "lattice_2d",
+          "status": "OBSERVED_GEOMETRY",
+          "prediction_enabled": true,
+          "maximum_conditional_loo_fraction": 0.08291387814035052
+        },
+        {
+          "kind": "row",
+          "status": "OBSERVED_GEOMETRY",
+          "prediction_enabled": true,
+          "maximum_conditional_loo_fraction": 0.15618129380313403
+        }
+      ],
+      "elapsed_s": 10.746995082998183,
+      "raw_decoder_used_at_runtime": false,
+      "reference_evaluation": {
+        "status": "PASS",
+        "scope": "regression against accepted v9/v16 coordinates, not detection accuracy against independent human truth",
+        "reference_loaded_after_detection": true,
+        "candidates_found": 56,
+        "reference_candidates": 56,
+        "maximum_coordinate_difference_raw_px": 0.0,
+        "maximum_screen_corner_difference_display_px": 0.0,
+        "prediction_gates": {
+          "lattice_2d": true,
+          "row": true
+        },
+        "reference_prediction_gates": {
+          "lattice_2d": true,
+          "row": true
+        },
+        "model_statuses": {
+          "lattice_2d": "OBSERVED_GEOMETRY",
+          "row": "OBSERVED_GEOMETRY"
+        },
+        "reference_model_statuses": {
+          "lattice_2d": "OBSERVED_GEOMETRY",
+          "row": "OBSERVED_GEOMETRY"
+        },
+        "historical_human_review_summary": "本帧56个候选均已逐项复核；其中24个仍受低信噪比、浅鞍点、光翼或边缘混合限制，逐项原因随表保存。已核对本轮原图、正视标记与峰区对位；未将质量限制改写为已确认独立衍射峰。",
+        "historical_class_counts": {
+          "UNRESOLVED_IMAGE_IDENTITY": 24,
+          "VISIBLE_OPTICAL_SUPPORT": 31,
+          "CONNECTED_OPTICAL_ENVELOPE": 1
+        }
+      }
+    },
+    {
+      "status": "PASS",
+      "id": "108",
+      "case_title": "接近2D→宽横族过渡，二维小点阵与宽峰列共存；两种几何家族同时评估，有独立弱信号和非光学排除。",
+      "origin_counts": {
+        "INDEPENDENT_WEAK": 13,
+        "INDEPENDENT_STRONG": 34
+      },
+      "candidates": 47,
+      "with_quality_flags": 16,
+      "review_required": 16,
+      "candidate_status_counts": {
+        "REVIEW_REQUIRED": 16,
+        "SIGNAL_CANDIDATE": 31
+      },
+      "supplied_human_exclusions": 4,
+      "conditional_edges": [
+        2,
+        3
+      ],
+      "audit_status_counts": {
+        "SAME_OR_UNRESOLVED_MODE": 193,
+        "RESOLVED_CLOSE_PAIR": 7,
+        "FINE_TEXTURE_WITHOUT_COARSE_PEAK": 10,
+        "CONFIRMED_NON_OPTICAL_REVIEW": 40,
+        "SCREEN_EDGE": 8,
+        "ALREADY_DETECTED_AFTER_LOCALIZATION": 138,
+        "SCALE_UNSTABLE_REVIEW": 154,
+        "SHAPE_MISMATCH": 28,
+        "INSUFFICIENT_SIGNAL": 60,
+        "DETECTED": 13,
+        "UNRESOLVED_SHALLOW_SADDLE": 5,
+        "MODEL_AND_TEMPLATE_TRAINING_INPUTS": 1,
+        "MEASURED_BROADBAND_BACKGROUND": 2,
+        "NO_ACCEPTED_LOCAL_MAXIMUM": 45,
+        "SCREEN_EDGE_OR_OUTSIDE": 3,
+        "TRAINING_EVIDENCE_CLOSURE_STABLE": 1
+      },
+      "model_gates": [
+        {
+          "kind": "lattice_2d",
+          "status": "OBSERVED_GEOMETRY",
+          "prediction_enabled": true,
+          "maximum_conditional_loo_fraction": 0.10711247303624911
+        },
+        {
+          "kind": "row",
+          "status": "OBSERVED_GEOMETRY",
+          "prediction_enabled": true,
+          "maximum_conditional_loo_fraction": 0.14493280007921594
+        }
+      ],
+      "elapsed_s": 10.764912459009793,
+      "raw_decoder_used_at_runtime": false,
+      "reference_evaluation": {
+        "status": "PASS",
+        "scope": "regression against accepted v9/v16 coordinates, not detection accuracy against independent human truth",
+        "reference_loaded_after_detection": true,
+        "candidates_found": 47,
+        "reference_candidates": 47,
+        "maximum_coordinate_difference_raw_px": 0.0,
+        "maximum_screen_corner_difference_display_px": 0.0,
+        "prediction_gates": {
+          "lattice_2d": true,
+          "row": true
+        },
+        "reference_prediction_gates": {
+          "lattice_2d": true,
+          "row": true
+        },
+        "model_statuses": {
+          "lattice_2d": "OBSERVED_GEOMETRY",
+          "row": "OBSERVED_GEOMETRY"
+        },
+        "reference_model_statuses": {
+          "lattice_2d": "OBSERVED_GEOMETRY",
+          "row": "OBSERVED_GEOMETRY"
+        },
+        "historical_human_review_summary": "本帧47个候选均已逐项复核；其中18个仍受低信噪比、浅鞍点、光翼或边缘混合限制，逐项原因随表保存。已核对本轮原图、正视标记与峰区对位；未将质量限制改写为已确认独立衍射峰。",
+        "historical_class_counts": {
+          "UNRESOLVED_IMAGE_IDENTITY": 18,
+          "VISIBLE_OPTICAL_SUPPORT": 20,
+          "CONNECTED_OPTICAL_ENVELOPE": 9
+        }
+      }
+    },
+    {
+      "status": "PASS",
+      "id": "197",
+      "case_title": "降压规则宽峰列；二维模型不成立但row模型可支撑局部预测；右边界没有足够独立支持，保留3条条件边不能说全部四边已标定。",
+      "origin_counts": {
+        "INDEPENDENT_WEAK": 5,
+        "INDEPENDENT_STRONG": 20
+      },
+      "candidates": 25,
+      "with_quality_flags": 13,
+      "review_required": 11,
+      "candidate_status_counts": {
+        "REVIEW_REQUIRED": 11,
+        "SIGNAL_CANDIDATE": 12,
+        "WEAK_SIGNAL_CANDIDATE": 2
+      },
+      "supplied_human_exclusions": 0,
+      "conditional_edges": [
+        1,
+        2,
+        3
+      ],
+      "audit_status_counts": {
+        "SAME_OR_UNRESOLVED_MODE": 116,
+        "FINE_TEXTURE_WITHOUT_COARSE_PEAK": 13,
+        "RESOLVED_CLOSE_PAIR": 11,
+        "ALREADY_DETECTED_AFTER_LOCALIZATION": 86,
+        "SCALE_UNSTABLE_REVIEW": 114,
+        "SHAPE_MISMATCH": 16,
+        "DETECTED": 5,
+        "INSUFFICIENT_SIGNAL": 5,
+        "UNRESOLVED_SHALLOW_SADDLE": 6,
+        "MODEL_AND_TEMPLATE_TRAINING_INPUTS": 1,
+        "NO_ACCEPTED_LOCAL_MAXIMUM": 7,
+        "TRAINING_EVIDENCE_CLOSURE_STABLE": 1
+      },
+      "model_gates": [
+        {
+          "kind": "lattice_2d",
+          "status": "INSUFFICIENT_OR_INCONSISTENT_GEOMETRY",
+          "prediction_enabled": null,
+          "maximum_conditional_loo_fraction": null
+        },
+        {
+          "kind": "row",
+          "status": "OBSERVED_GEOMETRY",
+          "prediction_enabled": true,
+          "maximum_conditional_loo_fraction": 0.08092288220387549
+        }
+      ],
+      "elapsed_s": 19.66771179198986,
+      "raw_decoder_used_at_runtime": false,
+      "reference_evaluation": {
+        "status": "PASS",
+        "scope": "regression against accepted v9/v16 coordinates, not detection accuracy against independent human truth",
+        "reference_loaded_after_detection": true,
+        "candidates_found": 25,
+        "reference_candidates": 25,
+        "maximum_coordinate_difference_raw_px": 0.0,
+        "maximum_screen_corner_difference_display_px": 0.0,
+        "prediction_gates": {
+          "lattice_2d": false,
+          "row": true
+        },
+        "reference_prediction_gates": {
+          "lattice_2d": false,
+          "row": true
+        },
+        "model_statuses": {
+          "lattice_2d": "INSUFFICIENT_OR_INCONSISTENT_GEOMETRY",
+          "row": "OBSERVED_GEOMETRY"
+        },
+        "reference_model_statuses": {
+          "lattice_2d": "INSUFFICIENT_OR_INCONSISTENT_GEOMETRY",
+          "row": "OBSERVED_GEOMETRY"
+        },
+        "historical_human_review_summary": "本帧25个候选均已逐项复核；其中5个仍受低信噪比、浅鞍点、光翼或边缘混合限制，逐项原因随表保存。已核对本轮原图、正视标记与峰区对位；未将质量限制改写为已确认独立衍射峰。",
+        "historical_class_counts": {
+          "UNRESOLVED_IMAGE_IDENTITY": 5,
+          "VISIBLE_OPTICAL_SUPPORT": 11,
+          "CONNECTED_OPTICAL_ENVELOPE": 9
+        }
+      }
+    },
+    {
+      "status": "PASS",
+      "id": "200",
+      "case_title": "仍有14个候选且能拟合row，但条件留一误差比例0.298超过0.2门槛，必须禁用几何补检；用于证明有亮斑不等于允许猜点。",
+      "origin_counts": {
+        "INDEPENDENT_WEAK": 4,
+        "INDEPENDENT_STRONG": 10
+      },
+      "candidates": 14,
+      "with_quality_flags": 7,
+      "review_required": 6,
+      "candidate_status_counts": {
+        "REVIEW_REQUIRED": 6,
+        "SIGNAL_CANDIDATE": 7,
+        "WEAK_SIGNAL_CANDIDATE": 1
+      },
+      "supplied_human_exclusions": 4,
+      "conditional_edges": [
+        2,
+        3
+      ],
+      "audit_status_counts": {
+        "SAME_OR_UNRESOLVED_MODE": 44,
+        "SHAPE_MISMATCH": 16,
+        "ALREADY_DETECTED_AFTER_LOCALIZATION": 33,
+        "SCALE_UNSTABLE_REVIEW": 92,
+        "INSUFFICIENT_SIGNAL": 29,
+        "DETECTED": 4,
+        "UNRESOLVED_SHALLOW_SADDLE": 4,
+        "MODEL_AND_TEMPLATE_TRAINING_INPUTS": 1,
+        "TRAINING_EVIDENCE_CLOSURE_STABLE": 1
+      },
+      "model_gates": [
+        {
+          "kind": "lattice_2d",
+          "status": "INSUFFICIENT_OR_INCONSISTENT_GEOMETRY",
+          "prediction_enabled": null,
+          "maximum_conditional_loo_fraction": null
+        },
+        {
+          "kind": "row",
+          "status": "OBSERVED_GEOMETRY",
+          "prediction_enabled": false,
+          "maximum_conditional_loo_fraction": 0.29802050315302303
+        }
+      ],
+      "elapsed_s": 14.0845996249991,
+      "raw_decoder_used_at_runtime": false,
+      "reference_evaluation": {
+        "status": "PASS",
+        "scope": "regression against accepted v9/v16 coordinates, not detection accuracy against independent human truth",
+        "reference_loaded_after_detection": true,
+        "candidates_found": 14,
+        "reference_candidates": 14,
+        "maximum_coordinate_difference_raw_px": 0.0,
+        "maximum_screen_corner_difference_display_px": 0.0,
+        "prediction_gates": {
+          "lattice_2d": false,
+          "row": false
+        },
+        "reference_prediction_gates": {
+          "lattice_2d": false,
+          "row": false
+        },
+        "model_statuses": {
+          "lattice_2d": "INSUFFICIENT_OR_INCONSISTENT_GEOMETRY",
+          "row": "OBSERVED_GEOMETRY"
+        },
+        "reference_model_statuses": {
+          "lattice_2d": "INSUFFICIENT_OR_INCONSISTENT_GEOMETRY",
+          "row": "OBSERVED_GEOMETRY"
+        },
+        "historical_human_review_summary": "本帧14个候选均已逐项复核；其中5个仍受低信噪比、浅鞍点、光翼或边缘混合限制，逐项原因随表保存。已核对本轮原图、正视标记与峰区对位；未将质量限制改写为已确认独立衍射峰。",
+        "historical_class_counts": {
+          "UNRESOLVED_IMAGE_IDENTITY": 5,
+          "VISIBLE_OPTICAL_SUPPORT": 7,
+          "CONNECTED_OPTICAL_ENVELOPE": 2
+        }
+      }
+    }
+  ],
+  "chapter": "measurement",
+  "inputs_and_limits": "Each chapter declares its experiment and input stage; illustrative pixel processing is not a synthetic end-to-end source for the historical model datasets."
+}
