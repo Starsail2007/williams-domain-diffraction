@@ -61,18 +61,6 @@
 
 便携环境面向 Windows 10/11 x64 和 macOS 14+（Apple Silicon / Intel）。
 
-## 研究路线
-
-**建立测量工具 → 观察图样演化 → 测量周期 → 解释光强分配 → 联系微观结构。**
-
-案例包含坐标变换、强弱光斑识别与预测补检、RG 拟合、CFA 测光、二维傅里叶频谱与谐波判断，以及一维双谐波和二维双斜向模型。
-
-## 源码与结果
-
-启动入口为 `scripts/start.py`，核心算法在 `src/williams_diffraction/`。网页“源码导览”按研究问题连接到具体函数。
-
-输入在 `data/`，随包结果在 `results/`，每次新计算单独保存在 `work/lab_runs/`。运行案例不需要完整 RAW 或原视频。
-
 <details>
 <summary>命令行入口</summary>
 
